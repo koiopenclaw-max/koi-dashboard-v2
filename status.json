@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T19:05:03.378Z",
-  "serverUptime": 1244958,
+  "timestamp": "2026-03-23T19:09:35.795Z",
+  "serverUptime": 1245231,
   "loadAvg": [
-    "0.27",
-    "0.32",
-    "0.20"
+    "0.01",
+    "0.16",
+    "0.16"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 8441,
+      "ageSec": 8713,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T19:04:38.650Z",
-      "ageSec": 24,
+      "ageSec": 297,
       "tokens": 60453,
       "lastAction": "Готово! 🔥  **Ето новия Дентален Дом:** https://koiopenclaw-max.github.io/dental-warm-template/  Какво е различно от стар",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 6228,
+      "ageSec": 6500,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -152,28 +152,17 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1248689",
-      "cpu": "50.0",
-      "mem": "0.8",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
