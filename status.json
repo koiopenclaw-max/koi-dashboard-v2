@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:20:04.210Z",
-  "serverUptime": 1238659,
+  "timestamp": "2026-03-23T17:24:34.969Z",
+  "serverUptime": 1238930,
   "loadAvg": [
-    "0.85",
-    "0.56",
-    "0.51"
+    "0.18",
+    "0.38",
+    "0.45"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 2142,
+      "ageSec": 2413,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T17:20:01.298Z",
-      "ageSec": 2,
-      "tokens": 136808,
-      "lastAction": "🔧 image",
+      "lastUpdate": "2026-03-23T17:24:13.255Z",
+      "ageSec": 21,
+      "tokens": 150113,
+      "lastAction": "Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koiopenclaw-max.github.io",
       "hasProcess": false,
       "hasSession": true
     },
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T17:15:48.634Z",
-      "ageSec": 255,
-      "tokens": 65055,
-      "lastAction": "Готово! 🎉  **Dashboard v2 е live:** https://koiopenclaw-max.github.io/clawai-dashboard-v2/  **Какво е различно от преди:",
+      "lastUpdate": "2026-03-23T17:21:15.075Z",
+      "ageSec": 199,
+      "tokens": 67363,
+      "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
       "hasSession": true
     },
