@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:15:03.154Z",
-  "serverUptime": 1238358,
+  "timestamp": "2026-03-23T17:19:35.018Z",
+  "serverUptime": 1238630,
   "loadAvg": [
-    "0.39",
-    "0.52",
-    "0.51"
+    "0.48",
+    "0.49",
+    "0.49"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 1841,
+      "ageSec": 2113,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T17:11:07.307Z",
-      "ageSec": 235,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-23T17:19:32.315Z",
+      "ageSec": 2,
       "tokens": 136808,
-      "lastAction": "Обновено. Ето какво промених:  **🖤 Noir Luxe v2:** https://koiopenclaw-max.github.io/dental-noir-template/  **Поправки:*",
+      "lastAction": "⚡ cd /home/clawd/.openclaw/workspace && node -e \"\nif (!process.env.NODE_",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T17:14:57.026Z",
-      "ageSec": 6,
-      "tokens": 25752,
-      "lastAction": "⚡ # Pages takes ~60 seconds to deploy. Let's wait and check again\nsleep ",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-23T17:15:48.634Z",
+      "ageSec": 226,
+      "tokens": 65055,
+      "lastAction": "Готово! 🎉  **Dashboard v2 е live:** https://koiopenclaw-max.github.io/clawai-dashboard-v2/  **Какво е различно от преди:",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1212635",
+      "cpu": "43.2",
+      "mem": "4.3",
+      "elapsed": "00:01",
+      "elapsedSec": 1,
+      "cmd": "/home/clawd/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
