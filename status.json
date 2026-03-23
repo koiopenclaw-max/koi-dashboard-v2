@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T19:20:03.923Z",
-  "serverUptime": 1245859,
+  "timestamp": "2026-03-23T19:24:35.048Z",
+  "serverUptime": 1246130,
   "loadAvg": [
-    "0.73",
-    "0.40",
-    "0.26"
+    "0.18",
+    "0.25",
+    "0.23"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 9342,
+      "ageSec": 9613,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T19:19:59.217Z",
-      "ageSec": 4,
+      "lastUpdate": "2026-03-23T19:24:34.071Z",
+      "ageSec": 0,
       "tokens": 67740,
-      "lastAction": "⚡ cat > /tmp/test-dental-scroll.js << 'EOF'\nconst { chromium } = require",
+      "lastAction": "🔧 image",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 7128,
+      "ageSec": 7399,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -152,28 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1253877",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "00:14",
-      "elapsedSec": 14,
-      "cmd": "/bin/bash -c cat > /tmp/test-dental-scroll.js << 'EOF' const { chromium } = require('playwright'); (async () => { const browser = await chromium.launc",
-      "relatedTopic": null,
-      "procType": "build"
-    },
-    {
-      "pid": "1253917",
-      "cpu": "3.3",
-      "mem": "2.3",
-      "elapsed": "00:10",
-      "elapsedSec": 10,
-      "cmd": "/home/clawd/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disab",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
