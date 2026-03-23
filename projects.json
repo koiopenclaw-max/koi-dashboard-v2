@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T17:25:04.076Z",
+  "updated": "2026-03-23T17:30:04.172Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -494,16 +494,8 @@
           "date": "2026-03-23",
           "entries": [
             {
-              "time": "15:18",
-              "text": "🔧 Имплементирах `scripts/demo-visual-analyzer.js`"
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
-            },
-            {
-              "time": "16:30",
-              "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
+              "time": "17:28",
+              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted], 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
             },
             {
               "time": "16:55",
@@ -1003,8 +995,8 @@
           "date": "2026-03-23",
           "entries": [
             {
-              "time": "14:10",
-              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+              "time": "17:28",
+              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
             },
             {
               "time": "16:30",
@@ -1997,8 +1989,8 @@
           "date": "2026-03-23",
           "entries": [
             {
-              "time": "14:10",
-              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+              "time": "17:28",
+              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
             },
             {
               "time": "15:35",
