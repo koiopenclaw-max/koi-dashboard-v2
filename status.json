@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:09:35.574Z",
-  "serverUptime": 1238031,
+  "timestamp": "2026-03-23T17:10:04.106Z",
+  "serverUptime": 1238059,
   "loadAvg": [
+    "1.89",
     "0.92",
-    "0.69",
-    "0.52"
+    "0.60"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 1513,
+      "ageSec": 1542,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:06:33.063Z",
-      "ageSec": 182,
+      "ageSec": 211,
       "tokens": 117343,
       "lastAction": "Готови са! Ето трите dental темплейта:  ---  **1. 🌿 \"Sage Premium\"** (първият, одобрен) https://koiopenclaw-max.github.i",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T17:09:12.831Z",
-      "ageSec": 22,
+      "lastUpdate": "2026-03-23T17:09:57.470Z",
+      "ageSec": 6,
       "tokens": 25752,
-      "lastAction": "⏳ kill clear-glade",
+      "lastAction": "⚡ # OK pg is available. But we need the DB password. \n# The Supabase DB ",
       "hasProcess": false,
       "hasSession": true
     },
