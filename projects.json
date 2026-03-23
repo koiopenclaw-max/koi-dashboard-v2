@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T17:00:04.021Z",
+  "updated": "2026-03-23T17:05:04.076Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -132,6 +132,10 @@
             {
               "time": "15:35",
               "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            },
+            {
+              "time": "16:58",
+              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
             }
           ]
         },
@@ -1009,6 +1013,10 @@
             {
               "time": "16:30",
               "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
+            },
+            {
+              "time": "16:58",
+              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
             }
           ]
         },
@@ -1659,6 +1667,10 @@
             {
               "time": "15:35",
               "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            },
+            {
+              "time": "16:58",
+              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
             }
           ]
         },
