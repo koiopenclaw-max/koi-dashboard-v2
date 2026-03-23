@@ -1,7 +1,7 @@
 {
-  "updated": "2026-03-23T16:35:03.145Z",
+  "updated": "2026-03-23T16:40:02.879Z",
   "totalDays": 18,
-  "totalEntries": 341,
+  "totalEntries": 342,
   "days": [
     {
       "date": "2026-03-23",
@@ -11,6 +11,11 @@
           "time": "16:30",
           "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo.",
           "type": "email"
+        },
+        {
+          "time": "16:30",
+          "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug.",
+          "type": "build"
         },
         {
           "time": "16:20",
@@ -75,7 +80,7 @@
       "decisions": [],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 5
+      "entryCount": 6
     },
     {
       "date": "2026-03-22",
