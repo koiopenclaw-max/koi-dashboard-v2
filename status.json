@@ -1,0 +1,168 @@
+{
+  "timestamp": "2026-03-23T16:26:34.638Z",
+  "serverUptime": 1235450,
+  "loadAvg": [
+    "0.53",
+    "0.31",
+    "0.25"
+  ],
+  "topics": [
+    {
+      "topicId": "1",
+      "name": "General",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-23T16:26:32.524Z",
+      "ageSec": 2,
+      "tokens": 114509,
+      "lastAction": "⚡ cd /tmp/koi-dashboard-v2 && git stash pop 2>/dev/null\n\n# Verify histor",
+      "hasProcess": false,
+      "hasSession": true
+    },
+    {
+      "topicId": "6",
+      "name": "📝 Daily Notes",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "7",
+      "name": "Sales Training",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "8",
+      "name": "🔍 Niche Research",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "9",
+      "name": "📊 Reports",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "10",
+      "name": "💡 Strategy & Ideas",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "11",
+      "name": "📥 Inbox",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "49",
+      "name": "Demo Sites",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-23T16:25:54.594Z",
+      "ageSec": 40,
+      "tokens": 42807,
+      "lastAction": "Честен отговор — прав си. Повечето изглеждат като \"поредния AI сайт\". Ето три идеи които ще ги направят наистина продава",
+      "hasProcess": false,
+      "hasSession": true
+    },
+    {
+      "topicId": "50",
+      "name": "RunAI Coach",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "51",
+      "name": "Momerly",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    },
+    {
+      "topicId": "718",
+      "name": "OpenClaw Service",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-20T21:26:55.870Z",
+      "ageSec": 241178,
+      "tokens": 74507,
+      "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
+      "hasProcess": false,
+      "hasSession": true
+    },
+    {
+      "topicId": "1648",
+      "name": "X Audience Challenges",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
+      "hasProcess": false,
+      "hasSession": false
+    }
+  ],
+  "processes": [],
+  "errors": {
+    "recent": [],
+    "counts": {}
+  },
+  "summary": {
+    "totalTopics": 12,
+    "working": 2,
+    "building": 0,
+    "recent": 0,
+    "idle": 10,
+    "stuck": 0
+  }
+}

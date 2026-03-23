@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Koi Dashboard 🐟</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg: #0a0e17;
+            --bg-card: #111827;
+            --bg-card-hover: #1a2332;
+            --bg-sidebar: #0d1117;
+            --border: #1e293b;
+            --text: #e2e8f0;
+            --text-dim: #64748b;
+            --text-bright: #f8fafc;
+            --accent: #3b82f6;
+            --green: #10b981;
+            --muted: #64748b;
+            --yellow: #f59e0b;
+            --red: #ef4444;
+            --blue: #3b82f6;
+            --purple: #8b5cf6;
+            --orange: #f97316;
+            --font-mono: 'JetBrains Mono', monospace;
+            --font-body: 'Inter', system-ui, sans-serif;
+            --sidebar-w: 240px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+        }
+
+        /* === LEFT SIDEBAR === */
+        .sidebar {
+            width: var(--sidebar-w);
+            min-width: var(--sidebar-w);
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background: var(--bg-sidebar);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            z-index: 200;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .sidebar-header {
+            padding: 16px 16px 12px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sidebar-logo { font-size: 24px; }
+        .sidebar-title {
+            font-family: var(--font-mono);
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-bright);
+        }
+
+        .sidebar-nav {
+            padding: 8px 0;
+        }
+
+        .nav-section {
+            padding: 12px 16px 4px;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 16px;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-size: 13px;
+            color: var(--text-dim);
+            border-left: 3px solid transparent;
+        }
+
+        .nav-item:hover { background: rgba(255,255,255,0.04); color: var(--text); }
+        .nav-item.active {
+            background: rgba(59, 130, 246, 0.08);
+            color: var(--accent);
+            border-left-color: var(--accent);
+        }
+
+        .nav-icon { font-size: 16px; width: 20px; text-align: center; }
+        .nav-label { font-weight: 500; }
+
+        .nav-badge {
+            margin-left: auto;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            padding: 1px 6px;
+            border-radius: 8px;
+            background: rgba(59, 130, 246, 0.15);
+            color: var(--accent);
+        }
+
+        /* Sidebar bottom */
+        .sidebar-footer {
+            margin-top: auto;
+            padding: 12px 16px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            color: var(--text-dim);
+            font-family: var(--font-mono);
+        }
+
+        .sidebar-pulse {
+            width: 8px;
+            height: 8px;
+            background: var(--green);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4); }
+            50% { opacity: 0.8; box-shadow: 0 0 0 6px rgba(16, 185, 129, 0); }
+        }
+
+        /* === MAIN CONTENT === */
+        .main {
+            margin-left: var(--sidebar-w);
+            flex: 1;
+            min-height: 100vh;
+        }
+
+        .page { display: none; }
+        .page.active { display: block; }
+
+        /* Hamburger (mobile only) */
+        .hamburger {
+            display: none;
+            position: fixed;
+            top: 12px;
+            left: 12px;
+            z-index: 300;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 1;
+        }
+
+        .overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 150;
+        }
+
+        /* === STATUS PAGE === */
+        .page-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-header h2 {
+            font-family: var(--font-mono);
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-bright);
+        }
+
+        .page-header-sub {
+            font-size: 12px;
+            color: var(--text-dim);
+            font-family: var(--font-mono);
+            margin-top: 4px;
+        }
+
+        .summary {
+            display: flex;
+            gap: 2px;
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border);
+            overflow-x: auto;
+        }
+
+        .summary-item {
+            flex: 1;
+            min-width: 80px;
+            padding: 12px 16px;
+            background: var(--bg-card);
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .summary-item:first-child { border-radius: 8px 4px 4px 8px; }
+        .summary-item:last-child { border-radius: 4px 8px 8px 4px; }
+
+        .summary-number {
+            font-family: var(--font-mono);
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .summary-label {
+            font-size: 11px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
+        }
+
+        .summary-item.building .summary-number { color: var(--purple); }
+        .summary-item.working .summary-number { color: var(--blue); }
+        .summary-item.idle .summary-number { color: var(--muted); }
+        .summary-item.recent .summary-number { color: var(--yellow); }
+        .summary-item.stuck .summary-number { color: var(--red); }
+
+        /* Topics grid */
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 12px;
+            padding: 20px 24px;
+        }
+
+        .topic-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 20px;
+            transition: all 0.2s ease;
+        }
+
+        .topic-card:hover { background: var(--bg-card-hover); border-color: #2a3a4e; }
+        .topic-card.status-building { border-left: 3px solid var(--purple); }
+        .topic-card.status-running { border-left: 3px solid var(--green); }
+        .topic-card.status-working { border-left: 3px solid var(--blue); }
+        .topic-card.status-recent { border-left: 3px solid var(--yellow); }
+        .topic-card.status-stuck { border-left: 3px solid var(--red); }
+        .topic-card.status-idle { border-left: 3px solid var(--muted); }
+
+        .topic-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .topic-name { font-weight: 600; font-size: 15px; color: var(--text-bright); }
+
+        .topic-id {
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-dim);
+            background: rgba(255,255,255,0.05);
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+
+        .topic-status { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+
+        .status-badge {
+            font-size: 12px;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-family: var(--font-mono);
+        }
+
+        .status-badge.building { background: rgba(139, 92, 246, 0.15); color: var(--purple); }
+        .status-badge.running { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+        .status-badge.working { background: rgba(59, 130, 246, 0.15); color: var(--blue); }
+        .status-badge.recent { background: rgba(245, 158, 11, 0.15); color: var(--yellow); }
+        .status-badge.idle { background: rgba(148, 163, 184, 0.1); color: var(--muted); }
+        .status-badge.stuck { background: rgba(239, 68, 68, 0.15); color: var(--red); }
+
+        .topic-action {
+            font-size: 12px;
+            color: #94a3b8;
+            font-family: var(--font-mono);
+            margin-bottom: 8px;
+            padding: 6px 10px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 6px;
+            line-height: 1.4;
+            word-break: break-word;
+            border-left: 2px solid rgba(255,255,255,0.08);
+        }
+
+        .topic-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-dim);
+            font-family: var(--font-mono);
+        }
+
+        .section-title {
+            font-family: var(--font-mono);
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 20px 24px 8px;
+        }
+
+        .processes { padding: 0 24px 20px; }
+
+        .process-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--purple);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            font-family: var(--font-mono);
+            font-size: 12px;
+        }
+
+        .process-cmd { color: var(--text-bright); word-break: break-all; margin-bottom: 6px; }
+        .process-meta { color: var(--text-dim); display: flex; gap: 16px; }
+        .no-processes { color: var(--text-dim); font-size: 13px; padding: 12px 0; font-style: italic; }
+
+        /* Refresh bar */
+        .refresh-bar {
+            height: 2px;
+            background: var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .refresh-bar::after {
+            content: '';
+            position: absolute;
+            left: 0; top: 0;
+            height: 100%;
+            background: var(--accent);
+            animation: refreshProgress 30s linear infinite;
+        }
+
+        @keyframes refreshProgress { 0% { width: 0%; } 100% { width: 100%; } }
+
+        /* === MEMORY PAGE === */
+        .memory-layout {
+            display: flex;
+            height: calc(100vh - 80px);
+        }
+
+        .memory-days {
+            width: 220px;
+            min-width: 220px;
+            border-right: 1px solid var(--border);
+            overflow-y: auto;
+            background: var(--bg);
+        }
+
+        .memory-days-header {
+            padding: 12px 16px;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: sticky;
+            top: 0;
+            background: var(--bg);
+            border-bottom: 1px solid var(--border);
+            z-index: 1;
+        }
+
+        .day-item {
+            padding: 10px 16px;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(30, 41, 59, 0.3);
+            transition: all 0.15s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .day-item:hover { background: var(--bg-card); }
+        .day-item.active { background: var(--bg-card); border-left: 3px solid var(--accent); }
+
+        .day-info { display: flex; flex-direction: column; gap: 1px; }
+
+        .day-date {
+            font-family: var(--font-mono);
+            font-size: 13px;
+            color: var(--text-bright);
+            font-weight: 600;
+        }
+
+        .day-name { font-size: 11px; color: var(--text-dim); }
+
+        .day-badge {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            padding: 2px 7px;
+            border-radius: 10px;
+            white-space: nowrap;
+        }
+
+        .day-badge.has-entries { background: rgba(59, 130, 246, 0.15); color: var(--accent); }
+        .day-badge.empty { background: rgba(100, 116, 139, 0.08); color: var(--text-dim); }
+
+        .memory-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px 28px;
+        }
+
+        .mem-header { margin-bottom: 24px; }
+        .mem-title {
+            font-family: var(--font-mono);
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-bright);
+        }
+
+        .mem-subtitle {
+            font-size: 13px;
+            color: var(--text-dim);
+            margin-top: 4px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .mem-review-badge {
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--green);
+            font-family: var(--font-mono);
+        }
+
+        .mem-section {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 24px 0 12px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .mem-section-count {
+            font-size: 10px;
+            padding: 1px 6px;
+            border-radius: 8px;
+            background: rgba(255,255,255,0.06);
+        }
+
+        /* Timeline */
+        .timeline { padding-left: 28px; position: relative; }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px; top: 6px; bottom: 6px;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--accent) 0%, var(--border) 100%);
+            border-radius: 1px;
+        }
+
+        .tl-entry { position: relative; padding: 6px 0 18px; }
+        .tl-entry::before {
+            content: '';
+            position: absolute;
+            left: -24px; top: 12px;
+            width: 10px; height: 10px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: 2px solid var(--bg);
+            box-shadow: 0 0 0 2px var(--border);
+        }
+
+        .tl-entry.type-email::before { background: var(--yellow); }
+        .tl-entry.type-deploy::before { background: var(--green); }
+        .tl-entry.type-alert::before { background: var(--red); box-shadow: 0 0 6px rgba(239,68,68,0.3); }
+        .tl-entry.type-build::before { background: var(--purple); }
+        .tl-entry.type-decision::before { background: var(--orange); }
+        .tl-entry.type-done::before { background: var(--green); }
+
+        .tl-time {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 3px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tl-type-tag {
+            font-size: 9px;
+            padding: 1px 6px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .tl-type-tag.email { background: rgba(245, 158, 11, 0.15); color: var(--yellow); }
+        .tl-type-tag.deploy { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+        .tl-type-tag.alert { background: rgba(239, 68, 68, 0.15); color: var(--red); }
+        .tl-type-tag.build { background: rgba(139, 92, 246, 0.15); color: var(--purple); }
+        .tl-type-tag.decision { background: rgba(249, 115, 22, 0.15); color: var(--orange); }
+        .tl-type-tag.done { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+
+        .tl-text {
+            font-size: 13px;
+            color: var(--text);
+            line-height: 1.5;
+            word-break: break-word;
+        }
+
+        /* Priorities */
+        .prio-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 5px 0;
+            font-size: 13px;
+        }
+
+        .prio-check {
+            width: 16px; height: 16px;
+            border-radius: 4px;
+            border: 2px solid var(--border);
+            flex-shrink: 0;
+            margin-top: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .prio-check.done { background: var(--green); border-color: var(--green); }
+        .prio-check.done::after { content: '✓'; font-size: 10px; color: white; font-weight: 700; }
+        .prio-text.done { color: var(--text-dim); text-decoration: line-through; }
+
+        /* Decisions */
+        .decision-item {
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: rgba(249, 115, 22, 0.06);
+            border-left: 3px solid var(--orange);
+            border-radius: 0 6px 6px 0;
+            font-size: 13px;
+            color: var(--text);
+        }
+
+        /* Review summary */
+        .review-box {
+            background: rgba(16, 185, 129, 0.06);
+            border: 1px solid rgba(16, 185, 129, 0.15);
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 8px;
+        }
+
+        .review-line {
+            font-size: 13px;
+            color: var(--text);
+            padding: 3px 0;
+            line-height: 1.4;
+        }
+
+        /* Empty state */
+        .mem-empty {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            color: var(--text-dim);
+            font-family: var(--font-mono);
+            gap: 8px;
+        }
+
+        .mem-empty-icon { font-size: 48px; opacity: 0.3; }
+
+        .error-banner {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            color: var(--red);
+            padding: 12px 24px;
+            font-size: 13px;
+            font-family: var(--font-mono);
+            display: none;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60vh;
+            color: var(--text-dim);
+            font-family: var(--font-mono);
+        }
+
+        /* === PROJECTS PAGE === */
+        .projects-layout {
+            display: flex;
+            height: calc(100vh - 80px);
+        }
+
+        .proj-sidebar {
+            width: 240px;
+            min-width: 240px;
+            border-right: 1px solid var(--border);
+            overflow-y: auto;
+            background: var(--bg);
+        }
+
+        .proj-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px 28px;
+        }
+
+        .proj-item {
+            padding: 12px 16px;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(30, 41, 59, 0.3);
+            transition: all 0.15s;
+        }
+
+        .proj-item:hover { background: var(--bg-card); }
+        .proj-item.active { background: var(--bg-card); border-left: 3px solid var(--accent); }
+
+        .proj-item-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .proj-item-emoji { font-size: 18px; }
+        .proj-item-name { font-size: 13px; font-weight: 600; color: var(--text-bright); }
+
+        .proj-item-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 4px;
+            font-size: 11px;
+        }
+
+        .proj-item-status {
+            padding: 1px 6px;
+            border-radius: 4px;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            font-weight: 600;
+        }
+
+        .proj-item-status.active { background: rgba(16, 185, 129, 0.15); color: var(--green); }
+        .proj-item-status.paused { background: rgba(245, 158, 11, 0.15); color: var(--yellow); }
+        .proj-item-status.blocked { background: rgba(239, 68, 68, 0.15); color: var(--red); }
+        .proj-item-status.completed { background: rgba(100, 116, 139, 0.15); color: var(--text-dim); }
+
+        .proj-item-prio {
+            font-family: var(--font-mono);
+            font-size: 10px;
+            color: var(--text-dim);
+        }
+
+        .proj-item-prio.critical { color: var(--red); }
+        .proj-item-prio.high { color: var(--yellow); }
+
+        .proj-item-progress {
+            flex: 1;
+            height: 3px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .proj-item-progress-bar {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+
+        /* Project detail */
+        .proj-vision {
+            font-size: 15px;
+            color: var(--text);
+            line-height: 1.6;
+            padding: 16px;
+            background: rgba(59, 130, 246, 0.06);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 24px;
+        }
+
+        .proj-meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .proj-meta-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .proj-meta-value {
+            font-family: var(--font-mono);
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--text-bright);
+        }
+
+        .proj-meta-label {
+            font-size: 11px;
+            color: var(--text-dim);
+            margin-top: 2px;
+        }
+
+        /* Phases */
+        .phase-list { margin-bottom: 24px; }
+
+        .phase-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(30, 41, 59, 0.3);
+        }
+
+        .phase-dot {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .phase-dot.done { background: var(--green); color: white; }
+        .phase-dot.active { background: var(--accent); color: white; animation: pulse 2s infinite; }
+        .phase-dot.next { background: var(--border); color: var(--text-dim); }
+        .phase-dot.blocked { background: var(--red); color: white; }
+
+        .phase-info { flex: 1; }
+        .phase-name { font-size: 13px; font-weight: 600; color: var(--text-bright); }
+        .phase-summary { font-size: 12px; color: var(--text-dim); margin-top: 2px; line-height: 1.4; }
+        .phase-dates { font-family: var(--font-mono); font-size: 10px; color: var(--text-dim); margin-top: 3px; }
+
+        /* Goals */
+        .goal-item {
+            display: flex; align-items: center; gap: 8px;
+            padding: 5px 0; font-size: 13px;
+        }
+
+        .goal-check {
+            width: 16px; height: 16px; border-radius: 50%;
+            border: 2px solid var(--border); flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+        }
+
+        .goal-check.done { background: var(--green); border-color: var(--green); }
+        .goal-check.done::after { content: '✓'; font-size: 10px; color: white; }
+
+        /* Blockers */
+        .blocker-item {
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: rgba(239, 68, 68, 0.06);
+            border-left: 3px solid var(--red);
+            border-radius: 0 6px 6px 0;
+            font-size: 13px;
+            color: var(--text);
+        }
+
+        /* Activity timeline in project */
+        .proj-activity-day {
+            margin-bottom: 16px;
+        }
+
+        .proj-activity-date {
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 6px;
+        }
+
+        .proj-activity-entry {
+            font-size: 12px;
+            color: var(--text-dim);
+            padding: 3px 0 3px 16px;
+            border-left: 2px solid var(--border);
+            line-height: 1.4;
+        }
+
+        .proj-activity-entry .time {
+            font-family: var(--font-mono);
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        /* === MOBILE === */
+        @media (max-width: 768px) {
+            .sidebar { transform: translateX(-100%); }
+            .sidebar.open { transform: translateX(0); }
+            .hamburger { display: block; }
+            .overlay.show { display: block; }
+            .main { margin-left: 0; }
+            .topics { grid-template-columns: 1fr; }
+            .memory-layout { flex-direction: column; height: auto; }
+            .memory-days {
+                width: 100%; min-width: 100%;
+                max-height: 180px;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+            .memory-content { padding: 16px; }
+            .projects-layout { flex-direction: column; height: auto; }
+            .proj-sidebar { width: 100%; min-width: 100%; max-height: 200px; border-right: none; border-bottom: 1px solid var(--border); }
+            .proj-content { padding: 16px; }
+            .proj-meta-grid { grid-template-columns: repeat(2, 1fr); }
+            .summary { padding: 12px 16px; }
+            .summary-number { font-size: 22px; }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    </style>
+</head>
+<body>
+    <!-- Mobile hamburger -->
+    <div class="hamburger" onclick="toggleSidebar()">☰</div>
+    <div class="overlay" id="overlay" onclick="toggleSidebar()"></div>
+
+    <!-- LEFT SIDEBAR -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">🐟</span>
+            <span class="sidebar-title">Koi Dashboard</span>
+        </div>
+        <div class="sidebar-nav">
+            <div class="nav-section">Overview</div>
+            <div class="nav-item active" onclick="switchPage('status')" data-page="status">
+                <span class="nav-icon">📊</span>
+                <span class="nav-label">Status</span>
+            </div>
+            <div class="nav-item" onclick="switchPage('memory')" data-page="memory">
+                <span class="nav-icon">🧠</span>
+                <span class="nav-label">Memory</span>
+                <span class="nav-badge" id="memBadge">—</span>
+            </div>
+            <div class="nav-item" onclick="switchPage('projects')" data-page="projects">
+                <span class="nav-icon">📋</span>
+                <span class="nav-label">Projects</span>
+                <span class="nav-badge" id="projBadge">—</span>
+            </div>
+        </div>
+        <div class="sidebar-footer">
+            <div class="sidebar-pulse" id="sidebarPulse"></div>
+            <span id="sidebarStatus">Loading...</span>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <div class="main">
+        <!-- STATUS PAGE -->
+        <div class="page active" id="page-status">
+            <div class="page-header">
+                <h2>📊 System Status</h2>
+                <div class="page-header-sub" id="statusUpdate">Loading...</div>
+            </div>
+            <div class="refresh-bar" id="refreshBar"></div>
+            <div class="error-banner" id="errorBanner">⚠ Connection lost — retrying...</div>
+
+            <div class="summary" id="summary">
+                <div class="summary-item building">
+                    <div class="summary-number" id="sumBuilding">-</div>
+                    <div class="summary-label">Building</div>
+                </div>
+                <div class="summary-item working">
+                    <div class="summary-number" id="sumWorking">-</div>
+                    <div class="summary-label">Working</div>
+                </div>
+                <div class="summary-item recent">
+                    <div class="summary-number" id="sumRecent">-</div>
+                    <div class="summary-label">Recent</div>
+                </div>
+                <div class="summary-item idle">
+                    <div class="summary-number" id="sumIdle">-</div>
+                    <div class="summary-label">Idle</div>
+                </div>
+                <div class="summary-item stuck">
+                    <div class="summary-number" id="sumStuck">-</div>
+                    <div class="summary-label">Stuck</div>
+                </div>
+            </div>
+
+            <div class="topics" id="topics">
+                <div class="loading">Loading status...</div>
+            </div>
+
+            <div class="section-title">Active Processes</div>
+            <div class="processes" id="processes">
+                <div class="no-processes">No active processes</div>
+            </div>
+
+            <div class="section-title">⚠️ Recent Errors</div>
+            <div class="processes" id="errorsSection">
+                <div class="no-processes">No recent errors</div>
+            </div>
+        </div>
+
+        <!-- MEMORY PAGE -->
+        <div class="page" id="page-memory">
+            <div class="page-header">
+                <h2>🧠 Memory</h2>
+                <div class="page-header-sub" id="memoryStats">Loading...</div>
+            </div>
+            <div class="memory-layout">
+                <div class="memory-days" id="memoryDays">
+                    <div class="memory-days-header">📅 Daily Notes</div>
+                    <div id="dayList"><div class="day-item"><span style="color:var(--text-dim)">Loading...</span></div></div>
+                </div>
+                <div class="memory-content" id="memoryContent">
+                    <div class="mem-empty">
+                        <div class="mem-empty-icon">🐟</div>
+                        <div>Избери ден от менюто</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECTS PAGE -->
+        <div class="page" id="page-projects">
+            <div class="page-header">
+                <h2>📋 Projects</h2>
+                <div class="page-header-sub" id="projectsStats">Loading...</div>
+            </div>
+            <div class="projects-layout">
+                <div class="proj-sidebar" id="projSidebar">
+                    <div class="memory-days-header">📁 Проекти</div>
+                    <div id="projList"><div class="day-item"><span style="color:var(--text-dim)">Loading...</span></div></div>
+                </div>
+                <div class="proj-content" id="projContent">
+                    <div class="mem-empty">
+                        <div class="mem-empty-icon">📋</div>
+                        <div>Избери проект от менюто</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // === UTILS ===
+        function escHtml(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+        function formatAge(s) {
+            if (s < 60) return s + 's ago';
+            if (s < 3600) return Math.floor(s / 60) + 'm ago';
+            if (s < 86400) return Math.floor(s / 3600) + 'h ago';
+            return Math.floor(s / 86400) + 'd ago';
+        }
+        function formatTokens(n) {
+            if (n > 1000000) return (n/1000000).toFixed(1)+'M';
+            if (n > 1000) return (n/1000).toFixed(0)+'k';
+            return n.toString();
+        }
+        function formatElapsed(e) {
+            if (!e) return '0:00';
+            const p = e.trim().split(/[-:]/);
+            if (p.length === 2) return `00:${p[0].padStart(2,'0')}:${p[1].padStart(2,'0')}`;
+            if (p.length === 3) return `${p[0].padStart(2,'0')}:${p[1].padStart(2,'0')}:${p[2].padStart(2,'0')}`;
+            return e;
+        }
+
+        // === SIDEBAR ===
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('overlay').classList.toggle('show');
+        }
+
+        function switchPage(page) {
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            document.querySelector(`.nav-item[data-page="${page}"]`).classList.add('active');
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.getElementById('page-' + page).classList.add('active');
+            // Close mobile sidebar
+            document.getElementById('sidebar').classList.remove('open');
+            document.getElementById('overlay').classList.remove('show');
+            // Load memory on first visit
+            if (page === 'memory' && !memoryLoaded) fetchMemory();
+            if (page === 'projects' && !projectsLoaded) fetchProjects();
+        }
+
+        // === STATUS ===
+        const STATUS_API = 'https://raw.githubusercontent.com/koiopenclaw-max/koi-dashboard-v2/master/status.json';
+        let lastData = null;
+        let errorCount = 0;
+
+        function renderStatus(data) {
+            document.getElementById('sumBuilding').textContent = data.summary.building || 0;
+            document.getElementById('sumWorking').textContent = data.summary.working;
+            document.getElementById('sumRecent').textContent = data.summary.recent;
+            document.getElementById('sumIdle').textContent = data.summary.idle;
+            document.getElementById('sumStuck').textContent = data.summary.stuck;
+
+            const now = new Date();
+            const ageSec = Math.floor((now - new Date(data.timestamp)) / 1000);
+            document.getElementById('statusUpdate').textContent = 'Updated ' + formatAge(ageSec) + ' · Load: ' + data.loadAvg.join(' ');
+            document.getElementById('sidebarStatus').textContent = formatAge(ageSec);
+            const pulse = document.getElementById('sidebarPulse');
+            pulse.style.background = ageSec > 120 ? '#ef4444' : ageSec > 60 ? '#f59e0b' : '#10b981';
+
+            document.getElementById('topics').innerHTML = data.topics.map(t => {
+                const age = t.lastUpdate ? Math.floor((now - new Date(t.lastUpdate))/1000) : -1;
+                return `
+                <div class="topic-card status-${t.status}">
+                    <div class="topic-header">
+                        <span class="topic-name">${t.name}</span>
+                        <span class="topic-id">#${t.topicId}</span>
+                    </div>
+                    <div class="topic-status"><span class="status-badge ${t.status}">${t.statusLabel||t.status}</span></div>
+                    ${t.lastAction ? `<div class="topic-action">${escHtml(t.lastAction)}</div>` : ''}
+                    <div class="topic-meta">
+                        <span>${age<0?'—':formatAge(age)}</span>
+                        <span>🪙 ${t.tokens>0?formatTokens(t.tokens):'—'}</span>
+                    </div>
+                </div>`;
+            }).join('');
+
+            const procEl = document.getElementById('processes');
+            if (!data.processes.length) {
+                procEl.innerHTML = '<div class="no-processes">No active processes</div>';
+            } else {
+                const typeLabels = {
+                    codex: { icon: '🤖', label: 'Codex', color: 'var(--purple)' },
+                    devserver: { icon: '🚀', label: 'Dev Server', color: 'var(--green)' },
+                    firebase: { icon: '🔥', label: 'Firebase', color: 'var(--yellow)' },
+                    build: { icon: '🔨', label: 'Build', color: 'var(--blue)' }
+                };
+                const groups = {};
+                for (const p of data.processes) {
+                    const key = (p.procType||'build') + ':' + (p.relatedTopic||'none');
+                    if (!groups[key] || p.elapsedSec > groups[key].elapsedSec) groups[key] = p;
+                }
+                procEl.innerHTML = Object.values(groups).map(p => {
+                    const type = typeLabels[p.procType] || typeLabels.build;
+                    return `
+                    <div class="process-card" style="border-left-color:${type.color}">
+                        <div class="process-cmd">${type.icon} <strong>${type.label}</strong>${p.relatedTopic?' → Topic #'+p.relatedTopic:''}</div>
+                        <div style="font-size:11px;color:#64748b;margin:4px 0">${escHtml(p.cmd.substring(0,100))}</div>
+                        <div class="process-meta">
+                            <span>PID ${p.pid}</span><span>CPU ${p.cpu}%</span><span>MEM ${p.mem}%</span><span>⏱ ${formatElapsed(p.elapsed)}</span>
+                        </div>
+                    </div>`;
+                }).join('');
+            }
+
+            document.getElementById('errorBanner').style.display = 'none';
+            errorCount = 0;
+        }
+
+        async function fetchStatus() {
+            try {
+                const res = await fetch(STATUS_API + '?v=' + Math.floor(Date.now()/30000));
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                lastData = await res.json();
+                renderStatus(lastData);
+            } catch (e) {
+                errorCount++;
+                if (errorCount > 2) document.getElementById('errorBanner').style.display = 'block';
+                if (lastData) renderStatus(lastData);
+            }
+        }
+
+        // === MEMORY ===
+        const MEMORY_URL = 'https://raw.githubusercontent.com/koiopenclaw-max/koi-dashboard-v2/master/memory.json';
+        let memoryData = null;
+        let memoryLoaded = false;
+
+        const typeLabelsMap = {
+            email: 'email', deploy: 'deploy', alert: 'alert',
+            build: 'build', decision: 'decision', done: 'done'
+        };
+
+        function renderDayList(days) {
+            document.getElementById('dayList').innerHTML = days.map((d, i) => `
+                <div class="day-item ${i===0?'active':''}" onclick="selectDay('${d.date}',this)" data-date="${d.date}">
+                    <div class="day-info">
+                        <span class="day-date">${d.date.substring(5)}</span>
+                        <span class="day-name">${d.dayName}</span>
+                    </div>
+                    <span class="day-badge ${d.entryCount?'has-entries':'empty'}">${d.entryCount||'—'}</span>
+                </div>
+            `).join('');
+        }
+
+        function renderDay(day) {
+            const el = document.getElementById('memoryContent');
+            let h = `<div class="mem-header">
+                <div class="mem-title">${day.date}</div>
+                <div class="mem-subtitle">
+                    <span>${day.dayName} · ${day.entryCount} записа</span>
+                    ${day.hasReview ? '<span class="mem-review-badge">✅ Nightly Review</span>' : ''}
+                </div>
+            </div>`;
+
+            // Priorities
+            if (day.priorities.length) {
+                h += `<div class="mem-section">🎯 Приоритети <span class="mem-section-count">${day.priorities.length}</span></div>`;
+                h += day.priorities.map(p => `
+                    <div class="prio-item">
+                        <div class="prio-check ${p.done?'done':''}"></div>
+                        <span class="prio-text ${p.done?'done':''}">${escHtml(p.text)}</span>
+                    </div>`).join('');
+            }
+
+            // Timeline
+            if (day.entries.length) {
+                h += `<div class="mem-section">📝 Лог <span class="mem-section-count">${day.entries.length}</span></div>`;
+                h += '<div class="timeline">';
+                h += day.entries.map(e => {
+                    const tag = e.type && e.type !== 'default' ?
+                        `<span class="tl-type-tag ${e.type}">${e.type}</span>` : '';
+                    return `
+                    <div class="tl-entry type-${e.type||'default'}">
+                        <div class="tl-time">${e.time} UTC ${tag}</div>
+                        <div class="tl-text">${escHtml(e.text)}</div>
+                    </div>`;
+                }).join('');
+                h += '</div>';
+            }
+
+            // Decisions
+            if (day.decisions && day.decisions.length) {
+                h += `<div class="mem-section">⚡ Решения <span class="mem-section-count">${day.decisions.length}</span></div>`;
+                h += day.decisions.map(d => `<div class="decision-item">${escHtml(d)}</div>`).join('');
+            }
+
+            // Nightly review summary
+            if (day.reviewSummary && day.reviewSummary.length) {
+                h += `<div class="mem-section">🌙 Nightly Review</div>`;
+                h += '<div class="review-box">';
+                h += day.reviewSummary.map(l => `<div class="review-line">${escHtml(l)}</div>`).join('');
+                h += '</div>';
+            }
+
+            // Empty
+            if (!day.entries.length && !day.priorities.length) {
+                h += `<div class="mem-empty">
+                    <div class="mem-empty-icon">📭</div>
+                    <div>Няма записи за този ден</div>
+                </div>`;
+            }
+
+            el.innerHTML = h;
+        }
+
+        function selectDay(date, el) {
+            document.querySelectorAll('.day-item').forEach(d => d.classList.remove('active'));
+            if (el) el.classList.add('active');
+            const day = memoryData.days.find(d => d.date === date);
+            if (day) renderDay(day);
+        }
+
+        async function fetchMemory() {
+            try {
+                const res = await fetch(MEMORY_URL + '?v=' + Math.floor(Date.now()/30000));
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                memoryData = await res.json();
+                memoryLoaded = true;
+                document.getElementById('memoryStats').textContent =
+                    memoryData.totalDays + ' дни · ' + memoryData.totalEntries + ' записа · Updated ' +
+                    new Date(memoryData.updated).toLocaleTimeString('bg-BG',{hour:'2-digit',minute:'2-digit'}) + ' UTC';
+                document.getElementById('memBadge').textContent = memoryData.totalEntries;
+                renderDayList(memoryData.days);
+                if (memoryData.days.length) selectDay(memoryData.days[0].date, document.querySelector('.day-item'));
+            } catch (e) {
+                document.getElementById('memoryContent').innerHTML = `
+                    <div class="mem-empty"><div class="mem-empty-icon">⚠️</div><div>Error: ${e.message}</div></div>`;
+            }
+        }
+
+        // === PROJECTS ===
+        const PROJECTS_URL = 'https://raw.githubusercontent.com/koiopenclaw-max/koi-dashboard-v2/master/projects.json';
+        let projectsData = null;
+        let projectsLoaded = false;
+
+        function renderProjList(projects) {
+            document.getElementById('projList').innerHTML = projects.map((p, i) => `
+                <div class="proj-item ${i===0?'active':''}" onclick="selectProj('${p.slug}',this)" data-slug="${p.slug}">
+                    <div class="proj-item-header">
+                        <span class="proj-item-emoji">${p.emoji}</span>
+                        <span class="proj-item-name">${escHtml(p.name)}</span>
+                    </div>
+                    <div class="proj-item-meta">
+                        <span class="proj-item-status ${p.status}">${p.status}</span>
+                        <span class="proj-item-prio ${p.priority}">${p.priority}</span>
+                        <div class="proj-item-progress"><div class="proj-item-progress-bar" style="width:${p.progress}%"></div></div>
+                        <span style="font-family:var(--font-mono);font-size:10px;color:var(--text-dim)">${p.progress}%</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function renderProj(p) {
+            const el = document.getElementById('projContent');
+            const phaseIcons = { done: '✓', active: '◉', next: '○', blocked: '✕', skipped: '—' };
+
+            let h = `
+            <div class="mem-header">
+                <div class="mem-title">${p.emoji} ${escHtml(p.name)}</div>
+                <div class="mem-subtitle">
+                    <span class="proj-item-status ${p.status}">${p.status}</span>
+                    <span class="proj-item-prio ${p.priority}">Priority: ${p.priority}</span>
+                    <span style="font-size:12px;color:var(--text-dim)">Started: ${p.started}</span>
+                    ${p.url ? '<a href="'+p.url+'" target="_blank" style="font-size:12px;color:var(--accent)">🔗 Live</a>' : ''}
+                </div>
+            </div>`;
+
+            // Vision
+            if (p.vision) {
+                h += `<div class="proj-vision">🎯 ${escHtml(p.vision)}</div>`;
+            }
+
+            // Meta cards
+            h += `<div class="proj-meta-grid">
+                <div class="proj-meta-card">
+                    <div class="proj-meta-value">${p.progress}%</div>
+                    <div class="proj-meta-label">Progress</div>
+                </div>
+                <div class="proj-meta-card">
+                    <div class="proj-meta-value">${p.phases.length}</div>
+                    <div class="proj-meta-label">Phases</div>
+                </div>
+                <div class="proj-meta-card">
+                    <div class="proj-meta-value" style="color:${p.blockers.length?'var(--red)':'var(--green)'}">${p.blockers.length}</div>
+                    <div class="proj-meta-label">Blockers</div>
+                </div>
+                <div class="proj-meta-card">
+                    <div class="proj-meta-value">${p.activityDays}</div>
+                    <div class="proj-meta-label">Active Days</div>
+                </div>
+            </div>`;
+
+            // Phases
+            if (p.phases.length) {
+                h += `<div class="mem-section">📊 Етапи <span class="mem-section-count">${p.phases.filter(ph=>ph.status==='done').length}/${p.phases.length}</span></div>`;
+                h += '<div class="phase-list">';
+                h += p.phases.map(ph => {
+                    const dates = [ph.started, ph.completed].filter(Boolean).join(' → ');
+                    return `
+                    <div class="phase-item">
+                        <div class="phase-dot ${ph.status}">${phaseIcons[ph.status]||'○'}</div>
+                        <div class="phase-info">
+                            <div class="phase-name">${escHtml(ph.name)}</div>
+                            ${ph.summary ? `<div class="phase-summary">${escHtml(ph.summary)}</div>` : ''}
+                            ${dates ? `<div class="phase-dates">${dates}</div>` : ''}
+                            ${(ph.blockers||[]).map(b => `<div class="blocker-item" style="margin-top:4px;font-size:11px">${escHtml(b)}</div>`).join('')}
+                        </div>
+                    </div>`;
+                }).join('');
+                h += '</div>';
+            }
+
+            // Blockers
+            if (p.blockers.length) {
+                h += `<div class="mem-section" style="color:var(--red)">🚧 Блокери <span class="mem-section-count">${p.blockers.length}</span></div>`;
+                h += p.blockers.map(b => `<div class="blocker-item">${escHtml(b)}</div>`).join('');
+            }
+
+            // Goals
+            if (p.goals.length) {
+                h += `<div class="mem-section">🎯 Цели <span class="mem-section-count">${p.goals.filter(g=>g.done).length}/${p.goals.length}</span></div>`;
+                h += p.goals.map(g => `
+                    <div class="goal-item">
+                        <div class="goal-check ${g.done?'done':''}"></div>
+                        <span style="${g.done?'color:var(--text-dim);text-decoration:line-through':''}">${escHtml(g.text)}</span>
+                    </div>`).join('');
+            }
+
+            // Next actions
+            if (p.nextActions && p.nextActions.length) {
+                h += `<div class="mem-section">⚡ Следващи стъпки</div>`;
+                h += p.nextActions.map(a => `
+                    <div style="padding:6px 12px;margin-bottom:4px;background:rgba(59,130,246,0.06);border-left:3px solid var(--accent);border-radius:0 6px 6px 0;font-size:13px">
+                        ${escHtml(a)}
+                    </div>`).join('');
+            }
+
+            // Recent activity
+            if (p.recentActivity && p.recentActivity.length) {
+                h += `<div class="mem-section">📅 Последна активност <span class="mem-section-count">${p.activityDays} дни</span></div>`;
+                h += p.recentActivity.map(day => {
+                    return `<div class="proj-activity-day">
+                        <div class="proj-activity-date">${day.date}</div>
+                        ${day.entries.map(e => `
+                            <div class="proj-activity-entry">
+                                <span class="time">${e.time}</span> — ${escHtml(e.text.substring(0, 200))}
+                            </div>`).join('')}
+                    </div>`;
+                }).join('');
+            }
+
+            el.innerHTML = h;
+        }
+
+        function selectProj(slug, el) {
+            document.querySelectorAll('.proj-item').forEach(d => d.classList.remove('active'));
+            if (el) el.classList.add('active');
+            const p = projectsData.projects.find(p => p.slug === slug);
+            if (p) renderProj(p);
+        }
+
+        async function fetchProjects() {
+            try {
+                const res = await fetch(PROJECTS_URL + '?v=' + Math.floor(Date.now()/30000));
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                projectsData = await res.json();
+                projectsLoaded = true;
+                document.getElementById('projectsStats').textContent =
+                    projectsData.active + ' active / ' + projectsData.totalProjects + ' total';
+                document.getElementById('projBadge').textContent = projectsData.active;
+                renderProjList(projectsData.projects);
+                if (projectsData.projects.length) selectProj(projectsData.projects[0].slug, document.querySelector('.proj-item'));
+            } catch (e) {
+                document.getElementById('projContent').innerHTML =
+                    `<div class="mem-empty"><div class="mem-empty-icon">⚠️</div><div>Error: ${e.message}</div></div>`;
+            }
+        }
+
+        // URL hash routing
+        if (location.hash === '#memory') switchPage('memory');
+        if (location.hash === '#projects') switchPage('projects');
+
+        // Init
+        fetchStatus();
+        setInterval(() => {
+            fetchStatus();
+            const bar = document.getElementById('refreshBar');
+            bar.style.display = 'none'; bar.offsetHeight; bar.style.display = 'block';
+        }, 30000);
+    </script>
+</body>
+</html>

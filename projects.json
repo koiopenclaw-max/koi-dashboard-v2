@@ -1,0 +1,380 @@
+{
+  "updated": "2026-03-23T16:20:04.150Z",
+  "totalProjects": 1,
+  "active": 1,
+  "projects": [
+    {
+      "slug": "openclaw-service",
+      "name": "ClawAI (OpenClaw as a Service)",
+      "emoji": "🤖",
+      "status": "active",
+      "priority": "high",
+      "started": "2026-03-09",
+      "updated": "2026-03-23",
+      "topic": 718,
+      "repo": "koiopenclaw-max/clawai",
+      "url": "https://koiopenclaw-max.github.io/clawai/",
+      "vision": "AI асистенти за бизнеси — от подписване до live за 24ч. Два продукта: Starter (€28/мес, plug & play) и Clawsourcing (€550/мес, custom build).",
+      "phases": [
+        {
+          "name": "Phase 1: Research & Pricing",
+          "status": "done",
+          "started": "2026-03-09",
+          "completed": "2026-03-10",
+          "summary": "Конкурентен анализ (Felix Craft, Mahesha, Clawhosters). Pricing модел: 3 плана → 2 плана. Tech stack: Supabase + static HTML.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 2: Landing Page & Brand",
+          "status": "done",
+          "started": "2026-03-13",
+          "completed": "2026-03-20",
+          "summary": "ClawAI brand pivot. Двуезична landing page (BG/EN). Clawsourcing page. Обединение в една платформа.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 3: Database & Pipeline",
+          "status": "done",
+          "started": "2026-03-20",
+          "completed": "2026-03-20",
+          "summary": "Supabase: 17 таблици, RLS, миграция. Pipeline end-to-end: form → processor → handler → email. Два flow-а: Starter + Custom.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 4: Admin Dashboard",
+          "status": "done",
+          "started": "2026-03-20",
+          "completed": "2026-03-20",
+          "summary": "1425 реда, 8 секции, login gate. Supabase-connected. PRIVATE repo след security incident.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 5: Stripe & Payments",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "Stripe integration за Starter план. Checkout → webhook → provisioning trigger.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 6: Auto-Provisioning",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "DO API → Ansible → OpenClaw install → credentials → live. Пълна автоматизация.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 7: First Customer",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "Domain, SSL, production deploy. Първи платен клиент.",
+          "blockers": []
+        }
+      ],
+      "progress": 57,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "End-to-end pipeline: форма → плащане → provisioning → live assistant",
+          "done": false
+        },
+        {
+          "text": "Landing page live с contact form",
+          "done": true
+        },
+        {
+          "text": "Admin dashboard за мониторинг",
+          "done": true
+        },
+        {
+          "text": "Supabase DB с 17 таблици",
+          "done": true
+        },
+        {
+          "text": "Email автоматизация (welcome + scope)",
+          "done": true
+        },
+        {
+          "text": "Stripe payments",
+          "done": false
+        },
+        {
+          "text": "Автоматичен provisioning (DO + Ansible)",
+          "done": false
+        }
+      ],
+      "blockers": [
+        "🔴 Rotate Supabase JWT secret — чака Крис (ДЕН 3)",
+        "Stripe акаунт — нужен от Крис",
+        "Домейн за production"
+      ],
+      "nextActions": [
+        "Rotate Supabase JWT (Крис)",
+        "Setup Stripe Checkout за Starter план",
+        "DO API provisioning скрипт"
+      ],
+      "tags": [
+        "clawai",
+        "openclaw",
+        "service",
+        "saas",
+        "supabase"
+      ],
+      "activityDays": 11,
+      "recentActivity": [
+        {
+          "date": "2026-03-23",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+            },
+            {
+              "time": "16:20",
+              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "entries": [
+            {
+              "time": "20:49",
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+            },
+            {
+              "time": "15:33",
+              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
+            },
+            {
+              "time": "14:18",
+              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
+            },
+            {
+              "time": "15:08",
+              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
+            },
+            {
+              "time": "15:26",
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+            },
+            {
+              "time": "16:42",
+              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
+            },
+            {
+              "time": "19:52",
+              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
+            },
+            {
+              "time": "20:10",
+              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
+            },
+            {
+              "time": "20:40",
+              "text": "🔴 SECURITY INCIDENT: Supabase service_role key exposed**"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "entries": [
+            {
+              "time": "13:56",
+              "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git"
+            },
+            {
+              "time": "07:58",
+              "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git"
+            },
+            {
+              "time": "07:05",
+              "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf"
+            },
+            {
+              "time": "06:45",
+              "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "entries": [
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 49 (182788 tokens, id:49-1773766955):** [2026-03-17T16:51:20] User: heartbeat няма да помгне,,..вече сме го тествали 100 пъти за това; [2026-03-17T16:59:25] User: DEMO_ACTION: Одиторска кантора Узунова → revisions. Trigger: /tmp/demo-action-trigger-одитор; [2026-03-17T16:59:56] `openclaw agent` **ме събуди!** 🎉 Това е пътят. Нека обновя processor-а да ползва точно това:; [2026-03-17T17:00:12] Сега обработвам текущата корекция. Нека видя какво е:; [2026-03-17T17:00:26] Статусът е `review`, без активна корекция. `openclaw agent` ме събуди с тест, но няма реална задач; # Check if it auto-restarts; ps a; [2026-03-17T17:00:12] exec: cat /tmp/demo-action-trigger-одиторска-кантора-узунова.json 2>/dev/null || echo"
+            },
+            {
+              "time": "15:46",
+              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
+            },
+            {
+              "time": "16:22",
+              "text": "Processor v6 deploy-нат: директна Telegram нотификация в topic 49 (openclaw message send -m). Root cause на липсващи нотификации: raw.githubusercontent.com кешира до 5 мин → processor не виждаше нови промени. Fix: ползва GitHub API (v3.raw) вместо download_url."
+            },
+            {
+              "time": "19:16",
+              "text": "Demo Sites Processor v7: заменен хакът `openclaw agent --session-id` с `openclaw system event --mode now` за надеждно събуждане."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "entries": [
+            {
+              "time": "20:42",
+              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
+            },
+            {
+              "time": "14:17",
+              "text": "Auto-extract topic 49 (156163 tokens, id:49-1773670624):** [2026-03-16T14:02:03] User: пуснах ти нова корекция, ти ми писа че си я получил но автоматизацият ане сработи...; [2026-03-16T14:04:40] User: автоматизациите оправи ли ги?; [2026-03-16T14:11:17] User: а тук има ли автоматизация? работи ли? защо не работи?; [2026-03-16T14:13:07] Webhook-ът работи, проектът е хванат. Сега трябва да го обработя — scrape + brief. Но автоматизаци; [2026-03-16T14:13:58] Имам достатъчно данни. Подготвям brief и QA въпроси:; [2026-03-16T14:14:37] Briefing-ът за **Одиторска кантора Узунова** е готов ✅  Заданието + 6 въпроса са в платформата. Ре; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; [2026-03-16T14:13:18] exec: # Get the full page HTML to extract more info (contact, pages structure)"
+            },
+            {
+              "time": "13:55",
+              "text": "Demo Sites: \"Успех Консулт\" → `dns_setup`. Домейн: demo53.add.bg. CNAME запис нужен: demo53 → koiopenclaw-max.github.io. Крис трябва да добави в DNS."
+            },
+            {
+              "time": "12:06",
+              "text": "Auto-extract topic 49 (159028 tokens, id:49-1773662795):** [2026-03-16T11:58:31] User: аз виждам че е билднат вече....; [2026-03-16T12:00:21] User: сега искам в системата за всеки проект след завършен билд да създадем следваща стъпка - коре; [2026-03-16T12:02:46] Добре, `renderBottomActions` вече чисти при непознати статуси. А revisions UI е в `renderRevisions; [2026-03-16T12:03:10] Сега push-вам index.html в GitHub (трябва и в repo-то за GitHub Pages):; [2026-03-16T12:04:06] Deploy готов ✅ Тествай:  **https://koiopenclaw-max.github.io/demo-sites/**  Отвори \"Успех Консулт\"; https://koiopenclaw-max.github.io/demo-sites/**; https://koiopenclaw-max.github.io/demo-sites/demos/uspeh-konsult/; GIT_SSH_COMMAND=\"ssh -i ~/.ssh/id_ed25519_demosites -o St"
+            },
+            {
+              "time": "10:53",
+              "text": "Deploy workflow успешен. Платформата жива на https://koiopenclaw-max.github.io/demo-sites/"
+            },
+            {
+              "time": "11:53",
+              "text": "Demo Sites: \"Успех Консулт\" — сайт изграден и деплойнат → `done`. URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%83%D1%81%D0%BF%D0%B5%D1%85-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-15",
+          "entries": [
+            {
+              "time": "20:27",
+              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
+            },
+            {
+              "time": "18:10",
+              "text": "🚀 Codex Sprint 2 стартиран (session: `lucky-cloud`). Задание: Activity group chat (time-bound, auto-lock), post-activity confirmation (60% rule, host flagging), late cancel tracking (30-day window, 14-day cooldown), auto-complete service."
+            },
+            {
+              "time": "13:15",
+              "text": "Auto-extract topic 51 (152559 tokens, id:51-1773580503):** [2026-03-15T12:57:50] User: Така за дизайна, избрал съм език англ, менюто на апа е на български….не съм гледал екраните…; [2026-03-15T13:08:54] User: Аз нещо не разбирам. Липсва ми инфо от къде се създават тези активитис? Това ми се губи, мол; [2026-03-15T13:11:26] User: Да това ми е въпроса и от дизайн екраните не разбирам от къде какво как се прави…моля да се ; [2026-03-15T13:12:12] Now add the FAB button on Browse Activities, and the \"+ Create\" entry points:; [2026-03-15T13:12:25] Now let me do a full visual validation — open it locally and check everything:; [2026-03-15T13:12:47] Готово, Крис. Оправих двата проблема:  **🔤 i18n fix:** Tab bar-ът (Начало/Връзки/Чат/Профил) имаше; https://github.com/koiopenclaw-max/momerly-design.git; https://koiopenclaw-max.github.io/momerly-design/"
+            },
+            {
+              "time": "09:10",
+              "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-14",
+          "entries": [
+            {
+              "time": "20:29",
+              "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github"
+            },
+            {
+              "time": "19:35",
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
+            },
+            {
+              "time": "20:15",
+              "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/"
+            },
+            {
+              "time": "09:07",
+              "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
+            },
+            {
+              "time": "10:14",
+              "text": "Крис реши: подготвяме Three-Tier Memory + HEARTBEAT + AGENTS за нов setup. Целта: topic OpenClaw Service (718) да е тестова площадка. Подготвяме файловете."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "entries": [
+            {
+              "time": "14:00",
+              "text": "✅ **Phase 3 ЗАВЪРШЕНА + ревюирана!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deployed. Детайли: connections service (send/accept/decline/block), messages service (send/report, URL detection, max 10 chats), discovery feed, requests list, my connections, chat screen (real-time), i18n (53 нови стринга BG+EN)."
+            },
+            {
+              "time": "08:00",
+              "text": "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп."
+            },
+            {
+              "time": "08:09",
+              "text": "Крис създаде Firebase проект **momerly-ba95a** и даде Editor достъп на koiopenclaw@gmail.com. Firebase CLI инсталиран (v15.10.0). Чакаме auth code от Крис за `firebase login:ci`."
+            },
+            {
+              "time": "08:13",
+              "text": "📧 Heartbeat: Firebase покана пристигнала на мейла. 5 непрочетени (Firebase collaborator invite, Google new account info, GitHub OAuth, Supabase welcome, demo-sites workflow failure). Нищо спешно."
+            },
+            {
+              "time": "13:56",
+              "text": "По-добро решение: `openclaw system event` в Codex prompt-а. Codex изпълнява командата при завършване → OpenClaw event → Koi се събужда веднага (секунди). Watchdog + heartbeat остават като backup. AGENTS.md обновен."
+            },
+            {
+              "time": "18:50",
+              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
+            },
+            {
+              "time": "19:06",
+              "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "entries": [
+            {
+              "time": "05:50",
+              "text": "SEO/GEO/AEO одит на vetcareyordanov.com. Пълен анализ: 33 страници, React SPA (Vite + Supabase, Lovable hosting). Оценка 5.5/10. Основни проблеми: SPA без SSR (еднакви title/description на всички страници), липса на canonical, липса на FAQ/Breadcrumb/Service schema. Генериран .docx доклад и изпратен в topic 1."
+            },
+            {
+              "time": "10:53",
+              "text": "Крис направи Supabase регистрация (GitHub auth). Акаунтът е празен (нов), vet сайтът е на Lovable Supabase. Token настроен."
+            },
+            {
+              "time": "12:42",
+              "text": "BG Quality Honey: CNAME файл създаден — сайтът качен на домейн. Статус → done. Live: https://koiopenclaw-max.github.io/bg-quality-honey/"
+            },
+            {
+              "time": "18:10",
+              "text": "Momerly v3.0: Крис смени стека на Firebase (вместо Supabase) + потвърди Expo. Актуализиран SKILL.md, генериран .docx v3.0 задание."
+            },
+            {
+              "time": "13:37",
+              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
+            },
+            {
+              "time": "12:30",
+              "text": "All 5 tasks done, deployed to GitHub Pages + Supabase"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-11",
+          "entries": [
+            {
+              "time": "14:06",
+              "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub."
+            },
+            {
+              "time": "22:08",
+              "text": "✅ Zdravko landing page ГОТОВ и деплойнат. Repo: koiopenclaw-max/zdravko-landing. Live: https://koiopenclaw-max.github.io/zdravko-landing/ Demo-sites статус обновен → done."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
