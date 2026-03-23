@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-23T17:00:03.038Z",
+  "updated": "2026-03-23T17:05:03.257Z",
   "totalDays": 18,
-  "totalEntries": 343,
+  "totalEntries": 344,
   "days": [
     {
       "date": "2026-03-23",
       "dayName": "Понеделник",
       "entries": [
+        {
+          "time": "16:58",
+          "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена.",
+          "type": "email"
+        },
         {
           "time": "16:55",
           "text": "🦷 Създадох 2 нови dental killer templates: \"Noir Luxe\" (тъмен, козметична стоматология, Cormorant Garamond + Poppins, rose gold) и \"Warm Haven\" (мек семеен, Fraunces + DM Sans, terracotta + forest green). Deploy на GitHub Pages. Общо 3 dental templates: killer-v1, noir, warm.",
@@ -85,7 +90,7 @@
       "decisions": [],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "date": "2026-03-22",
