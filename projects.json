@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T19:00:04.134Z",
+  "updated": "2026-03-23T19:05:04.012Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -140,6 +140,10 @@
             {
               "time": "17:15",
               "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
+            },
+            {
+              "time": "19:05",
+              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
         },
@@ -504,6 +508,10 @@
             {
               "time": "17:15",
               "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
+            },
+            {
+              "time": "19:05",
+              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
         },
@@ -1021,6 +1029,10 @@
             {
               "time": "17:15",
               "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
+            },
+            {
+              "time": "19:05",
+              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
         },
@@ -1679,6 +1691,10 @@
             {
               "time": "17:15",
               "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
+            },
+            {
+              "time": "19:05",
+              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
         },
@@ -1989,6 +2005,10 @@
           "date": "2026-03-23",
           "entries": [
             {
+              "time": "19:03",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
               "time": "17:28",
               "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
             },
@@ -2003,6 +2023,10 @@
             {
               "time": "17:15",
               "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
+            },
+            {
+              "time": "19:05",
+              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
         },
