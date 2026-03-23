@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T16:35:03.361Z",
-  "serverUptime": 1235958,
+  "timestamp": "2026-03-23T16:36:02.542Z",
+  "serverUptime": 1236018,
   "loadAvg": [
-    "1.17",
-    "0.72",
-    "0.44"
+    "1.07",
+    "0.73",
+    "0.46"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:34:51.490Z",
-      "ageSec": 11,
+      "lastUpdate": "2026-03-23T16:36:01.391Z",
+      "ageSec": 1,
       "tokens": 129153,
-      "lastAction": "✏️ momerly.md",
+      "lastAction": "✏️ koi-dashboard.md",
       "hasProcess": false,
       "hasSession": true
     },
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:34:33.654Z",
-      "ageSec": 29,
+      "lastUpdate": "2026-03-23T16:36:02.016Z",
+      "ageSec": 0,
       "tokens": 48900,
-      "lastAction": "📖 SKILL.md",
+      "lastAction": "⏳ poll vivid-seaslug",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 241687,
+      "ageSec": 241746,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
