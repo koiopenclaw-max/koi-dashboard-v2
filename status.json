@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T16:34:35.801Z",
-  "serverUptime": 1235931,
+  "timestamp": "2026-03-23T16:35:03.361Z",
+  "serverUptime": 1235958,
   "loadAvg": [
-    "0.48",
-    "0.60",
-    "0.40"
+    "1.17",
+    "0.72",
+    "0.44"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:34:35.436Z",
-      "ageSec": 0,
+      "lastUpdate": "2026-03-23T16:34:51.490Z",
+      "ageSec": 11,
       "tokens": 129153,
-      "lastAction": "✏️ demo-sites.md",
+      "lastAction": "✏️ momerly.md",
       "hasProcess": false,
       "hasSession": true
     },
@@ -97,7 +97,7 @@
       "status": "working",
       "statusLabel": "🔵 Working",
       "lastUpdate": "2026-03-23T16:34:33.654Z",
-      "ageSec": 2,
+      "ageSec": 29,
       "tokens": 48900,
       "lastAction": "📖 SKILL.md",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 241659,
+      "ageSec": 241687,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
