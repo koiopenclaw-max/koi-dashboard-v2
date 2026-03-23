@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:05:03.570Z",
-  "serverUptime": 1237759,
+  "timestamp": "2026-03-23T17:09:35.574Z",
+  "serverUptime": 1238031,
   "loadAvg": [
-    "0.71",
-    "0.53",
-    "0.45"
+    "0.92",
+    "0.69",
+    "0.52"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 1241,
+      "ageSec": 1513,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,8 +96,8 @@
       "name": "Demo Sites",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T16:59:12.862Z",
-      "ageSec": 350,
+      "lastUpdate": "2026-03-23T17:06:33.063Z",
+      "ageSec": 182,
       "tokens": 117343,
       "lastAction": "Готови са! Ето трите dental темплейта:  ---  **1. 🌿 \"Sage Premium\"** (първият, одобрен) https://koiopenclaw-max.github.i",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T17:04:50.790Z",
-      "ageSec": 12,
+      "lastUpdate": "2026-03-23T17:09:12.831Z",
+      "ageSec": 22,
       "tokens": 25752,
-      "lastAction": "⚡ # Check if there are any secrets in the current dashboard files\ngrep -",
+      "lastAction": "⏳ kill clear-glade",
       "hasProcess": false,
       "hasSession": true
     },
