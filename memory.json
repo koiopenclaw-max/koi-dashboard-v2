@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-23T16:20:03.696Z",
+  "updated": "2026-03-23T16:30:03.015Z",
   "totalDays": 18,
-  "totalEntries": 340,
+  "totalEntries": 341,
   "days": [
     {
       "date": "2026-03-23",
       "dayName": "Понеделник",
       "entries": [
+        {
+          "time": "16:30",
+          "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo.",
+          "type": "email"
+        },
         {
           "time": "16:20",
           "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин.",
@@ -70,7 +75,7 @@
       "decisions": [],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 4
+      "entryCount": 5
     },
     {
       "date": "2026-03-22",
