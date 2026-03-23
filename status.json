@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:00:03.072Z",
-  "serverUptime": 1237458,
+  "timestamp": "2026-03-23T17:04:35.154Z",
+  "serverUptime": 1237730,
   "loadAvg": [
-    "0.88",
+    "0.25",
     "0.46",
-    "0.39"
+    "0.42"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 941,
+      "ageSec": 1213,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:59:12.862Z",
-      "ageSec": 50,
+      "ageSec": 322,
       "tokens": 117343,
       "lastAction": "Готови са! Ето трите dental темплейта:  ---  **1. 🌿 \"Sage Premium\"** (първият, одобрен) https://koiopenclaw-max.github.i",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:59:58.729Z",
-      "ageSec": 4,
-      "tokens": 0,
-      "lastAction": "⚡ ls /home/clawd/Projects/clawai* 2>/dev/null; ls /home/clawd/Projects/ ",
+      "lastUpdate": "2026-03-23T17:04:24.733Z",
+      "ageSec": 10,
+      "tokens": 25752,
+      "lastAction": "⚡ cat /home/clawd/.env.supabase 2>/dev/null",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1205362",
-      "cpu": "78.5",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
@@ -172,8 +161,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
