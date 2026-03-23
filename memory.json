@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-23T16:55:02.342Z",
+  "updated": "2026-03-23T17:00:03.038Z",
   "totalDays": 18,
-  "totalEntries": 342,
+  "totalEntries": 343,
   "days": [
     {
       "date": "2026-03-23",
       "dayName": "Понеделник",
       "entries": [
+        {
+          "time": "16:55",
+          "text": "🦷 Създадох 2 нови dental killer templates: \"Noir Luxe\" (тъмен, козметична стоматология, Cormorant Garamond + Poppins, rose gold) и \"Warm Haven\" (мек семеен, Fraunces + DM Sans, terracotta + forest green). Deploy на GitHub Pages. Общо 3 dental templates: killer-v1, noir, warm.",
+          "type": "deploy"
+        },
         {
           "time": "16:30",
           "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo.",
@@ -80,7 +85,7 @@
       "decisions": [],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 6
+      "entryCount": 7
     },
     {
       "date": "2026-03-22",
