@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T16:37:37.114Z",
-  "serverUptime": 1236112,
+  "timestamp": "2026-03-23T16:39:34.884Z",
+  "serverUptime": 1236230,
   "loadAvg": [
-    "0.34",
-    "0.56",
-    "0.43"
+    "0.08",
+    "0.40",
+    "0.38"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-23T16:36:36.924Z",
-      "ageSec": 60,
-      "tokens": 141137,
-      "lastAction": "Всички 9 проекта са в дашборда. Отвори https://koiopenclaw-max.github.io/koi-dashboard-v2/#projects  **Какво ще видиш:**",
+      "lastUpdate": "2026-03-23T16:38:02.756Z",
+      "ageSec": 92,
+      "tokens": 142126,
+      "lastAction": "Готово. Сега в дашборда са само **6 реални проекта**:  | | Проект | Статус | Прогрес | |---|--------|--------|---------|",
       "hasProcess": false,
       "hasSession": true
     },
@@ -96,8 +96,8 @@
       "name": "Demo Sites",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-23T16:36:02.016Z",
-      "ageSec": 95,
+      "lastUpdate": "2026-03-23T16:38:05.761Z",
+      "ageSec": 89,
       "tokens": 48900,
       "lastAction": "⏳ poll vivid-seaslug",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 241841,
+      "ageSec": 241959,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
