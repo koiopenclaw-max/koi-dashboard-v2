@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-23T16:30:03.018Z",
-  "serverUptime": 1235658,
+  "timestamp": "2026-03-23T16:31:02.512Z",
+  "serverUptime": 1235718,
   "loadAvg": [
-    "1.06",
+    "0.71",
     "0.43",
     "0.30"
   ],
@@ -10,10 +10,10 @@
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-23T16:28:33.603Z",
-      "ageSec": 89,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-23T16:30:47.954Z",
+      "ageSec": 14,
       "tokens": 125226,
       "lastAction": "---  **📊 REPORT: PII Redaction Protocol**  **Какво беше проблемът:** - `memory.json` и `projects.json` в **публично** re",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:30:02.538Z",
-      "ageSec": 0,
+      "lastUpdate": "2026-03-23T16:30:59.760Z",
+      "ageSec": 2,
       "tokens": 48900,
-      "lastAction": "🌐 https://www.thedentallounge.com.au/",
+      "lastAction": "⚡ cd /home/clawd/.openclaw/workspace && node -e \"\nif (!process.env.NODE_",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 241387,
+      "ageSec": 241446,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
@@ -152,27 +152,16 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1194020",
-      "cpu": "125",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 2,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 10,
     "stuck": 0
   }
