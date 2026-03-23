@@ -1,15 +1,15 @@
 {
-  "updated": "2026-03-23T17:25:03.292Z",
+  "updated": "2026-03-23T17:30:03.415Z",
   "totalDays": 18,
-  "totalEntries": 345,
+  "totalEntries": 346,
   "days": [
     {
       "date": "2026-03-23",
       "dayName": "Понеделник",
       "entries": [
         {
-          "time": "17:15",
-          "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/",
+          "time": "17:28",
+          "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted], НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/",
           "type": "deploy"
         },
         {
@@ -95,7 +95,7 @@
       "decisions": [],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 9
+      "entryCount": 10
     },
     {
       "date": "2026-03-22",
