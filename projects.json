@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T16:20:04.150Z",
+  "updated": "2026-03-23T16:30:03.533Z",
   "totalProjects": 1,
   "active": 1,
   "projects": [
@@ -130,6 +130,10 @@
             {
               "time": "14:10",
               "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+            },
+            {
+              "time": "16:30",
+              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
             },
             {
               "time": "16:20",
