@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T16:39:34.884Z",
-  "serverUptime": 1236230,
+  "timestamp": "2026-03-23T16:40:03.400Z",
+  "serverUptime": 1236258,
   "loadAvg": [
-    "0.08",
-    "0.40",
-    "0.38"
+    "0.59",
+    "0.48",
+    "0.41"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-23T16:38:02.756Z",
-      "ageSec": 92,
+      "ageSec": 120,
       "tokens": 142126,
       "lastAction": "Готово. Сега в дашборда са само **6 реални проекта**:  | | Проект | Статус | Прогрес | |---|--------|--------|---------|",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-23T16:38:05.761Z",
-      "ageSec": 89,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-23T16:39:49.134Z",
+      "ageSec": 14,
       "tokens": 48900,
       "lastAction": "⏳ poll vivid-seaslug",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 241959,
+      "ageSec": 241987,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 2,
+    "recent": 1,
     "idle": 10,
     "stuck": 0
   }
