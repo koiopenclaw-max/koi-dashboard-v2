@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-23T17:15:03.625Z",
+  "updated": "2026-03-23T17:20:04.803Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -136,6 +136,10 @@
             {
               "time": "16:58",
               "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
+            },
+            {
+              "time": "17:15",
+              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
             }
           ]
         },
@@ -504,6 +508,10 @@
             {
               "time": "16:55",
               "text": "🦷 Създадох 2 нови dental killer templates: \"Noir Luxe\" (тъмен, козметична стоматология, Cormorant Garamond + Poppins, rose gold) и \"Warm Haven\" (мек семеен, Fraunces + DM Sans, terracotta + forest green). Deploy на GitHub Pages. Общо 3 dental templates: killer-v1, noir, warm."
+            },
+            {
+              "time": "17:15",
+              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
             }
           ]
         },
@@ -1017,6 +1025,10 @@
             {
               "time": "16:58",
               "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
+            },
+            {
+              "time": "17:15",
+              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
             }
           ]
         },
@@ -1671,6 +1683,10 @@
             {
               "time": "16:58",
               "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
+            },
+            {
+              "time": "17:15",
+              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
             }
           ]
         },
@@ -1991,6 +2007,10 @@
             {
               "time": "16:55",
               "text": "🦷 Създадох 2 нови dental killer templates: \"Noir Luxe\" (тъмен, козметична стоматология, Cormorant Garamond + Poppins, rose gold) и \"Warm Haven\" (мек семеен, Fraunces + DM Sans, terracotta + forest green). Deploy на GitHub Pages. Общо 3 dental templates: killer-v1, noir, warm."
+            },
+            {
+              "time": "17:15",
+              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
             }
           ]
         },
