@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:55:03.152Z",
-  "serverUptime": 1240758,
+  "timestamp": "2026-03-23T18:00:03.578Z",
+  "serverUptime": 1241059,
   "loadAvg": [
-    "0.32",
-    "0.21",
-    "0.20"
+    "0.34",
+    "0.17",
+    "0.18"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 4241,
+      "ageSec": 4541,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 2028,
+      "ageSec": 2328,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1224979",
-      "cpu": "54.5",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
