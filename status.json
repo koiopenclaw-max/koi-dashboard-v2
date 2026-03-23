@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-23T16:26:34.638Z",
-  "serverUptime": 1235450,
+  "timestamp": "2026-03-23T16:30:03.018Z",
+  "serverUptime": 1235658,
   "loadAvg": [
-    "0.53",
-    "0.31",
-    "0.25"
+    "1.06",
+    "0.43",
+    "0.30"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:26:32.524Z",
-      "ageSec": 2,
-      "tokens": 114509,
-      "lastAction": "⚡ cd /tmp/koi-dashboard-v2 && git stash pop 2>/dev/null\n\n# Verify histor",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-23T16:28:33.603Z",
+      "ageSec": 89,
+      "tokens": 125226,
+      "lastAction": "---  **📊 REPORT: PII Redaction Protocol**  **Какво беше проблемът:** - `memory.json` и `projects.json` в **публично** re",
       "hasProcess": false,
       "hasSession": true
     },
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T16:25:54.594Z",
-      "ageSec": 40,
-      "tokens": 42807,
-      "lastAction": "Честен отговор — прав си. Повечето изглеждат като \"поредния AI сайт\". Ето три идеи които ще ги направят наистина продава",
+      "lastUpdate": "2026-03-23T16:30:02.538Z",
+      "ageSec": 0,
+      "tokens": 48900,
+      "lastAction": "🌐 https://www.thedentallounge.com.au/",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 241178,
+      "ageSec": 241387,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
@@ -152,16 +152,27 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1194020",
+      "cpu": "125",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 2,
+    "working": 1,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 10,
     "stuck": 0
   }
