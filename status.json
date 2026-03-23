@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:45:03.314Z",
-  "serverUptime": 1240158,
+  "timestamp": "2026-03-23T17:50:03.389Z",
+  "serverUptime": 1240458,
   "loadAvg": [
-    "0.45",
-    "0.22",
-    "0.25"
+    "0.26",
+    "0.15",
+    "0.20"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 3641,
+      "ageSec": 3941,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 1428,
+      "ageSec": 1728,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
