@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T19:10:03.407Z",
-  "serverUptime": 1245258,
+  "timestamp": "2026-03-23T19:14:34.624Z",
+  "serverUptime": 1245530,
   "loadAvg": [
-    "0.00",
-    "0.14",
-    "0.15"
+    "0.26",
+    "0.22",
+    "0.18"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 8741,
+      "ageSec": 9012,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T19:09:37.406Z",
-      "ageSec": 25,
-      "tokens": 60453,
-      "lastAction": "Готово! 🔥  **Ето новия Дентален Дом:** https://koiopenclaw-max.github.io/dental-warm-template/  Какво е различно от стар",
+      "lastUpdate": "2026-03-23T19:14:30.769Z",
+      "ageSec": 3,
+      "tokens": 62855,
+      "lastAction": "Готово — вече е с истинското НЗОК лого на двете места (hero trust badge + about секция). Ще се обнови за ~60 сек.  И зап",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 6528,
+      "ageSec": 6799,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
