@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T17:10:04.106Z",
-  "serverUptime": 1238059,
+  "timestamp": "2026-03-23T17:14:35.318Z",
+  "serverUptime": 1238330,
   "loadAvg": [
-    "1.89",
-    "0.92",
-    "0.60"
+    "0.24",
+    "0.52",
+    "0.51"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 1542,
+      "ageSec": 1813,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T17:06:33.063Z",
-      "ageSec": 211,
-      "tokens": 117343,
-      "lastAction": "Готови са! Ето трите dental темплейта:  ---  **1. 🌿 \"Sage Premium\"** (първият, одобрен) https://koiopenclaw-max.github.i",
+      "lastUpdate": "2026-03-23T17:11:07.307Z",
+      "ageSec": 208,
+      "tokens": 136808,
+      "lastAction": "Обновено. Ето какво промених:  **🖤 Noir Luxe v2:** https://koiopenclaw-max.github.io/dental-noir-template/  **Поправки:*",
       "hasProcess": false,
       "hasSession": true
     },
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-23T17:09:57.470Z",
-      "ageSec": 6,
+      "lastUpdate": "2026-03-23T17:14:27.981Z",
+      "ageSec": 7,
       "tokens": 25752,
-      "lastAction": "⚡ # OK pg is available. But we need the DB password. \n# The Supabase DB ",
+      "lastAction": "⚡ cd /home/clawd/Projects/clawai-dashboard-v2 && \\\n  git remote add orig",
       "hasProcess": false,
       "hasSession": true
     },
