@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-23T16:50:03.661Z",
-  "serverUptime": 1236859,
+  "timestamp": "2026-03-23T16:55:02.593Z",
+  "serverUptime": 1237158,
   "loadAvg": [
-    "0.82",
-    "0.50",
-    "0.42"
+    "0.37",
+    "0.37",
+    "0.38"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 341,
+      "ageSec": 640,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-23T16:47:45.781Z",
-      "ageSec": 137,
+      "lastUpdate": "2026-03-23T16:53:11.275Z",
+      "ageSec": 111,
       "tokens": 90671,
-      "lastAction": "Готово! Ето линка — ще е live за ~60 секунди:  **🦷 https://koiopenclaw-max.github.io/dental-killer-template/**  Какво им",
+      "lastAction": "⚡ mkdir -p /tmp/dental-noir /tmp/dental-warm",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-20T21:26:55.870Z",
-      "ageSec": 242587,
+      "ageSec": 242886,
       "tokens": 74507,
       "lastAction": "[[reply_to_current]] Пратено в Daily Notes. 📝",
       "hasProcess": false,
