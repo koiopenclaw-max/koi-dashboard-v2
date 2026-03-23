@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-23T18:59:34.579Z",
-  "serverUptime": 1244630,
+  "timestamp": "2026-03-23T19:00:03.457Z",
+  "serverUptime": 1244659,
   "loadAvg": [
     "0.19",
     "0.20",
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 8112,
+      "ageSec": 8141,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-23T18:57:54.872Z",
-      "ageSec": 99,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-23T18:59:54.940Z",
+      "ageSec": 8,
       "tokens": 19987,
       "lastAction": "⏳ poll cool-lagoon",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 5899,
+      "ageSec": 5928,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -157,8 +157,8 @@
       "pid": "1245609",
       "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "02:51",
-      "elapsedSec": 171,
+      "elapsed": "03:19",
+      "elapsedSec": 199,
       "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow ALL instructions precisely. Build the dental clinic website exactly ",
       "relatedTopic": null,
       "procType": "codex"
@@ -167,8 +167,8 @@
       "pid": "1245617",
       "cpu": "2.1",
       "mem": "1.5",
-      "elapsed": "02:50",
-      "elapsedSec": 170,
+      "elapsed": "03:19",
+      "elapsedSec": 199,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
@@ -180,9 +180,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
