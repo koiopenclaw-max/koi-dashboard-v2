@@ -1,8 +1,56 @@
 {
-  "updated": "2026-03-23T21:00:02.766Z",
-  "totalDays": 18,
+  "updated": "2026-03-23T21:05:02.603Z",
+  "totalDays": 19,
   "totalEntries": 348,
   "days": [
+    {
+      "date": "2026-03-24",
+      "dayName": "Вторник",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — чака review от Крис"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — чака review от Крис"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — чака QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Admin Dashboard"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-03-23",
       "dayName": "Понеделник",
@@ -101,9 +149,15 @@
           "text": "RunAI Coach — блокер: Mac достъп"
         }
       ],
-      "insights": [],
+      "insights": [
+        "**PII Redaction = трябваше от ден 1.** Три инцидента с credentials (03-10, 03-13, 03-20) и сега PII leak (03-23). Redaction layer + pre-push hook трябваше да бъде baseline от първия public repo. Урок: security layers ПРЕДИ публичност, не след.",
+        "**Dental killer templates — правилният подход.** Проучване на реални сайтове → design brief → build. Резултат: 3 качествени шаблона за 2 часа. Потвърждава: research-first >> iterate-blind.",
+        "**Dashboard v2 — Memory + Projects е силна комбинация.** Timeline view на daily notes + progress bars на проекти дава Крис бърз overview без да пита Koi. Self-service > reporting.",
+        "**Visual validation workflow работи:** screenshot → image analysis → точни инструкции. Значително намалява revision cycles.",
+        "**Credential rotation ДЕН 3** — нужно е ескалиране утре ако Крис не действа."
+      ],
       "decisions": [],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 12
     },
