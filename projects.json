@@ -1,8 +1,379 @@
 {
-  "updated": "2026-03-23T16:35:03.813Z",
-  "totalProjects": 3,
-  "active": 3,
+  "updated": "2026-03-23T16:36:20.419Z",
+  "totalProjects": 9,
+  "active": 4,
   "projects": [
+    {
+      "slug": "ai-running-coach",
+      "name": "RunAI Coach",
+      "emoji": "🏃",
+      "status": "blocked",
+      "priority": "high",
+      "started": "2026-03-06",
+      "updated": "2026-03-23",
+      "topic": 50,
+      "repo": null,
+      "url": null,
+      "vision": "AI-native iOS приложение за бягане — реално-време гласов coaching, injury prediction, adaptive планове. Revenue target: $30k за 10-30 дни → $100k за 6 мес.",
+      "phases": [
+        {
+          "name": "Phase 1: Research & Design",
+          "status": "done",
+          "started": "2026-03-06",
+          "completed": "2026-03-10",
+          "summary": "Конкурентен анализ (Runna, Strava, Nike Run Club). ICP дефиниран. Free vs Pro модел.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 2: Prototype",
+          "status": "done",
+          "started": "2026-03-10",
+          "completed": "2026-03-15",
+          "summary": "Prototype v5.0 — 40 екрана (от 25 в v3.0). Quick Run, Countdown, AI Chat, PRs, Shoe Tracking, Safety/Live Share.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 3: Execution Plan",
+          "status": "done",
+          "started": "2026-03-15",
+          "completed": "2026-03-15",
+          "summary": "Execution Plan v2.0 — MVP = 28 екрана, 5 седмици. Free vs Pro матрица финализирана.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 4: MVP Development",
+          "status": "blocked",
+          "started": null,
+          "completed": null,
+          "summary": "SwiftUI + HealthKit + Apple Watch + Claude API. Нужен Mac за iOS development.",
+          "blockers": [
+            "🔴 Блокер #1: Mac достъп за Xcode/iOS development"
+          ]
+        },
+        {
+          "name": "Phase 5: Beta Testing",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "TestFlight beta с 50-100 бегачи. Iterate по feedback.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 6: App Store Launch",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "ASO, marketing, launch campaign. Revenue tracking.",
+          "blockers": []
+        }
+      ],
+      "progress": 50,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "Prototype с 40 екрана",
+          "done": true
+        },
+        {
+          "text": "Free vs Pro pricing модел",
+          "done": true
+        },
+        {
+          "text": "Execution plan v2.0",
+          "done": true
+        },
+        {
+          "text": "MVP development (28 екрана)",
+          "done": false
+        },
+        {
+          "text": "TestFlight beta",
+          "done": false
+        },
+        {
+          "text": "$30k revenue за първите 30 дни",
+          "done": false
+        }
+      ],
+      "blockers": [
+        "🔴 Mac достъп за iOS development (Xcode, SwiftUI, HealthKit)"
+      ],
+      "nextActions": [
+        "Осигури Mac достъп (Крис)",
+        "Setup Xcode project + HealthKit entitlements",
+        "Phase 4: MVP development start"
+      ],
+      "tags": [
+        "runai",
+        "running",
+        "coach",
+        "ios",
+        "swift",
+        "healthkit",
+        "ai"
+      ],
+      "activityDays": 10,
+      "recentActivity": [
+        {
+          "date": "2026-03-23",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+            },
+            {
+              "time": "16:30",
+              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
+            },
+            {
+              "time": "16:20",
+              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "entries": [
+            {
+              "time": "20:49",
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+            },
+            {
+              "time": "15:33",
+              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
+            },
+            {
+              "time": "14:18",
+              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
+            },
+            {
+              "time": "15:08",
+              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
+            },
+            {
+              "time": "15:26",
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+            },
+            {
+              "time": "16:42",
+              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
+            },
+            {
+              "time": "19:52",
+              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
+            },
+            {
+              "time": "20:10",
+              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "entries": [
+            {
+              "time": "06:45",
+              "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия."
+            },
+            {
+              "time": "14:00",
+              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "entries": [
+            {
+              "time": "20:42",
+              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
+            },
+            {
+              "time": "20:43",
+              "text": "✅ Codex review: Same commits as 16:38 review (watchdog re-triggered again). TSC clean. No new work. Cleaned `/tmp/codex-review-needed.json`."
+            },
+            {
+              "time": "16:38",
+              "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard)."
+            },
+            {
+              "time": "14:03",
+              "text": "Demo Sites: \"Успех Консулт\" деплойнат на custom domain **https://demo53.add.bg/** ✅ SSL сертификат approved. Отделно repo `uspeh-konsult` с CNAME. Статус → `deployed`."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-15",
+          "entries": [
+            {
+              "time": "09:10",
+              "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-14",
+          "entries": [
+            {
+              "time": "20:29",
+              "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github"
+            },
+            {
+              "time": "19:35",
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
+            },
+            {
+              "time": "16:51",
+              "text": "❌ **EAS SDK55 Clean Build ERRORED!** Втори опит (clean build) също fail-на. Проблемът е persistent — SDK55 ъпгрейдът има build issue. Чакаме Крис да сподели логовете."
+            },
+            {
+              "time": "16:59",
+              "text": "❌ **EAS FINAL: ERRORED** — потвърждение, че build-ът е окончателно fail-нал. Крис вече нотифициран (16:27)."
+            },
+            {
+              "time": "18:02",
+              "text": "⚠️ **Git backup:** Commit успешен (21 files, 1253 insertions), но push fail-на — `~/.git-credentials` е празен след PAT ротацията. Крис трябва да добави новия PAT. Нотифициран в topic 1."
+            },
+            {
+              "time": "16:27",
+              "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard."
+            },
+            {
+              "time": "08:43",
+              "text": "Крис попита за EAS build статус. Проверка: билдът (Android, development profile) е **ERRORED** — fail-нал в Prebuild фазата. Пуснат 13.03 19:05, fail-нал 20:11. Грешка: \"Unknown error in Prebuild\". Причина: expo-dev-client липсва в app.json plugins."
+            },
+            {
+              "time": "11:24",
+              "text": "Expo Go tunnel пуснат за iOS тест. Крис тества на iPhone."
+            },
+            {
+              "time": "18:07",
+              "text": "iOS tunnel (ngrok) не работи от VPS-а. iOS EAS build изисква interactive Apple credentials setup. iOS тест отложен."
+            },
+            {
+              "time": "20:15",
+              "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/"
+            },
+            {
+              "time": "09:07",
+              "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "entries": [
+            {
+              "time": "11:55",
+              "text": "✅ **Momerly SDK ъпгрейд завършен!** Expo 52→55 (SDK 54), React 18→19, RN 0.76→0.83. Babel fix, expo-constants добавен. Tunnel active. Крис тества на Android + iOS."
+            },
+            {
+              "time": "08:00",
+              "text": "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп."
+            },
+            {
+              "time": "08:09",
+              "text": "Крис създаде Firebase проект **momerly-ba95a** и даде Editor достъп на koiopenclaw@gmail.com. Firebase CLI инсталиран (v15.10.0). Чакаме auth code от Крис за `firebase login:ci`."
+            },
+            {
+              "time": "08:13",
+              "text": "📧 Heartbeat: Firebase покана пристигнала на мейла. 5 непрочетени (Firebase collaborator invite, Google new account info, GitHub OAuth, Supabase welcome, demo-sites workflow failure). Нищо спешно."
+            },
+            {
+              "time": "08:34",
+              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `[secrets-path].json`."
+            },
+            {
+              "time": "10:38",
+              "text": "🔔 Codex Watchdog добавен в collector. При изчезване на Codex процес → автоматична нотификация в Telegram + запис в daily notes."
+            },
+            {
+              "time": "16:32",
+              "text": "Heartbeat: 5 мейла (3 security alerts за exposed keys в git history, 1 build fail, 1 bearer token). Текущите файлове са чисти. **Крис трябва да ротира: 1) GitHub PAT, 2) Firebase API key (restrict в Google Cloud Console).**"
+            },
+            {
+              "time": "18:50",
+              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
+            },
+            {
+              "time": "19:06",
+              "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "entries": [
+            {
+              "time": "10:58",
+              "text": "УРОК: Write-on-Close — подсетен за ВТОРИ ПЪТ днес за daily notes sync. ТРЯБВА да записвам веднага, не после!"
+            },
+            {
+              "time": "13:37",
+              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-11",
+          "entries": [
+            {
+              "time": "11:06",
+              "text": "ClawHub проучване: 53 builtin skills + 10 custom. Сравнение с ClawHub marketplace. Липсват: brave-search, tavily-search, self-improving-agent, seo. Builtin gog skill може да замени ръчни Gmail скриптове."
+            },
+            {
+              "time": "11:13",
+              "text": "ClawHub регистрация: не може headless (изисква браузър OAuth). Крис трябва да регистрира акаунт на clawhub.ai и да даде token."
+            },
+            {
+              "time": "13:43",
+              "text": "Codex CLI v0.114.0 инсталиран от Крис, свързан с OpenAI акаунт. Модел: gpt-5.4. Тест: успешен. Workflow активен: Koi задания → Codex кодене → Koi review."
+            },
+            {
+              "time": "14:06",
+              "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub."
+            },
+            {
+              "time": "14:18",
+              "text": "googleapis npm пакет инсталиран глобално за Gmail API достъп."
+            },
+            {
+              "time": "14:22",
+              "text": "Daily session reset конфигуриран: 23:00 UTC (01:00 EET). Workflow: nightly review (21:00) → failsafe (22:00) → reset (23:00) → чист старт."
+            },
+            {
+              "time": "22:00",
+              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-10",
+          "entries": [
+            {
+              "time": "06:03",
+              "text": "Създаден `skills/sales-training/` skill с SKILL.md + references/self-check.md. Причина: базови грешки в ролевите игри (не взимам името, два въпроса наведнъж). Skill-ът зарежда Playbook-а преди всяка игра и прави self-check на всяка реплика."
+            },
+            {
+              "time": "08:07",
+              "text": "Крис предложи идея за AI chatbot платформа (topic 10). Направих пазарно проучване на БГ пазара — 8+ конкурента идентифицирани (Steven Studio, Unmatched, pishatT, TalkX.ai и др.). Доклад: `chatbot_market_research_bg_2026.docx`."
+            },
+            {
+              "time": "12:20",
+              "text": "✅ Gmail достъп настроен за koiopenclaw@gmail.com."
+            },
+            {
+              "time": "12:36",
+              "text": "✅ GitHub достъп настроен. Акаунт: koiopenclaw-max, git config обновен (user.name=Koi, user.email=koiopenclaw@gmail.com). OAuth2 flow (Google Cloud Console → Gmail API → Desktop OAuth client). Credentials в `[secrets-path].json`. Тест: изпратени 2 мейла до k***@infocall.bg успешно."
+            }
+          ]
+        }
+      ]
+    },
     {
       "slug": "demo-sites",
       "name": "Demo Sites Platform",
@@ -121,6 +492,10 @@
             {
               "time": "15:35",
               "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            },
+            {
+              "time": "16:30",
+              "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
             }
           ]
         },
@@ -626,6 +1001,10 @@
             {
               "time": "15:35",
               "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            },
+            {
+              "time": "16:30",
+              "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
             }
           ]
         },
@@ -859,6 +1238,534 @@
             {
               "time": "22:08",
               "text": "✅ Zdravko landing page ГОТОВ и деплойнат. Repo: koiopenclaw-max/zdravko-landing. Live: https://koiopenclaw-max.github.io/zdravko-landing/ Demo-sites статус обновен → done."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "koi-dashboard",
+      "name": "Koi Dashboard",
+      "emoji": "📊",
+      "status": "active",
+      "priority": "medium",
+      "started": "2026-03-13",
+      "updated": "2026-03-23",
+      "topic": 1,
+      "repo": "koiopenclaw-max/koi-dashboard-v2",
+      "url": "https://koiopenclaw-max.github.io/koi-dashboard-v2/",
+      "vision": "Mission Control за Крис — real-time статус на всички топици, Memory (daily notes с timeline), Projects (визия, етапи, прогрес).",
+      "phases": [
+        {
+          "name": "Phase 1: Status Dashboard",
+          "status": "done",
+          "started": "2026-03-13",
+          "completed": "2026-03-13",
+          "summary": "Real-time статус на Telegram топици, процеси, грешки. Status collector cron на 30 сек.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 2: Memory Section",
+          "status": "done",
+          "started": "2026-03-23",
+          "completed": "2026-03-23",
+          "summary": "Ляво меню по дни, timeline с часове, приоритети, решения. Deep parser (цял файл, не само Log секция). Cron sync на 5 мин.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 3: Projects Section",
+          "status": "active",
+          "started": "2026-03-23",
+          "completed": null,
+          "summary": "Проекти с визия, етапи, progress bar, цели, блокери, activity timeline. YAML frontmatter стандарт.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 4: PII Protection",
+          "status": "done",
+          "started": "2026-03-23",
+          "completed": "2026-03-23",
+          "summary": "redact-json.js, pre-push hook, git history squash. Zero PII в публичен repo.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 5: Discussions",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "Дискусии извлечени от transcripts — идеи, аргументи, решения. (Когато Крис реши)",
+          "blockers": []
+        }
+      ],
+      "progress": 60,
+      "activePhase": "Phase 3: Projects Section",
+      "goals": [
+        {
+          "text": "Real-time system status",
+          "done": true
+        },
+        {
+          "text": "Memory с daily notes timeline",
+          "done": true
+        },
+        {
+          "text": "Projects с визия и етапи",
+          "done": true
+        },
+        {
+          "text": "PII redaction protocol",
+          "done": true
+        },
+        {
+          "text": "Discussions от transcripts",
+          "done": false
+        }
+      ],
+      "blockers": [],
+      "nextActions": [
+        "Конвертиране на всички project файлове (в ход)",
+        "Discussions секция (когато Крис реши)"
+      ],
+      "tags": [
+        "dashboard",
+        "koi",
+        "status",
+        "memory",
+        "projects"
+      ],
+      "activityDays": 12,
+      "recentActivity": [
+        {
+          "date": "2026-03-23",
+          "entries": [
+            {
+              "time": "16:30",
+              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
+            },
+            {
+              "time": "16:20",
+              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "entries": [
+            {
+              "time": "20:55",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:49",
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+            },
+            {
+              "time": "15:33",
+              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
+            },
+            {
+              "time": "15:08",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:01",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:59",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:18",
+              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
+            },
+            {
+              "time": "15:08",
+              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
+            },
+            {
+              "time": "15:26",
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "entries": [
+            {
+              "time": "13:09",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:54",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "entries": [
+            {
+              "time": "15:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:56",
+              "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git"
+            },
+            {
+              "time": "13:35",
+              "text": "АКТИВИ КОНСУЛТ revision round 3: Пълно преработване на мобилното меню — slide-in панел от дясно (280px), hamburger→X анимация, backdrop overlay, body scroll lock, auto-close при tap. Commit: f6d7ba2. Status → review."
+            },
+            {
+              "time": "07:58",
+              "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git"
+            },
+            {
+              "time": "07:13",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "07:05",
+              "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf"
+            },
+            {
+              "time": "07:11",
+              "text": "РЕШЕНИЕ: Task Queue + Worker (pm2). Worker е постоянен процес, poll-ва на 30 сек, изпълнява задачи независимо от Koi. pm2: demo-worker. Queue: scripts/demo-queue.json. Dashboard: queue.html."
+            },
+            {
+              "time": "07:15",
+              "text": "Fix: syncFromGH ползваше raw.githubusercontent.com (cached 5 мин). Сега ползва VPS proxy. Добавен auto-refresh на dashboard на 15 сек."
+            },
+            {
+              "time": "08:15",
+              "text": "РУМ-ПЛАМ 2007 revision 3: увеличен шрифт на текстовото лого (1.4rem→1.65rem). Push: 51500d9. Status → review."
+            },
+            {
+              "time": "09:40",
+              "text": "АКТИВИ КОНСУЛТ revisions round 1: Hero снимка от клиентския сайт, пълен \"За нас\" текст с лого, подробни \"Защо нас\" карти, детайлни описания на услугите от сайта. Status → review. Commit: 557761d"
+            },
+            {
+              "time": "09:50",
+              "text": "АКТИВИ КОНСУЛТ ревизия: 1) Заменено текстово лого с реално PNG лого от aktivibs.com, 2) Навигацията вече има фон (не е прозрачна) — текстът е четим. Status → review. Commit: 02eb813"
+            },
+            {
+              "time": "09:52",
+              "text": "АКТИВИ КОНСУЛТ ревизия: логото в хедъра уголемено с 50% (40px→60px) по заявка от Крис. Status → review. Commit: 87b85b5"
+            },
+            {
+              "time": "09:56",
+              "text": "АКТИВИ КОНСУЛТ ревизия: пълна локална SEO оптимизация + OG image fix. Промени: разширени meta keywords (счетоводство/ТРЗ/одит Бургас), geo meta tags, FAQPage Schema, hasOfferCatalog Schema с всички услуги, OG/Twitter image → hero от стария сайт, H1 с ключови думи, footer anchor текстове. Status → review. Commit: 133c070"
+            },
+            {
+              "time": "13:06",
+              "text": "АКТИВИ КОНСУЛТ ревизия: мобилни проблеми — 1) Хамбургер меню: добавен × бутон за затваряне, линковете затварят менюто, z-index коригиран; 2) За нас секция: responsive grid за мобилно. Status → review. Commit: 7e35466"
+            },
+            {
+              "time": "13:42",
+              "text": "АКТИВИ КОНСУЛТ ревизия: мобилно меню fix — z-index йерархия (nav-links z:250 > overlay z:199), touch event handlers с stopPropagation, по-големи tap targets. Status → review. Commit: f63763d"
+            },
+            {
+              "time": "13:43",
+              "text": "АКТИВИ КОНСУЛТ ревизия #6: overlay покриваше целия екран → бутоните некликаеми. Fix: overlay покрива само лявата част (извън slide-in панела), премахнати touchend handlers, линкове с smooth scroll. Status → review. Commit: 46efe60"
+            },
+            {
+              "time": "15:04",
+              "text": "Codex review: АКТИВИ КОНСУЛТ мобилно меню fix завършен, deployed to demo56.add.bg. Status: live. РУМ-ПЛАМ 2007 also live. All demo sites current."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "entries": [
+            {
+              "time": "17:06",
+              "text": "Узунова revisions round 8: data-lang атрибути с български кавички чупеха HTML — в адреса се виждаше суров код. Fix: escaped с &bdquo;/&ldquo; entities. Също поправени tagline и About секция. Status → review. Commit: e6a6a2c"
+            },
+            {
+              "time": "16:10",
+              "text": "Узунова revisions round 7: лого размазано + Пловдив снимка липсва. Fix: logo.jpg + plovdiv-hero.jpg запазени локално, лого аспект 776×146 без принудително квадратно, image-rendering: crisp-edges. Status → review. Commit: fec058d"
+            },
+            {
+              "time": "15:46",
+              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
+            },
+            {
+              "time": "15:43",
+              "text": "Обработена корекция за Узунова: лого 50% по-голямо в навбар, текст \"Узунова\" премахнат, hero секция с Пловдив панорама от Wikimedia Commons. Deploy + status → review."
+            },
+            {
+              "time": "15:43",
+              "text": "Оправен GitHub Action notify-koi.yml (старият тихо пропускаше кирилични файлове). Tunnel watchdog подобрен."
+            },
+            {
+              "time": "15:55",
+              "text": "Processor v5 (Node.js) deploy-нат. Root cause: bash processor дедуплицираше по `slug:status` — повторни `revisions` = skip. Fix: state key вече е `slug:status:updatedAt`."
+            },
+            {
+              "time": "16:00",
+              "text": "Корекция за Узунова: hero снимка на Пловдив видима (CSS `background` shorthand override-ваше `background-image`), лого aspect ratio запазен (оригинал 776x146, не квадрат). Deploy OK. Status → review."
+            },
+            {
+              "time": "16:24",
+              "text": "Корекция за Узунова: лого +30% (62px навбар, 52px футър), нова ярка Пловдив панорама (слънчев ден, Wikimedia Commons, хостната локално). Deploy OK. Status → review."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "entries": [
+            {
+              "time": "20:42",
+              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
+            },
+            {
+              "time": "20:40",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:34",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:18",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:15",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:10",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:56",
+              "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `[server-path] ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images."
+            },
+            {
+              "time": "19:56",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:48",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:43",
+              "text": "🔧 Fix: GitHub Actions `notify-koi.yml` спамеше topic 49 — при всеки push пращаше нотификация за ВСИЧКИ проекти с actionable статус, не само за променения. Оправен да гледа само changed files. Watcher скрипт махнат от cron."
+            },
+            {
+              "time": "16:19",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:38",
+              "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard)."
+            },
+            {
+              "time": "14:17",
+              "text": "Auto-extract topic 49 (156163 tokens, id:49-1773670624):** [2026-03-16T14:02:03] User: пуснах ти нова корекция, ти ми писа че си я получил но автоматизацият ане сработи...; [2026-03-16T14:04:40] User: автоматизациите оправи ли ги?; [2026-03-16T14:11:17] User: а тук има ли автоматизация? работи ли? защо не работи?; [2026-03-16T14:13:07] Webhook-ът работи, проектът е хванат. Сега трябва да го обработя — scrape + brief. Но автоматизаци; [2026-03-16T14:13:58] Имам достатъчно данни. Подготвям brief и QA въпроси:; [2026-03-16T14:14:37] Briefing-ът за **Одиторска кантора Узунова** е готов ✅  Заданието + 6 въпроса са в платформата. Ре; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; [2026-03-16T14:13:18] exec: # Get the full page HTML to extract more info (contact, pages structure)"
+            },
+            {
+              "time": "13:55",
+              "text": "Demo Sites: \"Успех Консулт\" → `dns_setup`. Домейн: demo53.add.bg. CNAME запис нужен: demo53 → koiopenclaw-max.github.io. Крис трябва да добави в DNS."
+            },
+            {
+              "time": "12:06",
+              "text": "Auto-extract topic 49 (159028 tokens, id:49-1773662795):** [2026-03-16T11:58:31] User: аз виждам че е билднат вече....; [2026-03-16T12:00:21] User: сега искам в системата за всеки проект след завършен билд да създадем следваща стъпка - коре; [2026-03-16T12:02:46] Добре, `renderBottomActions` вече чисти при непознати статуси. А revisions UI е в `renderRevisions; [2026-03-16T12:03:10] Сега push-вам index.html в GitHub (трябва и в repo-то за GitHub Pages):; [2026-03-16T12:04:06] Deploy готов ✅ Тествай:  **https://koiopenclaw-max.github.io/demo-sites/**  Отвори \"Успех Консулт\"; https://koiopenclaw-max.github.io/demo-sites/**; https://koiopenclaw-max.github.io/demo-sites/demos/uspeh-konsult/; GIT_SSH_COMMAND=\"ssh -i ~/.ssh/id_ed25519_demosites -o St"
+            },
+            {
+              "time": "10:53",
+              "text": "Deploy workflow успешен. Платформата жива на https://koiopenclaw-max.github.io/demo-sites/"
+            },
+            {
+              "time": "11:53",
+              "text": "Demo Sites: \"Успех Консулт\" — сайт изграден и деплойнат → `done`. URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%83%D1%81%D0%BF%D0%B5%D1%85-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82/"
+            },
+            {
+              "time": "13:49",
+              "text": "✅ Checked revision request for Успех Консулт — changes already applied (logo +50%, year 2026). Status already `approved`. No action needed."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-15",
+          "entries": [
+            {
+              "time": "20:27",
+              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
+            },
+            {
+              "time": "19:08",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:05",
+              "text": "🔔 Codex Phase 4 Sprint 1 завършен. Koi review:"
+            },
+            {
+              "time": "18:20",
+              "text": "✅ **Phase 4 Sprint 2 завършен!** Koi review:"
+            },
+            {
+              "time": "13:15",
+              "text": "Auto-extract topic 51 (152559 tokens, id:51-1773580503):** [2026-03-15T12:57:50] User: Така за дизайна, избрал съм език англ, менюто на апа е на български….не съм гледал екраните…; [2026-03-15T13:08:54] User: Аз нещо не разбирам. Липсва ми инфо от къде се създават тези активитис? Това ми се губи, мол; [2026-03-15T13:11:26] User: Да това ми е въпроса и от дизайн екраните не разбирам от къде какво как се прави…моля да се ; [2026-03-15T13:12:12] Now add the FAB button on Browse Activities, and the \"+ Create\" entry points:; [2026-03-15T13:12:25] Now let me do a full visual validation — open it locally and check everything:; [2026-03-15T13:12:47] Готово, Крис. Оправих двата проблема:  **🔤 i18n fix:** Tab bar-ът (Начало/Връзки/Чат/Профил) имаше; https://github.com/koiopenclaw-max/momerly-design.git; https://koiopenclaw-max.github.io/momerly-design/"
+            },
+            {
+              "time": "09:10",
+              "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-14",
+          "entries": [
+            {
+              "time": "20:29",
+              "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github"
+            },
+            {
+              "time": "19:35",
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
+            },
+            {
+              "time": "16:27",
+              "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard."
+            },
+            {
+              "time": "18:17",
+              "text": "✅ **Решение от Крис за Phase 4 workflow:** Koi прави UI prototype на Activities екраните ПЪРВО → Крис одобрява → ПОСЛЕ Codex кодира по одобрения дизайн. Същият процес като Phase 2-3."
+            },
+            {
+              "time": "20:15",
+              "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/"
+            },
+            {
+              "time": "09:07",
+              "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
+            },
+            {
+              "time": "10:14",
+              "text": "Крис реши: подготвяме Three-Tier Memory + HEARTBEAT + AGENTS за нов setup. Целта: topic OpenClaw Service (718) да е тестова площадка. Подготвяме файловете."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "entries": [
+            {
+              "time": "16:31",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:25",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:24",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:51",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:00",
+              "text": "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп."
+            },
+            {
+              "time": "08:09",
+              "text": "Крис създаде Firebase проект **momerly-ba95a** и даде Editor достъп на koiopenclaw@gmail.com. Firebase CLI инсталиран (v15.10.0). Чакаме auth code от Крис за `firebase login:ci`."
+            },
+            {
+              "time": "10:33",
+              "text": "Dashboard fix: rate limit (GitHub API 60/hr), сменено на raw.githubusercontent.com. Git squash (115→1 commit). Всички 12 топика видими."
+            },
+            {
+              "time": "13:52",
+              "text": "Крис забеляза че dashboard показва стари данни + Momerly idle. Причина: watchdog засече completion но не trigger-на ревю автоматично. Koi провери ръчно и пусна update в topic 51."
+            },
+            {
+              "time": "13:54",
+              "text": "Fix: Watchdog → пише `/tmp/codex-review-needed.json` → Heartbeat го хваща → Koi ревюира + продължава автоматично. HEARTBEAT.md обновен с Codex Completion Review секция."
+            },
+            {
+              "time": "13:56",
+              "text": "По-добро решение: `openclaw system event` в Codex prompt-а. Codex изпълнява командата при завършване → OpenClaw event → Koi се събужда веднага (секунди). Watchdog + heartbeat остават като backup. AGENTS.md обновен."
+            },
+            {
+              "time": "14:00",
+              "text": "⚠️ SECURITY: GitGuardian засече GitHub token в koi-dashboard HTML. Токенът премахнат от HTML, push-нат fix. **НУЖНО: ротация на GitHub token от Крис!** Текущият е compromised."
+            },
+            {
+              "time": "16:28",
+              "text": "Dashboard fix: v2.html с API+raw fallback, index.html redirect-ва. Amend+force push за без commit spam."
+            },
+            {
+              "time": "09:22",
+              "text": "Крис одобри план Фаза 2. Codex spawn-нат, но Крис спря: \"Codex не е дизайнер, Koi прави дизайна.\""
+            },
+            {
+              "time": "19:06",
+              "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
+            },
+            {
+              "time": "19:30",
+              "text": "— 🔴 SECURITY INCIDENT: Exposed secrets in koi-dashboard repo — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` на PUBLIC repo `koiopenclaw-max/koi-dashboard` всеки 30 сек. Полето `lastAction` съдържаше API ключове от exec команди. - **Изтекли:** Google API Key (AIza...GLc за Momerly), GitHub PAT (в auth), Telegram Bot Token (demo-sites repo от 10.03) - **Действия:** - ✅ Repo `koi-dashboard` направено private - ✅ Security Bible обновена с \"Automated Publishing Rule\""
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 SECURITY INCIDENT — Exposed secrets в koi-dashboard — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` с `lastAction` поле, съдържащо API ключове, към **публично** GitHub repo `koi-dashboard` - **Изтекло:** Google API Key (AIzaSy...) за Momerly, потенциално GitHub PAT - **Известия:** GitGuardian (x2), GitHub secret scanning, Google Cloud compliance - **Действия:** - ✅ Repo `koi-dashboard` → private"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "entries": [
+            {
+              "time": "07:51",
+              "text": "Актуализиран `knowledge/projects/demo-sites.md` с SEO Минимален Стандарт — задължителен checklist за всеки бъдещ демо сайт (техническо SEO, schema, OG, local SEO, проверка)."
+            },
+            {
+              "time": "12:42",
+              "text": "BG Quality Honey: CNAME файл създаден — сайтът качен на домейн. Статус → done. Live: https://koiopenclaw-max.github.io/bg-quality-honey/"
+            },
+            {
+              "time": "13:37",
+              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
             }
           ]
         }
@@ -1198,6 +2105,1183 @@
             {
               "time": "22:00",
               "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chatbot-platform",
+      "name": "AI Chatbot Platform",
+      "emoji": "🤖💬",
+      "status": "paused",
+      "priority": "low",
+      "started": "2026-03-10",
+      "updated": "2026-03-23",
+      "topic": 10,
+      "repo": null,
+      "url": null,
+      "vision": "AI chatbot платформа за БГ бизнеси — auto-trained от сайта на клиента, 24/7 клиентско обслужване.",
+      "phases": [
+        {
+          "name": "Phase 1: Research",
+          "status": "done",
+          "started": "2026-03-10",
+          "completed": "2026-03-10",
+          "summary": "Конкурентен анализ (Steven Studio, Unmatched, TalkX.ai). Пазарът е зает но няма clear winner в БГ.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 2: MVP",
+          "status": "paused",
+          "started": null,
+          "completed": null,
+          "summary": "Чака решение — може да се обедини с ClawAI като допълнителен продукт.",
+          "blockers": []
+        }
+      ],
+      "progress": 50,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "Конкурентен анализ на БГ пазар",
+          "done": true
+        },
+        {
+          "text": "MVP chatbot widget",
+          "done": false
+        }
+      ],
+      "blockers": [
+        "Чака стратегическо решение — standalone или част от ClawAI"
+      ],
+      "nextActions": [
+        "Решение: standalone продукт или интеграция в ClawAI"
+      ],
+      "tags": [
+        "chatbot",
+        "platform",
+        "ai"
+      ],
+      "activityDays": 10,
+      "recentActivity": [
+        {
+          "date": "2026-03-23",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+            },
+            {
+              "time": "16:30",
+              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
+            },
+            {
+              "time": "16:20",
+              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "entries": [
+            {
+              "time": "20:49",
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+            },
+            {
+              "time": "15:33",
+              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
+            },
+            {
+              "time": "14:18",
+              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
+            },
+            {
+              "time": "15:08",
+              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
+            },
+            {
+              "time": "15:26",
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+            },
+            {
+              "time": "16:42",
+              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
+            },
+            {
+              "time": "19:52",
+              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
+            },
+            {
+              "time": "20:10",
+              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "entries": [
+            {
+              "time": "06:45",
+              "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия."
+            },
+            {
+              "time": "14:00",
+              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "entries": [
+            {
+              "time": "20:42",
+              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
+            },
+            {
+              "time": "20:43",
+              "text": "✅ Codex review: Same commits as 16:38 review (watchdog re-triggered again). TSC clean. No new work. Cleaned `/tmp/codex-review-needed.json`."
+            },
+            {
+              "time": "16:38",
+              "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard)."
+            },
+            {
+              "time": "14:03",
+              "text": "Demo Sites: \"Успех Консулт\" деплойнат на custom domain **https://demo53.add.bg/** ✅ SSL сертификат approved. Отделно repo `uspeh-konsult` с CNAME. Статус → `deployed`."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-15",
+          "entries": [
+            {
+              "time": "09:10",
+              "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-14",
+          "entries": [
+            {
+              "time": "20:29",
+              "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github"
+            },
+            {
+              "time": "19:35",
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
+            },
+            {
+              "time": "16:51",
+              "text": "❌ **EAS SDK55 Clean Build ERRORED!** Втори опит (clean build) също fail-на. Проблемът е persistent — SDK55 ъпгрейдът има build issue. Чакаме Крис да сподели логовете."
+            },
+            {
+              "time": "16:59",
+              "text": "❌ **EAS FINAL: ERRORED** — потвърждение, че build-ът е окончателно fail-нал. Крис вече нотифициран (16:27)."
+            },
+            {
+              "time": "18:02",
+              "text": "⚠️ **Git backup:** Commit успешен (21 files, 1253 insertions), но push fail-на — `~/.git-credentials` е празен след PAT ротацията. Крис трябва да добави новия PAT. Нотифициран в topic 1."
+            },
+            {
+              "time": "16:27",
+              "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard."
+            },
+            {
+              "time": "08:43",
+              "text": "Крис попита за EAS build статус. Проверка: билдът (Android, development profile) е **ERRORED** — fail-нал в Prebuild фазата. Пуснат 13.03 19:05, fail-нал 20:11. Грешка: \"Unknown error in Prebuild\". Причина: expo-dev-client липсва в app.json plugins."
+            },
+            {
+              "time": "20:15",
+              "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/"
+            },
+            {
+              "time": "09:07",
+              "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "entries": [
+            {
+              "time": "11:10",
+              "text": "🔨 Momerly web build + visual test завършен. Fix: native.ts (dynamic require→Platform-aware), tsconfig module→esnext. 22 screenshots с Playwright. Auth guard блокира tabs (показват Login). 2 console errors (SecureStore web, Firebase permissions). Доклад пратен на Крис."
+            },
+            {
+              "time": "08:00",
+              "text": "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп."
+            },
+            {
+              "time": "08:09",
+              "text": "Крис създаде Firebase проект **momerly-ba95a** и даде Editor достъп на koiopenclaw@gmail.com. Firebase CLI инсталиран (v15.10.0). Чакаме auth code от Крис за `firebase login:ci`."
+            },
+            {
+              "time": "08:13",
+              "text": "📧 Heartbeat: Firebase покана пристигнала на мейла. 5 непрочетени (Firebase collaborator invite, Google new account info, GitHub OAuth, Supabase welcome, demo-sites workflow failure). Нищо спешно."
+            },
+            {
+              "time": "08:34",
+              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `[secrets-path].json`."
+            },
+            {
+              "time": "10:38",
+              "text": "🔔 Codex Watchdog добавен в collector. При изчезване на Codex процес → автоматична нотификация в Telegram + запис в daily notes."
+            },
+            {
+              "time": "16:32",
+              "text": "Heartbeat: 5 мейла (3 security alerts за exposed keys в git history, 1 build fail, 1 bearer token). Текущите файлове са чисти. **Крис трябва да ротира: 1) GitHub PAT, 2) Firebase API key (restrict в Google Cloud Console).**"
+            },
+            {
+              "time": "18:50",
+              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
+            },
+            {
+              "time": "19:06",
+              "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "entries": [
+            {
+              "time": "10:58",
+              "text": "УРОК: Write-on-Close — подсетен за ВТОРИ ПЪТ днес за daily notes sync. ТРЯБВА да записвам веднага, не после!"
+            },
+            {
+              "time": "13:37",
+              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-11",
+          "entries": [
+            {
+              "time": "11:06",
+              "text": "ClawHub проучване: 53 builtin skills + 10 custom. Сравнение с ClawHub marketplace. Липсват: brave-search, tavily-search, self-improving-agent, seo. Builtin gog skill може да замени ръчни Gmail скриптове."
+            },
+            {
+              "time": "11:13",
+              "text": "ClawHub регистрация: не може headless (изисква браузър OAuth). Крис трябва да регистрира акаунт на clawhub.ai и да даде token."
+            },
+            {
+              "time": "13:43",
+              "text": "Codex CLI v0.114.0 инсталиран от Крис, свързан с OpenAI акаунт. Модел: gpt-5.4. Тест: успешен. Workflow активен: Koi задания → Codex кодене → Koi review."
+            },
+            {
+              "time": "14:06",
+              "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub."
+            },
+            {
+              "time": "14:18",
+              "text": "googleapis npm пакет инсталиран глобално за Gmail API достъп."
+            },
+            {
+              "time": "14:22",
+              "text": "Daily session reset конфигуриран: 23:00 UTC (01:00 EET). Workflow: nightly review (21:00) → failsafe (22:00) → reset (23:00) → чист старт."
+            },
+            {
+              "time": "22:00",
+              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-10",
+          "entries": [
+            {
+              "time": "06:03",
+              "text": "Създаден `skills/sales-training/` skill с SKILL.md + references/self-check.md. Причина: базови грешки в ролевите игри (не взимам името, два въпроса наведнъж). Skill-ът зарежда Playbook-а преди всяка игра и прави self-check на всяка реплика."
+            },
+            {
+              "time": "08:07",
+              "text": "Крис предложи идея за AI chatbot платформа (topic 10). Направих пазарно проучване на БГ пазара — 8+ конкурента идентифицирани (Steven Studio, Unmatched, pishatT, TalkX.ai и др.). Доклад: `chatbot_market_research_bg_2026.docx`."
+            },
+            {
+              "time": "08:56",
+              "text": "Крис поиска детайлен MVP blueprint. Създадох пълно техническо задание: архитектура (Next.js + PostgreSQL + pgvector + Claude API), 5 sprint-а, DB schema, scraping/auto-Q&A engine, ценообразуване, финансова проекция. ~90-115 часа с vibe coding, 4-5 седмици. Доклад: `chatbot_mvp_blueprint.docx`."
+            },
+            {
+              "time": "12:20",
+              "text": "✅ Gmail достъп настроен за koiopenclaw@gmail.com."
+            },
+            {
+              "time": "12:36",
+              "text": "✅ GitHub достъп настроен. Акаунт: koiopenclaw-max, git config обновен (user.name=Koi, user.email=koiopenclaw@gmail.com). OAuth2 flow (Google Cloud Console → Gmail API → Desktop OAuth client). Credentials в `[secrets-path].json`. Тест: изпратени 2 мейла до k***@infocall.bg успешно."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "x-audience-challenges",
+      "name": "X Audience Challenges",
+      "emoji": "🐦",
+      "status": "paused",
+      "priority": "low",
+      "started": "2026-03-12",
+      "updated": "2026-03-23",
+      "topic": 1648,
+      "repo": null,
+      "url": null,
+      "vision": "Проучване на проблемите на X аудиторията → build решение. Ние ставаме потребители, X акаунт @KoiNov1.",
+      "phases": [
+        {
+          "name": "Phase 1: Research",
+          "status": "done",
+          "started": "2026-03-12",
+          "completed": "2026-03-12",
+          "summary": "7 проблема идентифицирани (reach, monetization, analytics, automation, cross-platform, content, brand). Път 2 избран — ставаме потребители.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 2: Account Setup",
+          "status": "done",
+          "started": "2026-03-12",
+          "completed": "2026-03-12",
+          "summary": "X акаунт @KoiNov1, 250 followers. Ниша: AI/Vibecoding/OpenClaw/Crypto (EN, global).",
+          "blockers": []
+        },
+        {
+          "name": "Phase 3: Content & Growth",
+          "status": "paused",
+          "started": null,
+          "completed": null,
+          "summary": "Manual posting, Supabase DB за tracking. Чака решение от Крис за продължение.",
+          "blockers": []
+        }
+      ],
+      "progress": 67,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "Проучване на X аудитория проблеми",
+          "done": true
+        },
+        {
+          "text": "X акаунт с ниша и позициониране",
+          "done": true
+        },
+        {
+          "text": "Устойчив content pipeline",
+          "done": false
+        }
+      ],
+      "blockers": [
+        "Чака решение от Крис за приоритет и продължение"
+      ],
+      "nextActions": [
+        "Решение от Крис: продължаваме ли или паркираме?"
+      ],
+      "tags": [
+        "x",
+        "twitter",
+        "audience",
+        "growth"
+      ],
+      "activityDays": 12,
+      "recentActivity": [
+        {
+          "date": "2026-03-23",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "entries": [
+            {
+              "time": "20:55",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:49",
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+            },
+            {
+              "time": "15:33",
+              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
+            },
+            {
+              "time": "15:08",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:01",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:59",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:18",
+              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
+            },
+            {
+              "time": "15:08",
+              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
+            },
+            {
+              "time": "20:40",
+              "text": "🔴 SECURITY INCIDENT: Supabase service_role key exposed**"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-19",
+          "entries": [
+            {
+              "time": "13:09",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:54",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-18",
+          "entries": [
+            {
+              "time": "15:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:56",
+              "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git"
+            },
+            {
+              "time": "13:35",
+              "text": "АКТИВИ КОНСУЛТ revision round 3: Пълно преработване на мобилното меню — slide-in панел от дясно (280px), hamburger→X анимация, backdrop overlay, body scroll lock, auto-close при tap. Commit: f6d7ba2. Status → review."
+            },
+            {
+              "time": "07:58",
+              "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git"
+            },
+            {
+              "time": "07:13",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "07:05",
+              "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf"
+            },
+            {
+              "time": "07:12",
+              "text": "Worker хвана building задача за РУМ-ПЛАМ, но Codex не произведе index.html (timeout 17 сек — прекалено кратко). Билдът обаче беше вече направен от предишна сесия (commit 9cfc6bf, 07:08)."
+            },
+            {
+              "time": "07:15",
+              "text": "Fix: syncFromGH ползваше raw.githubusercontent.com (cached 5 мин). Сега ползва VPS proxy. Добавен auto-refresh на dashboard на 15 сек."
+            },
+            {
+              "time": "14:00",
+              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
+            },
+            {
+              "time": "14:05",
+              "text": "🔴 SECURITY FIX v1: Открит проблем — proxy без auth. Първи опит с API key в header — но ключът се виждаше в source-а на GitHub Pages (грешка)."
+            },
+            {
+              "time": "14:12",
+              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: [secrets-path]. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
+            },
+            {
+              "time": "14:18",
+              "text": "АКТИВИ КОНСУЛТ мобилно меню — ROOT CAUSE НАМЕРЕН: `<nav>` имаше z-index:100, overlay z-index:200, nav-links z-index:300. Но nav-links е ДЕТЕ на nav, значи целият stacking context на nav (100) е ПОД overlay-а (200). Fix: nav z-index:100→999. Тестван с Playwright — ✅ линковете се кликват, overlay затваря менюто. Commit: cccfda3."
+            },
+            {
+              "time": "08:10",
+              "text": "— Demo Sites automation fix — - **Проблем:** Worker за revisions пускаше тъп Codex без валидация → маркираше \"done\" без реални промени - **Проблем 2:** dns_setup loop — процесорът re-queue-ваше вече обработени задачи - **Проблем 3:** Git divergence блокираше pull - **Fix 1:** Ръчно коригирах РУМ-ПЛАМ 2007: © 2025→2026, OG image, Open Graph, Twitter Card, SEO meta - **Fix 2:** Преработих `executeRevisions` в demo-worker.js — вместо Codex, делегира на Koi чрез trigger файл"
+            },
+            {
+              "time": "09:52",
+              "text": "АКТИВИ КОНСУЛТ ревизия: логото в хедъра уголемено с 50% (40px→60px) по заявка от Крис. Status → review. Commit: 87b85b5"
+            },
+            {
+              "time": "09:56",
+              "text": "АКТИВИ КОНСУЛТ ревизия: пълна локална SEO оптимизация + OG image fix. Промени: разширени meta keywords (счетоводство/ТРЗ/одит Бургас), geo meta tags, FAQPage Schema, hasOfferCatalog Schema с всички услуги, OG/Twitter image → hero от стария сайт, H1 с ключови думи, footer anchor текстове. Status → review. Commit: 133c070"
+            },
+            {
+              "time": "13:06",
+              "text": "АКТИВИ КОНСУЛТ ревизия: мобилни проблеми — 1) Хамбургер меню: добавен × бутон за затваряне, линковете затварят менюто, z-index коригиран; 2) За нас секция: responsive grid за мобилно. Status → review. Commit: 7e35466"
+            },
+            {
+              "time": "13:42",
+              "text": "АКТИВИ КОНСУЛТ ревизия: мобилно меню fix — z-index йерархия (nav-links z:250 > overlay z:199), touch event handlers с stopPropagation, по-големи tap targets. Status → review. Commit: f63763d"
+            },
+            {
+              "time": "13:43",
+              "text": "АКТИВИ КОНСУЛТ ревизия #6: overlay покриваше целия екран → бутоните некликаеми. Fix: overlay покрива само лявата част (извън slide-in панела), премахнати touchend handlers, линкове с smooth scroll. Status → review. Commit: 46efe60"
+            },
+            {
+              "time": "14:25",
+              "text": "АКТИВИ КОНСУЛТ - Бургас: deploying → live. Repo demo56-add-bg вече имаше CNAME + mobile fix. Статус обновен в demo-sites → live. URL: https://demo56.add.bg"
+            },
+            {
+              "time": "15:04",
+              "text": "Codex review: АКТИВИ КОНСУЛТ мобилно меню fix завършен, deployed to demo56.add.bg. Status: live. РУМ-ПЛАМ 2007 also live. All demo sites current."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "entries": [
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 49 (182788 tokens, id:49-1773766955):** [2026-03-17T16:51:20] User: heartbeat няма да помгне,,..вече сме го тествали 100 пъти за това; [2026-03-17T16:59:25] User: DEMO_ACTION: Одиторска кантора Узунова → revisions. Trigger: /tmp/demo-action-trigger-одитор; [2026-03-17T16:59:56] `openclaw agent` **ме събуди!** 🎉 Това е пътят. Нека обновя processor-а да ползва точно това:; [2026-03-17T17:00:12] Сега обработвам текущата корекция. Нека видя какво е:; [2026-03-17T17:00:26] Статусът е `review`, без активна корекция. `openclaw agent` ме събуди с тест, но няма реална задач; # Check if it auto-restarts; ps a; [2026-03-17T17:00:12] exec: cat /tmp/demo-action-trigger-одиторска-кантора-узунова.json 2>/dev/null || echo"
+            },
+            {
+              "time": "17:06",
+              "text": "Узунова revisions round 8: data-lang атрибути с български кавички чупеха HTML — в адреса се виждаше суров код. Fix: escaped с &bdquo;/&ldquo; entities. Също поправени tagline и About секция. Status → review. Commit: e6a6a2c"
+            },
+            {
+              "time": "16:10",
+              "text": "Узунова revisions round 7: лого размазано + Пловдив снимка липсва. Fix: logo.jpg + plovdiv-hero.jpg запазени локално, лого аспект 776×146 без принудително квадратно, image-rendering: crisp-edges. Status → review. Commit: fec058d"
+            },
+            {
+              "time": "15:46",
+              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
+            },
+            {
+              "time": "15:06",
+              "text": "Cloudflare tunnel за demo-sites proxy беше мъртъв. Пуснат нов: `translations-episodes-hobbies-causing.trycloudflare.com`. Обновен index.html и push-нат."
+            },
+            {
+              "time": "15:55",
+              "text": "Processor v5 (Node.js) deploy-нат. Root cause: bash processor дедуплицираше по `slug:status` — повторни `revisions` = skip. Fix: state key вече е `slug:status:updatedAt`."
+            },
+            {
+              "time": "16:00",
+              "text": "Корекция за Узунова: hero снимка на Пловдив видима (CSS `background` shorthand override-ваше `background-image`), лого aspect ratio запазен (оригинал 776x146, не квадрат). Deploy OK. Status → review."
+            },
+            {
+              "time": "16:22",
+              "text": "Processor v6 deploy-нат: директна Telegram нотификация в topic 49 (openclaw message send -m). Root cause на липсващи нотификации: raw.githubusercontent.com кешира до 5 мин → processor не виждаше нови промени. Fix: ползва GitHub API (v3.raw) вместо download_url."
+            },
+            {
+              "time": "16:24",
+              "text": "Корекция за Узунова: лого +30% (62px навбар, 52px футър), нова ярка Пловдив панорама (слънчев ден, Wikimedia Commons, хостната локално). Deploy OK. Status → review."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "entries": [
+            {
+              "time": "20:42",
+              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
+            },
+            {
+              "time": "20:43",
+              "text": "✅ Codex review: Same commits as 16:38 review (watchdog re-triggered again). TSC clean. No new work. Cleaned `/tmp/codex-review-needed.json`."
+            },
+            {
+              "time": "20:40",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:35",
+              "text": "✅ Codex review: Same 3 commits as 16:38 review (watchdog re-triggered). TSC clean. No new work needed. Cleaned `/tmp/codex-review-needed.json`."
+            },
+            {
+              "time": "20:34",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:18",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:15",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "20:10",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:56",
+              "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `[server-path] ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images."
+            },
+            {
+              "time": "19:56",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:48",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:43",
+              "text": "🔧 Fix: GitHub Actions `notify-koi.yml` спамеше topic 49 — при всеки push пращаше нотификация за ВСИЧКИ проекти с actionable статус, не само за променения. Оправен да гледа само changed files. Watcher скрипт махнат от cron."
+            },
+            {
+              "time": "16:41",
+              "text": "🔧 Fix: Успех Консулт статус `approved` → `deployed` + liveUrl в GitHub data"
+            },
+            {
+              "time": "16:19",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:38",
+              "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard)."
+            },
+            {
+              "time": "14:17",
+              "text": "Auto-extract topic 49 (156163 tokens, id:49-1773670624):** [2026-03-16T14:02:03] User: пуснах ти нова корекция, ти ми писа че си я получил но автоматизацият ане сработи...; [2026-03-16T14:04:40] User: автоматизациите оправи ли ги?; [2026-03-16T14:11:17] User: а тук има ли автоматизация? работи ли? защо не работи?; [2026-03-16T14:13:07] Webhook-ът работи, проектът е хванат. Сега трябва да го обработя — scrape + brief. Но автоматизаци; [2026-03-16T14:13:58] Имам достатъчно данни. Подготвям brief и QA въпроси:; [2026-03-16T14:14:37] Briefing-ът за **Одиторска кантора Узунова** е готов ✅  Заданието + 6 въпроса са в платформата. Ре; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; [2026-03-16T14:13:18] exec: # Get the full page HTML to extract more info (contact, pages structure)"
+            },
+            {
+              "time": "13:43",
+              "text": "Demo Sites: \"Успех Консулт\" — revisions оправени (лого header 42→63px, footer 36→54px, copyright 2025→2026). Деплойнато, статус → `review`."
+            },
+            {
+              "time": "13:55",
+              "text": "Demo Sites: \"Успех Консулт\" → `dns_setup`. Домейн: demo53.add.bg. CNAME запис нужен: demo53 → koiopenclaw-max.github.io. Крис трябва да добави в DNS."
+            },
+            {
+              "time": "13:24",
+              "text": "Demo Sites: VPS proxy (pm2 `demo-proxy`, порт 3847) е публично достъпен. Платформата записва през proxy, нула токени в клиентския код. Deploy workflow изчистен от token injection."
+            },
+            {
+              "time": "12:42",
+              "text": "🔴 ИНЦИДЕНТ: GitHub token изтече в публичен HTML (втори път!). Причина: deploy workflow инжектира token → sed замени placeholder → token видим в source. Фикс: махнат token injection от workflow, махнат всякакъв token от клиентския код. Архитектура: четене = публичен GitHub API, запис = VPS proxy."
+            },
+            {
+              "time": "12:06",
+              "text": "Auto-extract topic 49 (159028 tokens, id:49-1773662795):** [2026-03-16T11:58:31] User: аз виждам че е билднат вече....; [2026-03-16T12:00:21] User: сега искам в системата за всеки проект след завършен билд да създадем следваща стъпка - коре; [2026-03-16T12:02:46] Добре, `renderBottomActions` вече чисти при непознати статуси. А revisions UI е в `renderRevisions; [2026-03-16T12:03:10] Сега push-вам index.html в GitHub (трябва и в repo-то за GitHub Pages):; [2026-03-16T12:04:06] Deploy готов ✅ Тествай:  **https://koiopenclaw-max.github.io/demo-sites/**  Отвори \"Успех Консулт\"; https://koiopenclaw-max.github.io/demo-sites/**; https://koiopenclaw-max.github.io/demo-sites/demos/uspeh-konsult/; GIT_SSH_COMMAND=\"ssh -i ~/.ssh/id_ed25519_demosites -o St"
+            },
+            {
+              "time": "09:41",
+              "text": "Диагноза: GitHub PAT в index.html беше изтекъл (хардкоднат, base64 obfuscation)"
+            },
+            {
+              "time": "10:53",
+              "text": "Deploy workflow успешен. Платформата жива на https://koiopenclaw-max.github.io/demo-sites/"
+            },
+            {
+              "time": "11:53",
+              "text": "Demo Sites: \"Успех Консулт\" — сайт изграден и деплойнат → `done`. URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%83%D1%81%D0%BF%D0%B5%D1%85-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82/"
+            },
+            {
+              "time": "14:06",
+              "text": "Demo Sites: \"Успех Консулт\" revisions #2 — добавен OG image (1200x630) за link sharing preview. Лого + branding на тъмен фон. Деплойнато в двата repo-та (demo-sites + uspeh-konsult). Статус → `review`."
+            },
+            {
+              "time": "20:38",
+              "text": "🎯 РЕШЕНИЕ: Claude Code vs Codex за демо сайтове"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-15",
+          "entries": [
+            {
+              "time": "20:27",
+              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
+            },
+            {
+              "time": "19:08",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:05",
+              "text": "🔔 Codex Phase 4 Sprint 1 завършен. Koi review:"
+            },
+            {
+              "time": "18:10",
+              "text": "🚀 Codex Sprint 2 стартиран (session: `lucky-cloud`). Задание: Activity group chat (time-bound, auto-lock), post-activity confirmation (60% rule, host flagging), late cancel tracking (30-day window, 14-day cooldown), auto-complete service."
+            },
+            {
+              "time": "13:15",
+              "text": "Auto-extract topic 51 (152559 tokens, id:51-1773580503):** [2026-03-15T12:57:50] User: Така за дизайна, избрал съм език англ, менюто на апа е на български….не съм гледал екраните…; [2026-03-15T13:08:54] User: Аз нещо не разбирам. Липсва ми инфо от къде се създават тези активитис? Това ми се губи, мол; [2026-03-15T13:11:26] User: Да това ми е въпроса и от дизайн екраните не разбирам от къде какво как се прави…моля да се ; [2026-03-15T13:12:12] Now add the FAB button on Browse Activities, and the \"+ Create\" entry points:; [2026-03-15T13:12:25] Now let me do a full visual validation — open it locally and check everything:; [2026-03-15T13:12:47] Готово, Крис. Оправих двата проблема:  **🔤 i18n fix:** Tab bar-ът (Начало/Връзки/Чат/Профил) имаше; https://github.com/koiopenclaw-max/momerly-design.git; https://koiopenclaw-max.github.io/momerly-design/"
+            },
+            {
+              "time": "09:10",
+              "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-14",
+          "entries": [
+            {
+              "time": "20:29",
+              "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github"
+            },
+            {
+              "time": "19:35",
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
+            },
+            {
+              "time": "17:00",
+              "text": "Auto-extract topic 51 (150020 tokens, id:51-1773507635):** [2026-03-14T16:51:41] User: Смятам, че тук основното е да гледаш глобално и действаш локално. Аназизирай всичко, направи; [2026-03-14T16:55:58] Corrupt `node_modules`. `npm install` без `--legacy-peer-deps` явно произвежда счупен lockfile зар; [2026-03-14T16:57:14] Всичко clean. Сега нека добавя `.npmrc` за EAS builds да ползват `--legacy-peer-deps`:; [2026-03-14T16:58:09] Крис, ето какво направих:  **Анализ:** - Коренният проблем е `@firebase/auth` изисква `@react-nati; [2026-03-14T16:57:51] exec: cat > /tmp/eas-watch8.sh << 'EOF'; #!/bin/bash; BUILD_ID=\"b8eb8fc2-96f4-42e2-946c-"
+            },
+            {
+              "time": "11:50",
+              "text": "✅ **EAS Android Build #2 FINISHED!** APK: https://expo.dev/artifacts/eas/62HQg1xNwS9PoM1fs1fWjK.apk — Крис нотифициран в topic 51."
+            },
+            {
+              "time": "12:38",
+              "text": "✅ **EAS Debug Build FINISHED!** APK: https://expo.dev/artifacts/eas/j63VKLdWBvseoDDHLZh58R.apk — Debug версия за по-лесно тестване/дебъгване. Крис нотифициран в topic 51."
+            },
+            {
+              "time": "14:18",
+              "text": "✅ **EAS Fix Build FINISHED!** Нов APK: https://expo.dev/artifacts/eas/ws9NWGHDapZyjAKVgKUMRz.apk — Крис нотифициран в topic 51."
+            },
+            {
+              "time": "14:50",
+              "text": "✅ **EAS Build #2 FINISHED!** Нов APK: https://expo.dev/artifacts/eas/4Lj4BF8kAu9SvH4ZunYwfQ.apk — Крис нотифициран в topic 51."
+            },
+            {
+              "time": "17:55",
+              "text": "✅ **EAS SDK55-FIX Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk — Крис нотифициран в topic 51."
+            },
+            {
+              "time": "16:27",
+              "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard."
+            },
+            {
+              "time": "10:57",
+              "text": "✅ **EAS Build FINISHED!** APK готов: https://expo.dev/artifacts/eas/3JTcrMifaAgpzmJoWhptku.apk — Крис нотифициран в topic 51 за тестване."
+            },
+            {
+              "time": "08:43",
+              "text": "Крис попита за EAS build статус. Проверка: билдът (Android, development profile) е **ERRORED** — fail-нал в Prebuild фазата. Пуснат 13.03 19:05, fail-нал 20:11. Грешка: \"Unknown error in Prebuild\". Причина: expo-dev-client липсва в app.json plugins."
+            },
+            {
+              "time": "09:25",
+              "text": "Fix: добавен `expo-dev-client` в app.json plugins. Commit: `1319f9c`. Нов EAS build пуснат (Android, development). Build ID: `e5c3e863-795e-43ae-b5ff-6c2dfc122bce`."
+            },
+            {
+              "time": "09:32",
+              "text": "✅ **EAS Build ГОТОВ!** Android .apk: https://expo.dev/artifacts/eas/unAJC53iiGyWU4SJWhMhGW.apk (development profile). Build минал за 7 минути. Линк пратен на Крис."
+            },
+            {
+              "time": "10:40",
+              "text": "✅ Preview build ГОТОВ! .apk: https://expo.dev/artifacts/eas/ooK794knXwW4WoHw4CbG6T.apk — Крис тества."
+            },
+            {
+              "time": "10:46",
+              "text": "🐛 \"Momerly keeps stopping\" на Android. Crash при старт. Причина: `initializeAuth` + `getReactNativePersistence` конфликт. Fix: сменен на `getAuth()` (commit `8530d3d`)."
+            },
+            {
+              "time": "11:24",
+              "text": "Expo Go tunnel пуснат за iOS тест. Крис тества на iPhone."
+            },
+            {
+              "time": "11:37",
+              "text": "Нов Android preview build пуснат с fix-а (28bb378c)."
+            },
+            {
+              "time": "14:40",
+              "text": "Пак същата грешка с новия build. Fix: expo-device downgrade + expo-notifications премахнат (commit `cddcee8`)."
+            },
+            {
+              "time": "14:42",
+              "text": "Нов опит: expo-dev-client напълно премахнат (commit `a5e360f`). Build: `1e7b45ee`."
+            },
+            {
+              "time": "16:18",
+              "text": "Бял екран + затваря (build без expo-dev-client)."
+            },
+            {
+              "time": "17:38",
+              "text": "🔍 **Build log анализ:** Prebuild грешка = `notification` property в app.json не се поддържа в SDK 55. Fix: махнат `notification` от app.json (commit `da59108`)."
+            },
+            {
+              "time": "17:55",
+              "text": "✅ **EAS SDK55 Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk"
+            },
+            {
+              "time": "18:17",
+              "text": "✅ **Решение от Крис за Phase 4 workflow:** Koi прави UI prototype на Activities екраните ПЪРВО → Крис одобрява → ПОСЛЕ Codex кодира по одобрения дизайн. Същият процес като Phase 2-3."
+            },
+            {
+              "time": "20:15",
+              "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/"
+            },
+            {
+              "time": "09:07",
+              "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "entries": [
+            {
+              "time": "19:24",
+              "text": "Auto-extract topic 51 (153k tokens) — compact завършен"
+            },
+            {
+              "time": "16:31",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:25",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:24",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:51",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:54",
+              "text": "✅ **Phase 3 ревю завършено!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deploy-нати. Connections + Messaging + Chat + Block + Report + URL detection + i18n (17 нови ключа). Discovery feed, connection requests, conversations list, real-time chat screen. 130k Codex токена."
+            },
+            {
+              "time": "14:00",
+              "text": "✅ **Phase 3 ЗАВЪРШЕНА + ревюирана!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deployed. Детайли: connections service (send/accept/decline/block), messages service (send/report, URL detection, max 10 chats), discovery feed, requests list, my connections, chat screen (real-time), i18n (53 нови стринга BG+EN)."
+            },
+            {
+              "time": "13:35",
+              "text": "🔨 **Codex Phase 3 стартиран** (`mild-gulf`): Connections + Messaging. Включва: discovery feed, connection requests, chat, block, report, URL detection. ~30 мин очаквано."
+            },
+            {
+              "time": "11:55",
+              "text": "✅ **Momerly SDK ъпгрейд завършен!** Expo 52→55 (SDK 54), React 18→19, RN 0.76→0.83. Babel fix, expo-constants добавен. Tunnel active. Крис тества на Android + iOS."
+            },
+            {
+              "time": "11:10",
+              "text": "🔨 Momerly web build + visual test завършен. Fix: native.ts (dynamic require→Platform-aware), tsconfig module→esnext. 22 screenshots с Playwright. Auth guard блокира tabs (показват Login). 2 console errors (SecureStore web, Firebase permissions). Доклад пратен на Крис."
+            },
+            {
+              "time": "08:27",
+              "text": "Firebase CLI login успешен! Token записан в `[secrets-path].txt`. Проект: `momerly-ba95a` (Project Number: 376384939207)."
+            },
+            {
+              "time": "08:55",
+              "text": "Topic 51 (Momerly) заклещен — poll на несъществуващ Codex процес (brisk-seaslug). Gateway рестартиран, сесията освободена."
+            },
+            {
+              "time": "10:15",
+              "text": "Auto-Extract & Compact система създадена. Скрипт + trigger в collector. При 150k+ токена → автоматично извличане + reset + нотификация."
+            },
+            {
+              "time": "10:33",
+              "text": "Dashboard fix: rate limit (GitHub API 60/hr), сменено на raw.githubusercontent.com. Git squash (115→1 commit). Всички 12 топика видими."
+            },
+            {
+              "time": "10:38",
+              "text": "🔔 Codex Watchdog добавен в collector. При изчезване на Codex процес → автоматична нотификация в Telegram + запис в daily notes."
+            },
+            {
+              "time": "10:42",
+              "text": "✅ Codex Phase 2 ревю завършено: 3,238 реда, 46 файла, 0 TS грешки. 11 onboarding екрана + profile + i18n + theme + components."
+            },
+            {
+              "time": "13:54",
+              "text": "Fix: Watchdog → пише `/tmp/codex-review-needed.json` → Heartbeat го хваща → Koi ревюира + продължава автоматично. HEARTBEAT.md обновен с Codex Completion Review секция."
+            },
+            {
+              "time": "13:56",
+              "text": "По-добро решение: `openclaw system event` в Codex prompt-а. Codex изпълнява командата при завършване → OpenClaw event → Koi се събужда веднага (секунди). Watchdog + heartbeat остават като backup. AGENTS.md обновен."
+            },
+            {
+              "time": "14:00",
+              "text": "⚠️ SECURITY: GitGuardian засече GitHub token в koi-dashboard HTML. Токенът премахнат от HTML, push-нат fix. **НУЖНО: ротация на GitHub token от Крис!** Текущият е compromised."
+            },
+            {
+              "time": "16:28",
+              "text": "Dashboard fix: v2.html с API+raw fallback, index.html redirect-ва. Amend+force push за без commit spam."
+            },
+            {
+              "time": "16:32",
+              "text": "Heartbeat: 5 мейла (3 security alerts за exposed keys в git history, 1 build fail, 1 bearer token). Текущите файлове са чисти. **Крис трябва да ротира: 1) GitHub PAT, 2) Firebase API key (restrict в Google Cloud Console).**"
+            },
+            {
+              "time": "18:50",
+              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
+            },
+            {
+              "time": "08:55",
+              "text": "npm install успешен (1706 пакета). TypeScript fix: useAuth.ts→.tsx, firebase import опростен."
+            },
+            {
+              "time": "09:22",
+              "text": "Крис одобри план Фаза 2. Codex spawn-нат, но Крис спря: \"Codex не е дизайнер, Koi прави дизайна.\""
+            },
+            {
+              "time": "10:24",
+              "text": "Auto-extract topic 99 (160,000 tokens):**"
+            },
+            {
+              "time": "10:32",
+              "text": "Auto-extract topic 51 (152,401 tokens):**"
+            },
+            {
+              "time": "18:39",
+              "text": "🐛 Fix: Android Home screen. Accent cards (Pending Requests/Unread Messages) имаха rendering artifacts от elevation+shadow на colored backgrounds. Махнат shadow, elevation:0, overflow:hidden. Бутоните долу (Discover/Connections) бяха отрязани — добавен marginBottom. Commit: 76bd38e"
+            },
+            {
+              "time": "19:30",
+              "text": "— 🔴 SECURITY INCIDENT: Exposed secrets in koi-dashboard repo — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` на PUBLIC repo `koiopenclaw-max/koi-dashboard` всеки 30 сек. Полето `lastAction` съдържаше API ключове от exec команди. - **Изтекли:** Google API Key (AIza...GLc за Momerly), GitHub PAT (в auth), Telegram Bot Token (demo-sites repo от 10.03) - **Действия:** - ✅ Repo `koi-dashboard` направено private - ✅ Security Bible обновена с \"Automated Publishing Rule\""
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 SECURITY INCIDENT — Exposed secrets в koi-dashboard — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` с `lastAction` поле, съдържащо API ключове, към **публично** GitHub repo `koi-dashboard` - **Изтекло:** Google API Key (AIzaSy...) за Momerly, потенциално GitHub PAT - **Известия:** GitGuardian (x2), GitHub secret scanning, Google Cloud compliance - **Действия:** - ✅ Repo `koi-dashboard` → private"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "entries": [
+            {
+              "time": "05:50",
+              "text": "SEO/GEO/AEO одит на vetcareyordanov.com. Пълен анализ: 33 страници, React SPA (Vite + Supabase, Lovable hosting). Оценка 5.5/10. Основни проблеми: SPA без SSR (еднакви title/description на всички страници), липса на canonical, липса на FAQ/Breadcrumb/Service schema. Генериран .docx доклад и изпратен в topic 1."
+            },
+            {
+              "time": "08:08",
+              "text": "Sitemap fix: robots.txt обновен да сочи към dynamic sitemap Edge Function URL. Статичният sitemap.xml обновен с 43 URL-а."
+            },
+            {
+              "time": "08:30",
+              "text": "Пълен повторен SEO одит. Генериран .docx v2.0 доклад. Резултат: от 5.5/10 на 8.5/10. Всички P0 и P1 проблеми решени. 6 мини-подобрения остават."
+            },
+            {
+              "time": "09:30",
+              "text": "Създаден нов топик \"X Audience Challenges\" (thread 1648) за нова бизнес идея."
+            },
+            {
+              "time": "12:42",
+              "text": "BG Quality Honey: CNAME файл създаден — сайтът качен на домейн. Статус → done. Live: https://koiopenclaw-max.github.io/bg-quality-honey/"
+            },
+            {
+              "time": "19:37",
+              "text": "Momerly: Крис потвърди Expo + Firebase стек. Утре дава Firebase credentials + лого/брандинг. Задачата за development workflow документация стартирана."
+            },
+            {
+              "time": "18:10",
+              "text": "Momerly v3.0: Крис смени стека на Firebase (вместо Supabase) + потвърди Expo. Актуализиран SKILL.md, генериран .docx v3.0 задание."
+            },
+            {
+              "time": "16:33",
+              "text": "Momerly v2.0: Крис премахна Events + Map от MVP. Има App Store + Play Store акаунти. Актуализиран план (10 таблици, ~11-14 седмици) + .docx задание за реализация v2 доставено в topic:51."
+            },
+            {
+              "time": "13:37",
+              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "niche-research",
+      "name": "Niche Research",
+      "emoji": "🔍",
+      "status": "completed",
+      "priority": "low",
+      "started": "2026-03-06",
+      "updated": "2026-03-08",
+      "topic": 8,
+      "repo": null,
+      "url": null,
+      "vision": "Deep research на 6 ниши × 4 града за sales training и lead generation.",
+      "phases": [
+        {
+          "name": "Phase 1: Research",
+          "status": "done",
+          "started": "2026-03-06",
+          "completed": "2026-03-08",
+          "summary": "6 ниши (паркети, вет клиники, зъболекари, лекари, счетоводители, HVAC) × 4 града (София, Пловдив, Варна, Бургас). Google Business Profiles scraped.",
+          "blockers": []
+        }
+      ],
+      "progress": 100,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "Deep research на 6 ниши",
+          "done": true
+        },
+        {
+          "text": "Lead база за cold calling",
+          "done": true
+        }
+      ],
+      "blockers": [],
+      "nextActions": [],
+      "tags": [
+        "niche",
+        "research",
+        "sales",
+        "leads"
+      ],
+      "activityDays": 2,
+      "recentActivity": [
+        {
+          "date": "2026-03-17",
+          "entries": [
+            {
+              "time": "04:30",
+              "text": "Завършено задълбочено проучване (knowledge/resources/template-design-research.md):"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-10",
+          "entries": [
+            {
+              "time": "06:03",
+              "text": "Създаден `skills/sales-training/` skill с SKILL.md + references/self-check.md. Причина: базови грешки в ролевите игри (не взимам името, два въпроса наведнъж). Skill-ът зарежда Playbook-а преди всяка игра и прави self-check на всяка реплика."
+            },
+            {
+              "time": "08:07",
+              "text": "Крис предложи идея за AI chatbot платформа (topic 10). Направих пазарно проучване на БГ пазара — 8+ конкурента идентифицирани (Steven Studio, Unmatched, pishatT, TalkX.ai и др.). Доклад: `chatbot_market_research_bg_2026.docx`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kms-setup",
+      "name": "KMS Setup",
+      "emoji": "📚",
+      "status": "completed",
+      "priority": "low",
+      "started": "2026-03-06",
+      "updated": "2026-03-06",
+      "topic": null,
+      "repo": null,
+      "url": null,
+      "vision": "Knowledge Management System по Tiago Forte PARA — фундаментът на Koi's памет.",
+      "phases": [
+        {
+          "name": "Phase 1: Setup",
+          "status": "done",
+          "started": "2026-03-06",
+          "completed": "2026-03-06",
+          "summary": "PARA структура, daily notes, inbox, QMD startup, nightly review cron.",
+          "blockers": []
+        }
+      ],
+      "progress": 100,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "PARA folder structure",
+          "done": true
+        },
+        {
+          "text": "Daily notes system",
+          "done": true
+        },
+        {
+          "text": "Nightly review automation",
+          "done": true
+        }
+      ],
+      "blockers": [],
+      "nextActions": [],
+      "tags": [
+        "kms",
+        "para",
+        "knowledge"
+      ],
+      "activityDays": 5,
+      "recentActivity": [
+        {
+          "date": "2026-03-18",
+          "entries": [
+            {
+              "time": "14:25",
+              "text": "НОВО ПРАВИЛО: Когато проект е на домейн (има deployRepo) — работим ДИРЕКТНО в deploy repo-то, не в demo-sites. Deploy repo = production. HEARTBEAT.md + knowledge обновени. Старият sync скрипт е deprecated."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-17",
+          "entries": [
+            {
+              "time": "04:30",
+              "text": "Завършено задълбочено проучване (knowledge/resources/template-design-research.md):"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-16",
+          "entries": [
+            {
+              "time": "20:42",
+              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-13",
+          "entries": [
+            {
+              "time": "08:36",
+              "text": "Крис: WRITE-FIRST нарушение #1 — не записах Firebase config в knowledge файл и не пуснах update в topic Momerly. Поправям веднага."
+            },
+            {
+              "time": "19:06",
+              "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
+            },
+            {
+              "time": "18:32",
+              "text": "Error tracker скрипт създаден (`scripts/error-tracker.sh`). Парсва логовете, записва грешки структурирано в `knowledge/areas/error-log.md`. 33 грешки записани за днес."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-12",
+          "entries": [
+            {
+              "time": "07:51",
+              "text": "Актуализиран `knowledge/projects/demo-sites.md` с SEO Минимален Стандарт — задължителен checklist за всеки бъдещ демо сайт (техническо SEO, schema, OG, local SEO, проверка)."
             }
           ]
         }
