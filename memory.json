@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-23T17:15:02.571Z",
+  "updated": "2026-03-23T17:20:03.736Z",
   "totalDays": 18,
-  "totalEntries": 344,
+  "totalEntries": 345,
   "days": [
     {
       "date": "2026-03-23",
       "dayName": "Понеделник",
       "entries": [
+        {
+          "time": "17:15",
+          "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/",
+          "type": "deploy"
+        },
         {
           "time": "16:58",
           "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена.",
@@ -90,7 +95,7 @@
       "decisions": [],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 8
+      "entryCount": 9
     },
     {
       "date": "2026-03-22",
