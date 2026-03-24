@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:10:03.277Z",
-  "serverUptime": 1313658,
+  "timestamp": "2026-03-24T14:14:34.965Z",
+  "serverUptime": 1313930,
   "loadAvg": [
-    "0.57",
-    "0.52",
-    "0.36"
+    "0.15",
+    "0.33",
+    "0.33"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 77141,
+      "ageSec": 77413,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:09:51.545Z",
-      "ageSec": 11,
+      "lastUpdate": "2026-03-24T14:14:05.848Z",
+      "ageSec": 29,
       "tokens": 31436,
-      "lastAction": "⚡ mkdir -p /tmp/demo-sites-api/api && cd /tmp/demo-sites-api",
+      "lastAction": "⏳ poll quick-ridge",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 74928,
+      "ageSec": 75199,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
