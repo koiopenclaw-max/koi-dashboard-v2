@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T19:10:04.692Z",
+  "updated": "2026-03-24T19:15:03.569Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -148,6 +148,10 @@
             {
               "time": "18:41",
               "text": "Re-spawned Codex for адвокатска кантора multi-page conversion (session: dawn-willow). Previous attempt failed. Task: convert single-page to 7-page site with shared CSS."
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
             }
           ]
         },
@@ -544,6 +548,10 @@
             {
               "time": "17:49",
               "text": "Demo revision: Адвокатска кантора — 1-вият Codex завърши, но НЕ създаде файловете (само промени data JSON). Respawn-нах нов Codex (session young-lagoon) за 6 допълнителни HTML страници."
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
             }
           ]
         },
@@ -1073,6 +1081,10 @@
             {
               "time": "17:50",
               "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
             }
           ]
         },
@@ -1763,6 +1775,10 @@
             {
               "time": "18:41",
               "text": "Re-spawned Codex for адвокатска кантора multi-page conversion (session: dawn-willow). Previous attempt failed. Task: convert single-page to 7-page site with shared CSS."
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
             }
           ]
         },
@@ -2267,6 +2283,10 @@
             {
               "time": "18:41",
               "text": "Re-spawned Codex for адвокатска кантора multi-page conversion (session: dawn-willow). Previous attempt failed. Task: convert single-page to 7-page site with shared CSS."
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
             }
           ]
         },
