@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-24T19:30:03.897Z",
+  "updated": "2026-03-24T19:35:03.078Z",
   "totalDays": 19,
-  "totalEntries": 424,
+  "totalEntries": 426,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "19:35",
+          "text": "🐛 Крис хвана mobile layout бъг в clawai-portal — hero-meta блоковете (Клиент/План) се сливаха на тесен екран. Fix: stack vertically под 420px + word-break за дълги мейли. Pushed. Урок: тествай mobile ВИНАГИ.",
+          "type": "email"
+        },
+        {
+          "time": "19:30",
+          "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'",
+          "type": "deploy"
+        },
         {
           "time": "19:30",
           "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel.",
@@ -433,7 +443,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 76
+      "entryCount": 78
     },
     {
       "date": "2026-03-23",
