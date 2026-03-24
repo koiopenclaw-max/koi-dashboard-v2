@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-24T15:30:03.013Z",
-  "serverUptime": 1318458,
+  "timestamp": "2026-03-24T15:35:02.502Z",
+  "serverUptime": 1318758,
   "loadAvg": [
-    "0.16",
-    "0.28",
+    "0.44",
+    "0.35",
     "0.36"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 1555,
+      "ageSec": 1854,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 2542,
+      "ageSec": 2842,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T15:29:08.509Z",
-      "ageSec": 54,
-      "tokens": 127685,
-      "lastAction": "✅ **Готово. Visual validation е активна и за build, и за revisions.**  Сега всеки сайт минава през:  ``` Codex генерира",
-      "hasProcess": false,
+      "status": "building",
+      "statusLabel": "🔨 Codex Building",
+      "lastUpdate": "2026-03-24T15:34:53.208Z",
+      "ageSec": 9,
+      "tokens": 128582,
+      "lastAction": "⚡ python3 -c \"\nimport json\nq = json.load(open('/home/clawd/.openclaw/wor",
+      "hasProcess": true,
       "hasSession": true
     },
     {
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:17:56.886Z",
-      "ageSec": 726,
+      "ageSec": 1025,
       "tokens": 68020,
       "lastAction": "По план следва **Phase 5: Stripe & Payments**.  **Какво включва:** - Stripe Checkout за Starter план (€28/мес) - Webhook",
       "hasProcess": false,
@@ -154,44 +154,34 @@
   ],
   "processes": [
     {
-      "pid": "1662790",
+      "pid": "1665587",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "02:36",
-      "elapsedSec": 156,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-счетоводна-къща-емпика\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly",
-      "relatedTopic": null,
+      "elapsed": "01:38",
+      "elapsedSec": 98,
+      "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites && codex exec --full-auto \"REBUILD the demo site at demos/счетоводна-къща-емпика/index.html USE demos/",
+      "relatedTopic": "49",
       "procType": "codex"
     },
     {
-      "pid": "1662792",
+      "pid": "1665589",
       "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "02:36",
-      "elapsedSec": 156,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "elapsed": "01:38",
+      "elapsedSec": 98,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto REBUILD the demo site at demos/счетоводна-къща-емпика/index.html USE demos/активи-консулт-бург",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1662800",
-      "cpu": "1.2",
+      "pid": "1665596",
+      "cpu": "1.9",
       "mem": "1.6",
-      "elapsed": "02:36",
-      "elapsedSec": 156,
+      "elapsed": "01:38",
+      "elapsedSec": 98,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
-    },
-    {
-      "pid": "1664191",
-      "cpu": "30.0",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
     }
   ],
   "errors": {
@@ -201,8 +191,8 @@
   "summary": {
     "totalTopics": 12,
     "working": 0,
-    "building": 0,
-    "recent": 1,
+    "building": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
