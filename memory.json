@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-24T15:45:03.029Z",
+  "updated": "2026-03-24T15:50:03.504Z",
   "totalDays": 19,
-  "totalEntries": 367,
+  "totalEntries": 369,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "15:47",
+          "text": "Demo Sites: Емпика — нова ревизия от Крис: грешна тема + hero image прекалено голямо. Worker rebuild overwrite моя v3. Питам Крис коя тема иска реално.",
+          "type": "build"
+        },
+        {
+          "time": "15:45",
+          "text": "Demo Sites: Емпика v3 rebuild завършен. Базиран на одобрения Активи Консулт шаблон — прост hero, правилни пропорции (object-fit:contain), FB данни. Visual validation: 8.5/10. Статус: review. Нотифициран topic 49.",
+          "type": "build"
+        },
         {
           "time": "15:42",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -147,7 +157,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 19
+      "entryCount": 21
     },
     {
       "date": "2026-03-23",
