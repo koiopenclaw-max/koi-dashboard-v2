@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T16:35:04.149Z",
+  "updated": "2026-03-24T16:40:04.475Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -1016,7 +1016,7 @@
             },
             {
               "time": "16:28",
-              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret: whsec_MmuQLGeLS55hJnTPPmHHiTgLNcdQnHbU."
+              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
             }
           ]
         },
@@ -2038,7 +2038,7 @@
             },
             {
               "time": "16:28",
-              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret: whsec_MmuQLGeLS55hJnTPPmHHiTgLNcdQnHbU."
+              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
             },
             {
               "time": "15:53",
