@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:35:03.390Z",
-  "serverUptime": 1315158,
+  "timestamp": "2026-03-24T14:39:35.352Z",
+  "serverUptime": 1315430,
   "loadAvg": [
-    "0.93",
-    "0.93",
-    "0.76"
+    "0.95",
+    "1.00",
+    "0.82"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 78641,
+      "ageSec": 78913,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:20:55.680Z",
-      "ageSec": 847,
+      "ageSec": 1119,
       "tokens": 19800,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "building",
-      "statusLabel": "🔨 Codex Building",
-      "lastUpdate": "2026-03-24T14:21:57.728Z",
-      "ageSec": 785,
-      "tokens": 53516,
-      "lastAction": "Пробвай оригиналното нещо, което не работеше — отвори [платформата](https://koiopenclaw-max.github.io/demo-sites/), логн",
-      "hasProcess": true,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T14:39:32.826Z",
+      "ageSec": 2,
+      "tokens": 54746,
+      "lastAction": "⚡ # When did the git pull happen vs when was the file added?\ncd /home/cl",
+      "hasProcess": false,
       "hasSession": true
     },
     {
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 76428,
-      "tokens": 67363,
-      "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T14:39:34.482Z",
+      "ageSec": 0,
+      "tokens": 0,
+      "lastAction": "📖 clawai-website.md",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,34 +154,14 @@
   ],
   "processes": [
     {
-      "pid": "1641625",
+      "pid": "1643914",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "01:34",
-      "elapsedSec": 94,
-      "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites && codex exec --full-auto \"Build a single-page HTML website for Счетоводна къща Емпика (Empika Account",
-      "relatedTopic": "49",
-      "procType": "codex"
-    },
-    {
-      "pid": "1641627",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "01:34",
-      "elapsedSec": 94,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Build a single-page HTML website for Счетоводна къща Емпика (Empika Accounting House) in Sofia",
+      "elapsed": "00:57",
+      "elapsedSec": 57,
+      "cmd": "/bin/bash -c sleep 65 && cd /tmp && npx playwright screenshot --viewport-size=1280,3000 --wait-for-timeout=3000 \"https://koiopenclaw-max.github.io/dem",
       "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1641634",
-      "cpu": "1.8",
-      "mem": "1.5",
-      "elapsed": "01:34",
-      "elapsedSec": 94,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
+      "procType": "build"
     }
   ],
   "errors": {
@@ -190,10 +170,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
-    "building": 1,
+    "working": 2,
+    "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 10,
     "stuck": 0
   }
 }
