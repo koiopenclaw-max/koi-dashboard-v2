@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:40:03.970Z",
-  "serverUptime": 1315459,
+  "timestamp": "2026-03-24T14:45:04.538Z",
+  "serverUptime": 1315760,
   "loadAvg": [
-    "1.98",
-    "1.21",
-    "0.90"
+    "2.34",
+    "1.34",
+    "0.99"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 78942,
+      "ageSec": 79242,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:20:55.680Z",
-      "ageSec": 1148,
+      "ageSec": 1448,
       "tokens": 19800,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:40:00.706Z",
-      "ageSec": 3,
-      "tokens": 54746,
-      "lastAction": "⚡ python3 -c \"\nimport json\nq = json.load(open('/home/clawd/.openclaw/wor",
+      "lastUpdate": "2026-03-24T14:44:58.846Z",
+      "ageSec": 5,
+      "tokens": 67512,
+      "lastAction": "⚡ # Try mobile version which sometimes shows more\nnpx playwright screens",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:39:54.562Z",
-      "ageSec": 9,
-      "tokens": 0,
-      "lastAction": "🔧 sessions_history",
+      "status": "stuck",
+      "statusLabel": "🔴 Stuck",
+      "lastUpdate": "2026-03-24T14:44:58.912Z",
+      "ageSec": 5,
+      "tokens": 47416,
+      "lastAction": "⏳ poll young-shore",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,17 +152,28 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1646570",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:05",
+      "elapsedSec": 5,
+      "cmd": "/bin/bash -c # Try mobile version which sometimes shows more npx playwright screenshot --wait-for-timeout 5000 --full-page \"https://m.facebook.com/emp",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 2,
+    "working": 1,
     "building": 0,
     "recent": 0,
     "idle": 10,
-    "stuck": 0
+    "stuck": 1
   }
 }
