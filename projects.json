@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T18:00:03.825Z",
+  "updated": "2026-03-24T18:05:03.745Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -140,6 +140,10 @@
             {
               "time": "17:20",
               "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:50",
+              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
             }
           ]
         },
@@ -1061,6 +1065,10 @@
             {
               "time": "17:20",
               "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:50",
+              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
             }
           ]
         },
@@ -1743,6 +1751,10 @@
             {
               "time": "17:20",
               "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:50",
+              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
             }
           ]
         },
@@ -2060,6 +2072,10 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "18:01",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
             {
               "time": "17:38",
               "text": "🔔 Codex приключи. Koi ревюира."
