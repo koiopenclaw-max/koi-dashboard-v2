@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T15:00:03.403Z",
-  "serverUptime": 1316658,
+  "timestamp": "2026-03-24T15:05:02.891Z",
+  "serverUptime": 1316958,
   "loadAvg": [
-    "0.99",
-    "0.64",
-    "0.77"
+    "0.30",
+    "0.40",
+    "0.62"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T14:59:16.066Z",
-      "ageSec": 47,
-      "tokens": 36302,
-      "lastAction": "Добра идея е, но трябва да внимаваме с timing-а. Ето моят анализ:  **✅ Защо е добра идея:** - Чиста памет всяка сутрин —",
+      "lastUpdate": "2026-03-24T15:04:07.738Z",
+      "ageSec": 55,
+      "tokens": 39008,
+      "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 743,
+      "ageSec": 1042,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:59:00.674Z",
-      "ageSec": 62,
+      "ageSec": 362,
       "tokens": 101899,
       "lastAction": "Не, сайтът е готов и вече е в статус `review`. Всичко е на място — секции, контакти, footer.  Чакам теб да го прегледаш.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:48:58.678Z",
-      "ageSec": 664,
+      "ageSec": 964,
       "tokens": 64140,
       "lastAction": "Крис, прав си — нямам контекст какво точно ми е писал и на какво си отговорил. Сесията за topic 718 се е рестартирала и",
       "hasProcess": false,
@@ -161,8 +161,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 2,
-    "idle": 10,
+    "recent": 1,
+    "idle": 11,
     "stuck": 0
   }
 }
