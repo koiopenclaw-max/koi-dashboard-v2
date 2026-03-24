@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T16:24:35.202Z",
-  "serverUptime": 1321730,
+  "timestamp": "2026-03-24T16:29:34.671Z",
+  "serverUptime": 1322030,
   "loadAvg": [
-    "1.21",
-    "0.65",
-    "0.51"
+    "0.34",
+    "0.49",
+    "0.48"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 4827,
+      "ageSec": 5126,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 567,
+      "ageSec": 867,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "building",
-      "statusLabel": "🔨 Codex Building",
-      "lastUpdate": "2026-03-24T16:23:10.872Z",
-      "ageSec": 84,
-      "tokens": 35872,
-      "lastAction": "Виждам проблема. Codex реално работи в момента — building-ът е in progress. Но failsafe-ът има 120 сек timeout, а buildi",
-      "hasProcess": true,
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T16:27:46.679Z",
+      "ageSec": 107,
+      "tokens": 43093,
+      "lastAction": "Trigger файлът вече е изтрит (worker-ът го е почистил при restart). Готово е:  **Какво направих:**  1. **`demo-worker.js",
+      "hasProcess": false,
       "hasSession": true
     },
     {
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T16:24:23.164Z",
-      "ageSec": 12,
-      "tokens": 108651,
-      "lastAction": "🔧 image",
+      "lastUpdate": "2026-03-24T16:29:33.247Z",
+      "ageSec": 1,
+      "tokens": 111109,
+      "lastAction": "📖 index.html",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,38 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1686996",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "01:27",
-      "elapsedSec": 87,
-      "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites && cat /tmp/codex-prompt-advocati.md | codex exec --full-auto \"$(cat /tmp/codex-prompt-advocati.md)\"",
-      "relatedTopic": "49",
-      "procType": "codex"
-    },
-    {
-      "pid": "1686999",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "01:27",
-      "elapsedSec": 87,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto # Task: Build a modern demo website for \"Адвокатска кантора Богданови и Маринов\" ## What to bu",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1687007",
-      "cpu": "1.7",
-      "mem": "1.6",
-      "elapsed": "01:27",
-      "elapsedSec": 87,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
@@ -191,8 +160,8 @@
   "summary": {
     "totalTopics": 12,
     "working": 1,
-    "building": 1,
-    "recent": 0,
+    "building": 0,
+    "recent": 1,
     "idle": 10,
     "stuck": 0
   }
