@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T15:15:03.206Z",
-  "serverUptime": 1317558,
+  "timestamp": "2026-03-24T15:19:34.744Z",
+  "serverUptime": 1317830,
   "loadAvg": [
-    "0.47",
+    "0.51",
     "0.35",
-    "0.48"
+    "0.43"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 655,
+      "ageSec": 927,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 1643,
+      "ageSec": 1914,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "building",
-      "statusLabel": "🔨 Codex Building",
-      "lastUpdate": "2026-03-24T14:59:00.674Z",
-      "ageSec": 962,
-      "tokens": 101899,
-      "lastAction": "Не, сайтът е готов и вече е в статус `review`. Всичко е на място — секции, контакти, footer.  Чакам теб да го прегледаш.",
-      "hasProcess": true,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T15:18:53.488Z",
+      "ageSec": 41,
+      "tokens": 102586,
+      "lastAction": "🔧 image",
+      "hasProcess": false,
       "hasSession": true
     },
     {
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T15:10:20.704Z",
-      "ageSec": 282,
-      "tokens": 67409,
-      "lastAction": "Ето рипорта:  **🔍 ClawAI Dashboard v2 (ПУБЛИЧНО repo) — Резултат:**  ✅ **Чисто от service_role key** — няма го в кода ✅",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T15:17:56.886Z",
+      "ageSec": 97,
+      "tokens": 68020,
+      "lastAction": "По план следва **Phase 5: Stripe & Payments**.  **Какво включва:** - Stripe Checkout за Starter план (€28/мес) - Webhook",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,48 +152,17 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1657604",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "01:06",
-      "elapsedSec": 66,
-      "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites && codex exec --full-auto \"REBUILD the demo site at demos/счетоводна-къща-емпика/index.html. The curre",
-      "relatedTopic": "49",
-      "procType": "codex"
-    },
-    {
-      "pid": "1657606",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "01:06",
-      "elapsedSec": 66,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto REBUILD the demo site at demos/счетоводна-къща-емпика/index.html. The current version has crit",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1657613",
-      "cpu": "1.4",
-      "mem": "1.6",
-      "elapsed": "01:06",
-      "elapsedSec": 66,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
-    "building": 1,
-    "recent": 0,
-    "idle": 11,
+    "working": 1,
+    "building": 0,
+    "recent": 1,
+    "idle": 10,
     "stuck": 0
   }
 }
