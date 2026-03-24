@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T15:55:03.074Z",
+  "updated": "2026-03-24T16:00:04.827Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -112,8 +112,17 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 10,
+      "activityDays": 11,
       "recentActivity": [
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "15:56",
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
+            }
+          ]
+        },
         {
           "date": "2026-03-23",
           "entries": [
@@ -360,27 +369,6 @@
             {
               "time": "22:00",
               "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-10",
-          "entries": [
-            {
-              "time": "06:03",
-              "text": "Създаден `skills/sales-training/` skill с SKILL.md + references/self-check.md. Причина: базови грешки в ролевите игри (не взимам името, два въпроса наведнъж). Skill-ът зарежда Playbook-а преди всяка игра и прави self-check на всяка реплика."
-            },
-            {
-              "time": "08:07",
-              "text": "Крис предложи идея за AI chatbot платформа (topic 10). Направих пазарно проучване на БГ пазара — 8+ конкурента идентифицирани (Steven Studio, Unmatched, pishatT, TalkX.ai и др.). Доклад: `chatbot_market_research_bg_2026.docx`."
-            },
-            {
-              "time": "12:20",
-              "text": "✅ Gmail достъп настроен за koiopenclaw@gmail.com."
-            },
-            {
-              "time": "12:36",
-              "text": "✅ GitHub достъп настроен. Акаунт: koiopenclaw-max, git config обновен (user.name=Koi, user.email=koiopenclaw@gmail.com). OAuth2 flow (Google Cloud Console → Gmail API → Desktop OAuth client). Credentials в `[secrets-path].json`. Тест: изпратени 2 мейла до k***@infocall.bg успешно."
             }
           ]
         }
@@ -997,8 +985,17 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 11,
+      "activityDays": 12,
       "recentActivity": [
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "15:56",
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
+            }
+          ]
+        },
         {
           "date": "2026-03-23",
           "entries": [
@@ -1253,19 +1250,6 @@
             {
               "time": "12:30",
               "text": "All 5 tasks done, deployed to GitHub Pages + Supabase"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-11",
-          "entries": [
-            {
-              "time": "14:06",
-              "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub."
-            },
-            {
-              "time": "22:08",
-              "text": "✅ Zdravko landing page ГОТОВ и деплойнат. Repo: koiopenclaw-max/zdravko-landing. Live: https://koiopenclaw-max.github.io/zdravko-landing/ Demo-sites статус обновен → done."
             }
           ]
         }
@@ -1663,8 +1647,17 @@
         "platform",
         "ai"
       ],
-      "activityDays": 10,
+      "activityDays": 11,
       "recentActivity": [
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "15:56",
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
+            }
+          ]
+        },
         {
           "date": "2026-03-23",
           "entries": [
@@ -1905,31 +1898,6 @@
               "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
             }
           ]
-        },
-        {
-          "date": "2026-03-10",
-          "entries": [
-            {
-              "time": "06:03",
-              "text": "Създаден `skills/sales-training/` skill с SKILL.md + references/self-check.md. Причина: базови грешки в ролевите игри (не взимам името, два въпроса наведнъж). Skill-ът зарежда Playbook-а преди всяка игра и прави self-check на всяка реплика."
-            },
-            {
-              "time": "08:07",
-              "text": "Крис предложи идея за AI chatbot платформа (topic 10). Направих пазарно проучване на БГ пазара — 8+ конкурента идентифицирани (Steven Studio, Unmatched, pishatT, TalkX.ai и др.). Доклад: `chatbot_market_research_bg_2026.docx`."
-            },
-            {
-              "time": "08:56",
-              "text": "Крис поиска детайлен MVP blueprint. Създадох пълно техническо задание: архитектура (Next.js + PostgreSQL + pgvector + Claude API), 5 sprint-а, DB schema, scraping/auto-Q&A engine, ценообразуване, финансова проекция. ~90-115 часа с vibe coding, 4-5 седмици. Доклад: `chatbot_mvp_blueprint.docx`."
-            },
-            {
-              "time": "12:20",
-              "text": "✅ Gmail достъп настроен за koiopenclaw@gmail.com."
-            },
-            {
-              "time": "12:36",
-              "text": "✅ GitHub достъп настроен. Акаунт: koiopenclaw-max, git config обновен (user.name=Koi, user.email=koiopenclaw@gmail.com). OAuth2 flow (Google Cloud Console → Gmail API → Desktop OAuth client). Credentials в `[secrets-path].json`. Тест: изпратени 2 мейла до k***@infocall.bg успешно."
-            }
-          ]
         }
       ]
     },
@@ -2004,6 +1972,14 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "15:56",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:56",
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
+            },
             {
               "time": "15:53",
               "text": "🔔 Codex приключи. Koi ревюира."
