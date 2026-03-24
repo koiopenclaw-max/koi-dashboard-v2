@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T19:55:03.372Z",
-  "serverUptime": 1334358,
+  "timestamp": "2026-03-24T20:00:04.049Z",
+  "serverUptime": 1334659,
   "loadAvg": [
-    "0.14",
-    "0.23",
-    "0.20"
+    "0.85",
+    "0.36",
+    "0.23"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 17455,
+      "ageSec": 17756,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 13195,
+      "ageSec": 13496,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 2919,
+      "ageSec": 3219,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T19:51:20.266Z",
-      "ageSec": 223,
-      "tokens": 46992,
-      "lastAction": "Тествано. Проблемът беше двоен: 1. **Два FK-а** от `subscriptions` към `plans` → Supabase не знаеше кой да ползва → греш",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T19:58:34.190Z",
+      "ageSec": 89,
+      "tokens": 48158,
+      "lastAction": "Ето реалността:  **\"Кратко описание\"** (textarea) → записва се в `projects.description` — Свободен текст: \"Стоматологичн",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,11 +154,11 @@
   ],
   "processes": [
     {
-      "pid": "1771201",
-      "cpu": "0.0",
-      "mem": "0.5",
-      "elapsed": "441077234-00:18:40",
-      "elapsedSec": 38109073018720,
+      "pid": "1772906",
+      "cpu": "78.5",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
       "relatedTopic": null,
       "procType": "build"
@@ -172,8 +172,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 0,
-    "idle": 12,
+    "recent": 1,
+    "idle": 11,
     "stuck": 0
   }
 }
