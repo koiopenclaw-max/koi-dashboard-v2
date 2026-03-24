@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-24T19:25:03.304Z",
+  "updated": "2026-03-24T19:30:03.897Z",
   "totalDays": 19,
-  "totalEntries": 423,
+  "totalEntries": 424,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "19:30",
+          "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel.",
+          "type": "email"
+        },
         {
           "time": "19:25",
           "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email.",
@@ -428,7 +433,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 75
+      "entryCount": 76
     },
     {
       "date": "2026-03-23",
