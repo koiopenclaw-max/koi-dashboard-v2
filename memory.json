@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-24T14:15:03.181Z",
+  "updated": "2026-03-24T14:20:04.226Z",
   "totalDays": 19,
-  "totalEntries": 351,
+  "totalEntries": 352,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "14:15",
+          "text": "✅ Demo Sites proxy мигриран от Cloudflare Quick Tunnel → Vercel Serverless Functions - URL: `https://demo-sites-api.vercel.app` (постоянен, никога не се сменя) - Env vars: GITHUB_TOKEN, PROXY_PASSWORD, SESSION_SECRET (в Vercel dashboard) - E2E тестове: ✅ list, ✅ read, ✅ login, ✅ auth-check, ✅ write, ✅ update, ✅ cyrillic, ✅ unauthorized block, ✅ logout - Платформата обновена с новия URL и push-ната - Стар Cloudflare tunnel URL: вече не съществува",
+          "type": "deploy"
+        },
         {
           "time": "14:06",
           "text": "📌 Vercel token се намира в `[server-path] (chmod 600). Използва се с: `vercel --token $(cat [server-path])`. Акаунт: koiopenclaw-8645.",
@@ -67,7 +72,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 3
+      "entryCount": 4
     },
     {
       "date": "2026-03-23",
