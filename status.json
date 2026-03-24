@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-24T18:05:03.207Z",
-  "serverUptime": 1327758,
+  "timestamp": "2026-03-24T18:09:34.660Z",
+  "serverUptime": 1328030,
   "loadAvg": [
-    "0.19",
-    "0.28",
+    "0.20",
+    "0.29",
     "0.28"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 10855,
+      "ageSec": 11126,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 6595,
+      "ageSec": 6867,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 2807,
+      "ageSec": 3078,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -130,10 +130,10 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T18:02:25.098Z",
-      "ageSec": 158,
+      "ageSec": 429,
       "tokens": 127822,
       "lastAction": "Готово. Ето пълния отчет:  ---  ## 📊 Финален резултат  ### ✅ Всичко направено без твоя намеса:  **Код (10 фикса):** 1. ✅",
       "hasProcess": false,
@@ -161,8 +161,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 12,
     "stuck": 0
   }
 }
