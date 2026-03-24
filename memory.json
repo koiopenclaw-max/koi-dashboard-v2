@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-24T16:50:03.661Z",
+  "updated": "2026-03-24T16:55:03.002Z",
   "totalDays": 19,
-  "totalEntries": 388,
+  "totalEntries": 389,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "16:54",
+          "text": "✅ Крис одобри Phase 5b v2 план. Тръгвам с Фаза A: Webhook upgrade + Customer creation.",
+          "type": "decision"
+        },
         {
           "time": "16:45",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -24,8 +29,8 @@
         },
         {
           "time": "16:36",
-          "text": "💡 Крис: \"Клиентът трябва да има СВОЙ дашборд с onboarding wizard стъпка по стъпка. А в нашия admin dashboard трябва да виждаме клиента, плащането, flow-а, какво сме направили, какво остава.\" Това е КЛЮЧОВО решение — Phase 5b: Client Portal + Admin onboarding tracking.",
-          "type": "decision"
+          "text": "💡 Крис: \"Клиентът трябва да има СВОЙ дашборд с onboarding wizard стъпка по стъпка. А в нашия admin dashboard трябва да виждаме клиента, плащането, flow-а, какво сме направили, какво остава.\" Phase 5b план v1 отхвърлен (нови таблици), v2 одобрен (ползва 100% съществуващата schema).",
+          "type": "default"
         },
         {
           "time": "16:32",
@@ -248,12 +253,12 @@
       ],
       "insights": [],
       "decisions": [
-        "💡 Крис: \"Клиентът трябва да има СВОЙ дашборд с onboarding wizard стъпка по стъпка. А в нашия admin dashboard трябва да виждаме клиента, плащането, flow-а, какво сме направили, какво остава.\" Това е КЛЮЧОВО решение — Phase 5b: Client Portal + Admin onboarding tracking.",
+        "✅ Крис одобри Phase 5b v2 план. Тръгвам с Фаза A: Webhook upgrade + Customer creation.",
         "- **14:05** 🎯 Миграция на demo-sites proxy от Cloudflare Quick Tunnel → Vercel Serverless Functions (за устойчиво решение)"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 40
+      "entryCount": 41
     },
     {
       "date": "2026-03-23",
