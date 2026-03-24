@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T19:24:34.186Z",
-  "serverUptime": 1332529,
+  "timestamp": "2026-03-24T19:25:03.639Z",
+  "serverUptime": 1332559,
   "loadAvg": [
-    "0.19",
-    "0.22",
-    "0.24"
+    "0.12",
+    "0.20",
+    "0.23"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 15626,
+      "ageSec": 15655,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 11366,
+      "ageSec": 11396,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 1090,
+      "ageSec": 1119,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T19:24:23.889Z",
-      "ageSec": 10,
+      "lastUpdate": "2026-03-24T19:24:57.597Z",
+      "ageSec": 6,
       "tokens": 159089,
-      "lastAction": "⚡ # Verify: webhook crashes because contactRequestId is not a real UUID\n",
+      "lastAction": "🔧 webhook.js",
       "hasProcess": false,
       "hasSession": true
     },
