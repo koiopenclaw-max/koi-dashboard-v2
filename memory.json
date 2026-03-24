@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-24T16:40:03.790Z",
+  "updated": "2026-03-24T16:45:03.386Z",
   "totalDays": 19,
-  "totalEntries": 385,
+  "totalEntries": 387,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "16:40",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "16:40",
+          "text": "Demo revision: Адвокатска кантора Богданови и Маринов — Codex spawned (session fast-basil) за разширяване на single-page демо в multi-page сайт. Клиентът харесва визията, иска пълно съдържание от стария сайт (услуги, цени, екип, контакти). 6 нови HTML страници.",
+          "type": "build"
+        },
         {
           "time": "16:36",
           "text": "💡 Крис: \"Клиентът трябва да има СВОЙ дашборд с onboarding wizard стъпка по стъпка. А в нашия admin dashboard трябва да виждаме клиента, плащането, flow-а, какво сме направили, какво остава.\" Това е КЛЮЧОВО решение — Phase 5b: Client Portal + Admin onboarding tracking.",
@@ -238,7 +248,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 37
+      "entryCount": 39
     },
     {
       "date": "2026-03-23",
