@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T18:40:03.242Z",
-  "serverUptime": 1329858,
+  "timestamp": "2026-03-24T18:45:03.037Z",
+  "serverUptime": 1330158,
   "loadAvg": [
-    "0.03",
-    "0.07",
-    "0.12"
+    "0.09",
+    "0.13",
+    "0.13"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 12955,
+      "ageSec": 13255,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 8695,
+      "ageSec": 8995,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 4907,
+      "ageSec": 5207,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T18:02:25.098Z",
-      "ageSec": 2258,
+      "ageSec": 2557,
       "tokens": 127822,
       "lastAction": "Готово. Ето пълния отчет:  ---  ## 📊 Финален резултат  ### ✅ Всичко направено без твоя намеса:  **Код (10 фикса):** 1. ✅",
       "hasProcess": false,
@@ -154,24 +154,34 @@
   ],
   "processes": [
     {
-      "pid": "1743217",
-      "cpu": "1.9",
+      "pid": "1744527",
+      "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "00:03",
-      "elapsedSec": 3,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec You are working on a law firm demo site at demos/адвокатска-кантора-богданови-и-маринов/ CRITICAL: Do NOT ",
+      "elapsed": "02:10",
+      "elapsedSec": 130,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto # Task: Convert Single-Page Law Firm Site to Multi-Page ## CRITICAL RULE Do NOT change ANY vis",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1743225",
-      "cpu": "9.7",
-      "mem": "1.5",
-      "elapsed": "00:03",
-      "elapsedSec": 3,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec You are ",
+      "pid": "1744536",
+      "cpu": "2.0",
+      "mem": "1.6",
+      "elapsed": "02:10",
+      "elapsedSec": 130,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
+    },
+    {
+      "pid": "1745463",
+      "cpu": "42.8",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
     }
   ],
   "errors": {
