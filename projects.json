@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T14:30:06.422Z",
+  "updated": "2026-03-24T14:35:04.216Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -1999,8 +1999,17 @@
         "audience",
         "growth"
       ],
-      "activityDays": 12,
+      "activityDays": 13,
       "recentActivity": [
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "14:30",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            }
+          ]
+        },
         {
           "date": "2026-03-23",
           "entries": [
@@ -2599,47 +2608,6 @@
             {
               "time": "19:30",
               "text": "🔴 SECURITY INCIDENT — Exposed secrets в koi-dashboard — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` с `lastAction` поле, съдържащо API ключове, към **публично** GitHub repo `koi-dashboard` - **Изтекло:** Google API Key (AIzaSy...) за Momerly, потенциално GitHub PAT - **Известия:** GitGuardian (x2), GitHub secret scanning, Google Cloud compliance - **Действия:** - ✅ Repo `koi-dashboard` → private"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-12",
-          "entries": [
-            {
-              "time": "05:50",
-              "text": "SEO/GEO/AEO одит на vetcareyordanov.com. Пълен анализ: 33 страници, React SPA (Vite + Supabase, Lovable hosting). Оценка 5.5/10. Основни проблеми: SPA без SSR (еднакви title/description на всички страници), липса на canonical, липса на FAQ/Breadcrumb/Service schema. Генериран .docx доклад и изпратен в topic 1."
-            },
-            {
-              "time": "08:08",
-              "text": "Sitemap fix: robots.txt обновен да сочи към dynamic sitemap Edge Function URL. Статичният sitemap.xml обновен с 43 URL-а."
-            },
-            {
-              "time": "08:30",
-              "text": "Пълен повторен SEO одит. Генериран .docx v2.0 доклад. Резултат: от 5.5/10 на 8.5/10. Всички P0 и P1 проблеми решени. 6 мини-подобрения остават."
-            },
-            {
-              "time": "09:30",
-              "text": "Създаден нов топик \"X Audience Challenges\" (thread 1648) за нова бизнес идея."
-            },
-            {
-              "time": "12:42",
-              "text": "BG Quality Honey: CNAME файл създаден — сайтът качен на домейн. Статус → done. Live: https://koiopenclaw-max.github.io/bg-quality-honey/"
-            },
-            {
-              "time": "19:37",
-              "text": "Momerly: Крис потвърди Expo + Firebase стек. Утре дава Firebase credentials + лого/брандинг. Задачата за development workflow документация стартирана."
-            },
-            {
-              "time": "18:10",
-              "text": "Momerly v3.0: Крис смени стека на Firebase (вместо Supabase) + потвърди Expo. Актуализиран SKILL.md, генериран .docx v3.0 задание."
-            },
-            {
-              "time": "16:33",
-              "text": "Momerly v2.0: Крис премахна Events + Map от MVP. Има App Store + Play Store акаунти. Актуализиран план (10 таблици, ~11-14 седмици) + .docx задание за реализация v2 доставено в topic:51."
-            },
-            {
-              "time": "13:37",
-              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
             }
           ]
         }
