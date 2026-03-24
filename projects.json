@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T16:40:04.475Z",
+  "updated": "2026-03-24T16:45:03.943Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -504,6 +504,10 @@
             {
               "time": "16:15",
               "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
+            },
+            {
+              "time": "16:40",
+              "text": "Demo revision: Адвокатска кантора Богданови и Маринов — Codex spawned (session fast-basil) за разширяване на single-page демо в multi-page сайт. Клиентът харесва визията, иска пълно съдържание от стария сайт (услуги, цени, екип, контакти). 6 нови HTML страници."
             }
           ]
         },
@@ -2001,6 +2005,10 @@
           "date": "2026-03-24",
           "entries": [
             {
+              "time": "16:40",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
               "time": "16:28",
               "text": "🔔 Codex приключи. Koi ревюира."
             },
@@ -2079,6 +2087,10 @@
             {
               "time": "14:30",
               "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "16:40",
+              "text": "Demo revision: Адвокатска кантора Богданови и Маринов — Codex spawned (session fast-basil) за разширяване на single-page демо в multi-page сайт. Клиентът харесва визията, иска пълно съдържание от стария сайт (услуги, цени, екип, контакти). 6 нови HTML страници."
             }
           ]
         },
