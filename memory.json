@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-24T18:00:02.875Z",
+  "updated": "2026-03-24T18:05:02.854Z",
   "totalDays": 19,
-  "totalEntries": 402,
+  "totalEntries": 404,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "18:01",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "17:50",
+          "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update: - **Код фиксове:** auth_user_id binding, XSS sanitization, API key masking, loading states, product_type в ensureProject, wizard step persistence, favicon, footer, logo upload MVP note - **DB миграция 1:** Check constraints expanded (customers: +onboarding, projects: +onboarding +pending_provision) - **DB миграция 2:** RLS policies за всички portal таблици (customers, projects, subscriptions, payments, project_channels, activity_log, maintenance_log) - **Auth config:** site_url → portal URL, redirect allow list → GitHub Pages + clawai.com - **E2E тест:** 6/6 PASS — magic link → redirect → auth → customer lookup → auth_user_id bind → wizard shown с правилни данни - **Playwright тест:** 14/14 PASS (sanitize XSS, Supabase SDK, CSS vars, etc.) - **Visual validation:** Desktop + Mobile — PASS - **Критично откритие:** DB check constraints не приемаха 'onboarding' статус — щеше да чупи при реално плащане. Фиксирано.",
+          "type": "deploy"
+        },
         {
           "time": "17:49",
           "text": "Demo revision: Адвокатска кантора — 1-вият Codex завърши, но НЕ създаде файловете (само промени data JSON). Respawn-нах нов Codex (session young-lagoon) за 6 допълнителни HTML страници.",
@@ -323,7 +333,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 54
+      "entryCount": 56
     },
     {
       "date": "2026-03-23",
