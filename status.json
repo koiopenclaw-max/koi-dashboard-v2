@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T17:45:02.862Z",
-  "serverUptime": 1326558,
+  "timestamp": "2026-03-24T17:50:02.986Z",
+  "serverUptime": 1326858,
   "loadAvg": [
-    "0.48",
-    "0.29",
-    "0.28"
+    "0.18",
+    "0.22",
+    "0.25"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 9655,
+      "ageSec": 9955,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 5395,
+      "ageSec": 5695,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 1606,
+      "ageSec": 1906,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T17:45:00.251Z",
-      "ageSec": 2,
-      "tokens": 62186,
-      "lastAction": "⏳ poll oceanic-reef",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T17:49:08.967Z",
+      "ageSec": 54,
+      "tokens": 110084,
+      "lastAction": "Ето пълния deep test резултат:  ---  ## 📊 Тест резултати — Deep Dive  ### ✅ 14/14 Playwright тестове минават Всички UI т",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,16 +152,27 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1723071",
+      "cpu": "69.2",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
