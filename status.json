@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-24T14:45:04.538Z",
-  "serverUptime": 1315760,
+  "timestamp": "2026-03-24T14:49:34.690Z",
+  "serverUptime": 1316030,
   "loadAvg": [
-    "2.34",
-    "1.34",
-    "0.99"
+    "0.91",
+    "1.21",
+    "1.03"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 79242,
-      "tokens": 142544,
-      "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T14:49:33.485Z",
+      "ageSec": 1,
+      "tokens": 0,
+      "lastAction": "⚡ cat /home/clawd/.openclaw/agents/main/sessions/sessions.json | python3",
       "hasProcess": false,
       "hasSession": true
     },
@@ -82,11 +82,11 @@
     {
       "topicId": "11",
       "name": "📥 Inbox",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T14:20:55.680Z",
-      "ageSec": 1448,
-      "tokens": 19800,
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T14:47:40.198Z",
+      "ageSec": 114,
+      "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
       "hasSession": true
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:44:58.846Z",
-      "ageSec": 5,
+      "status": "building",
+      "statusLabel": "🔨 Codex Building",
+      "lastUpdate": "2026-03-24T14:49:30.776Z",
+      "ageSec": 3,
       "tokens": 67512,
-      "lastAction": "⚡ # Try mobile version which sometimes shows more\nnpx playwright screens",
-      "hasProcess": false,
+      "lastAction": "⏳ poll neat-sage",
+      "hasProcess": true,
       "hasSession": true
     },
     {
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "stuck",
-      "statusLabel": "🔴 Stuck",
-      "lastUpdate": "2026-03-24T14:44:58.912Z",
-      "ageSec": 5,
-      "tokens": 47416,
-      "lastAction": "⏳ poll young-shore",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T14:48:58.678Z",
+      "ageSec": 36,
+      "tokens": 64140,
+      "lastAction": "Крис, прав си — нямам контекст какво точно ми е писал и на какво си отговорил. Сесията за topic 718 се е рестартирала и",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,14 +154,34 @@
   ],
   "processes": [
     {
-      "pid": "1646570",
-      "cpu": "0.0",
+      "pid": "1648455",
+      "cpu": "0.1",
       "mem": "0.0",
-      "elapsed": "00:05",
-      "elapsedSec": 5,
-      "cmd": "/bin/bash -c # Try mobile version which sometimes shows more npx playwright screenshot --wait-for-timeout 5000 --full-page \"https://m.facebook.com/emp",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites/demos/счетоводна-къща-емпика && codex exec \"$(cat /tmp/empika-revision-prompt.md)\" 2>&1",
+      "relatedTopic": "49",
+      "procType": "codex"
+    },
+    {
+      "pid": "1648457",
+      "cpu": "0.6",
+      "mem": "1.1",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec # Task: Fix Счетоводна къща Емпика demo site ## Working Directory `/home/clawd/Projects/demo-sites/demos/с",
+      "relatedTopic": "49",
+      "procType": "codex"
+    },
+    {
+      "pid": "1648464",
+      "cpu": "3.8",
+      "mem": "1.5",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec # Task: ",
       "relatedTopic": null,
-      "procType": "build"
+      "procType": "codex"
     }
   ],
   "errors": {
@@ -170,10 +190,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
-    "building": 0,
-    "recent": 0,
-    "idle": 10,
-    "stuck": 1
+    "working": 2,
+    "building": 1,
+    "recent": 1,
+    "idle": 8,
+    "stuck": 0
   }
 }
