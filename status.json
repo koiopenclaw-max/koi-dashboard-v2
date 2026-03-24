@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T12:55:02.719Z",
-  "serverUptime": 1309158,
+  "timestamp": "2026-03-24T12:59:34.901Z",
+  "serverUptime": 1309430,
   "loadAvg": [
-    "1.13",
-    "0.40",
-    "0.19"
+    "0.12",
+    "0.23",
+    "0.17"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 72640,
+      "ageSec": 72913,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T19:28:38.724Z",
-      "ageSec": 62783,
+      "ageSec": 63056,
       "tokens": 89617,
       "lastAction": "Крис, урокът е записан като **твърдо правило** в AGENTS.md. Няма повече \"push и дано е ок\".   Сайтът е обновен с всички",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 70427,
+      "ageSec": 70699,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1606436",
-      "cpu": "41.1",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
