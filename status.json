@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T15:20:03.305Z",
-  "serverUptime": 1317858,
+  "timestamp": "2026-03-24T15:25:03.640Z",
+  "serverUptime": 1318159,
   "loadAvg": [
-    "0.71",
-    "0.40",
-    "0.44"
+    "0.21",
+    "0.28",
+    "0.38"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 955,
+      "ageSec": 1255,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 1943,
+      "ageSec": 2243,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T15:19:52.076Z",
-      "ageSec": 11,
-      "tokens": 106170,
-      "lastAction": "⚡ rm -f /home/clawd/.openclaw/workspace/empika-review.png",
+      "lastUpdate": "2026-03-24T15:24:26.959Z",
+      "ageSec": 36,
+      "tokens": 114641,
+      "lastAction": "⚡ sed -n '635,700p' /home/clawd/.openclaw/workspace/scripts/demo-worker.",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,10 +130,10 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:17:56.886Z",
-      "ageSec": 126,
+      "ageSec": 426,
       "tokens": 68020,
       "lastAction": "По план следва **Phase 5: Stripe & Payments**.  **Какво включва:** - Stripe Checkout за Starter план (€28/мес) - Webhook",
       "hasProcess": false,
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1661836",
+      "cpu": "112",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
@@ -161,8 +172,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
