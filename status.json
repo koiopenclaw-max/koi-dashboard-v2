@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T16:45:03.276Z",
-  "serverUptime": 1322958,
+  "timestamp": "2026-03-24T16:50:03.660Z",
+  "serverUptime": 1323259,
   "loadAvg": [
-    "0.27",
-    "0.41",
-    "0.41"
+    "0.18",
+    "0.33",
+    "0.39"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 6055,
+      "ageSec": 6355,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 1795,
+      "ageSec": 2096,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T16:33:48.861Z",
-      "ageSec": 674,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T16:50:00.509Z",
+      "ageSec": 3,
       "tokens": 48362,
-      "lastAction": "Ето какво стана:  **Проблемът:** Codex изгради сайта успешно (5/5 валидация), но крашна на финалния `copyFile` — `gitPul",
+      "lastAction": "⚡ tail -40 /tmp/demo-worker.log",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T16:42:51.862Z",
-      "ageSec": 131,
-      "tokens": 128078,
-      "lastAction": "Ето го плана 👆  9 секции — визия, Client Portal (6-стъпков wizard), Admin Dashboard (pipeline + client cards), database",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T16:49:36.165Z",
+      "ageSec": 27,
+      "tokens": 143504,
+      "lastAction": "Ето го v2 👆  Ключовата разлика: **нула нови таблици**. Всяка стъпка от wizard-а записва в съществуващите:  - Бизнес инфо",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,34 +154,14 @@
   ],
   "processes": [
     {
-      "pid": "1695671",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "01:22",
-      "elapsedSec": 82,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the inst",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1695673",
-      "cpu": "0.0",
+      "pid": "1698507",
+      "cpu": "85.7",
       "mem": "1.1",
-      "elapsed": "01:22",
-      "elapsedSec": 82,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
       "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1695681",
-      "cpu": "1.4",
-      "mem": "1.6",
-      "elapsed": "01:22",
-      "elapsedSec": 82,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
+      "procType": "build"
     }
   ],
   "errors": {
@@ -190,10 +170,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 2,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 10,
     "stuck": 0
   }
 }
