@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T18:10:04.610Z",
-  "serverUptime": 1328060,
+  "timestamp": "2026-03-24T18:14:34.854Z",
+  "serverUptime": 1328330,
   "loadAvg": [
-    "0.12",
-    "0.26",
-    "0.27"
+    "0.06",
+    "0.24",
+    "0.26"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 11156,
+      "ageSec": 11427,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 6897,
+      "ageSec": 7167,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 3108,
+      "ageSec": 3378,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T18:02:25.098Z",
-      "ageSec": 459,
+      "ageSec": 729,
       "tokens": 127822,
       "lastAction": "Готово. Ето пълния отчет:  ---  ## 📊 Финален резултат  ### ✅ Всичко направено без твоя намеса:  **Код (10 фикса):** 1. ✅",
       "hasProcess": false,
@@ -154,31 +154,21 @@
   ],
   "processes": [
     {
-      "pid": "1731333",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "00:03",
-      "elapsedSec": 3,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-build-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instruc",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1731335",
-      "cpu": "1.8",
+      "pid": "1733588",
+      "cpu": "0.5",
       "mem": "1.1",
-      "elapsed": "00:03",
-      "elapsedSec": 3,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "elapsed": "00:14",
+      "elapsedSec": 14,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto You are working on a law firm demo site at demos/адвокатска-кантора-богданови-и-маринов/ CRITI",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1731343",
-      "cpu": "11.0",
+      "pid": "1733596",
+      "cpu": "3.1",
       "mem": "1.5",
-      "elapsed": "00:03",
-      "elapsedSec": 3,
+      "elapsed": "00:14",
+      "elapsedSec": 14,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
