@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T15:50:03.578Z",
-  "serverUptime": 1319659,
+  "timestamp": "2026-03-24T15:55:02.591Z",
+  "serverUptime": 1319958,
   "loadAvg": [
-    "0.68",
-    "0.46",
-    "0.39"
+    "0.09",
+    "0.27",
+    "0.33"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 2755,
+      "ageSec": 3054,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 3743,
+      "ageSec": 4042,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T15:49:53.213Z",
-      "ageSec": 10,
-      "tokens": 144846,
-      "lastAction": "Оправено. Ето какво се случи и какво фикснах:  **Проблем 1:** Playwright screenshots timeout-ваха на 30 сек → **увеличен",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T15:53:39.487Z",
+      "ageSec": 83,
+      "tokens": 145674,
+      "lastAction": "Изтрих го. Сега — да, нека обсъдим.  ## Проблемът  Failsafe-ът (в heartbeat-а) и worker-ът са **два различни механизма**",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T15:17:56.886Z",
-      "ageSec": 1926,
-      "tokens": 68020,
-      "lastAction": "По план следва **Phase 5: Stripe & Payments**.  **Какво включва:** - Stripe Checkout за Starter план (€28/мес) - Webhook",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T15:54:01.572Z",
+      "ageSec": 61,
+      "tokens": 69836,
+      "lastAction": "Записани в `.secrets/stripe-keys`, chmod 600. 🔒  Тест ключове са — перфектно за development. Започвам Phase 5. Ще ти дам",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,34 +154,44 @@
   ],
   "processes": [
     {
-      "pid": "1672070",
+      "pid": "1674733",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "01:51",
-      "elapsedSec": 111,
+      "elapsed": "00:11",
+      "elapsedSec": 11,
       "cmd": "/bin/sh -c cd \"/tmp/demo-revision-счетоводна-къща-емпика\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1672072",
-      "cpu": "0.0",
+      "pid": "1674735",
+      "cpu": "0.5",
       "mem": "1.1",
-      "elapsed": "01:51",
-      "elapsedSec": 111,
+      "elapsed": "00:11",
+      "elapsedSec": 11,
       "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1672080",
-      "cpu": "1.5",
-      "mem": "1.6",
-      "elapsed": "01:51",
-      "elapsedSec": 111,
+      "pid": "1674743",
+      "cpu": "3.4",
+      "mem": "1.5",
+      "elapsed": "00:11",
+      "elapsedSec": 11,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
+    },
+    {
+      "pid": "1675012",
+      "cpu": "25.0",
+      "mem": "0.8",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
     }
   ],
   "errors": {
@@ -190,10 +200,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
-    "idle": 11,
+    "recent": 2,
+    "idle": 10,
     "stuck": 0
   }
 }
