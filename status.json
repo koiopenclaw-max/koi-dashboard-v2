@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T20:25:03.601Z",
-  "serverUptime": 1336159,
+  "timestamp": "2026-03-24T20:30:03.678Z",
+  "serverUptime": 1336459,
   "loadAvg": [
-    "0.72",
-    "0.43",
-    "0.35"
+    "0.77",
+    "0.36",
+    "0.32"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 19255,
+      "ageSec": 19555,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 14996,
+      "ageSec": 15296,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 4719,
+      "ageSec": 5019,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T20:25:03.153Z",
-      "ageSec": 0,
-      "tokens": 62757,
-      "lastAction": "📖 wizard.js",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T20:27:08.101Z",
+      "ageSec": 175,
+      "tokens": 70884,
+      "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,9 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "1781579",
-      "cpu": "111",
-      "mem": "1.1",
+      "pid": "1783399",
+      "cpu": "25.0",
+      "mem": "0.7",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
@@ -170,9 +170,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
