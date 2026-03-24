@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T17:25:03.945Z",
+  "updated": "2026-03-24T17:30:04.135Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -136,6 +136,10 @@
             {
               "time": "16:15",
               "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
             }
           ]
         },
@@ -524,6 +528,10 @@
             {
               "time": "16:40",
               "text": "Demo revision: Адвокатска кантора Богданови и Маринов — Codex spawned (session fast-basil) за разширяване на single-page демо в multi-page сайт. Клиентът харесва визията, иска пълно съдържание от стария сайт (услуги, цени, екип, контакти). 6 нови HTML страници."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
             }
           ]
         },
@@ -1045,6 +1053,10 @@
             {
               "time": "16:28",
               "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
             }
           ]
         },
@@ -1723,6 +1735,10 @@
             {
               "time": "16:15",
               "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
             }
           ]
         },
@@ -2167,6 +2183,10 @@
             {
               "time": "16:40",
               "text": "Demo revision: Адвокатска кантора Богданови и Маринов — Codex spawned (session fast-basil) за разширяване на single-page демо в multi-page сайт. Клиентът харесва визията, иска пълно съдържание от стария сайт (услуги, цени, екип, контакти). 6 нови HTML страници."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
             }
           ]
         },
