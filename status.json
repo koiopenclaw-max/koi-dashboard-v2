@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T20:10:03.926Z",
-  "serverUptime": 1335259,
+  "timestamp": "2026-03-24T20:15:03.846Z",
+  "serverUptime": 1335559,
   "loadAvg": [
-    "0.23",
-    "0.27",
-    "0.25"
+    "0.86",
+    "0.37",
+    "0.28"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 18356,
+      "ageSec": 18656,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 14096,
+      "ageSec": 14396,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 3819,
+      "ageSec": 4119,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T20:07:47.715Z",
-      "ageSec": 136,
-      "tokens": 56159,
-      "lastAction": "Колоната `expectations` е добавена в Supabase ✅. Всичко работи — порталът вече може да записва и чете от нея.",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T20:14:30.957Z",
+      "ageSec": 32,
+      "tokens": 58440,
+      "lastAction": "`projects_claw_type_check` е махнат ✅. Опитай пак — сега трябва да запише \"ИТ и технологии\" без проблем.  Извинявай за п",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,27 +152,16 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1776440",
-      "cpu": "35.7",
-      "mem": "1.2",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
