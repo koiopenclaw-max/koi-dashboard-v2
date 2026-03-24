@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T17:50:02.986Z",
-  "serverUptime": 1326858,
+  "timestamp": "2026-03-24T17:55:03.449Z",
+  "serverUptime": 1327159,
   "loadAvg": [
-    "0.18",
-    "0.22",
-    "0.25"
+    "0.12",
+    "0.16",
+    "0.21"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 9955,
+      "ageSec": 10255,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 5695,
+      "ageSec": 5995,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 1906,
+      "ageSec": 2207,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T17:49:08.967Z",
-      "ageSec": 54,
-      "tokens": 110084,
-      "lastAction": "Ето пълния deep test резултат:  ---  ## 📊 Тест резултати — Deep Dive  ### ✅ 14/14 Playwright тестове минават Всички UI т",
+      "lastUpdate": "2026-03-24T17:53:53.795Z",
+      "ageSec": 69,
+      "tokens": 111328,
+      "lastAction": "DB check constraints не приемат статусите, които кодът записва. **Реално плащане ще чупи.**  **Конкретно:**  | Таблица |",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,8 +154,28 @@
   ],
   "processes": [
     {
-      "pid": "1723071",
-      "cpu": "69.2",
+      "pid": "1723390",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "04:05",
+      "elapsedSec": 245,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto You are in a demo site directory for a law firm. There is currently only index.html (1087 line",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1723398",
+      "cpu": "1.1",
+      "mem": "1.6",
+      "elapsed": "04:05",
+      "elapsedSec": 245,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1724980",
+      "cpu": "33.3",
       "mem": "1.0",
       "elapsed": "00:00",
       "elapsedSec": 0,
