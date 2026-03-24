@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T16:15:03.262Z",
-  "serverUptime": 1321158,
+  "timestamp": "2026-03-24T16:19:35.043Z",
+  "serverUptime": 1321430,
   "loadAvg": [
-    "0.41",
-    "0.52",
-    "0.45"
+    "0.10",
+    "0.39",
+    "0.42"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 4255,
+      "ageSec": 4527,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -82,11 +82,11 @@
     {
       "topicId": "11",
       "name": "📥 Inbox",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T16:14:59.857Z",
-      "ageSec": 3,
-      "tokens": 20275,
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-24T16:15:07.513Z",
+      "ageSec": 267,
+      "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
       "hasSession": true
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T16:14:00.235Z",
-      "ageSec": 63,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T16:19:21.177Z",
+      "ageSec": 13,
       "tokens": 102740,
-      "lastAction": "Крис, Stripe backend-ът е жив! 🎉  **Какво е готово:** - ✅ `https://clawai-stripe.vercel.app/api/health` — health check -",
+      "lastAction": "⏳ poll salty-breeze",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,7 +152,38 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1684229",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "02:15",
+      "elapsedSec": 135,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-build-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instruc",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1684231",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:15",
+      "elapsedSec": 135,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1684239",
+      "cpu": "1.5",
+      "mem": "1.6",
+      "elapsed": "02:15",
+      "elapsedSec": 135,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
@@ -161,8 +192,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
