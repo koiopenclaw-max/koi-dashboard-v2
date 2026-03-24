@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T13:55:02.984Z",
-  "serverUptime": 1312758,
+  "timestamp": "2026-03-24T13:59:34.563Z",
+  "serverUptime": 1313030,
   "loadAvg": [
-    "0.22",
-    "0.20",
-    "0.18"
+    "0.42",
+    "0.30",
+    "0.22"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 76241,
+      "ageSec": 76512,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-23T19:28:38.724Z",
-      "ageSec": 66384,
-      "tokens": 89617,
-      "lastAction": "Крис, урокът е записан като **твърдо правило** в AGENTS.md. Няма повече \"push и дано е ок\".   Сайтът е обновен с всички",
+      "status": "stuck",
+      "statusLabel": "🔴 Stuck",
+      "lastUpdate": "2026-03-24T13:59:04.206Z",
+      "ageSec": 30,
+      "tokens": 26033,
+      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites && git remote set-url origin https:",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 74027,
+      "ageSec": 74299,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -162,7 +162,7 @@
     "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 12,
-    "stuck": 0
+    "idle": 11,
+    "stuck": 1
   }
 }
