@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T17:00:04.716Z",
+  "updated": "2026-03-24T17:05:03.268Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -117,6 +117,14 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "17:00",
+              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
+            },
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
             {
               "time": "15:56",
               "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
@@ -489,6 +497,10 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
             {
               "time": "16:32",
               "text": "✅ Demo Sites: \"Адвокатска кантора Богданови и Маринов\" — DONE. demoUrl deployed, visual validation PASS, notified topic 49. URL: https://koiopenclaw-max.github.io/demo-sites/demos/адвокатска-кантора-богданови-и-маринов/"
@@ -1002,6 +1014,14 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "17:00",
+              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
+            },
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
             {
               "time": "16:32",
               "text": "✅ Demo Sites: \"Адвокатска кантора Богданови и Маринов\" — DONE. demoUrl deployed, visual validation PASS, notified topic 49. URL: https://koiopenclaw-max.github.io/demo-sites/demos/адвокатска-кантора-богданови-и-маринов/"
@@ -1681,6 +1701,14 @@
           "date": "2026-03-24",
           "entries": [
             {
+              "time": "17:00",
+              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
+            },
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
+            {
               "time": "15:56",
               "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
             },
@@ -2004,6 +2032,14 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "17:00",
+              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
+            },
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
             {
               "time": "16:57",
               "text": "🔔 Codex приключи. Koi ревюира."
