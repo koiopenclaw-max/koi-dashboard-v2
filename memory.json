@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-24T15:50:03.504Z",
+  "updated": "2026-03-24T15:55:02.701Z",
   "totalDays": 19,
-  "totalEntries": 369,
+  "totalEntries": 371,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "15:53",
+          "text": "💳 Stripe test keys получени от Крис. Записани в `[secrets-path]` (chmod 600). Акаунт ID: 51TESeFDffwyovr6K. Започвам Phase 5: Stripe Payments.",
+          "type": "default"
+        },
+        {
+          "time": "15:53",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "15:47",
           "text": "Demo Sites: Емпика — нова ревизия от Крис: грешна тема + hero image прекалено голямо. Worker rebuild overwrite моя v3. Питам Крис коя тема иска реално.",
@@ -157,7 +167,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 21
+      "entryCount": 23
     },
     {
       "date": "2026-03-23",
