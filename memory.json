@@ -1,12 +1,28 @@
 {
-  "updated": "2026-03-24T14:05:02.926Z",
+  "updated": "2026-03-24T14:10:03.570Z",
   "totalDays": 19,
-  "totalEntries": 348,
+  "totalEntries": 351,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
-      "entries": [],
+      "entries": [
+        {
+          "time": "14:06",
+          "text": "📌 Vercel token се намира в `[server-path] (chmod 600). Използва се с: `vercel --token $(cat [server-path])`. Акаунт: koiopenclaw-8645.",
+          "type": "default"
+        },
+        {
+          "time": "14:05",
+          "text": "🔧 Vercel CLI инсталиран, токен записан в [server-path] (chmod 600). Акаунт: koiopenclaw-8645. Пълен достъп за deploy.",
+          "type": "deploy"
+        },
+        {
+          "time": "14:05",
+          "text": "🎯 Миграция на demo-sites proxy от Cloudflare Quick Tunnel → Vercel Serverless Functions (за устойчиво решение)",
+          "type": "decision"
+        }
+      ],
       "priorities": [
         {
           "done": false,
@@ -46,10 +62,12 @@
         }
       ],
       "insights": [],
-      "decisions": [],
+      "decisions": [
+        "- **14:05** 🎯 Миграция на demo-sites proxy от Cloudflare Quick Tunnel → Vercel Serverless Functions (за устойчиво решение)"
+      ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 0
+      "entryCount": 3
     },
     {
       "date": "2026-03-23",
