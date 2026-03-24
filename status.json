@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-24T14:50:03.700Z",
-  "serverUptime": 1316059,
+  "timestamp": "2026-03-24T14:55:03.252Z",
+  "serverUptime": 1316358,
   "loadAvg": [
-    "1.25",
-    "1.25",
-    "1.04"
+    "0.58",
+    "0.77",
+    "0.89"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:49:58.825Z",
-      "ageSec": 4,
-      "tokens": 0,
-      "lastAction": "⚡ ls -lh /home/clawd/.openclaw/agents/main/sessions/624a583b-0188-4d5f-b",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T14:52:25.182Z",
+      "ageSec": 158,
+      "tokens": 31523,
+      "lastAction": "Дашбордът се обновява — последният push е от преди секунди (14:51-14:52 UTC). Може GitHub Pages да кешира малко. Ако виж",
       "hasProcess": false,
       "hasSession": true
     },
@@ -82,10 +82,10 @@
     {
       "topicId": "11",
       "name": "📥 Inbox",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 143,
+      "ageSec": 443,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "building",
-      "statusLabel": "🔨 Codex Building",
-      "lastUpdate": "2026-03-24T14:49:30.776Z",
-      "ageSec": 32,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T14:54:56.128Z",
+      "ageSec": 7,
       "tokens": 67512,
-      "lastAction": "⏳ poll neat-sage",
-      "hasProcess": true,
+      "lastAction": "⚡ # Force cache bust - check with timestamp\ncurl -sH \"Cache-Control: no-",
+      "hasProcess": false,
       "hasSession": true
     },
     {
@@ -130,10 +130,10 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:48:58.678Z",
-      "ageSec": 65,
+      "ageSec": 364,
       "tokens": 64140,
       "lastAction": "Крис, прав си — нямам контекст какво точно ми е писал и на какво си отговорил. Сесията за topic 718 се е рестартирала и",
       "hasProcess": false,
@@ -152,38 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "1648455",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "00:37",
-      "elapsedSec": 37,
-      "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites/demos/счетоводна-къща-емпика && codex exec \"$(cat /tmp/empika-revision-prompt.md)\" 2>&1",
-      "relatedTopic": "49",
-      "procType": "codex"
-    },
-    {
-      "pid": "1648457",
-      "cpu": "0.1",
-      "mem": "1.1",
-      "elapsed": "00:37",
-      "elapsedSec": 37,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec # Task: Fix Счетоводна къща Емпика demo site ## Working Directory `/home/clawd/Projects/demo-sites/demos/с",
-      "relatedTopic": "49",
-      "procType": "codex"
-    },
-    {
-      "pid": "1648464",
-      "cpu": "1.5",
-      "mem": "1.5",
-      "elapsed": "00:37",
-      "elapsedSec": 37,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec # Task: ",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
@@ -191,9 +160,9 @@
   "summary": {
     "totalTopics": 12,
     "working": 1,
-    "building": 1,
-    "recent": 2,
-    "idle": 8,
+    "building": 0,
+    "recent": 1,
+    "idle": 10,
     "stuck": 0
   }
 }
