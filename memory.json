@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-24T19:10:03.686Z",
+  "updated": "2026-03-24T19:15:02.913Z",
   "totalDays": 19,
-  "totalEntries": 420,
+  "totalEntries": 421,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "19:15",
+          "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel.",
+          "type": "email"
+        },
         {
           "time": "19:05",
           "text": "✅ v5 baseline flow работи — 7 отделни страници + baseline запазен. Navy+gold визия. Чакаме Крис да прегледа.",
@@ -413,7 +418,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 72
+      "entryCount": 73
     },
     {
       "date": "2026-03-23",
