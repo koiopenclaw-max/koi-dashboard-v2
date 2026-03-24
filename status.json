@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T13:59:34.563Z",
-  "serverUptime": 1313030,
+  "timestamp": "2026-03-24T14:00:04.339Z",
+  "serverUptime": 1313059,
   "loadAvg": [
-    "0.42",
-    "0.30",
-    "0.22"
+    "0.74",
+    "0.37",
+    "0.24"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 76512,
+      "ageSec": 76542,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "stuck",
-      "statusLabel": "🔴 Stuck",
-      "lastUpdate": "2026-03-24T13:59:04.206Z",
-      "ageSec": 30,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T13:59:43.353Z",
+      "ageSec": 20,
       "tokens": 26033,
       "lastAction": "⚡ cd /home/clawd/Projects/demo-sites && git remote set-url origin https:",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 74299,
+      "ageSec": 74329,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -159,10 +159,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
     "idle": 11,
-    "stuck": 1
+    "stuck": 0
   }
 }
