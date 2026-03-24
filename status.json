@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T02:29:33.680Z",
-  "serverUptime": 1271629,
+  "timestamp": "2026-03-24T02:30:04.043Z",
+  "serverUptime": 1271659,
   "loadAvg": [
-    "0.07",
-    "0.12",
-    "0.10"
+    "0.57",
+    "0.22",
+    "0.13"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 35111,
+      "ageSec": 35142,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T19:28:38.724Z",
-      "ageSec": 25254,
+      "ageSec": 25285,
       "tokens": 89617,
       "lastAction": "Крис, урокът е записан като **твърдо правило** в AGENTS.md. Няма повече \"push и дано е ок\".   Сайтът е обновен с всички",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 32898,
+      "ageSec": 32928,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
