@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-24T19:39:35.421Z",
-  "serverUptime": 1333431,
+  "timestamp": "2026-03-24T19:44:34.366Z",
+  "serverUptime": 1333729,
   "loadAvg": [
-    "0.21",
+    "0.24",
     "0.20",
     "0.18"
   ],
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 16527,
+      "ageSec": 16826,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 12267,
+      "ageSec": 12566,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 1991,
+      "ageSec": 2290,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T19:36:41.259Z",
-      "ageSec": 174,
-      "tokens": 33755,
-      "lastAction": "Намерих root cause-а — `input { width: 100%; padding: 14px 16px; }` хващаше **всички** input-и, включително `checkbox` и",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T19:43:49.911Z",
+      "ageSec": 44,
+      "tokens": 38364,
+      "lastAction": "Името на агента се залага в **Стъпка 5 (Персона)** на wizard-а:  - **Поле:** `id=\"assistant-name\"` → \"Име на асистента\"",
       "hasProcess": false,
       "hasSession": true
     },
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
