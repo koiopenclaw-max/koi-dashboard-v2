@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T19:25:04.105Z",
+  "updated": "2026-03-24T19:30:04.691Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -160,6 +160,10 @@
             {
               "time": "19:25",
               "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         },
@@ -564,6 +568,10 @@
             {
               "time": "19:20",
               "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         },
@@ -1097,6 +1105,10 @@
             {
               "time": "19:15",
               "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         },
@@ -1799,6 +1811,10 @@
             {
               "time": "19:25",
               "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         },
@@ -2315,6 +2331,10 @@
             {
               "time": "19:25",
               "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         },
