@@ -1,8 +1,68 @@
 {
-  "updated": "2026-03-24T21:00:03.945Z",
-  "totalDays": 19,
+  "updated": "2026-03-24T21:05:03.380Z",
+  "totalDays": 20,
   "totalEntries": 426,
   "days": [
+    {
+      "date": "2026-03-25",
+      "dayName": "Сряда",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning автоматизация"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Admin Dashboard"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
@@ -439,9 +499,11 @@
       "insights": [],
       "decisions": [
         "✅ Крис одобри Phase 5b v2 план. Тръгвам с Фаза A: Webhook upgrade + Customer creation.",
-        "- **14:05** 🎯 Миграция на demo-sites proxy от Cloudflare Quick Tunnel → Vercel Serverless Functions (за устойчиво решение)"
+        "- **14:05** 🎯 Миграция на demo-sites proxy от Cloudflare Quick Tunnel → Vercel Serverless Functions (за устойчиво решение)",
+        "- Крис одобри Phase 5b v2 план (ползва 100% съществуващата Supabase schema)",
+        "- ClawAI Phase 6: DO auto-provisioning (ако Крис одобри)"
       ],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 78
     },
