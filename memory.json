@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-24T15:20:02.959Z",
+  "updated": "2026-03-24T15:25:03.632Z",
   "totalDays": 19,
-  "totalEntries": 360,
+  "totalEntries": 361,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "15:20",
+          "text": "Demo Sites: Емпика rebuild v2 завършен. Unsplash снимки, човешки текст ('Счетоводство без главоболия'), FAQ секция, контактна форма. Visual validation 9/10. Статус → review. Нотифициран topic 49.",
+          "type": "build"
+        },
         {
           "time": "15:19",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -112,7 +117,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 12
+      "entryCount": 13
     },
     {
       "date": "2026-03-23",
