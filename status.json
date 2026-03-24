@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:55:03.252Z",
-  "serverUptime": 1316358,
+  "timestamp": "2026-03-24T15:00:03.403Z",
+  "serverUptime": 1316658,
   "loadAvg": [
-    "0.58",
-    "0.77",
-    "0.89"
+    "0.99",
+    "0.64",
+    "0.77"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T14:52:25.182Z",
-      "ageSec": 158,
-      "tokens": 31523,
-      "lastAction": "Дашбордът се обновява — последният push е от преди секунди (14:51-14:52 UTC). Може GitHub Pages да кешира малко. Ако виж",
+      "lastUpdate": "2026-03-24T14:59:16.066Z",
+      "ageSec": 47,
+      "tokens": 36302,
+      "lastAction": "Добра идея е, но трябва да внимаваме с timing-а. Ето моят анализ:  **✅ Защо е добра идея:** - Чиста памет всяка сутрин —",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 443,
+      "ageSec": 743,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:54:56.128Z",
-      "ageSec": 7,
-      "tokens": 67512,
-      "lastAction": "⚡ # Force cache bust - check with timestamp\ncurl -sH \"Cache-Control: no-",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T14:59:00.674Z",
+      "ageSec": 62,
+      "tokens": 101899,
+      "lastAction": "Не, сайтът е готов и вече е в статус `review`. Всичко е на място — секции, контакти, footer.  Чакам теб да го прегледаш.",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:48:58.678Z",
-      "ageSec": 364,
+      "ageSec": 664,
       "tokens": 64140,
       "lastAction": "Крис, прав си — нямам контекст какво точно ми е писал и на какво си отговорил. Сесията за topic 718 се е рестартирала и",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 1,
+    "recent": 2,
     "idle": 10,
     "stuck": 0
   }
