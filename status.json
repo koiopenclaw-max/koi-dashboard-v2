@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T15:25:03.640Z",
-  "serverUptime": 1318159,
+  "timestamp": "2026-03-24T15:30:03.013Z",
+  "serverUptime": 1318458,
   "loadAvg": [
-    "0.21",
+    "0.16",
     "0.28",
-    "0.38"
+    "0.36"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 1255,
+      "ageSec": 1555,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 2243,
+      "ageSec": 2542,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T15:24:26.959Z",
-      "ageSec": 36,
-      "tokens": 114641,
-      "lastAction": "⚡ sed -n '635,700p' /home/clawd/.openclaw/workspace/scripts/demo-worker.",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T15:29:08.509Z",
+      "ageSec": 54,
+      "tokens": 127685,
+      "lastAction": "✅ **Готово. Visual validation е активна и за build, и за revisions.**  Сега всеки сайт минава през:  ``` Codex генерира",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:17:56.886Z",
-      "ageSec": 426,
+      "ageSec": 726,
       "tokens": 68020,
       "lastAction": "По план следва **Phase 5: Stripe & Payments**.  **Какво включва:** - Stripe Checkout за Starter план (€28/мес) - Webhook",
       "hasProcess": false,
@@ -154,9 +154,39 @@
   ],
   "processes": [
     {
-      "pid": "1661836",
-      "cpu": "112",
+      "pid": "1662790",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "02:36",
+      "elapsedSec": 156,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-счетоводна-къща-емпика\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1662792",
+      "cpu": "0.0",
       "mem": "1.1",
+      "elapsed": "02:36",
+      "elapsedSec": 156,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1662800",
+      "cpu": "1.2",
+      "mem": "1.6",
+      "elapsed": "02:36",
+      "elapsedSec": 156,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1664191",
+      "cpu": "30.0",
+      "mem": "1.0",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
@@ -170,9 +200,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
