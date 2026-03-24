@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T16:05:03.975Z",
+  "updated": "2026-03-24T16:10:03.587Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -480,8 +480,17 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 11,
+      "activityDays": 12,
       "recentActivity": [
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "16:08",
+              "text": "Auto-extract topic 49 (151624 tokens, id:49-1774368484):** [2026-03-24T15:56:27] User: аз не мога да опиша точен спек, но мисля че ти имаш познание какво и как да прави - концепци; [2026-03-24T16:00:14] User: както цяло съм съгласен че кодекс не ни трябва винаги, но за сега сайтовете които правим дор; [2026-03-24T16:05:38] User: ами възможно е да направим нещо такова, запиши го в идеите. Да го обмисля; [2026-03-24T15:57:17] Добър въпрос. Нека бъда честен.  ## Концептуалният проблем  **Lovable/Replit** работят защото имат; [2026-03-24T16:01:11] Прав си. Мислех твърде тясно — оптимизирах лошия процес вместо да го преосмисля. Ето истинската ка; [2026-03-24T16:06:00] Записано. Когато решиш — казваш. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%87%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D"
+            }
+          ]
+        },
         {
           "date": "2026-03-23",
           "entries": [
@@ -846,23 +855,6 @@
               "text": "Tasks 6-9 complete, Article Creator deployed"
             }
           ]
-        },
-        {
-          "date": "2026-03-11",
-          "entries": [
-            {
-              "time": "14:02",
-              "text": "GitHub demo-sites repo: Telegram Bot Token беше exposed в git историята (commit 735e628). Изчистен с git filter-branch + force push. Верифицирано: токенът е 0 пъти в историята, сайтът работи (HTTP 200). Токенът ТРЯБВА да се ротира от Крис в @BotFather. Урок: НИКОГА hardcode tokens в client-side код."
-            },
-            {
-              "time": "22:08",
-              "text": "✅ Zdravko landing page ГОТОВ и деплойнат. Repo: koiopenclaw-max/zdravko-landing. Live: https://koiopenclaw-max.github.io/zdravko-landing/ Demo-sites статус обновен → done."
-            },
-            {
-              "time": "19:23",
-              "text": "— Demo Sites платформа v3 + Zdravko задание — - Преработена платформата: нов проект с тип/URL/бележки → автоматичен flow - Статуси: created → briefing → brief_ready → qa_submitted → brief_final → building → done - GitHub Action нотификация при промяна на статус - Auto-polling на всеки 10 сек в платформата - Cron watcher всяка минута за trigger-ване на Koi"
-            }
-          ]
         }
       ]
     },
@@ -990,6 +982,10 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "16:08",
+              "text": "Auto-extract topic 49 (151624 tokens, id:49-1774368484):** [2026-03-24T15:56:27] User: аз не мога да опиша точен спек, но мисля че ти имаш познание какво и как да прави - концепци; [2026-03-24T16:00:14] User: както цяло съм съгласен че кодекс не ни трябва винаги, но за сега сайтовете които правим дор; [2026-03-24T16:05:38] User: ами възможно е да направим нещо такова, запиши го в идеите. Да го обмисля; [2026-03-24T15:57:17] Добър въпрос. Нека бъда честен.  ## Концептуалният проблем  **Lovable/Replit** работят защото имат; [2026-03-24T16:01:11] Прав си. Мислех твърде тясно — оптимизирах лошия процес вместо да го преосмисля. Ето истинската ка; [2026-03-24T16:06:00] Записано. Когато решиш — казваш. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%87%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D"
+            },
             {
               "time": "15:56",
               "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
@@ -1972,6 +1968,10 @@
         {
           "date": "2026-03-24",
           "entries": [
+            {
+              "time": "16:08",
+              "text": "Auto-extract topic 49 (151624 tokens, id:49-1774368484):** [2026-03-24T15:56:27] User: аз не мога да опиша точен спек, но мисля че ти имаш познание какво и как да прави - концепци; [2026-03-24T16:00:14] User: както цяло съм съгласен че кодекс не ни трябва винаги, но за сега сайтовете които правим дор; [2026-03-24T16:05:38] User: ами възможно е да направим нещо такова, запиши го в идеите. Да го обмисля; [2026-03-24T15:57:17] Добър въпрос. Нека бъда честен.  ## Концептуалният проблем  **Lovable/Replit** работят защото имат; [2026-03-24T16:01:11] Прав си. Мислех твърде тясно — оптимизирах лошия процес вместо да го преосмисля. Ето истинската ка; [2026-03-24T16:06:00] Записано. Когато решиш — казваш. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%87%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D"
+            },
             {
               "time": "16:00",
               "text": "🔔 Codex приключи. Koi ревюира."
