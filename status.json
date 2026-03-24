@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:00:04.339Z",
-  "serverUptime": 1313059,
+  "timestamp": "2026-03-24T14:05:03.009Z",
+  "serverUptime": 1313358,
   "loadAvg": [
-    "0.74",
-    "0.37",
-    "0.24"
+    "0.52",
+    "0.34",
+    "0.26"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 76542,
+      "ageSec": 76841,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T13:59:43.353Z",
-      "ageSec": 20,
-      "tokens": 26033,
-      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites && git remote set-url origin https:",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T14:02:15.222Z",
+      "ageSec": 167,
+      "tokens": 28682,
+      "lastAction": "Два варианта:  ## Вариант А: Ти свързваш от dashboard-а (по-лесно за теб)  Аз подготвям всичко: 1. Създавам repo `koiope",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 74329,
+      "ageSec": 74627,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
