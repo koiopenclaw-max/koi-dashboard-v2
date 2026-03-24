@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T19:45:03.585Z",
-  "serverUptime": 1333759,
+  "timestamp": "2026-03-24T19:50:03.516Z",
+  "serverUptime": 1334059,
   "loadAvg": [
-    "0.22",
     "0.20",
-    "0.18"
+    "0.25",
+    "0.20"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 16855,
+      "ageSec": 17155,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 12596,
+      "ageSec": 12896,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 2319,
+      "ageSec": 2619,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T19:45:02.607Z",
-      "ageSec": 0,
-      "tokens": 38364,
-      "lastAction": "⚡ grep -n \"getPlanName\\|plan_name\\|plan\\.name\\|step1-plan-name\\|ClawAI P",
+      "lastUpdate": "2026-03-24T19:50:00.632Z",
+      "ageSec": 2,
+      "tokens": 42087,
+      "lastAction": "⚡ cd /home/clawd/Projects/clawai-stripe && node -e \"\nconst { createClien",
       "hasProcess": false,
       "hasSession": true
     },
