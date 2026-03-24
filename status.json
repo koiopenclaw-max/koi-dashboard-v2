@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:20:04.305Z",
-  "serverUptime": 1314259,
+  "timestamp": "2026-03-24T14:25:02.538Z",
+  "serverUptime": 1314558,
   "loadAvg": [
-    "1.94",
-    "1.00",
-    "0.59"
+    "0.81",
+    "0.60",
+    "0.50"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 77742,
+      "ageSec": 78040,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -84,22 +84,22 @@
       "name": "📥 Inbox",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": null,
-      "ageSec": 999999,
-      "tokens": 0,
+      "lastUpdate": "2026-03-24T14:20:55.680Z",
+      "ageSec": 246,
+      "tokens": 19800,
       "lastAction": "",
       "hasProcess": false,
-      "hasSession": false
+      "hasSession": true
     },
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:19:40.107Z",
-      "ageSec": 24,
-      "tokens": 51236,
-      "lastAction": "## Отчет по сигурността: ✅ Чисто  **Vercel proxy (`demo-sites-api`):** - GitHub token, парола, session secret — **само в",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-24T14:21:57.728Z",
+      "ageSec": 184,
+      "tokens": 53516,
+      "lastAction": "Пробвай оригиналното нещо, което не работеше — отвори [платформата](https://koiopenclaw-max.github.io/demo-sites/), логн",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 75529,
+      "ageSec": 75827,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -152,17 +152,28 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1637894",
+      "cpu": "43.7",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
