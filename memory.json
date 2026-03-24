@@ -1,16 +1,26 @@
 {
-  "updated": "2026-03-24T16:30:03.672Z",
+  "updated": "2026-03-24T16:35:03.353Z",
   "totalDays": 19,
-  "totalEntries": 382,
+  "totalEntries": 384,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
         {
+          "time": "16:32",
+          "text": "✅ Demo Sites: \"Адвокатска кантора Богданови и Маринов\" — DONE. demoUrl deployed, visual validation PASS, notified topic 49. URL: https://koiopenclaw-max.github.io/demo-sites/demos/адвокатска-кантора-богданови-и-маринов/",
+          "type": "deploy"
+        },
+        {
           "time": "16:28",
           "text": "🔔 Codex приключи. Koi ревюира.",
           "type": "build"
+        },
+        {
+          "time": "16:28",
+          "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret: whsec_MmuQLGeLS55hJnTPPmHHiTgLNcdQnHbU.",
+          "type": "default"
         },
         {
           "time": "16:23",
@@ -29,7 +39,7 @@
         },
         {
           "time": "16:15",
-          "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee. Webhook handler за checkout.session.completed и subscription.deleted → Supabase update.",
+          "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee.",
           "type": "deploy"
         },
         {
@@ -222,7 +232,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 34
+      "entryCount": 36
     },
     {
       "date": "2026-03-23",
