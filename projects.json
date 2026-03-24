@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T19:20:04.435Z",
+  "updated": "2026-03-24T19:25:04.105Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -156,6 +156,10 @@
             {
               "time": "19:20",
               "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
+            },
+            {
+              "time": "19:25",
+              "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
             }
           ]
         },
@@ -1791,6 +1795,10 @@
             {
               "time": "19:20",
               "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
+            },
+            {
+              "time": "19:25",
+              "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
             }
           ]
         },
@@ -2303,6 +2311,10 @@
             {
               "time": "19:20",
               "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
+            },
+            {
+              "time": "19:25",
+              "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
             }
           ]
         },
