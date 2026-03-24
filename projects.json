@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-24T17:50:03.646Z",
+  "updated": "2026-03-24T17:55:04.065Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -532,6 +532,10 @@
             {
               "time": "17:20",
               "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:49",
+              "text": "Demo revision: Адвокатска кантора — 1-вият Codex завърши, но НЕ създаде файловете (само промени data JSON). Respawn-нах нов Codex (session young-lagoon) за 6 допълнителни HTML страници."
             }
           ]
         },
@@ -2195,6 +2199,10 @@
             {
               "time": "17:20",
               "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:49",
+              "text": "Demo revision: Адвокатска кантора — 1-вият Codex завърши, но НЕ създаде файловете (само промени data JSON). Respawn-нах нов Codex (session young-lagoon) за 6 допълнителни HTML страници."
             }
           ]
         },
