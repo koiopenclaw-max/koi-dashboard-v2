@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:25:02.538Z",
-  "serverUptime": 1314558,
+  "timestamp": "2026-03-24T14:30:05.582Z",
+  "serverUptime": 1314861,
   "loadAvg": [
-    "0.81",
-    "0.60",
-    "0.50"
+    "2.65",
+    "1.20",
+    "0.75"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T16:44:21.816Z",
-      "ageSec": 78040,
+      "ageSec": 78343,
       "tokens": 142544,
       "lastAction": "Ето какво имаме и какво липсва:  **Готови:** - 📊 Status — real-time система - 🧠 Memory — daily notes timeline - 📋 Projec",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:20:55.680Z",
-      "ageSec": 246,
+      "ageSec": 549,
       "tokens": 19800,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T14:21:57.728Z",
-      "ageSec": 184,
+      "ageSec": 487,
       "tokens": 53516,
       "lastAction": "Пробвай оригиналното нещо, което не работеше — отвори [платформата](https://koiopenclaw-max.github.io/demo-sites/), логн",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-23T17:21:15.075Z",
-      "ageSec": 75827,
+      "ageSec": 76130,
       "tokens": 67363,
       "lastAction": "Ето какво намерих:  **В кода (pushed, публично видим):** 1. ✅ **Supabase anon key** (`auth.js:6`) — това е **публичен**",
       "hasProcess": false,
@@ -154,14 +154,34 @@
   ],
   "processes": [
     {
-      "pid": "1637894",
-      "cpu": "43.7",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "pid": "1638973",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "02:46",
+      "elapsedSec": 166,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-build-счетоводна-къща-емпика\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" ",
       "relatedTopic": null,
-      "procType": "build"
+      "procType": "codex"
+    },
+    {
+      "pid": "1638975",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:46",
+      "elapsedSec": 166,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1638983",
+      "cpu": "3.0",
+      "mem": "1.5",
+      "elapsed": "02:46",
+      "elapsedSec": 166,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
     }
   ],
   "errors": {
