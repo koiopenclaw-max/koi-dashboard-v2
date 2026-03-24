@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-24T19:15:02.913Z",
+  "updated": "2026-03-24T19:20:03.605Z",
   "totalDays": 19,
-  "totalEntries": 421,
+  "totalEntries": 422,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "19:20",
+          "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal).",
+          "type": "email"
+        },
         {
           "time": "19:15",
           "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel.",
@@ -418,7 +423,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 73
+      "entryCount": 74
     },
     {
       "date": "2026-03-23",
