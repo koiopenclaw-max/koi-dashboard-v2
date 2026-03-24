@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T17:20:02.822Z",
-  "serverUptime": 1325058,
+  "timestamp": "2026-03-24T17:24:34.462Z",
+  "serverUptime": 1325330,
   "loadAvg": [
+    "0.06",
     "0.20",
-    "0.32",
-    "0.39"
+    "0.32"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 8155,
+      "ageSec": 8426,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 3895,
+      "ageSec": 4166,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 106,
+      "ageSec": 378,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T17:04:43.256Z",
-      "ageSec": 919,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T17:24:33.904Z",
+      "ageSec": 0,
       "tokens": 24130,
-      "lastAction": "Последният запис в днешните daily notes е:  **17:02 UTC** — Auto-extract от topic 718 (при 154k токена). Съдържа: одобря",
+      "lastAction": "⏳ poll lucky-river",
       "hasProcess": false,
       "hasSession": true
     },
@@ -155,23 +155,33 @@
   "processes": [
     {
       "pid": "1710777",
-      "cpu": "0.2",
+      "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "00:36",
-      "elapsedSec": 36,
+      "elapsed": "05:08",
+      "elapsedSec": 308,
       "cmd": "node /home/clawd/.npm-global/bin/codex --yolo exec You are working on a law firm demo site at demos/адвокатска-кантора-богданови-и-маринов/ CRITICAL: ",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
       "pid": "1710785",
-      "cpu": "2.0",
-      "mem": "1.5",
-      "elapsed": "00:36",
-      "elapsedSec": 36,
+      "cpu": "1.0",
+      "mem": "1.6",
+      "elapsed": "05:08",
+      "elapsedSec": 308,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex --yolo exec Y",
       "relatedTopic": null,
       "procType": "codex"
+    },
+    {
+      "pid": "1712894",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:13",
+      "elapsedSec": 13,
+      "cmd": "/bin/bash -c sleep 70 && cd /tmp && npx playwright screenshot --viewport-size=\"1280,900\" \"https://koiopenclaw-max.github.io/clawai-portal/\" clawai-por",
+      "relatedTopic": null,
+      "procType": "build"
     }
   ],
   "errors": {
@@ -180,9 +190,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
