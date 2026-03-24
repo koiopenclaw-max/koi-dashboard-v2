@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T14:49:34.690Z",
-  "serverUptime": 1316030,
+  "timestamp": "2026-03-24T14:50:03.700Z",
+  "serverUptime": 1316059,
   "loadAvg": [
-    "0.91",
-    "1.21",
-    "1.03"
+    "1.25",
+    "1.25",
+    "1.04"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T14:49:33.485Z",
-      "ageSec": 1,
+      "lastUpdate": "2026-03-24T14:49:58.825Z",
+      "ageSec": 4,
       "tokens": 0,
-      "lastAction": "⚡ cat /home/clawd/.openclaw/agents/main/sessions/sessions.json | python3",
+      "lastAction": "⚡ ls -lh /home/clawd/.openclaw/agents/main/sessions/624a583b-0188-4d5f-b",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-24T14:47:40.198Z",
-      "ageSec": 114,
+      "ageSec": 143,
       "tokens": 20160,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "building",
       "statusLabel": "🔨 Codex Building",
       "lastUpdate": "2026-03-24T14:49:30.776Z",
-      "ageSec": 3,
+      "ageSec": 32,
       "tokens": 67512,
       "lastAction": "⏳ poll neat-sage",
       "hasProcess": true,
@@ -130,10 +130,10 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-24T14:48:58.678Z",
-      "ageSec": 36,
+      "ageSec": 65,
       "tokens": 64140,
       "lastAction": "Крис, прав си — нямам контекст какво точно ми е писал и на какво си отговорил. Сесията за topic 718 се е рестартирала и",
       "hasProcess": false,
@@ -155,30 +155,30 @@
   "processes": [
     {
       "pid": "1648455",
-      "cpu": "0.1",
+      "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "00:08",
-      "elapsedSec": 8,
+      "elapsed": "00:37",
+      "elapsedSec": 37,
       "cmd": "/bin/bash -c cd /home/clawd/Projects/demo-sites/demos/счетоводна-къща-емпика && codex exec \"$(cat /tmp/empika-revision-prompt.md)\" 2>&1",
       "relatedTopic": "49",
       "procType": "codex"
     },
     {
       "pid": "1648457",
-      "cpu": "0.6",
+      "cpu": "0.1",
       "mem": "1.1",
-      "elapsed": "00:08",
-      "elapsedSec": 8,
+      "elapsed": "00:37",
+      "elapsedSec": 37,
       "cmd": "node /home/clawd/.npm-global/bin/codex exec # Task: Fix Счетоводна къща Емпика demo site ## Working Directory `/home/clawd/Projects/demo-sites/demos/с",
       "relatedTopic": "49",
       "procType": "codex"
     },
     {
       "pid": "1648464",
-      "cpu": "3.8",
+      "cpu": "1.5",
       "mem": "1.5",
-      "elapsed": "00:08",
-      "elapsedSec": 8,
+      "elapsed": "00:37",
+      "elapsedSec": 37,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec # Task: ",
       "relatedTopic": null,
       "procType": "codex"
@@ -190,9 +190,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 2,
+    "working": 1,
     "building": 1,
-    "recent": 1,
+    "recent": 2,
     "idle": 8,
     "stuck": 0
   }
