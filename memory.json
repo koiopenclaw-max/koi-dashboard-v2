@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-24T15:10:03.774Z",
+  "updated": "2026-03-24T15:15:03.331Z",
   "totalDays": 19,
-  "totalEntries": 357,
+  "totalEntries": 359,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "15:12",
+          "text": "Demo Sites: Емпика — Крис каза 'изображенията са зуумнати, съдържанието е странно, не за хора'. Проблеми: cover.png зуумнат като hero bg, office.jpg е SAF-T графика, текстът е корпоративен/AI. Стартирам Codex rebuild v2 с: Unsplash снимки, по-човешки текст, правилно layout.",
+          "type": "build"
+        },
+        {
+          "time": "15:11",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "14:51",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -97,7 +107,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 9
+      "entryCount": 11
     },
     {
       "date": "2026-03-23",
