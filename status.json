@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T17:25:03.407Z",
-  "serverUptime": 1325358,
+  "timestamp": "2026-03-24T17:30:03.093Z",
+  "serverUptime": 1325658,
   "loadAvg": [
-    "0.09",
-    "0.20",
-    "0.31"
+    "0.37",
+    "0.23",
+    "0.28"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 8455,
+      "ageSec": 8755,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 4195,
+      "ageSec": 4495,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 407,
+      "ageSec": 707,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T17:24:33.904Z",
-      "ageSec": 29,
-      "tokens": 24130,
-      "lastAction": "⏳ poll lucky-river",
+      "lastUpdate": "2026-03-24T17:30:01.798Z",
+      "ageSec": 1,
+      "tokens": 33319,
+      "lastAction": "⚡ cat /home/clawd/Projects/clawai-stripe/PHASE-A.md 2>/dev/null | head -",
       "hasProcess": false,
       "hasSession": true
     },
@@ -157,29 +157,29 @@
       "pid": "1710777",
       "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "05:37",
-      "elapsedSec": 337,
+      "elapsed": "10:37",
+      "elapsedSec": 637,
       "cmd": "node /home/clawd/.npm-global/bin/codex --yolo exec You are working on a law firm demo site at demos/адвокатска-кантора-богданови-и-маринов/ CRITICAL: ",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
       "pid": "1710785",
-      "cpu": "1.0",
+      "cpu": "1.4",
       "mem": "1.6",
-      "elapsed": "05:37",
-      "elapsedSec": 337,
+      "elapsed": "10:37",
+      "elapsedSec": 637,
       "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex --yolo exec Y",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1712894",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "00:42",
-      "elapsedSec": 42,
-      "cmd": "/bin/bash -c sleep 70 && cd /tmp && npx playwright screenshot --viewport-size=\"1280,900\" \"https://koiopenclaw-max.github.io/clawai-portal/\" clawai-por",
+      "pid": "1715181",
+      "cpu": "50.0",
+      "mem": "0.5",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
       "relatedTopic": null,
       "procType": "build"
     }
