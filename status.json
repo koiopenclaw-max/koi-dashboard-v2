@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T18:59:34.232Z",
-  "serverUptime": 1331029,
+  "timestamp": "2026-03-24T19:00:06.903Z",
+  "serverUptime": 1331062,
   "loadAvg": [
-    "0.17",
-    "0.15",
-    "0.13"
+    "1.17",
+    "0.36",
+    "0.20"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 14126,
+      "ageSec": 14159,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 9866,
+      "ageSec": 9899,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
+      "status": "building",
+      "statusLabel": "🔨 Building",
       "lastUpdate": "2026-03-24T17:18:16.006Z",
-      "ageSec": 6078,
+      "ageSec": 6110,
       "tokens": 98879,
       "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
-      "hasProcess": false,
+      "hasProcess": true,
       "hasSession": true
     },
     {
@@ -133,7 +133,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-24T18:58:42.696Z",
-      "ageSec": 51,
+      "ageSec": 84,
       "tokens": 132245,
       "lastAction": "Ето къде сме и какво следва:  ---  ## 📍 Къде сме  **Phase 5: Stripe & Payments — DONE ✅** - ✅ Stripe backend (Vercel) —",
       "hasProcess": false,
@@ -152,7 +152,48 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1750682",
+      "cpu": "0.1",
+      "mem": "0.0",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "/bin/bash -c cd /tmp && npx playwright screenshot --browser chromium \"https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B0%D0%B4%D0%B2%D0%BE%D0%B",
+      "relatedTopic": "49",
+      "procType": "build"
+    },
+    {
+      "pid": "1750684",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "/bin/bash -c cd /tmp && npx playwright screenshot --browser chromium \"https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B0%D0%B4%D0%B2%D0%BE%D0%B",
+      "relatedTopic": "49",
+      "procType": "build"
+    },
+    {
+      "pid": "1750691",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "/bin/bash -c cd /tmp && npx playwright screenshot --browser chromium \"https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B0%D0%B4%D0%B2%D0%BE%D0%B",
+      "relatedTopic": "49",
+      "procType": "build"
+    },
+    {
+      "pid": "1750699",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:08",
+      "elapsedSec": 8,
+      "cmd": "/bin/bash -c cd /tmp && npx playwright screenshot --browser chromium \"https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B0%D0%B4%D0%B2%D0%BE%D0%B",
+      "relatedTopic": "49",
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
@@ -160,9 +201,9 @@
   "summary": {
     "totalTopics": 12,
     "working": 0,
-    "building": 0,
+    "building": 1,
     "recent": 1,
-    "idle": 11,
+    "idle": 10,
     "stuck": 0
   }
 }
