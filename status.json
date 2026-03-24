@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T17:15:03.288Z",
-  "serverUptime": 1324758,
+  "timestamp": "2026-03-24T17:20:02.822Z",
+  "serverUptime": 1325058,
   "loadAvg": [
-    "0.40",
-    "0.50",
-    "0.45"
+    "0.20",
+    "0.32",
+    "0.39"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 7855,
+      "ageSec": 8155,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 3595,
+      "ageSec": 3895,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T17:14:19.498Z",
-      "ageSec": 43,
-      "tokens": 88923,
-      "lastAction": "⏳ poll glow-cove",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T17:18:16.006Z",
+      "ageSec": 106,
+      "tokens": 98879,
+      "lastAction": "Worker рестартиран с нов PID (1710172), стартиран в 17:17:45 — файлът е от 17:00:10, т.е. **кодът е правилния v5**. Trig",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T17:04:43.256Z",
-      "ageSec": 620,
+      "ageSec": 919,
       "tokens": 24130,
       "lastAction": "Последният запис в днешните daily notes е:  **17:02 UTC** — Auto-extract от topic 718 (при 154k токена). Съдържа: одобря",
       "hasProcess": false,
@@ -154,34 +154,24 @@
   ],
   "processes": [
     {
-      "pid": "1708760",
-      "cpu": "0.5",
-      "mem": "2.1",
-      "elapsed": "00:33",
-      "elapsedSec": 33,
-      "cmd": "/home/clawd/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disab",
+      "pid": "1710777",
+      "cpu": "0.2",
+      "mem": "1.1",
+      "elapsed": "00:36",
+      "elapsedSec": 36,
+      "cmd": "node /home/clawd/.npm-global/bin/codex --yolo exec You are working on a law firm demo site at demos/адвокатска-кантора-богданови-и-маринов/ CRITICAL: ",
       "relatedTopic": null,
-      "procType": "build"
+      "procType": "codex"
     },
     {
-      "pid": "1708951",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "00:05",
-      "elapsedSec": 5,
-      "cmd": "/bin/sh -c npx playwright screenshot --viewport-size \"375,667\" --wait-for-timeout 3000 --full-page \"http://127.0.0.1:18900/\" \"/tmp/demo-revision-адвок",
+      "pid": "1710785",
+      "cpu": "2.0",
+      "mem": "1.5",
+      "elapsed": "00:36",
+      "elapsedSec": 36,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex --yolo exec Y",
       "relatedTopic": null,
-      "procType": "build"
-    },
-    {
-      "pid": "1708977",
-      "cpu": "5.9",
-      "mem": "2.1",
-      "elapsed": "00:02",
-      "elapsedSec": 2,
-      "cmd": "/home/clawd/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disab",
-      "relatedTopic": null,
-      "procType": "build"
+      "procType": "codex"
     }
   ],
   "errors": {
@@ -190,9 +180,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
