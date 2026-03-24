@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T16:35:03.310Z",
-  "serverUptime": 1322358,
+  "timestamp": "2026-03-24T16:40:03.641Z",
+  "serverUptime": 1322659,
   "loadAvg": [
-    "0.09",
-    "0.37",
-    "0.44"
+    "0.14",
+    "0.27",
+    "0.38"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 5455,
+      "ageSec": 5755,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 1195,
+      "ageSec": 1496,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:33:48.861Z",
-      "ageSec": 74,
+      "ageSec": 374,
       "tokens": 48362,
       "lastAction": "Ето какво стана:  **Проблемът:** Codex изгради сайта успешно (5/5 валидация), но крашна на финалния `copyFile` — `gitPul",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-24T16:33:13.736Z",
-      "ageSec": 109,
-      "tokens": 119516,
-      "lastAction": "**Проблем 1: Клиентът не знае какво се случва след плащане**  Преди: Stripe redirect-ваше към `clawai/#success` → landin",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-24T16:39:53.854Z",
+      "ageSec": 9,
+      "tokens": 121016,
+      "lastAction": "📖 SKILL.md",
       "hasProcess": false,
       "hasSession": true
     },
@@ -154,12 +154,22 @@
   ],
   "processes": [
     {
-      "pid": "1692169",
-      "cpu": "80.0",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "pid": "1694017",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:11",
+      "elapsedSec": 11,
+      "cmd": "/bin/sh -c npx playwright screenshot --viewport-size \"1280,800\" --wait-for-timeout 3000 --full-page \"http://127.0.0.1:18909/\" \"/tmp/demo-revision-адво",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "1694043",
+      "cpu": "1.4",
+      "mem": "2.1",
+      "elapsed": "00:09",
+      "elapsedSec": 9,
+      "cmd": "/home/clawd/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disab",
       "relatedTopic": null,
       "procType": "build"
     }
@@ -170,10 +180,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 2,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
