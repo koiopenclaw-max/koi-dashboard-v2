@@ -1,12 +1,27 @@
 {
-  "updated": "2026-03-24T16:20:03.381Z",
+  "updated": "2026-03-24T16:25:03.408Z",
   "totalDays": 19,
-  "totalEntries": 378,
+  "totalEntries": 381,
   "days": [
     {
       "date": "2026-03-24",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "16:23",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "16:21",
+          "text": "🏗️ Demo Sites: Spawn Codex за \"Адвокатска кантора Богданови и Маринов\" (law firm redesign). Template: b-corporate (dark navy/gold). Slug: адвокатска-кантора-богданови-и-маринов. Само homepage съдържание (subpages all 404).",
+          "type": "build"
+        },
+        {
+          "time": "16:21",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "16:15",
           "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee. Webhook handler за checkout.session.completed и subscription.deleted → Supabase update.",
@@ -202,7 +217,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 30
+      "entryCount": 33
     },
     {
       "date": "2026-03-23",
