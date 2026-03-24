@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-24T19:35:03.199Z",
-  "serverUptime": 1333158,
+  "timestamp": "2026-03-24T19:39:35.421Z",
+  "serverUptime": 1333431,
   "loadAvg": [
-    "0.10",
-    "0.15",
-    "0.17"
+    "0.21",
+    "0.20",
+    "0.18"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 16255,
+      "ageSec": 16527,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 11995,
+      "ageSec": 12267,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 1719,
+      "ageSec": 1991,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-24T19:34:32.678Z",
-      "ageSec": 30,
-      "tokens": 29572,
-      "lastAction": "Оправено. Webhook-ът не записваше `current_period_start/end` в Supabase — затова показваше само `created_at` като единич",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-24T19:36:41.259Z",
+      "ageSec": 174,
+      "tokens": 33755,
+      "lastAction": "Намерих root cause-а — `input { width: 100%; padding: 14px 16px; }` хващаше **всички** input-и, включително `checkbox` и",
       "hasProcess": false,
       "hasSession": true
     },
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
