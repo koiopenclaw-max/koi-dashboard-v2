@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-25T14:59:35.917Z",
-  "serverUptime": 1403031,
+  "timestamp": "2026-03-25T15:00:03.971Z",
+  "serverUptime": 1403059,
   "loadAvg": [
-    "0.18",
     "0.19",
-    "0.26"
+    "0.19",
+    "0.25"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T14:55:23.197Z",
-      "ageSec": 252,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T14:59:55.131Z",
+      "ageSec": 8,
       "tokens": 64849,
       "lastAction": "📖 memory-sync.sh",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 81868,
+      "ageSec": 81896,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 1913,
+      "ageSec": 1941,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 4887,
+      "ageSec": 4915,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
@@ -159,10 +159,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
