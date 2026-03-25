@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T08:40:03.272Z",
-  "serverUptime": 1380258,
+  "timestamp": "2026-03-25T08:45:03.651Z",
+  "serverUptime": 1380559,
   "loadAvg": [
-    "0.04",
-    "0.08",
-    "0.13"
+    "0.12",
+    "0.09",
+    "0.11"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 4986,
+      "ageSec": 5286,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 59095,
+      "ageSec": 59396,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T08:39:52.426Z",
-      "ageSec": 10,
-      "tokens": 117822,
-      "lastAction": "Да. Точно така.  Проблемът е, че worker-ът пуска Codex директно с текстов prompt и после „валидира\" с grep. **Аз не учас",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T08:42:39.256Z",
+      "ageSec": 144,
+      "tokens": 119708,
+      "lastAction": "Разбрах текущата архитектура. Ето конкретното предложение:  ---  **Как работи СЕГА:**  ``` Крис натиска \"Корекция\" в пла",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 43975,
+      "ageSec": 44275,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,16 +152,27 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2043201",
+      "cpu": "50.0",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
