@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-03-25T14:49:38.090Z",
-  "serverUptime": 1402433,
+  "timestamp": "2026-03-25T14:50:03.038Z",
+  "serverUptime": 1402458,
   "loadAvg": [
-    "0.26",
-    "0.29",
-    "0.33"
+    "0.37",
+    "0.32",
+    "0.34"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "building",
-      "statusLabel": "🔨 Building",
-      "lastUpdate": "2026-03-25T14:49:36.175Z",
-      "ageSec": 1,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T14:49:54.786Z",
+      "ageSec": 8,
       "tokens": 55521,
-      "lastAction": "⚡ npx playwright screenshot --browser chromium --wait-for-timeout 5000 \"",
-      "hasProcess": true,
+      "lastAction": "🔧 image",
+      "hasProcess": false,
       "hasSession": true
     },
     {
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 81270,
+      "ageSec": 81295,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 1315,
+      "ageSec": 1340,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 4289,
+      "ageSec": 4314,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
@@ -154,13 +154,13 @@
   ],
   "processes": [
     {
-      "pid": "2174778",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "00:01",
-      "elapsedSec": 1,
-      "cmd": "/bin/bash -c npx playwright screenshot --browser chromium --wait-for-timeout 5000 \"https://koiopenclaw-max.github.io/koi-dashboard-v2/#memory\" /home/c",
-      "relatedTopic": "1",
+      "pid": "2175139",
+      "cpu": "75.0",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
       "procType": "build"
     }
   ],
@@ -170,8 +170,8 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
-    "building": 1,
+    "working": 1,
+    "building": 0,
     "recent": 0,
     "idle": 11,
     "stuck": 0
