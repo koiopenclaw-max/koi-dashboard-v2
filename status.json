@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T18:30:03.668Z",
-  "serverUptime": 1415659,
+  "timestamp": "2026-03-25T18:35:04.275Z",
+  "serverUptime": 1415959,
   "loadAvg": [
-    "0.36",
-    "0.24",
-    "0.24"
+    "0.88",
+    "0.40",
+    "0.28"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 10303,
+      "ageSec": 10604,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 94496,
+      "ageSec": 94796,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 10133,
+      "ageSec": 10434,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T17:58:00.762Z",
-      "ageSec": 1922,
-      "tokens": 125404,
-      "lastAction": "Прав си, мой пропуск. Когато има план, доклад, или друг професионален документ — винаги .docx, не Markdown в чата.  Изпр",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T18:34:21.070Z",
+      "ageSec": 43,
+      "tokens": 129837,
+      "lastAction": "Да — ние сме на **$24/мес** плана: - **4 GB RAM** (3.8 реални) - **2 vCPUs** - **80 GB SSD** (77 реални)  Ползваме 1.1 G",
       "hasProcess": false,
       "hasSession": true
     },
@@ -159,10 +159,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
