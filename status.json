@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T11:00:03.698Z",
-  "serverUptime": 1388659,
+  "timestamp": "2026-03-25T11:04:35.123Z",
+  "serverUptime": 1388930,
   "loadAvg": [
-    "0.85",
-    "0.35",
-    "0.33"
+    "0.19",
+    "0.25",
+    "0.28"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 13386,
+      "ageSec": 13658,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 67496,
+      "ageSec": 67767,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T10:59:43.377Z",
-      "ageSec": 20,
-      "tokens": 105367,
-      "lastAction": "Вече е готово — push-нах преди малко. Чакай ~60 сек за GitHub Pages deploy и виж:  🔗 https://koiopenclaw-max.github.io/d",
+      "lastUpdate": "2026-03-25T11:04:31.126Z",
+      "ageSec": 3,
+      "tokens": 107283,
+      "lastAction": "⏳ poll marine-meadow",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 52375,
+      "ageSec": 52647,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2092776",
-      "cpu": "75.0",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
