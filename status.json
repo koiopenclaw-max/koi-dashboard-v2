@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T06:35:03.033Z",
-  "serverUptime": 1372758,
+  "timestamp": "2026-03-25T06:40:02.959Z",
+  "serverUptime": 1373058,
   "loadAvg": [
-    "0.12",
-    "0.23",
-    "0.20"
+    "0.27",
+    "0.28",
+    "0.24"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T06:34:54.091Z",
-      "ageSec": 8,
-      "tokens": 0,
-      "lastAction": "⚡ # Check for referenced but missing directories/files\necho \"=== theme-f",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T06:36:12.090Z",
+      "ageSec": 230,
+      "tokens": 60384,
+      "lastAction": "Окей, Крис. Прегледах всичките 12 custom skills + best practices документа. Ето пълния репорт:  ---  **🔍 SKILL AUDIT — 1",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 51595,
+      "ageSec": 51895,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,13 +94,13 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
+      "status": "building",
+      "statusLabel": "🔨 Building",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 41318,
+      "ageSec": 41618,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
-      "hasProcess": false,
+      "hasProcess": true,
       "hasSession": true
     },
     {
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 36474,
+      "ageSec": 36774,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -154,13 +154,23 @@
   ],
   "processes": [
     {
-      "pid": "1993230",
-      "cpu": "50.0",
-      "mem": "1.0",
+      "pid": "1995424",
+      "cpu": "3.8",
+      "mem": "0.0",
       "elapsed": "00:00",
       "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
+      "cmd": "/bin/bash -c cd /tmp && npx playwright screenshot --viewport-size='375,812' --full-page 'https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B0%D0%",
+      "relatedTopic": "49",
+      "procType": "build"
+    },
+    {
+      "pid": "1995426",
+      "cpu": "40.9",
+      "mem": "1.2",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node /usr/bin/npx playwright screenshot --viewport-size=375,812 --full-page https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B0%D0%B4%D0%B2%D0%B",
+      "relatedTopic": "49",
       "procType": "build"
     }
   ],
@@ -170,8 +180,8 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
-    "building": 0,
+    "working": 0,
+    "building": 1,
     "recent": 0,
     "idle": 11,
     "stuck": 0
