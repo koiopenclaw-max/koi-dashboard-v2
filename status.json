@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T14:29:34.897Z",
-  "serverUptime": 1401230,
+  "timestamp": "2026-03-25T14:30:04.155Z",
+  "serverUptime": 1401259,
   "loadAvg": [
-    "0.45",
-    "0.55",
-    "0.45"
+    "0.29",
+    "0.50",
+    "0.44"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T14:29:28.759Z",
-      "ageSec": 6,
-      "tokens": 39003,
-      "lastAction": "⚡ ~/scripts/memory-sync.sh 2>&1 | tail -10",
+      "lastUpdate": "2026-03-25T14:29:49.231Z",
+      "ageSec": 14,
+      "tokens": 46156,
+      "lastAction": "Готово. Вече имаме и трите записа:  1. ✅ **06:33** — Пълен Skill Audit (agent-security rebuilt, 4 skills премахнати) 2.",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 80067,
+      "ageSec": 80096,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 112,
+      "ageSec": 141,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 3086,
+      "ageSec": 3115,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
