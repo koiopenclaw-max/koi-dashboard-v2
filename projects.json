@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T09:55:03.513Z",
+  "updated": "2026-03-25T10:00:05.178Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -1474,8 +1474,17 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 7,
+      "activityDays": 8,
       "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "09:59",
+              "text": "✅ Ревизия #5 за Адвокатска кантора Богданови и Маринов завършена: card padding + mobile responsive fixes за 8 страници. Визуално валидирана. Статус → review."
+            }
+          ]
+        },
         {
           "date": "2026-03-20",
           "entries": [
@@ -2128,6 +2137,14 @@
           "date": "2026-03-25",
           "entries": [
             {
+              "time": "09:57",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "09:56",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
               "time": "09:08",
               "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
             },
@@ -2158,6 +2175,14 @@
             {
               "time": "07:50",
               "text": "🔧 Адвокатска кантора Богданови и Маринов: фикснат мобилен хамбургер меню на всички страници + премахнати junk файлове от Codex (feed.html, xmlrpc.php.html и др.)"
+            },
+            {
+              "time": "09:59",
+              "text": "✅ Ревизия #5 за Адвокатска кантора Богданови и Маринов завършена: card padding + mobile responsive fixes за 8 страници. Визуално валидирана. Статус → review."
+            },
+            {
+              "time": "09:30",
+              "text": "🔧 Fix: убит зомби worker процес (PID 1667199 от Mar24) който правеше `git reset --hard`. gitPull() пренаписана → `git fetch + merge`. Worker работи стабилно."
             }
           ]
         },
