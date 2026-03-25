@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-25T14:29:02.430Z",
-  "serverUptime": 1401198,
+  "timestamp": "2026-03-25T14:29:34.897Z",
+  "serverUptime": 1401230,
   "loadAvg": [
-    "0.48",
-    "0.56",
+    "0.45",
+    "0.55",
     "0.45"
   ],
   "topics": [
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T14:28:56.269Z",
+      "lastUpdate": "2026-03-25T14:29:28.759Z",
       "ageSec": 6,
       "tokens": 39003,
-      "lastAction": "⚡ echo '- **06:33-13:35 UTC** — 🔍 Пълен Skill Audit' | grep -oP '^\\-\\s+\\",
+      "lastAction": "⚡ ~/scripts/memory-sync.sh 2>&1 | tail -10",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 80034,
+      "ageSec": 80067,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 80,
+      "ageSec": 112,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 3054,
+      "ageSec": 3086,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
