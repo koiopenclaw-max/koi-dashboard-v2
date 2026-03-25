@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T18:35:04.275Z",
-  "serverUptime": 1415959,
+  "timestamp": "2026-03-25T18:39:36.278Z",
+  "serverUptime": 1416231,
   "loadAvg": [
-    "0.88",
-    "0.40",
-    "0.28"
+    "0.30",
+    "0.32",
+    "0.27"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 10604,
+      "ageSec": 10876,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 94796,
+      "ageSec": 95068,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 10434,
+      "ageSec": 10706,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T18:34:21.070Z",
-      "ageSec": 43,
-      "tokens": 129837,
-      "lastAction": "Да — ние сме на **$24/мес** плана: - **4 GB RAM** (3.8 реални) - **2 vCPUs** - **80 GB SSD** (77 реални)  Ползваме 1.1 G",
+      "lastUpdate": "2026-03-25T18:39:12.749Z",
+      "ageSec": 23,
+      "tokens": 130286,
+      "lastAction": "⚡ # Check our gateway actual memory usage\necho \"=== Gateway process ===\"",
       "hasProcess": false,
       "hasSession": true
     },
