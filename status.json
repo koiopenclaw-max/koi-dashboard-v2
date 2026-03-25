@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:49:35.902Z",
-  "serverUptime": 1377231,
+  "timestamp": "2026-03-25T07:54:34.676Z",
+  "serverUptime": 1377530,
   "loadAvg": [
-    "0.38",
-    "0.35",
-    "0.32"
+    "0.23",
+    "0.48",
+    "0.40"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 1958,
+      "ageSec": 2257,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 56068,
+      "ageSec": 56367,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T07:46:44.547Z",
-      "ageSec": 171,
-      "tokens": 70373,
-      "lastAction": "Готово. Сега ако някой отвори старите линкове — автоматично се пренасочва към поправените страници.  **Резюме:** Корекци",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T07:54:31.825Z",
+      "ageSec": 2,
+      "tokens": 72720,
+      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites/demos/адвокатска-кантора-богданови-",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 40947,
+      "ageSec": 41246,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
