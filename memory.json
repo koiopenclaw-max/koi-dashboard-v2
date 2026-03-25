@@ -1,7 +1,7 @@
 {
-  "updated": "2026-03-25T14:25:02.986Z",
+  "updated": "2026-03-25T14:29:27.637Z",
   "totalDays": 20,
-  "totalEntries": 452,
+  "totalEntries": 478,
   "days": [
     {
       "date": "2026-03-25",
@@ -133,6 +133,11 @@
           "type": "build"
         },
         {
+          "time": "06:33",
+          "text": "🔍 Пълен Skill Audit с Крис (topic 1): - Анализирани 12 custom skills vs Claude Best Practices - **Премахнати 4 skills:** theme-factory (0 ползвания), web-artifacts-builder (0 ползвания, claude.ai-specific), token-optimizer (0 ползвания), skill-creator (дубликат на built-in) - **agent-security REBUILT:** 373→153 реда, пасивен bible→активен guardrail. Нов description (trigger при git push/email/deploy). Нов scripts/scan-secrets.sh (тестван). Нов references/email-rules.md (от knowledge/areas/email-policy.md). URL safety rules (нов gap). Документирани реални инциденти. - **Скенер тестван:** workspace scan намери Google API key в стари файлове + PII (мейли, телефони). Dashboard scan хвана телефон. Synthetic tests: 3/3 PASS. - **Решения за бъдещо:** descriptions → 3rd person, docx skill трябва split",
+          "type": "email"
+        },
+        {
           "time": "06:27",
           "text": "🔧 Revision #3 за Адвокатска кантора Богданови и Маринов — mobile responsive fix: hamburger menu + responsive CSS за всички 7 страници. Визуална валидация: PASS. Status → review.",
           "type": "default"
@@ -197,7 +202,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 26
+      "entryCount": 27
     },
     {
       "date": "2026-03-24",
@@ -1618,6 +1623,11 @@
           "type": "deploy"
         },
         {
+          "time": "08:45",
+          "text": "Допълнени hotel (site-4, site-5) и farm (site-4, site-5). Set A Premium v2 ЗАВЪРШЕН — 200 HTML файла, 8 ниши.",
+          "type": "done"
+        },
+        {
           "time": "04:30",
           "text": "Завършено задълбочено проучване (knowledge/resources/template-design-research.md): - 8 ниши × цветови палитри базирани на психологията на клиента - Специфични шрифтови двойки по индустрия - UI patterns уникални за всяка ниша - Premium vs generic разлики - Awwwards reference за dental (Halo Dental SOTD, Aventura Dental Arts HM)",
           "type": "done"
@@ -1761,7 +1771,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 26
+      "entryCount": 27
     },
     {
       "date": "2026-03-16",
@@ -1973,6 +1983,11 @@
           "type": "deploy"
         },
         {
+          "time": "10:00",
+          "text": "Security refactor (с прекалено лутане): - Пробвах: VPS proxy, Cloudflare Tunnel, port redirect, device flow — губене на време - **Решение:** SSH deploy key → push GitHub Actions workflow → token inject от Secrets при deploy",
+          "type": "deploy"
+        },
+        {
           "time": "09:48",
           "text": "Крис: \"автоматизирай целия процес, нищо няма да въвеждам\"",
           "type": "default"
@@ -2096,7 +2111,7 @@
       ],
       "hasReview": true,
       "reviewSummary": null,
-      "entryCount": 44
+      "entryCount": 45
     },
     {
       "date": "2026-03-15",
@@ -2374,6 +2389,11 @@
           "type": "alert"
         },
         {
+          "time": "16:30",
+          "text": "Системен анализ на Android crash проблема. Root causes: 1. SDK версии misaligned (SDK 54 с RN 0.81.5 чупи `findNodeHandle`) 2. Firebase peer dependency конфликт (`@firebase/auth` иска `async-storage@^1.18.1`, имаме `2.2.0`) 3. `npm install` без `--legacy-peer-deps` произвежда corrupt node_modules → EAS build fail Fix: Clean SDK 55 upgrade + `.npmrc` с `legacy-peer-deps=true` + чист lockfile (commit `4a5fed9`). Build: `b8eb8fc2`.",
+          "type": "build"
+        },
+        {
           "time": "16:27",
           "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard.",
           "type": "alert"
@@ -2467,6 +2487,11 @@
           "time": "10:08",
           "text": "Пуснат preview build (Android, standalone без dev server). Build ID: `b555fa77-1726-43e6-a6d6-5417511183a5`. Тестов checklist пратен на Крис.",
           "type": "build"
+        },
+        {
+          "time": "09:55",
+          "text": "Web тест с Playwright. Намерени 2 проблема: 1) Firebase `getReactNativePersistence` crash на web → фиксирано (Platform detection, commit `aa3a439`). 2) CSS rendering грешка (RN Web + 0.83) — само web, не засяга native. TS: 0 грешки. Крис може да тества .apk — native не е засегнат.",
+          "type": "default"
         },
         {
           "time": "09:32",
@@ -2579,7 +2604,7 @@
       ],
       "hasReview": true,
       "reviewSummary": null,
-      "entryCount": 38
+      "entryCount": 40
     },
     {
       "date": "2026-03-13",
@@ -2604,6 +2629,11 @@
           "time": "19:24",
           "text": "Auto-extract topic 51 (153k tokens) — compact завършен",
           "type": "done"
+        },
+        {
+          "time": "19:19",
+          "text": "🐛 **expo-notifications fix:** Крис получаваше грешка \"expo-notifications not found\" при зареждане на Expo Go URL. Причина: Cloud Functions deploy-ът добави expo-notifications като dependency. Fix: премахнат от package.json + node_modules, проверен целия codebase (0 imports), чист кеш, нов Expo tunnel URL генериран. Commit: \"fix: remove ALL expo-notifications references\". Нов URL пратен на Крис за тест.",
+          "type": "deploy"
         },
         {
           "time": "19:06",
@@ -2706,6 +2736,11 @@
           "type": "build"
         },
         {
+          "time": "13:26",
+          "text": "Крис тества Android: 3 бъга фиксирани (назад бутон в onboarding, location без адрес, selfie без crop). Функционално ОК — остават само дизайн/текстови промени.",
+          "type": "default"
+        },
+        {
           "time": "11:55",
           "text": "✅ **Momerly SDK ъпгрейд завършен!** Expo 52→55 (SDK 54), React 18→19, RN 0.76→0.83. Babel fix, expo-constants добавен. Tunnel active. Крис тества на Android + iOS.",
           "type": "done"
@@ -2713,6 +2748,11 @@
         {
           "time": "11:10",
           "text": "🔨 Momerly web build + visual test завършен. Fix: native.ts (dynamic require→Platform-aware), tsconfig module→esnext. 22 screenshots с Playwright. Auth guard блокира tabs (показват Login). 2 console errors (SecureStore web, Firebase permissions). Доклад пратен на Крис.",
+          "type": "build"
+        },
+        {
+          "time": "11:09",
+          "text": "⚠️ ~100 дублирани \"Codex приключи\" записи от watchdog spam (всеки heartbeat логваше). Почистени.",
           "type": "build"
         },
         {
@@ -2751,9 +2791,29 @@
           "type": "default"
         },
         {
+          "time": "10:09",
+          "text": "🔨 Codex Phase 2 build завършен! 66 файла, 4320 реда код. TypeScript: 0 грешки. Включва: 12 onboarding екрана, i18n (192 стринга BG/EN), design system, profile view/edit/settings, shared компоненти, Firebase Storage service.",
+          "type": "build"
+        },
+        {
           "time": "10:06",
           "text": "Крис одобри дизайн v3 (стъпки top-left, BG/EN only, опростени снимки).",
           "type": "decision"
+        },
+        {
+          "time": "09:56",
+          "text": "Dashboard fix: добавен transcript mtime check (🔵 Working точно), lastAction per topic, GitHub API (без кеш), 15 сек refresh.",
+          "type": "default"
+        },
+        {
+          "time": "09:42",
+          "text": "Koi Dashboard v1.0 LIVE: https://koiopenclaw-max.github.io/koi-dashboard/ Cron на 30 сек push-ва status.json. Показва всички топици, статус, активни процеси.",
+          "type": "deploy"
+        },
+        {
+          "time": "09:40",
+          "text": "🎨 Momerly UI prototype v2 създаден: 14 екрана, двуезичен (БГ/EN), нов location flow (адрес → auto-detect район). Deploy: https://koiopenclaw-max.github.io/momerly-design/",
+          "type": "deploy"
         },
         {
           "time": "09:22",
@@ -2789,6 +2849,11 @@
           "time": "08:55",
           "text": "npm install успешен (1706 пакета). TypeScript fix: useAuth.ts→.tsx, firebase import опростен.",
           "type": "default"
+        },
+        {
+          "time": "08:42",
+          "text": "🔨 **Codex Phase 1 build завършен!** 27 файла, 1281 реда код. Expo + Firebase + Auth + Navigation + Types + Security rules + Seed script.",
+          "type": "alert"
         },
         {
           "time": "08:36",
@@ -2829,6 +2894,11 @@
           "time": "04:14",
           "text": "🔴 **ЗАДАЧА ЗА ДНЕС:** Реши проблема с Write-on-Close веднъж завинаги.",
           "type": "alert"
+        },
+        {
+          "time": "04:07",
+          "text": "Крис посочи, че BG Quality Honey build (от вчера 11:34-12:42 UTC) не е записан в daily notes. Проверка на transcript-ите потвърди: build-ът е от 12.03, не от днес. Аз предположих грешно, че контекстът се е занулил — а реалният проблем е, че не съм записал вчера. Write-on-Close нарушен за ТРЕТИ ПЪТ.",
+          "type": "build"
         }
       ],
       "priorities": [
@@ -2945,7 +3015,7 @@
         "🔴 Security Incident:",
         "koi-status-collector.sh изтече API ключове (Google, GitHub PAT) в public repo koi-dashboard"
       ],
-      "entryCount": 49
+      "entryCount": 58
     },
     {
       "date": "2026-03-12",
@@ -2987,6 +3057,16 @@
           "type": "deploy"
         },
         {
+          "time": "12:26",
+          "text": "BG Quality Honey: няколко fix-а — header цвят (бордо от логото), бял фон на header, оригинално лого, по-малък carousel.",
+          "type": "default"
+        },
+        {
+          "time": "11:34",
+          "text": "BG Quality Honey: Крис отговори на QA въпросите. Build стартиран — initial commit с изображения + пълен redesign (двуезичен BG/EN, mobile-first, premium палитра злато/зелено/бордо).",
+          "type": "build"
+        },
+        {
           "time": "11:15",
           "text": "BG Quality Honey: скрейпнах сайта, подготвих задание + 6 QA въпроса, статус → brief_ready.",
           "type": "default"
@@ -3012,6 +3092,11 @@
           "type": "default"
         },
         {
+          "time": "09:17",
+          "text": "Дискусия за Claude usage. €31.15 extra usage от claude.ai Max план (не от OpenClaw API). Anthropic Max = €100/мес, Codex = $30/мес, OpenClaw API = отделно per-token. Крис иска dashboard за tracking — ще развием.",
+          "type": "build"
+        },
+        {
           "time": "08:36",
           "text": "Крис попита за позициониране в Google. Текущо: 2-ро за \"ветеринар лозенец\", 2-ро за \"vetcare\", далеч за \"ветеринарна клиника София\". Очаквания: 2-4 седмици за видими подобрения, 1-3 месеца за стабилен ефект.",
           "type": "default"
@@ -3022,9 +3107,19 @@
           "type": "default"
         },
         {
+          "time": "08:25",
+          "text": "P1 #9 VeterinaryCare description обогатено. P2 #12 AggregateRating добавен (4.9/5, 350 отзива). Fix: 450→350 навсякъде. Реалният брой от Google Maps: 337 (закръглен на 350).",
+          "type": "default"
+        },
+        {
           "time": "08:08",
           "text": "Sitemap fix: robots.txt обновен да сочи към dynamic sitemap Edge Function URL. Статичният sitemap.xml обновен с 43 URL-а.",
           "type": "default"
+        },
+        {
+          "time": "07:54",
+          "text": "P1 #5 BreadcrumbList schema DONE. P1 #7 MedicalWebPage + CollectionPage schema DONE. P1 #8 Service schema DONE (+ bug fix serviceListItems).",
+          "type": "done"
         },
         {
           "time": "07:51",
@@ -3037,6 +3132,16 @@
           "type": "default"
         },
         {
+          "time": "07:35",
+          "text": "P1 #4 FAQPage schema fix: Проучване показа 17 FAQ-а вече в DB (6 pages). FAQSection компонент вече съществува. Добавено: ssr-meta инжектира FAQPage JSON-LD от DB, noscript блок обновен с 6-те homepage FAQ-а. Верифицирано: FAQPage schema работи за homepage, kardiologiya, kontakti.",
+          "type": "default"
+        },
+        {
+          "time": "07:10",
+          "text": "P0 #1 fix: Работа с Крис + Lovable за SEO оправки. Добавени: inline meta updater script в `<head>`, canonical tag с data-rh, ssr-meta edge function (Supabase), dynamic-sitemap edge function (43 URL-а с реални lastmod дати). Index.tsx — добавен липсващ og:url. Скриптът преместен от `<body>` в `<head>` за по-ранно изпълнение. Верифицирано: edge function връща уникални title/description/canonical per page.",
+          "type": "default"
+        },
+        {
           "time": "05:50",
           "text": "SEO/GEO/AEO одит на vetcareyordanov.com. Пълен анализ: 33 страници, React SPA (Vite + Supabase, Lovable hosting). Оценка 5.5/10. Основни проблеми: SPA без SSR (еднакви title/description на всички страници), липса на canonical, липса на FAQ/Breadcrumb/Service schema. Генериран .docx доклад и изпратен в topic 1.",
           "type": "default"
@@ -3044,6 +3149,11 @@
         {
           "time": "04:16",
           "text": "Добавих EU funding bar на Zdravko лендинга (от оригиналния сайт).",
+          "type": "default"
+        },
+        {
+          "time": "04:00",
+          "text": "Demo Sites платформа: фикснах GitHub sync при зареждане (localStorage не е source of truth), миграция на стари v2 проекти, GitHub винаги презаписва localStorage.",
           "type": "default"
         },
         {
@@ -3137,7 +3247,7 @@
       ],
       "hasReview": true,
       "reviewSummary": null,
-      "entryCount": 22
+      "entryCount": 30
     },
     {
       "date": "2026-03-11",
@@ -3156,6 +3266,16 @@
         {
           "time": "19:23",
           "text": "— Demo Sites платформа v3 + Zdravko задание — - Преработена платформата: нов проект с тип/URL/бележки → автоматичен flow - Статуси: created → briefing → brief_ready → qa_submitted → brief_final → building → done - GitHub Action нотификация при промяна на статус - Auto-polling на всеки 10 сек в платформата - Cron watcher всяка минута за trigger-ване на Koi - Fix: URL encoding за кирилски slug-ове - Fix: бутони преместени под въпросите - Zdravko: задание финализирано (brief_final), билд насрочен за 00:00 EET",
+          "type": "build"
+        },
+        {
+          "time": "16:12",
+          "text": "Megatrans Ruse SEO имплементация. Koi подготви 9-точково задание → Codex изпълни → Koi review (хвана priceRange бъг \"72088\" вместо \"$$\") → fix → push → верификация на живо. Резултат: от 0 schema/canonical/FAQ до 3 schema блока, canonical, OG tags, FAQ секция, robots.txt, sitemap.xml. Сайтът работи: https://koiopenclaw-max.github.io/megatrans-ruse/",
+          "type": "deploy"
+        },
+        {
+          "time": "15:45",
+          "text": "SEO/GEO/AEO Optimizer skill v2.0. Koi research + задание, Codex код (3 рунда). 5 references + 4 скрипта.",
           "type": "build"
         },
         {
@@ -3197,6 +3317,11 @@
           "time": "11:06",
           "text": "ClawHub проучване: 53 builtin skills + 10 custom. Сравнение с ClawHub marketplace. Липсват: brave-search, tavily-search, self-improving-agent, seo. Builtin gog skill може да замени ръчни Gmail скриптове.",
           "type": "default"
+        },
+        {
+          "time": "09:55",
+          "text": "📧 Email Policy v1.0 — ОДОБРЕНА от Крис. Съдържа: (1) Основни факти за мейла, (2) Политика за сигурност — 5 твърди правила, red flags, верификация, (3) Пълен inbound/outbound workflow, (4) Telegram Inbox интеграция — статуси, формат, двупосочна комуникация, (5) Уведомяване. Файлове: `knowledge/areas/email-policy.md` + `.docx`. AGENTS.md + IDENTITY.md обновени. Урок: iOS Word viewer не може с таблици — ползвай само bullet/bold формат за .docx.",
+          "type": "email"
         }
       ],
       "priorities": [
@@ -3259,7 +3384,7 @@
       ],
       "hasReview": true,
       "reviewSummary": null,
-      "entryCount": 11
+      "entryCount": 14
     },
     {
       "date": "2026-03-10",
@@ -3269,6 +3394,11 @@
           "time": "17:05",
           "text": "✅ Workspace backup настроен: private repo `workspace-backup` + cron 22:00 EET ежедневно. Update 2026.3.8 наличен, dry-run чист, чакаме потвърждение.",
           "type": "done"
+        },
+        {
+          "time": "16:14",
+          "text": "OpenClaw as a Service ГОЛЯМА сесия (topic 718): - 4 итерации конкурентен анализ: Felix Craft ($116K+, 4 продукта), Mahesha Automation ($1K-$3.6K setup), OpenClaw Hosting ($29-399/мес), Clawhosters ($3.5K MRR), Twitter пазар ($250-$2,500 setup) - Implementation plan: 7 фази, ~10 седмици до първи клиент - Крис реши: web platform first, многоезична (EN+BG), Supabase + Next.js + Stripe + DO API - Tech stack определен: Vercel (free), Supabase (free), Stripe, DO API - Опит за Supabase signup — CAPTCHA блокира. Крис ще помогне. - Setup fees обновени нагоре: 199-999 лв (Mahesha взима $1K-$3K) - Генерирани 5 DOCX доклада - Крис ще помисли вечерта, продължаваме утре сутринта",
+          "type": "default"
         },
         {
           "time": "13:14",
@@ -3397,7 +3527,7 @@
         "✅ OpenClaw as a Service — конкурентен анализ (4 итерации), tech stack решен, implementation план",
         "Нови проекти:"
       ],
-      "entryCount": 10
+      "entryCount": 11
     },
     {
       "date": "2026-03-09",
