@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T20:10:04.032Z",
-  "serverUptime": 1421659,
+  "timestamp": "2026-03-25T20:15:02.406Z",
+  "serverUptime": 1421957,
   "loadAvg": [
-    "0.43",
-    "0.18",
-    "0.19"
+    "0.28",
+    "0.41",
+    "0.28"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T20:08:17.098Z",
-      "ageSec": 106,
-      "tokens": 116353,
-      "lastAction": "⏳ poll briny-crustacea",
+      "lastUpdate": "2026-03-25T20:13:42.824Z",
+      "ageSec": 79,
+      "tokens": 176330,
+      "lastAction": "Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов skill prompt",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 100496,
+      "ageSec": 100794,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 16134,
+      "ageSec": 16432,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,48 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2292419",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "04:11",
-      "elapsedSec": 251,
-      "cmd": "/bin/bash -c cd /tmp/skill-test-new && codex --yolo exec \"Read PROMPT.md and follow the instructions exactly. Build the site.\" 2>&1",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2292421",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "04:11",
-      "elapsedSec": 251,
-      "cmd": "node [server-path] --yolo exec Read PROMPT.md and follow the instructions exactly. Build the site.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2292428",
-      "cpu": "2.1",
-      "mem": "1.6",
-      "elapsed": "04:11",
-      "elapsedSec": 251,
-      "cmd": "[server-path] --yolo exec R",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2294106",
-      "cpu": "52.1",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
