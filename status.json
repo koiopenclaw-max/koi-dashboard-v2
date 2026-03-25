@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T17:00:04.468Z",
-  "serverUptime": 1410260,
+  "timestamp": "2026-03-25T17:05:02.982Z",
+  "serverUptime": 1410558,
   "loadAvg": [
-    "0.63",
-    "0.26",
-    "0.21"
+    "0.73",
+    "0.36",
+    "0.26"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 4904,
+      "ageSec": 5203,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 89096,
+      "ageSec": 89395,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 4734,
+      "ageSec": 5033,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T17:00:02.550Z",
-      "ageSec": 1,
-      "tokens": 76759,
-      "lastAction": "⚡ sleep 120 && VERCEL_TOKEN=$(cat [server-path]) && curl -s ",
+      "lastUpdate": "2026-03-25T17:04:31.648Z",
+      "ageSec": 31,
+      "tokens": 89224,
+      "lastAction": "⚡ # 1. Email triggers\nls /tmp/email-trigger-*.json 2>/dev/null; echo \"--",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2223966",
-      "cpu": "80.0",
-      "mem": "0.8",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
