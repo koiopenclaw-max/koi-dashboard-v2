@@ -1,12 +1,32 @@
 {
-  "updated": "2026-03-25T09:55:02.708Z",
+  "updated": "2026-03-25T10:00:04.266Z",
   "totalDays": 20,
-  "totalEntries": 440,
+  "totalEntries": 444,
   "days": [
     {
       "date": "2026-03-25",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "09:59",
+          "text": "✅ Ревизия #5 за Адвокатска кантора Богданови и Маринов завършена: card padding + mobile responsive fixes за 8 страници. Визуално валидирана. Статус → review.",
+          "type": "done"
+        },
+        {
+          "time": "09:57",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "09:56",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "09:30",
+          "text": "🔧 Fix: убит зомби worker процес (PID 1667199 от Mar24) който правеше `git reset --hard`. gitPull() пренаписана → `git fetch + merge`. Worker работи стабилно.",
+          "type": "default"
+        },
         {
           "time": "09:08",
           "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \"",
@@ -135,7 +155,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 14
+      "entryCount": 18
     },
     {
       "date": "2026-03-24",
