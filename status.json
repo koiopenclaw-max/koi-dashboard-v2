@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T16:54:35.158Z",
-  "serverUptime": 1409930,
+  "timestamp": "2026-03-25T16:55:03.319Z",
+  "serverUptime": 1409958,
   "loadAvg": [
-    "0.17",
-    "0.22",
-    "0.22"
+    "0.15",
+    "0.21",
+    "0.21"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 4575,
+      "ageSec": 4603,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 88767,
+      "ageSec": 88795,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 4405,
+      "ageSec": 4433,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -130,10 +130,10 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-25T16:53:52.895Z",
-      "ageSec": 42,
+      "ageSec": 70,
       "tokens": 76759,
       "lastAction": "⚡ cd [server-path] && VERCEL_TOKEN=$(cat /home/claw",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
