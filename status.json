@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:24:35.217Z",
-  "serverUptime": 1382930,
+  "timestamp": "2026-03-25T09:25:03.652Z",
+  "serverUptime": 1382959,
   "loadAvg": [
-    "0.18",
-    "0.15",
-    "0.16"
+    "0.11",
+    "0.13",
+    "0.15"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 7658,
+      "ageSec": 7686,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 61767,
+      "ageSec": 61796,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T09:24:33.448Z",
-      "ageSec": 1,
+      "lastUpdate": "2026-03-25T09:24:59.614Z",
+      "ageSec": 4,
       "tokens": 24942,
-      "lastAction": "⚡ # Hmm, the file exists. But the worker deletes it. Let me check if may",
+      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites\n# Create file, wait for full worker",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 46647,
+      "ageSec": 46675,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
