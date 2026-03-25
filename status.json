@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:54:34.676Z",
-  "serverUptime": 1377530,
+  "timestamp": "2026-03-25T07:55:02.423Z",
+  "serverUptime": 1377558,
   "loadAvg": [
-    "0.23",
-    "0.48",
-    "0.40"
+    "0.14",
+    "0.44",
+    "0.39"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 2257,
+      "ageSec": 2285,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 56367,
+      "ageSec": 56394,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,8 +96,8 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T07:54:31.825Z",
-      "ageSec": 2,
+      "lastUpdate": "2026-03-25T07:54:52.036Z",
+      "ageSec": 10,
       "tokens": 72720,
       "lastAction": "⚡ cd /home/clawd/Projects/demo-sites/demos/адвокатска-кантора-богданови-",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 41246,
+      "ageSec": 41274,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
