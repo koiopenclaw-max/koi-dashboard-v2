@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:25:03.652Z",
-  "serverUptime": 1382959,
+  "timestamp": "2026-03-25T09:30:02.906Z",
+  "serverUptime": 1383258,
   "loadAvg": [
-    "0.11",
-    "0.13",
-    "0.15"
+    "1.31",
+    "0.39",
+    "0.23"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 7686,
+      "ageSec": 7985,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 61796,
+      "ageSec": 62095,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T09:24:59.614Z",
-      "ageSec": 4,
+      "lastUpdate": "2026-03-25T09:29:59.809Z",
+      "ageSec": 3,
       "tokens": 24942,
-      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites\n# Create file, wait for full worker",
+      "lastAction": "⚡ # Kill the zombie worker\nkill 1667199 2>/dev/null && echo \"Killed old ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 46675,
+      "ageSec": 46974,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2061140",
+      "cpu": "16.6",
+      "mem": "0.7",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
