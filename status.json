@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:34:35.033Z",
-  "serverUptime": 1376330,
+  "timestamp": "2026-03-25T07:35:03.424Z",
+  "serverUptime": 1376359,
   "loadAvg": [
-    "0.45",
-    "0.36",
-    "0.28"
+    "0.30",
+    "0.33",
+    "0.27"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 1058,
+      "ageSec": 1086,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 55167,
+      "ageSec": 55195,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:24:12.682Z",
-      "ageSec": 622,
+      "ageSec": 650,
       "tokens": 57799,
       "lastAction": "Готово. Сега работи така:  1. **Отваряш проекта** в платформата 2. **Правиш screenshot** на проблема (Print Screen / ⌘+S",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 40046,
+      "ageSec": 40075,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,38 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2013465",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "06:57",
-      "elapsedSec": 417,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the inst",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2013467",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "06:57",
-      "elapsedSec": 417,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2013475",
-      "cpu": "1.3",
-      "mem": "1.6",
-      "elapsed": "06:57",
-      "elapsedSec": 417,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}

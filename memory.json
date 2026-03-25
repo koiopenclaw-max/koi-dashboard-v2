@@ -1,7 +1,7 @@
 {
-  "updated": "2026-03-25T07:30:04.182Z",
+  "updated": "2026-03-25T07:35:03.204Z",
   "totalDays": 20,
-  "totalEntries": 433,
+  "totalEntries": 434,
   "days": [
     {
       "date": "2026-03-25",
@@ -11,6 +11,11 @@
           "time": "07:28",
           "text": "🔔 Codex приключи. Koi ревюира.",
           "type": "build"
+        },
+        {
+          "time": "07:27",
+          "text": "✅ Адвокатска кантора Богданови и Маринов — ревизии #3 (hamburger menu + mobile responsive) и #4 (inner pages padding/overflow) завършени. Статус → review. Нотифициран topic 49.",
+          "type": "done"
         },
         {
           "time": "07:20",
@@ -99,7 +104,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "date": "2026-03-24",
