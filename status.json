@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T02:05:03.070Z",
-  "serverUptime": 1356558,
+  "timestamp": "2026-03-25T02:09:34.447Z",
+  "serverUptime": 1356830,
   "loadAvg": [
-    "0.08",
-    "0.06",
-    "0.04"
+    "0.00",
+    "0.02",
+    "0.02"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 39655,
+      "ageSec": 39926,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 35395,
+      "ageSec": 35666,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 25118,
+      "ageSec": 25390,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 20274,
+      "ageSec": 20546,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
