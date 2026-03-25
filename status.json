@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:40:04.581Z",
-  "serverUptime": 1376660,
+  "timestamp": "2026-03-25T07:45:02.575Z",
+  "serverUptime": 1376958,
   "loadAvg": [
-    "0.09",
-    "0.19",
-    "0.23"
+    "0.29",
+    "0.42",
+    "0.33"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 1387,
+      "ageSec": 1685,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 55497,
+      "ageSec": 55795,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T07:39:56.968Z",
-      "ageSec": 7,
-      "tokens": 57799,
-      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites && python3 -c \"\nimport json\nwith op",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T07:43:24.671Z",
+      "ageSec": 97,
+      "tokens": 66893,
+      "lastAction": "Ясно! Ето картината:  **Проблемът е РЕШЕН, но само в новите файлове.** Старите файлове все още стоят и те показват пробл",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 40376,
+      "ageSec": 40674,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -154,9 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "2018440",
-      "cpu": "68.4",
-      "mem": "1.0",
+      "pid": "2020460",
+      "cpu": "33.3",
+      "mem": "0.7",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
@@ -170,9 +170,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
