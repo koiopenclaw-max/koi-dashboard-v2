@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-25T20:15:02.647Z",
+  "updated": "2026-03-25T20:20:03.685Z",
   "totalDays": 20,
-  "totalEntries": 491,
+  "totalEntries": 492,
   "days": [
     {
       "date": "2026-03-25",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "20:19",
+          "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md [server-path] [2026-03-25T20:12:57] exec: openclaw message send --media ~/NEW-PROMPT.md --ta",
+          "type": "decision"
+        },
         {
           "time": "20:10",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -260,6 +265,7 @@
       ],
       "insights": [],
       "decisions": [
+        "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md [server-path] [2026-03-25T20:12:57] exec: openclaw message send --media ~/NEW-PROMPT.md --ta",
         "Auto-extract topic 1 (150788 tokens, id:1-1774448463):** [2026-03-25T14:00:12] User: искам да ми направиш и още един пример с последния документ генериран в опен клоу топика, мо; [2026-03-25T14:05:37] User: да одобрявам този скил, подобри го и започваме да го ползваме; [2026-03-25T14:18:18] User: да одобрявам този скил, подобри го и започваме да го ползваме; [2026-03-25T14:01:45] Това е клиентският план — доста обемен. Сега ще го пресъздам по workflow-а на новия skill:; [2026-03-25T14:03:04] Изпратих ти двата. Ето разликите на реалния документ:  ## Phase 5b план — OLD vs NEW  | Аспект | O; [2026-03-25T14:18:37] Готово — skill-ът вече е записан и активен. Ето финалното състояние:  ``` docx/ ├── SKILL.md      ; [2026-03-25T14:07:02] write: xml-editing-guide.md; [2026-03-25T14:07:09] exec: # Verify final structure",
         "✅ Ревизия 3 за Адвокатска кантора Богданови и Маринов завършена. Проблем: мобилното меню и layout. Решение: хамбургер меню + responsive CSS за всички 7 страници. Валидирано с Playwright. Статус: review. Нотифициран topic 49.",
         "🔧 Адвокатска кантора Богданови и Маринов: фикснат мобилен хамбургер меню на всички страници + премахнати junk файлове от Codex (feed.html, xmlrpc.php.html и др.)",
@@ -268,12 +274,11 @@
         "- **06:33-13:35 UTC** — 🔍 Пълен Skill Audit с Крис (topic 1):",
         "- **Премахнати 4 skills:** theme-factory (0 ползвания), web-artifacts-builder (0 ползвания, claude.ai-specific), token-optimizer (0 ползвания), skill-creator (дубликат на built-in)",
         "- **agent-security REBUILT:** 373→153 реда, пасивен bible→активен guardrail. Нов description (trigger при git push/email/deploy). Нов scripts/scan-secrets.sh (тестван). Нов references/email-rules.md (от knowledge/areas/email-policy.md). URL safety rules (нов gap). Документирани реални инциденти.",
-        "✅ Крис одобри новия docx skill (docx-processing). Rebuilt: 501→88 реда main, 2 reference файла. 5-стъпков workflow с pre-flight checklist. Демонстрирани 2 сравнения (proposal OLD vs NEW, Phase 5b OLD vs NEW). Активен от сега.",
-        "- **Skill audit summary (целия ден):** agent-security rebuilt (9/10), docx rebuilt (4→8/10), 4 skills премахнати, workspace PII cleanup, scan-secrets.sh създаден и тестван."
+        "✅ Крис одобри новия docx skill (docx-processing). Rebuilt: 501→88 реда main, 2 reference файла. 5-стъпков workflow с pre-flight checklist. Демонстрирани 2 сравнения (proposal OLD vs NEW, Phase 5b OLD vs NEW). Активен от сега."
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 40
+      "entryCount": 41
     },
     {
       "date": "2026-03-24",
