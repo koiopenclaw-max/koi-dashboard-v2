@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T15:35:04.926Z",
+  "updated": "2026-03-25T15:40:04.869Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -673,6 +673,10 @@
             {
               "time": "07:48",
               "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 OpenClaw ъпдейт: 2026.3.13 → 2026.3.23-2. npm install + gateway restart. Всичко работи, cache 100% hit, Codex credentials auto-synced. Custom skills и cron jobs непроменени."
             }
           ]
         },
@@ -2187,6 +2191,10 @@
             {
               "time": "14:05",
               "text": "✅ Крис одобри новия docx skill (docx-processing). Rebuilt: 501→88 реда main, 2 reference файла. 5-стъпков workflow с pre-flight checklist. Демонстрирани 2 сравнения (proposal OLD vs NEW, Phase 5b OLD vs NEW). Активен от сега."
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 OpenClaw ъпдейт: 2026.3.13 → 2026.3.23-2. npm install + gateway restart. Всичко работи, cache 100% hit, Codex credentials auto-synced. Custom skills и cron jobs непроменени."
             }
           ]
         },
