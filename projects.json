@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T07:50:04.509Z",
+  "updated": "2026-03-25T07:55:02.902Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -109,8 +109,17 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 12,
+      "activityDays": 13,
       "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "07:48",
+              "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
+            }
+          ]
+        },
         {
           "date": "2026-03-24",
           "entries": [
@@ -499,35 +508,6 @@
               "text": "✅ Firebase Storage активиран от Крис, storage rules deploy-нати."
             }
           ]
-        },
-        {
-          "date": "2026-03-12",
-          "entries": [
-            {
-              "time": "07:51",
-              "text": "Актуализиран `knowledge/projects/demo-sites.md` с SEO Минимален Стандарт — задължителен checklist за всеки бъдещ демо сайт (техническо SEO, schema, OG, local SEO, проверка)."
-            },
-            {
-              "time": "03:55",
-              "text": "✅ Zdravko landing rebrand готов: оригинално PNG лого, правилна палитра (#A8E34A, #003324, #FF884D, #F0F5F2). Верифицирах всички CSS vars, секции, mobile, bilingual преди deploy."
-            },
-            {
-              "time": "03:55",
-              "text": "📝 УРОК: Винаги верифицирай преди deploy. Крис настоява — и е прав. Проверка > бързина."
-            },
-            {
-              "time": "13:37",
-              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
-            },
-            {
-              "time": "12:30",
-              "text": "All 5 tasks done, deployed to GitHub Pages + Supabase"
-            },
-            {
-              "time": "16:15",
-              "text": "Tasks 6-9 complete, Article Creator deployed"
-            }
-          ]
         }
       ]
     },
@@ -661,8 +641,17 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 12,
+      "activityDays": 13,
       "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "07:48",
+              "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
+            }
+          ]
+        },
         {
           "date": "2026-03-24",
           "entries": [
@@ -941,35 +930,6 @@
             {
               "time": "19:06",
               "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-12",
-          "entries": [
-            {
-              "time": "05:50",
-              "text": "SEO/GEO/AEO одит на vetcareyordanov.com. Пълен анализ: 33 страници, React SPA (Vite + Supabase, Lovable hosting). Оценка 5.5/10. Основни проблеми: SPA без SSR (еднакви title/description на всички страници), липса на canonical, липса на FAQ/Breadcrumb/Service schema. Генериран .docx доклад и изпратен в topic 1."
-            },
-            {
-              "time": "10:53",
-              "text": "Крис направи Supabase регистрация (GitHub auth). Акаунтът е празен (нов), vet сайтът е на Lovable Supabase. Token настроен."
-            },
-            {
-              "time": "12:42",
-              "text": "BG Quality Honey: CNAME файл създаден — сайтът качен на домейн. Статус → done. Live: https://koiopenclaw-max.github.io/bg-quality-honey/"
-            },
-            {
-              "time": "18:10",
-              "text": "Momerly v3.0: Крис смени стека на Firebase (вместо Supabase) + потвърди Expo. Актуализиран SKILL.md, генериран .docx v3.0 задание."
-            },
-            {
-              "time": "13:37",
-              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
-            },
-            {
-              "time": "12:30",
-              "text": "All 5 tasks done, deployed to GitHub Pages + Supabase"
             }
           ]
         }
@@ -2174,6 +2134,14 @@
             {
               "time": "06:34",
               "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "07:48",
+              "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
+            },
+            {
+              "time": "07:50",
+              "text": "🔧 Адвокатска кантора Богданови и Маринов: фикснат мобилен хамбургер меню на всички страници + премахнати junk файлове от Codex (feed.html, xmlrpc.php.html и др.)"
             }
           ]
         },
