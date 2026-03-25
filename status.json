@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T20:00:04.236Z",
-  "serverUptime": 1421059,
+  "timestamp": "2026-03-25T20:04:35.358Z",
+  "serverUptime": 1421330,
   "loadAvg": [
-    "0.26",
-    "0.34",
-    "0.26"
+    "0.01",
+    "0.15",
+    "0.20"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T19:59:01.013Z",
-      "ageSec": 63,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T20:04:30.963Z",
+      "ageSec": 4,
       "tokens": 116353,
-      "lastAction": "Прав си по всичките три точки:  1. **Codex билдва, не аз.** Реалистичният тест е: дай OLD skill prompt на Codex → виж ре",
+      "lastAction": "",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 99896,
+      "ageSec": 100167,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 15534,
+      "ageSec": 15805,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,27 +152,16 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2289938",
-      "cpu": "47.3",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
