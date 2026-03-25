@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T06:20:03.468Z",
-  "serverUptime": 1371859,
+  "timestamp": "2026-03-25T06:25:03.905Z",
+  "serverUptime": 1372159,
   "loadAvg": [
-    "0.19",
-    "0.20",
-    "0.17"
+    "0.33",
+    "0.21",
+    "0.18"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 54955,
+      "ageSec": 55256,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 50695,
+      "ageSec": 50996,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 40419,
+      "ageSec": 40719,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 35575,
+      "ageSec": 35875,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,7 +152,38 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1988666",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:38",
+      "elapsedSec": 38,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the inst",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1988668",
+      "cpu": "0.1",
+      "mem": "1.1",
+      "elapsed": "00:38",
+      "elapsedSec": 38,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1988676",
+      "cpu": "1.4",
+      "mem": "1.6",
+      "elapsed": "00:38",
+      "elapsedSec": 38,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
