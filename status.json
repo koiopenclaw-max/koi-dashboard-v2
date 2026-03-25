@@ -135,7 +135,7 @@
       "lastUpdate": "2026-03-25T13:18:56.732Z",
       "ageSec": 37,
       "tokens": 45570,
-      "lastAction": "Намерих проблема. Ето какво се случи:  1. Ти плати с `koinov@infocall.bg` 2. `verify-session` те логна автоматично (създ",
+      "lastAction": "Намерих проблема. Ето какво се случи:  1. Ти плати с `k***@infocall.bg` 2. `verify-session` те логна автоматично (създ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -169,7 +169,7 @@
       "mem": "1.1",
       "elapsed": "01:18",
       "elapsedSec": 78,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
       "relatedTopic": null,
       "procType": "codex"
     },
@@ -179,7 +179,7 @@
       "mem": "1.6",
       "elapsed": "01:18",
       "elapsedSec": 78,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "cmd": "[server-path] exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
     }
