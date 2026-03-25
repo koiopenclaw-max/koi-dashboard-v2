@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-25T19:05:03.669Z",
-  "serverUptime": 1417759,
+  "timestamp": "2026-03-25T19:09:35.271Z",
+  "serverUptime": 1418030,
   "loadAvg": [
-    "0.73",
+    "0.40",
     "0.36",
     "0.29"
   ],
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 12403,
+      "ageSec": 12675,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 96596,
+      "ageSec": 96867,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 12233,
+      "ageSec": 12505,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T19:05:00.541Z",
-      "ageSec": 3,
-      "tokens": 148635,
-      "lastAction": "Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Какво ще прави агентът р",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T19:08:41.849Z",
+      "ageSec": 53,
+      "tokens": 151159,
+      "lastAction": "🚩 Знаменцето е забито. 🐟",
       "hasProcess": false,
       "hasSession": true
     },
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
