@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:45:03.209Z",
-  "serverUptime": 1384158,
+  "timestamp": "2026-03-25T09:49:34.295Z",
+  "serverUptime": 1384429,
   "loadAvg": [
-    "0.05",
-    "0.17",
-    "0.22"
+    "0.36",
+    "0.20",
+    "0.20"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 8886,
+      "ageSec": 9157,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 62995,
+      "ageSec": 63266,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T09:42:05.173Z",
-      "ageSec": 178,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T09:49:10.579Z",
+      "ageSec": 23,
       "tokens": 92763,
-      "lastAction": "## Резолюция  ### Проблем: Worker-ът трие локални промени **Root cause:** Зомби процес (PID 1667199, стартиран Mar24) —",
+      "lastAction": "⏳ poll quick-cedar",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 47875,
+      "ageSec": 48146,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,16 +152,47 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2066917",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "03:12",
+      "elapsedSec": 192,
+      "cmd": "/bin/sh -c cd \"/tmp/koi-revision-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instr",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2066919",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "03:12",
+      "elapsedSec": 192,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2066927",
+      "cpu": "1.1",
+      "mem": "1.6",
+      "elapsed": "03:12",
+      "elapsedSec": 192,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
