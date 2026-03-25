@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T18:54:34.677Z",
-  "serverUptime": 1417130,
+  "timestamp": "2026-03-25T18:55:02.852Z",
+  "serverUptime": 1417158,
   "loadAvg": [
-    "0.05",
-    "0.22",
-    "0.25"
+    "0.03",
+    "0.20",
+    "0.24"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 11774,
+      "ageSec": 11803,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 95967,
+      "ageSec": 95995,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 11604,
+      "ageSec": 11632,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -130,10 +130,10 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T18:53:36.817Z",
-      "ageSec": 57,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T18:54:52.068Z",
+      "ageSec": 10,
       "tokens": 144055,
       "lastAction": "Точно. Записах го. Подходът е:  1. **Всеки започва на Starter** ($6, 1GB) — достатъчно за бизнес асистент 2. **В портала",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
