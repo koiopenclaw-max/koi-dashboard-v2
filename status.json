@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-25T02:15:03.263Z",
-  "serverUptime": 1357158,
+  "timestamp": "2026-03-25T02:20:02.654Z",
+  "serverUptime": 1357458,
   "loadAvg": [
-    "0.02",
-    "0.03",
+    "0.11",
+    "0.07",
     "0.01"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 40255,
+      "ageSec": 40554,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 35995,
+      "ageSec": 36295,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 25719,
+      "ageSec": 26018,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 20875,
+      "ageSec": 21174,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -154,9 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "1902293",
-      "cpu": "66.6",
-      "mem": "1.0",
+      "pid": "1904004",
+      "cpu": "114",
+      "mem": "1.1",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
