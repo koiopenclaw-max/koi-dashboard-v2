@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T06:30:04.271Z",
+  "updated": "2026-03-25T06:35:03.826Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -2154,8 +2154,17 @@
         "audience",
         "growth"
       ],
-      "activityDays": 13,
+      "activityDays": 14,
       "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "06:34",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            }
+          ]
+        },
         {
           "date": "2026-03-24",
           "entries": [
@@ -2838,135 +2847,6 @@
             {
               "time": "09:07",
               "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-13",
-          "entries": [
-            {
-              "time": "19:24",
-              "text": "Auto-extract topic 51 (153k tokens) — compact завършен"
-            },
-            {
-              "time": "16:31",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:25",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:00",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:36",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:24",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:51",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:54",
-              "text": "✅ **Phase 3 ревю завършено!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deploy-нати. Connections + Messaging + Chat + Block + Report + URL detection + i18n (17 нови ключа). Discovery feed, connection requests, conversations list, real-time chat screen. 130k Codex токена."
-            },
-            {
-              "time": "14:00",
-              "text": "✅ **Phase 3 ЗАВЪРШЕНА + ревюирана!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deployed. Детайли: connections service (send/accept/decline/block), messages service (send/report, URL detection, max 10 chats), discovery feed, requests list, my connections, chat screen (real-time), i18n (53 нови стринга BG+EN)."
-            },
-            {
-              "time": "13:35",
-              "text": "🔨 **Codex Phase 3 стартиран** (`mild-gulf`): Connections + Messaging. Включва: discovery feed, connection requests, chat, block, report, URL detection. ~30 мин очаквано."
-            },
-            {
-              "time": "11:55",
-              "text": "✅ **Momerly SDK ъпгрейд завършен!** Expo 52→55 (SDK 54), React 18→19, RN 0.76→0.83. Babel fix, expo-constants добавен. Tunnel active. Крис тества на Android + iOS."
-            },
-            {
-              "time": "11:10",
-              "text": "🔨 Momerly web build + visual test завършен. Fix: native.ts (dynamic require→Platform-aware), tsconfig module→esnext. 22 screenshots с Playwright. Auth guard блокира tabs (показват Login). 2 console errors (SecureStore web, Firebase permissions). Доклад пратен на Крис."
-            },
-            {
-              "time": "08:27",
-              "text": "Firebase CLI login успешен! Token записан в `[secrets-path].txt`. Проект: `momerly-ba95a` (Project Number: 376384939207)."
-            },
-            {
-              "time": "08:55",
-              "text": "Topic 51 (Momerly) заклещен — poll на несъществуващ Codex процес (brisk-seaslug). Gateway рестартиран, сесията освободена."
-            },
-            {
-              "time": "10:15",
-              "text": "Auto-Extract & Compact система създадена. Скрипт + trigger в collector. При 150k+ токена → автоматично извличане + reset + нотификация."
-            },
-            {
-              "time": "10:33",
-              "text": "Dashboard fix: rate limit (GitHub API 60/hr), сменено на raw.githubusercontent.com. Git squash (115→1 commit). Всички 12 топика видими."
-            },
-            {
-              "time": "10:38",
-              "text": "🔔 Codex Watchdog добавен в collector. При изчезване на Codex процес → автоматична нотификация в Telegram + запис в daily notes."
-            },
-            {
-              "time": "10:42",
-              "text": "✅ Codex Phase 2 ревю завършено: 3,238 реда, 46 файла, 0 TS грешки. 11 onboarding екрана + profile + i18n + theme + components."
-            },
-            {
-              "time": "13:54",
-              "text": "Fix: Watchdog → пише `/tmp/codex-review-needed.json` → Heartbeat го хваща → Koi ревюира + продължава автоматично. HEARTBEAT.md обновен с Codex Completion Review секция."
-            },
-            {
-              "time": "13:56",
-              "text": "По-добро решение: `openclaw system event` в Codex prompt-а. Codex изпълнява командата при завършване → OpenClaw event → Koi се събужда веднага (секунди). Watchdog + heartbeat остават като backup. AGENTS.md обновен."
-            },
-            {
-              "time": "14:00",
-              "text": "⚠️ SECURITY: GitGuardian засече GitHub token в koi-dashboard HTML. Токенът премахнат от HTML, push-нат fix. **НУЖНО: ротация на GitHub token от Крис!** Текущият е compromised."
-            },
-            {
-              "time": "16:28",
-              "text": "Dashboard fix: v2.html с API+raw fallback, index.html redirect-ва. Amend+force push за без commit spam."
-            },
-            {
-              "time": "16:32",
-              "text": "Heartbeat: 5 мейла (3 security alerts за exposed keys в git history, 1 build fail, 1 bearer token). Текущите файлове са чисти. **Крис трябва да ротира: 1) GitHub PAT, 2) Firebase API key (restrict в Google Cloud Console).**"
-            },
-            {
-              "time": "18:50",
-              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
-            },
-            {
-              "time": "08:55",
-              "text": "npm install успешен (1706 пакета). TypeScript fix: useAuth.ts→.tsx, firebase import опростен."
-            },
-            {
-              "time": "09:22",
-              "text": "Крис одобри план Фаза 2. Codex spawn-нат, но Крис спря: \"Codex не е дизайнер, Koi прави дизайна.\""
-            },
-            {
-              "time": "10:24",
-              "text": "Auto-extract topic 99 (160,000 tokens):**"
-            },
-            {
-              "time": "10:32",
-              "text": "Auto-extract topic 51 (152,401 tokens):**"
-            },
-            {
-              "time": "18:39",
-              "text": "🐛 Fix: Android Home screen. Accent cards (Pending Requests/Unread Messages) имаха rendering artifacts от elevation+shadow на colored backgrounds. Махнат shadow, elevation:0, overflow:hidden. Бутоните долу (Discover/Connections) бяха отрязани — добавен marginBottom. Commit: 76bd38e"
-            },
-            {
-              "time": "19:30",
-              "text": "— 🔴 SECURITY INCIDENT: Exposed secrets in koi-dashboard repo — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` на PUBLIC repo `koiopenclaw-max/koi-dashboard` всеки 30 сек. Полето `lastAction` съдържаше API ключове от exec команди. - **Изтекли:** Google API Key (AIza...GLc за Momerly), GitHub PAT (в auth), Telegram Bot Token (demo-sites repo от 10.03) - **Действия:** - ✅ Repo `koi-dashboard` направено private - ✅ Security Bible обновена с \"Automated Publishing Rule\""
-            },
-            {
-              "time": "19:30",
-              "text": "🔴 SECURITY INCIDENT — Exposed secrets в koi-dashboard — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` с `lastAction` поле, съдържащо API ключове, към **публично** GitHub repo `koi-dashboard` - **Изтекло:** Google API Key (AIzaSy...) за Momerly, потенциално GitHub PAT - **Известия:** GitGuardian (x2), GitHub secret scanning, Google Cloud compliance - **Действия:** - ✅ Repo `koi-dashboard` → private"
             }
           ]
         }
