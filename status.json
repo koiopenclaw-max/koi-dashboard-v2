@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T15:25:02.677Z",
-  "serverUptime": 1404558,
+  "timestamp": "2026-03-25T15:29:34.891Z",
+  "serverUptime": 1404830,
   "loadAvg": [
+    "0.25",
     "0.33",
-    "0.24",
-    "0.22"
+    "0.27"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T15:16:08.620Z",
-      "ageSec": 534,
-      "tokens": 69989,
-      "lastAction": "Сега вече:  - **#5** — 🔍 Пълен Skill Audit - **#6** — Премахнати 4 skills - **#7** — **agent-security REBUILT** ← ето го",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T15:29:33.327Z",
+      "ageSec": 1,
+      "tokens": 70585,
+      "lastAction": "⏳ poll oceanic-crest",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 83395,
+      "ageSec": 83667,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 3440,
-      "tokens": 57062,
-      "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T15:27:38.376Z",
+      "ageSec": 116,
+      "tokens": 67700,
+      "lastAction": "Крис, ето какво се случва **реално** по логовете:  **Webhook механизмът РАБОТИ** — HTTP 200, сесия се създава, agent run",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T15:25:00.263Z",
-      "ageSec": 2,
-      "tokens": 61537,
-      "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'DAILYEO",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T15:25:20.758Z",
+      "ageSec": 254,
+      "tokens": 72014,
+      "lastAction": "Готово. Ето какво е deployнато:  **✅ Vercel (`clawai-stripe.vercel.app`):** - `verify-session` — създава customer chain",
       "hasProcess": false,
       "hasSession": true
     },
@@ -161,8 +161,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 0,
-    "idle": 11,
+    "recent": 1,
+    "idle": 10,
     "stuck": 0
   }
 }
