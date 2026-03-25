@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T18:55:03.777Z",
+  "updated": "2026-03-25T19:00:05.344Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -1092,6 +1092,10 @@
             {
               "time": "17:55",
               "text": "📋 ClawAI Phase 6 Provisioning Plan написан. Пълен план: `knowledge/projects/clawai-provisioning-plan.md`. Включва: DO droplet setup, OpenClaw install, workspace файлове (SOUL/AGENTS/USER/IDENTITY/HEARTBEAT/TOOLS), канал setup, мониторинг, security, cost structure, автоматизация roadmap (semi → full → zero-touch)."
+            },
+            {
+              "time": "18:56",
+              "text": "💡 Крис визия за Clawsourcing: НЕ е за power user/дизайнер. Целта е компании с десетки/стотици служители които искат дигитализация. Enterprise-level AI transformation. Starter = малък бизнес (1 агент). Clawsourcing = корпоративна дигитализация (множество агенти, интеграции, workflows за цяла организация)."
             }
           ]
         },
@@ -1787,6 +1791,10 @@
             {
               "time": "17:55",
               "text": "📋 ClawAI Phase 6 Provisioning Plan написан. Пълен план: `knowledge/projects/clawai-provisioning-plan.md`. Включва: DO droplet setup, OpenClaw install, workspace файлове (SOUL/AGENTS/USER/IDENTITY/HEARTBEAT/TOOLS), канал setup, мониторинг, security, cost structure, автоматизация roadmap (semi → full → zero-touch)."
+            },
+            {
+              "time": "18:56",
+              "text": "💡 Крис визия за Clawsourcing: НЕ е за power user/дизайнер. Целта е компании с десетки/стотици служители които искат дигитализация. Enterprise-level AI transformation. Starter = малък бизнес (1 агент). Clawsourcing = корпоративна дигитализация (множество агенти, интеграции, workflows за цяла организация)."
             }
           ]
         },
