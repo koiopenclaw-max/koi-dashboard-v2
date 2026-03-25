@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:00:03.430Z",
-  "serverUptime": 1381459,
+  "timestamp": "2026-03-25T09:05:03.614Z",
+  "serverUptime": 1381759,
   "loadAvg": [
-    "0.16",
-    "0.18",
-    "0.16"
+    "0.40",
+    "0.31",
+    "0.21"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 6186,
+      "ageSec": 6486,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 60295,
+      "ageSec": 60596,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T08:59:34.339Z",
-      "ageSec": 29,
+      "lastUpdate": "2026-03-25T09:04:57.711Z",
+      "ageSec": 5,
       "tokens": 121194,
-      "lastAction": "⏳ poll mild-nexus",
+      "lastAction": "🔧 image",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 45175,
+      "ageSec": 45475,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -154,34 +154,14 @@
   ],
   "processes": [
     {
-      "pid": "2048892",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "01:18",
-      "elapsedSec": 78,
-      "cmd": "/bin/sh -c cd \"/tmp/koi-revision-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instr",
+      "pid": "2051846",
+      "cpu": "200",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
       "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2048894",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "01:18",
-      "elapsedSec": 78,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2048902",
-      "cpu": "1.2",
-      "mem": "1.6",
-      "elapsed": "01:17",
-      "elapsedSec": 77,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
+      "procType": "build"
     }
   ],
   "errors": {
