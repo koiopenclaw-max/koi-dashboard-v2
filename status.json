@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T08:35:03.927Z",
-  "serverUptime": 1379959,
+  "timestamp": "2026-03-25T08:39:41.828Z",
+  "serverUptime": 1380237,
   "loadAvg": [
-    "0.05",
-    "0.11",
-    "0.16"
+    "0.06",
+    "0.09",
+    "0.14"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 4686,
+      "ageSec": 4964,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 58796,
+      "ageSec": 59074,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T08:34:20.624Z",
-      "ageSec": 43,
-      "tokens": 107894,
-      "lastAction": "Прав си на 100%. Ето анализа:  **Какво стана:** Един проблем (текст излиза от карти) → 8 commit-а, всеки \"поправя\" едно",
+      "lastUpdate": "2026-03-25T08:39:33.984Z",
+      "ageSec": 7,
+      "tokens": 116746,
+      "lastAction": "Сега разбирам пълната картина. Ето предложението:  ---  **Проблемът:** Сегашният revision worker (demo-worker.js) работи",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 43675,
+      "ageSec": 43953,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
