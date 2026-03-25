@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T13:38:02.927Z",
-  "serverUptime": 1398138,
+  "timestamp": "2026-03-25T14:25:03.208Z",
+  "serverUptime": 1400958,
   "loadAvg": [
-    "0.26",
-    "0.36",
-    "0.29"
+    "0.96",
+    "0.71",
+    "0.46"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:37:33.241Z",
-      "ageSec": 29,
-      "tokens": 89338,
-      "lastAction": "⚡ # Debug - the script is hanging or erroring silently on pipefail. Let ",
+      "lastUpdate": "2026-03-25T14:24:59.595Z",
+      "ageSec": 3,
+      "tokens": 29724,
+      "lastAction": "⚡ ls /tmp/koi-dashboard-v2/ && echo \"===\" && grep -rn \"status.json\" /hom",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 76975,
+      "ageSec": 79795,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:37:40.434Z",
-      "ageSec": 22,
-      "tokens": 151304,
-      "lastAction": "Ето го казусът:  **Заявка:** \"Преработи на тема Modern Edge + извади логото от оригиналния сайт\"  Това **НЕ е CSS fix**",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T14:18:58.117Z",
+      "ageSec": 365,
+      "tokens": 41703,
+      "lastAction": "🟢🟢 **Двата endpoint-а работят!**  - `/hooks/wake` → 200 ✅ - `/hooks/agent` → 200, runId получен ✅  Сега чакаме да видим",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:38:02.564Z",
-      "ageSec": 0,
-      "tokens": 51150,
-      "lastAction": "⚡ source /home/clawd/.env.supabase\n# Verify clean\ncurl -s \"https://mtxyi",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T13:38:08.288Z",
+      "ageSec": 2814,
+      "tokens": 53488,
+      "lastAction": "Чисто. `koinov@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
       "hasSession": true
     },
@@ -159,10 +159,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 3,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 9,
+    "idle": 11,
     "stuck": 0
   }
 }
