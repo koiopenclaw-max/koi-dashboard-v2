@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T20:05:02.657Z",
-  "serverUptime": 1421358,
+  "timestamp": "2026-03-25T20:09:35.502Z",
+  "serverUptime": 1421631,
   "loadAvg": [
-    "0.00",
-    "0.14",
-    "0.19"
+    "0.04",
+    "0.11",
+    "0.16"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T20:04:59.301Z",
-      "ageSec": 3,
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T20:08:17.098Z",
+      "ageSec": 78,
       "tokens": 116353,
-      "lastAction": "⚡ ls [server-path] 2>/dev/null; git config --global credential.h",
+      "lastAction": "⏳ poll briny-crustacea",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 100195,
+      "ageSec": 100467,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 15832,
+      "ageSec": 16105,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,16 +152,47 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2292419",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "03:42",
+      "elapsedSec": 222,
+      "cmd": "/bin/bash -c cd /tmp/skill-test-new && codex --yolo exec \"Read PROMPT.md and follow the instructions exactly. Build the site.\" 2>&1",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2292421",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "03:42",
+      "elapsedSec": 222,
+      "cmd": "node [server-path] --yolo exec Read PROMPT.md and follow the instructions exactly. Build the site.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2292428",
+      "cpu": "2.2",
+      "mem": "1.6",
+      "elapsed": "03:42",
+      "elapsedSec": 222,
+      "cmd": "[server-path] --yolo exec R",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
