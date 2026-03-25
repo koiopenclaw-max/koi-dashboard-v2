@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T11:30:04.867Z",
+  "updated": "2026-03-25T11:35:03.571Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -125,6 +125,10 @@
             {
               "time": "11:26",
               "text": "🎓 Урок: Card sizing → measure-first, не generic CSS. Измери текста в пиксели, сметни min-width, запиши числото. Записано в knowledge/areas/demo-sites.md."
+            },
+            {
+              "time": "08:30",
+              "text": "🚀 Адвокатска кантора Богданови и Маринов: deployed to demo59.add.bg (repo: demo59-add-bg). GitHub Pages built, CNAME set. Waiting DNS propagation."
             }
           ]
         },
@@ -1056,8 +1060,17 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 11,
+      "activityDays": 12,
       "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "08:30",
+              "text": "🚀 Адвокатска кантора Богданови и Маринов: deployed to demo59.add.bg (repo: demo59-add-bg). GitHub Pages built, CNAME set. Waiting DNS propagation."
+            }
+          ]
+        },
         {
           "date": "2026-03-24",
           "entries": [
@@ -1328,39 +1341,6 @@
             {
               "time": "13:37",
               "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-11",
-          "entries": [
-            {
-              "time": "11:06",
-              "text": "ClawHub проучване: 53 builtin skills + 10 custom. Сравнение с ClawHub marketplace. Липсват: brave-search, tavily-search, self-improving-agent, seo. Builtin gog skill може да замени ръчни Gmail скриптове."
-            },
-            {
-              "time": "11:13",
-              "text": "ClawHub регистрация: не може headless (изисква браузър OAuth). Крис трябва да регистрира акаунт на clawhub.ai и да даде token."
-            },
-            {
-              "time": "13:43",
-              "text": "Codex CLI v0.114.0 инсталиран от Крис, свързан с OpenAI акаунт. Модел: gpt-5.4. Тест: успешен. Workflow активен: Koi задания → Codex кодене → Koi review."
-            },
-            {
-              "time": "14:06",
-              "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub."
-            },
-            {
-              "time": "14:18",
-              "text": "googleapis npm пакет инсталиран глобално за Gmail API достъп."
-            },
-            {
-              "time": "14:22",
-              "text": "Daily session reset конфигуриран: 23:00 UTC (01:00 EET). Workflow: nightly review (21:00) → failsafe (22:00) → reset (23:00) → чист старт."
-            },
-            {
-              "time": "22:00",
-              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
             }
           ]
         }
@@ -1767,8 +1747,17 @@
         "platform",
         "ai"
       ],
-      "activityDays": 11,
+      "activityDays": 12,
       "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "08:30",
+              "text": "🚀 Адвокатска кантора Богданови и Маринов: deployed to demo59.add.bg (repo: demo59-add-bg). GitHub Pages built, CNAME set. Waiting DNS propagation."
+            }
+          ]
+        },
         {
           "date": "2026-03-24",
           "entries": [
@@ -2031,39 +2020,6 @@
             {
               "time": "13:37",
               "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-11",
-          "entries": [
-            {
-              "time": "11:06",
-              "text": "ClawHub проучване: 53 builtin skills + 10 custom. Сравнение с ClawHub marketplace. Липсват: brave-search, tavily-search, self-improving-agent, seo. Builtin gog skill може да замени ръчни Gmail скриптове."
-            },
-            {
-              "time": "11:13",
-              "text": "ClawHub регистрация: не може headless (изисква браузър OAuth). Крис трябва да регистрира акаунт на clawhub.ai и да даде token."
-            },
-            {
-              "time": "13:43",
-              "text": "Codex CLI v0.114.0 инсталиран от Крис, свързан с OpenAI акаунт. Модел: gpt-5.4. Тест: успешен. Workflow активен: Koi задания → Codex кодене → Koi review."
-            },
-            {
-              "time": "14:06",
-              "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub."
-            },
-            {
-              "time": "14:18",
-              "text": "googleapis npm пакет инсталиран глобално за Gmail API достъп."
-            },
-            {
-              "time": "14:22",
-              "text": "Daily session reset конфигуриран: 23:00 UTC (01:00 EET). Workflow: nightly review (21:00) → failsafe (22:00) → reset (23:00) → чист старт."
-            },
-            {
-              "time": "22:00",
-              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
             }
           ]
         }
