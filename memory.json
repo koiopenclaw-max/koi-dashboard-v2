@@ -1,8 +1,68 @@
 {
-  "updated": "2026-03-25T21:00:03.827Z",
-  "totalDays": 20,
+  "updated": "2026-03-25T21:05:03.052Z",
+  "totalDays": 21,
   "totalEntries": 493,
   "days": [
+    {
+      "date": "2026-03-26",
+      "dayName": "Четвъртък",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning автоматизация (план написан, чака DO акаунт)"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Admin Dashboard"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-03-25",
       "dayName": "Сряда",
@@ -281,8 +341,10 @@
         "- **agent-security REBUILT:** 373→153 реда, пасивен bible→активен guardrail. Нов description (trigger при git push/email/deploy). Нов scripts/scan-secrets.sh (тестван). Нов references/email-rules.md (от knowledge/areas/email-policy.md). URL safety rules (нов gap). Документирани реални инциденти.",
         "✅ Крис одобри новия docx skill (docx-processing). Rebuilt: 501→88 реда main, 2 reference файла. 5-стъпков workflow с pre-flight checklist. Демонстрирани 2 сравнения (proposal OLD vs NEW, Phase 5b OLD vs NEW). Активен от сега."
       ],
-      "hasReview": false,
-      "reviewSummary": null,
+      "hasReview": true,
+      "reviewSummary": [
+        "Много продуктивен ден — skills overhaul + demo builds + ClawAI Phase 6 план."
+      ],
       "entryCount": 42
     },
     {
