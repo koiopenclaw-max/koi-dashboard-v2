@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-25T08:20:03.369Z",
-  "serverUptime": 1379058,
+  "timestamp": "2026-03-25T08:25:04.109Z",
+  "serverUptime": 1379359,
   "loadAvg": [
-    "0.12",
-    "0.17",
+    "0.04",
+    "0.18",
     "0.22"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 3786,
+      "ageSec": 4087,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 57895,
+      "ageSec": 58196,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T08:19:51.725Z",
-      "ageSec": 11,
-      "tokens": 101180,
-      "lastAction": "Готово. „Представителство\" е цяла дума на един ред, с оригиналния шрифт 1.75rem. Картите са по-широки и всичко се побира",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T08:20:55.943Z",
+      "ageSec": 248,
+      "tokens": 102611,
+      "lastAction": "Всички 7 страници, на 1200px и 390px — **нулев overflow**. Да, готово е.",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 42775,
+      "ageSec": 43076,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,28 +152,17 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2034230",
-      "cpu": "40.0",
-      "mem": "0.7",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
