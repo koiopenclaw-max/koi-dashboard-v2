@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T11:35:03.085Z",
-  "serverUptime": 1390758,
+  "timestamp": "2026-03-25T11:40:03.890Z",
+  "serverUptime": 1391059,
   "loadAvg": [
-    "0.43",
-    "0.39",
-    "0.34"
+    "0.68",
+    "0.38",
+    "0.32"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 15486,
+      "ageSec": 15786,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 69595,
+      "ageSec": 69896,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T11:28:17.497Z",
-      "ageSec": 405,
+      "ageSec": 706,
       "tokens": 147738,
       "lastAction": "Записано в AGENTS.md — ще го чета при всяко стартиране.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 54474,
+      "ageSec": 54775,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
