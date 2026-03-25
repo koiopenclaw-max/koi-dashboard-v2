@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T06:30:03.280Z",
-  "serverUptime": 1372458,
+  "timestamp": "2026-03-25T06:35:03.033Z",
+  "serverUptime": 1372758,
   "loadAvg": [
     "0.12",
-    "0.19",
-    "0.17"
+    "0.23",
+    "0.20"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 55555,
-      "tokens": 39008,
-      "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T06:34:54.091Z",
+      "ageSec": 8,
+      "tokens": 0,
+      "lastAction": "⚡ # Check for referenced but missing directories/files\necho \"=== theme-f",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 51295,
+      "ageSec": 51595,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 41019,
+      "ageSec": 41318,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 36175,
+      "ageSec": 36474,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -154,39 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "1988666",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "05:38",
-      "elapsedSec": 338,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-адвокатска-кантора-богданови-и-маринов\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the inst",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1988668",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "05:38",
-      "elapsedSec": 338,
-      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1988676",
-      "cpu": "1.1",
-      "mem": "1.6",
-      "elapsed": "05:38",
-      "elapsedSec": 338,
-      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1991098",
-      "cpu": "85.7",
-      "mem": "1.1",
+      "pid": "1993230",
+      "cpu": "50.0",
+      "mem": "1.0",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
@@ -200,10 +170,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
