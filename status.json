@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T13:19:34.114Z",
-  "serverUptime": 1397029,
+  "timestamp": "2026-03-25T13:31:33.977Z",
+  "serverUptime": 1397749,
   "loadAvg": [
-    "0.17",
-    "0.16",
-    "0.11"
+    "0.46",
+    "0.44",
+    "0.27"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 21757,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T13:31:30.492Z",
+      "ageSec": 3,
       "tokens": 83933,
-      "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
+      "lastAction": "⚡ # Fix: redact status.json and push\ncd /tmp/koi-dashboard-v2 && NODE_PA",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 75866,
+      "ageSec": 76586,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T11:28:17.497Z",
-      "ageSec": 6676,
-      "tokens": 147738,
-      "lastAction": "Записано в AGENTS.md — ще го чета при всяко стартиране.",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T13:30:55.981Z",
+      "ageSec": 37,
+      "tokens": 148557,
+      "lastAction": "Финкомекс Одитинг ООД пусна ревизия от платформата: - **Искане:** Смяна на темата на сайта → \"Modern Edge\" + извличане н",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:18:56.732Z",
-      "ageSec": 37,
-      "tokens": 45570,
-      "lastAction": "Намерих проблема. Ето какво се случи:  1. Ти плати с `k***@infocall.bg` 2. `verify-session` те логна автоматично (създ",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T13:22:09.414Z",
+      "ageSec": 564,
+      "tokens": 46686,
+      "lastAction": "✏️ verify-session.js",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,48 +152,17 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2138779",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "01:18",
-      "elapsedSec": 78,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-build-финкомекс-одитинг-оод\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2138781",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "01:18",
-      "elapsedSec": 78,
-      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "2138789",
-      "cpu": "1.9",
-      "mem": "1.6",
-      "elapsed": "01:18",
-      "elapsedSec": 78,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 2,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 10,
     "stuck": 0
   }
 }
