@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T19:35:03.757Z",
-  "serverUptime": 1419559,
+  "timestamp": "2026-03-25T19:40:02.899Z",
+  "serverUptime": 1419858,
   "loadAvg": [
-    "0.38",
-    "0.15",
-    "0.13"
+    "0.18",
+    "0.19",
+    "0.15"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 14203,
-      "tokens": 75773,
-      "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T19:39:59.660Z",
+      "ageSec": 3,
+      "tokens": 81524,
+      "lastAction": "Добър въпрос. Нека гледам обективно — по impact × текущо качество:  | Skill | Размер | Ползване | Качество | Impact ако",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 98396,
+      "ageSec": 98695,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 14033,
+      "ageSec": 14332,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -159,10 +159,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
