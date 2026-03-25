@@ -15,7 +15,7 @@
       "lastUpdate": "2026-03-25T15:38:19.823Z",
       "ageSec": 3703,
       "tokens": 75773,
-      "lastAction": "⚡ cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'\n- ",
+      "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -135,7 +135,7 @@
       "lastUpdate": "2026-03-25T15:51:54.582Z",
       "ageSec": 2888,
       "tokens": 76759,
-      "lastAction": "Чисто. `koinov@infocall.bg` изтрит навсякъде. Тествай. 🐟",
+      "lastAction": "Чисто. `k***@infocall.bg` изтрит навсякъде. Тествай. 🐟",
       "hasProcess": false,
       "hasSession": true
     },
