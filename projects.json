@@ -1,6 +1,6 @@
 {
-  "updated": "2026-03-25T19:05:04.482Z",
-  "totalProjects": 6,
+  "updated": "2026-03-25T19:10:04.839Z",
+  "totalProjects": 7,
   "active": 3,
   "projects": [
     {
@@ -1373,6 +1373,135 @@
             {
               "time": "13:37",
               "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "clawai-lead-patno-stroitelstvo",
+      "name": "ClawAI Lead: Пътно строителство — обществени поръчки",
+      "emoji": "🚧",
+      "status": "lead",
+      "priority": "high",
+      "started": "",
+      "updated": "",
+      "topic": 718,
+      "repo": null,
+      "url": null,
+      "vision": "",
+      "phases": [],
+      "progress": 0,
+      "activePhase": null,
+      "goals": [],
+      "blockers": [],
+      "nextActions": [],
+      "tags": [
+        "clawai",
+        "clawsourcing",
+        "lead",
+        "обществени-поръчки",
+        "строителство"
+      ],
+      "activityDays": 4,
+      "recentActivity": [
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "17:55",
+              "text": "📋 ClawAI Phase 6 Provisioning Plan написан. Пълен план: `knowledge/projects/clawai-provisioning-plan.md`. Включва: DO droplet setup, OpenClaw install, workspace файлове (SOUL/AGENTS/USER/IDENTITY/HEARTBEAT/TOOLS), канал setup, мониторинг, security, cost structure, автоматизация roadmap (semi → full → zero-touch)."
+            },
+            {
+              "time": "18:56",
+              "text": "💡 Крис визия за Clawsourcing: НЕ е за power user/дизайнер. Целта е компании с десетки/стотици служители които искат дигитализация. Enterprise-level AI transformation. Starter = малък бизнес (1 агент). Clawsourcing = корпоративна дигитализация (множество агенти, интеграции, workflows за цяла организация)."
+            },
+            {
+              "time": "19:00",
+              "text": "💡 Потенциален клиент: дизайнер, иска агент за UI/UX дизайн стратегии, колаборация, достъп до Photoshop и After Effects. Не е Starter — това е Clawsourcing case. Needs: vision analysis, design tools integration, creative workflow."
+            },
+            {
+              "time": "19:06",
+              "text": "💡 Потенциален Clawsourcing клиент: Директор на топ агенция за пътно строителство. Иска агент за подготовка на документация за обществени поръчки. Ще имаме: история от минали оферти, примери, пълно съдействие за документация/процеси/стъпки. Крис пита дали можем и какво усилие ще отнеме."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "19:30",
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
+            },
+            {
+              "time": "17:00",
+              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
+            },
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
+            {
+              "time": "15:56",
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
+            },
+            {
+              "time": "16:15",
+              "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:50",
+              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-23",
+          "entries": [
+            {
+              "time": "16:20",
+              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
+            },
+            {
+              "time": "16:58",
+              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
+            },
+            {
+              "time": "17:15",
+              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-20",
+          "entries": [
+            {
+              "time": "15:08",
+              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
+            },
+            {
+              "time": "15:26",
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+            },
+            {
+              "time": "16:42",
+              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
+            },
+            {
+              "time": "19:52",
+              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
+            },
+            {
+              "time": "20:10",
+              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
             }
           ]
         }
