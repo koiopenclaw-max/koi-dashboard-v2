@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T13:10:03.123Z",
-  "serverUptime": 1396458,
+  "timestamp": "2026-03-25T13:15:02.686Z",
+  "serverUptime": 1396758,
   "loadAvg": [
-    "0.05",
-    "0.07",
-    "0.08"
+    "0.10",
+    "0.13",
+    "0.10"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 21186,
+      "ageSec": 21485,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 75295,
+      "ageSec": 75595,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T11:28:17.497Z",
-      "ageSec": 6105,
+      "ageSec": 6405,
       "tokens": 147738,
       "lastAction": "Записано в AGENTS.md — ще го чета при всяко стартиране.",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:09:24.947Z",
-      "ageSec": 38,
+      "lastUpdate": "2026-03-25T13:15:01.129Z",
+      "ageSec": 1,
       "tokens": 31276,
-      "lastAction": "Давай, тествай! Чакам feedback. 🐟",
+      "lastAction": "⚡ cd /home/clawd/Projects/clawai-portal && grep -n \"profile-pending\\|sho",
       "hasProcess": false,
       "hasSession": true
     },
