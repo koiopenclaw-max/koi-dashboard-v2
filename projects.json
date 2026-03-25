@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T21:00:04.660Z",
+  "updated": "2026-03-25T21:05:03.995Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -10,7 +10,7 @@
       "status": "active",
       "priority": "high",
       "started": "2026-03-06",
-      "updated": "2026-03-24",
+      "updated": "2026-03-25",
       "topic": 49,
       "repo": "koiopenclaw-max/demo-sites",
       "url": "https://koiopenclaw-max.github.io/demo-sites/",
@@ -97,6 +97,8 @@
       "nextActions": [
         "Review от Крис: Одиторска кантора Узунова",
         "Review от Крис: Училище Козма Тричков Враца",
+        "Review от Крис: Адвокатска кантора Богданови и Маринов (multi-page, 7 стр.)",
+        "Review от Крис: Счетоводна къща Емпика",
         "BG Quality Honey — чака QA отговори",
         "Set B темплейти за всички ниши"
       ],
@@ -538,7 +540,7 @@
       "status": "active",
       "priority": "high",
       "started": "2026-03-09",
-      "updated": "2026-03-24",
+      "updated": "2026-03-25",
       "topic": 718,
       "repo": "koiopenclaw-max/clawai",
       "url": "https://koiopenclaw-max.github.io/clawai/",
@@ -594,10 +596,10 @@
         },
         {
           "name": "Phase 6: Auto-Provisioning",
-          "status": "next",
+          "status": "in_progress",
           "started": null,
           "completed": null,
-          "summary": "DO API → Ansible → OpenClaw install → credentials → live. Пълна автоматизация.",
+          "summary": "DO API → Ansible → OpenClaw install → credentials → live. Provisioning Plan написан (knowledge/projects/clawai-provisioning-plan.md). Тиерове: Starter ($6, 1GB) default. Чака DO акаунт + скриптове от Крис.",
           "blockers": []
         },
         {
