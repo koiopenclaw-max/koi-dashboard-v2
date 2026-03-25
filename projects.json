@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T19:35:04.532Z",
+  "updated": "2026-03-25T19:40:03.849Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -2368,6 +2368,10 @@
             {
               "time": "19:00",
               "text": "💡 Потенциален клиент: дизайнер, иска агент за UI/UX дизайн стратегии, колаборация, достъп до Photoshop и After Effects. Не е Starter — това е Clawsourcing case. Needs: vision analysis, design tools integration, creative workflow."
+            },
+            {
+              "time": "19:37",
+              "text": "🔧 docx skill направен ПРОАКТИВЕН. Ново правило: \"output за човек → .docx, output за система → .md\". Добавена Proactive Trigger Rules секция + incident log. AGENTS.md обновен. Trigger: Крис забеляза че provisioning план беше .md вместо .docx."
             }
           ]
         },
