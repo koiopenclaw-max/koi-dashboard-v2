@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T13:05:03.329Z",
-  "serverUptime": 1396158,
+  "timestamp": "2026-03-25T13:10:03.123Z",
+  "serverUptime": 1396458,
   "loadAvg": [
-    "0.03",
-    "0.08",
-    "0.09"
+    "0.05",
+    "0.07",
+    "0.08"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 20886,
+      "ageSec": 21186,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 74995,
+      "ageSec": 75295,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T11:28:17.497Z",
-      "ageSec": 5805,
+      "ageSec": 6105,
       "tokens": 147738,
       "lastAction": "Записано в AGENTS.md — ще го чета при всяко стартиране.",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 59875,
-      "tokens": 70884,
-      "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T13:09:24.947Z",
+      "ageSec": 38,
+      "tokens": 31276,
+      "lastAction": "Давай, тествай! Чакам feedback. 🐟",
       "hasProcess": false,
       "hasSession": true
     },
@@ -159,10 +159,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
