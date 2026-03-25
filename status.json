@@ -15,7 +15,7 @@
       "lastUpdate": "2026-03-25T15:38:19.823Z",
       "ageSec": 7303,
       "tokens": 75773,
-      "lastAction": "⚡ cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'\n- ",
+      "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
       "hasSession": true
     },
