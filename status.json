@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T13:15:02.686Z",
-  "serverUptime": 1396758,
+  "timestamp": "2026-03-25T13:19:34.114Z",
+  "serverUptime": 1397029,
   "loadAvg": [
-    "0.10",
-    "0.13",
-    "0.10"
+    "0.17",
+    "0.16",
+    "0.11"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 21485,
+      "ageSec": 21757,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 75595,
+      "ageSec": 75866,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T11:28:17.497Z",
-      "ageSec": 6405,
+      "ageSec": 6676,
       "tokens": 147738,
       "lastAction": "Записано в AGENTS.md — ще го чета при всяко стартиране.",
       "hasProcess": false,
@@ -132,10 +132,10 @@
       "name": "OpenClaw Service",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:15:01.129Z",
-      "ageSec": 1,
-      "tokens": 31276,
-      "lastAction": "⚡ cd /home/clawd/Projects/clawai-portal && grep -n \"profile-pending\\|sho",
+      "lastUpdate": "2026-03-25T13:18:56.732Z",
+      "ageSec": 37,
+      "tokens": 45570,
+      "lastAction": "Намерих проблема. Ето какво се случи:  1. Ти плати с `koinov@infocall.bg` 2. `verify-session` те логна автоматично (създ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,7 +152,38 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2138779",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "01:18",
+      "elapsedSec": 78,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-build-финкомекс-одитинг-оод\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2138781",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "01:18",
+      "elapsedSec": 78,
+      "cmd": "node /home/clawd/.npm-global/bin/codex exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2138789",
+      "cpu": "1.9",
+      "mem": "1.6",
+      "elapsed": "01:18",
+      "elapsedSec": 78,
+      "cmd": "/home/clawd/.npm-global/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex/codex exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
