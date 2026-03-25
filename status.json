@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T17:39:36.309Z",
-  "serverUptime": 1412631,
+  "timestamp": "2026-03-25T17:40:03.644Z",
+  "serverUptime": 1412659,
   "loadAvg": [
-    "0.30",
-    "0.36",
-    "0.36"
+    "0.46",
+    "0.39",
+    "0.37"
   ],
   "topics": [
     {
@@ -13,9 +13,9 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 7276,
+      "ageSec": 7303,
       "tokens": 75773,
-      "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
+      "lastAction": "⚡ cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 91468,
+      "ageSec": 91496,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 7106,
+      "ageSec": 7133,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "working",
       "statusLabel": "🔵 Working",
       "lastUpdate": "2026-03-25T17:39:22.845Z",
-      "ageSec": 13,
+      "ageSec": 40,
       "tokens": 89763,
       "lastAction": "Честен отговор — има gap в автоматизацията.  **Какво се случи:** - ✅ Telegram нотификация дойде (виждаш я) - ❌ Email до",
       "hasProcess": false,
