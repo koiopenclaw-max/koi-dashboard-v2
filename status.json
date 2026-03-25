@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T13:35:03.772Z",
-  "serverUptime": 1397959,
+  "timestamp": "2026-03-25T13:38:02.927Z",
+  "serverUptime": 1398138,
   "loadAvg": [
-    "0.16",
-    "0.38",
-    "0.28"
+    "0.26",
+    "0.36",
+    "0.29"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:34:57.680Z",
-      "ageSec": 6,
+      "lastUpdate": "2026-03-25T13:37:33.241Z",
+      "ageSec": 29,
       "tokens": 89338,
-      "lastAction": "📖 security-checklist.md",
+      "lastAction": "⚡ # Debug - the script is hanging or erroring silently on pipefail. Let ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 76796,
+      "ageSec": 76975,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T13:34:17.462Z",
-      "ageSec": 46,
-      "tokens": 149678,
-      "lastAction": "Ясно. Причината:  **Ревизиите (`revisions`) се рутират към Koi, не към worker-а.** Погледни в `demo-sites-processor.js`:",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T13:37:40.434Z",
+      "ageSec": 22,
+      "tokens": 151304,
+      "lastAction": "Ето го казусът:  **Заявка:** \"Преработи на тема Modern Edge + извади логото от оригиналния сайт\"  Това **НЕ е CSS fix**",
       "hasProcess": false,
       "hasSession": true
     },
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T13:22:09.414Z",
-      "ageSec": 774,
-      "tokens": 46686,
-      "lastAction": "✏️ verify-session.js",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T13:38:02.564Z",
+      "ageSec": 0,
+      "tokens": 51150,
+      "lastAction": "⚡ source /home/clawd/.env.supabase\n# Verify clean\ncurl -s \"https://mtxyi",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,28 +152,17 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2144943",
-      "cpu": "40.0",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 3,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 9,
     "stuck": 0
   }
 }
