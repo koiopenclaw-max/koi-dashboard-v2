@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T08:10:04.281Z",
-  "serverUptime": 1378459,
+  "timestamp": "2026-03-25T08:14:34.134Z",
+  "serverUptime": 1378729,
   "loadAvg": [
-    "0.14",
     "0.20",
-    "0.25"
+    "0.21",
+    "0.24"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 3187,
+      "ageSec": 3457,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 57296,
+      "ageSec": 57566,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T08:07:49.908Z",
-      "ageSec": 134,
-      "tokens": 94799,
-      "lastAction": "Крис, сега вече мога да потвърдя с проверка — **проблемът е решен**.  На 390px мобилен: - ✅ Заглавието се побира, wrap-в",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T08:14:03.594Z",
+      "ageSec": 30,
+      "tokens": 97295,
+      "lastAction": "⏳ poll amber-crest",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 42176,
+      "ageSec": 42446,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -159,9 +159,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
