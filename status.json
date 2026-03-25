@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T17:59:35.261Z",
-  "serverUptime": 1413830,
+  "timestamp": "2026-03-25T18:00:04.305Z",
+  "serverUptime": 1413859,
   "loadAvg": [
-    "0.44",
-    "0.53",
-    "0.44"
+    "0.96",
+    "0.63",
+    "0.47"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 8475,
+      "ageSec": 8504,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 92667,
+      "ageSec": 92696,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 8305,
+      "ageSec": 8334,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-25T17:58:00.762Z",
-      "ageSec": 94,
+      "ageSec": 123,
       "tokens": 125404,
       "lastAction": "Прав си, мой пропуск. Когато има план, доклад, или друг професионален документ — винаги .docx, не Markdown в чата.  Изпр",
       "hasProcess": false,
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2245659",
+      "cpu": "37.5",
+      "mem": "0.9",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
