@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-25T20:25:02.759Z",
-  "serverUptime": 1422558,
+  "timestamp": "2026-03-25T20:29:35.879Z",
+  "serverUptime": 1422831,
   "loadAvg": [
-    "0.14",
-    "0.21",
+    "0.34",
+    "0.25",
     "0.23"
   ],
   "topics": [
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T20:24:24.388Z",
-      "ageSec": 38,
-      "tokens": 0,
-      "lastAction": "⚡ cat ~/skills/frontend-design/references/",
+      "lastUpdate": "2026-03-25T20:29:33.982Z",
+      "ageSec": 1,
+      "tokens": 31567,
+      "lastAction": "⚡ ls -la /tmp/dental-test-* /tmp/demo-test-* [server-path]",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 101395,
+      "ageSec": 101668,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 17032,
+      "ageSec": 17305,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2299909",
-      "cpu": "80.0",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
