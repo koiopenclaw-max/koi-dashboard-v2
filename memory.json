@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-25T17:50:03.663Z",
+  "updated": "2026-03-25T17:55:03.842Z",
   "totalDays": 20,
-  "totalEntries": 480,
+  "totalEntries": 481,
   "days": [
     {
       "date": "2026-03-25",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "17:55",
+          "text": "📋 ClawAI Phase 6 Provisioning Plan написан. Пълен план: `knowledge/projects/clawai-provisioning-plan.md`. Включва: DO droplet setup, OpenClaw install, workspace файлове (SOUL/AGENTS/USER/IDENTITY/HEARTBEAT/TOOLS), канал setup, мониторинг, security, cost structure, автоматизация roadmap (semi → full → zero-touch).",
+          "type": "alert"
+        },
         {
           "time": "15:35",
           "text": "🚀 OpenClaw ъпдейт: 2026.3.13 → 2026.3.23-2. npm install + gateway restart. Всичко работи, cache 100% hit, Codex credentials auto-synced. Custom skills и cron jobs непроменени.",
@@ -218,7 +223,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 29
+      "entryCount": 30
     },
     {
       "date": "2026-03-24",
