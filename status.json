@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T19:49:35.081Z",
-  "serverUptime": 1420430,
+  "timestamp": "2026-03-25T19:50:03.613Z",
+  "serverUptime": 1420459,
   "loadAvg": [
-    "0.10",
-    "0.13",
-    "0.15"
+    "0.07",
+    "0.12",
+    "0.14"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "working",
       "statusLabel": "🔵 Working",
       "lastUpdate": "2026-03-25T19:49:34.239Z",
-      "ageSec": 0,
+      "ageSec": 29,
       "tokens": 102180,
       "lastAction": "✏️ index.html",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 99267,
+      "ageSec": 99296,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 14905,
+      "ageSec": 14933,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2285899",
+      "cpu": "70.0",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
