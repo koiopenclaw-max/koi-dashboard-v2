@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-25T15:35:03.524Z",
+  "updated": "2026-03-25T15:40:04.124Z",
   "totalDays": 20,
-  "totalEntries": 479,
+  "totalEntries": 480,
   "days": [
     {
       "date": "2026-03-25",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "15:35",
+          "text": "🚀 OpenClaw ъпдейт: 2026.3.13 → 2026.3.23-2. npm install + gateway restart. Всичко работи, cache 100% hit, Codex credentials auto-synced. Custom skills и cron jobs непроменени.",
+          "type": "build"
+        },
         {
           "time": "15:30",
           "text": "✅ Onboarding automation deployed: - `verify-session.js` — вече създава customer chain като fallback (ако webhook закъснее) - `onboarding-complete.js` — нов Vercel endpoint: Telegram нотификация при завършен onboarding - Portal `wizard.js` — вика endpoint-а при финализация - `scripts/onboarding-email.js` — confirmation email template (български, dark luxury тема) - CSS fixes: dropdown readability, radio card selected state (✓ badge), textarea placeholder - HEARTBEAT updated с onboarding trigger processing",
@@ -213,7 +218,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 28
+      "entryCount": 29
     },
     {
       "date": "2026-03-24",
