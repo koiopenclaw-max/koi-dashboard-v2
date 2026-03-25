@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:35:03.424Z",
-  "serverUptime": 1376359,
+  "timestamp": "2026-03-25T07:40:04.581Z",
+  "serverUptime": 1376660,
   "loadAvg": [
-    "0.30",
-    "0.33",
-    "0.27"
+    "0.09",
+    "0.19",
+    "0.23"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 1086,
+      "ageSec": 1387,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 55195,
+      "ageSec": 55497,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T07:24:12.682Z",
-      "ageSec": 650,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T07:39:56.968Z",
+      "ageSec": 7,
       "tokens": 57799,
-      "lastAction": "Готово. Сега работи така:  1. **Отваряш проекта** в платформата 2. **Правиш screenshot** на проблема (Print Screen / ⌘+S",
+      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites && python3 -c \"\nimport json\nwith op",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 40075,
+      "ageSec": 40376,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,17 +152,28 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2018440",
+      "cpu": "68.4",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
