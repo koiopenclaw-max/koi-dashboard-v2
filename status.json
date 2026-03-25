@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T16:15:03.355Z",
-  "serverUptime": 1407558,
+  "timestamp": "2026-03-25T16:20:02.599Z",
+  "serverUptime": 1407858,
   "loadAvg": [
-    "0.10",
-    "0.11",
-    "0.14"
+    "0.83",
+    "0.24",
+    "0.15"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 2203,
+      "ageSec": 2502,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 86395,
+      "ageSec": 86695,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 2033,
+      "ageSec": 2332,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:51:54.582Z",
-      "ageSec": 1388,
+      "ageSec": 1688,
       "tokens": 76759,
       "lastAction": "Чисто. `k***@infocall.bg` изтрит навсякъде. Тествай. 🐟",
       "hasProcess": false,
