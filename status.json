@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-03-25T14:45:02.934Z",
-  "serverUptime": 1402158,
+  "timestamp": "2026-03-25T14:49:38.090Z",
+  "serverUptime": 1402433,
   "loadAvg": [
-    "0.46",
-    "0.34",
-    "0.35"
+    "0.26",
+    "0.29",
+    "0.33"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-25T14:40:18.054Z",
-      "ageSec": 284,
-      "tokens": 52356,
-      "lastAction": "⚡ cd /tmp/koi-dashboard-v2 && node -e \"\nconst d = JSON.parse(require('fs",
-      "hasProcess": false,
+      "status": "building",
+      "statusLabel": "🔨 Building",
+      "lastUpdate": "2026-03-25T14:49:36.175Z",
+      "ageSec": 1,
+      "tokens": 55521,
+      "lastAction": "⚡ npx playwright screenshot --browser chromium --wait-for-timeout 5000 \"",
+      "hasProcess": true,
       "hasSession": true
     },
     {
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 80995,
+      "ageSec": 81270,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 1040,
+      "ageSec": 1315,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 4014,
+      "ageSec": 4289,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
@@ -154,13 +154,13 @@
   ],
   "processes": [
     {
-      "pid": "2173025",
-      "cpu": "33.3",
-      "mem": "0.7",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
+      "pid": "2174778",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:01",
+      "elapsedSec": 1,
+      "cmd": "/bin/bash -c npx playwright screenshot --browser chromium --wait-for-timeout 5000 \"https://koiopenclaw-max.github.io/koi-dashboard-v2/#memory\" /home/c",
+      "relatedTopic": "1",
       "procType": "build"
     }
   ],
@@ -171,9 +171,9 @@
   "summary": {
     "totalTopics": 12,
     "working": 0,
-    "building": 0,
+    "building": 1,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
