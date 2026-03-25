@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-03-25T14:40:03.519Z",
-  "serverUptime": 1401859,
+  "timestamp": "2026-03-25T14:45:02.934Z",
+  "serverUptime": 1402158,
   "loadAvg": [
-    "0.09",
-    "0.24",
-    "0.33"
+    "0.46",
+    "0.34",
+    "0.35"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T14:39:54.814Z",
-      "ageSec": 8,
-      "tokens": 51785,
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T14:40:18.054Z",
+      "ageSec": 284,
+      "tokens": 52356,
       "lastAction": "⚡ cd /tmp/koi-dashboard-v2 && node -e \"\nconst d = JSON.parse(require('fs",
       "hasProcess": false,
       "hasSession": true
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 80696,
+      "ageSec": 80995,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 741,
+      "ageSec": 1040,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 3715,
+      "ageSec": 4014,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
@@ -154,9 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "2170951",
+      "pid": "2173025",
       "cpu": "33.3",
-      "mem": "0.8",
+      "mem": "0.7",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
@@ -170,10 +170,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
