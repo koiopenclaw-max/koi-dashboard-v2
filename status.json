@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:30:02.906Z",
-  "serverUptime": 1383258,
+  "timestamp": "2026-03-25T09:34:34.562Z",
+  "serverUptime": 1383530,
   "loadAvg": [
-    "1.31",
-    "0.39",
-    "0.23"
+    "0.54",
+    "0.44",
+    "0.28"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 7985,
+      "ageSec": 8257,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 62095,
+      "ageSec": 62367,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T09:29:59.809Z",
-      "ageSec": 3,
+      "lastUpdate": "2026-03-25T09:34:29.811Z",
+      "ageSec": 4,
       "tokens": 24942,
-      "lastAction": "⚡ # Kill the zombie worker\nkill 1667199 2>/dev/null && echo \"Killed old ",
+      "lastAction": "🔧 image",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 46974,
+      "ageSec": 47246,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2061140",
-      "cpu": "16.6",
-      "mem": "0.7",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
