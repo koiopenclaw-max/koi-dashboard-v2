@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T11:25:04.094Z",
+  "updated": "2026-03-25T11:30:04.867Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -121,6 +121,10 @@
             {
               "time": "07:48",
               "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
+            },
+            {
+              "time": "11:26",
+              "text": "🎓 Урок: Card sizing → measure-first, не generic CSS. Измери текста в пиксели, сметни min-width, запиши числото. Записано в knowledge/areas/demo-sites.md."
             }
           ]
         },
@@ -2183,6 +2187,10 @@
             {
               "time": "09:30",
               "text": "🔧 Fix: убит зомби worker процес (PID 1667199 от Mar24) който правеше `git reset --hard`. gitPull() пренаписана → `git fetch + merge`. Worker работи стабилно."
+            },
+            {
+              "time": "11:24",
+              "text": "✅ Fix на hero-stat карти на всички 7 страници: hero-copy 100%, title 1.2rem, grid 3×1fr."
             }
           ]
         },
