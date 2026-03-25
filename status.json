@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T20:30:03.681Z",
-  "serverUptime": 1422859,
+  "timestamp": "2026-03-25T20:34:35.944Z",
+  "serverUptime": 1423131,
   "loadAvg": [
-    "0.28",
-    "0.25",
-    "0.23"
+    "0.09",
+    "0.17",
+    "0.20"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T20:29:53.294Z",
-      "ageSec": 10,
+      "lastUpdate": "2026-03-25T20:34:17.997Z",
+      "ageSec": 17,
       "tokens": 31567,
-      "lastAction": "⚡ # Check the two test results exist and are accessible\nls -la /tmp/skil",
+      "lastAction": "⏳ poll tidy-nudibranch",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 101696,
+      "ageSec": 101968,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 17333,
+      "ageSec": 17606,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,7 +152,28 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2302583",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:23",
+      "elapsedSec": 143,
+      "cmd": "node [server-path] --full-auto exec Read PROMPT.md and follow ALL instructions in it. Build the index.html file as specified. When",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2302591",
+      "cpu": "3.1",
+      "mem": "1.6",
+      "elapsed": "02:23",
+      "elapsedSec": 143,
+      "cmd": "[server-path] --full-auto e",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
