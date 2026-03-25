@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T08:45:03.651Z",
-  "serverUptime": 1380559,
+  "timestamp": "2026-03-25T08:50:03.588Z",
+  "serverUptime": 1380859,
   "loadAvg": [
-    "0.12",
-    "0.09",
-    "0.11"
+    "0.08",
+    "0.11",
+    "0.10"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 5286,
+      "ageSec": 5586,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 59396,
+      "ageSec": 59696,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T08:42:39.256Z",
-      "ageSec": 144,
-      "tokens": 119708,
-      "lastAction": "Разбрах текущата архитектура. Ето конкретното предложение:  ---  **Как работи СЕГА:**  ``` Крис натиска \"Корекция\" в пла",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T08:49:50.560Z",
+      "ageSec": 13,
+      "tokens": 121194,
+      "lastAction": "⚡ cd /home/clawd/.openclaw/workspace/scripts\n\npython3 << 'PYEOF'\nwith op",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 44275,
+      "ageSec": 44575,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -154,8 +154,8 @@
   ],
   "processes": [
     {
-      "pid": "2043201",
-      "cpu": "50.0",
+      "pid": "2044928",
+      "cpu": "66.6",
       "mem": "1.1",
       "elapsed": "00:00",
       "elapsedSec": 0,
@@ -170,9 +170,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
