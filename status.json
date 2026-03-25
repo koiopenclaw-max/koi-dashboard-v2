@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T19:14:35.019Z",
-  "serverUptime": 1418330,
+  "timestamp": "2026-03-25T19:15:03.497Z",
+  "serverUptime": 1418359,
   "loadAvg": [
-    "0.10",
-    "0.19",
-    "0.23"
+    "0.38",
+    "0.24",
+    "0.25"
   ],
   "topics": [
     {
@@ -13,9 +13,9 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 12975,
+      "ageSec": 13003,
       "tokens": 75773,
-      "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
+      "lastAction": "⚡ cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 97167,
+      "ageSec": 97195,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 12805,
+      "ageSec": 12833,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
