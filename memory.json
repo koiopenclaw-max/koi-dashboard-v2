@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T14:55:02.922Z",
+  "updated": "2026-03-25T14:55:32.105Z",
   "totalDays": 20,
   "totalEntries": 478,
   "days": [
@@ -197,8 +197,14 @@
       "decisions": [
         "Auto-extract topic 1 (150788 tokens, id:1-1774448463):** [2026-03-25T14:00:12] User: искам да ми направиш и още един пример с последния документ генериран в опен клоу топика, мо; [2026-03-25T14:05:37] User: да одобрявам този скил, подобри го и започваме да го ползваме; [2026-03-25T14:18:18] User: да одобрявам този скил, подобри го и започваме да го ползваме; [2026-03-25T14:01:45] Това е клиентският план — доста обемен. Сега ще го пресъздам по workflow-а на новия skill:; [2026-03-25T14:03:04] Изпратих ти двата. Ето разликите на реалния документ:  ## Phase 5b план — OLD vs NEW  | Аспект | O; [2026-03-25T14:18:37] Готово — skill-ът вече е записан и активен. Ето финалното състояние:  ``` docx/ ├── SKILL.md      ; [2026-03-25T14:07:02] write: xml-editing-guide.md; [2026-03-25T14:07:09] exec: # Verify final structure",
         "✅ Ревизия 3 за Адвокатска кантора Богданови и Маринов завършена. Проблем: мобилното меню и layout. Решение: хамбургер меню + responsive CSS за всички 7 страници. Валидирано с Playwright. Статус: review. Нотифициран topic 49.",
+        "🔧 Адвокатска кантора Богданови и Маринов: фикснат мобилен хамбургер меню на всички страници + премахнати junk файлове от Codex (feed.html, xmlrpc.php.html и др.)",
         "📝 Урок: Python open('w') с кирилски пътища създава нов inode → git не вижда промени. Решение: subprocess.run(['sed', '-i', ...]) или subprocess.run(['rm', ...]) вместо os.remove/open('w')",
-        "✅ Крис одобри новия docx skill (docx-processing). Rebuilt: 501→88 реда main, 2 reference файла. 5-стъпков workflow с pre-flight checklist. Демонстрирани 2 сравнения (proposal OLD vs NEW, Phase 5b OLD vs NEW). Активен от сега."
+        "- 13:19 🏗️ Demo Sites: Финкомекс Одитинг ООД — status `building`. Scraped all pages from fincomex.eu (about, services x4, contacts, experience). Spawned Codex to build single-page demo site with b-corporate style (navy+gold). Accounting/audit niche.",
+        "- **06:33-13:35 UTC** — 🔍 Пълен Skill Audit с Крис (topic 1):",
+        "- **Премахнати 4 skills:** theme-factory (0 ползвания), web-artifacts-builder (0 ползвания, claude.ai-specific), token-optimizer (0 ползвания), skill-creator (дубликат на built-in)",
+        "- **agent-security REBUILT:** 373→153 реда, пасивен bible→активен guardrail. Нов description (trigger при git push/email/deploy). Нов scripts/scan-secrets.sh (тестван). Нов references/email-rules.md (от knowledge/areas/email-policy.md). URL safety rules (нов gap). Документирани реални инциденти.",
+        "✅ Крис одобри новия docx skill (docx-processing). Rebuilt: 501→88 реда main, 2 reference файла. 5-стъпков workflow с pre-flight checklist. Демонстрирани 2 сравнения (proposal OLD vs NEW, Phase 5b OLD vs NEW). Активен от сега.",
+        "- **Skill audit summary (целия ден):** agent-security rebuilt (9/10), docx rebuilt (4→8/10), 4 skills премахнати, workspace PII cleanup, scan-secrets.sh създаден и тестван."
       ],
       "hasReview": false,
       "reviewSummary": null,
@@ -849,7 +855,9 @@
         }
       ],
       "insights": [],
-      "decisions": [],
+      "decisions": [
+        "- [[knowledge/areas/security-audit-2026-03-20]]"
+      ],
       "hasReview": true,
       "reviewSummary": null,
       "entryCount": 0
@@ -1213,7 +1221,10 @@
         "- **12:55** — Решение: обединяваме ClawAI + Clawsourcing в една платформа, два продукта",
         "- **13:10** — Крис одобри: Starter €28, Business €68, Premium €125, Clawsourcing €550",
         "- **13:59** — Решение: само Starter + Clawsourcing + Skill Store (без Business/Premium)",
-        "- **14:34** — ✅ DB Migration v4 FINAL изпълнена в Supabase! 17 таблици, 2 плана, 6 skills (после изтрити по решение на Крис), RLS + индекси. Supabase CLI linked с access token от `.supabase-token`."
+        "- **14:34** — ✅ DB Migration v4 FINAL изпълнена в Supabase! 17 таблици, 2 плана, 6 skills (после изтрити по решение на Крис), RLS + индекси. Supabase CLI linked с access token от `.supabase-token`.",
+        "- **21:10** 🔴 SECURITY AUDIT завършен — пълен credential incident analysis:",
+        "- Доклад: knowledge/areas/security-audit-2026-03-20.md",
+        "- `knowledge/areas/security-audit-2026-03-20.md` — full audit (written during session)"
       ],
       "hasReview": true,
       "reviewSummary": [
@@ -1515,7 +1526,8 @@
       ],
       "insights": [],
       "decisions": [
-        "РЕШЕНИЕ: Task Queue + Worker (pm2). Worker е постоянен процес, poll-ва на 30 сек, изпълнява задачи независимо от Koi. pm2: demo-worker. Queue: scripts/demo-queue.json. Dashboard: queue.html."
+        "РЕШЕНИЕ: Task Queue + Worker (pm2). Worker е постоянен процес, poll-ва на 30 сек, изпълнява задачи независимо от Koi. pm2: demo-worker. Queue: scripts/demo-queue.json. Dashboard: queue.html.",
+        "АКТИВИ КОНСУЛТ ревизия #6: overlay покриваше целия екран → бутоните некликаеми. Fix: overlay покрива само лявата част (извън slide-in панела), премахнати touchend handlers, линкове с smooth scroll. Status → review. Commit: 46efe60"
       ],
       "hasReview": true,
       "reviewSummary": [
@@ -1767,7 +1779,8 @@
       "insights": [],
       "decisions": [
         "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис",
-        "- [ ] OpenClaw as a Service — решение за бизнес модел"
+        "- [ ] OpenClaw as a Service — решение за бизнес модел",
+        "Обработена корекция за Узунова: лого 50% по-голямо в навбар, текст \"Узунова\" премахнат, hero секция с Пловдив панорама от Wikimedia Commons. Deploy + status → review."
       ],
       "hasReview": false,
       "reviewSummary": null,
@@ -2598,7 +2611,10 @@
         "- Решение: LIVE sync и за Garmin, и за Apple Watch (задължително)",
         "- [ ] OpenClaw as a Service — решение за бизнес модел",
         "- [ ] Google Search residential proxy — Mac Mini решение",
+        "Пак същата грешка с новия build. Fix: expo-device downgrade + expo-notifications премахнат (commit `cddcee8`).",
+        "Нов опит: expo-dev-client напълно премахнат (commit `a5e360f`). Build: `1e7b45ee`.",
         "✅ **Решение от Крис за Phase 4 workflow:** Koi прави UI prototype на Activities екраните ПЪРВО → Крис одобрява → ПОСЛЕ Codex кодира по одобрения дизайн. Същият процес като Phase 2-3.",
+        "- Финален fix: Clean SDK 55 upgrade + `.npmrc` + премахнат `notification` от app.json.",
         "- Решение за Phase 4: UI prototype ПЪРВО → одобрение → Codex кодира.",
         "- Garmin LIVE sync решение добавено."
       ],
@@ -2995,12 +3011,13 @@
         "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
         "- [ ] OpenClaw as a Service — решение за бизнес модел (chatbot platform vs OaaS?)",
         "- [ ] Google Search residential proxy — Mac Mini решение",
+        "- **19:19-19:22 UTC** — 🐛 **expo-notifications fix:** Крис получаваше грешка \"expo-notifications not found\" при зареждане на Expo Go URL. Причина: Cloud Functions deploy-ът добави expo-notifications като dependency. Fix: премахнат от package.json + node_modules, проверен целия codebase (0 imports), чист кеш, нов Expo tunnel URL генериран. Commit: \"fix: remove ALL expo-notifications references\". Нов URL пратен на Крис за тест.",
         "- ✅ Крис взе решение → запиши ВЕДНАГА",
         "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп.",
         "По-добро решение: `openclaw system event` в Codex prompt-а. Codex изпълнява командата при завършване → OpenClaw event → Koi се събужда веднага (секунди). Watchdog + heartbeat остават като backup. AGENTS.md обновен.",
+        "⚠️ SECURITY: GitGuardian засече GitHub token в koi-dashboard HTML. Токенът премахнат от HTML, push-нат fix. **НУЖНО: ротация на GitHub token от Крис!** Текущият е compromised.",
         "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени.",
-        "Крис одобри план Фаза 2. Codex spawn-нат, но Крис спря: \"Codex не е дизайнер, Koi прави дизайна.\"",
-        "Крис одобри дизайн v3 (стъпки top-left, BG/EN only, опростени снимки)."
+        "Крис одобри план Фаза 2. Codex spawn-нат, но Крис спря: \"Codex не е дизайнер, Koi прави дизайна.\""
       ],
       "hasReview": true,
       "reviewSummary": [
@@ -3899,7 +3916,9 @@
         "17:55 — PM2 инсталиран, gateway под PM2 supervision",
         "17:59 — Преместване на чата в Koi workspace група"
       ],
-      "decisions": [],
+      "decisions": [
+        "- 14:44 — Крис: \"пазарът е готов за нов дигитален продукт\" — идея за productize на audit системата"
+      ],
       "hasReview": true,
       "reviewSummary": null,
       "entryCount": 0
