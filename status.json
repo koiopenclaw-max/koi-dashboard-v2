@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:45:02.575Z",
-  "serverUptime": 1376958,
+  "timestamp": "2026-03-25T07:49:35.902Z",
+  "serverUptime": 1377231,
   "loadAvg": [
-    "0.29",
-    "0.42",
-    "0.33"
+    "0.38",
+    "0.35",
+    "0.32"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 1685,
+      "ageSec": 1958,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 55795,
+      "ageSec": 56068,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T07:43:24.671Z",
-      "ageSec": 97,
-      "tokens": 66893,
-      "lastAction": "Ясно! Ето картината:  **Проблемът е РЕШЕН, но само в новите файлове.** Старите файлове все още стоят и те показват пробл",
+      "lastUpdate": "2026-03-25T07:46:44.547Z",
+      "ageSec": 171,
+      "tokens": 70373,
+      "lastAction": "Готово. Сега ако някой отвори старите линкове — автоматично се пренасочва към поправените страници.  **Резюме:** Корекци",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 40674,
+      "ageSec": 40947,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2020460",
-      "cpu": "33.3",
-      "mem": "0.7",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
