@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T10:05:02.575Z",
-  "serverUptime": 1385358,
+  "timestamp": "2026-03-25T10:09:35.224Z",
+  "serverUptime": 1385630,
   "loadAvg": [
-    "0.41",
-    "0.27",
-    "0.21"
+    "0.38",
+    "0.31",
+    "0.23"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 10085,
+      "ageSec": 10358,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 64195,
+      "ageSec": 64467,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T10:00:54.075Z",
-      "ageSec": 248,
+      "ageSec": 521,
       "tokens": 105367,
       "lastAction": "Вече е готово — push-нах преди малко. Чакай ~60 сек за GitHub Pages deploy и виж:  🔗 https://koiopenclaw-max.github.io/d",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 49074,
+      "ageSec": 49347,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2073934",
-      "cpu": "50.0",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
