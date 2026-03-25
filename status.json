@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T17:55:03.764Z",
-  "serverUptime": 1413559,
+  "timestamp": "2026-03-25T17:59:35.261Z",
+  "serverUptime": 1413830,
   "loadAvg": [
-    "1.12",
-    "0.52",
-    "0.41"
+    "0.44",
+    "0.53",
+    "0.44"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:38:19.823Z",
-      "ageSec": 8203,
+      "ageSec": 8475,
       "tokens": 75773,
       "lastAction": "⚡ cat >> ~/daily/2026-03-25.md << 'EOF'\n- ",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 92396,
+      "ageSec": 92667,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 8033,
+      "ageSec": 8305,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T17:54:37.093Z",
-      "ageSec": 26,
-      "tokens": 110816,
-      "lastAction": "📖 clawai-provisioning-plan.md",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T17:58:00.762Z",
+      "ageSec": 94,
+      "tokens": 125404,
+      "lastAction": "Прав си, мой пропуск. Когато има план, доклад, или друг професионален документ — винаги .docx, не Markdown в чата.  Изпр",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,27 +152,16 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2243816",
-      "cpu": "35.7",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
