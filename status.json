@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T13:31:33.977Z",
-  "serverUptime": 1397749,
+  "timestamp": "2026-03-25T13:35:03.772Z",
+  "serverUptime": 1397959,
   "loadAvg": [
-    "0.46",
-    "0.44",
-    "0.27"
+    "0.16",
+    "0.38",
+    "0.28"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:31:30.492Z",
-      "ageSec": 3,
-      "tokens": 83933,
-      "lastAction": "⚡ # Fix: redact status.json and push\ncd /tmp/koi-dashboard-v2 && NODE_PA",
+      "lastUpdate": "2026-03-25T13:34:57.680Z",
+      "ageSec": 6,
+      "tokens": 89338,
+      "lastAction": "📖 security-checklist.md",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 76586,
+      "ageSec": 76796,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T13:30:55.981Z",
-      "ageSec": 37,
-      "tokens": 148557,
-      "lastAction": "Финкомекс Одитинг ООД пусна ревизия от платформата: - **Искане:** Смяна на темата на сайта → \"Modern Edge\" + извличане н",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-25T13:34:17.462Z",
+      "ageSec": 46,
+      "tokens": 149678,
+      "lastAction": "Ясно. Причината:  **Ревизиите (`revisions`) се рутират към Koi, не към worker-а.** Погледни в `demo-sites-processor.js`:",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:22:09.414Z",
-      "ageSec": 564,
+      "ageSec": 774,
       "tokens": 46686,
       "lastAction": "✏️ verify-session.js",
       "hasProcess": false,
@@ -152,16 +152,27 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2144943",
+      "cpu": "40.0",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 2,
+    "working": 1,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 10,
     "stuck": 0
   }
