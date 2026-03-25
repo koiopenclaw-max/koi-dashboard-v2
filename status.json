@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T00:10:03.321Z",
-  "serverUptime": 1349658,
+  "timestamp": "2026-03-25T00:15:03.201Z",
+  "serverUptime": 1349958,
   "loadAvg": [
-    "0.13",
-    "0.14",
-    "0.10"
+    "0.07",
+    "0.11",
+    "0.09"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T15:04:07.738Z",
-      "ageSec": 32755,
+      "ageSec": 33055,
       "tokens": 39008,
       "lastAction": "Готово! Обобщение:  **Направено сега:** - ✅ Gateway рестартиран — **1.7 GB RAM освободени** - ✅ Cron: всяка нощ в **04:0",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 28495,
+      "ageSec": 28795,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T19:06:24.153Z",
-      "ageSec": 18219,
+      "ageSec": 18519,
       "tokens": 100672,
       "lastAction": "v5 baseline flow работи — 7 отделни страници + baseline запазен. Визията navy+gold. Чакаме Крис да прегледа.",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 13375,
+      "ageSec": 13675,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1860949",
+      "cpu": "64.2",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '/home/clawd/.openclaw/workspace/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
