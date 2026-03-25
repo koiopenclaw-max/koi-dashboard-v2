@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:59:34.229Z",
-  "serverUptime": 1385029,
+  "timestamp": "2026-03-25T10:00:04.802Z",
+  "serverUptime": 1385060,
   "loadAvg": [
-    "0.46",
-    "0.30",
-    "0.22"
+    "0.28",
+    "0.27",
+    "0.21"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 9757,
+      "ageSec": 9787,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 63866,
+      "ageSec": 63897,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T09:59:31.643Z",
+      "lastUpdate": "2026-03-25T10:00:02.365Z",
       "ageSec": 2,
-      "tokens": 92763,
-      "lastAction": "🔧 image",
+      "tokens": 102651,
+      "lastAction": "✅ **Готово, Крис!**  **Ревизия #5** за Богданови и Маринов — push-ната: - 📦 Card/box sizing — по-голям padding, text wra",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 48746,
+      "ageSec": 48776,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
