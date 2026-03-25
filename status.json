@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T09:34:34.562Z",
-  "serverUptime": 1383530,
+  "timestamp": "2026-03-25T09:35:02.786Z",
+  "serverUptime": 1383558,
   "loadAvg": [
-    "0.54",
-    "0.44",
-    "0.28"
+    "0.97",
+    "0.53",
+    "0.31"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 8257,
+      "ageSec": 8285,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 62367,
+      "ageSec": 62395,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "working",
       "statusLabel": "🔵 Working",
       "lastUpdate": "2026-03-25T09:34:29.811Z",
-      "ageSec": 4,
+      "ageSec": 32,
       "tokens": 24942,
       "lastAction": "🔧 image",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 47246,
+      "ageSec": 47274,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
