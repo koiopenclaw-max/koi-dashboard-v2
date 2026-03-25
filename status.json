@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T07:55:02.423Z",
-  "serverUptime": 1377558,
+  "timestamp": "2026-03-25T08:00:03.495Z",
+  "serverUptime": 1377859,
   "loadAvg": [
-    "0.14",
-    "0.44",
-    "0.39"
+    "0.04",
+    "0.19",
+    "0.29"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T07:16:56.973Z",
-      "ageSec": 2285,
+      "ageSec": 2586,
       "tokens": 83933,
       "lastAction": "Много важен въпрос. Нека бъда честен за реалния attack surface.  ## Какво се случва реално когато \"кликна\" линк  Аз няма",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 56394,
+      "ageSec": 56695,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -96,10 +96,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T07:54:52.036Z",
-      "ageSec": 10,
-      "tokens": 72720,
-      "lastAction": "⚡ cd /home/clawd/Projects/demo-sites/demos/адвокатска-кантора-богданови-",
+      "lastUpdate": "2026-03-25T07:59:58.054Z",
+      "ageSec": 5,
+      "tokens": 83659,
+      "lastAction": "Сега е наистина поправено. Проверих визуално:  ✅ **Защита** — текстът се побира чисто ✅ **Обжалване** — без overflow ✅ *",
       "hasProcess": false,
       "hasSession": true
     },
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T20:27:08.101Z",
-      "ageSec": 41274,
+      "ageSec": 41575,
       "tokens": 70884,
       "lastAction": "Deploy-ът е минал ✅ — HTML-ът няма input поле за API ключ, JS-ът няма нито един reference. Кеш е при теб. Пробвай: `http",
       "hasProcess": false,
