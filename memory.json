@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-25T15:20:03.153Z",
+  "updated": "2026-03-25T15:25:02.882Z",
   "totalDays": 20,
-  "totalEntries": 478,
+  "totalEntries": 479,
   "days": [
     {
       "date": "2026-03-25",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "15:30",
+          "text": "✅ Onboarding automation deployed: - `verify-session.js` — вече създава customer chain като fallback (ако webhook закъснее) - `onboarding-complete.js` — нов Vercel endpoint: Telegram нотификация при завършен onboarding - Portal `wizard.js` — вика endpoint-а при финализация - `scripts/onboarding-email.js` — confirmation email template (български, dark luxury тема) - CSS fixes: dropdown readability, radio card selected state (✓ badge), textarea placeholder - HEARTBEAT updated с onboarding trigger processing",
+          "type": "email"
+        },
         {
           "time": "14:21",
           "text": "Auto-extract topic 1 (150788 tokens, id:1-1774448463):** [2026-03-25T14:00:12] User: искам да ми направиш и още един пример с последния документ генериран в опен клоу топика, мо; [2026-03-25T14:05:37] User: да одобрявам този скил, подобри го и започваме да го ползваме; [2026-03-25T14:18:18] User: да одобрявам този скил, подобри го и започваме да го ползваме; [2026-03-25T14:01:45] Това е клиентският план — доста обемен. Сега ще го пресъздам по workflow-а на новия skill:; [2026-03-25T14:03:04] Изпратих ти двата. Ето разликите на реалния документ:  ## Phase 5b план — OLD vs NEW  | Аспект | O; [2026-03-25T14:18:37] Готово — skill-ът вече е записан и активен. Ето финалното състояние:  ``` docx/ ├── SKILL.md      ; [2026-03-25T14:07:02] write: xml-editing-guide.md; [2026-03-25T14:07:09] exec: # Verify final structure",
@@ -208,7 +213,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 27
+      "entryCount": 28
     },
     {
       "date": "2026-03-24",
