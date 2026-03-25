@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-25T09:05:04.318Z",
+  "updated": "2026-03-25T09:10:04.634Z",
   "totalProjects": 6,
   "active": 3,
   "projects": [
@@ -114,6 +114,10 @@
         {
           "date": "2026-03-25",
           "entries": [
+            {
+              "time": "09:08",
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+            },
             {
               "time": "07:48",
               "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
@@ -646,6 +650,10 @@
         {
           "date": "2026-03-25",
           "entries": [
+            {
+              "time": "09:08",
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+            },
             {
               "time": "07:48",
               "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
@@ -2119,6 +2127,10 @@
         {
           "date": "2026-03-25",
           "entries": [
+            {
+              "time": "09:08",
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+            },
             {
               "time": "09:02",
               "text": "🔔 Codex приключи. Koi ревюира."
