@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-25T15:15:35.979Z",
-  "serverUptime": 1403991,
+  "timestamp": "2026-03-25T15:20:02.837Z",
+  "serverUptime": 1404258,
   "loadAvg": [
-    "0.26",
-    "0.23",
-    "0.27"
+    "0.08",
+    "0.13",
+    "0.21"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T15:15:35.160Z",
-      "ageSec": 0,
-      "tokens": 67297,
-      "lastAction": "⚡ ~/scripts/memory-sync.sh 2>&1 | tail -5",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-25T15:16:08.620Z",
+      "ageSec": 234,
+      "tokens": 69989,
+      "lastAction": "Сега вече:  - **#5** — 🔍 Пълен Skill Audit - **#6** — Премахнати 4 skills - **#7** — **agent-security REBUILT** ← ето го",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 82828,
+      "ageSec": 83095,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 2873,
+      "ageSec": 3140,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -130,12 +130,12 @@
     {
       "topicId": "718",
       "name": "OpenClaw Service",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-25T15:14:34.180Z",
-      "ageSec": 61,
-      "tokens": 62522,
-      "lastAction": "Pushed. ~60 сек за deploy. Три фикса:  1. **Dropdown \"Сфера\"** — тъмен фон + бял текст на опциите (вече се четат) 2. **К",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-25T15:19:36.035Z",
+      "ageSec": 26,
+      "tokens": 61537,
+      "lastAction": "Ето какво се случва когато натиснеш \"Финализирай\" на стъпка 6:  1. **В Supabase:**    - Project статус → `pending_provis",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2185339",
-      "cpu": "150",
-      "mem": "0.8",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
@@ -172,8 +161,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
