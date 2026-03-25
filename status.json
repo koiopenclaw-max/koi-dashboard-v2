@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-25T14:35:03.773Z",
-  "serverUptime": 1401559,
+  "timestamp": "2026-03-25T14:40:03.519Z",
+  "serverUptime": 1401859,
   "loadAvg": [
-    "0.29",
-    "0.38",
-    "0.40"
+    "0.09",
+    "0.24",
+    "0.33"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-25T14:34:47.623Z",
-      "ageSec": 16,
-      "tokens": 50040,
-      "lastAction": "Pages кешира — показва 14:29, но remote вече е на 14:34. Ще догони.  **Корекция (финална):** Всеки от 3-те sync скрипта",
+      "lastUpdate": "2026-03-25T14:39:54.814Z",
+      "ageSec": 8,
+      "tokens": 51785,
+      "lastAction": "⚡ cd /tmp/koi-dashboard-v2 && node -e \"\nconst d = JSON.parse(require('fs",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 80396,
+      "ageSec": 80696,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T14:27:42.231Z",
-      "ageSec": 441,
+      "ageSec": 741,
       "tokens": 57062,
       "lastAction": "Крис, ето реалната картина:  **Тест 1 (Opus):** Сесия създадена, но API call timeout след 10 мин — вероятно concurrency",
       "hasProcess": false,
@@ -133,7 +133,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T13:38:08.288Z",
-      "ageSec": 3415,
+      "ageSec": 3715,
       "tokens": 53488,
       "lastAction": "Чисто. `k***@infocall.bg` — изтрит навсякъде (auth user, customer, subscription, payment, project, activity log).  Тес",
       "hasProcess": false,
@@ -152,7 +152,18 @@
       "hasSession": false
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2170951",
+      "cpu": "33.3",
+      "mem": "0.8",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
