@@ -151,7 +151,7 @@
             },
             {
               "time": "09:08",
-              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd /home/clawd/Projects/demo-sites; python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
             },
             {
               "time": "07:48",
@@ -176,7 +176,7 @@
           "entries": [
             {
               "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-24.md << 'EOF'"
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
             },
             {
               "time": "17:02",
@@ -229,19 +229,7 @@
           "entries": [
             {
               "time": "17:28",
-              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=$(cat /home/clawd/.openclaw/workspace/.secrets/github-token | tr -d '"
-            },
-            {
-              "time": "15:18",
-              "text": "🔧 Имплементирах `scripts/demo-visual-analyzer.js`"
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
-            },
-            {
-              "time": "16:30",
-              "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
+              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted], 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
             },
             {
               "time": "16:55",
@@ -312,7 +300,7 @@
             },
             {
               "time": "14:12",
-              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: .secrets/demo-proxy-password. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
+              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: [secrets-path]. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
             },
             {
               "time": "14:25",
@@ -357,11 +345,7 @@
             },
             {
               "time": "15:46",
-              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=$(cat /home/clawd/.openclaw/workspace/.secrets/github-token | tr -d '"
-            },
-            {
-              "time": "15:02",
-              "text": "Auto-extract topic 49 (154893 tokens, id:49-1773759723):** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
+              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
             },
             {
               "time": "03:05",
@@ -438,7 +422,7 @@
             },
             {
               "time": "19:56",
-              "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `/home/clawd/Projects/accounting-templates-codex-alt/`. ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images."
+              "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `[server-path] ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images."
             },
             {
               "time": "16:48",
@@ -539,7 +523,7 @@
           "entries": [
             {
               "time": "19:35",
-              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp /home/clawd/.openclaw/workspace/tmp/runai-prototyp"
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
             },
             {
               "time": "20:15",
@@ -715,15 +699,15 @@
           "entries": [
             {
               "time": "20:19",
-              "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md /home/clawd/.openclaw; [2026-03-25T20:12:57] exec: openclaw message send --media /home/clawd/.openclaw/workspace/NEW-PROMPT.md --ta"
+              "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md [server-path] [2026-03-25T20:12:57] exec: openclaw message send --media ~/NEW-PROMPT.md --ta"
             },
             {
               "time": "19:11",
-              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'; - **19:06 U"
+              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
             },
             {
               "time": "09:08",
-              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd /home/clawd/Projects/demo-sites; python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
             },
             {
               "time": "07:48",
@@ -744,7 +728,7 @@
           "entries": [
             {
               "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-24.md << 'EOF'"
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
             },
             {
               "time": "17:00",
@@ -764,7 +748,7 @@
             },
             {
               "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: /home/clawd/Projects/clawai-stripe."
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
             },
             {
               "time": "16:15",
@@ -772,7 +756,7 @@
             },
             {
               "time": "16:28",
-              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в .secrets/stripe-keys и Vercel env."
+              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
             },
             {
               "time": "17:20",
@@ -797,11 +781,7 @@
           "entries": [
             {
               "time": "17:28",
-              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=$(cat /home/clawd/.openclaw/workspace/.secrets/github-token | tr -d '"
-            },
-            {
-              "time": "14:10",
-              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
             },
             {
               "time": "16:30",
@@ -838,7 +818,7 @@
           "entries": [
             {
               "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
             },
             {
               "time": "15:33",
@@ -854,7 +834,7 @@
             },
             {
               "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: 0878680556, план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
             },
             {
               "time": "16:42",
@@ -904,11 +884,7 @@
             },
             {
               "time": "15:46",
-              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=$(cat /home/clawd/.openclaw/workspace/.secrets/github-token | tr -d '"
-            },
-            {
-              "time": "15:02",
-              "text": "Auto-extract topic 49 (154893 tokens, id:49-1773759723):** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
+              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
             },
             {
               "time": "16:22",
@@ -954,7 +930,7 @@
           "entries": [
             {
               "time": "20:27",
-              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd /home/clawd/Projects/momerly && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
+              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
             },
             {
               "time": "18:10",
@@ -979,7 +955,7 @@
             },
             {
               "time": "19:35",
-              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp /home/clawd/.openclaw/workspace/tmp/runai-prototyp"
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
             },
             {
               "time": "20:15",
@@ -1130,7 +1106,7 @@
           "entries": [
             {
               "time": "19:11",
-              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'; - **19:06 U"
+              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
             },
             {
               "time": "08:30",
@@ -1155,7 +1131,7 @@
           "entries": [
             {
               "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-24.md << 'EOF'"
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
             },
             {
               "time": "17:18",
@@ -1171,7 +1147,7 @@
             },
             {
               "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: /home/clawd/Projects/clawai-stripe."
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
             },
             {
               "time": "16:15",
@@ -1245,7 +1221,7 @@
           "entries": [
             {
               "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
             },
             {
               "time": "15:33",
@@ -1261,7 +1237,7 @@
             },
             {
               "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: 0878680556, план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
             },
             {
               "time": "16:42",
@@ -1329,7 +1305,7 @@
             },
             {
               "time": "19:35",
-              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp /home/clawd/.openclaw/workspace/tmp/runai-prototyp"
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
             },
             {
               "time": "16:51",
@@ -1394,7 +1370,7 @@
             },
             {
               "time": "08:34",
-              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `.secrets/firebase-config.json`."
+              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `[secrets-path].json`."
             },
             {
               "time": "10:38",
@@ -1465,7 +1441,7 @@
           "entries": [
             {
               "time": "19:11",
-              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'; - **19:06 U"
+              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
             },
             {
               "time": "17:55",
@@ -1490,7 +1466,7 @@
           "entries": [
             {
               "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-24.md << 'EOF'"
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
             },
             {
               "time": "17:00",
@@ -1502,7 +1478,7 @@
             },
             {
               "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: /home/clawd/Projects/clawai-stripe."
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
             },
             {
               "time": "16:15",
@@ -1548,7 +1524,7 @@
             },
             {
               "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: 0878680556, план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
             },
             {
               "time": "16:42",
@@ -1725,7 +1701,7 @@
           "entries": [
             {
               "time": "20:27",
-              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd /home/clawd/Projects/momerly && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
+              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
             },
             {
               "time": "13:15",
@@ -1835,11 +1811,11 @@
             },
             {
               "time": "08:27",
-              "text": "Firebase CLI login успешен! Token записан в `.secrets/firebase-token.txt`. Проект: `momerly-ba95a` (Project Number: 376384939207)."
+              "text": "Firebase CLI login успешен! Token записан в `[secrets-path].txt`. Проект: `momerly-ba95a` (Project Number: 376384939207)."
             },
             {
               "time": "08:34",
-              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `.secrets/firebase-config.json`."
+              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `[secrets-path].json`."
             },
             {
               "time": "08:36",
@@ -1917,7 +1893,7 @@
             },
             {
               "time": "22:00",
-              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в /home/clawd/projects/zdravko-landing/. Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
+              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
             }
           ]
         }
@@ -2000,7 +1976,7 @@
           "entries": [
             {
               "time": "19:11",
-              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'; - **19:06 U"
+              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
             },
             {
               "time": "08:30",
@@ -2025,7 +2001,7 @@
           "entries": [
             {
               "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-24.md << 'EOF'"
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
             },
             {
               "time": "17:18",
@@ -2041,7 +2017,7 @@
             },
             {
               "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: /home/clawd/Projects/clawai-stripe."
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
             },
             {
               "time": "16:15",
@@ -2115,7 +2091,7 @@
           "entries": [
             {
               "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
             },
             {
               "time": "15:33",
@@ -2131,7 +2107,7 @@
             },
             {
               "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: 0878680556, план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
+              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
             },
             {
               "time": "16:42",
@@ -2199,7 +2175,7 @@
             },
             {
               "time": "19:35",
-              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp /home/clawd/.openclaw/workspace/tmp/runai-prototyp"
+              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
             },
             {
               "time": "16:51",
@@ -2256,7 +2232,7 @@
             },
             {
               "time": "08:34",
-              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `.secrets/firebase-config.json`."
+              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `[secrets-path].json`."
             },
             {
               "time": "10:38",
@@ -2388,7 +2364,7 @@
             },
             {
               "time": "20:19",
-              "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md /home/clawd/.openclaw; [2026-03-25T20:12:57] exec: openclaw message send --media /home/clawd/.openclaw/workspace/NEW-PROMPT.md --ta"
+              "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md [server-path] [2026-03-25T20:12:57] exec: openclaw message send --media ~/NEW-PROMPT.md --ta"
             },
             {
               "time": "20:10",
@@ -2400,7 +2376,7 @@
             },
             {
               "time": "19:11",
-              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-25.md << 'EOF'; - **19:06 U"
+              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
             },
             {
               "time": "14:21",
@@ -2424,7 +2400,7 @@
             },
             {
               "time": "09:08",
-              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd /home/clawd/Projects/demo-sites; python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
             },
             {
               "time": "09:02",
@@ -2493,7 +2469,7 @@
           "entries": [
             {
               "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-24.md << 'EOF'"
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
             },
             {
               "time": "18:53",
@@ -2617,11 +2593,11 @@
             },
             {
               "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: /home/clawd/Projects/clawai-stripe."
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
             },
             {
               "time": "16:28",
-              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в .secrets/stripe-keys и Vercel env."
+              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
             },
             {
               "time": "15:53",
@@ -2710,11 +2686,7 @@
             },
             {
               "time": "17:28",
-              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=$(cat /home/clawd/.openclaw/workspace/.secrets/github-token | tr -d '"
-            },
-            {
-              "time": "14:10",
-              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
+              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
             },
             {
               "time": "15:35",
@@ -2743,7 +2715,7 @@
             },
             {
               "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> /home/clawd/.openclaw/workspace/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
+              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
             },
             {
               "time": "15:33",
@@ -2845,7 +2817,7 @@
             },
             {
               "time": "14:12",
-              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: .secrets/demo-proxy-password. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
+              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: [secrets-path]. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
             },
             {
               "time": "14:18",
@@ -2902,11 +2874,7 @@
             },
             {
               "time": "15:46",
-              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=$(cat /home/clawd/.openclaw/workspace/.secrets/github-token | tr -d '"
-            },
-            {
-              "time": "15:02",
-              "text": "Auto-extract topic 49 (154893 tokens, id:49-1773759723):** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
+              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
             },
             {
               "time": "15:06",
@@ -2971,7 +2939,7 @@
             },
             {
               "time": "19:56",
-              "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `/home/clawd/Projects/accounting-templates-codex-alt/`. ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images."
+              "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `[server-path] ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images."
             },
             {
               "time": "19:56",
@@ -3048,7 +3016,7 @@
           "entries": [
             {
               "time": "20:27",
-              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd /home/clawd/Projects/momerly && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
+              "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h"
             },
             {
               "time": "19:08",
