@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-26T14:45:03.211Z",
-  "serverUptime": 1488558,
+  "timestamp": "2026-03-26T14:50:03.459Z",
+  "serverUptime": 1488859,
   "loadAvg": [
-    "0.68",
-    "0.54",
-    "0.52"
+    "0.99",
+    "0.59",
+    "0.54"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T14:44:54.283Z",
-      "ageSec": 8,
-      "tokens": 48656,
-      "lastAction": "📖 SKILL.md",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-26T14:47:57.299Z",
+      "ageSec": 126,
+      "tokens": 91624,
+      "lastAction": "Пуснах Codex с пълния build spec. Ето какво прави:  **Нов copy (от brief v3):** - Hero: \"Наемете Първия Си AI Служител\"",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 167395,
+      "ageSec": 167695,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 22860,
+          "runningSec": 23160,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 22213,
+          "runningSec": 22513,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 20047,
+          "runningSec": 20347,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 6116,
+          "runningSec": 6416,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 4897,
+          "runningSec": 5197,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 2923,
+      "ageSec": 3224,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -200,16 +200,37 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2709984",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:21",
+      "elapsedSec": 141,
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and execute everything in it. This is a visual redesign of the ClawAI landing p",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2709992",
+      "cpu": "2.3",
+      "mem": "1.6",
+      "elapsed": "02:21",
+      "elapsedSec": 141,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
