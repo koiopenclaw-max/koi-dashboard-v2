@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T14:29:35.444Z",
-  "serverUptime": 1487631,
+  "timestamp": "2026-03-26T14:30:04.290Z",
+  "serverUptime": 1487659,
   "loadAvg": [
-    "0.30",
-    "0.55",
-    "0.52"
+    "1.02",
+    "0.68",
+    "0.56"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T14:28:58.892Z",
-      "ageSec": 36,
-      "tokens": 22280,
-      "lastAction": "Да, звучи като робот, не като реклама. Твърде сухо.  Може нещо по-близко до болката:  **БГ:** - Човек: `Научиш го — напу",
+      "lastUpdate": "2026-03-26T14:30:02.941Z",
+      "ageSec": 1,
+      "tokens": 22703,
+      "lastAction": "⚡ ls ~/knowledge/projects/*claw* 2>/dev/nu",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 166467,
+      "ageSec": 166496,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 21932,
+          "runningSec": 21961,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 21285,
+          "runningSec": 21314,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 19119,
+          "runningSec": 19148,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 5188,
+          "runningSec": 5217,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 3969,
+          "runningSec": 3998,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 1996,
+      "ageSec": 2024,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
