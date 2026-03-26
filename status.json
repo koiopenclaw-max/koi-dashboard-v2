@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T12:30:03.427Z",
-  "serverUptime": 1480459,
+  "timestamp": "2026-03-26T12:34:35.754Z",
+  "serverUptime": 1480731,
   "loadAvg": [
-    "0.02",
-    "0.13",
-    "0.15"
+    "0.16",
+    "0.14",
+    "0.14"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 13927,
+      "ageSec": 14199,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 159295,
+      "ageSec": 159568,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T09:21:10.535Z",
-      "ageSec": 11332,
+      "ageSec": 11605,
       "tokens": 106225,
       "lastAction": "[[reply_to_current]] Крис, всичко е тествано и оправено. Ето QA репорта и резултатите:  ## 🔍 Какво намерих (35 проблема)",
       "hasProcess": false,
@@ -114,21 +114,21 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 14760,
+          "runningSec": 15032,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 14113,
+          "runningSec": 14385,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 11947,
+          "runningSec": 12220,
           "startedAt": "2026-03-26T09:10:55.630Z"
         }
       ]
