@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T14:10:05.317Z",
+  "updated": "2026-03-26T14:15:04.850Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -116,6 +116,10 @@
         {
           "date": "2026-03-26",
           "entries": [
+            {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
             {
               "time": "13:49",
               "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/"
@@ -669,12 +673,20 @@
           "date": "2026-03-26",
           "entries": [
             {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
+            {
               "time": "13:49",
               "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/"
             },
             {
               "time": "07:34",
               "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
+            },
+            {
+              "time": "14:12",
+              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
             }
           ]
         },
@@ -1066,8 +1078,21 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 12,
+      "activityDays": 13,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
+            {
+              "time": "14:12",
+              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -1356,19 +1381,6 @@
               "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
             }
           ]
-        },
-        {
-          "date": "2026-03-12",
-          "entries": [
-            {
-              "time": "10:58",
-              "text": "УРОК: Write-on-Close — подсетен за ВТОРИ ПЪТ днес за daily notes sync. ТРЯБВА да записвам веднага, не после!"
-            },
-            {
-              "time": "13:37",
-              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
-            }
-          ]
         }
       ]
     },
@@ -1397,8 +1409,21 @@
         "обществени-поръчки",
         "строителство"
       ],
-      "activityDays": 4,
+      "activityDays": 5,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
+            {
+              "time": "14:12",
+              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -1915,8 +1940,21 @@
         "platform",
         "ai"
       ],
-      "activityDays": 12,
+      "activityDays": 13,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
+            {
+              "time": "14:12",
+              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -2197,19 +2235,6 @@
               "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
             }
           ]
-        },
-        {
-          "date": "2026-03-12",
-          "entries": [
-            {
-              "time": "10:58",
-              "text": "УРОК: Write-on-Close — подсетен за ВТОРИ ПЪТ днес за daily notes sync. ТРЯБВА да записвам веднага, не после!"
-            },
-            {
-              "time": "13:37",
-              "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително."
-            }
-          ]
         }
       ]
     },
@@ -2284,6 +2309,10 @@
         {
           "date": "2026-03-26",
           "entries": [
+            {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
             {
               "time": "13:49",
               "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/"
