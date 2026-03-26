@@ -1,8 +1,78 @@
 {
-  "updated": "2026-03-26T21:00:04.069Z",
-  "totalDays": 21,
+  "updated": "2026-03-26T21:05:03.599Z",
+  "totalDays": 22,
   "totalEntries": 512,
   "days": [
+    {
+      "date": "2026-03-27",
+      "dayName": "Петък",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning автоматизация (config generator готов, чака DO акаунт)"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 готови skills за листване (нулев cost, бърз start)"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела (research + \"$1M Plan\" изпратени)"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Admin Dashboard"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела (research + \"$1M Plan\" изпратени)"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
@@ -162,8 +232,16 @@
         "- **Пълен UX audit:** Playwright автоматизиран тест + visual review с image model на всяка секция × desktop + mobile",
         "- Скрейпнати: homepage, executive-personas, marketing-skills, productivity-skills, ops-skills, research-skills, content-skills, sales-skills, finance-skills, audit page"
       ],
-      "hasReview": false,
-      "reviewSummary": null,
+      "hasReview": true,
+      "reviewSummary": [
+        "Много продуктивен ден — 3 големи области напреднаха:",
+        "1. Frontend Design skill v2 АКТИВИРАН — 9 правила, 7 references, 16 assets (градски снимки + trust badges). Skill audit по Claude Best Practices: 8 skills проверени, descriptions фикснати, TOC добавен на 6 reference файла.",
+        "2. Demo Sites: Дограма и Врати — нова ниша с пълно проучване (САЩ/Европа/БГ), 5 темплейта с deep QA v2 (Playwright + visual), скорове 6.3-8.8. Добавена в TEMPLATE_CATALOG. Финкомекс Одитинг deployed to demo60.add.bg (live).",
+        "3. ClawAI: Стратегически ден — Landing v3 redesign live (нов hero, comparison table, clawsourcing, i18n). Config Generator готов (Supabase→7 файла). ClawMart deep research + Felix/Nat research. \"$1M Plan\" .docx изпратен.",
+        "Нови skills: Copywriting skill създаден (4 references, БГ бизнес фокус).",
+        "⚠️ Инцидент: Docx правило нарушено отново — репорт в topic 718 даден като Markdown вместо .docx. Правилото е ясно.",
+        "🔴 Credential rotation: ДЕН 6, утре е ДЕН 7. Критичен праг."
+      ],
       "entryCount": 19
     },
     {
