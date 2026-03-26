@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T23:35:03.725Z",
-  "serverUptime": 1520359,
+  "timestamp": "2026-03-26T23:39:34.998Z",
+  "serverUptime": 1520630,
   "loadAvg": [
-    "0.30",
-    "0.13",
-    "0.10"
+    "0.02",
+    "0.08",
+    "0.08"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T15:58:02.352Z",
-      "ageSec": 27421,
+      "ageSec": 27692,
       "tokens": 44854,
       "lastAction": "Сега имам пълна картина. Ето конкретния анализ:  [[reply_to_current]] Разгледах целия transcript в topic 718. Ето пробле",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 199196,
+      "ageSec": 199467,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 54660,
+          "runningSec": 54932,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 54013,
+          "runningSec": 54285,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 51848,
+          "runningSec": 52119,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 37916,
+          "runningSec": 38187,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 36697,
+          "runningSec": 36968,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 34724,
+      "ageSec": 34995,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T19:51:57.207Z",
-      "ageSec": 13386,
+      "ageSec": 13657,
       "tokens": 21074,
       "lastAction": "Крис, това е topic 718 (OpenClaw Service) — въпросът ти е за **topic 1648 (X Audience Challenges)**. Пиши там и ще го ра",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T20:06:34.345Z",
-      "ageSec": 12509,
+      "ageSec": 12780,
       "tokens": 55676,
       "lastAction": "Добре, осмислих всичко. Правя го по твоя начин — не новини, а **позиция + опит + мнение**. На английски. Задълбочено.  -",
       "hasProcess": false,
@@ -200,18 +200,7 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "2903147",
-      "cpu": "57.1",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
