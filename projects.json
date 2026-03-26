@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T15:50:04.210Z",
+  "updated": "2026-03-26T15:55:03.726Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -2348,6 +2348,10 @@
             {
               "time": "07:34",
               "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
+            },
+            {
+              "time": "15:53",
+              "text": "— НАРУШЕНИЕ: Docx правилото игнорирано (topic 718) — - Крис поиска \"анализ и репорт\" за Koi vs Mizu - Koi го даде като Markdown стена в чата вместо .docx - Правилото в AGENTS.md е ЯСНО: \"репорт\" = .docx от първия път - Docx skill има proactive trigger: \"Reports for Крис → .docx\" - Чак след напомняне беше генериран .docx"
             }
           ]
         },
