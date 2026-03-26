@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-26T13:39:36.013Z",
-  "serverUptime": 1484631,
+  "timestamp": "2026-03-26T13:40:04.015Z",
+  "serverUptime": 1484659,
   "loadAvg": [
-    "0.06",
-    "0.19",
+    "0.09",
+    "0.18",
     "0.22"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 18099,
+      "ageSec": 18127,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 163468,
+      "ageSec": 163496,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:32:22.052Z",
-      "ageSec": 433,
+      "ageSec": 461,
       "tokens": 143290,
       "lastAction": "[[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих:  **🔴 Критични бъгове",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 18933,
+          "runningSec": 18961,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 18286,
+          "runningSec": 18314,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 16120,
+          "runningSec": 16148,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2188,
+          "runningSec": 2216,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 969,
+          "runningSec": 997,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
