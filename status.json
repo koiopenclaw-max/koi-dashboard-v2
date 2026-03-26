@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T02:15:03.084Z",
-  "serverUptime": 1443558,
+  "timestamp": "2026-03-26T02:20:03.499Z",
+  "serverUptime": 1443859,
   "loadAvg": [
-    "0.04",
-    "0.06",
-    "0.09"
+    "0.30",
+    "0.14",
+    "0.10"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T20:44:40.730Z",
-      "ageSec": 19822,
+      "ageSec": 20122,
       "tokens": 72172,
       "lastAction": "Готово. Ще са живи след ~60 сек. Ето линковете:  **Тест A (стар skill):** https://koiopenclaw-max.github.io/demo-sites/d",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 122395,
+      "ageSec": 122695,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 38033,
+      "ageSec": 38333,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -154,9 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "2428550",
-      "cpu": "58.3",
-      "mem": "1.0",
+      "pid": "2430355",
+      "cpu": "55.5",
+      "mem": "1.1",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
