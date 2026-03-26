@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T13:30:03.735Z",
+  "updated": "2026-03-26T13:35:03.866Z",
   "totalDays": 21,
   "totalEntries": 500,
   "days": [
@@ -97,7 +97,8 @@
       "decisions": [
         "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md",
         "✅ **Frontend Design skill v2 АКТИВИРАН.** Крис одобри. SKILL-NEW.md → SKILL.md (старият → SKILL-OLD.md). Финален skill: 9 правила, 7 references, 16 assets (11 градски снимки + 5 trust лога/badges), award-level design system.",
-        "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅."
+        "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅.",
+        "- **Пълен UX audit:** Playwright автоматизиран тест + visual review с image model на всяка секция × desktop + mobile"
       ],
       "hasReview": false,
       "reviewSummary": null,
