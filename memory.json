@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-26T14:10:04.004Z",
+  "updated": "2026-03-26T14:15:04.226Z",
   "totalDays": 21,
-  "totalEntries": 501,
+  "totalEntries": 503,
   "days": [
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "14:12",
+          "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия: 1. **Hero headline:** \"Наемете първият си AI служител\" — одобрено като посока 2. **Pricing/offering секция:** Вдъхновение от shopclawmart.com/clawsourcing — \"Custom-Built AI Employees\" модел с 3-те опции (DIY / Managed / Clawsourcing) 3. Потвърждение (да) 4. Нещо да остане както е 5. **Target audience:** БГ ентусиасти + американци (там плащат повече) — двуезичен сайт е критичен",
+          "type": "default"
+        },
+        {
+          "time": "14:10",
+          "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/",
+          "type": "default"
+        },
         {
           "time": "13:49",
           "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/",
@@ -108,7 +118,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 8
+      "entryCount": 10
     },
     {
       "date": "2026-03-25",
