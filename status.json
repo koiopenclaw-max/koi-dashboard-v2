@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T08:45:03.562Z",
-  "serverUptime": 1466959,
+  "timestamp": "2026-03-26T08:50:03.795Z",
+  "serverUptime": 1467259,
   "loadAvg": [
-    "0.35",
-    "0.32",
-    "0.29"
+    "0.19",
+    "0.21",
+    "0.25"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 427,
+      "ageSec": 727,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 145796,
+      "ageSec": 146096,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -101,12 +101,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T08:44:36.026Z",
-      "ageSec": 27,
-      "tokens": 76997,
-      "lastAction": "🔧 image",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-26T08:46:10.144Z",
+      "ageSec": 233,
+      "tokens": 82750,
+      "lastAction": "[[reply_to_current]] Крис, готови са 5-те темплейта за **Дограма и Врати** 🪟  ## 📊 Проучване (база за дизайна): - **САЩ:",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,14 +114,14 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1260,
+          "runningSec": 1560,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 613,
+          "runningSec": 913,
           "startedAt": "2026-03-26T08:34:49.894Z"
         }
       ]
@@ -179,28 +179,17 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "2574672",
-      "cpu": "61.1",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
