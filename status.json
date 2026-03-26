@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T08:50:03.795Z",
-  "serverUptime": 1467259,
+  "timestamp": "2026-03-26T08:55:02.716Z",
+  "serverUptime": 1467558,
   "loadAvg": [
-    "0.19",
-    "0.21",
-    "0.25"
+    "0.13",
+    "0.15",
+    "0.20"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 727,
+      "ageSec": 1026,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 146096,
+      "ageSec": 146395,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:46:10.144Z",
-      "ageSec": 233,
+      "ageSec": 532,
       "tokens": 82750,
       "lastAction": "[[reply_to_current]] Крис, готови са 5-те темплейта за **Дограма и Врати** 🪟  ## 📊 Проучване (база за дизайна): - **САЩ:",
       "hasProcess": false,
@@ -114,14 +114,14 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1560,
+          "runningSec": 1859,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 913,
+          "runningSec": 1212,
           "startedAt": "2026-03-26T08:34:49.894Z"
         }
       ]
