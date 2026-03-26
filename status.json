@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T15:19:35.830Z",
-  "serverUptime": 1490631,
+  "timestamp": "2026-03-26T15:20:04.250Z",
+  "serverUptime": 1490659,
   "loadAvg": [
-    "0.20",
-    "0.46",
-    "0.53"
+    "1.06",
+    "0.62",
+    "0.58"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "recent",
       "statusLabel": "🟡 Recent",
       "lastUpdate": "2026-03-26T15:17:31.630Z",
-      "ageSec": 124,
+      "ageSec": 152,
       "tokens": 116310,
       "lastAction": "Прав си, извинявам се — трябваше аз да ти кажа по-рано, не ти да питаш.   Виждам проблема от снимките ти — първата е пра",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 169468,
+      "ageSec": 169496,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 24932,
+          "runningSec": 24961,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 24285,
+          "runningSec": 24314,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 22120,
+          "runningSec": 22148,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 8188,
+          "runningSec": 8217,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 6969,
+          "runningSec": 6998,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 4996,
+      "ageSec": 5024,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T15:11:23.859Z",
-      "ageSec": 491,
+      "ageSec": 520,
       "tokens": 50848,
       "lastAction": "[[reply_to_current]] Записано в `knowledge/resources/clawmart-research-2026-03-26.md` — пълен анализ с всички данни, пла",
       "hasProcess": false,

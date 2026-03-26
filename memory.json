@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-26T15:15:03.911Z",
+  "updated": "2026-03-26T15:20:04.193Z",
   "totalDays": 21,
-  "totalEntries": 506,
+  "totalEntries": 507,
   "days": [
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "15:20",
+          "text": "🚀 **ClawAI Landing Page v3 LIVE** — Пълен redesign по brief v3: - ✅ Нов hero: \"Наемете Първия Си AI Служител\" + нови trust badges - ✅ Нов copy за About (\"AI служител, не AI играчка\"), Steps (\"Три стъпки. Три дни.\") - ✅ НОВА секция #comparison: \"Математиката е безмилостна\" — Human vs AI таблица - ✅ НОВА секция #why-clawsourcing: \"Само единият наистина работи\" — DIY/Managed/Clawsourcing - ✅ 2 нови FAQ (Q8: Starter vs Clawsourcing, Q9: български език) - ✅ Scroll reveal animations (IntersectionObserver, additive-only, no-JS safe) - ✅ i18n обновен с ~50 нови translation keys (BG + EN) - ⚠️ Fix: opacity:0 правеше целия сайт невидим → преработено на additive animation - 📊 Visual QA: Desktop 9/10, Mobile 7.5/10 - URL: https://koiopenclaw-max.github.io/clawai/ - Commits: c9e77b0, 7c5def3, 2074dfb",
+          "type": "done"
+        },
         {
           "time": "15:10",
           "text": "— ClawMart Research записан (topic 718) — - Пълен анализ записан: `knowledge/resources/clawmart-research-2026-03-26.md` - Крис каза да го запазим за бъдеща работа - Топ findings: Sales категорията е пустиня, имаме 5-6 готови скила за листване, local business niche е непокрита",
@@ -134,7 +139,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 13
+      "entryCount": 14
     },
     {
       "date": "2026-03-25",
