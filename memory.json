@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-26T19:20:03.859Z",
+  "updated": "2026-03-26T19:25:03.686Z",
   "totalDays": 21,
-  "totalEntries": 509,
+  "totalEntries": 510,
   "days": [
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "19:25",
+          "text": "— \"$1M Plan\" документ (topic 718) — - Крис попита: ако бях сам, какъв бизнес бих направил за $1M - Генериран .docx с 5 секции: inventory, 3 revenue streams, timeline, honest assessment - 3 потока: ClawMart skills (passive), ClawAI service (recurring), Demo Sites (project-based) - Проекция: $410K-970K за 24 месеца, $1M реалистично при international expansion - Най-бърз start: package-вам 5 skills за ClawMart УТРЕ (нулев cost, immediate listing)",
+          "type": "default"
+        },
         {
           "time": "15:53",
           "text": "— НАРУШЕНИЕ: Docx правилото игнорирано (topic 718) — - Крис поиска \"анализ и репорт\" за Koi vs Mizu - Koi го даде като Markdown стена в чата вместо .docx - Правилото в AGENTS.md е ЯСНО: \"репорт\" = .docx от първия път - Docx skill има proactive trigger: \"Reports for Крис → .docx\" - Чак след напомняне беше генериран .docx - **Урок:** Проверявай docx trigger rules ПРЕДИ да отговаряш на \"анализ/репорт/план/документ\"",
@@ -149,7 +154,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 16
+      "entryCount": 17
     },
     {
       "date": "2026-03-25",
