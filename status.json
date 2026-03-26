@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T04:04:35.059Z",
-  "serverUptime": 1450130,
+  "timestamp": "2026-03-26T04:05:03.287Z",
+  "serverUptime": 1450158,
   "loadAvg": [
-    "0.14",
-    "0.18",
-    "0.13"
+    "0.09",
+    "0.16",
+    "0.12"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T20:44:40.730Z",
-      "ageSec": 26394,
+      "ageSec": 26422,
       "tokens": 72172,
       "lastAction": "Готово. Ще са живи след ~60 сек. Ето линковете:  **Тест A (стар skill):** https://koiopenclaw-max.github.io/demo-sites/d",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 128967,
+      "ageSec": 128995,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 44605,
+      "ageSec": 44633,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
