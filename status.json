@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T13:25:04.226Z",
-  "serverUptime": 1483759,
+  "timestamp": "2026-03-26T13:29:34.884Z",
+  "serverUptime": 1484030,
   "loadAvg": [
-    "0.11",
-    "0.25",
-    "0.20"
+    "0.65",
+    "0.31",
+    "0.22"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 17228,
+      "ageSec": 17498,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 162596,
+      "ageSec": 162867,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -102,11 +102,11 @@
       "topicId": "49",
       "name": "Demo Sites",
       "status": "working",
-      "statusLabel": "🤖 Sub-agent (1)",
-      "lastUpdate": "2026-03-26T13:23:45.461Z",
-      "ageSec": 78,
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-26T13:29:29.339Z",
+      "ageSec": 5,
       "tokens": 136618,
-      "lastAction": "🔧 sessions_yield",
+      "lastAction": "⏳ poll tidal-valley",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,36 +114,36 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 18061,
+          "runningSec": 18332,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 17414,
+          "runningSec": 17684,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 15248,
+          "runningSec": 15519,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1317,
+          "runningSec": 1587,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
-          "status": "running",
-          "runningSec": 96,
-          "startedAt": "2026-03-26T13:23:27.622Z"
+          "status": "done",
+          "runningSec": 368,
+          "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
     },
@@ -200,7 +200,18 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2680520",
+      "cpu": "20.3",
+      "mem": "2.4",
+      "elapsed": "00:20",
+      "elapsedSec": 20,
+      "cmd": "[server-path] --disable-field-trial-config --disab",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
