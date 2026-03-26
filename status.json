@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-26T08:30:03.741Z",
-  "serverUptime": 1466059,
+  "timestamp": "2026-03-26T08:34:35.025Z",
+  "serverUptime": 1466330,
   "loadAvg": [
-    "0.41",
-    "0.28",
-    "0.35"
+    "0.20",
+    "0.19",
+    "0.29"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-26T08:21:26.215Z",
-      "ageSec": 517,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-26T08:34:12.882Z",
+      "ageSec": 22,
       "tokens": 24685,
-      "lastAction": "[[reply_to_current]] Намерих го — stale `.git/index.lock` файл блокираше push-а. Някой git процес е крашнал по-рано и е",
+      "lastAction": "",
       "hasProcess": false,
       "hasSession": true
     },
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 144896,
+      "ageSec": 145167,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,12 +94,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-26T08:24:17.981Z",
-      "ageSec": 345,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-26T08:34:11.901Z",
+      "ageSec": 23,
       "tokens": 74894,
-      "lastAction": "🔧 sessions_yield",
+      "lastAction": "⚡ find [server-path] -name \"i",
       "hasProcess": false,
       "hasSession": true
     },
@@ -152,28 +152,17 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2568508",
-      "cpu": "33.3",
-      "mem": "0.8",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 2,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 10,
     "stuck": 0
   }
 }
