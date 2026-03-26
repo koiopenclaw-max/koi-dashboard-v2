@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T09:00:03.954Z",
-  "serverUptime": 1467859,
+  "timestamp": "2026-03-26T09:05:03.382Z",
+  "serverUptime": 1468158,
   "loadAvg": [
-    "0.54",
-    "0.28",
-    "0.23"
+    "0.25",
+    "0.18",
+    "0.19"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 1327,
+      "ageSec": 1627,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 146696,
+      "ageSec": 146995,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:46:10.144Z",
-      "ageSec": 833,
+      "ageSec": 1133,
       "tokens": 82750,
       "lastAction": "[[reply_to_current]] Крис, готови са 5-те темплейта за **Дограма и Врати** 🪟  ## 📊 Проучване (база за дизайна): - **САЩ:",
       "hasProcess": false,
@@ -114,14 +114,14 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2161,
+          "runningSec": 2460,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1514,
+          "runningSec": 1813,
           "startedAt": "2026-03-26T08:34:49.894Z"
         }
       ]
@@ -179,7 +179,18 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2581831",
+      "cpu": "50.0",
+      "mem": "0.8",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
