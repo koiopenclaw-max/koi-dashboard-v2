@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-26T04:20:03.326Z",
-  "serverUptime": 1451058,
+  "timestamp": "2026-03-26T04:24:34.565Z",
+  "serverUptime": 1451330,
   "loadAvg": [
+    "0.05",
     "0.10",
-    "0.14",
-    "0.11"
+    "0.09"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T04:18:44.716Z",
-      "ageSec": 78,
+      "ageSec": 349,
       "tokens": 46823,
       "lastAction": "Крис, разрових се. Ето какво виждам.  Имаме техническата база — палитри, типография, анимации, layout. Всичко е на място",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 129895,
+      "ageSec": 130167,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -97,7 +97,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-25T15:41:09.902Z",
-      "ageSec": 45533,
+      "ageSec": 45804,
       "tokens": 76764,
       "lastAction": "Крис, ситуацията е ясна:  **Какво стана с Финкомекс:** - Ревизията **Е направена** ✅ (commit от 15:29 UTC — логото е доб",
       "hasProcess": false,
@@ -152,18 +152,7 @@
       "hasSession": false
     }
   ],
-  "processes": [
-    {
-      "pid": "2473646",
-      "cpu": "57.1",
-      "mem": "1.1",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
@@ -172,8 +161,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 12,
     "stuck": 0
   }
 }
