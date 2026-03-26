@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T15:14:35.654Z",
-  "serverUptime": 1490331,
+  "timestamp": "2026-03-26T15:15:03.926Z",
+  "serverUptime": 1490359,
   "loadAvg": [
-    "0.18",
-    "0.57",
-    "0.57"
+    "0.67",
+    "0.63",
+    "0.59"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T15:14:19.335Z",
-      "ageSec": 16,
+      "lastUpdate": "2026-03-26T15:15:01.138Z",
+      "ageSec": 2,
       "tokens": 91624,
-      "lastAction": "🔧 image",
+      "lastAction": "⚡ NODE_PATH=$(npm root -g) node -e \"\nconst { chromium } = require('playw",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 169168,
+      "ageSec": 169196,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 24632,
+          "runningSec": 24661,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 23985,
+          "runningSec": 24014,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 21820,
+          "runningSec": 21848,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 7888,
+          "runningSec": 7916,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 6669,
+          "runningSec": 6697,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 4696,
+      "ageSec": 4724,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T15:11:23.859Z",
-      "ageSec": 191,
+      "ageSec": 220,
       "tokens": 50848,
       "lastAction": "[[reply_to_current]] Записано в `knowledge/resources/clawmart-research-2026-03-26.md` — пълен анализ с всички данни, пла",
       "hasProcess": false,
@@ -200,7 +200,18 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2721350",
+      "cpu": "61.5",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
