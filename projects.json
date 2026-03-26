@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T14:55:04.315Z",
+  "updated": "2026-03-26T15:00:05.623Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -2309,6 +2309,10 @@
         {
           "date": "2026-03-26",
           "entries": [
+            {
+              "time": "14:56",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
             {
               "time": "14:10",
               "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
