@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-26T10:00:04.153Z",
-  "serverUptime": 1471459,
+  "timestamp": "2026-03-26T10:05:03.560Z",
+  "serverUptime": 1471759,
   "loadAvg": [
-    "0.37",
+    "0.11",
     "0.19",
     "0.19"
   ],
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 4928,
+      "ageSec": 5227,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 150296,
+      "ageSec": 150596,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T09:21:10.535Z",
-      "ageSec": 2333,
+      "ageSec": 2633,
       "tokens": 106225,
       "lastAction": "[[reply_to_current]] Крис, всичко е тествано и оправено. Ето QA репорта и резултатите:  ## 🔍 Какво намерих (35 проблема)",
       "hasProcess": false,
@@ -114,21 +114,21 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 5761,
+          "runningSec": 6060,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 5114,
+          "runningSec": 5413,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2948,
+          "runningSec": 3247,
           "startedAt": "2026-03-26T09:10:55.630Z"
         }
       ]
@@ -186,7 +186,18 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2605161",
+      "cpu": "91.6",
+      "mem": "1.1",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
