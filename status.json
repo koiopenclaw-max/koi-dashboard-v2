@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T14:00:04.062Z",
-  "serverUptime": 1485859,
+  "timestamp": "2026-03-26T14:04:35.793Z",
+  "serverUptime": 1486131,
   "loadAvg": [
-    "0.72",
+    "0.46",
     "0.43",
-    "0.31"
+    "0.33"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T13:59:55.498Z",
-      "ageSec": 8,
-      "tokens": 104002,
-      "lastAction": "🔧 index.html",
+      "lastUpdate": "2026-03-26T14:04:19.486Z",
+      "ageSec": 16,
+      "tokens": 137036,
+      "lastAction": "[[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какво промених по рамки:",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 164696,
+      "ageSec": 164968,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 20161,
+          "runningSec": 20432,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 19514,
+          "runningSec": 19785,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 17348,
+          "runningSec": 17620,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 3416,
+          "runningSec": 3688,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2197,
+          "runningSec": 2469,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 224,
+      "ageSec": 496,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
