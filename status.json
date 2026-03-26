@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-03-26T08:40:04.120Z",
-  "serverUptime": 1466659,
+  "timestamp": "2026-03-26T08:44:35.026Z",
+  "serverUptime": 1466930,
   "loadAvg": [
-    "0.73",
-    "0.33",
-    "0.30"
+    "0.37",
+    "0.31",
+    "0.29"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 128,
+      "ageSec": 398,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 145496,
+      "ageSec": 145767,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -102,27 +102,27 @@
       "topicId": "49",
       "name": "Demo Sites",
       "status": "working",
-      "statusLabel": "🤖 Sub-agent (2)",
-      "lastUpdate": "2026-03-26T08:34:53.429Z",
-      "ageSec": 310,
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-26T08:44:30.566Z",
+      "ageSec": 4,
       "tokens": 76997,
-      "lastAction": "🔧 sessions_yield",
+      "lastAction": "⚡ cp /tmp/premium-dark.png /tmp/clean-industrial.png /tmp/warm-natural.p",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
         {
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
-          "status": "running",
-          "runningSec": 358,
-          "startedAt": "2026-03-26T08:34:06.107Z"
+          "status": "done",
+          "runningSec": 1232,
+          "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
-          "status": "running",
-          "runningSec": 313,
-          "startedAt": "2026-03-26T08:34:50.361Z"
+          "status": "done",
+          "runningSec": 585,
+          "startedAt": "2026-03-26T08:34:49.894Z"
         }
       ]
     },
@@ -188,8 +188,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
