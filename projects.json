@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T19:40:04.907Z",
+  "updated": "2026-03-26T19:45:04.986Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -2352,6 +2352,10 @@
             {
               "time": "15:53",
               "text": "— НАРУШЕНИЕ: Docx правилото игнорирано (topic 718) — - Крис поиска \"анализ и репорт\" за Koi vs Mizu - Koi го даде като Markdown стена в чата вместо .docx - Правилото в AGENTS.md е ЯСНО: \"репорт\" = .docx от първия път - Docx skill има proactive trigger: \"Reports for Крис → .docx\" - Чак след напомняне беше генериран .docx"
+            },
+            {
+              "time": "19:40",
+              "text": "— Felix/Nat Eliason Deep Research (topic 718) — - Крис поиска детайлно проучване на Felix Craft и Nat Eliason - Проучени: openclawdc.com, midastools.co, panewslab.com, felixcraft.ai, masinov.co, alearesearch.io (Bankless digest), evartology.substack - Ключови findings: Nat имаше 100K+ newsletter + 300K X followers ПРЕДИ Felix. Dan Kulkov направи същото = $0. Distribution > AI capability. - Felix first product: PDF $29 за една нощ → $41K. ClawMart дойде СЛЕД proof of demand. - Total: ~$195K за 5 седмици ($100K Stripe + $95K ETH)"
             }
           ]
         },
