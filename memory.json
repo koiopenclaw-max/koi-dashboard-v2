@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-26T13:45:03.130Z",
+  "updated": "2026-03-26T13:50:03.773Z",
   "totalDays": 21,
-  "totalEntries": 500,
+  "totalEntries": 501,
   "days": [
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "13:49",
+          "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/",
+          "type": "default"
+        },
         {
           "time": "08:19",
           "text": "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md",
@@ -95,6 +100,7 @@
       ],
       "insights": [],
       "decisions": [
+        "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/",
         "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md",
         "✅ **Frontend Design skill v2 АКТИВИРАН.** Крис одобри. SKILL-NEW.md → SKILL.md (старият → SKILL-OLD.md). Финален skill: 9 правила, 7 references, 16 assets (11 градски снимки + 5 trust лога/badges), award-level design system.",
         "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅.",
@@ -102,7 +108,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "date": "2026-03-25",
