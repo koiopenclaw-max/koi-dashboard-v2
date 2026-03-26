@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T09:20:03.442Z",
-  "serverUptime": 1469059,
+  "timestamp": "2026-03-26T09:24:35.502Z",
+  "serverUptime": 1469331,
   "loadAvg": [
-    "1.54",
-    "0.84",
-    "0.49"
+    "0.03",
+    "0.39",
+    "0.38"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 2527,
+      "ageSec": 2799,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 147895,
+      "ageSec": 148167,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -101,12 +101,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T09:19:47.202Z",
-      "ageSec": 16,
-      "tokens": 97730,
-      "lastAction": "🔧 image",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-03-26T09:21:10.535Z",
+      "ageSec": 204,
+      "tokens": 106225,
+      "lastAction": "[[reply_to_current]] Крис, всичко е тествано и оправено. Ето QA репорта и резултатите:  ## 🔍 Какво намерих (35 проблема)",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,21 +114,21 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 3360,
+          "runningSec": 3632,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2713,
+          "runningSec": 2985,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 547,
+          "runningSec": 819,
           "startedAt": "2026-03-26T09:10:55.630Z"
         }
       ]
@@ -186,28 +186,17 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "2588726",
-      "cpu": "0.0",
-      "mem": "0.4",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
