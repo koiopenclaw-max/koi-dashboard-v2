@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-26T13:45:03.360Z",
-  "serverUptime": 1484958,
+  "timestamp": "2026-03-26T13:49:35.708Z",
+  "serverUptime": 1485231,
   "loadAvg": [
-    "0.26",
-    "0.25",
-    "0.23"
+    "0.23",
+    "0.23",
+    "0.22"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 18427,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-26T13:49:21.161Z",
+      "ageSec": 14,
       "tokens": 68785,
-      "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
+      "lastAction": "📖 SKILL.md",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 163795,
+      "ageSec": 164068,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -101,12 +101,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T13:44:45.846Z",
-      "ageSec": 17,
-      "tokens": 143290,
-      "lastAction": "[[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих:  **🔴 Критични бъгове",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-26T13:47:32.080Z",
+      "ageSec": 123,
+      "tokens": 151242,
+      "lastAction": "[[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на платформата. Сега ког",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 19260,
+          "runningSec": 19532,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 18613,
+          "runningSec": 18885,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 16447,
+          "runningSec": 16720,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2516,
+          "runningSec": 2788,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1297,
+          "runningSec": 1569,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 0,
-    "idle": 11,
+    "recent": 1,
+    "idle": 10,
     "stuck": 0
   }
 }
