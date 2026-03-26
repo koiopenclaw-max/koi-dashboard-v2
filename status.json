@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T13:10:03.485Z",
-  "serverUptime": 1482859,
+  "timestamp": "2026-03-26T13:14:35.217Z",
+  "serverUptime": 1483130,
   "loadAvg": [
-    "0.13",
-    "0.12",
-    "0.13"
+    "0.04",
+    "0.08",
+    "0.10"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 16327,
+      "ageSec": 16599,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 161695,
+      "ageSec": 161967,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "working",
       "statusLabel": "🤖 Sub-agent (1)",
       "lastUpdate": "2026-03-26T13:03:33.391Z",
-      "ageSec": 390,
+      "ageSec": 661,
       "tokens": 126000,
       "lastAction": "🔧 sessions_yield",
       "hasProcess": false,
@@ -114,28 +114,28 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 17160,
+          "runningSec": 17432,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 16513,
+          "runningSec": 16785,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 14347,
+          "runningSec": 14619,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "running",
-          "runningSec": 414,
+          "runningSec": 686,
           "startedAt": "2026-03-26T13:03:08.886Z"
         }
       ]
