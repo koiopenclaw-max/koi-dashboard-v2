@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T08:25:03.170Z",
-  "serverUptime": 1465758,
+  "timestamp": "2026-03-26T08:30:03.741Z",
+  "serverUptime": 1466059,
   "loadAvg": [
-    "0.29",
-    "0.30",
-    "0.40"
+    "0.41",
+    "0.28",
+    "0.35"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:21:26.215Z",
-      "ageSec": 216,
+      "ageSec": 517,
       "tokens": 24685,
       "lastAction": "[[reply_to_current]] Намерих го — stale `.git/index.lock` файл блокираше push-а. Някой git процес е крашнал по-рано и е",
       "hasProcess": false,
@@ -85,7 +85,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 144595,
+      "ageSec": 144896,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -94,10 +94,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:24:17.981Z",
-      "ageSec": 45,
+      "ageSec": 345,
       "tokens": 74894,
       "lastAction": "🔧 sessions_yield",
       "hasProcess": false,
@@ -154,9 +154,9 @@
   ],
   "processes": [
     {
-      "pid": "2566697",
+      "pid": "2568508",
       "cpu": "33.3",
-      "mem": "0.7",
+      "mem": "0.8",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
@@ -172,8 +172,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 12,
     "stuck": 0
   }
 }
