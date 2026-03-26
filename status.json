@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T13:15:02.687Z",
-  "serverUptime": 1483158,
+  "timestamp": "2026-03-26T13:20:03.383Z",
+  "serverUptime": 1483458,
   "loadAvg": [
-    "0.59",
-    "0.19",
-    "0.14"
+    "0.24",
+    "0.25",
+    "0.18"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 16626,
+      "ageSec": 16927,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 161995,
+      "ageSec": 162295,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -103,10 +103,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🤖 Sub-agent (1)",
-      "lastUpdate": "2026-03-26T13:03:33.391Z",
-      "ageSec": 689,
+      "lastUpdate": "2026-03-26T13:19:09.915Z",
+      "ageSec": 53,
       "tokens": 126000,
-      "lastAction": "🔧 sessions_yield",
+      "lastAction": "⏳ poll brisk-canyon",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,29 +114,29 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 17459,
+          "runningSec": 17760,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 16812,
+          "runningSec": 17113,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 14647,
+          "runningSec": 14947,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "running",
-          "runningSec": 713,
-          "startedAt": "2026-03-26T13:03:08.886Z"
+          "runningSec": 114,
+          "startedAt": "2026-03-26T13:18:09.147Z"
         }
       ]
     },
