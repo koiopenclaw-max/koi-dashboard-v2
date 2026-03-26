@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T13:30:03.959Z",
-  "serverUptime": 1484059,
+  "timestamp": "2026-03-26T13:35:03.451Z",
+  "serverUptime": 1484359,
   "loadAvg": [
-    "0.76",
-    "0.38",
-    "0.25"
+    "0.20",
+    "0.31",
+    "0.26"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 17527,
+      "ageSec": 17827,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 162896,
+      "ageSec": 163195,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -101,12 +101,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T13:30:01.081Z",
-      "ageSec": 2,
-      "tokens": 136618,
-      "lastAction": "⚡ cd [server-path]",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-03-26T13:32:22.052Z",
+      "ageSec": 161,
+      "tokens": 143290,
+      "lastAction": "[[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих:  **🔴 Критични бъгове",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 18361,
+          "runningSec": 18660,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 17714,
+          "runningSec": 18013,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 15548,
+          "runningSec": 15847,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1616,
+          "runningSec": 1916,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 397,
+          "runningSec": 697,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -207,9 +207,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
