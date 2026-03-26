@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-26T04:45:04.279Z",
+  "updated": "2026-03-26T08:20:02.947Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -111,8 +111,29 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 13,
+      "activityDays": 14,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "08:19",
+              "text": "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md"
+            },
+            {
+              "time": "08:10",
+              "text": "📸 Създадена библиотека с градски снимки за demo sites: 11 снимки за 4 града (София 3, Пловдив 4, Варна 2, Бургас 2). Pexels + Pixabay, свободен лиценз. Организирани в `assets/cities/`. Нов reference `city-photos.md` с selection logic per city. Правило #9: локални снимки вместо generic stock. Одобрени от Крис."
+            },
+            {
+              "time": "08:15",
+              "text": "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅."
+            },
+            {
+              "time": "07:34",
+              "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -505,31 +526,6 @@
               "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
             }
           ]
-        },
-        {
-          "date": "2026-03-13",
-          "entries": [
-            {
-              "time": "13:54",
-              "text": "✅ **Phase 3 ревю завършено!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deploy-нати. Connections + Messaging + Chat + Block + Report + URL detection + i18n (17 нови ключа). Discovery feed, connection requests, conversations list, real-time chat screen. 130k Codex токена."
-            },
-            {
-              "time": "14:00",
-              "text": "✅ **Phase 3 ЗАВЪРШЕНА + ревюирана!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deployed. Детайли: connections service (send/accept/decline/block), messages service (send/report, URL detection, max 10 chats), discovery feed, requests list, my connections, chat screen (real-time), i18n (53 нови стринга BG+EN)."
-            },
-            {
-              "time": "08:13",
-              "text": "📧 Heartbeat: Firebase покана пристигнала на мейла. 5 непрочетени (Firebase collaborator invite, Google new account info, GitHub OAuth, Supabase welcome, demo-sites workflow failure). Нищо спешно."
-            },
-            {
-              "time": "09:00",
-              "text": "✅ **Firestore rules deploy-нати** в production (firebase deploy --only firestore:rules)."
-            },
-            {
-              "time": "09:18",
-              "text": "✅ Firebase Storage активиран от Крис, storage rules deploy-нати."
-            }
-          ]
         }
       ]
     },
@@ -663,8 +659,17 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 13,
+      "activityDays": 14,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "07:34",
+              "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -939,39 +944,6 @@
             {
               "time": "10:14",
               "text": "Крис реши: подготвяме Three-Tier Memory + HEARTBEAT + AGENTS за нов setup. Целта: topic OpenClaw Service (718) да е тестова площадка. Подготвяме файловете."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-13",
-          "entries": [
-            {
-              "time": "14:00",
-              "text": "✅ **Phase 3 ЗАВЪРШЕНА + ревюирана!** 2,395 реда, 24 файла, 0 TS грешки. Firestore rules deployed. Детайли: connections service (send/accept/decline/block), messages service (send/report, URL detection, max 10 chats), discovery feed, requests list, my connections, chat screen (real-time), i18n (53 нови стринга BG+EN)."
-            },
-            {
-              "time": "08:00",
-              "text": "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп."
-            },
-            {
-              "time": "08:09",
-              "text": "Крис създаде Firebase проект **momerly-ba95a** и даде Editor достъп на koiopenclaw@gmail.com. Firebase CLI инсталиран (v15.10.0). Чакаме auth code от Крис за `firebase login:ci`."
-            },
-            {
-              "time": "08:13",
-              "text": "📧 Heartbeat: Firebase покана пристигнала на мейла. 5 непрочетени (Firebase collaborator invite, Google new account info, GitHub OAuth, Supabase welcome, demo-sites workflow failure). Нищо спешно."
-            },
-            {
-              "time": "13:56",
-              "text": "По-добро решение: `openclaw system event` в Codex prompt-а. Codex изпълнява командата при завършване → OpenClaw event → Koi се събужда веднага (секунди). Watchdog + heartbeat остават като backup. AGENTS.md обновен."
-            },
-            {
-              "time": "18:50",
-              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
-            },
-            {
-              "time": "19:06",
-              "text": "Открит проблем: `memory/` папка се е върнала заради `session-memory` hook (enabled в OpenClaw config). Hook изключен, папка архивирана. KMS (`knowledge/` + `daily/`) е единствената памет."
             }
           ]
         }
@@ -1637,8 +1609,21 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 8,
+      "activityDays": 9,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "08:19",
+              "text": "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md"
+            },
+            {
+              "time": "08:15",
+              "text": "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅."
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -2286,8 +2271,25 @@
         "audience",
         "growth"
       ],
-      "activityDays": 14,
+      "activityDays": 15,
       "recentActivity": [
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "08:19",
+              "text": "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md"
+            },
+            {
+              "time": "08:10",
+              "text": "📸 Създадена библиотека с градски снимки за demo sites: 11 снимки за 4 града (София 3, Пловдив 4, Варна 2, Бургас 2). Pexels + Pixabay, свободен лиценз. Организирани в `assets/cities/`. Нов reference `city-photos.md` с selection logic per city. Правило #9: локални снимки вместо generic stock. Одобрени от Крис."
+            },
+            {
+              "time": "07:34",
+              "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
+            }
+          ]
+        },
         {
           "date": "2026-03-25",
           "entries": [
@@ -2974,111 +2976,6 @@
             {
               "time": "09:10",
               "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-14",
-          "entries": [
-            {
-              "time": "20:29",
-              "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github"
-            },
-            {
-              "time": "19:35",
-              "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp"
-            },
-            {
-              "time": "17:00",
-              "text": "Auto-extract topic 51 (150020 tokens, id:51-1773507635):** [2026-03-14T16:51:41] User: Смятам, че тук основното е да гледаш глобално и действаш локално. Аназизирай всичко, направи; [2026-03-14T16:55:58] Corrupt `node_modules`. `npm install` без `--legacy-peer-deps` явно произвежда счупен lockfile зар; [2026-03-14T16:57:14] Всичко clean. Сега нека добавя `.npmrc` за EAS builds да ползват `--legacy-peer-deps`:; [2026-03-14T16:58:09] Крис, ето какво направих:  **Анализ:** - Коренният проблем е `@firebase/auth` изисква `@react-nati; [2026-03-14T16:57:51] exec: cat > /tmp/eas-watch8.sh << 'EOF'; #!/bin/bash; BUILD_ID=\"b8eb8fc2-96f4-42e2-946c-"
-            },
-            {
-              "time": "11:50",
-              "text": "✅ **EAS Android Build #2 FINISHED!** APK: https://expo.dev/artifacts/eas/62HQg1xNwS9PoM1fs1fWjK.apk — Крис нотифициран в topic 51."
-            },
-            {
-              "time": "12:38",
-              "text": "✅ **EAS Debug Build FINISHED!** APK: https://expo.dev/artifacts/eas/j63VKLdWBvseoDDHLZh58R.apk — Debug версия за по-лесно тестване/дебъгване. Крис нотифициран в topic 51."
-            },
-            {
-              "time": "14:18",
-              "text": "✅ **EAS Fix Build FINISHED!** Нов APK: https://expo.dev/artifacts/eas/ws9NWGHDapZyjAKVgKUMRz.apk — Крис нотифициран в topic 51."
-            },
-            {
-              "time": "14:50",
-              "text": "✅ **EAS Build #2 FINISHED!** Нов APK: https://expo.dev/artifacts/eas/4Lj4BF8kAu9SvH4ZunYwfQ.apk — Крис нотифициран в topic 51."
-            },
-            {
-              "time": "17:55",
-              "text": "✅ **EAS SDK55-FIX Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk — Крис нотифициран в topic 51."
-            },
-            {
-              "time": "16:27",
-              "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard."
-            },
-            {
-              "time": "10:57",
-              "text": "✅ **EAS Build FINISHED!** APK готов: https://expo.dev/artifacts/eas/3JTcrMifaAgpzmJoWhptku.apk — Крис нотифициран в topic 51 за тестване."
-            },
-            {
-              "time": "08:43",
-              "text": "Крис попита за EAS build статус. Проверка: билдът (Android, development profile) е **ERRORED** — fail-нал в Prebuild фазата. Пуснат 13.03 19:05, fail-нал 20:11. Грешка: \"Unknown error in Prebuild\". Причина: expo-dev-client липсва в app.json plugins."
-            },
-            {
-              "time": "09:25",
-              "text": "Fix: добавен `expo-dev-client` в app.json plugins. Commit: `1319f9c`. Нов EAS build пуснат (Android, development). Build ID: `e5c3e863-795e-43ae-b5ff-6c2dfc122bce`."
-            },
-            {
-              "time": "09:32",
-              "text": "✅ **EAS Build ГОТОВ!** Android .apk: https://expo.dev/artifacts/eas/unAJC53iiGyWU4SJWhMhGW.apk (development profile). Build минал за 7 минути. Линк пратен на Крис."
-            },
-            {
-              "time": "10:40",
-              "text": "✅ Preview build ГОТОВ! .apk: https://expo.dev/artifacts/eas/ooK794knXwW4WoHw4CbG6T.apk — Крис тества."
-            },
-            {
-              "time": "10:46",
-              "text": "🐛 \"Momerly keeps stopping\" на Android. Crash при старт. Причина: `initializeAuth` + `getReactNativePersistence` конфликт. Fix: сменен на `getAuth()` (commit `8530d3d`)."
-            },
-            {
-              "time": "11:24",
-              "text": "Expo Go tunnel пуснат за iOS тест. Крис тества на iPhone."
-            },
-            {
-              "time": "11:37",
-              "text": "Нов Android preview build пуснат с fix-а (28bb378c)."
-            },
-            {
-              "time": "14:40",
-              "text": "Пак същата грешка с новия build. Fix: expo-device downgrade + expo-notifications премахнат (commit `cddcee8`)."
-            },
-            {
-              "time": "14:42",
-              "text": "Нов опит: expo-dev-client напълно премахнат (commit `a5e360f`). Build: `1e7b45ee`."
-            },
-            {
-              "time": "16:18",
-              "text": "Бял екран + затваря (build без expo-dev-client)."
-            },
-            {
-              "time": "17:38",
-              "text": "🔍 **Build log анализ:** Prebuild грешка = `notification` property в app.json не се поддържа в SDK 55. Fix: махнат `notification` от app.json (commit `da59108`)."
-            },
-            {
-              "time": "17:55",
-              "text": "✅ **EAS SDK55 Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk"
-            },
-            {
-              "time": "18:17",
-              "text": "✅ **Решение от Крис за Phase 4 workflow:** Koi прави UI prototype на Activities екраните ПЪРВО → Крис одобрява → ПОСЛЕ Codex кодира по одобрения дизайн. Същият процес като Phase 2-3."
-            },
-            {
-              "time": "20:15",
-              "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/"
-            },
-            {
-              "time": "09:07",
-              "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK."
             }
           ]
         }

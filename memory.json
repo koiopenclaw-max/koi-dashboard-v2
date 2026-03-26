@@ -1,12 +1,48 @@
 {
-  "updated": "2026-03-26T04:45:03.232Z",
+  "updated": "2026-03-26T08:20:02.197Z",
   "totalDays": 21,
-  "totalEntries": 493,
+  "totalEntries": 500,
   "days": [
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
-      "entries": [],
+      "entries": [
+        {
+          "time": "08:19",
+          "text": "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md",
+          "type": "default"
+        },
+        {
+          "time": "08:15",
+          "text": "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅.",
+          "type": "alert"
+        },
+        {
+          "time": "08:12",
+          "text": "✅ **Frontend Design skill v2 АКТИВИРАН.** Крис одобри. SKILL-NEW.md → SKILL.md (старият → SKILL-OLD.md). Финален skill: 9 правила, 7 references, 16 assets (11 градски снимки + 5 trust лога/badges), award-level design system.",
+          "type": "decision"
+        },
+        {
+          "time": "08:10",
+          "text": "📸 Създадена библиотека с градски снимки за demo sites: 11 снимки за 4 града (София 3, Пловдив 4, Варна 2, Бургас 2). Pexels + Pixabay, свободен лиценз. Организирани в `assets/cities/`. Нов reference `city-photos.md` с selection logic per city. Правило #9: локални снимки вместо generic stock. Одобрени от Крис.",
+          "type": "default"
+        },
+        {
+          "time": "07:34",
+          "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed.",
+          "type": "deploy"
+        },
+        {
+          "time": "07:00",
+          "text": "🔧 Тест Ц: заменен измислен НЗОК щит с реалното лого от nhif.bg (НЗОК монограм + триколор). Също записано в skill assets за бъдеща употреба.",
+          "type": "default"
+        },
+        {
+          "time": "06:55",
+          "text": "🎨 Frontend Design skill: добавена `assets/` папка с готови SVG лога (Google Reviews badge, Google logo, Google star, НЗОК badge) + нов reference `trust-assets.md` с inline SVG snippets за Google Reviews, НЗОК, ISO, Facebook. SKILL-NEW.md обновен с ново правило #8: trust badges задължителни за всеки сайт.",
+          "type": "default"
+        }
+      ],
       "priorities": [
         {
           "done": false,
@@ -58,10 +94,14 @@
         }
       ],
       "insights": [],
-      "decisions": [],
+      "decisions": [
+        "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md",
+        "✅ **Frontend Design skill v2 АКТИВИРАН.** Крис одобри. SKILL-NEW.md → SKILL.md (старият → SKILL-OLD.md). Финален skill: 9 правила, 7 references, 16 assets (11 градски снимки + 5 trust лога/badges), award-level design system.",
+        "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅."
+      ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 0
+      "entryCount": 7
     },
     {
       "date": "2026-03-25",
