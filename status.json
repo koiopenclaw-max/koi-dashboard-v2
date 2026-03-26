@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T20:00:04.342Z",
-  "serverUptime": 1507459,
+  "timestamp": "2026-03-26T20:04:35.806Z",
+  "serverUptime": 1507731,
   "loadAvg": [
-    "0.10",
-    "0.13",
-    "0.14"
+    "0.37",
+    "0.25",
+    "0.19"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T15:58:02.352Z",
-      "ageSec": 14521,
+      "ageSec": 14793,
       "tokens": 44854,
       "lastAction": "Сега имам пълна картина. Ето конкретния анализ:  [[reply_to_current]] Разгледах целия transcript в topic 718. Ето пробле",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 186296,
+      "ageSec": 186568,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 41761,
+          "runningSec": 42032,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 41114,
+          "runningSec": 41385,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 38948,
+          "runningSec": 39220,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 25017,
+          "runningSec": 25288,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 23798,
+          "runningSec": 24069,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 21824,
+      "ageSec": 22096,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T19:51:57.207Z",
-      "ageSec": 487,
+      "ageSec": 758,
       "tokens": 21074,
       "lastAction": "Крис, това е topic 718 (OpenClaw Service) — въпросът ти е за **topic 1648 (X Audience Challenges)**. Пиши там и ще го ра",
       "hasProcess": false,
@@ -189,38 +189,27 @@
     {
       "topicId": "1648",
       "name": "X Audience Challenges",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-03-26T19:58:35.850Z",
-      "ageSec": 88,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-26T20:04:33.927Z",
+      "ageSec": 1,
       "tokens": 44023,
-      "lastAction": "Имам достатъчно данни. Ето анализа:  ---  ## 📊 Проучване: Trending в X (24-26 март 2026)  ### Топ 10 сигнала от проучван",
+      "lastAction": "🔍 crypto native learning to code AI tools building p",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "2824904",
-      "cpu": "50.0",
-      "mem": "0.5",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 1,
+    "recent": 0,
     "idle": 11,
     "stuck": 0
   }
