@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-26T15:00:04.282Z",
+  "updated": "2026-03-26T15:05:03.364Z",
   "totalDays": 21,
-  "totalEntries": 504,
+  "totalEntries": 505,
   "days": [
     {
       "date": "2026-03-26",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "15:02",
+          "text": "— ClawMart Deep Research (topic 718) — - Крис поиска детайлно проучване на shopclawmart.com - Скрейпнати: homepage, executive-personas, marketing-skills, productivity-skills, ops-skills, research-skills, content-skills, sales-skills, finance-skills, audit page - Анализ на: топ персони, топ скилове, създатели, категории, ценообразуване, наличните ни скилове - Цел: план какво да продаваме на ClawMart",
+          "type": "default"
+        },
         {
           "time": "14:56",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -119,11 +124,12 @@
         "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md",
         "✅ **Frontend Design skill v2 АКТИВИРАН.** Крис одобри. SKILL-NEW.md → SKILL.md (старият → SKILL-OLD.md). Финален skill: 9 правила, 7 references, 16 assets (11 градски снимки + 5 trust лога/badges), award-level design system.",
         "📋 **Skill audit по Claude Best Practices.** Записани правила в `knowledge/resources/skill-authoring-rules.md`. Одит на 8 custom skills: (1) Descriptions: momerly-builder фикснат от \"Build\" → \"Builds\", webapp-testing + trigger phrases. (2) TOC добавен на 6 reference файла >100 реда (award-level-design, trust-assets, channel-security, security-checklist, state-machines, schema-templates). Всички skills под 500 реда ✅, descriptions в 3rd person ✅.",
-        "- **Пълен UX audit:** Playwright автоматизиран тест + visual review с image model на всяка секция × desktop + mobile"
+        "- **Пълен UX audit:** Playwright автоматизиран тест + visual review с image model на всяка секция × desktop + mobile",
+        "- Скрейпнати: homepage, executive-personas, marketing-skills, productivity-skills, ops-skills, research-skills, content-skills, sales-skills, finance-skills, audit page"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 11
+      "entryCount": 12
     },
     {
       "date": "2026-03-25",
