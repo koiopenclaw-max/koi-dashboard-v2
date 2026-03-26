@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-26T13:50:03.960Z",
-  "serverUptime": 1485259,
+  "timestamp": "2026-03-26T13:55:02.892Z",
+  "serverUptime": 1485558,
   "loadAvg": [
-    "0.36",
-    "0.27",
-    "0.24"
+    "0.84",
+    "0.39",
+    "0.27"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T13:49:57.734Z",
-      "ageSec": 6,
-      "tokens": 68785,
-      "lastAction": "✏️ frameworks.md",
+      "lastUpdate": "2026-03-26T13:55:01.475Z",
+      "ageSec": 1,
+      "tokens": 104002,
+      "lastAction": "⚡ ls [server-path]",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 164096,
+      "ageSec": 164395,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 19561,
+          "runningSec": 19860,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 18914,
+          "runningSec": 19212,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 16748,
+          "runningSec": 17047,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 2816,
+          "runningSec": 3115,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1597,
+          "runningSec": 1896,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
