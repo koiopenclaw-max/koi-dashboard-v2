@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-26T08:44:35.026Z",
-  "serverUptime": 1466930,
+  "timestamp": "2026-03-26T08:45:03.562Z",
+  "serverUptime": 1466959,
   "loadAvg": [
-    "0.37",
-    "0.31",
+    "0.35",
+    "0.32",
     "0.29"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T08:37:56.056Z",
-      "ageSec": 398,
+      "ageSec": 427,
       "tokens": 68785,
       "lastAction": "[[reply_to_current]] Готово! Добавих sub-agent tracking в дашборда.   Сега за всеки топик се показва: - **Кои субагенти",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 145767,
+      "ageSec": 145796,
       "tokens": 20441,
       "lastAction": "",
       "hasProcess": false,
@@ -103,10 +103,10 @@
       "name": "Demo Sites",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-26T08:44:30.566Z",
-      "ageSec": 4,
+      "lastUpdate": "2026-03-26T08:44:36.026Z",
+      "ageSec": 27,
       "tokens": 76997,
-      "lastAction": "⚡ cp /tmp/premium-dark.png /tmp/clean-industrial.png /tmp/warm-natural.p",
+      "lastAction": "🔧 image",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,14 +114,14 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1232,
+          "runningSec": 1260,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 585,
+          "runningSec": 613,
           "startedAt": "2026-03-26T08:34:49.894Z"
         }
       ]
@@ -179,7 +179,18 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2574672",
+      "cpu": "61.1",
+      "mem": "1.0",
+      "elapsed": "00:00",
+      "elapsedSec": 0,
+      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
