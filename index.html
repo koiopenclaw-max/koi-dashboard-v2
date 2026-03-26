@@ -320,6 +320,40 @@
             font-family: var(--font-mono);
         }
 
+        /* Sub-agents */
+        .subagents {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .subagent-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 5px 10px;
+            margin-bottom: 4px;
+            background: rgba(139, 92, 246, 0.06);
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: var(--font-mono);
+        }
+
+        .sa-dot {
+            width: 7px; height: 7px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .sa-dot.running { background: var(--green); animation: pulse 2s infinite; }
+        .sa-dot.completed { background: var(--blue); }
+        .sa-dot.failed { background: var(--red); }
+        .sa-dot.unknown { background: var(--muted); }
+
+        .sa-label { color: var(--text-bright); font-weight: 600; flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .sa-model { color: var(--text-dim); font-size: 10px; }
+        .sa-time { color: var(--text-dim); font-size: 10px; white-space: nowrap; }
+
         .section-title {
             font-family: var(--font-mono);
             font-size: 13px;
@@ -1065,6 +1099,16 @@
                     </div>
                     <div class="topic-status"><span class="status-badge ${t.status}">${t.statusLabel||t.status}</span></div>
                     ${t.lastAction ? `<div class="topic-action">${escHtml(t.lastAction)}</div>` : ''}
+                    ${(t.subAgents && t.subAgents.length) ? `
+                    <div class="subagents">
+                        ${t.subAgents.map(sa => `
+                        <div class="subagent-item">
+                            <div class="sa-dot ${sa.status}"></div>
+                            <span class="sa-label" title="${escHtml(sa.label)}">${escHtml(sa.label)}</span>
+                            <span class="sa-model">${escHtml(sa.model)}</span>
+                            <span class="sa-time">${sa.status === 'running' ? '⏱ ' + formatAge(sa.runningSec) : sa.status}</span>
+                        </div>`).join('')}
+                    </div>` : ''}
                     <div class="topic-meta">
                         <span>${age<0?'—':formatAge(age)}</span>
                         <span>🪙 ${t.tokens>0?formatTokens(t.tokens):'—'}</span>
