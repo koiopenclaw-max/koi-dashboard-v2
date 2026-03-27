@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-03-27T01:30:03.736Z",
-  "serverUptime": 1527259,
+  "timestamp": "2026-03-31T10:34:34.042Z",
+  "serverUptime": 1905529,
   "loadAvg": [
-    "0.04",
-    "0.07",
-    "0.08"
+    "0.49",
+    "0.35",
+    "0.24"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-26T15:58:02.352Z",
-      "ageSec": 34321,
-      "tokens": 44854,
-      "lastAction": "Сега имам пълна картина. Ето конкретния анализ:  [[reply_to_current]] Разгледах целия transcript в topic 718. Ето пробле",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-03-31T10:34:30.300Z",
+      "ageSec": 3,
+      "tokens": 45282,
+      "lastAction": "⚡ cd /tmp/koi-dashboard-v2 && git log --oneline -3 --format=\"%h %ci %s\" ",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -90,10 +90,10 @@
       "name": "📥 Inbox",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-24T16:15:07.513Z",
-      "ageSec": 206096,
-      "tokens": 20441,
-      "lastAction": "",
+      "lastUpdate": "2026-03-31T07:48:25.467Z",
+      "ageSec": 9968,
+      "tokens": 26542,
+      "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -103,46 +103,46 @@
       "name": "Demo Sites",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": null,
-      "ageSec": 999999,
-      "tokens": 0,
-      "lastAction": "",
+      "lastUpdate": "2026-03-31T07:46:44.122Z",
+      "ageSec": 10069,
+      "tokens": 56084,
+      "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": false,
-      "hasSession": false,
+      "hasSession": true,
       "subAgents": [
         {
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 61560,
+          "runningSec": 439831,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 60913,
+          "runningSec": 439184,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 58748,
+          "runningSec": 437018,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 44816,
+          "runningSec": 423086,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 43597,
+          "runningSec": 421867,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 41624,
+      "ageSec": 419894,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -178,10 +178,10 @@
       "name": "OpenClaw Service",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-26T19:51:57.207Z",
-      "ageSec": 20286,
-      "tokens": 21074,
-      "lastAction": "Крис, това е topic 718 (OpenClaw Service) — въпросът ти е за **topic 1648 (X Audience Challenges)**. Пиши там и ще го ра",
+      "lastUpdate": "2026-03-30T06:04:48.692Z",
+      "ageSec": 102585,
+      "tokens": 27135,
+      "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -191,37 +191,26 @@
       "name": "X Audience Challenges",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-03-26T20:06:34.345Z",
-      "ageSec": 19409,
-      "tokens": 55676,
-      "lastAction": "Добре, осмислих всичко. Правя го по твоя начин — не новини, а **позиция + опит + мнение**. На английски. Задълбочено.  -",
+      "lastUpdate": "2026-03-27T06:24:45.387Z",
+      "ageSec": 360588,
+      "tokens": 63315,
+      "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "2944990",
-      "cpu": "50.0",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
