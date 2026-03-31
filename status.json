@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-31T12:20:03.355Z",
-  "serverUptime": 1911858,
+  "timestamp": "2026-03-31T12:25:03.290Z",
+  "serverUptime": 1912158,
   "loadAvg": [
-    "1.71",
-    "0.99",
-    "0.80"
+    "1.70",
+    "1.13",
+    "0.89"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T11:56:50.763Z",
-      "ageSec": 1392,
+      "ageSec": 1692,
       "tokens": 147830,
       "lastAction": "[[reply_to_current]] Крис, оправих го. Проблемът беше, че редактирах `Projects/demo-sites/scripts/demo-worker.js`, но PM",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 16297,
+      "ageSec": 16597,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,48 +101,48 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "building",
-      "statusLabel": "🔨 Codex Building",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 16399,
+      "ageSec": 16699,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
-      "hasProcess": true,
+      "hasProcess": false,
       "hasSession": true,
       "subAgents": [
         {
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 446160,
+          "runningSec": 446460,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 445513,
+          "runningSec": 445813,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 443347,
+          "runningSec": 443647,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 429416,
+          "runningSec": 429716,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 428197,
+          "runningSec": 428497,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 426223,
+      "ageSec": 426523,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 108914,
+      "ageSec": 109214,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 366917,
+      "ageSec": 367217,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -202,39 +202,9 @@
   ],
   "processes": [
     {
-      "pid": "1009170",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "06:30",
-      "elapsedSec": 390,
-      "cmd": "/bin/bash -c cd [server-path] && codex exec --full-auto \"$(cat demos/миг-трейд/PROMPT.md)\" 2>&1",
-      "relatedTopic": "49",
-      "procType": "codex"
-    },
-    {
-      "pid": "1009173",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "06:30",
-      "elapsedSec": 390,
-      "cmd": "node [server-path] exec --full-auto # Task: Create Product Category Pages for Миг Трейд ## Context You're working on a demo websit",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1009180",
-      "cpu": "2.1",
-      "mem": "1.6",
-      "elapsed": "06:29",
-      "elapsedSec": 389,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1012139",
-      "cpu": "33.3",
-      "mem": "0.7",
+      "pid": "1014756",
+      "cpu": "80.0",
+      "mem": "1.0",
       "elapsed": "00:00",
       "elapsedSec": 0,
       "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
@@ -249,9 +219,9 @@
   "summary": {
     "totalTopics": 12,
     "working": 0,
-    "building": 1,
+    "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
