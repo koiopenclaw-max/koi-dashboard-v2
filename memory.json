@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-31T16:50:03.160Z",
+  "updated": "2026-03-31T16:55:02.339Z",
   "totalDays": 26,
-  "totalEntries": 594,
+  "totalEntries": 595,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "16:49",
+          "text": "— Финален план Demo Sites v2 — - Крис одобри посоката след проучване + одит + scope analysis - Финален план: 4 слоя (Памет → Интелигентност → Защита → Стабилност) - 4 фази реализация: Фундамент (1 ден) → Scope+Lock (2-3 дни) → Multi-page (1-2 дни) → Staging (по-късно) - 3 документа предадени: audit, validation plan, scope analysis, финален план - Чакаме одобрение за старт на реализацията",
+          "type": "decision"
+        },
         {
           "time": "16:22",
           "text": "🔧 **Dashboard fix (ПОСТОЯНЕН):** - **Root cause:** 3 cron скрипта (memory-sync, projects-sync, status-collector) ползваха `git pull --rebase` в един и същ repo. Когато 2 стартират едновременно → rebase конфликт → заклещва се → push спира да работи → дашбордът офлайн. - **Защо се повтаря:** Вчера fix-нахме `index.lock`, но `--rebase` остана. Днес в 14:00 пак се заклещи. - **Fix 1: flock** — Общ lock файл `/tmp/koi-dashboard-sync.lock`. Ако един скрипт работи, другите skip-ват. - **Fix 2: `--ff-only` вместо `--rebase`** — Без rebase = без конфликти. Ако ff не мине → hard reset to origin. - **Fix 3: rebase --abort** — Всеки скрипт стартира с abort на стар rebase + cleanup. - **Засегнати файлове:** memory-sync.sh, projects-sync.sh, koi-status-collector.sh",
@@ -390,11 +395,13 @@
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "- **07:30** 🔧 Искрови ревизия: Премахнат \"Damon\" от hero floating card, навигация, заглавия, footer, FAQ — и в двата файла (index.html + uslugi.html). Всички 10 услуги запазени. Visual validation ✅ — чисто. Status → review.",
-        "- 10:35 🔧 **Dashboard fix** — Дашбордът не се обновява от 27-ми (4 дни). Причина: `.git/index.lock` в `/tmp/koi-dashboard-v2/` блокираше всички git commit/push операции от 3-те sync скрипта. Lock премахнат, данните push-нати. Добавен автоматичен lock cleanup във всичките 3 скрипта (memory-sync.sh, projects-sync.sh, koi-status-collector.sh) за да не се повтори."
+        "- 10:35 🔧 **Dashboard fix** — Дашбордът не се обновява от 27-ми (4 дни). Причина: `.git/index.lock` в `/tmp/koi-dashboard-v2/` блокираше всички git commit/push операции от 3-те sync скрипта. Lock премахнат, данните push-нати. Добавен автоматичен lock cleanup във всичките 3 скрипта (memory-sync.sh, projects-sync.sh, koi-status-collector.sh) за да не се повтори.",
+        "- Крис одобри посоката след проучване + одит + scope analysis",
+        "- 3 документа предадени: audit, validation plan, scope analysis, финален план"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 62
+      "entryCount": 63
     },
     {
       "date": "2026-03-30",
