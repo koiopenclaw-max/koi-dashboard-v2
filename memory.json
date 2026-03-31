@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-31T12:10:04.536Z",
+  "updated": "2026-03-31T12:15:03.217Z",
   "totalDays": 26,
-  "totalEntries": 568,
+  "totalEntries": 570,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "12:13",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "12:10",
+          "text": "🔧 Миг Трейд revision: Крис иска отделни продуктови страници (метални врати, входни врати, решетки, огради). Скрейпнах mig-trade.com — 8 вида врати за апартаменти, 5 входни врати, 4 вида решетки. Написах PROMPT.md + scraped-products.md. Codex spawned (session cool-harbor).",
+          "type": "build"
+        },
         {
           "time": "12:06",
           "text": "🔧 Миг Трейд: Codex session keen-bison running — създава 5 HTML файла с продуктови страници. Скрейпнати 4 категории + всички снимки от стария сайт.",
@@ -262,7 +272,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 36
+      "entryCount": 38
     },
     {
       "date": "2026-03-30",
