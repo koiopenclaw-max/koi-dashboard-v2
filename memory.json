@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-31T19:05:02.975Z",
+  "updated": "2026-03-31T19:15:02.917Z",
   "totalDays": 26,
-  "totalEntries": 598,
+  "totalEntries": 599,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "19:11",
+          "text": "🔧 **Sonnet fallback настроен + gateway restart.** Config: primary=Opus, fallback=Sonnet. При Opus overloaded → автоматично Sonnet (1-3 сек). Край на мъртвите сесии при API проблеми.",
+          "type": "default"
+        },
         {
           "time": "17:21",
           "text": "📋 Demo Sites v2 финален план v3 изпратен (обединен). Chat+Preview МАХНАТО (не допринася). ДОБАВЕН Слой 5: Автономност — автономни ревизии (AUTO/SUPERVISED/MANUAL), проактивен QA, Measure-First prompts, Slop check в pipeline, Codex fallback, нула best-effort. 5 фази, 8-13 дни. Чака одобрение от Крис.",
@@ -405,7 +410,8 @@
         }
       ],
       "insights": [
-        "**УРОК:** `git pull --rebase` в cron е ЗАБРАНЕН когато множество скриптове пишат в едно repo. Винаги `--ff-only` + flock."
+        "**УРОК:** `git pull --rebase` в cron е ЗАБРАНЕН когато множество скриптове пишат в едно repo. Винаги `--ff-only` + flock.",
+        "**19:11 UTC** — 🔧 **Sonnet fallback настроен + gateway restart.** Config: primary=Opus, fallback=Sonnet. При Opus overloaded → автоматично Sonnet (1-3 сек). Край на мъртвите сесии при API проблеми."
       ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
@@ -416,7 +422,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 66
+      "entryCount": 67
     },
     {
       "date": "2026-03-30",
