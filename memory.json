@@ -1,7 +1,7 @@
 {
-  "updated": "2026-03-31T10:35:03.493Z",
+  "updated": "2026-03-31T10:40:03.350Z",
   "totalDays": 26,
-  "totalEntries": 550,
+  "totalEntries": 551,
   "days": [
     {
       "date": "2026-03-31",
@@ -11,6 +11,11 @@
           "time": "10:33",
           "text": "🔔 Codex приключи. Koi ревюира.",
           "type": "build"
+        },
+        {
+          "time": "10:33",
+          "text": "🚪 Врати кайлъка → Niche template: Конвертирано по заявка на Крис в generic template за врати-дограма ниша. Добавени PVC/алуминиева дограма, гаражни врати, щори секции. Почистен template meta-language, фиксиран nav CTA clipping. Status → review. Чака одобрение.",
+          "type": "default"
         },
         {
           "time": "10:28",
@@ -167,11 +172,12 @@
       "insights": [],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
-        "- **07:30** 🔧 Искрови ревизия: Премахнат \"Damon\" от hero floating card, навигация, заглавия, footer, FAQ — и в двата файла (index.html + uslugi.html). Всички 10 услуги запазени. Visual validation ✅ — чисто. Status → review."
+        "- **07:30** 🔧 Искрови ревизия: Премахнат \"Damon\" от hero floating card, навигация, заглавия, footer, FAQ — и в двата файла (index.html + uslugi.html). Всички 10 услуги запазени. Visual validation ✅ — чисто. Status → review.",
+        "- 10:35 🔧 **Dashboard fix** — Дашбордът не се обновява от 27-ми (4 дни). Причина: `.git/index.lock` в `/tmp/koi-dashboard-v2/` блокираше всички git commit/push операции от 3-те sync скрипта. Lock премахнат, данните push-нати. Добавен автоматичен lock cleanup във всичките 3 скрипта (memory-sync.sh, projects-sync.sh, koi-status-collector.sh) за да не се повтори."
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 18
+      "entryCount": 19
     },
     {
       "date": "2026-03-30",
