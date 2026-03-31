@@ -1,12 +1,27 @@
 {
-  "updated": "2026-03-31T11:40:03.603Z",
+  "updated": "2026-03-31T11:45:02.708Z",
   "totalDays": 26,
-  "totalEntries": 558,
+  "totalEntries": 561,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "11:43",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "11:36",
+          "text": "🚪 Врати кайлъка deployed to **demo65.add.bg** (repo: demo65-add-bg). Live ✅.",
+          "type": "deploy"
+        },
+        {
+          "time": "11:36",
+          "text": "🏗️ Стоянов Пласт: brief enriched → brief_final. Чака потвърждение от Крис за build.",
+          "type": "build"
+        },
         {
           "time": "11:32",
           "text": "🔩 Миг Трейд: Codex build complete. Visual validation → Slop C(50). Fixes: solid bg (SLOP-01), varied radius (SLOP-03), industrial personality — uppercase h1, stripe pattern, caution divider (SLOP-05 partial). Re-validated → **Slop B(75)** (SLOP-07 overridden — hover states exist). Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/",
@@ -212,7 +227,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 26
+      "entryCount": 29
     },
     {
       "date": "2026-03-30",
