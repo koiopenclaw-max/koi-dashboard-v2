@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T21:10:03.034Z",
+  "updated": "2026-03-31T21:15:02.775Z",
   "totalDays": 27,
   "totalEntries": 599,
   "days": [
@@ -523,7 +523,7 @@
         "- Крис одобри посоката след проучване + одит + scope analysis",
         "- 3 документа предадени: audit, validation plan, scope analysis, финален план"
       ],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 67
     },
