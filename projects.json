@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T12:05:04.075Z",
+  "updated": "2026-03-31T12:10:05.315Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -151,6 +151,18 @@
             {
               "time": "08:30",
               "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
+            },
+            {
+              "time": "12:00",
+              "text": "🏗️ Стоянов Пласт: Codex build complete → pushed to demo-sites, waiting deploy for visual validation. Multi-page PVC/алуминиева дограма сайт."
+            },
+            {
+              "time": "12:03",
+              "text": "🔧 Миг Трейд revision: Крис иска продуктови страници per product. Скрейпнах целия стар сайт (4 категории: метални врати, входни врати, решетки, огради). Spawned Codex за 5 HTML файла."
+            },
+            {
+              "time": "12:04",
+              "text": "🦷 Искрови: deploy to demo62.add.bg confirmed live (HTTP 200). Trigger cleaned."
             },
             {
               "time": "11:36",
@@ -984,6 +996,14 @@
           "date": "2026-03-31",
           "entries": [
             {
+              "time": "12:00",
+              "text": "🏗️ Стоянов Пласт: Codex build complete → pushed to demo-sites, waiting deploy for visual validation. Multi-page PVC/алуминиева дограма сайт."
+            },
+            {
+              "time": "12:06",
+              "text": "🔧 Миг Трейд: Codex session keen-bison running — създава 5 HTML файла с продуктови страници. Скрейпнати 4 категории + всички снимки от стария сайт."
+            },
+            {
               "time": "11:30",
               "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion."
             },
@@ -1812,6 +1832,10 @@
           "date": "2026-03-31",
           "entries": [
             {
+              "time": "12:00",
+              "text": "🏗️ Стоянов Пласт: Codex build complete → pushed to demo-sites, waiting deploy for visual validation. Multi-page PVC/алуминиева дограма сайт."
+            },
+            {
               "time": "11:30",
               "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion."
             },
@@ -2190,6 +2214,18 @@
             {
               "time": "09:10",
               "text": "✅ Cleanup: all trigger files removed (врати-кайлъка, искрови, codex-review)."
+            },
+            {
+              "time": "12:00",
+              "text": "🏗️ Стоянов Пласт: Codex build complete → pushed to demo-sites, waiting deploy for visual validation. Multi-page PVC/алуминиева дограма сайт."
+            },
+            {
+              "time": "12:03",
+              "text": "🔧 Миг Трейд revision: Крис иска продуктови страници per product. Скрейпнах целия стар сайт (4 категории: метални врати, входни врати, решетки, огради). Spawned Codex за 5 HTML файла."
+            },
+            {
+              "time": "12:06",
+              "text": "🔧 Миг Трейд: Codex session keen-bison running — създава 5 HTML файла с продуктови страници. Скрейпнати 4 категории + всички снимки от стария сайт."
             },
             {
               "time": "11:32",
