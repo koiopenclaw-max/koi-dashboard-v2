@@ -1,12 +1,32 @@
 {
-  "updated": "2026-03-31T11:30:04.204Z",
+  "updated": "2026-03-31T11:35:03.525Z",
   "totalDays": 26,
-  "totalEntries": 553,
+  "totalEntries": 557,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "11:31",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "11:30",
+          "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live.",
+          "type": "deploy"
+        },
+        {
+          "time": "11:30",
+          "text": "🪟 Стоянов Пласт: QA answers enriched → brief_final. 9-page structure (PVC, AL, врати, комарници, стъклопакети, обков, за нас, контакти). Scraped pvc-varna.com за съдържание.",
+          "type": "default"
+        },
+        {
+          "time": "11:30",
+          "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion.",
+          "type": "build"
+        },
         {
           "time": "10:47",
           "text": "🚪 Врати кайлъка: Крис иска revert от template обратно към оригиналния одобрен build. Върнат от git (commit b0362e5d). Визуално валидиран — OK. Status → review.",
@@ -187,7 +207,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 21
+      "entryCount": 25
     },
     {
       "date": "2026-03-30",
