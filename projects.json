@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T11:30:04.481Z",
+  "updated": "2026-03-31T11:35:04.146Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -151,6 +151,10 @@
             {
               "time": "08:30",
               "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
+            },
+            {
+              "time": "11:30",
+              "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live."
             },
             {
               "time": "10:47",
@@ -579,6 +583,10 @@
             {
               "time": "08:30",
               "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
+            },
+            {
+              "time": "11:30",
+              "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live."
             }
           ]
         },
@@ -963,6 +971,10 @@
         {
           "date": "2026-03-31",
           "entries": [
+            {
+              "time": "11:30",
+              "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion."
+            },
             {
               "time": "10:22",
               "text": "🔧 Codex amber-gulf FAILED (read-only filesystem) — Врати кайлъка niche template conversion. Re-spawned as warm-valley with PTY."
@@ -1788,6 +1800,10 @@
           "date": "2026-03-31",
           "entries": [
             {
+              "time": "11:30",
+              "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion."
+            },
+            {
               "time": "10:22",
               "text": "🔧 Codex amber-gulf FAILED (read-only filesystem) — Врати кайлъка niche template conversion. Re-spawned as warm-valley with PTY."
             }
@@ -2100,6 +2116,10 @@
           "date": "2026-03-31",
           "entries": [
             {
+              "time": "11:31",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
               "time": "10:33",
               "text": "🔔 Codex приключи. Koi ревюира."
             },
@@ -2146,6 +2166,14 @@
             {
               "time": "09:10",
               "text": "✅ Cleanup: all trigger files removed (врати-кайлъка, искрови, codex-review)."
+            },
+            {
+              "time": "11:30",
+              "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live."
+            },
+            {
+              "time": "11:30",
+              "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion."
             },
             {
               "time": "10:39",
