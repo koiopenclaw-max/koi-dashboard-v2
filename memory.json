@@ -1,12 +1,22 @@
 {
-  "updated": "2026-03-31T10:30:02.168Z",
+  "updated": "2026-03-31T10:35:03.493Z",
   "totalDays": 26,
-  "totalEntries": 548,
+  "totalEntries": 550,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "10:33",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "10:28",
+          "text": "🚪 Врати кайлъка revision: Крис иска преработка на темплейт за ниша врати-дограма. Spawned Codex (session mellow-shell). Ще конвертира демото в reusable template с generic placeholders.",
+          "type": "build"
+        },
         {
           "time": "10:23",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -161,7 +171,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 16
+      "entryCount": 18
     },
     {
       "date": "2026-03-30",
