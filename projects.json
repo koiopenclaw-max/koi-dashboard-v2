@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T10:40:04.473Z",
+  "updated": "2026-03-31T10:45:04.032Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -151,6 +151,10 @@
             {
               "time": "08:30",
               "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
+            },
+            {
+              "time": "10:39",
+              "text": "🚪 Врати кайлъка: Codex revision complete — конвертиран към niche template за врати-дограма. Фиксирани placeholder контакти ([phone-redacted], бул. Христо Ботев 88). Badge + CTA text fix. Slop B(80). Status → review. Чака одобрение от Крис."
             },
             {
               "time": "10:28",
@@ -2138,6 +2142,10 @@
             {
               "time": "09:10",
               "text": "✅ Cleanup: all trigger files removed (врати-кайлъка, искрови, codex-review)."
+            },
+            {
+              "time": "10:39",
+              "text": "🚪 Врати кайлъка: Codex revision complete — конвертиран към niche template за врати-дограма. Фиксирани placeholder контакти ([phone-redacted], бул. Христо Ботев 88). Badge + CTA text fix. Slop B(80). Status → review. Чака одобрение от Крис."
             },
             {
               "time": "10:28",
