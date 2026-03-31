@@ -1,8 +1,98 @@
 {
-  "updated": "2026-03-31T20:50:03.532Z",
-  "totalDays": 26,
+  "updated": "2026-03-31T21:05:03.058Z",
+  "totalDays": 27,
   "totalEntries": 599,
   "days": [
+    {
+      "date": "2026-04-01",
+      "dayName": "Сряда",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "Demo Sites v2: Фаза 1 (Фундамент) — чака одобрение от Крис за старт"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign — текущият записва random фрагменти"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning автоматизация"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 готови skills"
+        },
+        {
+          "done": false,
+          "text": "Demo Sites v2 план — одобрение за старт на реализацията"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — review approval (6 нови продуктови страници)"
+        },
+        {
+          "done": false,
+          "text": "Стоянов Пласт — review approval (продуктови страници + лого)"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Admin Dashboard"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
