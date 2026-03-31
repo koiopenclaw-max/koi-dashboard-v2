@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-31T11:50:03.315Z",
-  "serverUptime": 1910058,
+  "timestamp": "2026-03-31T11:54:35.215Z",
+  "serverUptime": 1910330,
   "loadAvg": [
-    "0.24",
-    "0.59",
-    "0.61"
+    "0.36",
+    "0.54",
+    "0.59"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-31T11:49:45.356Z",
-      "ageSec": 17,
+      "lastUpdate": "2026-03-31T11:54:33.588Z",
+      "ageSec": 1,
       "tokens": 133221,
-      "lastAction": "⏳ poll warm-shore",
+      "lastAction": "⏳ poll warm-shell",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 14497,
+      "ageSec": 14769,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,48 +101,48 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
+      "status": "building",
+      "statusLabel": "🔨 Building",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 14599,
+      "ageSec": 14871,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
-      "hasProcess": false,
+      "hasProcess": true,
       "hasSession": true,
       "subAgents": [
         {
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 444360,
+          "runningSec": 444632,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 443713,
+          "runningSec": 443985,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 441547,
+          "runningSec": 441819,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 427616,
+          "runningSec": 427888,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 426397,
+          "runningSec": 426669,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 424423,
+      "ageSec": 424695,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 107114,
+      "ageSec": 107386,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 365117,
+      "ageSec": 365389,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -202,43 +202,13 @@
   ],
   "processes": [
     {
-      "pid": "997953",
+      "pid": "1000941",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "02:41",
-      "elapsedSec": 161,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-build-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tail -",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "997955",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "02:41",
-      "elapsedSec": 161,
-      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "997963",
-      "cpu": "1.6",
-      "mem": "1.6",
-      "elapsed": "02:41",
-      "elapsedSec": 161,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "999087",
-      "cpu": "50.0",
-      "mem": "0.7",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
+      "elapsed": "00:14",
+      "elapsedSec": 14,
+      "cmd": "/bin/bash -c sleep 70 && npx playwright screenshot --viewport-size=\"1200,900\" \"https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%",
+      "relatedTopic": "49",
       "procType": "build"
     }
   ],
@@ -249,9 +219,9 @@
   "summary": {
     "totalTopics": 12,
     "working": 1,
-    "building": 0,
+    "building": 1,
     "recent": 0,
-    "idle": 11,
+    "idle": 10,
     "stuck": 0
   }
 }
