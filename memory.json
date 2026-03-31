@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T21:05:03.058Z",
+  "updated": "2026-03-31T21:10:03.034Z",
   "totalDays": 27,
   "totalEntries": 599,
   "days": [
@@ -22,27 +22,47 @@
         },
         {
           "done": false,
-          "text": "Demo Sites v2: Фаза 1 (Фундамент) — чака одобрение от Крис за старт"
+          "text": "🔴 Auto-extract скрипт redesign — текущият записва random фрагменти, не решения/одобрения"
         },
         {
           "done": false,
-          "text": "🔴 Auto-extract скрипт redesign — текущият записва random фрагменти"
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
         },
         {
           "done": false,
-          "text": "Създай Email Reply skill"
+          "text": "ClawAI Phase 6: DO provisioning автоматизация (config generator готов, чака DO акаунт)"
         },
         {
           "done": false,
-          "text": "ClawAI Phase 6: DO provisioning автоматизация"
+          "text": "💡 ClawMart: Package 5-6 готови skills за листване (нулев cost, бърз start)"
         },
         {
           "done": false,
-          "text": "💡 ClawMart: Package 5-6 готови skills"
+          "text": "gstack Test Lab: Продължи pipeline за Persona Creation — следваща фаза след /plan-eng-review"
         },
         {
           "done": false,
-          "text": "Demo Sites v2 план — одобрение за старт на реализацията"
+          "text": "📋 Demo Sites v2 реализация — ако Крис одобри плана от 03-31"
+        },
+        {
+          "done": false,
+          "text": "📋 Demo Sites v2 план v3 — одобрение за старт (5 фази, 8-13 дни)"
+        },
+        {
+          "done": false,
+          "text": "Дентален център Искрови — review (revision 2: Tabler Icons + SEO)"
+        },
+        {
+          "done": false,
+          "text": "Врати Кайлъка — review (reverted to original build)"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — review (6 продуктови страници)"
+        },
+        {
+          "done": false,
+          "text": "Стоянов Пласт — review (multi-page PVC/AL, Slop A 90!)"
         },
         {
           "done": false,
@@ -70,14 +90,6 @@
         },
         {
           "done": false,
-          "text": "Миг Трейд — review approval (6 нови продуктови страници)"
-        },
-        {
-          "done": false,
-          "text": "Стоянов Пласт — review approval (продуктови страници + лого)"
-        },
-        {
-          "done": false,
           "text": "Momerly Phase 6: Admin Dashboard"
         },
         {
@@ -87,6 +99,7 @@
       ],
       "insights": [],
       "decisions": [
+        "- [ ] 📋 Demo Sites v2 реализация — ако Крис одобри плана от 03-31",
         "- [ ] Felix/ClawMart — решение за бизнес модела"
       ],
       "hasReview": false,
