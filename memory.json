@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-31T10:40:03.350Z",
+  "updated": "2026-03-31T10:45:03.162Z",
   "totalDays": 26,
-  "totalEntries": 551,
+  "totalEntries": 552,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "10:39",
+          "text": "🚪 Врати кайлъка: Codex revision complete — конвертиран към niche template за врати-дограма. Фиксирани placeholder контакти ([phone-redacted], бул. Христо Ботев 88). Badge + CTA text fix. Slop B(80). Status → review. Чака одобрение от Крис.",
+          "type": "build"
+        },
         {
           "time": "10:33",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -177,7 +182,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 19
+      "entryCount": 20
     },
     {
       "date": "2026-03-30",
