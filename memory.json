@@ -1,12 +1,27 @@
 {
-  "updated": "2026-03-31T12:35:03.637Z",
+  "updated": "2026-03-31T12:40:05.127Z",
   "totalDays": 26,
-  "totalEntries": 577,
+  "totalEntries": 580,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "12:39",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "12:39",
+          "text": "Auto-extract topic 1 (159078 tokens, id:1-1774960784):** [2026-03-31T12:33:37] User: има проблем с две корекции които пуснах паралелно в демо сайтове но нищо не се случва...в да; [2026-03-31T12:36:01] Сега нека проверим дали worker-ът вече обработва queue-то:; [2026-03-31T12:36:46] Worker хвана ревизиите. Миг Трейд revision е в процес — Codex работи.; [2026-03-31T12:36:55] [[reply_to_current]] Намерих проблема — ревизиите се route-ваха към heartbeat (т.е. чакаха мен да ; 'r; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D",
+          "type": "build"
+        },
+        {
+          "time": "12:35",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "12:31",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -307,7 +322,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 45
+      "entryCount": 48
     },
     {
       "date": "2026-03-30",
