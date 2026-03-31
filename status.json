@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-31T12:34:35.595Z",
-  "serverUptime": 1912731,
+  "timestamp": "2026-03-31T12:35:03.944Z",
+  "serverUptime": 1912759,
   "loadAvg": [
-    "1.20",
-    "0.92",
-    "0.86"
+    "2.05",
+    "1.12",
+    "0.93"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-31T12:34:31.583Z",
-      "ageSec": 4,
+      "lastUpdate": "2026-03-31T12:35:02.279Z",
+      "ageSec": 1,
       "tokens": 147830,
-      "lastAction": "⏳ poll amber-daisy",
+      "lastAction": "⚡ grep -n \"pollQueue\\|scanQueue\\|findTask\\|pollForWork\\|while\\|setInterv",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 17170,
+      "ageSec": 17198,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "building",
       "statusLabel": "🔨 Codex Building",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 17271,
+      "ageSec": 17299,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": true,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 447032,
+          "runningSec": 447061,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 446385,
+          "runningSec": 446414,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 444219,
+          "runningSec": 444248,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 430288,
+          "runningSec": 430316,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 429069,
+          "runningSec": 429097,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 427096,
+      "ageSec": 427124,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 109786,
+      "ageSec": 109815,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 367790,
+      "ageSec": 367818,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -205,8 +205,8 @@
       "pid": "1015003",
       "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "09:03",
-      "elapsedSec": 543,
+      "elapsed": "09:31",
+      "elapsedSec": 571,
       "cmd": "node [server-path] exec --full-auto Read demos/миг-трейд/PROMPT.md and demos/миг-трейд/scraped-products.md. Follow ALL instruction",
       "relatedTopic": null,
       "procType": "codex"
@@ -215,8 +215,8 @@
       "pid": "1015011",
       "cpu": "2.2",
       "mem": "1.6",
-      "elapsed": "09:03",
-      "elapsedSec": 543,
+      "elapsed": "09:31",
+      "elapsedSec": 571,
       "cmd": "[server-path] exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
@@ -225,8 +225,8 @@
       "pid": "1017615",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "03:19",
-      "elapsedSec": 199,
+      "elapsed": "03:48",
+      "elapsedSec": 228,
       "cmd": "/bin/bash -c cd [server-path] && codex exec --full-auto \"$(cat demos/миг-трейд/PROMPT.md)\" 2>&1",
       "relatedTopic": "49",
       "procType": "codex"
@@ -235,18 +235,18 @@
       "pid": "1017618",
       "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "03:19",
-      "elapsedSec": 199,
+      "elapsed": "03:48",
+      "elapsedSec": 228,
       "cmd": "node [server-path] exec --full-auto # Task: Create Product Category Pages for Миг Трейд ## Context You're working on a demo websit",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
       "pid": "1017625",
-      "cpu": "1.7",
+      "cpu": "1.8",
       "mem": "1.6",
-      "elapsed": "03:19",
-      "elapsedSec": 199,
+      "elapsed": "03:47",
+      "elapsedSec": 227,
       "cmd": "[server-path] exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
