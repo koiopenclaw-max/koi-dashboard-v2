@@ -1,16 +1,21 @@
 {
-  "updated": "2026-03-31T17:20:03.066Z",
+  "updated": "2026-03-31T17:30:03.329Z",
   "totalDays": 26,
-  "totalEntries": 597,
+  "totalEntries": 598,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
         {
-          "time": "17:08",
-          "text": "💡 Крис реши: строим Chat + Preview секция за demo sites платформата. План: 4 фази (Chat UI → AI Integration → Instant Preview → Undo/History). Чака решение: документ или директно build.",
+          "time": "17:21",
+          "text": "📋 Demo Sites v2 финален план v3 изпратен (обединен). Chat+Preview МАХНАТО (не допринася). ДОБАВЕН Слой 5: Автономност — автономни ревизии (AUTO/SUPERVISED/MANUAL), проактивен QA, Measure-First prompts, Slop check в pipeline, Codex fallback, нула best-effort. 5 фази, 8-13 дни. Чака одобрение от Крис.",
           "type": "build"
+        },
+        {
+          "time": "17:08",
+          "text": "💡 Крис попита за Chat+Preview. Анализ: улеснява Крис, не Koi. Крис реши: махаме го, фокус върху автономност.",
+          "type": "default"
         },
         {
           "time": "17:06",
@@ -404,7 +409,6 @@
       ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
-        "💡 Крис реши: строим Chat + Preview секция за demo sites платформата. План: 4 фази (Chat UI → AI Integration → Instant Preview → Undo/History). Чака решение: документ или директно build.",
         "- **07:30** 🔧 Искрови ревизия: Премахнат \"Damon\" от hero floating card, навигация, заглавия, footer, FAQ — и в двата файла (index.html + uslugi.html). Всички 10 услуги запазени. Visual validation ✅ — чисто. Status → review.",
         "- 10:35 🔧 **Dashboard fix** — Дашбордът не се обновява от 27-ми (4 дни). Причина: `.git/index.lock` в `/tmp/koi-dashboard-v2/` блокираше всички git commit/push операции от 3-те sync скрипта. Lock премахнат, данните push-нати. Добавен автоматичен lock cleanup във всичките 3 скрипта (memory-sync.sh, projects-sync.sh, koi-status-collector.sh) за да не се повтори.",
         "- Крис одобри посоката след проучване + одит + scope analysis",
@@ -412,7 +416,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 65
+      "entryCount": 66
     },
     {
       "date": "2026-03-30",
