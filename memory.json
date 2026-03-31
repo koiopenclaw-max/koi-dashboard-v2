@@ -1,16 +1,26 @@
 {
-  "updated": "2026-03-31T13:15:02.646Z",
+  "updated": "2026-03-31T13:20:02.991Z",
   "totalDays": 26,
-  "totalEntries": 584,
+  "totalEntries": 586,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
         {
+          "time": "13:12",
+          "text": "🔧 Стоянов Пласт revision: Codex running (worker manages). In progress.",
+          "type": "build"
+        },
+        {
           "time": "13:10",
           "text": "🔔 Codex приключи. Koi ревюира.",
           "type": "build"
+        },
+        {
+          "time": "13:03",
+          "text": "✅ Миг Трейд revision DONE (worker, 3 attempts). 6 нови страници: metalni-vrati, vrati-metalni, metalni-reshetki, ogradi-i-portali, galeriia, zaiavka-za-ogled + shared CSS/JS. Status → review.",
+          "type": "done"
         },
         {
           "time": "13:02",
@@ -84,8 +94,8 @@
         },
         {
           "time": "12:10",
-          "text": "🔧 Миг Трейд revision: Крис иска отделни продуктови страници (метални врати, входни врати, решетки, огради). Скрейпнах mig-trade.com — 8 вида врати за апартаменти, 5 входни врати, 4 вида решетки. Написах PROMPT.md + scraped-products.md. Codex spawned (session gentle-canyon).",
-          "type": "build"
+          "text": "🔧 Миг Трейд revision: Крис иска отделни продуктови страници. Скрейпнах mig-trade.com — 8 вида врати, 5 входни, 4 решетки. PROMPT.md + scraped-products.md.",
+          "type": "default"
         },
         {
           "time": "12:06",
@@ -342,7 +352,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 52
+      "entryCount": 54
     },
     {
       "date": "2026-03-30",
