@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-31T11:30:03.724Z",
-  "serverUptime": 1908859,
+  "timestamp": "2026-03-31T11:34:34.803Z",
+  "serverUptime": 1909130,
   "loadAvg": [
-    "0.28",
-    "0.32",
-    "0.31"
+    "0.69",
+    "0.58",
+    "0.42"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T11:24:04.892Z",
-      "ageSec": 358,
+      "ageSec": 629,
       "tokens": 107457,
       "lastAction": "[[reply_to_current]] Разбирам фрустрацията. Имаше два проблема:  **1. \"Хотел\"** — keyword `'стаи'` от съдържанието на pv",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 13298,
+      "ageSec": 13569,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 13399,
+      "ageSec": 13670,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 443160,
+          "runningSec": 443431,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 442513,
+          "runningSec": 442784,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 440348,
+          "runningSec": 440619,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 426416,
+          "runningSec": 426687,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 425197,
+          "runningSec": 425468,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 423224,
+      "ageSec": 423495,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 105915,
+      "ageSec": 106186,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 363918,
+      "ageSec": 364189,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,38 +200,7 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "988588",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "02:35",
-      "elapsedSec": 155,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-build-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tail -",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "988590",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "02:35",
-      "elapsedSec": 155,
-      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "988598",
-      "cpu": "2.0",
-      "mem": "1.6",
-      "elapsed": "02:35",
-      "elapsedSec": 155,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
