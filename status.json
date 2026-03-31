@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-03-31T11:40:03.593Z",
-  "serverUptime": 1909459,
+  "timestamp": "2026-03-31T11:44:34.507Z",
+  "serverUptime": 1909730,
   "loadAvg": [
-    "0.87",
-    "0.77",
-    "0.56"
+    "0.71",
+    "0.88",
+    "0.66"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-03-31T11:39:57.352Z",
-      "ageSec": 6,
-      "tokens": 114756,
+      "status": "stuck",
+      "statusLabel": "🔴 Stuck",
+      "lastUpdate": "2026-03-31T11:44:03.201Z",
+      "ageSec": 31,
+      "tokens": 133221,
       "lastAction": "📖 demo-worker.js",
       "hasProcess": false,
       "hasSession": true,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 13898,
+      "ageSec": 14169,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 13999,
+      "ageSec": 14270,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 443760,
+          "runningSec": 444031,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 443113,
+          "runningSec": 443384,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 440947,
+          "runningSec": 441218,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 427016,
+          "runningSec": 427287,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 425797,
+          "runningSec": 426068,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 423824,
+      "ageSec": 424095,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 106514,
+      "ageSec": 106785,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 364518,
+      "ageSec": 364789,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -202,12 +202,72 @@
   ],
   "processes": [
     {
-      "pid": "994504",
-      "cpu": "90.0",
-      "mem": "1.0",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "pid": "995882",
+      "cpu": "0.9",
+      "mem": "1.9",
+      "elapsed": "01:56",
+      "elapsedSec": 116,
+      "cmd": "npm exec playwright screenshot --viewport-size 1280,800 --wait-for-timeout 3000 --full-page http://127.0.0.1:18808/ /tmp/demo-build-миг-трейд/screensh",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "995895",
+      "cpu": "3.2",
+      "mem": "3.0",
+      "elapsed": "01:55",
+      "elapsedSec": 115,
+      "cmd": "node [server-path] screenshot --viewport-size 1280,800 --wait-for-timeout 3000 --full-page http://127.0.0.1:18808/ /tmp/demo-",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "995907",
+      "cpu": "0.1",
+      "mem": "2.1",
+      "elapsed": "01:53",
+      "elapsedSec": 113,
+      "cmd": "[server-path] --disable-field-trial-config --disab",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "996285",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:56",
+      "elapsedSec": 56,
+      "cmd": "/bin/sh -c npx playwright screenshot --viewport-size \"375,667\" --wait-for-timeout 3000 --full-page \"http://127.0.0.1:18808/\" \"/tmp/demo-build-миг-трей",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "996286",
+      "cpu": "1.6",
+      "mem": "2.1",
+      "elapsed": "00:56",
+      "elapsedSec": 56,
+      "cmd": "npm exec playwright screenshot --viewport-size 375,667 --wait-for-timeout 3000 --full-page http://127.0.0.1:18808/ /tmp/demo-build-миг-трейд/screensho",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "996299",
+      "cpu": "5.7",
+      "mem": "3.0",
+      "elapsed": "00:55",
+      "elapsedSec": 55,
+      "cmd": "node [server-path] screenshot --viewport-size 375,667 --wait-for-timeout 3000 --full-page http://127.0.0.1:18808/ /tmp/demo-b",
+      "relatedTopic": null,
+      "procType": "build"
+    },
+    {
+      "pid": "996311",
+      "cpu": "0.2",
+      "mem": "2.1",
+      "elapsed": "00:53",
+      "elapsedSec": 53,
+      "cmd": "[server-path] --disable-field-trial-config --disab",
       "relatedTopic": null,
       "procType": "build"
     }
@@ -218,10 +278,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
     "idle": 11,
-    "stuck": 0
+    "stuck": 1
   }
 }
