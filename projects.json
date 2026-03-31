@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-31T10:35:04.022Z",
+  "updated": "2026-03-31T10:40:04.473Z",
   "totalProjects": 7,
   "active": 3,
   "projects": [
@@ -139,6 +139,10 @@
             {
               "time": "07:45",
               "text": "✅ Дентален център Искрови revision DONE. Махнат Damon floating card от hero. Създадена uslugi.html с 10 услуги (подробни описания), Schema.org MedicalBusiness + FAQPage, anchor навигация. Визуално валидиран desktop + mobile. Status → review. Чака одобрение от Крис."
+            },
+            {
+              "time": "10:33",
+              "text": "🚪 Врати кайлъка → Niche template: Конвертирано по заявка на Крис в generic template за врати-дограма ниша. Добавени PVC/алуминиева дограма, гаражни врати, щори секции. Почистен template meta-language, фиксиран nav CTA clipping. Status → review. Чака одобрение."
             },
             {
               "time": "08:40",
