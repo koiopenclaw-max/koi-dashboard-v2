@@ -1,12 +1,27 @@
 {
-  "updated": "2026-03-31T13:55:02.631Z",
+  "updated": "2026-03-31T16:22:57.256Z",
   "totalDays": 26,
-  "totalEntries": 590,
+  "totalEntries": 593,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "15:44",
+          "text": "— Проучване: Demo Sites Versioning System — - Крис поиска сериозно проучване за версии/rollback по модел на Lovable/Bolt - Фаза 1: Проучих Lovable V2, Bolt, Replit, Cursor patterns - Фаза 2: Пълен одит на demo-worker.js + repo инфраструктура - Идентифицирани 8+ критични проблема (виж topic 1 за пълен доклад) - Ключов проблем: worker-ът няма scope lock, няма pre-revision snapshot, multi-page е счупен",
+          "type": "default"
+        },
+        {
+          "time": "14:02",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "14:00",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "13:45",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -372,7 +387,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 58
+      "entryCount": 61
     },
     {
       "date": "2026-03-30",
