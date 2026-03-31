@@ -1,12 +1,17 @@
 {
-  "updated": "2026-03-31T16:22:57.256Z",
+  "updated": "2026-03-31T16:25:02.724Z",
   "totalDays": 26,
-  "totalEntries": 593,
+  "totalEntries": 594,
   "days": [
     {
       "date": "2026-03-31",
       "dayName": "Вторник",
       "entries": [
+        {
+          "time": "16:22",
+          "text": "🔧 **Dashboard fix (ПОСТОЯНЕН):** - **Root cause:** 3 cron скрипта (memory-sync, projects-sync, status-collector) ползваха `git pull --rebase` в един и същ repo. Когато 2 стартират едновременно → rebase конфликт → заклещва се → push спира да работи → дашбордът офлайн. - **Защо се повтаря:** Вчера fix-нахме `index.lock`, но `--rebase` остана. Днес в 14:00 пак се заклещи. - **Fix 1: flock** — Общ lock файл `/tmp/koi-dashboard-sync.lock`. Ако един скрипт работи, другите skip-ват. - **Fix 2: `--ff-only` вместо `--rebase`** — Без rebase = без конфликти. Ако ff не мине → hard reset to origin. - **Fix 3: rebase --abort** — Всеки скрипт стартира с abort на стар rebase + cleanup. - **Засегнати файлове:** memory-sync.sh, projects-sync.sh, koi-status-collector.sh",
+          "type": "deploy"
+        },
         {
           "time": "15:44",
           "text": "— Проучване: Demo Sites Versioning System — - Крис поиска сериозно проучване за версии/rollback по модел на Lovable/Bolt - Фаза 1: Проучих Lovable V2, Bolt, Replit, Cursor patterns - Фаза 2: Пълен одит на demo-worker.js + repo инфраструктура - Идентифицирани 8+ критични проблема (виж topic 1 за пълен доклад) - Ключов проблем: worker-ът няма scope lock, няма pre-revision snapshot, multi-page е счупен",
@@ -379,7 +384,9 @@
           "text": "RunAI Coach — блокер: Mac достъп"
         }
       ],
-      "insights": [],
+      "insights": [
+        "**УРОК:** `git pull --rebase` в cron е ЗАБРАНЕН когато множество скриптове пишат в едно repo. Винаги `--ff-only` + flock."
+      ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "- **07:30** 🔧 Искрови ревизия: Премахнат \"Damon\" от hero floating card, навигация, заглавия, footer, FAQ — и в двата файла (index.html + uslugi.html). Всички 10 услуги запазени. Visual validation ✅ — чисто. Status → review.",
@@ -387,7 +394,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 61
+      "entryCount": 62
     },
     {
       "date": "2026-03-30",
