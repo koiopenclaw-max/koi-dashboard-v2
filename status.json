@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-31T12:05:03.096Z",
-  "serverUptime": 1910958,
+  "timestamp": "2026-03-31T12:10:03.979Z",
+  "serverUptime": 1911259,
   "loadAvg": [
-    "0.85",
-    "0.77",
-    "0.66"
+    "1.51",
+    "0.94",
+    "0.74"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T11:56:50.763Z",
-      "ageSec": 492,
+      "ageSec": 793,
       "tokens": 147830,
       "lastAction": "[[reply_to_current]] Крис, оправих го. Проблемът беше, че редактирах `Projects/demo-sites/scripts/demo-worker.js`, но PM",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 15397,
+      "ageSec": 15698,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 15498,
+      "ageSec": 15799,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 445260,
+          "runningSec": 445561,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 444613,
+          "runningSec": 444914,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 442447,
+          "runningSec": 442748,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 428515,
+          "runningSec": 428816,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 427297,
+          "runningSec": 427597,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 425323,
+      "ageSec": 425624,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 108014,
+      "ageSec": 108315,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 366017,
+      "ageSec": 366318,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -202,14 +202,24 @@
   ],
   "processes": [
     {
-      "pid": "1005477",
-      "cpu": "50.0",
-      "mem": "0.8",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
+      "pid": "1005712",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "04:47",
+      "elapsedSec": 287,
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md for your instructions. Read scraped-content.txt for the old site content. Read ",
       "relatedTopic": null,
-      "procType": "build"
+      "procType": "codex"
+    },
+    {
+      "pid": "1005720",
+      "cpu": "2.0",
+      "mem": "1.6",
+      "elapsed": "04:47",
+      "elapsedSec": 287,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
     }
   ],
   "errors": {
