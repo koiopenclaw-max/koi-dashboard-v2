@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-03-31T12:45:02.781Z",
-  "serverUptime": 1913358,
+  "timestamp": "2026-03-31T12:50:02.879Z",
+  "serverUptime": 1913658,
   "loadAvg": [
-    "0.95",
-    "1.27",
-    "1.18"
+    "0.94",
+    "0.72",
+    "0.94"
   ],
   "topics": [
     {
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 17797,
+      "ageSec": 18097,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 17898,
+      "ageSec": 18198,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 447659,
+          "runningSec": 447960,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 447012,
+          "runningSec": 447312,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 444847,
+          "runningSec": 445147,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 430915,
+          "runningSec": 431215,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 429696,
+          "runningSec": 429996,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 427723,
+      "ageSec": 428023,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-30T06:04:48.692Z",
-      "ageSec": 110414,
+      "ageSec": 110714,
       "tokens": 27135,
       "lastAction": "Това е **седмичният secrets scanner** — автоматичен cron, който сканира всички публични repos за изтекли credentials.  Д",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 368417,
+      "ageSec": 368717,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -205,41 +205,31 @@
       "pid": "1025175",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "00:21",
-      "elapsedSec": 21,
+      "elapsed": "05:22",
+      "elapsedSec": 322,
       "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
       "pid": "1025177",
-      "cpu": "0.2",
+      "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "00:21",
-      "elapsedSec": 21,
+      "elapsed": "05:22",
+      "elapsedSec": 322,
       "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
       "pid": "1025185",
-      "cpu": "2.5",
-      "mem": "1.5",
-      "elapsed": "00:21",
-      "elapsedSec": 21,
+      "cpu": "1.0",
+      "mem": "1.6",
+      "elapsed": "05:21",
+      "elapsedSec": 321,
       "cmd": "[server-path] exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
-    },
-    {
-      "pid": "1025504",
-      "cpu": "100",
-      "mem": "0.9",
-      "elapsed": "00:00",
-      "elapsedSec": 0,
-      "cmd": "node -e const fs = require('fs'); const path = require('path'); const dailyDir = '~/daily'; const files = fs.readdirSync",
-      "relatedTopic": null,
-      "procType": "build"
     }
   ],
   "errors": {
