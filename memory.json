@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-01T13:15:02.946Z",
+  "updated": "2026-04-01T13:25:02.994Z",
   "totalDays": 27,
-  "totalEntries": 637,
+  "totalEntries": 638,
   "days": [
     {
       "date": "2026-04-01",
@@ -11,6 +11,11 @@
           "time": "13:14",
           "text": "🔔 Codex приключи. Koi ревюира.",
           "type": "build"
+        },
+        {
+          "time": "13:11",
+          "text": "🔧 Миг Трейд rev 10 — nav fix: flat 6-item nav → dropdown (Начало, Продукти▾, Галерия, CTA). 9 HTML + product-pages.css обновени. Визуално валидирано. Status → review.",
+          "type": "default"
         },
         {
           "time": "13:05",
@@ -278,7 +283,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 38
+      "entryCount": 39
     },
     {
       "date": "2026-03-31",
