@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-01T19:14:35.322Z",
-  "serverUptime": 2023130,
+  "timestamp": "2026-04-01T19:19:33.968Z",
+  "serverUptime": 2023429,
   "loadAvg": [
-    "1.15",
-    "1.03",
-    "0.62"
+    "0.91",
+    "1.29",
+    "0.88"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T14:22:34.575Z",
-      "ageSec": 17520,
+      "ageSec": 17819,
       "tokens": 62678,
       "lastAction": "Сега за тест — пусни нова корекция от платформата и да видим дали surgical ще мине (няма да reject-не на 8 edits ако сай",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 127569,
+      "ageSec": 127868,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T10:36:56.403Z",
-      "ageSec": 31058,
+      "ageSec": 31357,
       "tokens": 83872,
       "lastAction": "**Промпт #4: ✅ ПЕРФЕКТЕН.**  - ✅ **og:image** → company logo (Supabase) на всички страници - ✅ **twitter:image** → same",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 557432,
+          "runningSec": 557731,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 556785,
+          "runningSec": 557084,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 554619,
+          "runningSec": 554918,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 540688,
+          "runningSec": 540986,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 539469,
+          "runningSec": 539767,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 537495,
+      "ageSec": 537794,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 324,
+      "ageSec": 623,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 478189,
+      "ageSec": 478488,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,28 +200,7 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "1664080",
-      "cpu": "0.1",
-      "mem": "0.0",
-      "elapsed": "00:08",
-      "elapsedSec": 8,
-      "cmd": "/bin/bash -c # The openclaw module dir got corrupted. Let's clean and reinstall properly. rm -rf [server-path] npm",
-      "relatedTopic": null,
-      "procType": "build"
-    },
-    {
-      "pid": "1664082",
-      "cpu": "114",
-      "mem": "5.1",
-      "elapsed": "00:03",
-      "elapsedSec": 3,
-      "cmd": "npm install openclaw@2026.4.1",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
