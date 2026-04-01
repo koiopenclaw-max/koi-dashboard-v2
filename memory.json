@@ -1,16 +1,31 @@
 {
-  "updated": "2026-04-01T12:05:03.141Z",
+  "updated": "2026-04-01T12:10:02.361Z",
   "totalDays": 27,
-  "totalEntries": 623,
+  "totalEntries": 626,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
         {
+          "time": "12:07",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "12:05",
+          "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**",
+          "type": "done"
+        },
+        {
           "time": "12:05",
           "text": "Блок 1 промени завършени: - 1.1 Crash fix: filename filter добавен в executeRevisions + executeKoiRevision - 1.2 Koi validation gate: executeRevisions спира след Codex, пише trigger, вика openclaw system event, чака Koi - 1.3 Webhook: POST /webhook/github в proxy (HMAC verified) → /hooks/wake. GitHub webhook ID 603911832 активен. - 1.4 START/ERROR нотификации добавени в executeRevisions - Worker рестартиран, proxy рестартиран, syntax OK - E2E тест чака следваща реална ревизия (Миг Трейд вече е в review status)",
           "type": "build"
+        },
+        {
+          "time": "12:05",
+          "text": "🔧 Миг Трейд Rev6: Заменени 6 Unsplash stock снимки в галерията на началната страница с реални продуктови снимки на клиента (врати, решетки, портали). Status → review.",
+          "type": "default"
         },
         {
           "time": "11:49",
@@ -207,7 +222,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 24
+      "entryCount": 27
     },
     {
       "date": "2026-03-31",
