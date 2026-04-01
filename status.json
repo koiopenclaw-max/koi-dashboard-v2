@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-01T10:49:34.459Z",
-  "serverUptime": 1992830,
+  "timestamp": "2026-04-01T10:54:34.606Z",
+  "serverUptime": 1993130,
   "loadAvg": [
-    "0.03",
-    "0.09",
+    "0.08",
+    "0.12",
     "0.16"
   ],
   "topics": [
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T10:49:33.632Z",
-      "ageSec": 0,
-      "tokens": 0,
-      "lastAction": "⚡ grep -n \"system event\\|openclaw.*event\\|wake\\|notify\" [server-path]",
+      "lastUpdate": "2026-04-01T10:54:11.819Z",
+      "ageSec": 22,
+      "tokens": 35197,
+      "lastAction": "Да, webhook е правилният подход — push вместо poll. Ето как:  ## Идея: GitHub Webhook → demo-sites-proxy → `openclaw sys",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 97268,
+      "ageSec": 97569,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T10:36:56.403Z",
-      "ageSec": 758,
+      "ageSec": 1058,
       "tokens": 83872,
       "lastAction": "**Промпт #4: ✅ ПЕРФЕКТЕН.**  - ✅ **og:image** → company logo (Supabase) на всички страници - ✅ **twitter:image** → same",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 527131,
+          "runningSec": 527431,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 526484,
+          "runningSec": 526784,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 524318,
+          "runningSec": 524618,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 510387,
+          "runningSec": 510687,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 509168,
+          "runningSec": 509468,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 507195,
+      "ageSec": 507495,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 55373,
+      "ageSec": 55673,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 447889,
+      "ageSec": 448189,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -202,31 +202,51 @@
   ],
   "processes": [
     {
-      "pid": "1482277",
+      "pid": "1485212",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:47",
+      "elapsedSec": 167,
+      "cmd": "node [server-path] exec --full-auto # Revision 4: Link Product Pages + Fix Navigation + Create Missing Page ## Контекст Миг Трейд ",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1485221",
+      "cpu": "1.3",
+      "mem": "1.6",
+      "elapsed": "02:47",
+      "elapsedSec": 167,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1485672",
       "cpu": "0.0",
       "mem": "0.0",
-      "elapsed": "05:39",
-      "elapsedSec": 339,
+      "elapsed": "02:08",
+      "elapsedSec": 128,
       "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1482279",
+      "pid": "1485674",
       "cpu": "0.0",
       "mem": "1.1",
-      "elapsed": "05:39",
-      "elapsedSec": 339,
+      "elapsed": "02:08",
+      "elapsedSec": 128,
       "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
       "relatedTopic": null,
       "procType": "codex"
     },
     {
-      "pid": "1482287",
-      "cpu": "1.9",
+      "pid": "1485682",
+      "cpu": "1.7",
       "mem": "1.6",
-      "elapsed": "05:39",
-      "elapsedSec": 339,
+      "elapsed": "02:08",
+      "elapsedSec": 128,
       "cmd": "[server-path] exec --full-a",
       "relatedTopic": null,
       "procType": "codex"
