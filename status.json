@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-01T04:29:34.100Z",
-  "serverUptime": 1970029,
+  "timestamp": "2026-04-01T04:39:35.023Z",
+  "serverUptime": 1970630,
   "loadAvg": [
-    "0.18",
-    "0.11",
-    "0.09"
+    "0.04",
+    "0.12",
+    "0.12"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T04:29:30.747Z",
-      "ageSec": 3,
-      "tokens": 42693,
-      "lastAction": "Ок, прочетох всичко — daily notes, execution tracker, финалния план v4. Ето обобщението:  ---  ## 🏗️ Demo Sites v2 — Фин",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-04-01T04:37:18.095Z",
+      "ageSec": 136,
+      "tokens": 53751,
+      "lastAction": "Много правилен въпрос. Ще бъда конкретен:  ## Какво се случва с 16-те съществуващи сайта  **Краткият отговор: Нищо. Те с",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 74468,
+      "ageSec": 75069,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:46:44.122Z",
-      "ageSec": 74569,
+      "ageSec": 75170,
       "tokens": 56084,
       "lastAction": "Не, не е наред 😬 — изпратил съм едно и също съобщение 7 пъти. Това е от retry логиката — когато trigger-ът се въртеше в",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 504331,
+          "runningSec": 504932,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 503684,
+          "runningSec": 504285,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 501518,
+          "runningSec": 502119,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 487586,
+          "runningSec": 488187,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 486368,
+          "runningSec": 486968,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 484394,
+      "ageSec": 484995,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 32572,
+      "ageSec": 33173,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 425088,
+      "ageSec": 425689,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -207,9 +207,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
