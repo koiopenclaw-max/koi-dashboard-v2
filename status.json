@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-01T08:44:35.192Z",
-  "serverUptime": 1985330,
+  "timestamp": "2026-04-01T08:49:35.050Z",
+  "serverUptime": 1985630,
   "loadAvg": [
-    "0.26",
-    "0.37",
-    "0.29"
+    "0.07",
+    "0.21",
+    "0.24"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T08:39:32.875Z",
-      "ageSec": 302,
+      "ageSec": 602,
       "tokens": 109158,
       "lastAction": "[[reply_to_current]] Разбрано. Ти не участваш — аз валидирам всичко сам.  Ето плана:  **Автоматичен validation скрипт**",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 89769,
+      "ageSec": 90069,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,10 +101,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T08:43:20.726Z",
-      "ageSec": 74,
+      "ageSec": 374,
       "tokens": 65311,
       "lastAction": "Разбрах — Lovable промптове, стъпка по стъпка. Ще ти давам по един, ти пускаш, казваш \"готово\", аз одитирам и давам след",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 519632,
+          "runningSec": 519932,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 518985,
+          "runningSec": 519285,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 516819,
+          "runningSec": 517119,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 502887,
+          "runningSec": 503187,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 501669,
+          "runningSec": 501968,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 499695,
+      "ageSec": 499995,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 47873,
+      "ageSec": 48173,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 440389,
+      "ageSec": 440689,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 12,
     "stuck": 0
   }
 }
