@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-01T10:24:34.618Z",
-  "serverUptime": 1991330,
+  "timestamp": "2026-04-01T10:29:34.970Z",
+  "serverUptime": 1991630,
   "loadAvg": [
-    "0.53",
-    "0.32",
-    "0.26"
+    "0.08",
+    "0.22",
+    "0.24"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-01T10:16:23.323Z",
-      "ageSec": 491,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-01T10:28:57.298Z",
+      "ageSec": 37,
       "tokens": 149480,
-      "lastAction": "⚡ cd [server-path] && grep -n \"bg-deep\\|data-theme\" in",
+      "lastAction": "⚡ cd [server-path] && grep -n \"linear-gradient\" index.",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 95769,
+      "ageSec": 96069,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,12 +101,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T10:24:04.284Z",
-      "ageSec": 30,
-      "tokens": 79769,
-      "lastAction": "**Промпт #3: ✅ ПЕРФЕКТЕН.** Всичко изпълнено без грешки.  - ✅ **sameAs: []** в LocalBusiness schema (готово за попълване",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-04-01T10:28:48.871Z",
+      "ageSec": 46,
+      "tokens": 82682,
+      "lastAction": "**Промпт #4: ✅ ПЕРФЕКТЕН.**  - ✅ **og:image** → company logo (Supabase) на всички страници - ✅ **twitter:image** → same",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 525631,
+          "runningSec": 525932,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 524984,
+          "runningSec": 525285,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 522818,
+          "runningSec": 523119,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 508887,
+          "runningSec": 509187,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 507668,
+          "runningSec": 507968,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 505695,
+      "ageSec": 505995,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 53873,
+      "ageSec": 54173,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 446389,
+      "ageSec": 446689,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 0,
-    "idle": 11,
+    "recent": 1,
+    "idle": 10,
     "stuck": 0
   }
 }
