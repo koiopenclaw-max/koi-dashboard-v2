@@ -1,12 +1,18 @@
 {
-  "updated": "2026-04-01T06:35:02.980Z",
+  "updated": "2026-04-01T06:40:03.582Z",
   "totalDays": 27,
-  "totalEntries": 599,
+  "totalEntries": 600,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
-      "entries": [],
+      "entries": [
+        {
+          "time": "06:36",
+          "text": "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug",
+          "type": "build"
+        }
+      ],
       "priorities": [
         {
           "done": false,
@@ -75,11 +81,12 @@
       ],
       "insights": [],
       "decisions": [
-        "- [ ] Felix/ClawMart — решение за бизнес модела"
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 0
+      "entryCount": 1
     },
     {
       "date": "2026-03-31",
