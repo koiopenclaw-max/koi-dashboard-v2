@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-01T12:19:35.490Z",
-  "serverUptime": 1998231,
+  "timestamp": "2026-04-01T12:29:34.765Z",
+  "serverUptime": 1998830,
   "loadAvg": [
-    "0.19",
-    "0.29",
+    "0.33",
+    "0.28",
     "0.26"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T12:19:33.246Z",
-      "ageSec": 2,
-      "tokens": 44247,
-      "lastAction": "⚡ # Validate git pull works in worker context\ncd [server-path]",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-04-01T12:28:03.426Z",
+      "ageSec": 91,
+      "tokens": 76464,
+      "lastAction": "⚡ cat >> ~/daily/2026-04-01.md << 'EOF'\n\n#",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 102670,
+      "ageSec": 103269,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T10:36:56.403Z",
-      "ageSec": 6159,
+      "ageSec": 6758,
       "tokens": 83872,
       "lastAction": "**Промпт #4: ✅ ПЕРФЕКТЕН.**  - ✅ **og:image** → company logo (Supabase) на всички страници - ✅ **twitter:image** → same",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 532532,
+          "runningSec": 533131,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 531885,
+          "runningSec": 532484,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 529719,
+          "runningSec": 530319,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 515788,
+          "runningSec": 516387,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 514569,
+          "runningSec": 515168,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 512596,
+      "ageSec": 513195,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 60774,
+      "ageSec": 61373,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 453290,
+      "ageSec": 453889,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -207,9 +207,9 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
