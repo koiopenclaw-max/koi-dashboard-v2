@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T13:05:02.539Z",
+  "updated": "2026-04-01T13:10:03.035Z",
   "totalDays": 27,
-  "totalEntries": 635,
+  "totalEntries": 636,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "13:05",
+          "text": "— Миг Трейд revision validated — - Codex finished nav font/button fix (attempt 1/3) - Already pushed to demo-sites repo (commit 0720b138) - Data status updated to `review` (commit 51cc213d) - Visual validation: ✅ no overflow (desktop/mobile), ✅ responsive, ⚠️ nav font still thin per image analysis - Status: `review` — Крис ще прегледа - Triggers cleaned: demo-revision-done + demo-action-trigger",
+          "type": "deploy"
+        },
         {
           "time": "12:55",
           "text": "✅ Миг Трейд ревизия #10 завършена: Nav menu fix — dropdown \"Продукти\" с 5 подстраници, uppercase font styling (0.8rem, 600 weight, letter-spacing 0.06em), dark dropdown panel с backdrop-blur. 11 файла обновени, push-нато + визуална валидация (desktop + mobile + dropdown hover). Status → review.",
@@ -268,7 +273,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 36
+      "entryCount": 37
     },
     {
       "date": "2026-03-31",
