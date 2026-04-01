@@ -1,12 +1,27 @@
 {
-  "updated": "2026-04-01T14:20:03.072Z",
+  "updated": "2026-04-01T14:30:03.182Z",
   "totalDays": 27,
-  "totalEntries": 643,
+  "totalEntries": 646,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "14:30",
+          "text": "✅ Миг Трейд nav ревизия v3 (final). Крис revert-на dropdown подхода. Нов подход: запазени 6 линка, но font → Playfair Display uppercase, gold underline hover, pill CTA, nowrap, logo 1.1rem + 24px gap. 4 итеративни commits (ab23fd86 → 83af20e3). Desktop+mobile = 0 overflow. Визуална валидация: чисто, професионално, consistent. Status → review.",
+          "type": "done"
+        },
+        {
+          "time": "14:22",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "14:20",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "14:11",
           "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?",
@@ -14,8 +29,8 @@
         },
         {
           "time": "13:50",
-          "text": "✅ Миг Трейд пълна nav ревизия завършена. Codex обнови index nav, Koi допълни dropdown на всички 7 подстраници. Резултат: Начало | Продукти ▾ (5 категории) | Галерия | CTA pill. Playfair Display, hover dropdown работи. 0 overflow desktop+mobile. Status → review.",
-          "type": "build"
+          "text": "✅ Миг Трейд dropdown nav ревизия (revert-ната после от Крис).",
+          "type": "done"
         },
         {
           "time": "13:37",
@@ -308,7 +323,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 44
+      "entryCount": 47
     },
     {
       "date": "2026-03-31",
