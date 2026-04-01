@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T12:00:02.892Z",
+  "updated": "2026-04-01T12:05:03.141Z",
   "totalDays": 27,
-  "totalEntries": 622,
+  "totalEntries": 623,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "12:05",
+          "text": "Блок 1 промени завършени: - 1.1 Crash fix: filename filter добавен в executeRevisions + executeKoiRevision - 1.2 Koi validation gate: executeRevisions спира след Codex, пише trigger, вика openclaw system event, чака Koi - 1.3 Webhook: POST /webhook/github в proxy (HMAC verified) → /hooks/wake. GitHub webhook ID 603911832 активен. - 1.4 START/ERROR нотификации добавени в executeRevisions - Worker рестартиран, proxy рестартиран, syntax OK - E2E тест чака следваща реална ревизия (Миг Трейд вече е в review status)",
+          "type": "build"
+        },
         {
           "time": "11:49",
           "text": "Крис одобри v3 плана. Започваме Блок 1: спешни поправки.",
@@ -202,7 +207,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 23
+      "entryCount": 24
     },
     {
       "date": "2026-03-31",
