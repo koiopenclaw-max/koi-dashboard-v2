@@ -1,12 +1,27 @@
 {
-  "updated": "2026-04-01T12:45:03.133Z",
+  "updated": "2026-04-01T12:55:02.598Z",
   "totalDays": 27,
-  "totalEntries": 631,
+  "totalEntries": 634,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "12:54",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "12:50",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "12:45",
+          "text": "🔧 Миг Трейд ревизия #10: Крис иска fix на навигационното меню — грозен шрифт + некрасиво подредени бутони. Решение: dropdown \"Продукти\" за 4-те продуктови страници, по-добър font styling (uppercase, letter-spacing), по-чисто меню. Spawn-нат Codex за fix на 10 HTML файла.",
+          "type": "build"
+        },
         {
           "time": "12:35",
           "text": "✅ Миг Трейд ревизия завършена. Codex промени ревъртнати (сменяше nav линкове на anchors, hero image, махаше product card links). Ръчен surgical fix: nav font → DM Sans, padding/spacing, border-radius на CTA, logo nowrap, consistent across all 6 HTML pages. Визуална валидация: 3 итерации, финална — 5/5 checks passed. Status → review.",
@@ -243,11 +258,12 @@
         "- **postCodex():** diff audit → QA → slop → ship decision → autofix context",
         "- **postCodex():** diff audit след Codex, QA + ship decision след deploy",
         "- Файл: demo-sites-ux-audit-plan.docx",
-        "- **11:49** — Крис одобри v3 плана. Започваме Блок 1: спешни поправки."
+        "- **11:49** — Крис одобри v3 плана. Започваме Блок 1: спешни поправки.",
+        "- **12:45** 🔧 Миг Трейд ревизия #10: Крис иска fix на навигационното меню — грозен шрифт + некрасиво подредени бутони. Решение: dropdown \"Продукти\" за 4-те продуктови страници, по-добър font styling (uppercase, letter-spacing), по-чисто меню. Spawn-нат Codex за fix на 10 HTML файла."
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 32
+      "entryCount": 35
     },
     {
       "date": "2026-03-31",
