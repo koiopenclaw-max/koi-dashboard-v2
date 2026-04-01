@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T06:55:03.287Z",
+  "updated": "2026-04-01T07:00:02.572Z",
   "totalDays": 27,
-  "totalEntries": 601,
+  "totalEntries": 602,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "06:53",
+          "text": "UTC — Demo Sites v2 Phase 4: Auto-Fix модул — - Създаден `demo-autofix.js` — генерира Codex fix prompt от QA/Slop failures - Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`) - Warnings НИКОГА не блокират — само се докладват - Critical/Slop failures → AUTOFIX (до 3 опита, после escalate topic 49) - `evaluateFix()` сравнява before/after QA → improved/fixed/feedback - `buildFixContext()` включва предишен feedback при retry → \"Try a DIFFERENT fix strategy\" - Тествано с реални QA данни от Искрови (3 critical overflow → генериран конкретен prompt с пиксели)",
+          "type": "build"
+        },
         {
           "time": "06:45",
           "text": "UTC — Demo Sites v2 Phase 4: Slop + QA модули — - Създадени 2 нови модула: `demo-slop.js` + `demo-qa.js` - **demo-slop.js:** Парсва image model response, scoring (100-pt), grade (A-F), overrides, Codex fix prompt генератор - **demo-qa.js:** Автоматизирани проверки — HTTP status, h-overflow (3 viewport-а), broken images, hero visibility, JS errors, footer, meta tags, internal links - **shipDecision():** Комбинира QA + Slop → Go/No-go - Тествано с реални сайтове: - Емпика (demo58): QA passed, 4 warnings (2 broken Unsplash images, title дълъг) - Искрови (demo62): QA FAILED — horizontal overflow на 3 breakpoint-а (1320>1200, 888>768, 510>390) - Slop parsing тестван с mock responses — scoring + overrides + fix prompts коректни - Integration test: 4 сценария (QA fail/pass × Slop fail/pass) — всички правилни",
@@ -88,11 +93,12 @@
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug",
-        "- **shipDecision():** Комбинира QA + Slop → Go/No-go"
+        "- **shipDecision():** Комбинира QA + Slop → Go/No-go",
+        "- Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`)"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 2
+      "entryCount": 3
     },
     {
       "date": "2026-03-31",
