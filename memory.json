@@ -1,43 +1,12 @@
 {
-  "updated": "2026-04-01T06:05:02.725Z",
+  "updated": "2026-04-01T06:10:02.899Z",
   "totalDays": 27,
-  "totalEntries": 605,
+  "totalEntries": 599,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
-      "entries": [
-        {
-          "time": "05:40",
-          "text": "TEST PASS: `demo-tags.js` exports OK, `demo-manifest.js` exports OK, `demo-rollback.sh` syntax OK + executable. Integration: `generateManifest('миг-трейд')` върна 12 файла. Phase 1 foundation modules завършени.",
-          "type": "done"
-        },
-        {
-          "time": "05:39",
-          "text": "Създадени са трите Phase 1 файла в `workspace/scripts/` с try/catch, git timeout-и и UTF-8 file ops. Следва: `chmod +x` + export/syntax/integration tests.",
-          "type": "default"
-        },
-        {
-          "time": "05:35",
-          "text": "Verified target repo paths за Demo Sites v2 Phase 1: `[server-path], demo slug `миг-трейд`, data JSON exists. Започвам имплементация на `demo-tags.js`, `demo-manifest.js`, `demo-rollback.sh`.",
-          "type": "default"
-        },
-        {
-          "time": "05:33",
-          "text": "STARTED: Codex run за Phase 1 foundation modules в `~/scripts/`. Зареждам QMD контекст + `PROMPT-phase1.md`, после създавам 3 файла и пускам тестовете.",
-          "type": "build"
-        },
-        {
-          "time": "05:31",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "05:10",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        }
-      ],
+      "entries": [],
       "priorities": [
         {
           "done": false,
@@ -73,30 +42,6 @@
         },
         {
           "done": false,
-          "text": "📋 Demo Sites v2 реализация — ако Крис одобри плана от 03-31"
-        },
-        {
-          "done": false,
-          "text": "📋 Demo Sites v2 план v3 — одобрение за старт (5 фази, 8-13 дни)"
-        },
-        {
-          "done": false,
-          "text": "Дентален център Искрови — review (revision 2: Tabler Icons + SEO)"
-        },
-        {
-          "done": false,
-          "text": "Врати Кайлъка — review (reverted to original build)"
-        },
-        {
-          "done": false,
-          "text": "Миг Трейд — review (6 продуктови страници)"
-        },
-        {
-          "done": false,
-          "text": "Стоянов Пласт — review (multi-page PVC/AL, Slop A 90!)"
-        },
-        {
-          "done": false,
           "text": "Одиторска кантора Узунова — review approval"
         },
         {
@@ -121,7 +66,7 @@
         },
         {
           "done": false,
-          "text": "Momerly Phase 6: Admin Dashboard"
+          "text": "✅ Momerly Phase 6: Admin Dashboard (Phase 1 Foundation готов — системно съобщение)"
         },
         {
           "done": false,
@@ -130,12 +75,11 @@
       ],
       "insights": [],
       "decisions": [
-        "- [ ] 📋 Demo Sites v2 реализация — ако Крис одобри плана от 03-31",
         "- [ ] Felix/ClawMart — решение за бизнес модела"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 6
+      "entryCount": 0
     },
     {
       "date": "2026-03-31",
