@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T08:50:03.222Z",
+  "updated": "2026-04-01T09:00:02.454Z",
   "totalDays": 27,
-  "totalEntries": 608,
+  "totalEntries": 609,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "08:52",
+          "text": "UTC — Demo Sites UX: Спринт 1+2 РЕАЛИЗИРАНИ — - Validation скрипт: `scripts/demo-platform-validate.js` — 10 автоматични теста - **BEFORE:** 0/10 PASS - **AFTER:** 10/10 PASS - Какво е оправено: - #1 Mobile overflow: .project-card flex-direction:column на mobile, header flex-wrap - #2 Tap targets: min-height:44px за всички header бутони + dashboard бутони - #3 Search + Filter: search input, status filter dropdown, sort dropdown (renderDashboard обновен) - #4 Deep linking: URL hash routing (#project/slug), popstate listener, handleHash() - #5 Name truncation: -webkit-line-clamp:2 на mobile - #7 Status labels: \"deployed\" → \"Качен\" - #6 deployed CSS badge стил добавен",
+          "type": "deploy"
+        },
         {
           "time": "08:00",
           "text": "UTC — Demo Sites UX одит (пълен Playwright audit) — - Крис поиска пълен UX одит на Demo Sites платформата \"от А до Я\" - Тестване с Playwright на 3 viewport-а (1440, 768, 390px), 11 screenshots - Открити 17 проблема: 4 критични, 4 сериозни, 5 средни, 4 nice-to-have - Критични: Login не работи, mobile overflow, форма се чупи, card detail view липсва - Генериран .docx план с 4 фази (35-49ч общо) - ⚠️ УРОК: Първа версия на документа беше с ТРАНСЛИТЕРАЦИЯ (шльокавица). Крис хвана за 3-ти път. ДОКУМЕНТИ НА БЪЛГАРСКИ = КИРИЛИЦА. БЕЗ ИЗКЛЮЧЕНИЯ. Записано в AGENTS.md. - Файл: demo-sites-ux-audit-plan.docx",
@@ -131,7 +136,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 9
+      "entryCount": 10
     },
     {
       "date": "2026-03-31",
