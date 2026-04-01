@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T07:00:02.572Z",
+  "updated": "2026-04-01T07:05:02.926Z",
   "totalDays": 27,
-  "totalEntries": 602,
+  "totalEntries": 603,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "06:56",
+          "text": "UTC — Demo Sites v2 Phase 5: Pipeline Orchestrator — - Създаден `demo-pipeline.js` — единна точка за координация на всички v2 модули - **preCodex():** tag → manifest → scope → sandbox → measure (подготовка за Codex) - **postCodex():** diff audit → QA → slop → ship decision → autofix context - **prepareAutoFix() / evaluateAutoFix():** Auto-fix loop (до 3 опита) - **formatReport():** Human-readable pipeline report - E2E тест с Искрови: pre → scope(EDIT/high) → sandbox → measure(17 elements) → diff(clean) → QA(3 critical overflow) → AUTOFIX triggered → context generated - Pipeline state се persist-ва в /tmp за инспекция - Всички модули optional — graceful degradation ако липсва нещо - ГОТОВ за интеграция в demo-worker.js",
+          "type": "build"
+        },
         {
           "time": "06:53",
           "text": "UTC — Demo Sites v2 Phase 4: Auto-Fix модул — - Създаден `demo-autofix.js` — генерира Codex fix prompt от QA/Slop failures - Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`) - Warnings НИКОГА не блокират — само се докладват - Critical/Slop failures → AUTOFIX (до 3 опита, после escalate topic 49) - `evaluateFix()` сравнява before/after QA → improved/fixed/feedback - `buildFixContext()` включва предишен feedback при retry → \"Try a DIFFERENT fix strategy\" - Тествано с реални QA данни от Искрови (3 critical overflow → генериран конкретен prompt с пиксели)",
@@ -94,11 +99,12 @@
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug",
         "- **shipDecision():** Комбинира QA + Slop → Go/No-go",
-        "- Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`)"
+        "- Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`)",
+        "- **postCodex():** diff audit → QA → slop → ship decision → autofix context"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 3
+      "entryCount": 4
     },
     {
       "date": "2026-03-31",
