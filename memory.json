@@ -1,12 +1,37 @@
 {
-  "updated": "2026-04-01T05:25:02.584Z",
+  "updated": "2026-04-01T05:35:03.084Z",
   "totalDays": 27,
-  "totalEntries": 600,
+  "totalEntries": 605,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "05:40",
+          "text": "TEST PASS: `demo-tags.js` exports OK, `demo-manifest.js` exports OK, `demo-rollback.sh` syntax OK + executable. Integration: `generateManifest('миг-трейд')` върна 12 файла. Phase 1 foundation modules завършени.",
+          "type": "done"
+        },
+        {
+          "time": "05:39",
+          "text": "Създадени са трите Phase 1 файла в `workspace/scripts/` с try/catch, git timeout-и и UTF-8 file ops. Следва: `chmod +x` + export/syntax/integration tests.",
+          "type": "default"
+        },
+        {
+          "time": "05:35",
+          "text": "Verified target repo paths за Demo Sites v2 Phase 1: `[server-path], demo slug `миг-трейд`, data JSON exists. Започвам имплементация на `demo-tags.js`, `demo-manifest.js`, `demo-rollback.sh`.",
+          "type": "default"
+        },
+        {
+          "time": "05:33",
+          "text": "STARTED: Codex run за Phase 1 foundation modules в `~/scripts/`. Зареждам QMD контекст + `PROMPT-phase1.md`, после създавам 3 файла и пускам тестовете.",
+          "type": "build"
+        },
+        {
+          "time": "05:31",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "05:10",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -110,7 +135,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 1
+      "entryCount": 6
     },
     {
       "date": "2026-03-31",
