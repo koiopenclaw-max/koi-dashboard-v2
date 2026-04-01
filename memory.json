@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-01T10:50:03.182Z",
+  "updated": "2026-04-01T10:55:02.509Z",
   "totalDays": 27,
-  "totalEntries": 613,
+  "totalEntries": 615,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "10:52",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "10:46",
+          "text": "Миг Трейд revision 4 (heartbeat):** Trigger `/tmp/demo-action-trigger-миг-трейд.json` → status=revisions. Същата заявка като rev #1 — отделни страници за всеки продукт. Анализ: homepage НЕ линква към subpages, навигацията е само anchors, `vhodni-vrati.html` не съществува, `ogradi-portali.html` → broken link (трябва `ogradi-i-portali.html`). Spawn-нат Codex: създай vhodni-vrati.html, линкни cards от homepage, fix nav на всички страници.",
+          "type": "build"
+        },
         {
           "time": "10:39",
           "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo",
@@ -156,7 +166,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 14
+      "entryCount": 16
     },
     {
       "date": "2026-03-31",
