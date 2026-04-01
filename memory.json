@@ -1,12 +1,27 @@
 {
-  "updated": "2026-04-01T11:50:02.781Z",
+  "updated": "2026-04-01T11:55:02.752Z",
   "totalDays": 27,
-  "totalEntries": 619,
+  "totalEntries": 622,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "11:49",
+          "text": "Крис одобри v3 плана. Започваме Блок 1: спешни поправки.",
+          "type": "decision"
+        },
+        {
+          "time": "11:35",
+          "text": "Крис поиска документ. Направени 3 версии: v1 (повърхностен), v2 (с flow диаграми), v3 (финален с коригирани AUTO/SUPERVISED/MANUAL дефиниции). Ключово: ВСЯКА ревизия има визуална валидация — AUTO ползва image model, SUPERVISED ползва Koi лично.",
+          "type": "default"
+        },
+        {
+          "time": "11:30",
+          "text": "Крис поиска пълен анализ на demo sites v2 flow. Направен подробен репорт: Фази 1-3 работят, Фаза 4 (QA/Slop/AutoFix) написана но нетествана, Фаза 5 (класификация) не е започната. Системен проблем: Koi не участва в revision flow (executeRevisions вместо executeKoiRevision).",
+          "type": "default"
+        },
         {
           "time": "11:07",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -182,11 +197,12 @@
         "- Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`)",
         "- **postCodex():** diff audit → QA → slop → ship decision → autofix context",
         "- **postCodex():** diff audit след Codex, QA + ship decision след deploy",
-        "- Файл: demo-sites-ux-audit-plan.docx"
+        "- Файл: demo-sites-ux-audit-plan.docx",
+        "- **11:49** — Крис одобри v3 плана. Започваме Блок 1: спешни поправки."
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 20
+      "entryCount": 23
     },
     {
       "date": "2026-03-31",
