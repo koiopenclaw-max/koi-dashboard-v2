@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T07:10:03.161Z",
+  "updated": "2026-04-01T07:25:03.064Z",
   "totalDays": 27,
-  "totalEntries": 603,
+  "totalEntries": 604,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "07:07",
+          "text": "UTC — Demo Sites v2: Пълен одит от А до Я с реални проекти — **7 preCodex теста:** - Богданови (card overflow + mobile) → EDIT/medium, writeFiles: [style.css, subpage.css] ✅ - Узунова (HTML entities) → EDIT/high, writeFiles: [index.html] ✅ - Искрови (icons + НЗОК badge) → EDIT/high, writeFiles: [uslugi.html, index.html] ✅ - Емпика (vague theme complaint) → EDIT/medium, writeFiles: [index.html] ✅ - Врати Кайлъка (contacts + FB) → EDIT/high, writeFiles: [index.html] ✅ - \"не ми харесва\" (vague) → STOP: Low confidence ✅ - CREATE нова страница → CREATE/high, newFiles: [services.html] ✅ **QA на 6 живи сайта:** - Активи Консулт → SHIP (4 warnings: broken Unsplash + title) - Узунова → AUTOFIX (overflow tablet 50px, mobile 92px)",
+          "type": "build"
+        },
         {
           "time": "06:56",
           "text": "UTC — Demo Sites v2 Phase 5: Pipeline Orchestrator — - Създаден `demo-pipeline.js` — единна точка за координация на всички v2 модули - **preCodex():** tag → manifest → scope → sandbox → measure (подготовка за Codex) - **postCodex():** diff audit → QA → slop → ship decision → autofix context - **prepareAutoFix() / evaluateAutoFix():** Auto-fix loop (до 3 опита) - **formatReport():** Human-readable pipeline report - E2E тест с Искрови: pre → scope(EDIT/high) → sandbox → measure(17 elements) → diff(clean) → QA(3 critical overflow) → AUTOFIX triggered → context generated - Pipeline state се persist-ва в /tmp за инспекция - Всички модули optional — graceful degradation ако липсва нещо - ГОТОВ за интеграция в demo-worker.js",
@@ -104,7 +109,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 4
+      "entryCount": 5
     },
     {
       "date": "2026-03-31",
