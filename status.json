@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-01T07:59:34.251Z",
-  "serverUptime": 1982629,
+  "timestamp": "2026-04-01T08:04:34.193Z",
+  "serverUptime": 1982929,
   "loadAvg": [
-    "0.11",
-    "0.23",
-    "0.16"
+    "0.06",
+    "0.13",
+    "0.13"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T07:59:24.301Z",
-      "ageSec": 9,
+      "lastUpdate": "2026-04-01T08:04:27.469Z",
+      "ageSec": 6,
       "tokens": 53355,
-      "lastAction": "Имам достатъчно данни. Ето пълния одит:  ---  [[reply_to_current]]  ## 🔍 UX Одит — Demo Sites Платформа *от гледна точка",
+      "lastAction": "⚡ cd /tmp && NODE_PATH=$(npm root -g) node gen-audit-plan.js 2>&1",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 87068,
+      "ageSec": 87368,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T07:26:38.198Z",
-      "ageSec": 1976,
+      "ageSec": 2275,
       "tokens": 37743,
       "lastAction": "[[reply_to_current]] Ето го, Крис 📋  100 точки, 4 секции:  🔍 **SEO** — техническа (crawl, мета, структура, линкове, скор",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 516931,
+          "runningSec": 517231,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 516284,
+          "runningSec": 516584,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 514118,
+          "runningSec": 514418,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 500187,
+          "runningSec": 500486,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 498968,
+          "runningSec": 499268,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 496994,
+      "ageSec": 497294,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 45172,
+      "ageSec": 45472,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 437688,
+      "ageSec": 437988,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
