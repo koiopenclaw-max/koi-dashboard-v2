@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T12:35:02.371Z",
+  "updated": "2026-04-01T12:40:02.649Z",
   "totalDays": 27,
-  "totalEntries": 630,
+  "totalEntries": 631,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "12:35",
+          "text": "✅ Миг Трейд ревизия завършена. Codex промени ревъртнати (сменяше nav линкове на anchors, hero image, махаше product card links). Ръчен surgical fix: nav font → DM Sans, padding/spacing, border-radius на CTA, logo nowrap, consistent across all 6 HTML pages. Визуална валидация: 3 итерации, финална — 5/5 checks passed. Status → review.",
+          "type": "build"
+        },
         {
           "time": "12:25",
           "text": "🔴 Rev7 Миг Трейд — Codex scope blowout + rollback — - Крис пусна rev7: \"смени шрифта на менюто\" - Codex получи целия index.html (40KB) + scope \"EDIT\" → пренаписа 174 реда вместо 3 - Структура, визия, всичко променено. Крис хвана веднага. - Rollback: `git revert 6bd4ef63` → push-нат, сайтът възстановен - **Root cause:** Codex получава цели файлове за микро-промени - **Fix needed:** Koi трябва да определя ТОЧНИТЕ редове и да подава patch, не цял файл - **Крис:** \"Не проценти — конкретното нещо. Търсим ефективност, не шанс за успех.\" - Инцидент документиран, fix в worker pending",
@@ -242,7 +247,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 31
+      "entryCount": 32
     },
     {
       "date": "2026-03-31",
