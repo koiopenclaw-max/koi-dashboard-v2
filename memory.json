@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T14:10:03.104Z",
+  "updated": "2026-04-01T14:15:02.876Z",
   "totalDays": 27,
-  "totalEntries": 642,
+  "totalEntries": 643,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "14:11",
+          "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?",
+          "type": "default"
+        },
         {
           "time": "13:50",
           "text": "✅ Миг Трейд пълна nav ревизия завършена. Codex обнови index nav, Koi допълни dropdown на всички 7 подстраници. Резултат: Начало | Продукти ▾ (5 категории) | Галерия | CTA pill. Playfair Display, hover dropdown работи. 0 overflow desktop+mobile. Status → review.",
@@ -303,7 +308,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 43
+      "entryCount": 44
     },
     {
       "date": "2026-03-31",
