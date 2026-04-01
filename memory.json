@@ -1,15 +1,20 @@
 {
-  "updated": "2026-04-01T09:45:02.376Z",
+  "updated": "2026-04-01T09:55:02.476Z",
   "totalDays": 27,
-  "totalEntries": 610,
+  "totalEntries": 611,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
         {
+          "time": "09:55",
+          "text": "UTC — Demo Sites UX: Спринт 4 РЕАЛИЗИРАН (ФИНАЛЕН) — - **Light mode:** CSS variables за [data-theme=\"light\"], toggle бутон 🌙/☀️, localStorage persistence - **Keyboard shortcuts:** / Търси, N Нов проект, Q Задачи, J/K навигация, Enter отвори, Esc назад, ? помощ - kb-focus стил (accent outline) за J/K навигация - Validation: 10/10 PASS (4 бутона >= 44px — theme бутонът също) - Commit: ec44b062 - **ВСИЧКИ 4 СПРИНТА ЗАВЪРШЕНИ:** - Спринт 1: Mobile fix (overflow, tap targets, truncation, status labels) - Спринт 2: Search/filter/sort, deep linking - Спринт 3: Task Queue tabs, deep links в нотификации - Спринт 4: Light mode, keyboard shortcuts - Before: 0/10 → After: 10/10 PASS",
+          "type": "done"
+        },
+        {
           "time": "09:03",
-          "text": "UTC — Demo Sites UX: Спринт 3 РЕАЛИЗИРАН — - Task Queue redesign: табове (Активни/Завършени/Грешки), human-readable результати, лимит 15 - Deep links в Telegram нотификациите: projectUrl() helper, 6 нотификации обновени с <a href> - Worker рестартиран (pm2) - Validation: 10/10 PASS (все още) - Commits: 799413e1 - Остава Спринт 4: keyboard shortcuts, light mode",
+          "text": "UTC — Demo Sites UX: Спринт 3 РЕАЛИЗИРАН — - Task Queue redesign: табове (Активни/Завършени/Грешки), human-readable результати, лимит 15 - Deep links в Telegram нотификациите: projectUrl() helper, 6 нотификации обновени с <a href> - Worker рестартиран (pm2) - Validation: 10/10 PASS (все още) - Commits: 799413e1",
           "type": "done"
         },
         {
@@ -141,7 +146,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 11
+      "entryCount": 12
     },
     {
       "date": "2026-03-31",
