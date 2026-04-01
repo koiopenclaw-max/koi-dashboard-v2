@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-01T14:09:35.197Z",
-  "serverUptime": 2004830,
+  "timestamp": "2026-04-01T14:14:35.718Z",
+  "serverUptime": 2005131,
   "loadAvg": [
-    "0.17",
-    "0.08",
-    "0.14"
+    "0.19",
+    "0.21",
+    "0.18"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T14:09:28.587Z",
-      "ageSec": 6,
-      "tokens": 152424,
-      "lastAction": "Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧНО поисканото - Max 5",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": null,
+      "ageSec": 999999,
+      "tokens": 0,
+      "lastAction": "",
       "hasProcess": false,
-      "hasSession": true,
+      "hasSession": false,
       "subAgents": []
     },
     {
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 109269,
+      "ageSec": 109570,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T10:36:56.403Z",
-      "ageSec": 12758,
+      "ageSec": 13059,
       "tokens": 83872,
       "lastAction": "**Промпт #4: ✅ ПЕРФЕКТЕН.**  - ✅ **og:image** → company logo (Supabase) на всички страници - ✅ **twitter:image** → same",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 539132,
+          "runningSec": 539432,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 538485,
+          "runningSec": 538785,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 536319,
+          "runningSec": 536620,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 522387,
+          "runningSec": 522688,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 521169,
+          "runningSec": 521469,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 519195,
+      "ageSec": 519496,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 67373,
+      "ageSec": 67674,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 459889,
+      "ageSec": 460190,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,17 +200,48 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1563933",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "01:23",
+      "elapsedSec": 83,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1563935",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "01:23",
+      "elapsedSec": 83,
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1563943",
+      "cpu": "1.5",
+      "mem": "1.6",
+      "elapsed": "01:23",
+      "elapsedSec": 83,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
