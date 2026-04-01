@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T13:40:03.072Z",
+  "updated": "2026-04-01T13:50:03.302Z",
   "totalDays": 27,
-  "totalEntries": 641,
+  "totalEntries": 642,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "13:50",
+          "text": "✅ Миг Трейд пълна nav ревизия завършена. Codex обнови index nav, Koi допълни dropdown на всички 7 подстраници. Резултат: Начало | Продукти ▾ (5 категории) | Галерия | CTA pill. Playfair Display, hover dropdown работи. 0 overflow desktop+mobile. Status → review.",
+          "type": "build"
+        },
         {
           "time": "13:37",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -298,7 +303,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 42
+      "entryCount": 43
     },
     {
       "date": "2026-03-31",
