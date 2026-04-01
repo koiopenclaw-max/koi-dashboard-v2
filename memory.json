@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T08:15:02.914Z",
+  "updated": "2026-04-01T08:20:03.004Z",
   "totalDays": 27,
-  "totalEntries": 607,
+  "totalEntries": 608,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "08:00",
+          "text": "UTC — Demo Sites UX одит (пълен Playwright audit) — - Крис поиска пълен UX одит на Demo Sites платформата \"от А до Я\" - Тестване с Playwright на 3 viewport-а (1440, 768, 390px), 11 screenshots - Открити 17 проблема: 4 критични, 4 сериозни, 5 средни, 4 nice-to-have - Критични: Login не работи, mobile overflow, форма се чупи, card detail view липсва - Генериран .docx план с 4 фази (35-49ч общо) - ⚠️ УРОК: Първа версия на документа беше с ТРАНСЛИТЕРАЦИЯ (шльокавица). Крис хвана за 3-ти път. ДОКУМЕНТИ НА БЪЛГАРСКИ = КИРИЛИЦА. БЕЗ ИЗКЛЮЧЕНИЯ. Записано в AGENTS.md. - Файл: demo-sites-ux-audit-plan.docx",
+          "type": "default"
+        },
         {
           "time": "07:44",
           "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U",
@@ -121,11 +126,12 @@
         "- **shipDecision():** Комбинира QA + Slop → Go/No-go",
         "- Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`)",
         "- **postCodex():** diff audit → QA → slop → ship decision → autofix context",
-        "- **postCodex():** diff audit след Codex, QA + ship decision след deploy"
+        "- **postCodex():** diff audit след Codex, QA + ship decision след deploy",
+        "- Файл: demo-sites-ux-audit-plan.docx"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 8
+      "entryCount": 9
     },
     {
       "date": "2026-03-31",
