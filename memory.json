@@ -1,8 +1,94 @@
 {
-  "updated": "2026-04-01T20:55:03.048Z",
-  "totalDays": 27,
+  "updated": "2026-04-01T21:05:02.355Z",
+  "totalDays": 28,
   "totalEntries": 646,
   "days": [
+    {
+      "date": "2026-04-02",
+      "dayName": "Четвъртък",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign — текущият записва random фрагменти, не решения/одобрения"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning автоматизация (config generator готов, чака DO акаунт)"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 готови skills за листване (нулев cost, бърз start)"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline за Persona Creation — следваща фаза след /plan-eng-review"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Преглед на foundation modules + следваща стъпка"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — review (последна ревизия: dropdown nav)"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
