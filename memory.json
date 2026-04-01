@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-01T12:10:02.361Z",
+  "updated": "2026-04-01T12:15:03.109Z",
   "totalDays": 27,
-  "totalEntries": 626,
+  "totalEntries": 628,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "12:13",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "12:08",
+          "text": "✅ Миг Трейд Rev6 ВАЛИДИРАНА: Всички 6 снимки от mig-trade.com зареждат (200 OK). Visual check — автентични продуктови снимки, правилни категории (врати, решетки, портали, огради). Layout OK, 3-column grid. Trigger файлове изчистени.",
+          "type": "done"
+        },
         {
           "time": "12:07",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -222,7 +232,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 27
+      "entryCount": 29
     },
     {
       "date": "2026-03-31",
