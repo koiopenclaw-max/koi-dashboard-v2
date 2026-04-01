@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T13:00:02.974Z",
+  "updated": "2026-04-01T13:05:02.539Z",
   "totalDays": 27,
-  "totalEntries": 634,
+  "totalEntries": 635,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "12:55",
+          "text": "✅ Миг Трейд ревизия #10 завършена: Nav menu fix — dropdown \"Продукти\" с 5 подстраници, uppercase font styling (0.8rem, 600 weight, letter-spacing 0.06em), dark dropdown panel с backdrop-blur. 11 файла обновени, push-нато + визуална валидация (desktop + mobile + dropdown hover). Status → review.",
+          "type": "deploy"
+        },
         {
           "time": "12:54",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -263,7 +268,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 35
+      "entryCount": 36
     },
     {
       "date": "2026-03-31",
