@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-01T07:40:02.361Z",
+  "updated": "2026-04-01T07:45:02.963Z",
   "totalDays": 27,
-  "totalEntries": 605,
+  "totalEntries": 607,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "07:44",
+          "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U",
+          "type": "done"
+        },
+        {
+          "time": "07:38",
+          "text": "UTC — Demo Sites v2: Worker интеграция (Стъпка 7 — ФИНАЛНА) — - `executeRevisions()` пренаписан: 500 реда v5 → v6 с pipeline calls - **preCodex():** tag + manifest + scope + sandbox + measure — една функция - **Scope STOP → handleScopeStop():** генерира въпроси + status=needs_clarification + push - **postCodex():** diff audit след Codex, QA + ship decision след deploy - **AUTO-FIX LOOP:** Ако QA хване critical → Codex fix → re-QA → до 3 пъти - Worker рестартиран (pm2), всички 11 модула заредени, polling 30s - Всички v2 модули вързани end-to-end: trigger → scope → codex → diff → deploy → QA → autofix → done - **DEMO SITES v2 PIPELINE: COMPLETE ✅**",
+          "type": "deploy"
+        },
         {
           "time": "07:25",
           "text": "UTC — Demo Sites v2: needs_clarification flow — - Нов статус `needs_clarification` — когато инструкцията е неясна - `generateClarificationQuestions()` генерира 3-5 конкретни въпроса на български с опции - `handleScopeStop()` координира: scope STOP → въпроси → data update - **UI в платформата:** Потребителят вижда въпросите + textarea за всеки + бутон \"Изпрати отговорите\" - `submitClarification()` в JS: събира отговорите → обогатява инструкцията → status=revisions → pipeline тръгва отново - Тествано: \"не ми харесва\" → 5 конкретни въпроса за Активи Консулт (цветове? снимки? шрифтове? подредба? стил?) - Push-нато в demo-sites repo - Worker STATUS_ORDER обновен с needs_clarification (позиция 7)",
@@ -110,11 +120,12 @@
         "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug",
         "- **shipDecision():** Комбинира QA + Slop → Go/No-go",
         "- Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`)",
-        "- **postCodex():** diff audit → QA → slop → ship decision → autofix context"
+        "- **postCodex():** diff audit → QA → slop → ship decision → autofix context",
+        "- **postCodex():** diff audit след Codex, QA + ship decision след deploy"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 6
+      "entryCount": 8
     },
     {
       "date": "2026-03-31",
