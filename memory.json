@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-01T07:30:03.142Z",
+  "updated": "2026-04-01T07:35:02.107Z",
   "totalDays": 27,
-  "totalEntries": 604,
+  "totalEntries": 605,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "07:25",
+          "text": "UTC — Demo Sites v2: needs_clarification flow — - Нов статус `needs_clarification` — когато инструкцията е неясна - `generateClarificationQuestions()` генерира 3-5 конкретни въпроса на български с опции - `handleScopeStop()` координира: scope STOP → въпроси → data update - **UI в платформата:** Потребителят вижда въпросите + textarea за всеки + бутон \"Изпрати отговорите\" - `submitClarification()` в JS: събира отговорите → обогатява инструкцията → status=revisions → pipeline тръгва отново - Тествано: \"не ми харесва\" → 5 конкретни въпроса за Активи Консулт (цветове? снимки? шрифтове? подредба? стил?) - Push-нато в demo-sites repo - Worker STATUS_ORDER обновен с needs_clarification (позиция 7)",
+          "type": "deploy"
+        },
         {
           "time": "07:07",
           "text": "UTC — Demo Sites v2: Пълен одит от А до Я с реални проекти — **7 preCodex теста:** - Богданови (card overflow + mobile) → EDIT/medium, writeFiles: [style.css, subpage.css] ✅ - Узунова (HTML entities) → EDIT/high, writeFiles: [index.html] ✅ - Искрови (icons + НЗОК badge) → EDIT/high, writeFiles: [uslugi.html, index.html] ✅ - Емпика (vague theme complaint) → EDIT/medium, writeFiles: [index.html] ✅ - Врати Кайлъка (contacts + FB) → EDIT/high, writeFiles: [index.html] ✅ - \"не ми харесва\" (vague) → STOP: Low confidence ✅ - CREATE нова страница → CREATE/high, newFiles: [services.html] ✅ **QA на 6 живи сайта:** - Активи Консулт → SHIP (4 warnings: broken Unsplash + title) - Узунова → AUTOFIX (overflow tablet 50px, mobile 92px)",
@@ -109,7 +114,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 5
+      "entryCount": 6
     },
     {
       "date": "2026-03-31",
