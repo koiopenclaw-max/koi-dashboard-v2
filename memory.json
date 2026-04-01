@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-01T10:30:03.292Z",
+  "updated": "2026-04-01T10:40:02.329Z",
   "totalDays": 27,
-  "totalEntries": 611,
+  "totalEntries": 613,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "10:39",
+          "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo",
+          "type": "default"
+        },
+        {
+          "time": "10:05",
+          "text": "UTC — Demo Sites UX: Flow тестване + Light mode bugfix — - Flow 1 (нов проект): Работи end-to-end. Модал → попълване → създаване → detail view → \"Пусни за задание\". Без проблеми. - Flow 2 (корекция на съществуващ): Търсене \"Искрови\" → 1 карта → detail → textarea за ревизия + бутон \"Изпрати за корекция\". Работи. - Light mode: CSS nesting бъг — [data-theme=\"light\"] блокът беше ВЪТРЕ в :root блока. CSS не поддържа nesting без Sass. Оправено — светлата тема работи (потвърдено визуално). - Header gradient: hardcoded #0e1628 → var(--bg-deep). Сега се сменя при theme toggle. - Commit: c1dfddb0 - Финална валидация: 10/10 PASS",
+          "type": "default"
+        },
         {
           "time": "09:55",
           "text": "UTC — Demo Sites UX: Спринт 4 РЕАЛИЗИРАН (ФИНАЛЕН) — - **Light mode:** CSS variables за [data-theme=\"light\"], toggle бутон 🌙/☀️, localStorage persistence - **Keyboard shortcuts:** / Търси, N Нов проект, Q Задачи, J/K навигация, Enter отвори, Esc назад, ? помощ - kb-focus стил (accent outline) за J/K навигация - Validation: 10/10 PASS (4 бутона >= 44px — theme бутонът също) - Commit: ec44b062 - **ВСИЧКИ 4 СПРИНТА ЗАВЪРШЕНИ:** - Спринт 1: Mobile fix (overflow, tap targets, truncation, status labels) - Спринт 2: Search/filter/sort, deep linking - Спринт 3: Task Queue tabs, deep links в нотификации - Спринт 4: Light mode, keyboard shortcuts - Before: 0/10 → After: 10/10 PASS",
@@ -146,7 +156,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 12
+      "entryCount": 14
     },
     {
       "date": "2026-03-31",
