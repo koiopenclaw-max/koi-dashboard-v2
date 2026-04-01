@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-01T08:59:35.337Z",
-  "serverUptime": 1986230,
+  "timestamp": "2026-04-01T09:04:35.953Z",
+  "serverUptime": 1986531,
   "loadAvg": [
-    "0.21",
-    "0.41",
-    "0.35"
+    "0.38",
+    "0.42",
+    "0.37"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-04-01T08:58:27.765Z",
-      "ageSec": 67,
-      "tokens": 109158,
-      "lastAction": "⏳ poll calm-coral",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-01T09:04:08.674Z",
+      "ageSec": 27,
+      "tokens": 130381,
+      "lastAction": "⏳ poll rapid-breeze",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 90669,
+      "ageSec": 90970,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,12 +101,12 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-01T08:53:39.156Z",
-      "ageSec": 356,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-01T09:04:32.157Z",
+      "ageSec": 3,
       "tokens": 69190,
-      "lastAction": "**Промпт #1: ✅ ПЕРФЕКТЕН.** Lovable е свършил страхотна работа.  Проверих всичко: - ✅ **Canonical** → mura2c.com на всич",
+      "lastAction": "The AI service is temporarily overloaded. Please try again in a moment.",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 520532,
+          "runningSec": 520833,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 519885,
+          "runningSec": 520186,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 517719,
+          "runningSec": 518020,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 503788,
+          "runningSec": 504088,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 502569,
+          "runningSec": 502869,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 500595,
+      "ageSec": 500896,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 48774,
+      "ageSec": 49074,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 441289,
+      "ageSec": 441590,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,28 +200,17 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "1446571",
-      "cpu": "10.7",
-      "mem": "2.4",
-      "elapsed": "00:10",
-      "elapsedSec": 10,
-      "cmd": "[server-path] --disable-field-trial-config --disab",
-      "relatedTopic": null,
-      "procType": "build"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 2,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 10,
     "stuck": 0
   }
 }
