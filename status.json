@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-01T13:09:35.200Z",
-  "serverUptime": 2001230,
+  "timestamp": "2026-04-01T13:14:34.718Z",
+  "serverUptime": 2001530,
   "loadAvg": [
-    "0.25",
-    "0.39",
-    "0.38"
+    "0.58",
+    "0.37",
+    "0.36"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-01T13:09:04.624Z",
-      "ageSec": 30,
-      "tokens": 118951,
-      "lastAction": "⚡ # 13:01 — that's BEFORE the worker restart at 13:04. This was the old ",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-04-01T13:10:46.709Z",
+      "ageSec": 228,
+      "tokens": 123359,
+      "lastAction": "Worker чист, idle. Trigger изтрит.  Сайтът е върнат. Проблемът е: **старият done trigger от 12:51 беше обработен от hear",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 105669,
+      "ageSec": 105969,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T10:36:56.403Z",
-      "ageSec": 9158,
+      "ageSec": 9458,
       "tokens": 83872,
       "lastAction": "**Промпт #4: ✅ ПЕРФЕКТЕН.**  - ✅ **og:image** → company logo (Supabase) на всички страници - ✅ **twitter:image** → same",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 535532,
+          "runningSec": 535831,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 534885,
+          "runningSec": 535184,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 532719,
+          "runningSec": 533019,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 518787,
+          "runningSec": 519087,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 517569,
+          "runningSec": 517868,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 515595,
+      "ageSec": 515895,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T19:26:41.291Z",
-      "ageSec": 63773,
+      "ageSec": 64073,
       "tokens": 34676,
       "lastAction": "Системата работи, но Anthropic има капацитетен проблем с Opus модела. Това се случва периодично при висок трафик.",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 456289,
+      "ageSec": 456589,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -207,10 +207,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
