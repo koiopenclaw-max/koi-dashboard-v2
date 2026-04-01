@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-01T11:00:03.545Z",
+  "updated": "2026-04-01T11:05:02.545Z",
   "totalDays": 27,
-  "totalEntries": 616,
+  "totalEntries": 618,
   "days": [
     {
       "date": "2026-04-01",
       "dayName": "Сряда",
       "entries": [
+        {
+          "time": "11:05",
+          "text": "Миг Трейд rev4 DONE:** Codex завърши → всички 8 HTML файла обновени. Нова страница: vhodni-vrati.html (входни врати — 5 продукта с цени/снимки). Homepage cards кликабилни. Nav/footer уеднаквени. Broken links fixed. Push → review.",
+          "type": "deploy"
+        },
+        {
+          "time": "11:01",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "10:59",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -171,7 +181,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 17
+      "entryCount": 19
     },
     {
       "date": "2026-03-31",
