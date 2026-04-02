@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-02T11:04:35.123Z",
-  "serverUptime": 2080130,
+  "timestamp": "2026-04-02T11:14:34.868Z",
+  "serverUptime": 2080730,
   "loadAvg": [
-    "0.47",
-    "0.39",
-    "0.25"
+    "0.22",
+    "0.35",
+    "0.30"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T08:34:51.230Z",
-      "ageSec": 8983,
-      "tokens": 0,
-      "lastAction": "🔄 Auto-compact: 163088 токена → записано в daily notes. Нова сесия.",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-02T11:14:29.971Z",
+      "ageSec": 4,
+      "tokens": 52426,
+      "lastAction": "Ок Крис, ровех детайлно. Ето честната картина:  ---  **📍 Хронология:**  **01.04 (вчера):** - 04:52 — Ти одобри план v5 -",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 184569,
+      "ageSec": 185169,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -103,10 +103,10 @@
       "name": "Demo Sites",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T08:28:48.674Z",
-      "ageSec": 9346,
+      "lastUpdate": "2026-04-02T11:05:16.511Z",
+      "ageSec": 558,
       "tokens": 84828,
-      "lastAction": "✅ Миг Трейд Rev #16: Логото на фирмата добавено в главното меню на всички страници. Logo URL фиксиран.",
+      "lastAction": "✅ Миг Трейд Rev #18: Mobile menu fix — бутоните подравнени + Врати dropdown вече показва подбутоните коректно (bug в ove",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 614432,
+          "runningSec": 615032,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 613785,
+          "runningSec": 614384,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 611619,
+          "runningSec": 612219,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 597687,
+          "runningSec": 598287,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 596469,
+          "runningSec": 597068,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 594495,
+      "ageSec": 595095,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 57324,
+      "ageSec": 57924,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 535189,
+      "ageSec": 535789,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,17 +200,48 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1987296",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "04:42",
+      "elapsedSec": 282,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1987298",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "04:42",
+      "elapsedSec": 282,
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1987306",
+      "cpu": "1.8",
+      "mem": "1.6",
+      "elapsed": "04:42",
+      "elapsedSec": 282,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
