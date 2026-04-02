@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T11:05:03.085Z",
+  "updated": "2026-04-02T11:15:02.690Z",
   "totalDays": 28,
-  "totalEntries": 660,
+  "totalEntries": 661,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "11:00",
+          "text": "🔧 Миг Трейд rev#18: Mobile menu — бутони подравнени uniform (border+padding+height). Врати dropdown fix: overlay close handler затваряше менюто при toggle click → добавен skip за .mobile-dropdown-toggle. Codex промените имаха regression-и (stock gallery, загубени product links, footer links) → revert + ръчен fix. Визуално валидирано с Playwright mobile (390×844).",
+          "type": "build"
+        },
         {
           "time": "10:54",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -163,7 +168,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 14
+      "entryCount": 15
     },
     {
       "date": "2026-04-01",
