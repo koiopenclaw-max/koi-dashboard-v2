@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T07:30:02.651Z",
+  "updated": "2026-04-02T07:35:02.427Z",
   "totalDays": 28,
-  "totalEntries": 648,
+  "totalEntries": 649,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "07:20",
+          "text": "✅ **Миг Трейд — Огради галерия фиксирана**. Проблем: 6 broken снимки (xn-- punycode домейн не работи). Решение: Заменени с реални клиентски снимки от `mig-trade.com/images/portali-ogradi-parapeti/` (IMG_0563-0576 range, взети: 0563, 0564, 0565, 0567, 0570, 0573). Статус: revisions → review. Нотифициран topic 49.",
+          "type": "decision"
+        },
         {
           "time": "07:05",
           "text": "Phase 4 E2E тест — QA, Slop, AutoFix, Pipeline - QA suite: ✅ работи на 3 live сайта (Емпика, Миг Трейд, Врати Кайлъка) - Slop detector: ✅ работи с image model → parseResponse → calculateScore - AutoFix prompt generation: ✅ generateQAFixPrompt + generateFixPrompt работят - shipDecision: ✅ правилно решава SHIP vs AUTOFIX - Pipeline preCodex: ✅ tag + manifest + scope работят - Pipeline postCodex: ✅ diffAudit работи - QA+Slop данни записани в 3 data JSON файла + push-нати - Резултати: Емпика QA=PASS/Slop=D(35), Миг Трейд QA=PASS/Slop=A(90), Врати Кайлъка QA=PASS/Slop=D(25) - Блок 2 критерий: \"3 ревизии с QA данни в data JSON\" — ✅ ИЗПЪЛНЕН",
@@ -76,7 +81,7 @@
           "text": "Счетоводна къща Емпика — review"
         },
         {
-          "done": false,
+          "done": true,
           "text": "Миг Трейд — review (последна ревизия: dropdown nav)"
         },
         {
@@ -95,12 +100,13 @@
       "insights": [],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "✅ **Миг Трейд — Огради галерия фиксирана**. Проблем: 6 broken снимки (xn-- punycode домейн не работи). Решение: Заменени с реални клиентски снимки от `mig-trade.com/images/portali-ogradi-parapeti/` (IMG_0563-0576 range, взети: 0563, 0564, 0565, 0567, 0570, 0573). Статус: revisions → review. Нотифициран topic 49.",
         "- shipDecision: ✅ правилно решава SHIP vs AUTOFIX",
         "- Pipeline postCodex: ✅ diffAudit работи"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 2
+      "entryCount": 3
     },
     {
       "date": "2026-04-01",
