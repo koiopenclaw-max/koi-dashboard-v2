@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-02T07:29:34.981Z",
-  "serverUptime": 2067230,
+  "timestamp": "2026-04-02T07:34:34.528Z",
+  "serverUptime": 2067530,
   "loadAvg": [
-    "0.15",
-    "0.20",
-    "0.25"
+    "0.51",
+    "0.41",
+    "0.32"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T07:19:24.290Z",
-      "ageSec": 610,
+      "ageSec": 910,
       "tokens": 96998,
       "lastAction": "[[reply_to_current]] Давай! Миг Трейд е перфектен за тест — Slop A(90), QA clean, multi-page сайт (13 файла). Ще следя w",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 171669,
+      "ageSec": 171969,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,11 +101,11 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T07:10:50.656Z",
-      "ageSec": 1124,
-      "tokens": 83872,
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-04-02T07:33:14.371Z",
+      "ageSec": 80,
+      "tokens": 84828,
       "lastAction": "📊 Phase 4 E2E Test — ЗАВЪРШЕН  ✅ QA Suite — тестван на 3 live сайта, работи ✅ Slop Detector — image model → score/grade,",
       "hasProcess": false,
       "hasSession": true,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 601532,
+          "runningSec": 601831,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 600885,
+          "runningSec": 601184,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 598719,
+          "runningSec": 599018,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 584787,
+          "runningSec": 585087,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 583568,
+          "runningSec": 583868,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 581595,
+      "ageSec": 581895,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 44424,
+      "ageSec": 44723,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 522289,
+      "ageSec": 522589,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 0,
-    "idle": 12,
+    "recent": 1,
+    "idle": 11,
     "stuck": 0
   }
 }
