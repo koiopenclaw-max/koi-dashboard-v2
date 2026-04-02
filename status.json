@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-02T13:09:34.684Z",
-  "serverUptime": 2087630,
+  "timestamp": "2026-04-02T13:17:34.436Z",
+  "serverUptime": 2088110,
   "loadAvg": [
-    "0.13",
-    "0.25",
-    "0.27"
+    "0.91",
+    "0.50",
+    "0.35"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T11:31:26.087Z",
-      "ageSec": 5888,
-      "tokens": 62580,
-      "lastAction": "[[reply_to_current]] Миг Трейд има 2 активни ревизии в този момент:  **Ревизия #1 (10:51-10:54)** ✅ **ЗАВЪРШЕНА, чака ме",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-02T13:17:07.818Z",
+      "ageSec": 26,
+      "tokens": 64164,
+      "lastAction": "⚡ # Get full classification log and the scope for SEO task\ncd /home/claw",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 192069,
+      "ageSec": 192548,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T11:42:26.311Z",
-      "ageSec": 5228,
+      "ageSec": 5708,
       "tokens": 84828,
       "lastAction": "✅ Миг Трейд — SEO/GEO/AEO оптимизация готова: • 5 JSON-LD schema markup на всяка страница • Уникални meta title + descri",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 621931,
+          "runningSec": 622411,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 621284,
+          "runningSec": 621764,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 619119,
+          "runningSec": 619598,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 605187,
+          "runningSec": 605667,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 603968,
+          "runningSec": 604448,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 601995,
+      "ageSec": 602475,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 64824,
+      "ageSec": 65303,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 542689,
+      "ageSec": 543169,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -207,10 +207,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
     "recent": 0,
-    "idle": 12,
+    "idle": 11,
     "stuck": 0
   }
 }
