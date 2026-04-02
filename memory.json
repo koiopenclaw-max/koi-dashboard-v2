@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-02T19:35:02.735Z",
+  "updated": "2026-04-02T19:45:02.839Z",
   "totalDays": 28,
-  "totalEntries": 678,
+  "totalEntries": 680,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "19:38",
+          "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance.",
+          "type": "build"
+        },
+        {
+          "time": "19:36",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "19:32",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -245,15 +255,17 @@
       "insights": [],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance.",
         "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st",
         "✅ **Миг Трейд — Огради галерия фиксирана**. Проблем: 6 broken снимки (xn-- punycode домейн не работи). Решение: Заменени с реални клиентски снимки от `mig-trade.com/images/portali-ogradi-parapeti/` (IMG_0563-0576 range, взети: 0563, 0564, 0565, 0567, 0570, 0573). Статус: revisions → review. Нотифициран topic 49.",
+        "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance.",
         "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st",
         "- shipDecision: ✅ правилно решава SHIP vs AUTOFIX",
         "- Pipeline postCodex: ✅ diffAudit работи"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 32
+      "entryCount": 34
     },
     {
       "date": "2026-04-01",
