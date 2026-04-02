@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-02T07:39:34.612Z",
-  "serverUptime": 2067830,
+  "timestamp": "2026-04-02T07:49:34.973Z",
+  "serverUptime": 2068430,
   "loadAvg": [
-    "0.28",
-    "0.37",
-    "0.33"
+    "0.06",
+    "0.16",
+    "0.23"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T07:37:57.816Z",
-      "ageSec": 96,
+      "ageSec": 697,
       "tokens": 107647,
       "lastAction": "[[reply_to_current]] Прав си — дашбордът е първоизточникът. Виждам корекция #13 — вече е `review` с резолюция. Значи кор",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 172269,
+      "ageSec": 172869,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T07:33:14.371Z",
-      "ageSec": 380,
+      "ageSec": 980,
       "tokens": 84828,
       "lastAction": "📊 Phase 4 E2E Test — ЗАВЪРШЕН  ✅ QA Suite — тестван на 3 live сайта, работи ✅ Slop Detector — image model → score/grade,",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 602131,
+          "runningSec": 602732,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 601484,
+          "runningSec": 602085,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 599318,
+          "runningSec": 599919,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 585387,
+          "runningSec": 585987,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 584168,
+          "runningSec": 584768,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 582195,
+      "ageSec": 582795,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 45023,
+      "ageSec": 45624,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 522889,
+      "ageSec": 523489,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,7 +200,38 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "1914404",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "02:09",
+      "elapsedSec": 129,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1914406",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:09",
+      "elapsedSec": 129,
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "1914414",
+      "cpu": "0.9",
+      "mem": "1.6",
+      "elapsed": "02:09",
+      "elapsedSec": 129,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
@@ -209,8 +240,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 1,
-    "idle": 11,
+    "recent": 0,
+    "idle": 12,
     "stuck": 0
   }
 }
