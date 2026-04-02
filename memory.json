@@ -1,12 +1,32 @@
 {
-  "updated": "2026-04-02T11:35:02.303Z",
+  "updated": "2026-04-02T11:55:02.456Z",
   "totalDays": 28,
-  "totalEntries": 663,
+  "totalEntries": 667,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "11:48",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "11:40",
+          "text": "🔧 Миг Трейд SEO revision: Codex добави 5 JSON-LD schemas, OG tags, canonical URLs, уникални meta за всяка страница. Koi фиксира regression — nav dropdown + logo image отново изтрити от Codex rewrite. Навлечен pattern: при всеки голям Codex rewrite проверявай nav + logo!",
+          "type": "build"
+        },
+        {
+          "time": "11:38",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "11:35",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "11:30",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -178,7 +198,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 17
+      "entryCount": 21
     },
     {
       "date": "2026-04-01",
