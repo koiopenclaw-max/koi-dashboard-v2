@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-02T08:29:34.282Z",
-  "serverUptime": 2070829,
+  "timestamp": "2026-04-02T08:34:34.361Z",
+  "serverUptime": 2071129,
   "loadAvg": [
-    "0.51",
-    "0.48",
-    "0.43"
+    "0.34",
+    "0.40",
+    "0.40"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-04-02T08:27:49.743Z",
-      "ageSec": 104,
-      "tokens": 159113,
-      "lastAction": "[[reply_to_current]] Логото е добавено и изглежда добре — в горния ляв ъгъл на навигацията, реалното лого на Миг Трейд о",
+      "lastUpdate": "2026-04-02T08:32:32.454Z",
+      "ageSec": 121,
+      "tokens": 163088,
+      "lastAction": "Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) invert(1)` го обръща от",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 175268,
+      "ageSec": 175568,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -101,10 +101,10 @@
     {
       "topicId": "49",
       "name": "Demo Sites",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T08:28:48.674Z",
-      "ageSec": 45,
+      "ageSec": 345,
       "tokens": 84828,
       "lastAction": "✅ Миг Трейд Rev #16: Логото на фирмата добавено в главното меню на всички страници. Logo URL фиксиран.",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 605131,
+          "runningSec": 605431,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 604484,
+          "runningSec": 604784,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 602318,
+          "runningSec": 602618,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 588387,
+          "runningSec": 588687,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 587168,
+          "runningSec": 587468,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 585194,
+      "ageSec": 585494,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 48023,
+      "ageSec": 48323,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 525888,
+      "ageSec": 526188,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 2,
-    "idle": 10,
+    "recent": 1,
+    "idle": 11,
     "stuck": 0
   }
 }
