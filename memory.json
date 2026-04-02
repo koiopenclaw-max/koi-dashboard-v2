@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T08:25:02.400Z",
+  "updated": "2026-04-02T08:30:03.428Z",
   "totalDays": 28,
-  "totalEntries": 657,
+  "totalEntries": 658,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "08:26",
+          "text": "🔧 Миг Трейд rev#16: Логото на фирмата добавено в nav header на всички страници. Codex замени текстовото лого с img, Koi фиксира URL (mig-trade.com вместо абсолютен път). Визуално валидирано — лого показва се но е с бял фон на тъмен сайт (клиентът поиска).",
+          "type": "build"
+        },
         {
           "time": "08:16",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -146,7 +151,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 11
+      "entryCount": 12
     },
     {
       "date": "2026-04-01",
