@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T14:35:02.678Z",
+  "updated": "2026-04-02T14:45:02.687Z",
   "totalDays": 28,
-  "totalEntries": 668,
+  "totalEntries": 669,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "14:42",
+          "text": "UTC — Почистване на техдълг (по заявка на Крис) — **1. Execution tracker обновен** ✅ - Фаза 4 + 5 маркирани с реален статус (вече не \"pending\") - Добавена Visual Gate v9 като подзадача **2. Race condition РЕШЕН** ✅ - HEARTBEAT.md обновен: worker е PRIMARY за demo tasks - Koi heartbeat НЕ обработва demo trigger файлове (само stuck detection) - Koi обработва САМО `demo-revision-done-*.json` (post-Codex validation) - Старият revision protocol маркиран DEPRECATED **3. Модули sync-нати в demo-sites repo** ✅ - 10 модула + worker копирани като backup - WORKER-NOTE.md обяснява архитектурата",
+          "type": "build"
+        },
         {
           "time": "13:30",
           "text": "UTC — Visual Gate v9 DEPLOYED ✅ — **Проблем:** SEO корекция на Миг Трейд omaza дизайна — изтри dropdown CSS, смени mobile layout. **Решение:** Автоматичен visual gate в demo-worker.js: 1. **Before screenshots** — вече се правят (от тази сутрин) 2. **After screenshots** — нов код: `file://demoDir/index.html` screenshot след Codex 3. **Comparison gate** — ако има regression → `git checkout` revert + notify + stop (НЕ push-ва) 4. **Audit trail** — `data.v2.lastVisualGate` записва резултата 5. **v9.0** — basic checks (file size), пълно image model comparison в v9.1 **Кодът:** - `demo-screenshots.js` — нова `visualGate()` функция - `demo-worker.js` — интеграция след STEP 4 (copy files) - Commit: `9da271f2` → push-нато в demo-sites repo",
@@ -203,7 +208,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 22
+      "entryCount": 23
     },
     {
       "date": "2026-04-01",
