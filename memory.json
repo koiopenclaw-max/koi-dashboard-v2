@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T13:30:02.558Z",
+  "updated": "2026-04-02T13:45:02.948Z",
   "totalDays": 28,
-  "totalEntries": 667,
+  "totalEntries": 668,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "13:30",
+          "text": "UTC — Visual Gate v9 DEPLOYED ✅ — **Проблем:** SEO корекция на Миг Трейд omaza дизайна — изтри dropdown CSS, смени mobile layout. **Решение:** Автоматичен visual gate в demo-worker.js: 1. **Before screenshots** — вече се правят (от тази сутрин) 2. **After screenshots** — нов код: `file://demoDir/index.html` screenshot след Codex 3. **Comparison gate** — ако има regression → `git checkout` revert + notify + stop (НЕ push-ва) 4. **Audit trail** — `data.v2.lastVisualGate` записва резултата 5. **v9.0** — basic checks (file size), пълно image model comparison в v9.1 **Кодът:** - `demo-screenshots.js` — нова `visualGate()` функция - `demo-worker.js` — интеграция след STEP 4 (copy files) - Commit: `9da271f2` → push-нато в demo-sites repo",
+          "type": "deploy"
+        },
         {
           "time": "11:48",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -198,7 +203,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 21
+      "entryCount": 22
     },
     {
       "date": "2026-04-01",
