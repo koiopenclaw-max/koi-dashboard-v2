@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T18:35:02.382Z",
+  "updated": "2026-04-02T18:45:02.993Z",
   "totalDays": 28,
-  "totalEntries": 669,
+  "totalEntries": 670,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "18:36",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "14:42",
           "text": "UTC — Почистване на техдълг (по заявка на Крис) — **1. Execution tracker обновен** ✅ - Фаза 4 + 5 маркирани с реален статус (вече не \"pending\") - Добавена Visual Gate v9 като подзадача **2. Race condition РЕШЕН** ✅ - HEARTBEAT.md обновен: worker е PRIMARY за demo tasks - Koi heartbeat НЕ обработва demo trigger файлове (само stuck detection) - Koi обработва САМО `demo-revision-done-*.json` (post-Codex validation) - Старият revision protocol маркиран DEPRECATED **3. Модули sync-нати в demo-sites repo** ✅ - 10 модула + worker копирани като backup - WORKER-NOTE.md обяснява архитектурата",
@@ -208,7 +213,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 23
+      "entryCount": 24
     },
     {
       "date": "2026-04-01",
