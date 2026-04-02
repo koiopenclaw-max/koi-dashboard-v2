@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-02T08:15:02.337Z",
+  "updated": "2026-04-02T08:25:02.400Z",
   "totalDays": 28,
-  "totalEntries": 653,
+  "totalEntries": 657,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "08:16",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "08:15",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "08:11",
           "text": "🔴 ИНЦИДЕНТ: Изтрих корекция за логото на Миг Трейд - Причина: `git checkout --theirs` при merge conflict — сляпо, без да прочета какво губя - Commit: 464a03ae (\"resolve merge conflict\") - Урок: НИКОГА `--theirs` или `--ours` сляпо на data/*.json. ВИНАГИ ръчен merge. - Допълнителен урок: Не бързай с infrastructure промени когато има активни клиентски данни.",
@@ -26,6 +36,16 @@
           "time": "07:53",
           "text": "🔔 Codex приключи. Koi ревюира.",
           "type": "build"
+        },
+        {
+          "time": "07:53",
+          "text": "🔧 Миг Трейд rev#15: Nav dropdown Врати ▾ беше загубен от merge conflict resolution. Възстановен + alignment fix (display:flex + align-items:center) на 8 файла + CSS. Визуално валидирано с Playwright.",
+          "type": "default"
+        },
+        {
+          "time": "07:53",
+          "text": "🔍 Momerly Codex done: fix error handling for hosting/joined in My Activities + deploy Firestore indexes. TypeScript clean.",
+          "type": "deploy"
         },
         {
           "time": "07:20",
@@ -126,7 +146,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 7
+      "entryCount": 11
     },
     {
       "date": "2026-04-01",
