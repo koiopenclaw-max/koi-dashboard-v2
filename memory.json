@@ -1,12 +1,18 @@
 {
-  "updated": "2026-04-02T06:10:03.168Z",
+  "updated": "2026-04-02T06:15:02.797Z",
   "totalDays": 28,
-  "totalEntries": 646,
+  "totalEntries": 647,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
-      "entries": [],
+      "entries": [
+        {
+          "time": "06:13",
+          "text": "✅ OpenClaw ъпдейт **2026.4.1** — exec възстановен. Проблем: новата версия смени exec security default на `allowlist`. Fix: `security: \"full\"` + `ask: \"off\"` в config. Крис помогна от SSH. Урок: при major update проверявай exec policy промени ПРЕДИ restart.",
+          "type": "alert"
+        }
+      ],
       "priorities": [
         {
           "done": false,
@@ -87,7 +93,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 0
+      "entryCount": 1
     },
     {
       "date": "2026-04-01",
