@@ -1,8 +1,98 @@
 {
-  "updated": "2026-04-02T20:50:02.265Z",
-  "totalDays": 28,
+  "updated": "2026-04-02T21:05:02.291Z",
+  "totalDays": 29,
   "totalEntries": 680,
   "days": [
+    {
+      "date": "2026-04-03",
+      "dayName": "Петък",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign — текущият записва random фрагменти, не решения/одобрения"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning автоматизация (config generator готов, чака DO акаунт)"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 готови skills за листване (нулев cost, бърз start)"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline за Persona Creation — следваща фаза след /plan-eng-review"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 6: Преглед на foundation modules + следваща стъпка"
+        },
+        {
+          "done": false,
+          "text": "Visual Gate v9.1: ML image comparison (ако v9 хване regressions правилно)"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — review (SEO+nav+logo+mobile done)"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
@@ -252,7 +342,12 @@
           "text": "RunAI Coach — блокер: Mac достъп"
         }
       ],
-      "insights": [],
+      "insights": [
+        "**Visual Gate v9** е голяма стъпка — автоматичен revert на Codex regressions спестява часове ръчен фикс",
+        "**20+ Codex runs за 1 сайт** е симптом на scope blowout — surgical patch flow е критичен",
+        "**Blind merge resolution** (`--theirs`/`--ours`) на data файлове е опасен — винаги ръчен merge",
+        "**OpenClaw update breaking change** — нов exec security default. Проверявай release notes преди restart."
+      ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance.",
@@ -263,7 +358,7 @@
         "- shipDecision: ✅ правилно решава SHIP vs AUTOFIX",
         "- Pipeline postCodex: ✅ diffAudit работи"
       ],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 34
     },
