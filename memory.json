@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T07:05:02.637Z",
+  "updated": "2026-04-02T07:15:03.112Z",
   "totalDays": 28,
-  "totalEntries": 647,
+  "totalEntries": 648,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "07:05",
+          "text": "Phase 4 E2E тест — QA, Slop, AutoFix, Pipeline - QA suite: ✅ работи на 3 live сайта (Емпика, Миг Трейд, Врати Кайлъка) - Slop detector: ✅ работи с image model → parseResponse → calculateScore - AutoFix prompt generation: ✅ generateQAFixPrompt + generateFixPrompt работят - shipDecision: ✅ правилно решава SHIP vs AUTOFIX - Pipeline preCodex: ✅ tag + manifest + scope работят - Pipeline postCodex: ✅ diffAudit работи - QA+Slop данни записани в 3 data JSON файла + push-нати - Резултати: Емпика QA=PASS/Slop=D(35), Миг Трейд QA=PASS/Slop=A(90), Врати Кайлъка QA=PASS/Slop=D(25) - Блок 2 критерий: \"3 ревизии с QA данни в data JSON\" — ✅ ИЗПЪЛНЕН",
+          "type": "deploy"
+        },
         {
           "time": "06:13",
           "text": "✅ OpenClaw ъпдейт **2026.4.1** — exec възстановен. Проблем: новата версия смени exec security default на `allowlist`. Fix: `security: \"full\"` + `ask: \"off\"` в config. Крис помогна от SSH. Урок: при major update проверявай exec policy промени ПРЕДИ restart.",
@@ -89,11 +94,13 @@
       ],
       "insights": [],
       "decisions": [
-        "- [ ] Felix/ClawMart — решение за бизнес модела"
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- shipDecision: ✅ правилно решава SHIP vs AUTOFIX",
+        "- Pipeline postCodex: ✅ diffAudit работи"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 1
+      "entryCount": 2
     },
     {
       "date": "2026-04-01",
