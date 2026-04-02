@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-02T08:24:34.678Z",
-  "serverUptime": 2070530,
+  "timestamp": "2026-04-02T08:29:34.282Z",
+  "serverUptime": 2070829,
   "loadAvg": [
-    "0.67",
-    "0.65",
-    "0.46"
+    "0.51",
+    "0.48",
+    "0.43"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "stuck",
-      "statusLabel": "🔴 Stuck",
-      "lastUpdate": "2026-04-02T08:20:26.067Z",
-      "ageSec": 248,
-      "tokens": 148904,
-      "lastAction": "[[reply_to_current]] Оправено — трите pending корекции (#8, #12, #14) вече имат решения. Дашбордът ще се",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-04-02T08:27:49.743Z",
+      "ageSec": 104,
+      "tokens": 159113,
+      "lastAction": "[[reply_to_current]] Логото е добавено и изглежда добре — в горния ляв ъгъл на навигацията, реалното лого на Миг Трейд о",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 174969,
+      "ageSec": 175268,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -103,10 +103,10 @@
       "name": "Demo Sites",
       "status": "recent",
       "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-04-02T08:23:25.498Z",
-      "ageSec": 69,
+      "lastUpdate": "2026-04-02T08:28:48.674Z",
+      "ageSec": 45,
       "tokens": 84828,
-      "lastAction": "✅ Миг Трейд Rev 15: Nav dropdown възстановен + alignment fix.",
+      "lastAction": "✅ Миг Трейд Rev #16: Логото на фирмата добавено в главното меню на всички страници. Logo URL фиксиран.",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 604831,
+          "runningSec": 605131,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 604184,
+          "runningSec": 604484,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 602019,
+          "runningSec": 602318,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 588087,
+          "runningSec": 588387,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 586868,
+          "runningSec": 587168,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 584895,
+      "ageSec": 585194,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 47724,
+      "ageSec": 48023,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 525589,
+      "ageSec": 525888,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 0,
     "building": 0,
-    "recent": 1,
+    "recent": 2,
     "idle": 10,
-    "stuck": 1
+    "stuck": 0
   }
 }
