@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-02T11:34:35.249Z",
-  "serverUptime": 2081930,
+  "timestamp": "2026-04-02T11:54:34.587Z",
+  "serverUptime": 2083130,
   "loadAvg": [
-    "0.19",
-    "0.27",
-    "0.27"
+    "0.32",
+    "0.30",
+    "0.29"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T11:31:26.087Z",
-      "ageSec": 189,
+      "ageSec": 1388,
       "tokens": 62580,
       "lastAction": "[[reply_to_current]] Миг Трейд има 2 активни ревизии в този момент:  **Ревизия #1 (10:51-10:54)** ✅ **ЗАВЪРШЕНА, чака ме",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-31T07:48:25.467Z",
-      "ageSec": 186369,
+      "ageSec": 187569,
       "tokens": 26542,
       "lastAction": "Мейлът е за **failed GitHub Pages deploy** на commit `69c7062` от снощи (Искрови revision).  Workflow-ът изглежда станда",
       "hasProcess": false,
@@ -103,10 +103,10 @@
       "name": "Demo Sites",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T11:05:16.511Z",
-      "ageSec": 1758,
+      "lastUpdate": "2026-04-02T11:42:26.311Z",
+      "ageSec": 728,
       "tokens": 84828,
-      "lastAction": "✅ Миг Трейд Rev #18: Mobile menu fix — бутоните подравнени + Врати dropdown вече показва подбутоните коректно (bug в ove",
+      "lastAction": "✅ Миг Трейд — SEO/GEO/AEO оптимизация готова: • 5 JSON-LD schema markup на всяка страница • Уникални meta title + descri",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 616232,
+          "runningSec": 617431,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 615585,
+          "runningSec": 616784,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 613419,
+          "runningSec": 614618,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 599488,
+          "runningSec": 600687,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 598269,
+          "runningSec": 599468,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 596295,
+      "ageSec": 597495,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 59124,
+      "ageSec": 60323,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 536989,
+      "ageSec": 538189,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,78 +200,7 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "1987298",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "24:42",
-      "elapsedSec": 1482,
-      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1987306",
-      "cpu": "1.6",
-      "mem": "1.6",
-      "elapsed": "24:42",
-      "elapsedSec": 1482,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1990928",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "14:42",
-      "elapsedSec": 882,
-      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1990936",
-      "cpu": "1.8",
-      "mem": "1.6",
-      "elapsed": "14:42",
-      "elapsedSec": 882,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1995231",
-      "cpu": "0.0",
-      "mem": "0.0",
-      "elapsed": "03:36",
-      "elapsedSec": 216,
-      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1995233",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "03:36",
-      "elapsedSec": 216,
-      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
-      "relatedTopic": null,
-      "procType": "codex"
-    },
-    {
-      "pid": "1995241",
-      "cpu": "1.6",
-      "mem": "1.6",
-      "elapsed": "03:36",
-      "elapsedSec": 216,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
