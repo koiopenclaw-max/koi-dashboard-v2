@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-02T08:10:02.823Z",
+  "updated": "2026-04-02T08:15:02.337Z",
   "totalDays": 28,
-  "totalEntries": 652,
+  "totalEntries": 653,
   "days": [
     {
       "date": "2026-04-02",
       "dayName": "Четвъртък",
       "entries": [
+        {
+          "time": "08:11",
+          "text": "🔴 ИНЦИДЕНТ: Изтрих корекция за логото на Миг Трейд - Причина: `git checkout --theirs` при merge conflict — сляпо, без да прочета какво губя - Commit: 464a03ae (\"resolve merge conflict\") - Урок: НИКОГА `--theirs` или `--ours` сляпо на data/*.json. ВИНАГИ ръчен merge. - Допълнителен урок: Не бързай с infrastructure промени когато има активни клиентски данни.",
+          "type": "alert"
+        },
         {
           "time": "08:05",
           "text": "Блок 3 (Фаза 5) — ИМПЛЕМЕНТИРАНО - `classifyRevision()` в demo-scope.js — AUTO/SUPERVISED/MANUAL класификация - Тествано: телефон→AUTO, нова страница→SUPERVISED, dropdown→SUPERVISED, неясно→MANUAL - `demo-screenshots.js` — before/after screenshots модул (Playwright) - Shadow mode интегриран в worker — логва classification но override-ва към SUPERVISED - classificationLog се записва в data/<slug>.json → v2.classificationLog - Before screenshots се вземат преди Codex стартира - doneTrigger включва beforeScreenshots + revisionMode за Koi validation - Worker sync-нат + рестартиран - Shadow mode стартира от днес — 7 дни passive, после анализ",
@@ -121,7 +126,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 6
+      "entryCount": 7
     },
     {
       "date": "2026-04-01",
