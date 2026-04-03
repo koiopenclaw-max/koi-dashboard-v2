@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-03T06:19:34.236Z",
-  "serverUptime": 2149429,
+  "timestamp": "2026-04-03T06:24:32.336Z",
+  "serverUptime": 2149727,
   "loadAvg": [
-    "0.09",
+    "0.19",
     "0.10",
-    "0.14"
+    "0.11"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T06:14:24.897Z",
-      "ageSec": 309,
+      "ageSec": 607,
       "tokens": 24510,
       "lastAction": "Крис, прав си на 100%. Това е системен проблем и аз го виждам ясно след Миг Трейд случая. Ето конкретно предложение:  **",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T06:03:58.942Z",
-      "ageSec": 935,
+      "ageSec": 1233,
       "tokens": 26542,
       "lastAction": "📧 **Нов мейл:** ☁️ **DigitalOcean** — Learn what you can accomplish with DigitalOcean Маркетинг мейл, без действие.",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T11:42:26.311Z",
-      "ageSec": 67027,
+      "ageSec": 67326,
       "tokens": 84828,
       "lastAction": "✅ Миг Трейд — SEO/GEO/AEO оптимизация готова: • 5 JSON-LD schema markup на всяка страница • Уникални meta title + descri",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 683731,
+          "runningSec": 684029,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 683084,
+          "runningSec": 683382,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 680918,
+          "runningSec": 681216,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 666987,
+          "runningSec": 667285,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 665768,
+          "runningSec": 666066,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 663794,
+      "ageSec": 664092,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 126623,
+      "ageSec": 126921,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 604488,
+      "ageSec": 604786,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
