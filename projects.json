@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T20:30:03.640Z",
+  "updated": "2026-04-03T22:50:03.949Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -1576,10 +1576,10 @@
         },
         {
           "name": "Phase 6: Admin Dashboard",
-          "status": "in_progress",
+          "status": "done",
           "started": "2026-04-01",
-          "completed": null,
-          "summary": "Web admin panel — user management, verification queue, reports, analytics. Foundation modules completed (2026-04-01): invite connections, My Activities visibility fix, Avatar verified badge, push notifications real implementation, Firestore indexes deployed.",
+          "completed": "2026-04-03",
+          "summary": "Web admin panel — 5 sprints in 1 day. Sprint 1: Foundation + Verification Queue. Sprint 2: User Management. Sprint 3: Reports & Moderation. Sprint 4: Analytics + Action Logs. Sprint 5: Polish (responsive sidebar, toast notifications, code splitting, Firebase Hosting config, README, security rules). 1691+ lines added. TSC clean throughout.",
           "blockers": []
         },
         {
@@ -1591,7 +1591,7 @@
           "blockers": []
         }
       ],
-      "progress": 71,
+      "progress": 86,
       "activePhase": null,
       "goals": [
         {
@@ -1607,24 +1607,23 @@
           "done": true
         },
         {
-          "text": "iOS build",
-          "done": false
+          "text": "iOS build (.ipa via EAS)",
+          "done": true
         },
         {
-          "text": "Admin Dashboard",
-          "done": false
+          "text": "Admin Dashboard (5 sprints)",
+          "done": true
         },
         {
           "text": "App Store / Play Store launch",
           "done": false
         }
       ],
-      "blockers": [
-        "iOS build — нужен Apple Developer Account или EAS build"
-      ],
+      "blockers": [],
       "nextActions": [
-        "Phase 6: Admin Dashboard (web panel)",
-        "iOS тест build"
+        "Phase 7: Polish & Launch — edge case testing, i18n, App Store assets, Privacy Policy",
+        "iOS TestFlight distribution (Apple Developer Account needed)",
+        "Deploy Admin Dashboard to Firebase Hosting"
       ],
       "tags": [
         "momerly",
