@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T17:00:05.325Z",
+  "updated": "2026-04-03T20:30:03.640Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -1118,6 +1118,10 @@
               "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
             },
             {
+              "time": "19:58",
+              "text": "🎉 Momerly iOS BUILD УСПЕШЕН! Първи iOS .ipa файл готов. EAS Build от Крис компютър. Artifact: expo.dev/artifacts/eas/8gu5BKQq865FBBXzeX9m8n.ipa"
+            },
+            {
               "time": "15:19",
               "text": "✅ Momerly Phase 6, Sprint 3 DONE. Reports & Moderation — report list, filters, detail modal, resolve/dismiss, repeat offender detection. 2147 lines added. TSC clean, build passes. Pushed."
             },
@@ -1634,6 +1638,10 @@
         {
           "date": "2026-04-03",
           "entries": [
+            {
+              "time": "19:58",
+              "text": "🎉 Momerly iOS BUILD УСПЕШЕН! Първи iOS .ipa файл готов. EAS Build от Крис компютър. Artifact: expo.dev/artifacts/eas/8gu5BKQq865FBBXzeX9m8n.ipa"
+            },
             {
               "time": "16:07",
               "text": "✅ Momerly Phase 6, Sprint 5 DONE (FINAL). Polish + deploy config. Responsive sidebar, toast notifications, code splitting, Firebase Hosting config, README, security rules. 1691 lines added. Phase 6 COMPLETE."
@@ -2416,6 +2424,10 @@
             {
               "time": "08:00",
               "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            },
+            {
+              "time": "19:58",
+              "text": "🎉 Momerly iOS BUILD УСПЕШЕН! Първи iOS .ipa файл готов. EAS Build от Крис компютър. Artifact: expo.dev/artifacts/eas/8gu5BKQq865FBBXzeX9m8n.ipa"
             },
             {
               "time": "15:32",
