@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T10:15:02.321Z",
+  "updated": "2026-04-03T10:25:02.344Z",
   "totalDays": 29,
-  "totalEntries": 698,
+  "totalEntries": 699,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "10:17",
+          "text": "— Koi Decision Layer вграден в demo-worker — - **Нов модул:** `scripts/koi-decision-layer.js` — creative problem-solving между TIL анализа и Codex - **Проблем:** TIL Analyzer класифицира задачата, но при \"decisions needed\" просто събуждаше Koi или даваше на Codex raw клиентски текст. Codex не е креативен — каза \"не може, дайте по-добра снимка\" вместо да намали hero-то. - **Решение:** Koi Decision Layer анализира с конкретни данни (пиксели, image dimensions, available assets) и взема креативно решение inline — без да чака heartbeat. - **Flow:** TIL Classify → TIL Analyze → **Koi Decision** (ново!) → Codex с точни инструкции - **Escalate:** Само ако наистина ambiguous (2+ еднакво валидни подхода). Иначе Koi решава сам. - Worker рестартиран, модулът зареден. Крис поиска — реализирано.",
+          "type": "build"
+        },
         {
           "time": "10:05",
           "text": "🔧 Миг Трейд hero rev (2-ра заявка): Клиентът пак не е доволен от hero снимката. Проверих ВСИЧКИ снимки от mig-trade.com — максимум 600x450px. Текущата е вече най-добрата. Codex пак направи regression (трети път!). Уведомих Крис че клиентът трябва да даде HD снимка.",
@@ -174,11 +179,15 @@
       "insights": [],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
-        "- Крис одобри TIL v2 плана — \"изглежда обещаващо, започвай\""
+        "- Крис одобри TIL v2 плана — \"изглежда обещаващо, започвай\"",
+        "- **Нов модул:** `scripts/koi-decision-layer.js` — creative problem-solving между TIL анализа и Codex",
+        "- **Проблем:** TIL Analyzer класифицира задачата, но при \"decisions needed\" просто събуждаше Koi или даваше на Codex raw клиентски текст. Codex не е креативен — каза \"не може, дайте по-добра снимка\" вместо да намали hero-то.",
+        "- **Решение:** Koi Decision Layer анализира с конкретни данни (пиксели, image dimensions, available assets) и взема креативно решение inline — без да чака heartbeat.",
+        "- **Flow:** TIL Classify → TIL Analyze → **Koi Decision** (ново!) → Codex с точни инструкции"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 17
+      "entryCount": 18
     },
     {
       "date": "2026-04-02",
