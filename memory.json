@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T10:35:02.729Z",
+  "updated": "2026-04-03T10:45:02.108Z",
   "totalDays": 29,
-  "totalEntries": 701,
+  "totalEntries": 702,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "10:37",
+          "text": "— Koi Decision Layer v2 (пълен redesign) — **3 промени:** 1. **Classifier** — добавени 12+ нови pattern-а за image quality (лошо качество, размазана, разтеглена, пикселирана, hero снимка, впечатление). Тест: \"снимка с лошо качество\" → `asset-fix | tier 2 | score 4 | high confidence` (преди: text-edit | score 0 | low) 2. **Worker** — Koi Decision Layer вече тече ВИНАГИ, не само при decisions > 0. Всяка задача минава през Koi \"мисленето\" преди Codex. 3. **Learning System** — всяко решение се логва в `data/koi-decisions.jsonl`. Outcomes (success/fail) също. `updatePatterns()` анализира натрупаните данни и генерира insights (PREFER/AVOID approaches). Insights се инжектират в следващия decision prompt. **Цялата верига:** TIL Classify → TIL Analyze → **Koi Decision (ALWAYS)** → Codex с точни инструкции → Validation → **Learning log** Worker рестартиран, всичко ОК. Крис поиска: \"проучи и помисли, да се подобрява с всяка задача\" — реализирано.",
+          "type": "build"
+        },
         {
           "time": "10:34",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -197,7 +202,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 20
+      "entryCount": 21
     },
     {
       "date": "2026-04-02",
