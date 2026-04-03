@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T19:55:01.942Z",
+  "updated": "2026-04-03T20:00:03.677Z",
   "totalDays": 29,
-  "totalEntries": 752,
+  "totalEntries": 753,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "19:58",
+          "text": "🎉 Momerly iOS BUILD УСПЕШЕН! Първи iOS .ipa файл готов. EAS Build от Крис компютър. Artifact: expo.dev/artifacts/eas/8gu5BKQq865FBBXzeX9m8n.ipa",
+          "type": "build"
+        },
         {
           "time": "16:12",
           "text": "🔍 Momerly Codex done: Admin Dashboard Sprint 3 (Reports & Moderation), Sprint 4 (Analytics + Action Logs), Sprint 5 (Polish, responsive, code-split, deploy config). TSC clean.",
@@ -455,7 +460,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 71
+      "entryCount": 72
     },
     {
       "date": "2026-04-02",
