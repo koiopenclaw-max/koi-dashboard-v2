@@ -1,8 +1,30 @@
 {
-  "updated": "2026-03-31T13:55:03.516Z",
-  "totalProjects": 7,
+  "updated": "2026-04-03T13:10:03.672Z",
+  "totalProjects": 8,
   "active": 3,
   "projects": [
+    {
+      "slug": "demo-sites-v2-execution",
+      "name": "Demo Sites v2 Execution",
+      "emoji": "🏗️",
+      "status": "in-progress",
+      "priority": "critical",
+      "started": "2026-03-31",
+      "updated": "",
+      "topic": 49,
+      "repo": null,
+      "url": null,
+      "vision": "",
+      "phases": [],
+      "progress": 0,
+      "activePhase": null,
+      "goals": [],
+      "blockers": [],
+      "nextActions": [],
+      "tags": [],
+      "activityDays": 0,
+      "recentActivity": []
+    },
     {
       "slug": "demo-sites",
       "name": "Demo Sites Platform",
@@ -10,7 +32,7 @@
       "status": "active",
       "priority": "high",
       "started": "2026-03-06",
-      "updated": "2026-03-25",
+      "updated": "2026-04-01",
       "topic": 49,
       "repo": "koiopenclaw-max/demo-sites",
       "url": "https://koiopenclaw-max.github.io/demo-sites/",
@@ -111,11 +133,158 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 17,
+      "activityDays": 20,
       "recentActivity": [
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "12:57",
+              "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js"
+            },
+            {
+              "time": "11:47",
+              "text": "Auto-extract topic 1 (152004 tokens, id:1-1775216856):** [2026-04-03T11:38:02] User: и какво се случи в крайна сметка? отстрани ли проблема? защо не сработи този път нововъвецде; [2026-04-03T11:39:54] User: искам да проучиш как работи клод код какви са основополагащите принципи и как той реалзиира ; [2026-04-03T11:43:45] User: =да оправи двата реда и кажи кога да тествам; [2026-04-03T11:44:54] Вече е `let`. Грешката може да е от по-стара версия преди рестарта. Нека валидирам и рестартирам:; [2026-04-03T11:45:09] Resolve-вам последната висяща задача:; [2026-04-03T11:45:17] Готово. Timeout: 120s, worker рестартиран, Миг Трейд е `review`.  Тествай. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-03T11:44:28] exec: # The error was in the revision flow. Check if there's a const that gets reassig"
+            },
+            {
+              "time": "10:00",
+              "text": "Auto-extract topic 1 (171251 tokens, id:1-1775210434):** [2026-04-03T09:50:51] User: щом има проблем който спира работта на системата оправяш...зашо ме питаш, ти трябва да си пр; [2026-04-03T09:54:54] User: да се върнем сега на това, как да прецизираме още повеече работата поанализ и съсздаване на ; [2026-04-03T09:56:07] User: да искам да напавиш промяната и да наредиш флоуа да го тествам след като кажеш; [2026-04-03T09:58:01] Също махам MULTI-PAGE instructions когато scope е EDIT (не CREATE):; [2026-04-03T09:58:05] Scope EDIT + multiPage е контрадикция. Fix:; [2026-04-03T09:58:34] Всичко заредено — включително `til-analyzer.js`. Готово за тест.  Крис, flow-ът е:  ``` Корекция →; [2026-04-03T09:58:01] exec: grep -n \"needsMultiPage|multiPageInstructions\" ~/; [2026-04-03T09:58:16] exec: node -c ~/scripts/demo-worker.js && echo \"✅ Syntax"
+            },
+            {
+              "time": "08:00",
+              "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            },
+            {
+              "time": "10:17",
+              "text": "— Koi Decision Layer вграден в demo-worker — - **Нов модул:** `scripts/koi-decision-layer.js` — creative problem-solving между TIL анализа и Codex - **Проблем:** TIL Analyzer класифицира задачата, но при \"decisions needed\" просто събуждаше Koi или даваше на Codex raw клиентски текст. Codex не е креативен — каза \"не може, дайте по-добра снимка\" вместо да намали hero-то. - **Решение:** Koi Decision Layer анализира с конкретни данни (пиксели, image dimensions, available assets) и взема креативно решение inline — без да чака heartbeat. - **Flow:** TIL Classify → TIL Analyze → **Koi Decision** (ново!) → Codex с точни инструкции - **Escalate:** Само ако наистина ambiguous (2+ еднакво валидни подхода). Иначе Koi решава сам."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "entries": [
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            },
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            },
+            {
+              "time": "07:20",
+              "text": "✅ **Миг Трейд — Огради галерия фиксирана**. Проблем: 6 broken снимки (xn-- punycode домейн не работи). Решение: Заменени с реални клиентски снимки от `mig-trade.com/images/portali-ogradi-parapeti/` (IMG_0563-0576 range, взети: 0563, 0564, 0565, 0567, 0570, 0573). Статус: revisions → review. Нотифициран topic 49."
+            },
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            },
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            },
+            {
+              "time": "13:30",
+              "text": "UTC — Visual Gate v9 DEPLOYED ✅ — **Проблем:** SEO корекция на Миг Трейд omaza дизайна — изтри dropdown CSS, смени mobile layout. **Решение:** Автоматичен visual gate в demo-worker.js: 1. **Before screenshots** — вече се правят (от тази сутрин) 2. **After screenshots** — нов код: `file://demoDir/index.html` screenshot след Codex 3. **Comparison gate** — ако има regression → `git checkout` revert + notify + stop (НЕ push-ва)"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "10:39",
+              "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo"
+            },
+            {
+              "time": "07:44",
+              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
+            },
+            {
+              "time": "06:36",
+              "text": "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug"
+            },
+            {
+              "time": "06:45",
+              "text": "UTC — Demo Sites v2 Phase 4: Slop + QA модули — - Създадени 2 нови модула: `demo-slop.js` + `demo-qa.js` - **demo-slop.js:** Парсва image model response, scoring (100-pt), grade (A-F), overrides, Codex fix prompt генератор - **demo-qa.js:** Автоматизирани проверки — HTTP status, h-overflow (3 viewport-а), broken images, hero visibility, JS errors, footer, meta tags, internal links - **shipDecision():** Комбинира QA + Slop → Go/No-go - Тествано с реални сайтове:"
+            },
+            {
+              "time": "06:53",
+              "text": "UTC — Demo Sites v2 Phase 4: Auto-Fix модул — - Създаден `demo-autofix.js` — генерира Codex fix prompt от QA/Slop failures - Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`) - Warnings НИКОГА не блокират — само се докладват - Critical/Slop failures → AUTOFIX (до 3 опита, после escalate topic 49) - `evaluateFix()` сравнява before/after QA → improved/fixed/feedback"
+            },
+            {
+              "time": "06:56",
+              "text": "UTC — Demo Sites v2 Phase 5: Pipeline Orchestrator — - Създаден `demo-pipeline.js` — единна точка за координация на всички v2 модули - **preCodex():** tag → manifest → scope → sandbox → measure (подготовка за Codex) - **postCodex():** diff audit → QA → slop → ship decision → autofix context - **prepareAutoFix() / evaluateAutoFix():** Auto-fix loop (до 3 опита) - **formatReport():** Human-readable pipeline report"
+            },
+            {
+              "time": "07:07",
+              "text": "UTC — Demo Sites v2: Пълен одит от А до Я с реални проекти — **7 preCodex теста:** - Богданови (card overflow + mobile) → EDIT/medium, writeFiles: [style.css, subpage.css] ✅ - Узунова (HTML entities) → EDIT/high, writeFiles: [index.html] ✅ - Искрови (icons + НЗОК badge) → EDIT/high, writeFiles: [uslugi.html, index.html] ✅ - Емпика (vague theme complaint) → EDIT/medium, writeFiles: [index.html] ✅"
+            },
+            {
+              "time": "07:25",
+              "text": "UTC — Demo Sites v2: needs_clarification flow — - Нов статус `needs_clarification` — когато инструкцията е неясна - `generateClarificationQuestions()` генерира 3-5 конкретни въпроса на български с опции - `handleScopeStop()` координира: scope STOP → въпроси → data update - **UI в платформата:** Потребителят вижда въпросите + textarea за всеки + бутон \"Изпрати отговорите\" - `submitClarification()` в JS: събира отговорите → обогатява инструкцията → status=revisions → pipeline тръгва отново"
+            },
+            {
+              "time": "07:38",
+              "text": "UTC — Demo Sites v2: Worker интеграция (Стъпка 7 — ФИНАЛНА) — - `executeRevisions()` пренаписан: 500 реда v5 → v6 с pipeline calls - **preCodex():** tag + manifest + scope + sandbox + measure — една функция - **Scope STOP → handleScopeStop():** генерира въпроси + status=needs_clarification + push - **postCodex():** diff audit след Codex, QA + ship decision след deploy - **AUTO-FIX LOOP:** Ако QA хване critical → Codex fix → re-QA → до 3 пъти"
+            },
+            {
+              "time": "08:00",
+              "text": "UTC — Demo Sites UX одит (пълен Playwright audit) — - Крис поиска пълен UX одит на Demo Sites платформата \"от А до Я\" - Тестване с Playwright на 3 viewport-а (1440, 768, 390px), 11 screenshots - Открити 17 проблема: 4 критични, 4 сериозни, 5 средни, 4 nice-to-have - Критични: Login не работи, mobile overflow, форма се чупи, card detail view липсва - Генериран .docx план с 4 фази (35-49ч общо)"
+            },
+            {
+              "time": "08:52",
+              "text": "UTC — Demo Sites UX: Спринт 1+2 РЕАЛИЗИРАНИ — - Validation скрипт: `scripts/demo-platform-validate.js` — 10 автоматични теста - **BEFORE:** 0/10 PASS - **AFTER:** 10/10 PASS - Какво е оправено: - #1 Mobile overflow: .project-card flex-direction:column на mobile, header flex-wrap"
+            },
+            {
+              "time": "09:03",
+              "text": "UTC — Demo Sites UX: Спринт 3 РЕАЛИЗИРАН — - Task Queue redesign: табове (Активни/Завършени/Грешки), human-readable результати, лимит 15 - Deep links в Telegram нотификациите: projectUrl() helper, 6 нотификации обновени с <a href> - Worker рестартиран (pm2) - Validation: 10/10 PASS (все още) - Commits: 799413e1"
+            },
+            {
+              "time": "09:55",
+              "text": "UTC — Demo Sites UX: Спринт 4 РЕАЛИЗИРАН (ФИНАЛЕН) — - **Light mode:** CSS variables за [data-theme=\"light\"], toggle бутон 🌙/☀️, localStorage persistence - **Keyboard shortcuts:** / Търси, N Нов проект, Q Задачи, J/K навигация, Enter отвори, Esc назад, ? помощ - kb-focus стил (accent outline) за J/K навигация - Validation: 10/10 PASS (4 бутона >= 44px — theme бутонът също) - Commit: ec44b062"
+            },
+            {
+              "time": "10:05",
+              "text": "UTC — Demo Sites UX: Flow тестване + Light mode bugfix — - Flow 1 (нов проект): Работи end-to-end. Модал → попълване → създаване → detail view → \"Пусни за задание\". Без проблеми. - Flow 2 (корекция на съществуващ): Търсене \"Искрови\" → 1 карта → detail → textarea за ревизия + бутон \"Изпрати за корекция\". Работи. - Light mode: CSS nesting бъг — [data-theme=\"light\"] блокът беше ВЪТРЕ в :root блока. CSS не поддържа nesting без Sass. Оправено — светлата тема работи (потвърдено визуално). - Header gradient: hardcoded #0e1628 → var(--bg-deep). Сега се сменя при theme toggle. - Commit: c1dfddb0"
+            },
+            {
+              "time": "10:46",
+              "text": "Миг Трейд revision 4 (heartbeat):** Trigger `/tmp/demo-action-trigger-миг-трейд.json` → status=revisions. Същата заявка като rev #1 — отделни страници за всеки продукт. Анализ: homepage НЕ линква към subpages, навигацията е само anchors, `vhodni-vrati.html` не съществува, `ogradi-portali.html` → broken link (трябва `ogradi-i-portali.html`). Spawn-нат Codex: създай vhodni-vrati.html, линкни cards от homepage, fix nav на всички страници."
+            },
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "13:05",
+              "text": "— Миг Трейд revision validated — - Codex finished nav font/button fix (attempt 1/3) - Already pushed to demo-sites repo (commit 0720b138) - Data status updated to `review` (commit 51cc213d) - Visual validation: ✅ no overflow (desktop/mobile), ✅ responsive, ⚠️ nav font still thin per image analysis - Status: `review` — Крис ще прегледа"
+            }
+          ]
+        },
         {
           "date": "2026-03-31",
           "entries": [
+            {
+              "time": "17:21",
+              "text": "📋 Demo Sites v2 финален план v3 изпратен (обединен). Chat+Preview МАХНАТО (не допринася). ДОБАВЕН Слой 5: Автономност — автономни ревизии (AUTO/SUPERVISED/MANUAL), проактивен QA, Measure-First prompts, Slop check в pipeline, Codex fallback, нула best-effort. 5 фази, 8-13 дни. Чака одобрение от Крис."
+            },
+            {
+              "time": "17:06",
+              "text": "Auto-extract topic 1 (174570 tokens, id:1-1774976764):** [2026-03-31T17:03:07] User: Добре, аз имам и още един въпрос ловабъл, болт имдругите олатформи имат чат инпревю. При нас; [2026-03-31T17:00:24] Сега имам пълната картина. Правя документа с всички реални инциденти.; [2026-03-31T17:01:04] [[reply_to_current]] Рових в цялата история — от март до днес. Намерих **12 реални инцидента**.  К; [2026-03-31T17:03:59] Много правилен въпрос. Нека помисля обективно.  **Какво дава чат + preview на Lovable/Bolt:**  Пот; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D; https://koiopenclaw-max.github.io/dental-killer-template/; [2026-03-31T17:00:24] exec: cat << 'SCRIPT' > /tmp/gen-incidents.js"
+            },
             {
               "time": "12:39",
               "text": "Auto-extract topic 1 (159078 tokens, id:1-1774960784):** [2026-03-31T12:33:37] User: има проблем с две корекции които пуснах паралелно в демо сайтове но нищо не се случва...в да; [2026-03-31T12:36:01] Сега нека проверим дали worker-ът вече обработва queue-то:; [2026-03-31T12:36:46] Worker хвана ревизиите. Миг Трейд revision е в процес — Codex работи.; [2026-03-31T12:36:55] [[reply_to_current]] Намерих проблема — ревизиите се route-ваха към heartbeat (т.е. чакаха мен да ; 'r; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D"
@@ -215,6 +384,14 @@
             {
               "time": "10:16",
               "text": "🚪 Врати кайлъка: Revision — Крис иска преработка в niche template за врати-дограма. Spawned Codex (amber-gulf)."
+            },
+            {
+              "time": "15:44",
+              "text": "— Проучване: Demo Sites Versioning System — - Крис поиска сериозно проучване за версии/rollback по модел на Lovable/Bolt - Фаза 1: Проучих Lovable V2, Bolt, Replit, Cursor patterns - Фаза 2: Пълен одит на demo-worker.js + repo инфраструктура - Идентифицирани 8+ критични проблема (виж topic 1 за пълен доклад) - Ключов проблем: worker-ът няма scope lock, няма pre-revision snapshot, multi-page е счупен"
+            },
+            {
+              "time": "16:49",
+              "text": "— Финален план Demo Sites v2 — - Крис одобри посоката след проучване + одит + scope analysis - Финален план: 4 слоя (Памет → Интелигентност → Защита → Стабилност) - 4 фази реализация: Фундамент (1 ден) → Scope+Lock (2-3 дни) → Multi-page (1-2 дни) → Staging (по-късно) - 3 документа предадени: audit, validation plan, scope analysis, финален план - Чакаме одобрение за старт на реализацията"
             }
           ]
         },
@@ -391,89 +568,6 @@
               "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
-        },
-        {
-          "date": "2026-03-20",
-          "entries": [
-            {
-              "time": "15:33",
-              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
-            },
-            {
-              "time": "15:08",
-              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-19",
-          "entries": [
-            {
-              "time": "12:22",
-              "text": "Demo Sites — Revision: Училище Козма Тричков Враца — - **Issues:** Лого от стария сайт, снимки от стария сайт, допълнителни страници по структурата - **Action:** Scraping стар сайт (kozmatrichkov.com), collecting images + content. Spawning Codex за revision. - **12:40 DONE:** Revision completed. Лого добавено, unsplash снимки заменени с реални, 7 подстраници създадени (istoria, misiya, rkovodstvo, prepodavateli, priem, inovacii, kontakti). Pushed & status → review. - Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%83%D1%87%D0%B8%D0%BB%D0%B8%D1%89%D0%B5-%D0%BA%D0%BE%D0%B7%D0%BC%D0%B0-%D1%82%D1%80%D0%B8%D1%87%D0%BA%D0%BE%D0%B2-%D0%B2%D1%80%D0%B0%D1%86%D0%B0/ - **12:49 Revision #2:** Hero image заменен с nachalo.jpg от стария сайт. Pushed & status → review."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-18",
-          "entries": [
-            {
-              "time": "13:56",
-              "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git"
-            },
-            {
-              "time": "13:35",
-              "text": "АКТИВИ КОНСУЛТ revision round 3: Пълно преработване на мобилното меню — slide-in панел от дясно (280px), hamburger→X анимация, backdrop overlay, body scroll lock, auto-close при tap. Commit: f6d7ba2. Status → review."
-            },
-            {
-              "time": "07:58",
-              "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git"
-            },
-            {
-              "time": "05:20",
-              "text": "Template Selection UI: добавена визуална система за избор на темплейт в QA секцията. 10 счетоводни темплейта (Set A × 5 + Set B × 5) с iframe preview, цветови точки, \"разгледай на цял екран\" линк, radio-style selection. Push: bdbb07e + 894f9dd. Тест: РУМ-ПЛАМ 2007 вече има template_select въпрос."
-            },
-            {
-              "time": "07:05",
-              "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf"
-            },
-            {
-              "time": "07:11",
-              "text": "РЕШЕНИЕ: Task Queue + Worker (pm2). Worker е постоянен процес, poll-ва на 30 сек, изпълнява задачи независимо от Koi. pm2: demo-worker. Queue: scripts/demo-queue.json. Dashboard: queue.html."
-            },
-            {
-              "time": "14:00",
-              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
-            },
-            {
-              "time": "14:12",
-              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: [secrets-path]. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
-            },
-            {
-              "time": "14:25",
-              "text": "НОВО ПРАВИЛО: Когато проект е на домейн (има deployRepo) — работим ДИРЕКТНО в deploy repo-то, не в demo-sites. Deploy repo = production. HEARTBEAT.md + knowledge обновени. Старият sync скрипт е deprecated."
-            },
-            {
-              "time": "08:10",
-              "text": "— Demo Sites automation fix — - **Проблем:** Worker за revisions пускаше тъп Codex без валидация → маркираше \"done\" без реални промени - **Проблем 2:** dns_setup loop — процесорът re-queue-ваше вече обработени задачи - **Проблем 3:** Git divergence блокираше pull - **Fix 1:** Ръчно коригирах РУМ-ПЛАМ 2007: © 2025→2026, OG image, Open Graph, Twitter Card, SEO meta - **Fix 2:** Преработих `executeRevisions` в demo-worker.js — вместо Codex, делегира на Koi чрез trigger файл"
-            },
-            {
-              "time": "08:15",
-              "text": "РУМ-ПЛАМ 2007 revision 3: увеличен шрифт на текстовото лого (1.4rem→1.65rem). Push: 51500d9. Status → review."
-            },
-            {
-              "time": "09:40",
-              "text": "АКТИВИ КОНСУЛТ revisions round 1: Hero снимка от клиентския сайт, пълен \"За нас\" текст с лого, подробни \"Защо нас\" карти, детайлни описания на услугите от сайта. Status → review. Commit: 557761d"
-            },
-            {
-              "time": "14:25",
-              "text": "АКТИВИ КОНСУЛТ - Бургас: deploying → live. Repo demo56-add-bg вече имаше CNAME + mobile fix. Статус обновен в demo-sites → live. URL: https://demo56.add.bg"
-            },
-            {
-              "time": "15:04",
-              "text": "Codex review: АКТИВИ КОНСУЛТ мобилно меню fix завършен, deployed to demo56.add.bg. Status: live. РУМ-ПЛАМ 2007 also live. All demo sites current."
-            }
-          ]
         }
       ]
     },
@@ -607,11 +701,86 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 17,
+      "activityDays": 20,
       "recentActivity": [
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "12:57",
+              "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js"
+            },
+            {
+              "time": "11:47",
+              "text": "Auto-extract topic 1 (152004 tokens, id:1-1775216856):** [2026-04-03T11:38:02] User: и какво се случи в крайна сметка? отстрани ли проблема? защо не сработи този път нововъвецде; [2026-04-03T11:39:54] User: искам да проучиш как работи клод код какви са основополагащите принципи и как той реалзиира ; [2026-04-03T11:43:45] User: =да оправи двата реда и кажи кога да тествам; [2026-04-03T11:44:54] Вече е `let`. Грешката може да е от по-стара версия преди рестарта. Нека валидирам и рестартирам:; [2026-04-03T11:45:09] Resolve-вам последната висяща задача:; [2026-04-03T11:45:17] Готово. Timeout: 120s, worker рестартиран, Миг Трейд е `review`.  Тествай. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-03T11:44:28] exec: # The error was in the revision flow. Check if there's a const that gets reassig"
+            },
+            {
+              "time": "10:00",
+              "text": "Auto-extract topic 1 (171251 tokens, id:1-1775210434):** [2026-04-03T09:50:51] User: щом има проблем който спира работта на системата оправяш...зашо ме питаш, ти трябва да си пр; [2026-04-03T09:54:54] User: да се върнем сега на това, как да прецизираме още повеече работата поанализ и съсздаване на ; [2026-04-03T09:56:07] User: да искам да напавиш промяната и да наредиш флоуа да го тествам след като кажеш; [2026-04-03T09:58:01] Също махам MULTI-PAGE instructions когато scope е EDIT (не CREATE):; [2026-04-03T09:58:05] Scope EDIT + multiPage е контрадикция. Fix:; [2026-04-03T09:58:34] Всичко заредено — включително `til-analyzer.js`. Готово за тест.  Крис, flow-ът е:  ``` Корекция →; [2026-04-03T09:58:01] exec: grep -n \"needsMultiPage|multiPageInstructions\" ~/; [2026-04-03T09:58:16] exec: node -c ~/scripts/demo-worker.js && echo \"✅ Syntax"
+            },
+            {
+              "time": "08:00",
+              "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "entries": [
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            },
+            {
+              "time": "06:13",
+              "text": "✅ OpenClaw ъпдейт **2026.4.1** — exec възстановен. Проблем: новата версия смени exec security default на `allowlist`. Fix: `security: \"full\"` + `ask: \"off\"` в config. Крис помогна от SSH. Урок: при major update проверявай exec policy промени ПРЕДИ restart."
+            },
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "10:39",
+              "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo"
+            },
+            {
+              "time": "07:44",
+              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
+            },
+            {
+              "time": "06:36",
+              "text": "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug"
+            },
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            }
+          ]
+        },
         {
           "date": "2026-03-31",
           "entries": [
+            {
+              "time": "17:06",
+              "text": "Auto-extract topic 1 (174570 tokens, id:1-1774976764):** [2026-03-31T17:03:07] User: Добре, аз имам и още един въпрос ловабъл, болт имдругите олатформи имат чат инпревю. При нас; [2026-03-31T17:00:24] Сега имам пълната картина. Правя документа с всички реални инциденти.; [2026-03-31T17:01:04] [[reply_to_current]] Рових в цялата история — от март до днес. Намерих **12 реални инцидента**.  К; [2026-03-31T17:03:59] Много правилен въпрос. Нека помисля обективно.  **Какво дава чат + preview на Lovable/Bolt:**  Пот; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D; https://koiopenclaw-max.github.io/dental-killer-template/; [2026-03-31T17:00:24] exec: cat << 'SCRIPT' > /tmp/gen-incidents.js"
+            },
             {
               "time": "12:39",
               "text": "Auto-extract topic 1 (159078 tokens, id:1-1774960784):** [2026-03-31T12:33:37] User: има проблем с две корекции които пуснах паралелно в демо сайтове но нищо не се случва...в да; [2026-03-31T12:36:01] Сега нека проверим дали worker-ът вече обработва queue-то:; [2026-03-31T12:36:46] Worker хвана ревизиите. Миг Трейд revision е в процес — Codex работи.; [2026-03-31T12:36:55] [[reply_to_current]] Намерих проблема — ревизиите се route-ваха към heartbeat (т.е. чакаха мен да ; 'r; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D"
@@ -819,89 +988,6 @@
               "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
-        },
-        {
-          "date": "2026-03-20",
-          "entries": [
-            {
-              "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
-            },
-            {
-              "time": "15:33",
-              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
-            },
-            {
-              "time": "14:18",
-              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
-            },
-            {
-              "time": "15:08",
-              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
-            },
-            {
-              "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
-            },
-            {
-              "time": "16:42",
-              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
-            },
-            {
-              "time": "19:52",
-              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
-            },
-            {
-              "time": "20:10",
-              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
-            },
-            {
-              "time": "20:40",
-              "text": "🔴 SECURITY INCIDENT: Supabase service_role key exposed**"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-18",
-          "entries": [
-            {
-              "time": "13:56",
-              "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git"
-            },
-            {
-              "time": "07:58",
-              "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git"
-            },
-            {
-              "time": "07:05",
-              "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf"
-            },
-            {
-              "time": "06:45",
-              "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-17",
-          "entries": [
-            {
-              "time": "17:02",
-              "text": "Auto-extract topic 49 (182788 tokens, id:49-1773766955):** [2026-03-17T16:51:20] User: heartbeat няма да помгне,,..вече сме го тествали 100 пъти за това; [2026-03-17T16:59:25] User: DEMO_ACTION: Одиторска кантора Узунова → revisions. Trigger: /tmp/demo-action-trigger-одитор; [2026-03-17T16:59:56] `openclaw agent` **ме събуди!** 🎉 Това е пътят. Нека обновя processor-а да ползва точно това:; [2026-03-17T17:00:12] Сега обработвам текущата корекция. Нека видя какво е:; [2026-03-17T17:00:26] Статусът е `review`, без активна корекция. `openclaw agent` ме събуди с тест, но няма реална задач; # Check if it auto-restarts; ps a; [2026-03-17T17:00:12] exec: cat /tmp/demo-action-trigger-одиторска-кантора-узунова.json 2>/dev/null || echo"
-            },
-            {
-              "time": "15:46",
-              "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]:** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова"
-            },
-            {
-              "time": "16:22",
-              "text": "Processor v6 deploy-нат: директна Telegram нотификация в topic 49 (openclaw message send -m). Root cause на липсващи нотификации: raw.githubusercontent.com кешира до 5 мин → processor не виждаше нови промени. Fix: ползва GitHub API (v3.raw) вместо download_url."
-            },
-            {
-              "time": "19:16",
-              "text": "Demo Sites Processor v7: заменен хакът `openclaw agent --session-id` с `openclaw system event --mode now` за надеждно събуждане."
-            }
-          ]
         }
       ]
     },
@@ -1014,8 +1100,55 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 16,
+      "activityDays": 19,
       "recentActivity": [
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "08:00",
+              "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "entries": [
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            },
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:30",
+              "text": "✅ Миг Трейд nav ревизия v3 (final). Крис revert-на dropdown подхода. Нов подход: запазени 6 линка, но font → Playfair Display uppercase, gold underline hover, pill CTA, nowrap, logo 1.1rem + 24px gap. 4 итеративни commits (ab23fd86 → 83af20e3). Desktop+mobile = 0 overflow. Визуална валидация: чисто, професионално, consistent. Status → review."
+            },
+            {
+              "time": "13:32",
+              "text": "🔄 Миг Трейд: Крис revert-на предишния fix и пусна нова ревизия (същия issue). Анализ: навът е с 6 линка crammed + DM Sans generic font. План: Продукти dropdown (4 подстраници), Playfair Display font, pill CTA, hover underlines. Codex spawned (session mellow-prairie)."
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "07:44",
+              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            }
+          ]
+        },
         {
           "date": "2026-03-31",
           "entries": [
@@ -1206,77 +1339,6 @@
               "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
-        },
-        {
-          "date": "2026-03-20",
-          "entries": [
-            {
-              "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
-            },
-            {
-              "time": "15:33",
-              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
-            },
-            {
-              "time": "14:18",
-              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
-            },
-            {
-              "time": "15:08",
-              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
-            },
-            {
-              "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
-            },
-            {
-              "time": "16:42",
-              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
-            },
-            {
-              "time": "19:52",
-              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
-            },
-            {
-              "time": "20:10",
-              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-18",
-          "entries": [
-            {
-              "time": "06:45",
-              "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия."
-            },
-            {
-              "time": "14:00",
-              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-16",
-          "entries": [
-            {
-              "time": "20:42",
-              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
-            },
-            {
-              "time": "20:43",
-              "text": "✅ Codex review: Same commits as 16:38 review (watchdog re-triggered again). TSC clean. No new work. Cleaned `/tmp/codex-review-needed.json`."
-            },
-            {
-              "time": "16:38",
-              "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard)."
-            },
-            {
-              "time": "14:03",
-              "text": "Demo Sites: \"Успех Консулт\" деплойнат на custom domain **https://demo53.add.bg/** ✅ SSL сертификат approved. Отделно repo `uspeh-konsult` с CNAME. Статус → `deployed`."
-            }
-          ]
         }
       ]
     },
@@ -1446,7 +1508,7 @@
       "status": "active",
       "priority": "medium",
       "started": "2026-03-06",
-      "updated": "2026-03-23",
+      "updated": "2026-04-01",
       "topic": 51,
       "repo": "koiopenclaw-max/momerly",
       "url": null,
@@ -1494,10 +1556,10 @@
         },
         {
           "name": "Phase 6: Admin Dashboard",
-          "status": "next",
-          "started": null,
+          "status": "in_progress",
+          "started": "2026-04-01",
           "completed": null,
-          "summary": "Web admin panel — user management, verification queue, reports, analytics.",
+          "summary": "Web admin panel — user management, verification queue, reports, analytics. Foundation modules completed (2026-04-01): invite connections, My Activities visibility fix, Avatar verified badge, push notifications real implementation, Firestore indexes deployed.",
           "blockers": []
         },
         {
@@ -1551,8 +1613,21 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 10,
+      "activityDays": 11,
       "recentActivity": [
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:30",
+              "text": "✅ Миг Трейд nav ревизия v3 (final). Крис revert-на dropdown подхода. Нов подход: запазени 6 линка, но font → Playfair Display uppercase, gold underline hover, pill CTA, nowrap, logo 1.1rem + 24px gap. 4 итеративни commits (ab23fd86 → 83af20e3). Desktop+mobile = 0 overflow. Визуална валидация: чисто, професионално, consistent. Status → review."
+            },
+            {
+              "time": "13:21",
+              "text": "✅ Миг Трейд ревизия валидирана. Nav шрифт + подредба fix — чист. Desktop + mobile без overflow. Commit 30308ed2, status=review."
+            }
+          ]
+        },
         {
           "date": "2026-03-31",
           "entries": [
@@ -1789,19 +1864,6 @@
               "text": "Momerly v2.0: Крис премахна Events + Map от MVP. Има App Store + Play Store акаунти. Актуализиран план (10 таблици, ~11-14 седмици) + .docx задание за реализация v2 доставено в topic:51."
             }
           ]
-        },
-        {
-          "date": "2026-03-11",
-          "entries": [
-            {
-              "time": "14:02",
-              "text": "GitHub demo-sites repo: Telegram Bot Token беше exposed в git историята (commit 735e628). Изчистен с git filter-branch + force push. Верифицирано: токенът е 0 пъти в историята, сайтът работи (HTTP 200). Токенът ТРЯБВА да се ротира от Крис в @BotFather. Урок: НИКОГА hardcode tokens в client-side код."
-            },
-            {
-              "time": "22:00",
-              "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн."
-            }
-          ]
         }
       ]
     },
@@ -1858,8 +1920,46 @@
         "platform",
         "ai"
       ],
-      "activityDays": 16,
+      "activityDays": 18,
       "recentActivity": [
+        {
+          "date": "2026-04-02",
+          "entries": [
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            },
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:30",
+              "text": "✅ Миг Трейд nav ревизия v3 (final). Крис revert-на dropdown подхода. Нов подход: запазени 6 линка, но font → Playfair Display uppercase, gold underline hover, pill CTA, nowrap, logo 1.1rem + 24px gap. 4 итеративни commits (ab23fd86 → 83af20e3). Desktop+mobile = 0 overflow. Визуална валидация: чисто, професионално, consistent. Status → review."
+            },
+            {
+              "time": "13:32",
+              "text": "🔄 Миг Трейд: Крис revert-на предишния fix и пусна нова ревизия (същия issue). Анализ: навът е с 6 линка crammed + DM Sans generic font. План: Продукти dropdown (4 подстраници), Playfair Display font, pill CTA, hover underlines. Codex spawned (session mellow-prairie)."
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "07:44",
+              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            }
+          ]
+        },
         {
           "date": "2026-03-31",
           "entries": [
@@ -2079,40 +2179,6 @@
               "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
             }
           ]
-        },
-        {
-          "date": "2026-03-18",
-          "entries": [
-            {
-              "time": "06:45",
-              "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия."
-            },
-            {
-              "time": "14:00",
-              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-16",
-          "entries": [
-            {
-              "time": "20:42",
-              "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html"
-            },
-            {
-              "time": "20:43",
-              "text": "✅ Codex review: Same commits as 16:38 review (watchdog re-triggered again). TSC clean. No new work. Cleaned `/tmp/codex-review-needed.json`."
-            },
-            {
-              "time": "16:38",
-              "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard)."
-            },
-            {
-              "time": "14:03",
-              "text": "Demo Sites: \"Успех Консулт\" деплойнат на custom domain **https://demo53.add.bg/** ✅ SSL сертификат approved. Отделно repo `uspeh-konsult` с CNAME. Статус → `deployed`."
-            }
-          ]
         }
       ]
     },
@@ -2182,11 +2248,518 @@
         "audience",
         "growth"
       ],
-      "activityDays": 18,
+      "activityDays": 21,
       "recentActivity": [
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "13:08",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:06",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:57",
+              "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js"
+            },
+            {
+              "time": "12:14",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:13",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:11",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:10",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:55",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:53",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:51",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:47",
+              "text": "Auto-extract topic 1 (152004 tokens, id:1-1775216856):** [2026-04-03T11:38:02] User: и какво се случи в крайна сметка? отстрани ли проблема? защо не сработи този път нововъвецде; [2026-04-03T11:39:54] User: искам да проучиш как работи клод код какви са основополагащите принципи и как той реалзиира ; [2026-04-03T11:43:45] User: =да оправи двата реда и кажи кога да тествам; [2026-04-03T11:44:54] Вече е `let`. Грешката може да е от по-стара версия преди рестарта. Нека валидирам и рестартирам:; [2026-04-03T11:45:09] Resolve-вам последната висяща задача:; [2026-04-03T11:45:17] Готово. Timeout: 120s, worker рестартиран, Миг Трейд е `review`.  Тествай. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-03T11:44:28] exec: # The error was in the revision flow. Check if there's a const that gets reassig"
+            },
+            {
+              "time": "11:30",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:26",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:26",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:25",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:23",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:22",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:03",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:59",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:58",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:34",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:30",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:03",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:00",
+              "text": "Auto-extract topic 1 (171251 tokens, id:1-1775210434):** [2026-04-03T09:50:51] User: щом има проблем който спира работта на системата оправяш...зашо ме питаш, ти трябва да си пр; [2026-04-03T09:54:54] User: да се върнем сега на това, как да прецизираме още повеече работата поанализ и съсздаване на ; [2026-04-03T09:56:07] User: да искам да напавиш промяната и да наредиш флоуа да го тествам след като кажеш; [2026-04-03T09:58:01] Също махам MULTI-PAGE instructions когато scope е EDIT (не CREATE):; [2026-04-03T09:58:05] Scope EDIT + multiPage е контрадикция. Fix:; [2026-04-03T09:58:34] Всичко заредено — включително `til-analyzer.js`. Готово за тест.  Крис, flow-ът е:  ``` Корекция →; [2026-04-03T09:58:01] exec: grep -n \"needsMultiPage|multiPageInstructions\" ~/; [2026-04-03T09:58:16] exec: node -c ~/scripts/demo-worker.js && echo \"✅ Syntax"
+            },
+            {
+              "time": "09:46",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "09:02",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:57",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:57",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:55",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:00",
+              "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "entries": [
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            },
+            {
+              "time": "19:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:32",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:21",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:19",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:03",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:57",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:50",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:47",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:48",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:38",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:35",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:30",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:54",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            },
+            {
+              "time": "08:16",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:15",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:02",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "07:53",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "06:13",
+              "text": "✅ OpenClaw ъпдейт **2026.4.1** — exec възстановен. Проблем: новата версия смени exec security default на `allowlist`. Fix: `security: \"full\"` + `ask: \"off\"` в config. Крис помогна от SSH. Урок: при major update проверявай exec policy промени ПРЕДИ restart."
+            },
+            {
+              "time": "07:20",
+              "text": "✅ **Миг Трейд — Огради галерия фиксирана**. Проблем: 6 broken снимки (xn-- punycode домейн не работи). Решение: Заменени с реални клиентски снимки от `mig-trade.com/images/portali-ogradi-parapeti/` (IMG_0563-0576 range, взети: 0563, 0564, 0565, 0567, 0570, 0573). Статус: revisions → review. Нотифициран topic 49."
+            },
+            {
+              "time": "19:38",
+              "text": "Auto-extract topic 1 (163761 tokens, id:1-1775158713):** [2026-04-02T19:30:13] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:31:14] User: последната корекцяи седи без статус...това е абсурдно, ти мажеш без да спазваш никакви прави; [2026-04-02T19:33:37] User: [Thu 2026-04-02 19:32 UTC] An async command did not run. Do not run the command again. There; [2026-04-02T19:33:30] **Готово. SEO задачата изпълнена правилно:**  **✅ Направено (за 5 минути):** - Meta robots, canoni; [2026-04-02T19:33:48] Един от скриптовете беше блокиран от gateway-а (obfuscation detection на heredoc). Но не е проблем; [2026-04-02T19:35:58] Крис, ето точния PROMPT.md който Codex получи:  ``` You are revising a demo website for \"Миг Трейд; CRITICAL RULE; baseline.html is the LOCKED approved design. Preserve its visual appearance."
+            },
+            {
+              "time": "19:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:32",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:21",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:19",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "19:03",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:57",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:50",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:47",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "18:36",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:48",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:38",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:35",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:30",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:54",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            },
+            {
+              "time": "08:16",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:15",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "08:02",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "07:53",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:22",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "14:30",
+              "text": "✅ Миг Трейд nav ревизия v3 (final). Крис revert-на dropdown подхода. Нов подход: запазени 6 линка, но font → Playfair Display uppercase, gold underline hover, pill CTA, nowrap, logo 1.1rem + 24px gap. 4 итеративни commits (ab23fd86 → 83af20e3). Desktop+mobile = 0 overflow. Визуална валидация: чисто, професионално, consistent. Status → review."
+            },
+            {
+              "time": "13:37",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:32",
+              "text": "🔄 Миг Трейд: Крис revert-на предишния fix и пусна нова ревизия (същия issue). Анализ: навът е с 6 линка crammed + DM Sans generic font. План: Продукти dropdown (4 подстраници), Playfair Display font, pill CTA, hover underlines. Codex spawned (session mellow-prairie)."
+            },
+            {
+              "time": "13:21",
+              "text": "✅ Миг Трейд ревизия валидирана. Nav шрифт + подредба fix — чист. Desktop + mobile без overflow. Commit 30308ed2, status=review."
+            },
+            {
+              "time": "13:14",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:54",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:50",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:13",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:07",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "11:07",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "11:01",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:59",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:52",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "10:39",
+              "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo"
+            },
+            {
+              "time": "07:44",
+              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
+            },
+            {
+              "time": "06:36",
+              "text": "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug"
+            },
+            {
+              "time": "06:53",
+              "text": "UTC — Demo Sites v2 Phase 4: Auto-Fix модул — - Създаден `demo-autofix.js` — генерира Codex fix prompt от QA/Slop failures - Обновен `shipDecision()` — вече връща `SHIP` или `AUTOFIX` (не `canShip: true/false`) - Warnings НИКОГА не блокират — само се докладват - Critical/Slop failures → AUTOFIX (до 3 опита, после escalate topic 49) - `evaluateFix()` сравнява before/after QA → improved/fixed/feedback"
+            },
+            {
+              "time": "08:00",
+              "text": "UTC — Demo Sites UX одит (пълен Playwright audit) — - Крис поиска пълен UX одит на Demo Sites платформата \"от А до Я\" - Тестване с Playwright на 3 viewport-а (1440, 768, 390px), 11 screenshots - Открити 17 проблема: 4 критични, 4 сериозни, 5 средни, 4 nice-to-have - Критични: Login не работи, mobile overflow, форма се чупи, card detail view липсва - Генериран .docx план с 4 фази (35-49ч общо)"
+            },
+            {
+              "time": "08:52",
+              "text": "UTC — Demo Sites UX: Спринт 1+2 РЕАЛИЗИРАНИ — - Validation скрипт: `scripts/demo-platform-validate.js` — 10 автоматични теста - **BEFORE:** 0/10 PASS - **AFTER:** 10/10 PASS - Какво е оправено: - #1 Mobile overflow: .project-card flex-direction:column на mobile, header flex-wrap"
+            },
+            {
+              "time": "09:03",
+              "text": "UTC — Demo Sites UX: Спринт 3 РЕАЛИЗИРАН — - Task Queue redesign: табове (Активни/Завършени/Грешки), human-readable результати, лимит 15 - Deep links в Telegram нотификациите: projectUrl() helper, 6 нотификации обновени с <a href> - Worker рестартиран (pm2) - Validation: 10/10 PASS (все още) - Commits: 799413e1"
+            },
+            {
+              "time": "09:55",
+              "text": "UTC — Demo Sites UX: Спринт 4 РЕАЛИЗИРАН (ФИНАЛЕН) — - **Light mode:** CSS variables за [data-theme=\"light\"], toggle бутон 🌙/☀️, localStorage persistence - **Keyboard shortcuts:** / Търси, N Нов проект, Q Задачи, J/K навигация, Enter отвори, Esc назад, ? помощ - kb-focus стил (accent outline) за J/K навигация - Validation: 10/10 PASS (4 бутона >= 44px — theme бутонът също) - Commit: ec44b062"
+            },
+            {
+              "time": "10:05",
+              "text": "UTC — Demo Sites UX: Flow тестване + Light mode bugfix — - Flow 1 (нов проект): Работи end-to-end. Модал → попълване → създаване → detail view → \"Пусни за задание\". Без проблеми. - Flow 2 (корекция на съществуващ): Търсене \"Искрови\" → 1 карта → detail → textarea за ревизия + бутон \"Изпрати за корекция\". Работи. - Light mode: CSS nesting бъг — [data-theme=\"light\"] блокът беше ВЪТРЕ в :root блока. CSS не поддържа nesting без Sass. Оправено — светлата тема работи (потвърдено визуално). - Header gradient: hardcoded #0e1628 → var(--bg-deep). Сега се сменя при theme toggle. - Commit: c1dfddb0"
+            },
+            {
+              "time": "10:46",
+              "text": "Миг Трейд revision 4 (heartbeat):** Trigger `/tmp/demo-action-trigger-миг-трейд.json` → status=revisions. Същата заявка като rev #1 — отделни страници за всеки продукт. Анализ: homepage НЕ линква към subpages, навигацията е само anchors, `vhodni-vrati.html` не съществува, `ogradi-portali.html` → broken link (трябва `ogradi-i-portali.html`). Spawn-нат Codex: създай vhodni-vrati.html, линкни cards от homepage, fix nav на всички страници."
+            },
+            {
+              "time": "11:05",
+              "text": "Миг Трейд rev4 DONE:** Codex завърши → всички 8 HTML файла обновени. Нова страница: vhodni-vrati.html (входни врати — 5 продукта с цени/снимки). Homepage cards кликабилни. Nav/footer уеднаквени. Broken links fixed. Push → review."
+            },
+            {
+              "time": "14:22",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:20",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "13:37",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:14",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:54",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:50",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:13",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:07",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "12:25",
+              "text": "🔴 Rev7 Миг Трейд — Codex scope blowout + rollback — - Крис пусна rev7: \"смени шрифта на менюто\" - Codex получи целия index.html (40KB) + scope \"EDIT\" → пренаписа 174 реда вместо 3 - Структура, визия, всичко променено. Крис хвана веднага. - Rollback: `git revert 6bd4ef63` → push-нат, сайтът възстановен - **Root cause:** Codex получава цели файлове за микро-промени"
+            },
+            {
+              "time": "12:35",
+              "text": "✅ Миг Трейд ревизия завършена. Codex промени ревъртнати (сменяше nav линкове на anchors, hero image, махаше product card links). Ръчен surgical fix: nav font → DM Sans, padding/spacing, border-radius на CTA, logo nowrap, consistent across all 6 HTML pages. Визуална валидация: 3 итерации, финална — 5/5 checks passed. Status → review."
+            }
+          ]
+        },
         {
           "date": "2026-03-31",
           "entries": [
+            {
+              "time": "17:21",
+              "text": "📋 Demo Sites v2 финален план v3 изпратен (обединен). Chat+Preview МАХНАТО (не допринася). ДОБАВЕН Слой 5: Автономност — автономни ревизии (AUTO/SUPERVISED/MANUAL), проактивен QA, Measure-First prompts, Slop check в pipeline, Codex fallback, нула best-effort. 5 фази, 8-13 дни. Чака одобрение от Крис."
+            },
+            {
+              "time": "17:06",
+              "text": "Auto-extract topic 1 (174570 tokens, id:1-1774976764):** [2026-03-31T17:03:07] User: Добре, аз имам и още един въпрос ловабъл, болт имдругите олатформи имат чат инпревю. При нас; [2026-03-31T17:00:24] Сега имам пълната картина. Правя документа с всички реални инциденти.; [2026-03-31T17:01:04] [[reply_to_current]] Рових в цялата история — от март до днес. Намерих **12 реални инцидента**.  К; [2026-03-31T17:03:59] Много правилен въпрос. Нека помисля обективно.  **Какво дава чат + preview на Lovable/Bolt:**  Пот; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D; https://koiopenclaw-max.github.io/dental-killer-template/; [2026-03-31T17:00:24] exec: cat << 'SCRIPT' > /tmp/gen-incidents.js"
+            },
+            {
+              "time": "14:02",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:00",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
             {
               "time": "13:45",
               "text": "🔔 Codex приключи. Koi ревюира."
@@ -2374,6 +2947,10 @@
             {
               "time": "10:16",
               "text": "🚪 Врати кайлъка: Revision — Крис иска преработка в niche template за врати-дограма. Spawned Codex (amber-gulf)."
+            },
+            {
+              "time": "16:22",
+              "text": "🔧 **Dashboard fix (ПОСТОЯНЕН):**"
             }
           ]
         },
@@ -2832,157 +3409,6 @@
             {
               "time": "19:05",
               "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-20",
-          "entries": [
-            {
-              "time": "20:55",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
-            },
-            {
-              "time": "15:33",
-              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
-            },
-            {
-              "time": "15:08",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:01",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:00",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:59",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:18",
-              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
-            },
-            {
-              "time": "15:08",
-              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
-            },
-            {
-              "time": "20:40",
-              "text": "🔴 SECURITY INCIDENT: Supabase service_role key exposed**"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-19",
-          "entries": [
-            {
-              "time": "13:09",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:54",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:36",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:20",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-18",
-          "entries": [
-            {
-              "time": "15:00",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:56",
-              "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git"
-            },
-            {
-              "time": "13:35",
-              "text": "АКТИВИ КОНСУЛТ revision round 3: Пълно преработване на мобилното меню — slide-in панел от дясно (280px), hamburger→X анимация, backdrop overlay, body scroll lock, auto-close при tap. Commit: f6d7ba2. Status → review."
-            },
-            {
-              "time": "07:58",
-              "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git"
-            },
-            {
-              "time": "07:13",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "07:05",
-              "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf"
-            },
-            {
-              "time": "07:12",
-              "text": "Worker хвана building задача за РУМ-ПЛАМ, но Codex не произведе index.html (timeout 17 сек — прекалено кратко). Билдът обаче беше вече направен от предишна сесия (commit 9cfc6bf, 07:08)."
-            },
-            {
-              "time": "07:15",
-              "text": "Fix: syncFromGH ползваше raw.githubusercontent.com (cached 5 мин). Сега ползва VPS proxy. Добавен auto-refresh на dashboard на 15 сек."
-            },
-            {
-              "time": "14:00",
-              "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг."
-            },
-            {
-              "time": "14:05",
-              "text": "🔴 SECURITY FIX v1: Открит проблем — proxy без auth. Първи опит с API key в header — но ключът се виждаше в source-а на GitHub Pages (грешка)."
-            },
-            {
-              "time": "14:12",
-              "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: [secrets-path]. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220."
-            },
-            {
-              "time": "14:18",
-              "text": "АКТИВИ КОНСУЛТ мобилно меню — ROOT CAUSE НАМЕРЕН: `<nav>` имаше z-index:100, overlay z-index:200, nav-links z-index:300. Но nav-links е ДЕТЕ на nav, значи целият stacking context на nav (100) е ПОД overlay-а (200). Fix: nav z-index:100→999. Тестван с Playwright — ✅ линковете се кликват, overlay затваря менюто. Commit: cccfda3."
-            },
-            {
-              "time": "08:10",
-              "text": "— Demo Sites automation fix — - **Проблем:** Worker за revisions пускаше тъп Codex без валидация → маркираше \"done\" без реални промени - **Проблем 2:** dns_setup loop — процесорът re-queue-ваше вече обработени задачи - **Проблем 3:** Git divergence блокираше pull - **Fix 1:** Ръчно коригирах РУМ-ПЛАМ 2007: © 2025→2026, OG image, Open Graph, Twitter Card, SEO meta - **Fix 2:** Преработих `executeRevisions` в demo-worker.js — вместо Codex, делегира на Koi чрез trigger файл"
-            },
-            {
-              "time": "09:52",
-              "text": "АКТИВИ КОНСУЛТ ревизия: логото в хедъра уголемено с 50% (40px→60px) по заявка от Крис. Status → review. Commit: 87b85b5"
-            },
-            {
-              "time": "09:56",
-              "text": "АКТИВИ КОНСУЛТ ревизия: пълна локална SEO оптимизация + OG image fix. Промени: разширени meta keywords (счетоводство/ТРЗ/одит Бургас), geo meta tags, FAQPage Schema, hasOfferCatalog Schema с всички услуги, OG/Twitter image → hero от стария сайт, H1 с ключови думи, footer anchor текстове. Status → review. Commit: 133c070"
-            },
-            {
-              "time": "13:06",
-              "text": "АКТИВИ КОНСУЛТ ревизия: мобилни проблеми — 1) Хамбургер меню: добавен × бутон за затваряне, линковете затварят менюто, z-index коригиран; 2) За нас секция: responsive grid за мобилно. Status → review. Commit: 7e35466"
-            },
-            {
-              "time": "13:42",
-              "text": "АКТИВИ КОНСУЛТ ревизия: мобилно меню fix — z-index йерархия (nav-links z:250 > overlay z:199), touch event handlers с stopPropagation, по-големи tap targets. Status → review. Commit: f63763d"
-            },
-            {
-              "time": "13:43",
-              "text": "АКТИВИ КОНСУЛТ ревизия #6: overlay покриваше целия екран → бутоните некликаеми. Fix: overlay покрива само лявата част (извън slide-in панела), премахнати touchend handlers, линкове с smooth scroll. Status → review. Commit: 46efe60"
-            },
-            {
-              "time": "14:25",
-              "text": "АКТИВИ КОНСУЛТ - Бургас: deploying → live. Repo demo56-add-bg вече имаше CNAME + mobile fix. Статус обновен в demo-sites → live. URL: https://demo56.add.bg"
-            },
-            {
-              "time": "15:04",
-              "text": "Codex review: АКТИВИ КОНСУЛТ мобилно меню fix завършен, deployed to demo56.add.bg. Status: live. РУМ-ПЛАМ 2007 also live. All demo sites current."
             }
           ]
         }
