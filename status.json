@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-03T14:54:34.994Z",
-  "serverUptime": 2180330,
+  "timestamp": "2026-04-03T15:04:34.896Z",
+  "serverUptime": 2180930,
   "loadAvg": [
-    "0.13",
-    "0.43",
-    "0.36"
+    "0.30",
+    "0.55",
+    "0.45"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T14:51:36.931Z",
-      "ageSec": 178,
+      "ageSec": 777,
       "tokens": 149384,
       "lastAction": "Изпратено в topic 51 (Momerly). 🐟",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T09:54:44.392Z",
-      "ageSec": 17990,
+      "ageSec": 18590,
       "tokens": 51401,
       "lastAction": "Проблемът беше, че когато repo-то стана private→public, Pages се включи в **legacy mode** (branch deploy), но workflow-ъ",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 17274,
+      "ageSec": 17874,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 714632,
+          "runningSec": 715232,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 713985,
+          "runningSec": 714584,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 711819,
+          "runningSec": 712419,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 697887,
+          "runningSec": 698487,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 696668,
+          "runningSec": 697268,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 694695,
+      "ageSec": 695295,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -163,13 +163,13 @@
     {
       "topicId": "51",
       "name": "Momerly",
-      "status": "building",
-      "statusLabel": "🔨 Codex Building",
-      "lastUpdate": "2026-04-03T14:52:56.042Z",
-      "ageSec": 98,
-      "tokens": 62420,
-      "lastAction": "Sprint 2 (User Management) пуснат на Codex! 🔄  Включва: таблица с потребители, search + filters, user detail, warning/su",
-      "hasProcess": true,
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-03T15:04:33.814Z",
+      "ageSec": 1,
+      "tokens": 63714,
+      "lastAction": "✅ **Sprint 2 — User Management ГОТОВ!**  **Какво е направено:** - 👤 Таблица с всички потребители (search + филтри по sta",
+      "hasProcess": false,
       "hasSession": true,
       "subAgents": []
     },
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 157524,
+      "ageSec": 158124,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 635389,
+      "ageSec": 635989,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,38 +200,17 @@
       "subAgents": []
     }
   ],
-  "processes": [
-    {
-      "pid": "2529309",
-      "cpu": "0.0",
-      "mem": "1.1",
-      "elapsed": "01:43",
-      "elapsedSec": 103,
-      "cmd": "node [server-path] exec --full-auto # Momerly Admin Dashboard — Sprint 2: User Management ## Context Sprint 1 is already built in ",
-      "relatedTopic": "51",
-      "procType": "codex"
-    },
-    {
-      "pid": "2529318",
-      "cpu": "1.3",
-      "mem": "1.6",
-      "elapsed": "01:43",
-      "elapsedSec": 103,
-      "cmd": "[server-path] exec --full-a",
-      "relatedTopic": null,
-      "procType": "codex"
-    }
-  ],
+  "processes": [],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
-    "building": 1,
-    "recent": 1,
-    "idle": 10,
+    "working": 1,
+    "building": 0,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
