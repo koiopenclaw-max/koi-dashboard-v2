@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T13:10:03.672Z",
+  "updated": "2026-04-03T17:00:05.325Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -32,7 +32,7 @@
       "status": "active",
       "priority": "high",
       "started": "2026-03-06",
-      "updated": "2026-04-01",
+      "updated": "2026-04-03",
       "topic": 49,
       "repo": "koiopenclaw-max/demo-sites",
       "url": "https://koiopenclaw-max.github.io/demo-sites/",
@@ -71,23 +71,23 @@
           "blockers": []
         },
         {
-          "name": "Phase 5: Scale & Set B",
-          "status": "next",
-          "started": null,
-          "completed": null,
-          "summary": "Set B темплейти (смели/модерни) за всички 8 ниши. Качество до ниво на счетоводните.",
+          "name": "Phase 5: v2 Pipeline (Apr 1-3)",
+          "status": "done",
+          "started": "2026-04-01",
+          "completed": "2026-04-03",
+          "summary": "6 v2 модула + pipeline orchestrator + surgical edits + visual gate + role-based prompts. Итериран до v13.",
           "blockers": []
         },
         {
-          "name": "Phase 6: Client Self-Service",
+          "name": "Phase 6: Set B Templates + Client Self-Service",
           "status": "next",
           "started": null,
           "completed": null,
-          "summary": "Клиентски портал за feedback, одобрение, DNS setup.",
+          "summary": "Set B темплейти (смели/модерни) за всички 8 ниши. Клиентски портал за feedback.",
           "blockers": []
         }
       ],
-      "progress": 67,
+      "progress": 83,
       "activePhase": null,
       "goals": [
         {
@@ -121,8 +121,8 @@
         "Review от Крис: Училище Козма Тричков Враца",
         "Review от Крис: Адвокатска кантора Богданови и Маринов (multi-page, 7 стр.)",
         "Review от Крис: Счетоводна къща Емпика",
-        "BG Quality Honey — чака QA отговори",
-        "Set B темплейти за всички ниши"
+        "Review от Крис: Миг Трейд",
+        "BG Quality Honey — чака QA отговори"
       ],
       "tags": [
         "demo",
@@ -139,6 +139,10 @@
           "date": "2026-04-03",
           "entries": [
             {
+              "time": "13:55",
+              "text": "📝 Пълна документация на demo-sites проекта — всички подобрения, инциденти, pipeline еволюция 1-3 април, Миг Трейд хронология commit-по-commit. Файл: knowledge/projects/demo-sites.md"
+            },
+            {
               "time": "12:57",
               "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js"
             },
@@ -153,6 +157,10 @@
             {
               "time": "08:00",
               "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            },
+            {
+              "time": "16:07",
+              "text": "✅ Momerly Phase 6, Sprint 5 DONE (FINAL). Polish + deploy config. Responsive sidebar, toast notifications, code splitting, Firebase Hosting config, README, security rules. 1691 lines added. Phase 6 COMPLETE."
             },
             {
               "time": "10:17",
@@ -1108,6 +1116,14 @@
             {
               "time": "08:00",
               "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            },
+            {
+              "time": "15:19",
+              "text": "✅ Momerly Phase 6, Sprint 3 DONE. Reports & Moderation — report list, filters, detail modal, resolve/dismiss, repeat offender detection. 2147 lines added. TSC clean, build passes. Pushed."
+            },
+            {
+              "time": "15:01",
+              "text": "✅ Momerly Phase 6, Sprint 2 DONE. User Management — search, filters, user detail modal, warning/suspend/ban actions, action history. TSC clean, build passes. Pushed."
             }
           ]
         },
@@ -1613,8 +1629,37 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 11,
+      "activityDays": 12,
       "recentActivity": [
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "16:07",
+              "text": "✅ Momerly Phase 6, Sprint 5 DONE (FINAL). Polish + deploy config. Responsive sidebar, toast notifications, code splitting, Firebase Hosting config, README, security rules. 1691 lines added. Phase 6 COMPLETE."
+            },
+            {
+              "time": "15:32",
+              "text": "✅ Momerly Phase 6, Sprint 4 DONE. Analytics (user growth, connections, activities, safety, district distribution, verification funnel) + Action Logs (filters, pagination, CSV export). TSC clean, build passes. Pushed."
+            },
+            {
+              "time": "15:19",
+              "text": "✅ Momerly Phase 6, Sprint 3 DONE. Reports & Moderation — report list, filters, detail modal, resolve/dismiss, repeat offender detection. 2147 lines added. TSC clean, build passes. Pushed."
+            },
+            {
+              "time": "15:01",
+              "text": "✅ Momerly Phase 6, Sprint 2 DONE. User Management — search, filters, user detail modal, warning/suspend/ban actions, action history. TSC clean, build passes. Pushed."
+            },
+            {
+              "time": "14:40",
+              "text": "✅ Momerly Phase 6, Sprint 1 DONE. Admin Dashboard Foundation + Verification Queue. 20 файла, TSC clean, build passes. Pushed to GitHub."
+            },
+            {
+              "time": "14:30",
+              "text": "🚀 Momerly Phase 6 СТАРТ. Крис одобри план: 5 модула (User Mgmt, Verification Queue, Reports, Analytics, Action Logs). Events + Map махнати от MVP. 5 Sprint-а. Пускам Sprint 1 (Foundation + Verification Queue) на Codex."
+            }
+          ]
+        },
         {
           "date": "2026-04-01",
           "entries": [
@@ -1843,27 +1888,6 @@
               "text": "🔴 SECURITY INCIDENT — Exposed secrets в koi-dashboard — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` с `lastAction` поле, съдържащо API ключове, към **публично** GitHub repo `koi-dashboard` - **Изтекло:** Google API Key (AIzaSy...) за Momerly, потенциално GitHub PAT - **Известия:** GitGuardian (x2), GitHub secret scanning, Google Cloud compliance - **Действия:** - ✅ Repo `koi-dashboard` → private"
             }
           ]
-        },
-        {
-          "date": "2026-03-12",
-          "entries": [
-            {
-              "time": "03:55",
-              "text": "✅ Zdravko landing rebrand готов: оригинално PNG лого, правилна палитра (#A8E34A, #003324, #FF884D, #F0F5F2). Верифицирах всички CSS vars, секции, mobile, bilingual преди deploy."
-            },
-            {
-              "time": "19:37",
-              "text": "Momerly: Крис потвърди Expo + Firebase стек. Утре дава Firebase credentials + лого/брандинг. Задачата за development workflow документация стартирана."
-            },
-            {
-              "time": "18:10",
-              "text": "Momerly v3.0: Крис смени стека на Firebase (вместо Supabase) + потвърди Expo. Актуализиран SKILL.md, генериран .docx v3.0 задание."
-            },
-            {
-              "time": "16:33",
-              "text": "Momerly v2.0: Крис премахна Events + Map от MVP. Има App Store + Play Store акаунти. Актуализиран план (10 таблици, ~11-14 седмици) + .docx задание за реализация v2 доставено в topic:51."
-            }
-          ]
         }
       ]
     },
@@ -1920,8 +1944,21 @@
         "platform",
         "ai"
       ],
-      "activityDays": 18,
+      "activityDays": 19,
       "recentActivity": [
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "15:19",
+              "text": "✅ Momerly Phase 6, Sprint 3 DONE. Reports & Moderation — report list, filters, detail modal, resolve/dismiss, repeat offender detection. 2147 lines added. TSC clean, build passes. Pushed."
+            },
+            {
+              "time": "15:01",
+              "text": "✅ Momerly Phase 6, Sprint 2 DONE. User Management — search, filters, user detail modal, warning/suspend/ban actions, action history. TSC clean, build passes. Pushed."
+            }
+          ]
+        },
         {
           "date": "2026-04-02",
           "entries": [
@@ -2142,43 +2179,6 @@
               "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
-        },
-        {
-          "date": "2026-03-20",
-          "entries": [
-            {
-              "time": "20:49",
-              "text": "Auto-extract topic 718 (163182 tokens, id:718-1774039744):** [2026-03-20T20:37:47] User: Искам да анализирашмситуацията с със супабейс и да видиш защо и от къде е изтекъл  токън, ко; [2026-03-20T20:42:54] User: Колко пъти провери имме увери че няма нищо публично. Не е въпроса аЗ какво трябва да направя; [2026-03-20T20:45:47] Чисто. Нито един от другите публични repos няма secrets в историята.  Сега пиша скрипт за автомати; [2026-03-20T20:46:33] Не мога да rotate-на keys-ите от API. Ще трябва от Dashboard-а.  Ето **10-те стъпки** — какво вече; [2026-03-20T20:46:42] Крис, rotate-ни JWT secret-а от Supabase Dashboard и ми дай новите keys. Дотогава системата работи; (crontab -l 2>/dev/null; echo \"0 6 * * 1 /; [2026-03-20T20:46:33] exec: cat >> ~/daily/2026-03-20.md << 'EOF'; - **20:42 UT"
-            },
-            {
-              "time": "15:33",
-              "text": "Auto-extract topic 718 (180912 tokens, id:718-1774020783):** [2026-03-20T15:26:58] User: 3. Аз автоматично: изпращам мейл - на кой изпращаш мейл? Какво ще пише в този мейл?; [2026-03-20T15:28:14] User: текста е ок, сега систематаще позволили на този мейл пак да се регистрира?; [2026-03-20T15:30:18] User: за да работи всичко коректно един мейл не може да се регистрира два пъти. Идеята е че този м; [2026-03-20T15:27:07] На клиента — на мейла който е попълнил във формата (в случая `k***@infocall.bg`).  Съдържание — ; [2026-03-20T15:28:31] Няма unique constraint на email. Същият мейл може да попълни 10 пъти и ще има 10 записа.  Трябва л; [2026-03-20T15:30:36] Вече е правилно:  - **`contact_requests`** — без unique на email → може да пише колкото пъти иска ; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data/${encodeURIComponent(file.name; https://github.com/<deployRepo>.git`"
-            },
-            {
-              "time": "14:18",
-              "text": "Auto-extract topic 718 (152895 tokens, id:718-1774016316):** [2026-03-20T14:12:07] Крис, трябва ми **database password** за да пусна migration-а. Supabase Dashboard → **Settings → D; [2026-03-20T14:14:14] Това са **Organization** settings, не Project settings. Трябва да влезеш в самия проект.  1. Кликн; [2026-03-20T14:16:10] Виждам — това е Project Settings (General). Database паролата е на друго място.  В **лявото меню**; # First need the project's management a; [2026-03-20T14:11:47] exec: npm install -g pg 2>&1 | tail -2; [2026-03-20T14:11:59] write: run-migration.js"
-            },
-            {
-              "time": "15:08",
-              "text": "✅ ClawAI Admin Dashboard built by Codex** — Login gate (no hardcoded keys), 8 sections (Overview, Pipeline, Customers, Projects, Infra, Support, Maintenance, Financials), ~1470 lines, dark theme. Files in `/tmp/clawai-dashboard/`. Ready for deploy to GitHub Pages."
-            },
-            {
-              "time": "15:26",
-              "text": "🔔 Нов ClawAI contact request:** Kristian Koynov (k***@infocall.bg), тел: [phone-redacted], план: Starter, бележка: \"I want to use this service\". Вероятно тест от Крис."
-            },
-            {
-              "time": "16:42",
-              "text": "✅ ClawAI contact pipeline работи end-to-end:**"
-            },
-            {
-              "time": "19:52",
-              "text": "✅ ClawAI pipeline разделен на два flow-а:**"
-            },
-            {
-              "time": "20:10",
-              "text": "✅ ClawAI форма обогатена за Clawsourcing план:**"
-            }
-          ]
         }
       ]
     },
@@ -2254,12 +2254,44 @@
           "date": "2026-04-03",
           "entries": [
             {
+              "time": "16:07",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:29",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:19",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "15:02",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "14:40",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:43",
+              "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
               "time": "13:08",
               "text": "🔔 Codex приключи. Koi ревюира."
             },
             {
               "time": "13:06",
               "text": "🔔 Codex приключи. Koi ревюира."
+            },
+            {
+              "time": "13:53",
+              "text": "🔴 Миг Трейд restore към c31a3243 (2 април 19:33) — последна стабилна версия с SEO+dropdowns+logo. Урок: baseline.html трябва ВИНАГИ да е синхронизиран с index.html след всяка успешна ревизия. Revert commit-и са опасни — губят промени от други ревизии."
+            },
+            {
+              "time": "13:39",
+              "text": "v13 CLEANUP: Махнати TIL Classifier, TIL Analyzer, KOI Decision Layer, v8 Classification. Оставено: Scope → Surgical → Role Prompts → Codex → Validate → Visual Gate → Push. От 6 Claude calls → 3. Нотификации fix-нати (v12 direct push). Worker рестартиран."
             },
             {
               "time": "12:57",
@@ -2384,6 +2416,14 @@
             {
               "time": "08:00",
               "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            },
+            {
+              "time": "15:32",
+              "text": "✅ Momerly Phase 6, Sprint 4 DONE. Analytics (user growth, connections, activities, safety, district distribution, verification funnel) + Action Logs (filters, pagination, CSV export). TSC clean, build passes. Pushed."
+            },
+            {
+              "time": "14:30",
+              "text": "🚀 Momerly Phase 6 СТАРТ. Крис одобри план: 5 модула (User Mgmt, Verification Queue, Reports, Analytics, Action Logs). Events + Map махнати от MVP. 5 Sprint-а. Пускам Sprint 1 (Foundation + Verification Queue) на Codex."
             }
           ]
         },
