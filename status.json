@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-03T12:34:32.614Z",
-  "serverUptime": 2171928,
+  "timestamp": "2026-04-03T12:54:31.631Z",
+  "serverUptime": 2173127,
   "loadAvg": [
-    "0.23",
-    "0.28",
-    "0.30"
+    "0.06",
+    "0.11",
+    "0.15"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-03T12:33:51.059Z",
-      "ageSec": 41,
-      "tokens": 124416,
-      "lastAction": "Ок, виждам пълната картина. Ето класификацията на всички задачи от последните 2 седмици:  ---  **🎨 ДИЗАЙНЕР (UI/UX)** —",
+      "lastUpdate": "2026-04-03T12:53:57.495Z",
+      "ageSec": 34,
+      "tokens": 143856,
+      "lastAction": "🔧 ",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T09:54:44.392Z",
-      "ageSec": 9588,
+      "ageSec": 10787,
       "tokens": 51401,
       "lastAction": "Проблемът беше, че когато repo-то стана private→public, Pages се включи в **legacy mode** (branch deploy), но workflow-ъ",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 8871,
+      "ageSec": 10070,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 706229,
+          "runningSec": 707428,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 705582,
+          "runningSec": 706781,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 703416,
+          "runningSec": 704615,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 689485,
+          "runningSec": 690684,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 688266,
+          "runningSec": 689465,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 686293,
+      "ageSec": 687492,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 149121,
+      "ageSec": 150321,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 626987,
+      "ageSec": 628186,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
