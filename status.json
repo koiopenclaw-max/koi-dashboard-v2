@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-03T14:24:32.556Z",
-  "serverUptime": 2178528,
+  "timestamp": "2026-04-03T14:34:31.807Z",
+  "serverUptime": 2179127,
   "loadAvg": [
-    "0.29",
-    "0.19",
-    "0.18"
+    "0.23",
+    "0.17",
+    "0.17"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T13:58:49.290Z",
-      "ageSec": 1543,
+      "ageSec": 2142,
       "tokens": 142075,
       "lastAction": "✅ Готово. Записано в `knowledge/projects/demo-sites.md`:  **Какво съдържа:** - **Pipeline v13** — пълен flow с всички мо",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T09:54:44.392Z",
-      "ageSec": 16188,
+      "ageSec": 16787,
       "tokens": 51401,
       "lastAction": "Проблемът беше, че когато repo-то стана private→public, Pages се включи в **legacy mode** (branch deploy), но workflow-ъ",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 15471,
+      "ageSec": 16071,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 712829,
+          "runningSec": 713428,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 712182,
+          "runningSec": 712781,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 710016,
+          "runningSec": 710616,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 696085,
+          "runningSec": 696684,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 694866,
+          "runningSec": 695465,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 692893,
+      "ageSec": 693492,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -163,13 +163,13 @@
     {
       "topicId": "51",
       "name": "Momerly",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-03T14:24:28.676Z",
-      "ageSec": 3,
-      "tokens": 37316,
-      "lastAction": "Ок, чиста картина:  ## ✅ Готово (Phases 1-5)  | Фаза | Какво | Кога | |------|-------|------| | **Phase 1** | Foundation",
-      "hasProcess": false,
+      "status": "building",
+      "statusLabel": "🔨 Codex Building",
+      "lastUpdate": "2026-04-03T14:33:06.097Z",
+      "ageSec": 85,
+      "tokens": 52434,
+      "lastAction": "🚀 Sprint 1 пуснат на Codex!  **Какво се билди:** - React + Vite + Tailwind + TypeScript проект в `admin/` - Firebase Aut",
+      "hasProcess": true,
       "hasSession": true,
       "subAgents": []
     },
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 155721,
+      "ageSec": 156321,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 633587,
+      "ageSec": 634186,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,15 +200,36 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2521946",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "01:32",
+      "elapsedSec": 92,
+      "cmd": "node [server-path] exec --full-auto # Momerly Admin Dashboard — Sprint 1: Foundation + Verification Queue ## Overview Build a web-",
+      "relatedTopic": "51",
+      "procType": "codex"
+    },
+    {
+      "pid": "2521955",
+      "cpu": "1.6",
+      "mem": "1.6",
+      "elapsed": "01:32",
+      "elapsedSec": 92,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
-    "building": 0,
+    "working": 0,
+    "building": 1,
     "recent": 0,
     "idle": 11,
     "stuck": 0
