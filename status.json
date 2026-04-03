@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-03T09:34:32.453Z",
-  "serverUptime": 2161128,
+  "timestamp": "2026-04-03T09:44:32.072Z",
+  "serverUptime": 2161727,
   "loadAvg": [
-    "0.20",
-    "0.26",
-    "0.30"
+    "0.21",
+    "0.42",
+    "0.39"
   ],
   "topics": [
     {
@@ -12,10 +12,10 @@
       "name": "General",
       "status": "working",
       "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-03T09:34:24.621Z",
-      "ageSec": 7,
-      "tokens": 126725,
-      "lastAction": "⚡ cd [server-path] && node scripts/demo-e2e-test.js --",
+      "lastUpdate": "2026-04-03T09:44:29.807Z",
+      "ageSec": 2,
+      "tokens": 149785,
+      "lastAction": "⏳ poll salty-willow",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T08:16:43.025Z",
-      "ageSec": 4669,
+      "ageSec": 5269,
       "tokens": 47998,
       "lastAction": "Всички 37 repos имат Pages re-enabled. Когато repo-тата станаха private, GitHub автоматично изключи Pages. Сега ги включ",
       "hasProcess": false,
@@ -103,10 +103,10 @@
       "name": "Demo Sites",
       "status": "idle",
       "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T11:42:26.311Z",
-      "ageSec": 78726,
+      "lastUpdate": "2026-04-03T09:41:01.409Z",
+      "ageSec": 210,
       "tokens": 84828,
-      "lastAction": "✅ Миг Трейд — SEO/GEO/AEO оптимизация готова: • 5 JSON-LD schema markup на всяка страница • Уникални meta title + descri",
+      "lastAction": "❓ **Финкомекс Одитинг — Rev: Логото е грешно**  Проверих: логото в deploy repo-то (demo60-add-bg) е СЪЩОТО като на finco",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": [
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 695429,
+          "runningSec": 696029,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 694782,
+          "runningSec": 695382,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 692616,
+          "runningSec": 693216,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 678685,
+          "runningSec": 679284,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 677466,
+          "runningSec": 678065,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 675493,
+      "ageSec": 676092,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 138321,
+      "ageSec": 138921,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 616187,
+      "ageSec": 616786,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,7 +200,38 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2409302",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "02:44",
+      "elapsedSec": 164,
+      "cmd": "/bin/sh -c cd \"/tmp/demo-revision-миг-трейд\" && git init -q && codex exec --full-auto \"Read PROMPT.md and follow the instructions exactly.\" 2>&1 | tai",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2409304",
+      "cpu": "0.0",
+      "mem": "1.1",
+      "elapsed": "02:44",
+      "elapsedSec": 164,
+      "cmd": "node [server-path] exec --full-auto Read PROMPT.md and follow the instructions exactly.",
+      "relatedTopic": null,
+      "procType": "codex"
+    },
+    {
+      "pid": "2409312",
+      "cpu": "1.5",
+      "mem": "1.6",
+      "elapsed": "02:44",
+      "elapsedSec": 164,
+      "cmd": "[server-path] exec --full-a",
+      "relatedTopic": null,
+      "procType": "codex"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
