@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T13:45:02.882Z",
+  "updated": "2026-04-03T13:55:02.377Z",
   "totalDays": 29,
-  "totalEntries": 727,
+  "totalEntries": 728,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "13:53",
+          "text": "🔴 Миг Трейд restore към c31a3243 (2 април 19:33) — последна стабилна версия с SEO+dropdowns+logo. Урок: baseline.html трябва ВИНАГИ да е синхронизиран с index.html след всяка успешна ревизия. Revert commit-и са опасни — губят промени от други ревизии.",
+          "type": "alert"
+        },
         {
           "time": "13:43",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -329,7 +334,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 46
+      "entryCount": 47
     },
     {
       "date": "2026-04-02",
