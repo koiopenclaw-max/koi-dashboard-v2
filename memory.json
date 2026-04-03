@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T07:55:02.739Z",
+  "updated": "2026-04-03T08:00:03.229Z",
   "totalDays": 29,
-  "totalEntries": 684,
+  "totalEntries": 685,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "07:58",
+          "text": "UTC — TIL v2 Фаза 1, Ден 3 DONE — **Интеграция в demo-worker.js завършена:** 1. **TIL модули заредени** — til-classifier, til-lock, seo-apply (confirmed в PM2 logs) 2. **Нов STEP 1d** — TIL classification след scope analysis (логва taskType, tier, executor) 3. **Нов STEP 1e** — Tier 1-2 Direct Path: - seo-standard → seo-apply.js автоматично (без Codex) - text-edit, css-tweak, content-remove, meta-only, nav-update → surgical path (без Codex) - asset-fix, icon-replace, style-system → wake Koi за manual handling - Concurrency lock при direct execution - Auto git push + status update + Telegram notify 4. **Worker рестартиран** — синтаксис clean, всички модули заредени 5. **Tier 3+ задачи** — fallthrough към existing surgical/Codex pipeline (непроменен)",
+          "type": "deploy"
+        },
         {
           "time": "07:10",
           "text": "UTC — TIL v2 Фаза 1 СТАРТ — - Крис одобри TIL v2 плана — \"изглежда обещаващо, започвай\" - Фаза 1: Foundation (4 дни) - Ден 1: til-classifier.js - Ден 2: til-lock.js + seo-apply.js - Ден 3: Integration в demo-worker.js - Ден 4: Тест с реална ревизия - Документи: TIL-Plan-v1.docx, TIL-v2-Analysis.docx, TIL-v2-Plan.docx",
@@ -108,7 +113,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 3
+      "entryCount": 4
     },
     {
       "date": "2026-04-02",
