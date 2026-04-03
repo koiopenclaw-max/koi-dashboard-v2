@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-03T11:55:02.577Z",
+  "updated": "2026-04-03T12:00:03.283Z",
   "totalDays": 29,
-  "totalEntries": 714,
+  "totalEntries": 716,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "11:55",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "11:54",
+          "text": "🛑 Миг Трейд hero loop спрян: Worker продължаваше да retry-ва hero revision (3+ пъти). Status принудително сменен на `review`. Проблемът е че ВСИЧКИ клиентски снимки са max 600px — нужна е HD снимка от клиента.",
+          "type": "default"
+        },
         {
           "time": "11:53",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -262,7 +272,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 33
+      "entryCount": 35
     },
     {
       "date": "2026-04-02",
