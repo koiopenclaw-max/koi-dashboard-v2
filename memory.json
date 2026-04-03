@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T13:55:02.377Z",
+  "updated": "2026-04-03T14:00:03.320Z",
   "totalDays": 29,
-  "totalEntries": 728,
+  "totalEntries": 729,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "13:55",
+          "text": "📝 Пълна документация на demo-sites проекта — всички подобрения, инциденти, pipeline еволюция 1-3 април, Миг Трейд хронология commit-по-commit. Файл: knowledge/projects/demo-sites.md",
+          "type": "default"
+        },
         {
           "time": "13:53",
           "text": "🔴 Миг Трейд restore към c31a3243 (2 април 19:33) — последна стабилна версия с SEO+dropdowns+logo. Урок: baseline.html трябва ВИНАГИ да е синхронизиран с index.html след всяка успешна ревизия. Revert commit-и са опасни — губят промени от други ревизии.",
@@ -334,7 +339,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 47
+      "entryCount": 48
     },
     {
       "date": "2026-04-02",
