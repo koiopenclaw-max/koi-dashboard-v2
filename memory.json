@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-03T21:05:02.589Z",
+  "updated": "2026-04-03T21:10:03.222Z",
   "totalDays": 30,
   "totalEntries": 753,
   "days": [
@@ -26,31 +26,27 @@
         },
         {
           "done": false,
-          "text": "🔴 Auto-extract скрипт redesign — текущият записва random фрагменти, не решения/одобрения"
+          "text": "🔴 Auto-extract скрипт redesign"
         },
         {
           "done": false,
-          "text": "Създай Email Reply skill — шаблони, tone of voice, auto vs. manual, follow-up логика"
+          "text": "Създай Email Reply skill"
         },
         {
           "done": false,
-          "text": "ClawAI Phase 6: DO provisioning автоматизация (config generator готов, чака DO акаунт)"
+          "text": "ClawAI Phase 6: DO provisioning"
         },
         {
           "done": false,
-          "text": "💡 ClawMart: Package 5-6 готови skills за листване (нулев cost, бърз start)"
+          "text": "💡 ClawMart: Package 5-6 skills"
         },
         {
           "done": false,
-          "text": "gstack Test Lab: Продължи pipeline за Persona Creation — следваща фаза след /plan-eng-review"
+          "text": "Momerly Phase 7: Polish & Launch Prep"
         },
         {
           "done": false,
-          "text": "Momerly Phase 7: Polish & Launch — edge cases, i18n, App Store assets, Privacy Policy"
-        },
-        {
-          "done": false,
-          "text": "💡 Visual Gate v9.1: ML image comparison (ако v9 хване regressions правилно)"
+          "text": "gstack Test Lab: Продължи pipeline"
         },
         {
           "done": false,
@@ -62,7 +58,7 @@
         },
         {
           "done": false,
-          "text": "Адвокатска кантора Богданови и Маринов — review (multi-page, 7 стр.)"
+          "text": "Адвокатска кантора Богданови и Маринов — review"
         },
         {
           "done": false,
@@ -70,7 +66,7 @@
         },
         {
           "done": false,
-          "text": "Миг Трейд — review (SEO+nav+logo+mobile done, restore към c31a3243)"
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
         },
         {
           "done": false,
@@ -546,9 +542,10 @@
         "- **Нов модул:** `scripts/koi-decision-layer.js` — creative problem-solving между TIL анализа и Codex",
         "- **Проблем:** TIL Analyzer класифицира задачата, но при \"decisions needed\" просто събуждаше Koi или даваше на Codex raw клиентски текст. Codex не е креативен — каза \"не може, дайте по-добра снимка\" вместо да намали hero-то.",
         "- **Решение:** Koi Decision Layer анализира с конкретни данни (пиксели, image dimensions, available assets) и взема креативно решение inline — без да чака heartbeat.",
-        "- **Flow:** TIL Classify → TIL Analyze → **Koi Decision** (ново!) → Codex с точни инструкции"
+        "- **Flow:** TIL Classify → TIL Analyze → **Koi Decision** (ново!) → Codex с точни инструкции",
+        "- TIL/Decision Layer бяха over-engineered за текущия обем задачи"
       ],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 72
     },
