@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T07:05:03.089Z",
+  "updated": "2026-04-03T07:15:02.631Z",
   "totalDays": 29,
-  "totalEntries": 683,
+  "totalEntries": 684,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "07:10",
+          "text": "UTC — TIL v2 Фаза 1 СТАРТ — - Крис одобри TIL v2 плана — \"изглежда обещаващо, започвай\" - Фаза 1: Foundation (4 дни) - Ден 1: til-classifier.js - Ден 2: til-lock.js + seo-apply.js - Ден 3: Integration в demo-worker.js - Ден 4: Тест с реална ревизия - Документи: TIL-Plan-v1.docx, TIL-v2-Analysis.docx, TIL-v2-Plan.docx",
+          "type": "decision"
+        },
         {
           "time": "06:52",
           "text": "🔒/🔓 Repos reorganized: 37 demo/template repos → PUBLIC (GitHub Pages needs them public). 15 sensitive repos stay PRIVATE: clawai, clawai-dashboard, clawai-dashboard-v2, clawai-portal, clawsourcing-page, koi-dashboard, koi-dashboard-v2, momerly, momerly-design, runai-prototype, skill-test-new/old, test-page, workspace-backup, x-growth-engine.",
@@ -98,11 +103,12 @@
       ],
       "insights": [],
       "decisions": [
-        "- [ ] Felix/ClawMart — решение за бизнес модела"
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- Крис одобри TIL v2 плана — \"изглежда обещаващо, започвай\""
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 2
+      "entryCount": 3
     },
     {
       "date": "2026-04-02",
