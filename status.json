@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-03T06:04:31.973Z",
-  "serverUptime": 2148527,
+  "timestamp": "2026-04-03T06:14:32.400Z",
+  "serverUptime": 2149127,
   "loadAvg": [
-    "1.15",
-    "0.39",
+    "0.19",
+    "0.19",
     "0.18"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "idle",
-      "statusLabel": "⚪ Idle",
-      "lastUpdate": "2026-04-02T19:38:48.516Z",
-      "ageSec": 37543,
-      "tokens": 0,
-      "lastAction": "🔄 Auto-compact: 163761 токена → записано в daily notes. Нова сесия.",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-03T06:14:24.897Z",
+      "ageSec": 7,
+      "tokens": 24510,
+      "lastAction": "Крис, прав си на 100%. Това е системен проблем и аз го виждам ясно след Миг Трейд случая. Ето конкретно предложение:  **",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -88,10 +88,10 @@
     {
       "topicId": "11",
       "name": "📥 Inbox",
-      "status": "working",
-      "statusLabel": "🔵 Working",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T06:03:58.942Z",
-      "ageSec": 33,
+      "ageSec": 633,
       "tokens": 26542,
       "lastAction": "📧 **Нов мейл:** ☁️ **DigitalOcean** — Learn what you can accomplish with DigitalOcean Маркетинг мейл, без действие.",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-02T11:42:26.311Z",
-      "ageSec": 66125,
+      "ageSec": 66726,
       "tokens": 84828,
       "lastAction": "✅ Миг Трейд — SEO/GEO/AEO оптимизация готова: • 5 JSON-LD schema markup на всяка страница • Уникални meta title + descri",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 682829,
+          "runningSec": 683429,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 682182,
+          "runningSec": 682782,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 680016,
+          "runningSec": 680616,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 666084,
+          "runningSec": 666685,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 664865,
+          "runningSec": 665466,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 662892,
+      "ageSec": 663493,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 125721,
+      "ageSec": 126321,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 603586,
+      "ageSec": 604187,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
