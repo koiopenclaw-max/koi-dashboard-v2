@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T06:45:02.942Z",
+  "updated": "2026-04-03T06:55:02.498Z",
   "totalDays": 29,
-  "totalEntries": 682,
+  "totalEntries": 683,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "06:52",
+          "text": "🔒/🔓 Repos reorganized: 37 demo/template repos → PUBLIC (GitHub Pages needs them public). 15 sensitive repos stay PRIVATE: clawai, clawai-dashboard, clawai-dashboard-v2, clawai-portal, clawsourcing-page, koi-dashboard, koi-dashboard-v2, momerly, momerly-design, runai-prototype, skill-test-new/old, test-page, workspace-backup, x-growth-engine.",
+          "type": "deploy"
+        },
         {
           "time": "06:42",
           "text": "🔒 Всички 49 GitHub repo-та на koiopenclaw-max направени PRIVATE по искане на Крис. Причина: външен човек (Sam Pope) изпрати мейл че repo-тата са публични. Мейлът ни е видим в git commit history. 0 public repos remaining.",
@@ -97,7 +102,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 1
+      "entryCount": 2
     },
     {
       "date": "2026-04-02",
