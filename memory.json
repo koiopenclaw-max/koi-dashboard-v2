@@ -1,12 +1,27 @@
 {
-  "updated": "2026-04-03T09:35:03.164Z",
+  "updated": "2026-04-03T09:45:03.334Z",
   "totalDays": 29,
-  "totalEntries": 689,
+  "totalEntries": 692,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "09:37",
+          "text": "❓ Финкомекс Одитинг rev: \"Логото е грешно — различно от одобреното\". Проверих — logo.png в deploy repo е идентичен с fincomex.eu/img/logo.png (md5 match). Сайтът е едностраничен. Попитах Крис за уточнение в topic 49.",
+          "type": "deploy"
+        },
+        {
+          "time": "09:36",
+          "text": "UTC — Стабилизация DONE (5/5 промени) — 1. ✅ Worker self-healing при старт — cleanup stale in_progress + kill orphan Codex 2. ✅ Processor НЕ записва state при SKIP — retry на следващ cron цикъл 3. ✅ demo-config.js — единен файл с всички пътища 4. ✅ Pipeline observability лог — demo-pipeline-log.jsonl (JSON per task) 5. ✅ E2E тест скрипт — demo-e2e-test.js (3 теста: text-edit, seo, asset-fix) E2E тест 3 (asset-fix): ✅ PASS за 5 сек. TIL → asset-fix Tier 2 → wake Koi. Pipeline лог записва: til_classify event + completion event с duration.",
+          "type": "build"
+        },
+        {
+          "time": "09:29",
+          "text": "UTC — Стабилизация План СТАРТ — Крис одобри 5-точков план за стабилизация.",
+          "type": "decision"
+        },
         {
           "time": "09:02",
           "text": "🔔 Codex приключи. Koi ревюира.",
@@ -133,7 +148,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 8
+      "entryCount": 11
     },
     {
       "date": "2026-04-02",
