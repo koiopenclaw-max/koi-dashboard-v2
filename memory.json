@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T13:00:03.362Z",
+  "updated": "2026-04-03T13:05:02.687Z",
   "totalDays": 29,
-  "totalEntries": 722,
+  "totalEntries": 723,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "12:58",
+          "text": "Крис: \"Пускай\" — cron unpause-нат, готов за хирото тест",
+          "type": "default"
+        },
         {
           "time": "12:57",
           "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js",
@@ -303,7 +308,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 41
+      "entryCount": 42
     },
     {
       "date": "2026-04-02",
