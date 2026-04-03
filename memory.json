@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-03T08:00:03.229Z",
+  "updated": "2026-04-03T08:05:02.726Z",
   "totalDays": 29,
-  "totalEntries": 685,
+  "totalEntries": 686,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "08:00",
+          "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git",
+          "type": "deploy"
+        },
         {
           "time": "07:58",
           "text": "UTC — TIL v2 Фаза 1, Ден 3 DONE — **Интеграция в demo-worker.js завършена:** 1. **TIL модули заредени** — til-classifier, til-lock, seo-apply (confirmed в PM2 logs) 2. **Нов STEP 1d** — TIL classification след scope analysis (логва taskType, tier, executor) 3. **Нов STEP 1e** — Tier 1-2 Direct Path: - seo-standard → seo-apply.js автоматично (без Codex) - text-edit, css-tweak, content-remove, meta-only, nav-update → surgical path (без Codex) - asset-fix, icon-replace, style-system → wake Koi за manual handling - Concurrency lock при direct execution - Auto git push + status update + Telegram notify 4. **Worker рестартиран** — синтаксис clean, всички модули заредени 5. **Tier 3+ задачи** — fallthrough към existing surgical/Codex pipeline (непроменен)",
@@ -113,7 +118,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 4
+      "entryCount": 5
     },
     {
       "date": "2026-04-02",
