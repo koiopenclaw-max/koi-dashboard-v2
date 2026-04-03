@@ -1,12 +1,22 @@
 {
-  "updated": "2026-04-03T10:30:03.209Z",
+  "updated": "2026-04-03T10:35:02.729Z",
   "totalDays": 29,
-  "totalEntries": 699,
+  "totalEntries": 701,
   "days": [
     {
       "date": "2026-04-03",
       "dayName": "Петък",
       "entries": [
+        {
+          "time": "10:34",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
+        {
+          "time": "10:30",
+          "text": "🔔 Codex приключи. Koi ревюира.",
+          "type": "build"
+        },
         {
           "time": "10:17",
           "text": "— Koi Decision Layer вграден в demo-worker — - **Нов модул:** `scripts/koi-decision-layer.js` — creative problem-solving между TIL анализа и Codex - **Проблем:** TIL Analyzer класифицира задачата, но при \"decisions needed\" просто събуждаше Koi или даваше на Codex raw клиентски текст. Codex не е креативен — каза \"не може, дайте по-добра снимка\" вместо да намали hero-то. - **Решение:** Koi Decision Layer анализира с конкретни данни (пиксели, image dimensions, available assets) и взема креативно решение inline — без да чака heartbeat. - **Flow:** TIL Classify → TIL Analyze → **Koi Decision** (ново!) → Codex с точни инструкции - **Escalate:** Само ако наистина ambiguous (2+ еднакво валидни подхода). Иначе Koi решава сам. - Worker рестартиран, модулът зареден. Крис поиска — реализирано.",
@@ -187,7 +197,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 18
+      "entryCount": 20
     },
     {
       "date": "2026-04-02",
