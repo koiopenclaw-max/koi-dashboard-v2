@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-03T12:59:34.391Z",
-  "serverUptime": 2173429,
+  "timestamp": "2026-04-03T13:04:31.922Z",
+  "serverUptime": 2173727,
   "loadAvg": [
-    "0.23",
-    "0.15",
-    "0.16"
+    "0.24",
+    "0.22",
+    "0.18"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-03T12:59:16.207Z",
-      "ageSec": 18,
-      "tokens": 0,
-      "lastAction": "⚡ crontab -l | grep -i \"demo\\|worker\\|pause\" 2>/dev/null",
+      "status": "recent",
+      "statusLabel": "🟡 Recent",
+      "lastUpdate": "2026-04-03T13:01:41.279Z",
+      "ageSec": 170,
+      "tokens": 28419,
+      "lastAction": "✅ **Cron активиран!**   Demo worker работи (PID 2489372), processor вече ще проверява всяка минута.  Готово за тест с хи",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T09:54:44.392Z",
-      "ageSec": 11089,
+      "ageSec": 11387,
       "tokens": 51401,
       "lastAction": "Проблемът беше, че когато repo-то стана private→public, Pages се включи в **legacy mode** (branch deploy), но workflow-ъ",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 10373,
+      "ageSec": 10671,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 707731,
+          "runningSec": 708029,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 707084,
+          "runningSec": 707382,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 704918,
+          "runningSec": 705216,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 690987,
+          "runningSec": 691284,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 689768,
+          "runningSec": 690065,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 687795,
+      "ageSec": 688092,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 150623,
+      "ageSec": 150921,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 628489,
+      "ageSec": 628786,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -200,16 +200,27 @@
       "subAgents": []
     }
   ],
-  "processes": [],
+  "processes": [
+    {
+      "pid": "2492609",
+      "cpu": "0.0",
+      "mem": "0.0",
+      "elapsed": "00:17",
+      "elapsedSec": 17,
+      "cmd": "/bin/sh -c echo \"You are Koi, a creative web developer solving a specific website problem.\\n\\n## Client Request\\n\\\"На началната страница в хиро секция",
+      "relatedTopic": null,
+      "procType": "build"
+    }
+  ],
   "errors": {
     "recent": [],
     "counts": {}
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
-    "recent": 0,
+    "recent": 1,
     "idle": 11,
     "stuck": 0
   }
