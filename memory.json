@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-04T12:10:02.483Z",
+  "updated": "2026-04-04T12:15:02.601Z",
   "totalDays": 30,
-  "totalEntries": 755,
+  "totalEntries": 756,
   "days": [
     {
       "date": "2026-04-04",
@@ -10,6 +10,11 @@
         {
           "time": "11:09",
           "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра).",
+          "type": "deploy"
+        },
+        {
+          "time": "11:00",
+          "text": "Momerly iOS 26 crash investigation & fix (topic 51)** - Крис изпрати 5 crash reports — всички SIGABRT при startup на iOS 26.3.1 - Root cause: Hermes engine PAC (Pointer Authentication) incompatibility с iOS 26 физически устройства - Известен bug: facebook/hermes#1966, expo/expo#44356, facebook/react-native#54859 - KEY FINDING: Debug builds РАБОТЯТ, само Release builds крашват - Solution: Development build (eas build --profile development) + dev-client tunnel - Допълнителни fixes по пътя: - Заменен AsyncStorage с SecureStore (AsyncStorage не е в dev build binary) - SecureStore key sanitization (alphanumeric + dots/dashes/underscores) - Try-catch wrap на SecureStore за resilience - StyleSheet.flatten за Link asChild в login.tsx (expo-router Slot error) - ErrorBoundary ignore за expo-router dev warnings - App-ът РАБОТИ на iOS 26! Login successful. Push notifications warning (non-critical, dev-only) - Чакаме Hermes PAC fix (RN 0.85 / Expo SDK 56, очаквано май-юни 2026) за production builds",
           "type": "deploy"
         },
         {
@@ -98,7 +103,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 2
+      "entryCount": 3
     },
     {
       "date": "2026-04-03",
