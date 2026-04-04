@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-04T13:44:32.284Z",
-  "serverUptime": 2262527,
+  "timestamp": "2026-04-04T13:54:31.631Z",
+  "serverUptime": 2263127,
   "loadAvg": [
-    "0.92",
-    "0.79",
-    "0.50"
+    "0.12",
+    "0.43",
+    "0.47"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-04T11:37:55.147Z",
-      "ageSec": 7597,
+      "ageSec": 8196,
       "tokens": 78764,
       "lastAction": "Всичко е на място. Ето какво вижда Google сега:  **✅ Стъпка 1 — Canonical:** `href=\"\"` в HTML, JS го сетва динамично на",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T19:24:39.119Z",
-      "ageSec": 65993,
+      "ageSec": 66592,
       "tokens": 52751,
       "lastAction": "Тогава всичко е наред ✅ — Git Credential Manager се е оторизирал когато си клонирал/push-нал Momerly repo-то от компютър",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 99471,
+      "ageSec": 100070,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 796829,
+          "runningSec": 797428,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 796182,
+          "runningSec": 796781,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 794016,
+          "runningSec": 794615,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 780085,
+          "runningSec": 780684,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 778866,
+          "runningSec": 779465,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 776892,
+      "ageSec": 777492,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -163,12 +163,12 @@
     {
       "topicId": "51",
       "name": "Momerly",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-04T13:44:29.110Z",
-      "ageSec": 3,
-      "tokens": 39803,
-      "lastAction": "⚡ cd [server-path] && find app src -name \"*.tsx\" -o -name",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-04-04T13:49:50.106Z",
+      "ageSec": 281,
+      "tokens": 63508,
+      "lastAction": "Документът е изпратен. Накратко:  **3 фази:**  1. **Инфраструктура** — инсталирам EAS Updates (OTA) + Sentry crash repor",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 239721,
+      "ageSec": 240321,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 717586,
+      "ageSec": 718186,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -207,10 +207,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 1,
+    "working": 0,
     "building": 0,
     "recent": 0,
-    "idle": 11,
+    "idle": 12,
     "stuck": 0
   }
 }
