@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-04T12:20:03.136Z",
+  "updated": "2026-04-04T12:25:02.548Z",
   "totalDays": 30,
-  "totalEntries": 756,
+  "totalEntries": 757,
   "days": [
     {
       "date": "2026-04-04",
       "dayName": "Събота",
       "entries": [
+        {
+          "time": "12:20",
+          "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a",
+          "type": "deploy"
+        },
         {
           "time": "11:09",
           "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра).",
@@ -103,7 +108,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 3
+      "entryCount": 4
     },
     {
       "date": "2026-04-03",
