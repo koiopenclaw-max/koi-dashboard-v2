@@ -1,8 +1,94 @@
 {
-  "updated": "2026-04-04T20:55:02.422Z",
+  "updated": "2026-04-04T21:05:02.886Z",
   "totalDays": 30,
   "totalEntries": 767,
   "days": [
+    {
+      "date": "2026-04-05",
+      "dayName": "Неделя",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-04-04",
       "dayName": "Събота",
@@ -83,8 +169,19 @@
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела"
       ],
-      "hasReview": false,
-      "reviewSummary": null,
+      "hasReview": true,
+      "reviewSummary": [
+        "Голям ден за Momerly — цял ден crash investigation & debug с Крис на iOS 26.",
+        "Key Events:",
+        "1. Momerly iOS 26 crash marathon (10:56-13:20 UTC) — 5 crash reports от Крис, root cause: Hermes PAC incompatibility с iOS 26 physical devices (Release builds only). Fixes: AsyncStorage→SecureStore, Link asChild→router.push (6 files), Firestore rules, Activity form polish. Cloud Functions deployed. App WORKS on iOS 26 via dev build.",
+        "2. Security credentials — ДЕН 16 без rotation. Supabase JWT, Firebase API key, Telegram Bot Token все още чакат Крис.",
+        "Knowledge Updates:",
+        "`knowledge/projects/momerly.md` — Phase 6b (iOS 26 compat) added as done, Hermes PAC blocker documented",
+        "`knowledge/projects/_index.md` — Momerly status updated, day counter bumped",
+        "`knowledge/areas/_index.md` — Security day counter → 16",
+        "`inbox/capture.md` — Momerly Phase 6 marked done, 6 new items from today's work",
+        "Carry-over → 2026-04-05:"
+      ],
       "entryCount": 14
     },
     {
@@ -6061,63 +6158,6 @@
       "decisions": [
         "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
         "- Felix Craft / Claw Mart — чака решение от Крис"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 0
-    },
-    {
-      "date": "2026-03-06",
-      "dayName": "Петък",
-      "entries": [],
-      "priorities": [
-        {
-          "done": true,
-          "text": "Bootstrap — първа среща с Крис"
-        },
-        {
-          "done": true,
-          "text": "Настройка на IDENTITY.md и USER.md"
-        },
-        {
-          "done": true,
-          "text": "Имплементация на KMS (Knowledge Management System)"
-        },
-        {
-          "done": true,
-          "text": "AGENTS.md обновен с QMD flow"
-        },
-        {
-          "done": true,
-          "text": "SOUL.md персонализиран за Koi"
-        },
-        {
-          "done": true,
-          "text": "Nightly review cron job (21:00 UTC / 23:00 EET)"
-        },
-        {
-          "done": true,
-          "text": "Failsafe cron job (22:00 UTC / 00:00 EET)"
-        },
-        {
-          "done": true,
-          "text": "BOOTSTRAP.md изтрит"
-        }
-      ],
-      "insights": [
-        "Крис цени конструктивност от ден 1 — без загряване",
-        "PARA + daily notes + nightly review = основа на KMS",
-        "Failsafe pattern: втора cron проверява дали първата е минала успешно",
-        "14:42 — Крис показва Felix Craft (felixcraft.ai + shopclawmart.com). Анализ на монетизацията.",
-        "14:44 — Крис: \"пазарът е готов за нов дигитален продукт\" — идея за productize на audit системата",
-        "14:45 — Създадена Telegram Forum група \"Koi workspace\" с 6 topics",
-        "14:55 — Gateway offline ~3 часа (нямаше process supervisor)",
-        "17:47 — Крис рестартира gateway",
-        "17:55 — PM2 инсталиран, gateway под PM2 supervision",
-        "17:59 — Преместване на чата в Koi workspace група"
-      ],
-      "decisions": [
-        "- 14:44 — Крис: \"пазарът е готов за нов дигитален продукт\" — идея за productize на audit системата"
       ],
       "hasReview": true,
       "reviewSummary": null,
