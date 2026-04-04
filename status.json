@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-04T11:04:32.255Z",
-  "serverUptime": 2252927,
+  "timestamp": "2026-04-04T11:09:34.487Z",
+  "serverUptime": 2253230,
   "loadAvg": [
-    "0.11",
-    "0.15",
-    "0.16"
+    "0.09",
+    "0.16",
+    "0.17"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "working",
-      "statusLabel": "🔵 Working",
-      "lastUpdate": "2026-04-04T11:04:18.047Z",
-      "ageSec": 14,
-      "tokens": 59334,
-      "lastAction": "Крис, виждам целия проблем. Това е **класически SPA SEO disaster**. Ето какво се случва:  ## 🔴 Основен проблем: Сайтът е",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-04-04T11:04:49.523Z",
+      "ageSec": 284,
+      "tokens": 61397,
+      "lastAction": "Ясно, Lovable. Това обяснява SPA-то без SSR. Но не е безнадеждно — ето какво МОЖЕШ в рамките на Lovable:  ## Какво е въз",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T19:24:39.119Z",
-      "ageSec": 56393,
+      "ageSec": 56695,
       "tokens": 52751,
       "lastAction": "Тогава всичко е наред ✅ — Git Credential Manager се е оторизирал когато си клонирал/push-нал Momerly repo-то от компютър",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 89871,
+      "ageSec": 90173,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 787229,
+          "runningSec": 787531,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 786582,
+          "runningSec": 786884,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 784416,
+          "runningSec": 784718,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 770485,
+          "runningSec": 770787,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 769266,
+          "runningSec": 769568,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 767292,
+      "ageSec": 767595,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -163,12 +163,12 @@
     {
       "topicId": "51",
       "name": "Momerly",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-04-04T11:03:30.085Z",
-      "ageSec": 62,
-      "tokens": 32145,
-      "lastAction": "Crash report на Momerly. Анализирам ключовите моменти:  **🔴 Startup crash** — app-ът се пуска в 13:43:04.03 и крашва в 1",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-04T11:09:33.587Z",
+      "ageSec": 0,
+      "tokens": 63232,
+      "lastAction": "📖 ",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 230121,
+      "ageSec": 230423,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 707986,
+      "ageSec": 708289,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -209,8 +209,8 @@
     "totalTopics": 12,
     "working": 1,
     "building": 0,
-    "recent": 1,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
