@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-04T11:29:33.987Z",
-  "serverUptime": 2254429,
+  "timestamp": "2026-04-04T11:44:33.934Z",
+  "serverUptime": 2255329,
   "loadAvg": [
-    "0.08",
-    "0.23",
-    "0.22"
+    "0.12",
+    "0.15",
+    "0.20"
   ],
   "topics": [
     {
       "topicId": "1",
       "name": "General",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-04-04T11:27:20.983Z",
-      "ageSec": 133,
-      "tokens": 74142,
-      "lastAction": "Точно така. Одобри. Кажи като deploy-не и давам стъпка 3.",
+      "status": "idle",
+      "statusLabel": "⚪ Idle",
+      "lastUpdate": "2026-04-04T11:37:55.147Z",
+      "ageSec": 398,
+      "tokens": 78764,
+      "lastAction": "Всичко е на място. Ето какво вижда Google сега:  **✅ Стъпка 1 — Canonical:** `href=\"\"` в HTML, JS го сетва динамично на",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T19:24:39.119Z",
-      "ageSec": 57894,
+      "ageSec": 58794,
       "tokens": 52751,
       "lastAction": "Тогава всичко е наред ✅ — Git Credential Manager се е оторизирал когато си клонирал/push-нал Momerly repo-то от компютър",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 91373,
+      "ageSec": 92273,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 788731,
+          "runningSec": 789631,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 788084,
+          "runningSec": 788984,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 785918,
+          "runningSec": 786818,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 771986,
+          "runningSec": 772886,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 770767,
+          "runningSec": 771667,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 768794,
+      "ageSec": 769694,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -163,12 +163,12 @@
     {
       "topicId": "51",
       "name": "Momerly",
-      "status": "recent",
-      "statusLabel": "🟡 Recent",
-      "lastUpdate": "2026-04-04T11:28:19.146Z",
-      "ageSec": 74,
-      "tokens": 99104,
-      "lastAction": "Ревъртнах всичко — кодът е обратно на работещото състояние преди днешните опити. **Не е хабен нито един допълнителен bui",
+      "status": "working",
+      "statusLabel": "🔵 Working",
+      "lastUpdate": "2026-04-04T11:44:23.093Z",
+      "ageSec": 10,
+      "tokens": 122640,
+      "lastAction": "Да, кажи `Y`. expo-dev-client е нужен за development builds — добавя dev tools менюто в app-а.",
       "hasProcess": false,
       "hasSession": true,
       "subAgents": []
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 231623,
+      "ageSec": 232523,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 709488,
+      "ageSec": 710388,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
@@ -207,10 +207,10 @@
   },
   "summary": {
     "totalTopics": 12,
-    "working": 0,
+    "working": 1,
     "building": 0,
-    "recent": 2,
-    "idle": 10,
+    "recent": 0,
+    "idle": 11,
     "stuck": 0
   }
 }
