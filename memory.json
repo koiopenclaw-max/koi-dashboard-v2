@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-04T13:15:02.184Z",
+  "updated": "2026-04-04T13:25:02.567Z",
   "totalDays": 30,
-  "totalEntries": 766,
+  "totalEntries": 767,
   "days": [
     {
       "date": "2026-04-04",
       "dayName": "Събота",
       "entries": [
+        {
+          "time": "13:20",
+          "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git",
+          "type": "build"
+        },
         {
           "time": "13:13",
           "text": "Крис deploy-на Cloud Functions — push notifications за messages, connection requests, activity joins, auto-complete, nudges — ВСИЧКО live!",
@@ -80,7 +85,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 13
+      "entryCount": 14
     },
     {
       "date": "2026-04-03",
