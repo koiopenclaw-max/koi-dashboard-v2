@@ -1,12 +1,57 @@
 {
-  "updated": "2026-04-04T13:05:02.729Z",
+  "updated": "2026-04-04T13:15:02.184Z",
   "totalDays": 30,
-  "totalEntries": 757,
+  "totalEntries": 766,
   "days": [
     {
       "date": "2026-04-04",
       "dayName": "Събота",
       "entries": [
+        {
+          "time": "13:13",
+          "text": "Крис deploy-на Cloud Functions — push notifications за messages, connection requests, activity joins, auto-complete, nudges — ВСИЧКО live!",
+          "type": "deploy"
+        },
+        {
+          "time": "12:55",
+          "text": "Крис deploy-на firestore rules + indexes. My Activities вече показва създадените активности",
+          "type": "deploy"
+        },
+        {
+          "time": "12:51",
+          "text": "Добавих `messages` rule + collection group rule за `participants` (нужен за My Activities query)",
+          "type": "default"
+        },
+        {
+          "time": "12:46",
+          "text": "Activity group chat → Firestore permission-denied. Причина: код ползва `messages` subcollection, rules имат само `chat`",
+          "type": "default"
+        },
+        {
+          "time": "12:45",
+          "text": "Fix: добавих * на задължителните полета, inline валидация, вдигнах MAX_ACTIVE_ACTIVITIES от 2 на 5",
+          "type": "default"
+        },
+        {
+          "time": "12:43",
+          "text": "Всички табове работят. Activity create form — няма required field маркери + limit 2 активности е малко",
+          "type": "default"
+        },
+        {
+          "time": "12:36",
+          "text": "Messages tab работи, Connections tab — същият проблем → push-нах fix-а",
+          "type": "deploy"
+        },
+        {
+          "time": "12:27",
+          "text": "Диагноза: `Link asChild` + expo-router Slot = style array crash → замених ВСИЧКИ Link asChild с router.push в целия проект (6 файла)",
+          "type": "deploy"
+        },
+        {
+          "time": "12:21",
+          "text": "Momerly debug session с Крис — Messages tab забива в infinite layout effect loop",
+          "type": "default"
+        },
         {
           "time": "12:20",
           "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a",
@@ -28,87 +73,14 @@
           "type": "build"
         }
       ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
-        },
-        {
-          "done": false,
-          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
-        },
-        {
-          "done": false,
-          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
-        },
-        {
-          "done": false,
-          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
-        },
-        {
-          "done": false,
-          "text": "🔴 Auto-extract скрипт redesign"
-        },
-        {
-          "done": false,
-          "text": "Създай Email Reply skill"
-        },
-        {
-          "done": false,
-          "text": "ClawAI Phase 6: DO provisioning"
-        },
-        {
-          "done": false,
-          "text": "💡 ClawMart: Package 5-6 skills"
-        },
-        {
-          "done": false,
-          "text": "Momerly Phase 7: Polish & Launch Prep"
-        },
-        {
-          "done": false,
-          "text": "gstack Test Lab: Продължи pipeline"
-        },
-        {
-          "done": false,
-          "text": "Одиторска кантора Узунова — review approval"
-        },
-        {
-          "done": false,
-          "text": "Училище Козма Тричков Враца — review approval"
-        },
-        {
-          "done": false,
-          "text": "Адвокатска кантора Богданови и Маринов — review"
-        },
-        {
-          "done": false,
-          "text": "Счетоводна къща Емпика — review"
-        },
-        {
-          "done": false,
-          "text": "Миг Трейд — чака HD hero снимка от клиент"
-        },
-        {
-          "done": false,
-          "text": "BG Quality Honey — QA отговори"
-        },
-        {
-          "done": false,
-          "text": "Felix/ClawMart — решение за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "RunAI Coach — блокер: Mac достъп"
-        }
-      ],
+      "priorities": [],
       "insights": [],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 4
+      "entryCount": 13
     },
     {
       "date": "2026-04-03",
