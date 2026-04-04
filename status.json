@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-04T01:09:34.798Z",
-  "serverUptime": 2217230,
+  "timestamp": "2026-04-04T01:14:31.921Z",
+  "serverUptime": 2217527,
   "loadAvg": [
-    "0.07",
+    "0.06",
     "0.09",
     "0.09"
   ],
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T14:51:36.931Z",
-      "ageSec": 37077,
+      "ageSec": 37374,
       "tokens": 149384,
       "lastAction": "Изпратено в topic 51 (Momerly). 🐟",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T19:24:39.119Z",
-      "ageSec": 20695,
+      "ageSec": 20992,
       "tokens": 52751,
       "lastAction": "Тогава всичко е наред ✅ — Git Credential Manager се е оторизирал когато си клонирал/push-нал Momerly repo-то от компютър",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 54174,
+      "ageSec": 54471,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 751531,
+          "runningSec": 751829,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 750884,
+          "runningSec": 751182,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 748719,
+          "runningSec": 749016,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 734787,
+          "runningSec": 735084,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 733568,
+          "runningSec": 733865,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 731595,
+      "ageSec": 731892,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -166,7 +166,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T20:19:51.218Z",
-      "ageSec": 17383,
+      "ageSec": 17680,
       "tokens": 125583,
       "lastAction": "Не — EAS build-ът е на **Expo's сървъри**, не на твоя компютър. Можеш да затвориш терминала спокойно.  Следиш прогреса н",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 194424,
+      "ageSec": 194721,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 672289,
+      "ageSec": 672586,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
