@@ -1,12 +1,17 @@
 {
-  "updated": "2026-04-04T11:10:02.862Z",
+  "updated": "2026-04-04T11:15:02.926Z",
   "totalDays": 30,
-  "totalEntries": 754,
+  "totalEntries": 755,
   "days": [
     {
       "date": "2026-04-04",
       "dayName": "Събота",
       "entries": [
+        {
+          "time": "11:09",
+          "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра).",
+          "type": "deploy"
+        },
         {
           "time": "10:56",
           "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules",
@@ -93,7 +98,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 1
+      "entryCount": 2
     },
     {
       "date": "2026-04-03",
