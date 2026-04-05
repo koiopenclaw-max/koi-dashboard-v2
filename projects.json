@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-04T00:10:04.118Z",
+  "updated": "2026-04-05T22:40:03.060Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -32,7 +32,7 @@
       "status": "active",
       "priority": "high",
       "started": "2026-03-06",
-      "updated": "2026-04-03",
+      "updated": "2026-04-05",
       "topic": 49,
       "repo": "koiopenclaw-max/demo-sites",
       "url": "https://koiopenclaw-max.github.io/demo-sites/",
@@ -709,8 +709,37 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 20,
+      "activityDays": 21,
       "recentActivity": [
+        {
+          "date": "2026-04-04",
+          "entries": [
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            },
+            {
+              "time": "10:56",
+              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            }
+          ]
+        },
         {
           "date": "2026-04-03",
           "entries": [
@@ -959,43 +988,6 @@
               "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
-        },
-        {
-          "date": "2026-03-23",
-          "entries": [
-            {
-              "time": "17:28",
-              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
-            },
-            {
-              "time": "16:30",
-              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
-            },
-            {
-              "time": "16:20",
-              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
-            },
-            {
-              "time": "16:30",
-              "text": "🦷 Стартирах проучване за dental killer template. Анализирах 8+ топ dental сайтове (Bates Dental, Kambov BG, Swish Smiles и др.), 3 design articles. Key findings: реални хора в hero, НЕ синьо (warm premium palette), конкретен headline, видим CTA+телефон, service cards. Spawn-нах Claude Code Sonnet за build с подробен brief. Session: vivid-seaslug."
-            },
-            {
-              "time": "16:58",
-              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
-            },
-            {
-              "time": "17:15",
-              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
-            },
-            {
-              "time": "19:05",
-              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
-            }
-          ]
         }
       ]
     },
@@ -1108,8 +1100,33 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 19,
+      "activityDays": 20,
       "recentActivity": [
+        {
+          "date": "2026-04-04",
+          "entries": [
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "10:56",
+              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
+            },
+            {
+              "time": "11:09",
+              "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра)."
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            }
+          ]
+        },
         {
           "date": "2026-04-03",
           "entries": [
@@ -1326,39 +1343,6 @@
               "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
-        },
-        {
-          "date": "2026-03-23",
-          "entries": [
-            {
-              "time": "14:10",
-              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
-            },
-            {
-              "time": "16:30",
-              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
-            },
-            {
-              "time": "16:20",
-              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
-            },
-            {
-              "time": "16:58",
-              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
-            },
-            {
-              "time": "17:15",
-              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
-            },
-            {
-              "time": "19:05",
-              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
-            }
-          ]
         }
       ]
     },
@@ -1528,7 +1512,7 @@
       "status": "active",
       "priority": "medium",
       "started": "2026-03-06",
-      "updated": "2026-04-01",
+      "updated": "2026-04-05",
       "topic": 51,
       "repo": "koiopenclaw-max/momerly",
       "url": null,
@@ -1583,6 +1567,14 @@
           "blockers": []
         },
         {
+          "name": "Phase 6b: iOS 26 Compatibility",
+          "status": "done",
+          "started": "2026-04-04",
+          "completed": "2026-04-04",
+          "summary": "iOS 26 crash investigation — Hermes PAC incompatibility (SIGABRT on Release builds). AsyncStorage→SecureStore migration. Link asChild→router.push (6 files). Firestore rules fix (messages subcollection + collection group). Activity form polish. Cloud Functions deployed (push notifs, connections, auto-complete). Dev build works on iOS 26. Waiting for Hermes PAC fix (RN 0.85 / Expo SDK 56, May-June 2026) for production.",
+          "blockers": []
+        },
+        {
           "name": "Phase 7: Polish & Launch",
           "status": "next",
           "started": null,
@@ -1591,7 +1583,7 @@
           "blockers": []
         }
       ],
-      "progress": 86,
+      "progress": 88,
       "activePhase": null,
       "goals": [
         {
@@ -1619,11 +1611,15 @@
           "done": false
         }
       ],
-      "blockers": [],
+      "blockers": [
+        "Hermes PAC bug blocks Release builds on iOS 26 physical devices (RN 0.85 / Expo SDK 56 fix expected May-June 2026)"
+      ],
       "nextActions": [
+        "Release build crisis follow-up: test final iOS build after removing problematic Expo native modules from package.json (expo-camera, expo-location, expo-notifications, expo-secure-store)",
         "Phase 7: Polish & Launch — edge case testing, i18n, App Store assets, Privacy Policy",
-        "iOS TestFlight distribution (Apple Developer Account needed)",
-        "Deploy Admin Dashboard to Firebase Hosting"
+        "iOS TestFlight: use Development profile until Hermes PAC fix lands",
+        "Deploy Admin Dashboard to Firebase Hosting",
+        "Cloud Functions already deployed — monitor push notifications in production"
       ],
       "tags": [
         "momerly",
@@ -1632,8 +1628,41 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 12,
+      "activityDays": 13,
       "recentActivity": [
+        {
+          "date": "2026-04-04",
+          "entries": [
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            },
+            {
+              "time": "10:56",
+              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
+            },
+            {
+              "time": "11:09",
+              "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра)."
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            }
+          ]
+        },
         {
           "date": "2026-04-03",
           "entries": [
@@ -1818,83 +1847,6 @@
               "text": "✅ **EAS SDK55 Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk"
             }
           ]
-        },
-        {
-          "date": "2026-03-13",
-          "entries": [
-            {
-              "time": "11:55",
-              "text": "✅ **Momerly SDK ъпгрейд завършен!** Expo 52→55 (SDK 54), React 18→19, RN 0.76→0.83. Babel fix, expo-constants добавен. Tunnel active. Крис тества на Android + iOS."
-            },
-            {
-              "time": "11:10",
-              "text": "🔨 Momerly web build + visual test завършен. Fix: native.ts (dynamic require→Platform-aware), tsconfig module→esnext. 22 screenshots с Playwright. Auth guard блокира tabs (показват Login). 2 console errors (SecureStore web, Firebase permissions). Доклад пратен на Крис."
-            },
-            {
-              "time": "08:00",
-              "text": "Крис попита за Firebase достъп. koiopenclaw@gmail.com има само Gmail OAuth scopes, не Firebase. Решение: Крис създава проект, дава ми Editor достъп."
-            },
-            {
-              "time": "08:09",
-              "text": "Крис създаде Firebase проект **momerly-ba95a** и даде Editor достъп на koiopenclaw@gmail.com. Firebase CLI инсталиран (v15.10.0). Чакаме auth code от Крис за `firebase login:ci`."
-            },
-            {
-              "time": "08:13",
-              "text": "📧 Heartbeat: Firebase покана пристигнала на мейла. 5 непрочетени (Firebase collaborator invite, Google new account info, GitHub OAuth, Supabase welcome, demo-sites workflow failure). Нищо спешно."
-            },
-            {
-              "time": "08:27",
-              "text": "Firebase CLI login успешен! Token записан в `[secrets-path].txt`. Проект: `momerly-ba95a` (Project Number: 376384939207)."
-            },
-            {
-              "time": "08:34",
-              "text": "Firebase setup завършен: Authentication (Email/Password) ✅, Firestore Database (europe-west3, test mode) ✅, Web App създадено (App ID: 1:376384939207:web:cf9e4f22d5b82ce1bdcae2) ✅. SDK config записан в `[secrets-path].json`."
-            },
-            {
-              "time": "08:36",
-              "text": "Крис: WRITE-FIRST нарушение #1 — не записах Firebase config в knowledge файл и не пуснах update в topic Momerly. Поправям веднага."
-            },
-            {
-              "time": "08:55",
-              "text": "Topic 51 (Momerly) заклещен — poll на несъществуващ Codex процес (brisk-seaslug). Gateway рестартиран, сесията освободена."
-            },
-            {
-              "time": "10:32",
-              "text": "Auto-Compact topic 51 (Momerly) — 152k токена, успешно извлечено и архивирано."
-            },
-            {
-              "time": "13:52",
-              "text": "Крис забеляза че dashboard показва стари данни + Momerly idle. Причина: watchdog засече completion но не trigger-на ревю автоматично. Koi провери ръчно и пусна update в topic 51."
-            },
-            {
-              "time": "16:32",
-              "text": "Heartbeat: 5 мейла (3 security alerts за exposed keys в git history, 1 build fail, 1 bearer token). Текущите файлове са чисти. **Крис трябва да ротира: 1) GitHub PAT, 2) Firebase API key (restrict в Google Cloud Console).**"
-            },
-            {
-              "time": "18:50",
-              "text": "🐛 Auto-extract бъгове намерени и поправени: 1) \"Already in daily note\" skip-ваше нови compact-и (fix: unique ID per extract), 2) `openclaw: command not found` (fix: пълен път), 3) по-добро извличане на decisions/actions/urls. Momerly е compact-нат 3 пъти но само 1-вият беше записан — останалите 2 са загубени."
-            },
-            {
-              "time": "08:55",
-              "text": "npm install успешен (1706 пакета). TypeScript fix: useAuth.ts→.tsx, firebase import опростен."
-            },
-            {
-              "time": "09:00",
-              "text": "✅ **Firestore rules deploy-нати** в production (firebase deploy --only firestore:rules)."
-            },
-            {
-              "time": "09:18",
-              "text": "✅ Firebase Storage активиран от Крис, storage rules deploy-нати."
-            },
-            {
-              "time": "19:30",
-              "text": "— 🔴 SECURITY INCIDENT: Exposed secrets in koi-dashboard repo — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` на PUBLIC repo `koiopenclaw-max/koi-dashboard` всеки 30 сек. Полето `lastAction` съдържаше API ключове от exec команди. - **Изтекли:** Google API Key (AIza...GLc за Momerly), GitHub PAT (в auth), Telegram Bot Token (demo-sites repo от 10.03) - **Действия:** - ✅ Repo `koi-dashboard` направено private - ✅ Security Bible обновена с \"Automated Publishing Rule\""
-            },
-            {
-              "time": "19:30",
-              "text": "🔴 SECURITY INCIDENT — Exposed secrets в koi-dashboard — - **Какво:** `koi-status-collector.sh` push-ваше `status.json` с `lastAction` поле, съдържащо API ключове, към **публично** GitHub repo `koi-dashboard` - **Изтекло:** Google API Key (AIzaSy...) за Momerly, потенциално GitHub PAT - **Известия:** GitGuardian (x2), GitHub secret scanning, Google Cloud compliance - **Действия:** - ✅ Repo `koi-dashboard` → private"
-            }
-          ]
         }
       ]
     },
@@ -1951,8 +1903,33 @@
         "platform",
         "ai"
       ],
-      "activityDays": 19,
+      "activityDays": 20,
       "recentActivity": [
+        {
+          "date": "2026-04-04",
+          "entries": [
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "10:56",
+              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
+            },
+            {
+              "time": "11:09",
+              "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра)."
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            }
+          ]
+        },
         {
           "date": "2026-04-03",
           "entries": [
@@ -2153,39 +2130,6 @@
               "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
-        },
-        {
-          "date": "2026-03-23",
-          "entries": [
-            {
-              "time": "14:10",
-              "text": "📧 Email: Supabase notification — проект `x-growth-engine` ще бъде паузиран поради неактивност (7+ дни). Low priority, не изисква действие засега."
-            },
-            {
-              "time": "16:30",
-              "text": "🔒 PII Redaction Protocol имплементиран: redact-json.js (мейли, телефони, Supabase URLs, secrets пътища), интегриран в memory-sync.sh и projects-sync.sh. Git history на koi-dashboard-v2 squash-ната (1 чист commit). Pre-push hook инсталиран. AGENTS.md обновен с ново твърдо правило. Причина: memory.json съдържаше k***@gmail.com, k***@infocall.bg, Supabase URL в публично repo."
-            },
-            {
-              "time": "16:20",
-              "text": "🚀 Dashboard Projects секция — ляво меню с проекти, детайли с визия, етапи (progress bar), цели, блокери, следващи стъпки, activity timeline по дни. PROJECT_STANDARD.md дефиниран (YAML frontmatter). ClawAI конвертиран като пилотен. projects-sync.sh + cron на 10 мин."
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
-            },
-            {
-              "time": "16:58",
-              "text": "🆕 ClawAI нов контакт: kristian koynov (k***@infocall.bg), план starter. Welcome email изпратен автоматично. Supabase → contacted. Нотификация в topic 718 изпратена."
-            },
-            {
-              "time": "17:15",
-              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
-            },
-            {
-              "time": "19:05",
-              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
-            }
-          ]
         }
       ]
     },
@@ -2255,8 +2199,41 @@
         "audience",
         "growth"
       ],
-      "activityDays": 21,
+      "activityDays": 22,
       "recentActivity": [
+        {
+          "date": "2026-04-04",
+          "entries": [
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            },
+            {
+              "time": "10:56",
+              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
+            },
+            {
+              "time": "11:09",
+              "text": "Momerly: AsyncStorage → SecureStore fix push-нат.** Крис прати 4 crash report-а — всички SIGABRT от `@react-native-async-storage/async-storage` TurboModule на iOS 26 beta. AsyncStorage crash-ва при file operations (rename, getattrlist, NSSearchPathForDirectories) веднага при startup (~100-400ms). Fix: замених AsyncStorage с `expo-secure-store` (Keychain-based) в 3 файла (firebase.ts, useOnboarding.tsx, i18n/index.tsx). Махнат от package.json. TS чист. Commit `a61d19a`, push-нат. EAS build трябва да пусне Крис от Mac (нямаме EXPO_TOKEN на сървъра)."
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            }
+          ]
+        },
         {
           "date": "2026-04-03",
           "entries": [
@@ -3431,35 +3408,6 @@
             {
               "time": "19:30",
               "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-23",
-          "entries": [
-            {
-              "time": "19:03",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:28",
-              "text": "Auto-extract topic 49 (150113 tokens, id:49-1774286883):** [2026-03-23T17:25:35] User: Да сега е супер, този темплейт е одобрен в този вид. Да минем към следващия; [2026-03-23T17:23:55] Виждам — логото от nhif.bg не се зареди (вероятно блокират hotlinking). Ще го свалия и вградя дире; [2026-03-23T17:24:13] Поправено — логото на НЗОК вече е в самото repo, не линкнато отвън. Refresh-ни и виж.  https://koi; [2026-03-23T17:25:46] Warm Haven v2 — същото ниво на изпълнение. Без emoji, SVG икони, професионално мобилно меню, НЗОК ; https://koiopenclaw-max.github.io/dental-noir-template/; curl -s -o /tmp/dental-noir-v; [2026-03-23T17:24:07] exec: GH_TOKEN=[redacted]. Low priority, не изисква действие засега."
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 Dashboard Memory tab — добавих 🧠 Memory секция в koi-dashboard-v2. Ляво меню по дни, вдясно timeline с часове, приоритети, прозрения. `memory-sync.sh` парсва daily/*.md → memory.json. Cron на 10 мин. Deployed: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — screenshot-based visual analysis за revision workflow. Playwright прави screenshot на стар сайт → извлича всички image URLs → Koi анализира визуално с image tool → дава точни инструкции на Codex. Тестван с demo56.add.bg — работи. HEARTBEAT.md обновен с нов step 4 в revision flow."
-            },
-            {
-              "time": "16:55",
-              "text": "🦷 Създадох 2 нови dental killer templates: \"Noir Luxe\" (тъмен, козметична стоматология, Cormorant Garamond + Poppins, rose gold) и \"Warm Haven\" (мек семеен, Fraunces + DM Sans, terracotta + forest green). Deploy на GitHub Pages. Общо 3 dental templates: killer-v1, noir, warm."
-            },
-            {
-              "time": "17:15",
-              "text": "✅ ClawAI Dashboard v2 deployed! Ново чисто repo (clawai-dashboard-v2), НУЛА secrets в кода. Supabase Auth login (koiopenclaw@gmail.com) + service key в localStorage (first-time setup). Старото repo (clawai-dashboard) е private и не може да се изтрие (PAT няма admin rights). URL: https://koiopenclaw-max.github.io/clawai-dashboard-v2/"
-            },
-            {
-              "time": "19:05",
-              "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
             }
           ]
         }
