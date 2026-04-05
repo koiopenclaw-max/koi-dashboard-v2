@@ -1,8 +1,98 @@
 {
-  "updated": "2026-04-05T21:00:02.996Z",
+  "updated": "2026-04-05T21:05:03.101Z",
   "totalDays": 30,
   "totalEntries": 767,
   "days": [
+    {
+      "date": "2026-04-06",
+      "dayName": "Понеделник",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release build — final clean rebuild after full removal of problematic native packages"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
     {
       "date": "2026-04-05",
       "dayName": "Неделя",
@@ -86,8 +176,13 @@
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "- `koi-decision-layer.js`"
       ],
-      "hasReview": false,
-      "reviewSummary": null,
+      "hasReview": true,
+      "reviewSummary": [
+        "Консолидирани са 2 ключови теми от деня: Demo Sites/OpenClaw runtime migration към OpenAI/Codex и Momerly iOS release build crisis.",
+        "Обновени knowledge файлове: `knowledge/projects/demo-sites.md`, `knowledge/projects/momerly.md`, `knowledge/projects/_index.md`, `knowledge/resources/setup-checklist.md`.",
+        "Inbox е прегледан; actionable items остават в backlog, а processed timestamp е обновен.",
+        "Подготвен е `daily/2026-04-06.md` с carry-over задачи."
+      ],
       "entryCount": 0
     },
     {
@@ -6109,56 +6204,6 @@
       "insights": [],
       "decisions": [
         "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 0
-    },
-    {
-      "date": "2026-03-07",
-      "dayName": "Събота",
-      "entries": [],
-      "priorities": [
-        {
-          "done": true,
-          "text": "✅ RunAI Coach — execution план завършен (05:15) → `knowledge/projects/runai-coach-execution-plan.md`"
-        },
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "Setup checklist — Крис: GitHub, Claude Code CLI, SSH key (Приоритет 1)"
-        },
-        {
-          "done": false,
-          "text": "Koi: обнови HEARTBEAT.md с active task monitoring"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        }
-      ],
-      "insights": [
-        "Carry-over ≠ done. Ако задача има deadline — изпълни, не мести.",
-        "Write-on-close > read-on-review. По-ефективно е да запишеш веднага, отколкото да ровиш после.",
-        "ВИНАГИ давай report след завършена задача.",
-        "16:17 — Проучен и инсталиран `word-docx` skill от ClawHub → заменен с по-пълния `docx` skill от Крис",
-        "16:35 — Тестван .docx pipeline: генериране + изпращане в Telegram → ✅ работи",
-        "16:41 — Momerly .docx план генериран и доставен в topic:51",
-        "17:00 — Инсталирани 4 нови skills от Крис: `frontend-design`, `skill-creator` (пълен), `theme-factory` (с PDF showcase), `web-artifacts-builder`, `webapp-testing`",
-        "17:14 — Ralph (ralph-claude-code) клониран и инсталиран от GitHub",
-        "17:14 — Claude Code CLI v2.1.71 — вече е инсталиран и authenticated ✅",
-        "17:32 — Проверка: Ralph + Claude Code работят. Липсва `gh` CLI + GitHub акаунт за Koi",
-        "Write-on-Close — записвай веднага след всеки разговор",
-        "Документи винаги DOCX, не Markdown",
-        "\"Документ\" ≠ \"Skill\" — не ги бъркай",
-        "Reporting — давай report след завършена задача"
-      ],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- Felix Craft / Claw Mart — чака решение от Крис"
       ],
       "hasReview": true,
       "reviewSummary": null,
