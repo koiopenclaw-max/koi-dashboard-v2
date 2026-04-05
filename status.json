@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-04-05T17:14:32.416Z",
-  "serverUptime": 2361527,
+  "timestamp": "2026-04-05T17:24:35.033Z",
+  "serverUptime": 2362130,
   "loadAvg": [
-    "0.45",
-    "0.26",
+    "0.09",
+    "0.21",
     "0.20"
   ],
   "topics": [
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-05T16:13:44.461Z",
-      "ageSec": 3647,
+      "ageSec": 4250,
       "tokens": 132563,
       "lastAction": "[[reply_to_current]] Ще го мина от А до Я и ще ти кажа къде има дупки, без украса. Ако има пропуск — ще го посоча, не “м",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T19:24:39.119Z",
-      "ageSec": 164993,
+      "ageSec": 165595,
       "tokens": 52751,
       "lastAction": "Тогава всичко е наред ✅ — Git Credential Manager се е оторизирал когато си клонирал/push-нал Momerly repo-то от компютър",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 198471,
+      "ageSec": 199074,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 895829,
+          "runningSec": 896432,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 895182,
+          "runningSec": 895785,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 893016,
+          "runningSec": 893619,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 879085,
+          "runningSec": 879687,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 877866,
+          "runningSec": 878468,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-26T13:56:19.360Z",
-      "ageSec": 875893,
+      "ageSec": 876495,
       "tokens": 21224,
       "lastAction": "Има няколко варианта, от най-лесен до най-мощен:  **1. OpenClaw node на Mac-а (препоръчвам)** Инсталираш OpenClaw на Mac",
       "hasProcess": false,
@@ -166,7 +166,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-05T09:02:07.566Z",
-      "ageSec": 29544,
+      "ageSec": 30147,
       "tokens": 115838,
       "lastAction": "Сега премахнах пакетите изцяло от `package.json`. Това е единственият начин да премахна ExpoCamera.framework и другите о",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-01T19:09:10.616Z",
-      "ageSec": 338721,
+      "ageSec": 339324,
       "tokens": 30616,
       "lastAction": "Ето го разбора — доста ценна информация:  ## 🔍 MyClaw.ai — Конкурентен анализ  ### Какво е? **Hosted OpenClaw as a Servi",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 816587,
+      "ageSec": 817189,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
