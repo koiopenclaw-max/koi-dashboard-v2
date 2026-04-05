@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-05T11:55:02.602Z",
+  "updated": "2026-04-05T12:15:02.606Z",
   "totalDays": 30,
   "totalEntries": 767,
   "days": [
@@ -83,7 +83,8 @@
       ],
       "insights": [],
       "decisions": [
-        "- [ ] Felix/ClawMart — решение за бизнес модела"
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- `koi-decision-layer.js`"
       ],
       "hasReview": false,
       "reviewSummary": null,
