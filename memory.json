@@ -1,11 +1,11 @@
 {
-  "updated": "2026-04-06T20:55:02.815Z",
+  "updated": "2026-04-06T21:05:02.297Z",
   "totalDays": 30,
-  "totalEntries": 767,
+  "totalEntries": 768,
   "days": [
     {
-      "date": "2026-04-06",
-      "dayName": "Понеделник",
+      "date": "2026-04-07",
+      "dayName": "Вторник",
       "entries": [],
       "priorities": [
         {
@@ -92,6 +92,102 @@
       "hasReview": false,
       "reviewSummary": null,
       "entryCount": 0
+    },
+    {
+      "date": "2026-04-06",
+      "dayName": "Понеделник",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Стартиран nightly review за консолидиране на 2026-04-06.",
+          "type": "default"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release build — final clean rebuild after full removal of problematic native packages"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": true,
+      "reviewSummary": null,
+      "entryCount": 1
     },
     {
       "date": "2026-04-05",
@@ -6154,60 +6250,6 @@
         "Блокер: Datacenter IP блокиран от Google/Bing/DDG за search — Google Maps работи"
       ],
       "entryCount": 29
-    },
-    {
-      "date": "2026-03-08",
-      "dayName": "Неделя",
-      "entries": [],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "Koi: обнови HEARTBEAT.md с active task monitoring"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Usage tracker — показва колко от лимита сме изразходвали"
-        },
-        {
-          "done": false,
-          "text": "⚠️ Създай НОВ email за Koi GitHub — махни личния от git config!"
-        },
-        {
-          "done": false,
-          "text": "Създай GitHub акаунт за Koi (с новия email)"
-        },
-        {
-          "done": false,
-          "text": "Смени git config на сървъра (`git config --global user.email` + `user.name`)"
-        },
-        {
-          "done": false,
-          "text": "Настрой `gh` auth на сървъра"
-        },
-        {
-          "done": false,
-          "text": "Инсталирай GitHub CLI (`sudo apt install gh`)"
-        }
-      ],
-      "insights": [],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 0
     }
   ]
 }
