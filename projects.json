@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-07T11:50:03.663Z",
+  "updated": "2026-04-07T22:00:03.971Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -1102,8 +1102,17 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 20,
+      "activityDays": 21,
       "recentActivity": [
+        {
+          "date": "2026-04-07",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Nightly review: прегледани daily note, project/area indexes и inbox; консолидирани carry-over задачи; security credential rotation ескалиран до ДЕН 19; създаден `daily/2026-04-08.md`."
+            }
+          ]
+        },
         {
           "date": "2026-04-04",
           "entries": [
@@ -1286,63 +1295,6 @@
             {
               "time": "18:56",
               "text": "💡 Крис визия за Clawsourcing: НЕ е за power user/дизайнер. Целта е компании с десетки/стотици служители които искат дигитализация. Enterprise-level AI transformation. Starter = малък бизнес (1 агент). Clawsourcing = корпоративна дигитализация (множество агенти, интеграции, workflows за цяла организация)."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-24",
-          "entries": [
-            {
-              "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
-            },
-            {
-              "time": "17:18",
-              "text": "🔁 Адвокатска кантора Богданови — Codex fail (exit 0, no pages created). Re-spawned (session good-mist) с content.md копирано в workdir."
-            },
-            {
-              "time": "17:00",
-              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
-            },
-            {
-              "time": "17:02",
-              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
-            },
-            {
-              "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
-            },
-            {
-              "time": "16:15",
-              "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
-            },
-            {
-              "time": "17:20",
-              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
-            },
-            {
-              "time": "17:50",
-              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
-            },
-            {
-              "time": "18:41",
-              "text": "Re-spawned Codex for адвокатска кантора multi-page conversion (session: dawn-willow). Previous attempt failed. Task: convert single-page to 7-page site with shared CSS."
-            },
-            {
-              "time": "19:15",
-              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
-            },
-            {
-              "time": "19:20",
-              "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
-            },
-            {
-              "time": "19:25",
-              "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
-            },
-            {
-              "time": "19:30",
-              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         }
@@ -1905,8 +1857,17 @@
         "platform",
         "ai"
       ],
-      "activityDays": 20,
+      "activityDays": 21,
       "recentActivity": [
+        {
+          "date": "2026-04-07",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Nightly review: прегледани daily note, project/area indexes и inbox; консолидирани carry-over задачи; security credential rotation ескалиран до ДЕН 19; създаден `daily/2026-04-08.md`."
+            }
+          ]
+        },
         {
           "date": "2026-04-04",
           "entries": [
@@ -2075,63 +2036,6 @@
               "text": "💡 Крис визия за Clawsourcing: НЕ е за power user/дизайнер. Целта е компании с десетки/стотици служители които искат дигитализация. Enterprise-level AI transformation. Starter = малък бизнес (1 агент). Clawsourcing = корпоративна дигитализация (множество агенти, интеграции, workflows за цяла организация)."
             }
           ]
-        },
-        {
-          "date": "2026-03-24",
-          "entries": [
-            {
-              "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
-            },
-            {
-              "time": "17:18",
-              "text": "🔁 Адвокатска кантора Богданови — Codex fail (exit 0, no pages created). Re-spawned (session good-mist) с content.md копирано в workdir."
-            },
-            {
-              "time": "17:00",
-              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
-            },
-            {
-              "time": "17:02",
-              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
-            },
-            {
-              "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
-            },
-            {
-              "time": "16:15",
-              "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
-            },
-            {
-              "time": "17:20",
-              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
-            },
-            {
-              "time": "17:50",
-              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
-            },
-            {
-              "time": "18:41",
-              "text": "Re-spawned Codex for адвокатска кантора multi-page conversion (session: dawn-willow). Previous attempt failed. Task: convert single-page to 7-page site with shared CSS."
-            },
-            {
-              "time": "19:15",
-              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
-            },
-            {
-              "time": "19:20",
-              "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
-            },
-            {
-              "time": "19:25",
-              "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
-            },
-            {
-              "time": "19:30",
-              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
-            }
-          ]
         }
       ]
     },
@@ -2201,8 +2105,17 @@
         "audience",
         "growth"
       ],
-      "activityDays": 22,
+      "activityDays": 23,
       "recentActivity": [
+        {
+          "date": "2026-04-07",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Nightly review: прегледани daily note, project/area indexes и inbox; консолидирани carry-over задачи; security credential rotation ескалиран до ДЕН 19; създаден `daily/2026-04-08.md`."
+            }
+          ]
+        },
         {
           "date": "2026-04-04",
           "entries": [
@@ -3197,219 +3110,6 @@
             {
               "time": "19:37",
               "text": "🔧 docx skill направен ПРОАКТИВЕН. Ново правило: \"output за човек → .docx, output за система → .md\". Добавена Proactive Trigger Rules секция + incident log. AGENTS.md обновен. Trigger: Крис забеляза че provisioning план беше .md вместо .docx."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-24",
-          "entries": [
-            {
-              "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
-            },
-            {
-              "time": "18:53",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:41",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:39",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:24",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:13",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:11",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:08",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:06",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:01",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:38",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:37",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:18",
-              "text": "🔁 Адвокатска кантора Богданови — Codex fail (exit 0, no pages created). Re-spawned (session good-mist) с content.md копирано в workdir."
-            },
-            {
-              "time": "17:14",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:12",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:11",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:07",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:00",
-              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
-            },
-            {
-              "time": "17:02",
-              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
-            },
-            {
-              "time": "16:57",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:45",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:45",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:40",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:28",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:23",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:32",
-              "text": "✅ Demo Sites: \"Адвокатска кантора Богданови и Маринов\" — DONE. demoUrl deployed, visual validation PASS, notified topic 49. URL: https://koiopenclaw-max.github.io/demo-sites/demos/адвокатска-кантора-богданови-и-маринов/"
-            },
-            {
-              "time": "16:21",
-              "text": "🏗️ Demo Sites: Spawn Codex за \"Адвокатска кантора Богданови и Маринов\" (law firm redesign). Template: b-corporate (dark navy/gold). Slug: адвокатска-кантора-богданови-и-маринов. Само homepage съдържание (subpages all 404)."
-            },
-            {
-              "time": "16:21",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:08",
-              "text": "Auto-extract topic 49 (151624 tokens, id:49-1774368484):** [2026-03-24T15:56:27] User: аз не мога да опиша точен спек, но мисля че ти имаш познание какво и как да прави - концепци; [2026-03-24T16:00:14] User: както цяло съм съгласен че кодекс не ни трябва винаги, но за сега сайтовете които правим дор; [2026-03-24T16:05:38] User: ами възможно е да направим нещо такова, запиши го в идеите. Да го обмисля; [2026-03-24T15:57:17] Добър въпрос. Нека бъда честен.  ## Концептуалният проблем  **Lovable/Replit** работят защото имат; [2026-03-24T16:01:11] Прав си. Мислех твърде тясно — оптимизирах лошия процес вместо да го преосмисля. Ето истинската ка; [2026-03-24T16:06:00] Записано. Когато решиш — казваш. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%87%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D"
-            },
-            {
-              "time": "16:00",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:56",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
-            },
-            {
-              "time": "16:28",
-              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
-            },
-            {
-              "time": "15:53",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:42",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:41",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:37",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:30",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:19",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "15:11",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:51",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:38",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:30",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:40",
-              "text": "Demo revision: Адвокатска кантора Богданови и Маринов — Codex spawned (session fast-basil) за разширяване на single-page демо в multi-page сайт. Клиентът харесва визията, иска пълно съдържание от стария сайт (услуги, цени, екип, контакти). 6 нови HTML страници."
-            },
-            {
-              "time": "17:20",
-              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
-            },
-            {
-              "time": "17:49",
-              "text": "Demo revision: Адвокатска кантора — 1-вият Codex завърши, но НЕ създаде файловете (само промени data JSON). Respawn-нах нов Codex (session young-lagoon) за 6 допълнителни HTML страници."
-            },
-            {
-              "time": "18:13",
-              "text": "Codex завърши, но НЕ успя да създаде файловете за multi-page адвокатска кантора сайт. Респауннат отново с по-чист prompt (session salty-breeze)."
-            },
-            {
-              "time": "18:41",
-              "text": "Re-spawned Codex for адвокатска кантора multi-page conversion (session: dawn-willow). Previous attempt failed. Task: convert single-page to 7-page site with shared CSS."
-            },
-            {
-              "time": "19:15",
-              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
-            },
-            {
-              "time": "19:20",
-              "text": "🔧 UX fix: Stripe success → портал \"Проверете пощата си\" (вместо landing page #success). Клиентът вижда 🎉 екран + инструкция да кликне email бутона. Deploy: Vercel (stripe) + GitHub Pages (portal)."
-            },
-            {
-              "time": "19:25",
-              "text": "🚀 UX redesign: Zero-email flow! Stripe → portal → auto-login → wizard. Нов Vercel endpoint `verify-session` верифицира Stripe session_id → генерира magic link → auto-redirect. Клиентът НИКОГА не минава през email."
-            },
-            {
-              "time": "19:30",
-              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         }
