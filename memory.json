@@ -1,12 +1,18 @@
 {
-  "updated": "2026-04-07T21:00:03.471Z",
+  "updated": "2026-04-07T21:05:02.930Z",
   "totalDays": 30,
-  "totalEntries": 768,
+  "totalEntries": 741,
   "days": [
     {
-      "date": "2026-04-07",
-      "dayName": "Вторник",
-      "entries": [],
+      "date": "2026-04-08",
+      "dayName": "Сряда",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Създадена чрез nightly review с carry-over от 2026-04-07.",
+          "type": "default"
+        }
+      ],
       "priorities": [
         {
           "done": false,
@@ -85,13 +91,115 @@
           "text": "RunAI Coach — блокер: Mac достъп"
         }
       ],
-      "insights": [],
+      "insights": [
+        "Денят няма нови записани execution logs; приоритетите остават почти изцяло carry-over.",
+        "Security credential rotation остава най-критичният нерешен operational risk."
+      ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела"
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 0
+      "entryCount": 1
+    },
+    {
+      "date": "2026-04-07",
+      "dayName": "Вторник",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Nightly review: прегледани daily note, project/area indexes и inbox; консолидирани carry-over задачи; security credential rotation ескалиран до ДЕН 19; създаден `daily/2026-04-08.md`.",
+          "type": "alert"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release build — final clean rebuild after full removal of problematic native packages"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Денят няма нови записани execution logs; почти всички активни теми остават в carry-over режим.",
+        "Най-критичният нерешен риск остава credential rotation (Supabase JWT, Firebase API key, Telegram Bot Token)."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": true,
+      "reviewSummary": null,
+      "entryCount": 1
     },
     {
       "date": "2026-04-06",
@@ -6034,222 +6142,6 @@
         "Нови проекти:"
       ],
       "entryCount": 11
-    },
-    {
-      "date": "2026-03-09",
-      "dayName": "Понеделник",
-      "entries": [
-        {
-          "time": "19:19",
-          "text": "✅ **SALES PLAYBOOK v2.0 одобрен** — 25 урока обобщени в 10 правила + 6 бонус тактики. Записан в `knowledge/areas/sales-training.md`. Активен от утре.",
-          "type": "done"
-        },
-        {
-          "time": "19:14",
-          "text": "📊 Анализ на всички 25 урока от Sales Training — извлечени #24 и #25 от transcript",
-          "type": "default"
-        },
-        {
-          "time": "11:28",
-          "text": "📌 Създаден нов topic **\"OpenClaw Service\"** (ID: 718) чрез Telegram Bot API (`createForumTopic`)",
-          "type": "default"
-        },
-        {
-          "time": "11:28",
-          "text": "📝 Бриф изпратен в topic 718 — визия, бизнес модел, какво трябва да се построи",
-          "type": "default"
-        },
-        {
-          "time": "11:25",
-          "text": "💡 **Нова бизнес идея: OpenClaw as a Service** — инсталация + поддръжка на AI асистенти",
-          "type": "default"
-        },
-        {
-          "time": "11:16",
-          "text": "💡 Дискусия за самоподдръжка и автономност на Koi — какво мога/не мога без Крис",
-          "type": "default"
-        },
-        {
-          "time": "11:04",
-          "text": "📁 Снимки на Мегатранс преместени от /tmp/ в `knowledge/resources/clients/megatrans/` (site/, google/, screenshots/)",
-          "type": "default"
-        },
-        {
-          "time": "10:56",
-          "text": "🔄 Повторен опит след 30 мин — Google Search, Bing, DuckDuckGo — **всички блокират** datacenter IP (161.35.19.170)",
-          "type": "default"
-        },
-        {
-          "time": "10:33",
-          "text": "⛔ CAPTCHA не се решава от headless browser — reCAPTCHA Enterprise засича бота",
-          "type": "default"
-        },
-        {
-          "time": "10:30",
-          "text": "📍 Google Maps работи — намерени 2 локации на Мегатранс + Google Business Profile (свързан с неработещ Wix сайт)",
-          "type": "default"
-        },
-        {
-          "time": "10:27",
-          "text": "🔍 Опит за Google Search workflow (сайт → име → Google → бизнес панел) — **CAPTCHA блокира**",
-          "type": "default"
-        },
-        {
-          "time": "10:14",
-          "text": "🛠️ Добавен `scrape_facebook.js` в web-scraper skill — тестван успешно (4 снимки full-res)",
-          "type": "default"
-        },
-        {
-          "time": "10:12",
-          "text": "📸 Открит трик: клик на FB снимка → lightbox → full-res (1024x1536) **без логин!**",
-          "type": "default"
-        },
-        {
-          "time": "10:08",
-          "text": "📄 Генериран .docx план за уебсайт на Ава Био — изпратен в Telegram",
-          "type": "default"
-        },
-        {
-          "time": "10:02",
-          "text": "📱 Facebook скрейпване на Холистичен център Ава Био — извлечени: име, телефон, услуги",
-          "type": "default"
-        },
-        {
-          "time": "09:58",
-          "text": "🛠️ Създаден skill `web-scraper` с 2 скрипта: `scrape_site.js` + `google_images.js`",
-          "type": "default"
-        },
-        {
-          "time": "09:42",
-          "text": "🖼️ Успешно сваляне на снимки от Google Images чрез click → lightbox → full-res",
-          "type": "default"
-        },
-        {
-          "time": "09:30",
-          "text": "📝 Генериран .docx анализ на megatrans-ruse.com — изпратен в Telegram",
-          "type": "default"
-        },
-        {
-          "time": "09:25",
-          "text": "📄 Скрейпнат целият сайт на Мегатранс Русе (7 страници, текст, снимки, screenshots)",
-          "type": "default"
-        },
-        {
-          "time": "09:18",
-          "text": "🌐 Puppeteer + Chrome инсталирани, **първо успешно headless browsing** от сървъра",
-          "type": "default"
-        },
-        {
-          "time": "08:55",
-          "text": "🔧 `requireMention: false` пуснат за всички топици (6,7,8,9,10,49,50,51)",
-          "type": "default"
-        },
-        {
-          "time": "08:55",
-          "text": "📋 Topic 9 = 📊 Reports (morning brief + nightly review)",
-          "type": "default"
-        },
-        {
-          "time": "08:50",
-          "text": "📤 Първо успешно съобщение в topic 6 чрез `openclaw message send --thread-id`",
-          "type": "default"
-        },
-        {
-          "time": "08:49",
-          "text": "🔧 Добавен `visibility: all` в конфига за cross-topic комуникация",
-          "type": "default"
-        },
-        {
-          "time": "08:47",
-          "text": "📝 Записан log за топиците",
-          "type": "default"
-        },
-        {
-          "time": "08:46",
-          "text": "🔄 Topic 6 (Daily Notes) дефиниран като двупосочен sync с daily/YYYY-MM-DD.md",
-          "type": "default"
-        },
-        {
-          "time": "08:44",
-          "text": "🚫 Записано правило: **Topic Discipline** — всеки топик си има тема, не се допуска хаотично писане. Koi пренасочва при грешен топик.",
-          "type": "default"
-        },
-        {
-          "time": "05:58",
-          "text": "🔧 Открит проблем: `requireMention` не е false за всички топици → другите сесии мълчат без тагване",
-          "type": "default"
-        },
-        {
-          "time": "04:18",
-          "text": "🐟 Сесия стартирана — проверка на дата/час",
-          "type": "default"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "Koi: обнови HEARTBEAT.md с active task monitoring"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Usage tracker — показва колко от лимита сме изразходвали"
-        },
-        {
-          "done": false,
-          "text": "⚠️ Създай НОВ email за Koi GitHub — махни личния от git config!"
-        },
-        {
-          "done": false,
-          "text": "Създай GitHub акаунт за Koi (с новия email)"
-        },
-        {
-          "done": false,
-          "text": "Смени git config на сървъра (`git config --global user.email` + `user.name`)"
-        },
-        {
-          "done": false,
-          "text": "Настрой `gh` auth на сървъра"
-        },
-        {
-          "done": false,
-          "text": "Инсталирай GitHub CLI (`sudo apt install gh`)"
-        }
-      ],
-      "insights": [
-        "**Write-on-Close:** След всеки разговор записвай ключовото в daily log + knowledge файлове ПРЕДИ да приключиш. Nightly review работи само с вече записаното — не рови transcript-и.",
-        "**Headless browser = game changer:** С Puppeteer + Chrome можем да скрейпваме всичко — сайтове, Facebook, Google Images. Трябваше инсталация на системни библиотеки (sudo).",
-        "**Facebook lightbox трик:** Клик на thumbnail → отваря lightbox → full-res image (1024x1536) без логин. Ключова техника за scrape_facebook.js.",
-        "**Topic Discipline:** General е свободен, специализираните топици имат строга тема.",
-        "**Datacenter IP = CAPTCHA магнит:** Google, Bing, DuckDuckGo — всички блокират DigitalOcean IP за search. Google Maps е изключение и работи. Решение: residential proxy или Maps-first подход.",
-        "**Клиентски файлове:** Снимки и данни за клиенти трябва да се пазят в `knowledge/resources/clients/<name>/`, НЕ в /tmp/.",
-        "**Telegram Bot API:** Мога да създавам forum topics чрез `createForumTopic` — не е нужен Крис за това! Endpoint: `https://api.telegram.org/bot<TOKEN>/createForumTopic`"
-      ],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- **Datacenter IP = CAPTCHA магнит:** Google, Bing, DuckDuckGo — всички блокират DigitalOcean IP за search. Google Maps е изключение и работи. Решение: residential proxy или Maps-first подход."
-      ],
-      "hasReview": true,
-      "reviewSummary": [
-        "Най-голямо постижение: Web scraper skill създаден (3 скрипта: site, facebook, google images) + Puppeteer/Chrome инсталирани на сървъра",
-        "Sales: PLAYBOOK v2.0 одобрен — 25 урока от 11 ролеви игри, обобщени в 10 правила + 6 бонус тактики. Активен от 10.03.",
-        "Нов проект: OpenClaw as a Service (topic 718) — идея за бизнес модел с AI асистенти",
-        "Инфраструктура: Telegram топици картографирани, Topic Discipline и Write-on-Close правила добавени в AGENTS.md, visibility=all за cross-topic комуникация",
-        "Demo sites: Мегатранс Русе анализиран (7 стр. скрейпнати + снимки), Ава Био план генериран от Facebook scrape",
-        "Блокер: Datacenter IP блокиран от Google/Bing/DDG за search — Google Maps работи"
-      ],
-      "entryCount": 29
     }
   ]
 }
