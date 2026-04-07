@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-06T17:00:04.791Z",
+  "updated": "2026-04-07T04:20:04.094Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -24,6 +24,420 @@
       "tags": [],
       "activityDays": 0,
       "recentActivity": []
+    },
+    {
+      "slug": "openclaw-service",
+      "name": "ClawAI (OpenClaw as a Service)",
+      "emoji": "🤖",
+      "status": "active",
+      "priority": "high",
+      "started": "2026-03-09",
+      "updated": "2026-04-06",
+      "topic": 718,
+      "repo": "koiopenclaw-max/clawai",
+      "url": "https://koiopenclaw-max.github.io/clawai/",
+      "vision": "AI асистенти за бизнеси — от подписване до live за 24ч. Два продукта: Starter (€28/мес, plug & play) и Clawsourcing (€550/мес, custom build).",
+      "phases": [
+        {
+          "name": "Phase 1: Research & Pricing",
+          "status": "done",
+          "started": "2026-03-09",
+          "completed": "2026-03-10",
+          "summary": "Конкурентен анализ (Felix Craft, Mahesha, Clawhosters). Pricing модел: 3 плана → 2 плана. Tech stack: Supabase + static HTML.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 2: Landing Page & Brand",
+          "status": "done",
+          "started": "2026-03-13",
+          "completed": "2026-03-20",
+          "summary": "ClawAI brand pivot. Двуезична landing page (BG/EN). Clawsourcing page. Обединение в една платформа.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 3: Database & Pipeline",
+          "status": "done",
+          "started": "2026-03-20",
+          "completed": "2026-03-20",
+          "summary": "Supabase: 17 таблици, RLS, миграция. Pipeline end-to-end: form → processor → handler → email. Два flow-а: Starter + Custom.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 4: Admin Dashboard",
+          "status": "done",
+          "started": "2026-03-20",
+          "completed": "2026-03-20",
+          "summary": "1425 реда, 8 секции, login gate. Supabase-connected. PRIVATE repo след security incident.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 5: Stripe & Payments",
+          "status": "done",
+          "started": "2026-03-24",
+          "completed": "2026-03-24",
+          "summary": "Stripe backend на Vercel (clawai-stripe.vercel.app). Checkout: €28/мес + €280 setup. Webhook → Supabase → Telegram. Node 24 fix (native fetch). Success page.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 5b: Client Portal & Onboarding",
+          "status": "done",
+          "started": "2026-03-24",
+          "completed": "2026-03-24",
+          "summary": "GitHub Pages portal с 6-step onboarding wizard + status dashboard. Dark luxury тема, magic link auth → zero-email flow (Stripe→portal→auto-login→wizard). 10 код фиксове, 2 DB миграции, RLS policies. E2E 6/6, Playwright 14/14 PASS.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 6: Auto-Provisioning",
+          "status": "in_progress",
+          "started": null,
+          "completed": null,
+          "summary": "DO API → Ansible → OpenClaw install → credentials → live. Provisioning Plan написан (knowledge/projects/clawai-provisioning-plan.md). Тиерове: Starter ($6, 1GB) default. Чака DO акаунт + скриптове от Крис.",
+          "blockers": []
+        },
+        {
+          "name": "Phase 7: First Customer",
+          "status": "next",
+          "started": null,
+          "completed": null,
+          "summary": "Domain, SSL, production deploy. Първи платен клиент.",
+          "blockers": []
+        }
+      ],
+      "progress": 75,
+      "activePhase": null,
+      "goals": [
+        {
+          "text": "End-to-end pipeline: форма → плащане → provisioning → live assistant",
+          "done": false
+        },
+        {
+          "text": "Landing page live с contact form",
+          "done": true
+        },
+        {
+          "text": "Admin dashboard за мониторинг",
+          "done": true
+        },
+        {
+          "text": "Supabase DB с 17 таблици",
+          "done": true
+        },
+        {
+          "text": "Email автоматизация (welcome + scope)",
+          "done": true
+        },
+        {
+          "text": "Stripe payments",
+          "done": true
+        },
+        {
+          "text": "Client portal with onboarding wizard",
+          "done": true
+        },
+        {
+          "text": "Автоматичен provisioning (DO + Ansible)",
+          "done": false
+        }
+      ],
+      "blockers": [
+        "🔴 Rotate Supabase JWT secret — чака Крис (security blocker still active as of 2026-04-06)",
+        "DO акаунт / достъп за auto-provisioning",
+        "Домейн за production"
+      ],
+      "nextActions": [
+        "Rotate Supabase JWT (Крис)",
+        "ClawHub акаунт + token за publishing/sync workflow",
+        "DO API provisioning скрипт (Phase 6)",
+        "Domain + SSL (Phase 7)"
+      ],
+      "tags": [
+        "clawai",
+        "openclaw",
+        "service",
+        "saas",
+        "supabase"
+      ],
+      "activityDays": 21,
+      "recentActivity": [
+        {
+          "date": "2026-04-04",
+          "entries": [
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            },
+            {
+              "time": "10:56",
+              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
+            },
+            {
+              "time": "13:20",
+              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
+            },
+            {
+              "time": "12:20",
+              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-03",
+          "entries": [
+            {
+              "time": "12:57",
+              "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js"
+            },
+            {
+              "time": "11:47",
+              "text": "Auto-extract topic 1 (152004 tokens, id:1-1775216856):** [2026-04-03T11:38:02] User: и какво се случи в крайна сметка? отстрани ли проблема? защо не сработи този път нововъвецде; [2026-04-03T11:39:54] User: искам да проучиш как работи клод код какви са основополагащите принципи и как той реалзиира ; [2026-04-03T11:43:45] User: =да оправи двата реда и кажи кога да тествам; [2026-04-03T11:44:54] Вече е `let`. Грешката може да е от по-стара версия преди рестарта. Нека валидирам и рестартирам:; [2026-04-03T11:45:09] Resolve-вам последната висяща задача:; [2026-04-03T11:45:17] Готово. Timeout: 120s, worker рестартиран, Миг Трейд е `review`.  Тествай. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-03T11:44:28] exec: # The error was in the revision flow. Check if there's a const that gets reassig"
+            },
+            {
+              "time": "10:00",
+              "text": "Auto-extract topic 1 (171251 tokens, id:1-1775210434):** [2026-04-03T09:50:51] User: щом има проблем който спира работта на системата оправяш...зашо ме питаш, ти трябва да си пр; [2026-04-03T09:54:54] User: да се върнем сега на това, как да прецизираме още повеече работата поанализ и съсздаване на ; [2026-04-03T09:56:07] User: да искам да напавиш промяната и да наредиш флоуа да го тествам след като кажеш; [2026-04-03T09:58:01] Също махам MULTI-PAGE instructions когато scope е EDIT (не CREATE):; [2026-04-03T09:58:05] Scope EDIT + multiPage е контрадикция. Fix:; [2026-04-03T09:58:34] Всичко заредено — включително `til-analyzer.js`. Готово за тест.  Крис, flow-ът е:  ``` Корекция →; [2026-04-03T09:58:01] exec: grep -n \"needsMultiPage|multiPageInstructions\" ~/; [2026-04-03T09:58:16] exec: node -c ~/scripts/demo-worker.js && echo \"✅ Syntax"
+            },
+            {
+              "time": "08:00",
+              "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-02",
+          "entries": [
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            },
+            {
+              "time": "06:13",
+              "text": "✅ OpenClaw ъпдейт **2026.4.1** — exec възстановен. Проблем: новата версия смени exec security default на `allowlist`. Fix: `security: \"full\"` + `ask: \"off\"` в config. Крис помогна от SSH. Урок: при major update проверявай exec policy промени ПРЕДИ restart."
+            },
+            {
+              "time": "08:34",
+              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
+            }
+          ]
+        },
+        {
+          "date": "2026-04-01",
+          "entries": [
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            },
+            {
+              "time": "10:39",
+              "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo"
+            },
+            {
+              "time": "07:44",
+              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
+            },
+            {
+              "time": "06:36",
+              "text": "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug"
+            },
+            {
+              "time": "14:11",
+              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
+            },
+            {
+              "time": "12:05",
+              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-31",
+          "entries": [
+            {
+              "time": "17:06",
+              "text": "Auto-extract topic 1 (174570 tokens, id:1-1774976764):** [2026-03-31T17:03:07] User: Добре, аз имам и още един въпрос ловабъл, болт имдругите олатформи имат чат инпревю. При нас; [2026-03-31T17:00:24] Сега имам пълната картина. Правя документа с всички реални инциденти.; [2026-03-31T17:01:04] [[reply_to_current]] Рових в цялата история — от март до днес. Намерих **12 реални инцидента**.  К; [2026-03-31T17:03:59] Много правилен въпрос. Нека помисля обективно.  **Какво дава чат + preview на Lovable/Bolt:**  Пот; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D; https://koiopenclaw-max.github.io/dental-killer-template/; [2026-03-31T17:00:24] exec: cat << 'SCRIPT' > /tmp/gen-incidents.js"
+            },
+            {
+              "time": "12:39",
+              "text": "Auto-extract topic 1 (159078 tokens, id:1-1774960784):** [2026-03-31T12:33:37] User: има проблем с две корекции които пуснах паралелно в демо сайтове но нищо не се случва...в да; [2026-03-31T12:36:01] Сега нека проверим дали worker-ът вече обработва queue-то:; [2026-03-31T12:36:46] Worker хвана ревизиите. Миг Трейд revision е в процес — Codex работи.; [2026-03-31T12:36:55] [[reply_to_current]] Намерих проблема — ревизиите се route-ваха към heartbeat (т.е. чакаха мен да ; 'r; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D"
+            },
+            {
+              "time": "08:21",
+              "text": "Auto-extract topic 1 (154275 tokens, id:1-1774945295):** [2026-03-31T08:15:43] Имам всички Tabler Icons SVG пътища. Сега да подбера правилните за всяка услуга и да ги инжектирам; [2026-03-31T08:18:29] Иконите са от Tabler Icons — всички 10 рендерират правилно, професионален outline стил, консистент; [2026-03-31T08:18:46] Готово. Иконите вече са от **Tabler Icons** (MIT, open source):  | Услуга | Tabler Icon | |-------; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/tabler/tabler-icons; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D0%B5%D0%BD-%D1%86%D0%B5%D0%BD%D; #; [2026-03-31T08:14:40] exec: # Get the Health Icons dental SVGs"
+            },
+            {
+              "time": "08:40",
+              "text": "🚪 Врати кайлъка: Codex build complete. Visual validation → Slop C(50). Applied fixes: solid bg (SLOP-01), asymmetric grids (SLOP-02), varied border-radius (SLOP-03), hover states (SLOP-07). Re-validated → **Slop B(80)**. Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B2%D1%80%D0%B0%D1%82%D0%B8-%D0%BA%D0%B0%D0%B9%D0%BB%D1%8A%D0%BA%D0%B0/"
+            },
+            {
+              "time": "08:30",
+              "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
+            },
+            {
+              "time": "11:32",
+              "text": "🔩 Миг Трейд: Codex build complete. Visual validation → Slop C(50). Fixes: solid bg (SLOP-01), varied radius (SLOP-03), industrial personality — uppercase h1, stripe pattern, caution divider (SLOP-05 partial). Re-validated → **Slop B(75)** (SLOP-07 overridden — hover states exist). Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/"
+            },
+            {
+              "time": "11:30",
+              "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-30",
+          "entries": [
+            {
+              "time": "20:01",
+              "text": "Auto-extract topic 1 (192643 tokens, id:1-1774900863):** [2026-03-30T19:58:12] User: За това 3 седмици трябва да си подобряваш памета за да не ми казваш че бе почниш…; [2026-03-30T19:58:52] Записано. Извинявам се за загубеното време.; [2026-03-30T19:58:53] Прав си. Compaction-ът ми изяде контекста и вместо да го кажа честно от самото начало, загубих час; [2026-03-30T19:58:53] Записано. Извинявам се за загубеното време.; https://koiopenclaw-max.github.io/demo-sites/templates/dental/clean-medical/; https://koiopenclaw-max.github.io/demo-sites/templates/dental/noir-luxe/; https://koiopenclaw-max.github.io/demo-sites/templates/dental/warm-haven/; const { chromium } = require('play"
+            },
+            {
+              "time": "17:24",
+              "text": "Auto-extract topic 1 (150826 tokens, id:1-1774891443):** [2026-03-30T17:18:23] CSS-ът вече е добре — `display:flex; align-items:center; justify-content:center; color:var(--white; [2026-03-30T17:20:24] Иконите са чисти SVG, консистентни, premium стил. Леко generic за dental но далеч по-професионални; [2026-03-30T17:21:25] Готово. Всички emoji са заменени с custom inline SVG икони — thin-line стил, консистентни, 1.5px s; https://github.com/koiopenclaw-max/dental-killer-template.git; https://github.com/lucide-icons/lucide/blob/main/icons/sparkles.svg; https://koiopenclaw-max.github.io/dental-killer-template/; con; [2026-03-30T17:20:24] exec: # Wait for deploy (push was ~2 min ago)"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-29",
+          "entries": [
+            {
+              "time": "07:14",
+              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
+            },
+            {
+              "time": "08:38",
+              "text": "Създаден topic 7551 \"gstack Test Lab\". Проект: OpenClaw Agent Persona Creation. Подготвен knowledge file: knowledge/resources/gstack-pipeline.md."
+            },
+            {
+              "time": "07:14",
+              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
+            },
+            {
+              "time": "06:55",
+              "text": "Генериран .docx \"gstack Deep Analysis\" (28KB) — план как да приложим patterns в Koi, Demo Sites, ClawAI, мобилни apps. 8 части, приоритизиран action plan P0-P2."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-26",
+          "entries": [
+            {
+              "time": "19:47",
+              "text": "Auto-extract topic 718 (164198 tokens, id:718-1774554458):** [2026-03-26T19:42:07] Имам всичко. Сега записвам findings-ите и генерирам документа.; [2026-03-26T19:45:11] Ето го. 8 секции, всичко на реални данни:  Най-важният takeaway: **Nat НЕ е започнал от нула.** 10; [2026-03-26T19:44:36] exec: openclaw message send --media ~/tmp/felix-research; [2026-03-26T19:45:03] exec: cat >> ~/daily/2026-03-26.md << 'EOF'; ### 19:40 —"
+            },
+            {
+              "time": "14:10",
+              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
+            },
+            {
+              "time": "13:49",
+              "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/"
+            },
+            {
+              "time": "07:34",
+              "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
+            },
+            {
+              "time": "14:12",
+              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
+            },
+            {
+              "time": "15:20",
+              "text": "🚀 **ClawAI Landing Page v3 LIVE** — Пълен redesign по brief v3:"
+            }
+          ]
+        },
+        {
+          "date": "2026-03-25",
+          "entries": [
+            {
+              "time": "20:19",
+              "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md [server-path] [2026-03-25T20:12:57] exec: openclaw message send --media ~/NEW-PROMPT.md --ta"
+            },
+            {
+              "time": "19:11",
+              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
+            },
+            {
+              "time": "09:08",
+              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
+            },
+            {
+              "time": "07:48",
+              "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
+            },
+            {
+              "time": "15:35",
+              "text": "🚀 OpenClaw ъпдейт: 2026.3.13 → 2026.3.23-2. npm install + gateway restart. Всичко работи, cache 100% hit, Codex credentials auto-synced. Custom skills и cron jobs непроменени."
+            },
+            {
+              "time": "17:55",
+              "text": "📋 ClawAI Phase 6 Provisioning Plan написан. Пълен план: `knowledge/projects/clawai-provisioning-plan.md`. Включва: DO droplet setup, OpenClaw install, workspace файлове (SOUL/AGENTS/USER/IDENTITY/HEARTBEAT/TOOLS), канал setup, мониторинг, security, cost structure, автоматизация roadmap (semi → full → zero-touch)."
+            }
+          ]
+        },
+        {
+          "date": "2026-03-24",
+          "entries": [
+            {
+              "time": "19:30",
+              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
+            },
+            {
+              "time": "17:00",
+              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
+            },
+            {
+              "time": "17:02",
+              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
+            },
+            {
+              "time": "16:32",
+              "text": "✅ Demo Sites: \"Адвокатска кантора Богданови и Маринов\" — DONE. demoUrl deployed, visual validation PASS, notified topic 49. URL: https://koiopenclaw-max.github.io/demo-sites/demos/адвокатска-кантора-богданови-и-маринов/"
+            },
+            {
+              "time": "16:08",
+              "text": "Auto-extract topic 49 (151624 tokens, id:49-1774368484):** [2026-03-24T15:56:27] User: аз не мога да опиша точен спек, но мисля че ти имаш познание какво и как да прави - концепци; [2026-03-24T16:00:14] User: както цяло съм съгласен че кодекс не ни трябва винаги, но за сега сайтовете които правим дор; [2026-03-24T16:05:38] User: ами възможно е да направим нещо такова, запиши го в идеите. Да го обмисля; [2026-03-24T15:57:17] Добър въпрос. Нека бъда честен.  ## Концептуалният проблем  **Lovable/Replit** работят защото имат; [2026-03-24T16:01:11] Прав си. Мислех твърде тясно — оптимизирах лошия процес вместо да го преосмисля. Ето истинската ка; [2026-03-24T16:06:00] Записано. Когато решиш — казваш. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%87%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D"
+            },
+            {
+              "time": "15:56",
+              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
+            },
+            {
+              "time": "16:15",
+              "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
+            },
+            {
+              "time": "16:28",
+              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
+            },
+            {
+              "time": "17:20",
+              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
+            },
+            {
+              "time": "17:50",
+              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
+            },
+            {
+              "time": "19:15",
+              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
+            },
+            {
+              "time": "19:30",
+              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "demo-sites",
@@ -574,418 +988,6 @@
             {
               "time": "19:05",
               "text": "**Dental template premium rebuild:** Крис поиска rebuild на Дентален Дом шаблона. Нова версия: Playfair Display + Outfit fonts, deep teal (#1B4D4E) + warm gold (#C5975B) палитра, editorial warmth дизайн, реални Unsplash снимки в hero. Pushed to `dental-warm-template` repo. URL: https://koiopenclaw-max.github.io/dental-warm-template/"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slug": "openclaw-service",
-      "name": "ClawAI (OpenClaw as a Service)",
-      "emoji": "🤖",
-      "status": "active",
-      "priority": "high",
-      "started": "2026-03-09",
-      "updated": "2026-03-25",
-      "topic": 718,
-      "repo": "koiopenclaw-max/clawai",
-      "url": "https://koiopenclaw-max.github.io/clawai/",
-      "vision": "AI асистенти за бизнеси — от подписване до live за 24ч. Два продукта: Starter (€28/мес, plug & play) и Clawsourcing (€550/мес, custom build).",
-      "phases": [
-        {
-          "name": "Phase 1: Research & Pricing",
-          "status": "done",
-          "started": "2026-03-09",
-          "completed": "2026-03-10",
-          "summary": "Конкурентен анализ (Felix Craft, Mahesha, Clawhosters). Pricing модел: 3 плана → 2 плана. Tech stack: Supabase + static HTML.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 2: Landing Page & Brand",
-          "status": "done",
-          "started": "2026-03-13",
-          "completed": "2026-03-20",
-          "summary": "ClawAI brand pivot. Двуезична landing page (BG/EN). Clawsourcing page. Обединение в една платформа.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 3: Database & Pipeline",
-          "status": "done",
-          "started": "2026-03-20",
-          "completed": "2026-03-20",
-          "summary": "Supabase: 17 таблици, RLS, миграция. Pipeline end-to-end: form → processor → handler → email. Два flow-а: Starter + Custom.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 4: Admin Dashboard",
-          "status": "done",
-          "started": "2026-03-20",
-          "completed": "2026-03-20",
-          "summary": "1425 реда, 8 секции, login gate. Supabase-connected. PRIVATE repo след security incident.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 5: Stripe & Payments",
-          "status": "done",
-          "started": "2026-03-24",
-          "completed": "2026-03-24",
-          "summary": "Stripe backend на Vercel (clawai-stripe.vercel.app). Checkout: €28/мес + €280 setup. Webhook → Supabase → Telegram. Node 24 fix (native fetch). Success page.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 5b: Client Portal & Onboarding",
-          "status": "done",
-          "started": "2026-03-24",
-          "completed": "2026-03-24",
-          "summary": "GitHub Pages portal с 6-step onboarding wizard + status dashboard. Dark luxury тема, magic link auth → zero-email flow (Stripe→portal→auto-login→wizard). 10 код фиксове, 2 DB миграции, RLS policies. E2E 6/6, Playwright 14/14 PASS.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 6: Auto-Provisioning",
-          "status": "in_progress",
-          "started": null,
-          "completed": null,
-          "summary": "DO API → Ansible → OpenClaw install → credentials → live. Provisioning Plan написан (knowledge/projects/clawai-provisioning-plan.md). Тиерове: Starter ($6, 1GB) default. Чака DO акаунт + скриптове от Крис.",
-          "blockers": []
-        },
-        {
-          "name": "Phase 7: First Customer",
-          "status": "next",
-          "started": null,
-          "completed": null,
-          "summary": "Domain, SSL, production deploy. Първи платен клиент.",
-          "blockers": []
-        }
-      ],
-      "progress": 75,
-      "activePhase": null,
-      "goals": [
-        {
-          "text": "End-to-end pipeline: форма → плащане → provisioning → live assistant",
-          "done": false
-        },
-        {
-          "text": "Landing page live с contact form",
-          "done": true
-        },
-        {
-          "text": "Admin dashboard за мониторинг",
-          "done": true
-        },
-        {
-          "text": "Supabase DB с 17 таблици",
-          "done": true
-        },
-        {
-          "text": "Email автоматизация (welcome + scope)",
-          "done": true
-        },
-        {
-          "text": "Stripe payments",
-          "done": true
-        },
-        {
-          "text": "Client portal with onboarding wizard",
-          "done": true
-        },
-        {
-          "text": "Автоматичен provisioning (DO + Ansible)",
-          "done": false
-        }
-      ],
-      "blockers": [
-        "🔴 Rotate Supabase JWT secret — чака Крис (ДЕН 4)",
-        "Домейн за production"
-      ],
-      "nextActions": [
-        "Rotate Supabase JWT (Крис)",
-        "DO API provisioning скрипт (Phase 6)",
-        "Domain + SSL (Phase 7)"
-      ],
-      "tags": [
-        "clawai",
-        "openclaw",
-        "service",
-        "saas",
-        "supabase"
-      ],
-      "activityDays": 21,
-      "recentActivity": [
-        {
-          "date": "2026-04-04",
-          "entries": [
-            {
-              "time": "13:20",
-              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
-            },
-            {
-              "time": "13:20",
-              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
-            },
-            {
-              "time": "12:20",
-              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
-            },
-            {
-              "time": "10:56",
-              "text": "Auto-extract topic 51 (186767 tokens, id:51-1775300163):** [2026-04-04T10:53:57] User: какво трябва дад напраяв аз; [2026-04-04T10:52:51] Също, нека оправя и `updates` обратно — НЕ е expo-updates проблемът:; [2026-04-04T10:53:15] Крис, намерих **истинската причина** от crash лога:  ## 🐛 Root Cause  **Thread 8** (`com.meta.reac; [2026-04-04T10:54:02] Пусни от PowerShell:  ``` git pull eas build --platform ios --profile preview ```  Когато build-ът; https://github.com/expo/expo/issues/42112; https://github.com/koiopenclaw-max/momerly.git; https://github.com/sync/otaa/pull/1; [2026-04-04T10:52:36] exec: cd [server-path] && grep \"getReactNativePersistence\" node_modules"
-            },
-            {
-              "time": "13:20",
-              "text": "Auto-extract topic 51 (150293 tokens, id:51-1775308833):** [2026-04-04T13:13:56] User: Project Console: https://console.firebase.google.com/project/momerly-ba95a/overview PS C:Us; [2026-04-04T13:15:05] User: вече може лида го качим на тестфлайт; [2026-04-04T13:17:39] User: ти ме питаш този върпсо като знаеш че имаме вече 3 опитаи качени неработещи версии в тестфла; [2026-04-04T13:15:38] Готово е за TestFlight. Първо махам debug log-овете:; [2026-04-04T13:16:02] Готов за TestFlight! Пусни от твоя компютър:  ``` cd momerly git pull eas build --platform ios --p; [2026-04-04T13:17:48] Прав си, извинявам се. Пусни:  ``` cd momerly git pull eas build --platform ios --profile ios-test; https://console.firebase.google.com/project/momerly-ba95a/overview; https://github.com/koiopenclaw-max/momerly.git"
-            },
-            {
-              "time": "12:20",
-              "text": "Auto-extract topic 51 (162510 tokens, id:51-1775305233):** [2026-04-04T12:16:22] User: има безброх светещи в червено проблеми...тук трябва да влезеш и да разнищиш всчко, да го кор; [2026-04-04T12:17:23] Good — `useNotifications()` вика `registerForPushNotifications()` който сега return-ва null в __DE; [2026-04-04T12:17:29] Чисто. Сега да оправя всички останали проблеми наведнъж. Да проверя за deprecated SafeAreaView:; [2026-04-04T12:18:27] Крис, пусни в терминала:  ```bash git pull ```  После `Ctrl+C` на dev server и пусни пак с чист ca; https://github.com/koiopenclaw-max/momerly.git; [2026-04-04T12:17:29] exec: cd [server-path] && grep -rn \"from \"react-native\"\" app/ src/ --; [2026-04-04T12:17:54] exec: cd [server-path] && npx tsc --noEmit 2>&1 | grep -v \"TS7034|TS70; [2026-04-04T12:18:19] exec: cd [server-path] && git add -A && git commit -m \"fix: batch fix a"
-            }
-          ]
-        },
-        {
-          "date": "2026-04-03",
-          "entries": [
-            {
-              "time": "12:57",
-              "text": "Auto-extract topic 1 (155649 tokens, id:1-1775221024):** [2026-04-03T12:37:27] User: Значи когато става дума за копимрайтинг или сео трябва ти да го правиш; [2026-04-03T12:44:45] User: Но на клод му пишеш на англииски…това да не му го пратиш на бг? Да обновявай; [2026-04-03T12:46:24] User: Как на български бе…на клод му пишеш само на англииски!!!!; [2026-04-03T12:46:49] Прав си! `wrapCodexPrompt` е на английски, и `koi-decision-layer.js` целият е на английски. Оправя; [2026-04-03T12:52:46] Извинявам се — разбрах обратното! Claude получава prompt-и на **английски**. Поправям:; [2026-04-03T12:54:56] Готово. Всички промени:  ✅ **Всички prompt-и към Claude — на английски** ✅ **SEO/Copywriter → rout; [2026-04-03T12:54:42] exec: node -c scripts/role-prompts.js && node -c scripts/demo-worker.js && echo \"ALL O; [2026-04-03T12:54:45] exec: cd [server-path] && node scripts/role-prompts.js"
-            },
-            {
-              "time": "11:47",
-              "text": "Auto-extract topic 1 (152004 tokens, id:1-1775216856):** [2026-04-03T11:38:02] User: и какво се случи в крайна сметка? отстрани ли проблема? защо не сработи този път нововъвецде; [2026-04-03T11:39:54] User: искам да проучиш как работи клод код какви са основополагащите принципи и как той реалзиира ; [2026-04-03T11:43:45] User: =да оправи двата реда и кажи кога да тествам; [2026-04-03T11:44:54] Вече е `let`. Грешката може да е от по-стара версия преди рестарта. Нека валидирам и рестартирам:; [2026-04-03T11:45:09] Resolve-вам последната висяща задача:; [2026-04-03T11:45:17] Готово. Timeout: 120s, worker рестартиран, Миг Трейд е `review`.  Тествай. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-03T11:44:28] exec: # The error was in the revision flow. Check if there's a const that gets reassig"
-            },
-            {
-              "time": "10:00",
-              "text": "Auto-extract topic 1 (171251 tokens, id:1-1775210434):** [2026-04-03T09:50:51] User: щом има проблем който спира работта на системата оправяш...зашо ме питаш, ти трябва да си пр; [2026-04-03T09:54:54] User: да се върнем сега на това, как да прецизираме още повеече работата поанализ и съсздаване на ; [2026-04-03T09:56:07] User: да искам да напавиш промяната и да наредиш флоуа да го тествам след като кажеш; [2026-04-03T09:58:01] Също махам MULTI-PAGE instructions когато scope е EDIT (не CREATE):; [2026-04-03T09:58:05] Scope EDIT + multiPage е контрадикция. Fix:; [2026-04-03T09:58:34] Всичко заредено — включително `til-analyzer.js`. Готово за тест.  Крис, flow-ът е:  ``` Корекция →; [2026-04-03T09:58:01] exec: grep -n \"needsMultiPage|multiPageInstructions\" ~/; [2026-04-03T09:58:16] exec: node -c ~/scripts/demo-worker.js && echo \"✅ Syntax"
-            },
-            {
-              "time": "08:00",
-              "text": "Auto-extract topic 1 (155218 tokens, id:1-1775203233):** [2026-04-03T07:48:55] User: коя е следващата стъпка от плана?; [2026-04-03T07:51:33] User: а ден 2 къде е? защо прескачаш на ден 3?; [2026-04-03T07:56:20] User: добре, нека продължим с ден 3; [2026-04-03T07:58:01] Syntax clean. Now restart the worker:; [2026-04-03T07:58:16] All three TIL modules loaded successfully. Worker is running clean.; [2026-04-03T07:58:25] Крис, Ден 3 е готов. TIL v2 е интегриран в worker-а.  **Какво направих:** - Worker зарежда 3-те TI; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug; https://x-access-token:${GH_TOKEN}@github.com/${data.deployRepo}.git"
-            }
-          ]
-        },
-        {
-          "date": "2026-04-02",
-          "entries": [
-            {
-              "time": "08:34",
-              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
-            },
-            {
-              "time": "06:13",
-              "text": "✅ OpenClaw ъпдейт **2026.4.1** — exec възстановен. Проблем: новата версия смени exec security default на `allowlist`. Fix: `security: \"full\"` + `ask: \"off\"` в config. Крис помогна от SSH. Урок: при major update проверявай exec policy промени ПРЕДИ restart."
-            },
-            {
-              "time": "08:34",
-              "text": "Auto-extract topic 1 (163088 tokens, id:1-1775118875):** [2026-04-02T08:26:27] User: пуснах отново корекцията с логото, може ли да прегледаш и видиш какво се вижда, това ок ли е; [2026-04-02T08:30:27] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:31:28] User: това лого виждам, а аз съм да това, има ли разлика според теб?; [2026-04-02T08:32:09] [[reply_to_current]] Да, огромна разлика. Логото е **същото**, но е тъмно на тъмен фон — практичес; [2026-04-02T08:32:15] Логото е `mig.png` — тъмно на прозрачен фон. Няма бяла версия на сайта на клиента. Решение: CSS `f; [2026-04-02T08:32:32] Push-нато. След ~60 сек ще се обнови. Логото ще бъде бяло на тъмния фон — `filter: brightness(0) i; https://github.com/koiopenclaw-max/demo-sites.git; git st"
-            }
-          ]
-        },
-        {
-          "date": "2026-04-01",
-          "entries": [
-            {
-              "time": "14:11",
-              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
-            },
-            {
-              "time": "12:05",
-              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
-            },
-            {
-              "time": "10:39",
-              "text": "Auto-extract topic 1 (164801 tokens, id:1-1775039943):** [2026-04-01T09:59:06] User: Добре от тук сега хващам и добавям нов проект какъв проблем ще видя? Или пускам корекция на ; [2026-04-01T10:35:31] Light mode работи. Сега финална валидация:; [2026-04-01T10:35:55] 10/10. Записвам и давам report:; [2026-04-01T10:36:07] [[reply_to_current]] Тествах двата flow-а. Ето какво ще видиш:  **Нов проект:** Работи чисто. Мода; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T10:33:50] write: test-light.js; [2026-04-01T10:33:53] exec: sleep 65 && NODE_PATH=$(npm root -g) node /tmp/test-light.js 2>&1; [2026-04-01T10:35:31] exec: cd [server-path] && NODE_PATH=$(npm root -g) node scripts/demo"
-            },
-            {
-              "time": "07:44",
-              "text": "Auto-extract topic 1 (153967 tokens, id:1-1775029475):** [2026-04-01T07:41:36] Worker зарежда всички модули без грешки. Проверявам line count:; [2026-04-01T07:42:03] Worker рестартиран, v6 pipeline заредена, всичко работи.; [2026-04-01T07:42:16] [[reply_to_current]] **Done. Стъпка 7 — интеграция в worker-а — завършена.**  Worker-ът е рестарти; [2026-04-01T07:41:46] exec: pm2 logs demo-worker --lines 10 --nostream 2>&1; [2026-04-01T07:42:03] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; ### 07:38 U"
-            },
-            {
-              "time": "06:36",
-              "text": "Auto-extract topic 1 (161467 tokens, id:1-1775025363):** [2026-04-01T06:29:12] User: добре, време е за следващата фаза; [2026-04-01T06:30:10] Същото за revision flow — обновяване на manifest след успешна ревизия:; [2026-04-01T06:30:30] **Подзадача 2: Approved bookmarks** — при status → approved, worker слага git tag:; [2026-04-01T06:30:48] Approved bookmark-ите трябва да се правят при `status; [2026-04-01T06:31:51] Now add Measure-First to the revision prompt — measure the live site before Codex runs:; [2026-04-01T06:32:15] Now inject measurePrompt into the Codex prompt:; [2026-04-01T06:33:37] **Фаза 3 DONE.** 6 v2 модула в worker-а:  | Модул | Фаза | Функция | |-------|-------|---------| |; https://koiopenclaw-max.github.io/demo-sites/demos/${encodeURIComponent(task.slug"
-            },
-            {
-              "time": "14:11",
-              "text": "Auto-extract topic 1 (152424 tokens, id:1-1775052696):** [2026-04-01T14:05:04] User: да пускам ли нова корекция за да тестваме новите неща; [2026-04-01T14:06:12] User: аз не виждам промяна във формата....ти пусна ли я? активна ли е?; [2026-04-01T14:07:31] User: ако питаш мен искам от това което съм ти написал в сегашната форма ти да разбереш в коя стра; [2026-04-01T14:08:29] Now let me add a sanity check: if surgical produces too many edits for a simple instruction, rejec; [2026-04-01T14:09:04] **1 edit на primary, 10 total (с реплики).** Точно каквото трябва.; [2026-04-01T14:09:12] Готово. Пускай корекцията — пиши каквото искаш в свободен текст. Surgical е строг сега: - Само ТОЧ; https://github.com/koiopenclaw-max/demo-sites.git; [2026-04-01T14:08:43] exec: # Quick test: with the strict prompt, how many edits for \"change nav font\"?"
-            },
-            {
-              "time": "12:05",
-              "text": "Auto-extract topic 1 (150652 tokens, id:1-1775045134):** [2026-04-01T12:02:56] Миг Трейд is already in `review` status (from the earlier revision that went through). The trigger; [2026-04-01T12:03:07] No pending tasks. The earlier Миг Трейд revision failed but the status already got set to `review`; [2026-04-01T12:03:22] [[reply_to_current]] Блок 1 готов. Ето какво направих:  **1.1 ✅ Crash fix** — filename filter доба; https://koiopenclaw-max.github.io/accounting-templates-alt/; https://koiopenclaw-max.github.io/accounting-templates-claude/; # Check queu; [2026-04-01T12:03:07] exec: cat >> ~/daily/2026-04-01.md << 'EOF'; - **12:05**"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-31",
-          "entries": [
-            {
-              "time": "17:06",
-              "text": "Auto-extract topic 1 (174570 tokens, id:1-1774976764):** [2026-03-31T17:03:07] User: Добре, аз имам и още един въпрос ловабъл, болт имдругите олатформи имат чат инпревю. При нас; [2026-03-31T17:00:24] Сега имам пълната картина. Правя документа с всички реални инциденти.; [2026-03-31T17:01:04] [[reply_to_current]] Рових в цялата история — от март до днес. Намерих **12 реални инцидента**.  К; [2026-03-31T17:03:59] Много правилен въпрос. Нека помисля обективно.  **Какво дава чат + preview на Lovable/Bolt:**  Пот; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D; https://koiopenclaw-max.github.io/dental-killer-template/; [2026-03-31T17:00:24] exec: cat << 'SCRIPT' > /tmp/gen-incidents.js"
-            },
-            {
-              "time": "12:39",
-              "text": "Auto-extract topic 1 (159078 tokens, id:1-1774960784):** [2026-03-31T12:33:37] User: има проблем с две корекции които пуснах паралелно в демо сайтове но нищо не се случва...в да; [2026-03-31T12:36:01] Сега нека проверим дали worker-ът вече обработва queue-то:; [2026-03-31T12:36:46] Worker хвана ревизиите. Миг Трейд revision е в процес — Codex работи.; [2026-03-31T12:36:55] [[reply_to_current]] Намерих проблема — ревизиите се route-ваха към heartbeat (т.е. чакаха мен да ; 'r; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D"
-            },
-            {
-              "time": "08:21",
-              "text": "Auto-extract topic 1 (154275 tokens, id:1-1774945295):** [2026-03-31T08:15:43] Имам всички Tabler Icons SVG пътища. Сега да подбера правилните за всяка услуга и да ги инжектирам; [2026-03-31T08:18:29] Иконите са от Tabler Icons — всички 10 рендерират правилно, професионален outline стил, консистент; [2026-03-31T08:18:46] Готово. Иконите вече са от **Tabler Icons** (MIT, open source):  | Услуга | Tabler Icon | |-------; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/tabler/tabler-icons; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D0%B5%D0%BD-%D1%86%D0%B5%D0%BD%D; #; [2026-03-31T08:14:40] exec: # Get the Health Icons dental SVGs"
-            },
-            {
-              "time": "08:40",
-              "text": "🚪 Врати кайлъка: Codex build complete. Visual validation → Slop C(50). Applied fixes: solid bg (SLOP-01), asymmetric grids (SLOP-02), varied border-radius (SLOP-03), hover states (SLOP-07). Re-validated → **Slop B(80)**. Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B2%D1%80%D0%B0%D1%82%D0%B8-%D0%BA%D0%B0%D0%B9%D0%BB%D1%8A%D0%BA%D0%B0/"
-            },
-            {
-              "time": "08:30",
-              "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
-            },
-            {
-              "time": "11:32",
-              "text": "🔩 Миг Трейд: Codex build complete. Visual validation → Slop C(50). Fixes: solid bg (SLOP-01), varied radius (SLOP-03), industrial personality — uppercase h1, stripe pattern, caution divider (SLOP-05 partial). Re-validated → **Slop B(75)** (SLOP-07 overridden — hover states exist). Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/"
-            },
-            {
-              "time": "11:30",
-              "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-30",
-          "entries": [
-            {
-              "time": "20:01",
-              "text": "Auto-extract topic 1 (192643 tokens, id:1-1774900863):** [2026-03-30T19:58:12] User: За това 3 седмици трябва да си подобряваш памета за да не ми казваш че бе почниш…; [2026-03-30T19:58:52] Записано. Извинявам се за загубеното време.; [2026-03-30T19:58:53] Прав си. Compaction-ът ми изяде контекста и вместо да го кажа честно от самото начало, загубих час; [2026-03-30T19:58:53] Записано. Извинявам се за загубеното време.; https://koiopenclaw-max.github.io/demo-sites/templates/dental/clean-medical/; https://koiopenclaw-max.github.io/demo-sites/templates/dental/noir-luxe/; https://koiopenclaw-max.github.io/demo-sites/templates/dental/warm-haven/; const { chromium } = require('play"
-            },
-            {
-              "time": "17:24",
-              "text": "Auto-extract topic 1 (150826 tokens, id:1-1774891443):** [2026-03-30T17:18:23] CSS-ът вече е добре — `display:flex; align-items:center; justify-content:center; color:var(--white; [2026-03-30T17:20:24] Иконите са чисти SVG, консистентни, premium стил. Леко generic за dental но далеч по-професионални; [2026-03-30T17:21:25] Готово. Всички emoji са заменени с custom inline SVG икони — thin-line стил, консистентни, 1.5px s; https://github.com/koiopenclaw-max/dental-killer-template.git; https://github.com/lucide-icons/lucide/blob/main/icons/sparkles.svg; https://koiopenclaw-max.github.io/dental-killer-template/; con; [2026-03-30T17:20:24] exec: # Wait for deploy (push was ~2 min ago)"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-29",
-          "entries": [
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "08:38",
-              "text": "Създаден topic 7551 \"gstack Test Lab\". Проект: OpenClaw Agent Persona Creation. Подготвен knowledge file: knowledge/resources/gstack-pipeline.md."
-            },
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "06:55",
-              "text": "Генериран .docx \"gstack Deep Analysis\" (28KB) — план как да приложим patterns в Koi, Demo Sites, ClawAI, мобилни apps. 8 части, приоритизиран action plan P0-P2."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-26",
-          "entries": [
-            {
-              "time": "19:47",
-              "text": "Auto-extract topic 718 (164198 tokens, id:718-1774554458):** [2026-03-26T19:42:07] Имам всичко. Сега записвам findings-ите и генерирам документа.; [2026-03-26T19:45:11] Ето го. 8 секции, всичко на реални данни:  Най-важният takeaway: **Nat НЕ е започнал от нула.** 10; [2026-03-26T19:44:36] exec: openclaw message send --media ~/tmp/felix-research; [2026-03-26T19:45:03] exec: cat >> ~/daily/2026-03-26.md << 'EOF'; ### 19:40 —"
-            },
-            {
-              "time": "14:10",
-              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
-            },
-            {
-              "time": "13:49",
-              "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/"
-            },
-            {
-              "time": "07:34",
-              "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
-            },
-            {
-              "time": "14:12",
-              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
-            },
-            {
-              "time": "15:20",
-              "text": "🚀 **ClawAI Landing Page v3 LIVE** — Пълен redesign по brief v3:"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-25",
-          "entries": [
-            {
-              "time": "20:19",
-              "text": "Auto-extract topic 1 (189739 tokens, id:1-1774469944):** [2026-03-25T20:15:43] User: Мисля че имаме още доста работа за да развием този скил, за да създава топ сайтове. Базирайк; [2026-03-25T20:13:16] Изпратих ти и двата файла: 1. **OLD-PROMPT.md** — стар skill prompt 2. **NEW-PROMPT.md** — нов ski; [2026-03-25T20:15:57] Добър въпрос. Нека първо проуча какво печели награди в момента:; [2026-03-25T20:16:56] Крис, ето какво намерих и как бих подобрил skill-а:  ## 🏆 Какво печели награди в 2025-2026  **Awww; [2026-03-25T20:12:33] exec: # Send OLD prompt as file; cp /tmp/skill-test-old/PROMPT.md [server-path] [2026-03-25T20:12:57] exec: openclaw message send --media ~/NEW-PROMPT.md --ta"
-            },
-            {
-              "time": "19:11",
-              "text": "Auto-extract topic 718 (151159 tokens, id:718-1774465863):** [2026-03-25T19:04:33] User: Добре още една хрумка имаме потенциален директор в топ агенция за пътно строителство. Иска д; [2026-03-25T19:06:37] User: Да премиум услуга ще е. Въпроса е дали можем да направим такова нещо и какво усилие ще отнем; [2026-03-25T19:08:13] User: Да остави си знаменце за спомен.; [2026-03-25T19:02:37] Ясно, добра хрумка — записана за когато дойде такъв клиент. 🐟; [2026-03-25T19:05:00] Много интересен case. Висока стойност — всяка спечелена поръчка е стотици хиляди до милиони.  **Ка; [2026-03-25T19:07:13] Можем. Ето честната оценка:  **Можем ли? Да.** OpenClaw + Claude + docx skill + правилен knowledge; [2026-03-25T19:06:47] exec: cat >> ~/daily/2026-03-25.md << 'EOF'; - **19:06 U"
-            },
-            {
-              "time": "09:08",
-              "text": "Auto-extract topic 49 (166222 tokens, id:49-1774429683):** [2026-03-25T08:58:23] User: мисля че трябва да го интегрираш и да тестваш дали работи всичко направено; [2026-03-25T09:05:05] Визуалният анализ потвърждава — картите минават. Сега push:; [2026-03-25T09:05:26] Файловете пак са чисти — gitPull() в worker-а е направил `git reset --hard` и е презаписал моите п; [2026-03-25T09:05:49] Крис, ето какво направих:  **Системата:** 1. ✅ `demo-sites-processor.js` — ревизиите вече НЕ отива; https://github.com/koiopenclaw-max/demo-sites.git; cd [server-path] python3; [2026-03-25T09:05:33] exec: rm -f /tmp/demo-revision-done-*.json /tmp/demo-revision-context-*.json && echo \""
-            },
-            {
-              "time": "07:48",
-              "text": "🏗️ Счетоводна къща \"Емпика\" deploy завършен: status→live, liveUrl=https://demo58.add.bg, deployRepo=koiopenclaw-max/demo58-add-bg"
-            },
-            {
-              "time": "15:35",
-              "text": "🚀 OpenClaw ъпдейт: 2026.3.13 → 2026.3.23-2. npm install + gateway restart. Всичко работи, cache 100% hit, Codex credentials auto-synced. Custom skills и cron jobs непроменени."
-            },
-            {
-              "time": "17:55",
-              "text": "📋 ClawAI Phase 6 Provisioning Plan написан. Пълен план: `knowledge/projects/clawai-provisioning-plan.md`. Включва: DO droplet setup, OpenClaw install, workspace файлове (SOUL/AGENTS/USER/IDENTITY/HEARTBEAT/TOOLS), канал setup, мониторинг, security, cost structure, автоматизация roadmap (semi → full → zero-touch)."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-24",
-          "entries": [
-            {
-              "time": "19:30",
-              "text": "Auto-extract topic 718 (168318 tokens, id:718-1774380637):** [2026-03-24T19:23:23] User: Забих тук…явно не си тествал.; [2026-03-24T19:24:57] Also fix `ensureCustomerChain` to handle null contact_request_id:; [2026-03-24T19:27:24] Deployed. Сега ръчно тригервам webhook-а за твоето последно плащане:; [2026-03-24T19:28:14] Създадох ръчно записите за твоя акаунт. **Refresh-ни портала** — трябва да видиш wizard-а.  Пробле; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai/; SERVICE_KEY=\"eyJhbGciOiJ; [2026-03-24T19:28:02] exec: cat >> ~/daily/2026-03-24.md << 'EOF'"
-            },
-            {
-              "time": "17:00",
-              "text": "🏗️ Codex работи по ClawAI Client Portal (Phase B: 6-step onboarding wizard + status dashboard). Repo: clawai-portal. Стар trigger (PIDs 1700600/1700612) изтрит — нов Codex PID 1702514 е активен. Чакам `openclaw system event` при завършване."
-            },
-            {
-              "time": "17:02",
-              "text": "Auto-extract topic 718 (154991 tokens, id:718-1774371756):** [2026-03-24T16:54:29] User: прегледах и плана ми допада, давай да действаме; [2026-03-24T16:57:56] User: каквото решиш прави...само спазваш правилата за сигурност - без токъни, ключове или конфиден; [2026-03-24T16:58:30] Solid. Дупликация prevention на всяко ниво (customer, payment, subscription, project). Деплойвам:; [2026-03-24T16:58:53] Фаза A deployed. Сега създавам `clawai-portal` repo и пускам Codex за Фаза B:; [2026-03-24T17:00:27] Тръгна:  - ✅ **Фаза A deployed** — webhook вече създава customer, payment, subscription, project, ; https://github.com/koiopenclaw-max/clawai-portal.git; https://koiopenclaw-max.github.io/clawai-portal/; https://koiopenclaw-max.github.io/clawai-portal/`"
-            },
-            {
-              "time": "16:32",
-              "text": "✅ Demo Sites: \"Адвокатска кантора Богданови и Маринов\" — DONE. demoUrl deployed, visual validation PASS, notified topic 49. URL: https://koiopenclaw-max.github.io/demo-sites/demos/адвокатска-кантора-богданови-и-маринов/"
-            },
-            {
-              "time": "16:08",
-              "text": "Auto-extract topic 49 (151624 tokens, id:49-1774368484):** [2026-03-24T15:56:27] User: аз не мога да опиша точен спек, но мисля че ти имаш познание какво и как да прави - концепци; [2026-03-24T16:00:14] User: както цяло съм съгласен че кодекс не ни трябва винаги, но за сега сайтовете които правим дор; [2026-03-24T16:05:38] User: ами възможно е да направим нещо такова, запиши го в идеите. Да го обмисля; [2026-03-24T15:57:17] Добър въпрос. Нека бъда честен.  ## Концептуалният проблем  **Lovable/Replit** работят защото имат; [2026-03-24T16:01:11] Прав си. Мислех твърде тясно — оптимизирах лошия процес вместо да го преосмисля. Ето истинската ка; [2026-03-24T16:06:00] Записано. Когато решиш — казваш. 🐟; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%87%D0%B5%D1%82%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0-%D0%BA%D"
-            },
-            {
-              "time": "15:56",
-              "text": "🚀 Spawn Codex за Phase 5: clawai-stripe Vercel backend (checkout session creator + webhook handler + health). Repo: [server-path]"
-            },
-            {
-              "time": "16:15",
-              "text": "✅ Stripe backend deployed на Vercel! URL: https://clawai-stripe.vercel.app. Stripe SDK не работеше с Node 24 на Vercel — пренаписан с native fetch. Checkout сесия работи: €28/мес subscription + €280 setup fee."
-            },
-            {
-              "time": "16:28",
-              "text": "Крис тества checkout flow. Два проблема: 1) Success страница липсва — redirect към home, 2) Webhook не ъпдейтва Supabase (placeholder secret). Fix: регистриран реален webhook в Stripe (we_1TEXp5), success page с 4 стъпки \"какво следва\", Telegram нотификация в topic 718 при плащане. Webhook secret в [secrets-path] и Vercel env."
-            },
-            {
-              "time": "17:20",
-              "text": "✅ ClawAI Client Portal (Phase B) deployed на GitHub Pages. Codex генерира 2000 реда код: index.html + portal.js + wizard.js + portal.css. 6-стъпков onboarding wizard (бизнес инфо, работно време, услуги, LLM API ключ, лого/брандинг, финализация) + status dashboard. Dark luxury тема, magic link auth, Supabase интеграция. Visual validation: 8.5/10. URL: https://koiopenclaw-max.github.io/clawai-portal/"
-            },
-            {
-              "time": "17:50",
-              "text": "✅ ClawAI Portal: 10 фикса applied + 2 DB миграции + Auth config update:"
-            },
-            {
-              "time": "19:15",
-              "text": "🔧 Критичен fix: Webhook вече **изпраща** magic link email автоматично (inviteUserByEmail вместо generateLink). Email templates: български, ClawAI branded (злато бутон, clean layout). Auth subjects: \"Добре дошли в ClawAI\" / \"Вход в ClawAI портал\". Deployed на Vercel."
-            },
-            {
-              "time": "19:30",
-              "text": "🔴 Critical fix: Webhook гърмеше защото checkout.js генерираше fallback contactRequestId (`checkout-timestamp`) вместо UUID. Supabase RLS блокираше anon INSERT в contact_requests. Fix: webhook вече работи **и без** contact_request — ползва Stripe session data (email, name) като fallback. Ръчно създаден customer/project/subscription за Крис тест. Deploy на Vercel."
             }
           ]
         }
