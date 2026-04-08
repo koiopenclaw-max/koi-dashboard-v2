@@ -1,8 +1,112 @@
 {
-  "updated": "2026-04-08T20:55:02.403Z",
+  "updated": "2026-04-08T21:05:02.411Z",
   "totalDays": 30,
-  "totalEntries": 742,
+  "totalEntries": 732,
   "days": [
+    {
+      "date": "2026-04-09",
+      "dayName": "Четвъртък",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Създадена чрез nightly review с carry-over от 2026-04-08.",
+          "type": "default"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release build — final clean rebuild after full removal of problematic native packages"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Единствената нова execution следа за деня е отворена диагностика на failed deploy за `koi-dashboard-v2`; няма записано финално решение.",
+        "Security credential rotation е вече ДЕН 20 и остава най-критичният оперативен риск."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- Единствената нова execution следа за деня е отворена диагностика на failed deploy за `koi-dashboard-v2`; няма записано финално решение."
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 1
+    },
     {
       "date": "2026-04-08",
       "dayName": "Сряда",
@@ -103,7 +207,7 @@
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела"
       ],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 2
     },
@@ -6004,149 +6108,6 @@
       "hasReview": true,
       "reviewSummary": null,
       "entryCount": 14
-    },
-    {
-      "date": "2026-03-10",
-      "dayName": "Вторник",
-      "entries": [
-        {
-          "time": "17:05",
-          "text": "✅ Workspace backup настроен: private repo `workspace-backup` + cron 22:00 EET ежедневно. Update 2026.3.8 наличен, dry-run чист, чакаме потвърждение.",
-          "type": "done"
-        },
-        {
-          "time": "16:14",
-          "text": "OpenClaw as a Service ГОЛЯМА сесия (topic 718): - 4 итерации конкурентен анализ: Felix Craft ($116K+, 4 продукта), Mahesha Automation ($1K-$3.6K setup), OpenClaw Hosting ($29-399/мес), Clawhosters ($3.5K MRR), Twitter пазар ($250-$2,500 setup) - Implementation plan: 7 фази, ~10 седмици до първи клиент - Крис реши: web platform first, многоезична (EN+BG), Supabase + Next.js + Stripe + DO API - Tech stack определен: Vercel (free), Supabase (free), Stripe, DO API - Опит за Supabase signup — CAPTCHA блокира. Крис ще помогне. - Setup fees обновени нагоре: 199-999 лв (Mahesha взима $1K-$3K) - Генерирани 5 DOCX доклада - Крис ще помисли вечерта, продължаваме утре сутринта",
-          "type": "default"
-        },
-        {
-          "time": "13:14",
-          "text": "✅ Demo Sites платформа качена: https://koiopenclaw-max.github.io/demo-sites/",
-          "type": "done"
-        },
-        {
-          "time": "13:08",
-          "text": "✅ GitHub Pages pipeline тестван и работи. Тест страница: https://koiopenclaw-max.github.io/test-page/ — Всеки проект ще се деплойва така.",
-          "type": "deploy"
-        },
-        {
-          "time": "12:36",
-          "text": "✅ GitHub достъп настроен. Акаунт: koiopenclaw-max, git config обновен (user.name=Koi, user.email=koiopenclaw@gmail.com). OAuth2 flow (Google Cloud Console → Gmail API → Desktop OAuth client). Credentials в `[secrets-path].json`. Тест: изпратени 2 мейла до k***@infocall.bg успешно.",
-          "type": "email"
-        },
-        {
-          "time": "12:30",
-          "text": "✅ Git config сменен на Koi + GitHub акаунт `koiopenclaw-max` активен с PAT token.",
-          "type": "done"
-        },
-        {
-          "time": "12:20",
-          "text": "✅ Gmail достъп настроен за koiopenclaw@gmail.com.",
-          "type": "done"
-        },
-        {
-          "time": "11:33",
-          "text": "Тест на Google Search workflow с megatrans-ruse.com. Сайтът се скрейпна ОК (Автоморга Мегатранс, Русе, 7 страници). Google Search блокира с CAPTCHA — сървърното IP (DO) е проблемът. Крис предложи Mac Mini с residential IP като решение. Засега паркираме темата.",
-          "type": "decision"
-        },
-        {
-          "time": "08:56",
-          "text": "Крис поиска детайлен MVP blueprint. Създадох пълно техническо задание: архитектура (Next.js + PostgreSQL + pgvector + Claude API), 5 sprint-а, DB schema, scraping/auto-Q&A engine, ценообразуване, финансова проекция. ~90-115 часа с vibe coding, 4-5 седмици. Доклад: `chatbot_mvp_blueprint.docx`.",
-          "type": "default"
-        },
-        {
-          "time": "08:07",
-          "text": "Крис предложи идея за AI chatbot платформа (topic 10). Направих пазарно проучване на БГ пазара — 8+ конкурента идентифицирани (Steven Studio, Unmatched, pishatT, TalkX.ai и др.). Доклад: `chatbot_market_research_bg_2026.docx`.",
-          "type": "default"
-        },
-        {
-          "time": "06:03",
-          "text": "Създаден `skills/sales-training/` skill с SKILL.md + references/self-check.md. Причина: базови грешки в ролевите игри (не взимам името, два въпроса наведнъж). Skill-ът зарежда Playbook-а преди всяка игра и прави self-check на всяка реплика.",
-          "type": "default"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "Koi: обнови HEARTBEAT.md с active task monitoring"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Usage tracker — показва колко от лимита сме изразходвали"
-        },
-        {
-          "done": true,
-          "text": "⚠️ Създай НОВ email за Koi — ✅ koiopenclaw@gmail.com (OAuth2 ready)"
-        },
-        {
-          "done": true,
-          "text": "Създай GitHub акаунт за Koi — ✅ koiopenclaw-max"
-        },
-        {
-          "done": true,
-          "text": "Смени git config на сървъра — ✅ user.name=Koi, user.email=koiopenclaw@gmail.com"
-        },
-        {
-          "done": true,
-          "text": "Настрой GitHub auth на сървъра — ✅ PAT token configured"
-        },
-        {
-          "done": false,
-          "text": "Тест на Google Search workflow за бизнес профил + Facebook страница (residential proxy или алтернативен подход)"
-        },
-        {
-          "done": false,
-          "text": "🎯 Sales Training — прилагай PLAYBOOK v2.0 от днес"
-        }
-      ],
-      "insights": [
-        "**⚠️ УРОК: Никога не пускай тежки/блокиращи задачи в topic сесия.** Topic 49 timeout-на заради Playwright + localhost сървър. Правило: coding/build/screenshot задачи → sub-agent. Topic сесиите трябва да остават responsive. Exec timeout max 15-20 сек в topic сесии.",
-        "**Write-on-Close включва topic 6 sync.** Всеки път когато обновя daily файла — ВЕДНАГА пращам summary в topic 6. Не чакай, не забравяй. Файл + topic 6 = едно действие.",
-        "**Google Search от DigitalOcean IP = CAPTCHA блокиране.** Residential IP (Mac Mini) би решило проблема. Алтернатива: Google Places API (безплатен tier).",
-        "**docx-js IIFE bug:** Когато ползваш `(() => { return array; })()` в `children` масива на Section, ТРЯБВА да spread-неш с `...` или да ползваш `flat()` helper. Иначе вложените масиви се сериализират като `<0/>` XML тагове и документът е невалиден. Решение: винаги `flat()` wrapper + валидация преди Packer.toBuffer().",
-        "**12:20 UTC** — ✅ Gmail достъп настроен за koiopenclaw@gmail.com.",
-        "**12:36 UTC** — ✅ GitHub достъп настроен. Акаунт: koiopenclaw-max, git config обновен (user.name=Koi, user.email=koiopenclaw@gmail.com). OAuth2 flow (Google Cloud Console → Gmail API → Desktop OAuth client). Credentials в `[secrets-path].json`. Тест: изпратени 2 мейла до k***@infocall.bg успешно.",
-        "**16:14-17:46 UTC** — OpenClaw as a Service ГОЛЯМА сесия (topic 718):",
-        "- 4 итерации конкурентен анализ: Felix Craft ($116K+, 4 продукта), Mahesha Automation ($1K-$3.6K setup), OpenClaw Hosting ($29-399/мес), Clawhosters ($3.5K MRR), Twitter пазар ($250-$2,500 setup)",
-        "- Implementation plan: 7 фази, ~10 седмици до първи клиент",
-        "- Крис реши: web platform first, многоезична (EN+BG), Supabase + Next.js + Stripe + DO API",
-        "- Tech stack определен: Vercel (free), Supabase (free), Stripe, DO API",
-        "- Опит за Supabase signup — CAPTCHA блокира. Крис ще помогне.",
-        "- Setup fees обновени нагоре: 199-999 лв (Mahesha взима $1K-$3K)",
-        "- Генерирани 5 DOCX доклада",
-        "- Крис ще помисли вечерта, продължаваме утре сутринта"
-      ],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "Тест на Google Search workflow с megatrans-ruse.com. Сайтът се скрейпна ОК (Автоморга Мегатранс, Русе, 7 страници). Google Search блокира с CAPTCHA — сървърното IP (DO) е проблемът. Крис предложи Mac Mini с residential IP като решение. Засега паркираме темата.",
-        "- **docx-js IIFE bug:** Когато ползваш `(() => { return array; })()` в `children` масива на Section, ТРЯБВА да spread-неш с `...` или да ползваш `flat()` helper. Иначе вложените масиви се сериализират като `<0/>` XML тагове и документът е невалиден. Решение: винаги `flat()` wrapper + валидация преди Packer.toBuffer()."
-      ],
-      "hasReview": true,
-      "reviewSummary": [
-        "Продуктивен ден — инфраструктурата е на място, проучванията са направени.",
-        "Завършено днес:",
-        "✅ Email (koiopenclaw@gmail.com) + Gmail API OAuth2",
-        "✅ GitHub (koiopenclaw-max) + PAT + git config",
-        "✅ GitHub Pages pipeline + Demo Sites платформа деплойната",
-        "✅ Workspace backup (private repo + cron 22:00 EET)",
-        "✅ Sales training skill създаден (`skills/sales-training/`)",
-        "✅ AI Chatbot пазарно проучване + MVP blueprint (2 DOCX)",
-        "✅ OpenClaw as a Service — конкурентен анализ (4 итерации), tech stack решен, implementation план",
-        "Нови проекти:"
-      ],
-      "entryCount": 11
     }
   ]
 }
