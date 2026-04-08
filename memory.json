@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-08T09:50:03.054Z",
+  "updated": "2026-04-08T09:55:02.689Z",
   "totalDays": 30,
-  "totalEntries": 741,
+  "totalEntries": 742,
   "days": [
     {
       "date": "2026-04-08",
@@ -11,6 +11,11 @@
           "time": "21:00",
           "text": "Създадена чрез nightly review с carry-over от 2026-04-07.",
           "type": "default"
+        },
+        {
+          "time": "09:54",
+          "text": "Проверка на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8). Диагностика в ход; Крис попита какъв е проблемът.",
+          "type": "deploy"
         }
       ],
       "priorities": [
@@ -100,7 +105,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 1
+      "entryCount": 2
     },
     {
       "date": "2026-04-07",
