@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-08T19:50:03.820Z",
+  "updated": "2026-04-08T22:00:04.878Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -157,7 +157,7 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 21,
+      "activityDays": 20,
       "recentActivity": [
         {
           "date": "2026-04-04",
@@ -532,10 +532,14 @@
       "blockers": [],
       "nextActions": [
         "Review от Крис: Одиторска кантора Узунова",
+        "Review от Крис: Дентален център Искрови",
+        "Review от Крис: Врати Кайлъка",
         "Review от Крис: Училище Козма Тричков Враца",
         "Review от Крис: Адвокатска кантора Богданови и Маринов (multi-page, 7 стр.)",
         "Review от Крис: Счетоводна къща Емпика",
+        "Review от Крис: Стоянов Пласт",
         "Review от Крис: Миг Трейд",
+        "Megatrans Ruse — чака feedback от клиента",
         "BG Quality Honey — чака QA отговори"
       ],
       "tags": [
@@ -547,7 +551,7 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 20,
+      "activityDays": 19,
       "recentActivity": [
         {
           "date": "2026-04-03",
@@ -1102,7 +1106,7 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 21,
+      "activityDays": 20,
       "recentActivity": [
         {
           "date": "2026-04-07",
@@ -1857,7 +1861,7 @@
         "platform",
         "ai"
       ],
-      "activityDays": 21,
+      "activityDays": 20,
       "recentActivity": [
         {
           "date": "2026-04-07",
@@ -2105,7 +2109,7 @@
         "audience",
         "growth"
       ],
-      "activityDays": 23,
+      "activityDays": 22,
       "recentActivity": [
         {
           "date": "2026-04-07",
