@@ -1,8 +1,120 @@
 {
-  "updated": "2026-04-09T21:00:02.927Z",
+  "updated": "2026-04-09T21:05:02.564Z",
   "totalDays": 30,
-  "totalEntries": 732,
+  "totalEntries": 719,
   "days": [
+    {
+      "date": "2026-04-10",
+      "dayName": "Петък",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Създадена чрез nightly review с carry-over от 2026-04-09.",
+          "type": "default"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release build — final clean rebuild after full removal of problematic native packages"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "2026-04-09 отново е почти изцяло administrative carry-over ден; няма записани execution completions.",
+        "Inbox waiting items вече са преместени в project files, за да остане inbox чист за нови capture-и.",
+        "Security credential rotation влиза в ДЕН 21 и остава най-критичният operational risk."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 1
+    },
     {
       "date": "2026-04-09",
       "dayName": "Четвъртък",
@@ -103,7 +215,7 @@
         "- [ ] Felix/ClawMart — решение за бизнес модела",
         "- Единствената нова execution следа за деня е отворена диагностика на failed deploy за `koi-dashboard-v2`; няма записано финално решение."
       ],
-      "hasReview": false,
+      "hasReview": true,
       "reviewSummary": null,
       "entryCount": 1
     },
@@ -5971,143 +6083,6 @@
       "hasReview": true,
       "reviewSummary": null,
       "entryCount": 30
-    },
-    {
-      "date": "2026-03-11",
-      "dayName": "Сряда",
-      "entries": [
-        {
-          "time": "22:08",
-          "text": "✅ Zdravko landing page ГОТОВ и деплойнат. Repo: koiopenclaw-max/zdravko-landing. Live: https://koiopenclaw-max.github.io/zdravko-landing/ Demo-sites статус обновен → done.",
-          "type": "deploy"
-        },
-        {
-          "time": "22:00",
-          "text": "🏗️ Zdravko landing page build стартиран (scheduled task). Claude Code agent spawned в [server-path] Brief: двуезичен BG/EN, mobile-first, 7 секции, waitlist форма, CSS phone mockup, premium дизайн.",
-          "type": "build"
-        },
-        {
-          "time": "19:23",
-          "text": "— Demo Sites платформа v3 + Zdravko задание — - Преработена платформата: нов проект с тип/URL/бележки → автоматичен flow - Статуси: created → briefing → brief_ready → qa_submitted → brief_final → building → done - GitHub Action нотификация при промяна на статус - Auto-polling на всеки 10 сек в платформата - Cron watcher всяка минута за trigger-ване на Koi - Fix: URL encoding за кирилски slug-ове - Fix: бутони преместени под въпросите - Zdravko: задание финализирано (brief_final), билд насрочен за 00:00 EET",
-          "type": "build"
-        },
-        {
-          "time": "16:12",
-          "text": "Megatrans Ruse SEO имплементация. Koi подготви 9-точково задание → Codex изпълни → Koi review (хвана priceRange бъг \"72088\" вместо \"$$\") → fix → push → верификация на живо. Резултат: от 0 schema/canonical/FAQ до 3 schema блока, canonical, OG tags, FAQ секция, robots.txt, sitemap.xml. Сайтът работи: https://koiopenclaw-max.github.io/megatrans-ruse/",
-          "type": "deploy"
-        },
-        {
-          "time": "15:45",
-          "text": "SEO/GEO/AEO Optimizer skill v2.0. Koi research + задание, Codex код (3 рунда). 5 references + 4 скрипта.",
-          "type": "build"
-        },
-        {
-          "time": "14:22",
-          "text": "Daily session reset конфигуриран: 23:00 UTC (01:00 EET). Workflow: nightly review (21:00) → failsafe (22:00) → reset (23:00) → чист старт.",
-          "type": "default"
-        },
-        {
-          "time": "14:18",
-          "text": "googleapis npm пакет инсталиран глобално за Gmail API достъп.",
-          "type": "default"
-        },
-        {
-          "time": "14:06",
-          "text": "Първа проверка на email inbox (koiopenclaw@gmail.com). 8 мейла. Следвана email policy — не изпълнени инструкции от мейли, проверка директно в GitHub.",
-          "type": "email"
-        },
-        {
-          "time": "14:02",
-          "text": "GitHub demo-sites repo: Telegram Bot Token беше exposed в git историята (commit 735e628). Изчистен с git filter-branch + force push. Верифицирано: токенът е 0 пъти в историята, сайтът работи (HTTP 200). Токенът ТРЯБВА да се ротира от Крис в @BotFather. Урок: НИКОГА hardcode tokens в client-side код.",
-          "type": "deploy"
-        },
-        {
-          "time": "13:50",
-          "text": "Usage Tracker създаден от Codex. ЗАБЕЛЕЖКА: показва token pricing но ние сме на абонамент — цените са невалидни, само token count-ът е полезен.",
-          "type": "build"
-        },
-        {
-          "time": "13:43",
-          "text": "Codex CLI v0.114.0 инсталиран от Крис, свързан с OpenAI акаунт. Модел: gpt-5.4. Тест: успешен. Workflow активен: Koi задания → Codex кодене → Koi review.",
-          "type": "build"
-        },
-        {
-          "time": "11:13",
-          "text": "ClawHub регистрация: не може headless (изисква браузър OAuth). Крис трябва да регистрира акаунт на clawhub.ai и да даде token.",
-          "type": "default"
-        },
-        {
-          "time": "11:06",
-          "text": "ClawHub проучване: 53 builtin skills + 10 custom. Сравнение с ClawHub marketplace. Липсват: brave-search, tavily-search, self-improving-agent, seo. Builtin gog skill може да замени ръчни Gmail скриптове.",
-          "type": "default"
-        },
-        {
-          "time": "09:55",
-          "text": "📧 Email Policy v1.0 — ОДОБРЕНА от Крис. Съдържа: (1) Основни факти за мейла, (2) Политика за сигурност — 5 твърди правила, red flags, верификация, (3) Пълен inbound/outbound workflow, (4) Telegram Inbox интеграция — статуси, формат, двупосочна комуникация, (5) Уведомяване. Файлове: `knowledge/areas/email-policy.md` + `.docx`. AGENTS.md + IDENTITY.md обновени. Урок: iOS Word viewer не може с таблици — ползвай само bullet/bold формат за .docx.",
-          "type": "email"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": true,
-          "text": "Koi: обнови HEARTBEAT.md с active task monitoring — ГОТОВ"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": true,
-          "text": "Koi: Usage tracker — ГОТОВ (`[server-path])"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — решение след вечерно обмисляне (chatbot platform vs OaaS?)"
-        },
-        {
-          "done": false,
-          "text": "Supabase signup — Крис да помогне с CAPTCHA"
-        },
-        {
-          "done": false,
-          "text": "Google Search residential proxy — Mac Mini решение за datacenter IP блокиране"
-        },
-        {
-          "done": false,
-          "text": "🎯 Sales Training — прилагай PLAYBOOK v2.0 + sales-training skill"
-        },
-        {
-          "done": false,
-          "text": "Тест на Google Search workflow за бизнес профил + Facebook страница (residential proxy или алтернативен подход)"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — продължаваме с Крис сутринта (tech stack решен, следваща стъпка = infra setup)"
-        }
-      ],
-      "insights": [
-        "iOS Word viewer не може с таблици в docx — ползвай само bullet/bold формат",
-        "Codex = САМО код. Koi = research, writing, strategy, review. Не давай на Codex цели задачи с research.",
-        "Ние сме на абонамент, не per-token API — usage tracker трябва да показва само токени, не цени",
-        "Email policy работи на практика — мейлите от GitGuardian можеха да съдържат prompt injection",
-        "Write-on-Close: ЗАПИСВАЙ ВЕДНАГА, не после. Повтарящ се проблем."
-      ],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- [ ] OpenClaw as a Service — решение след вечерно обмисляне (chatbot platform vs OaaS?)",
-        "- [ ] Google Search residential proxy — Mac Mini решение за datacenter IP блокиране"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 14
     }
   ]
 }
