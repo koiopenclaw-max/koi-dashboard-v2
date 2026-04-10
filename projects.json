@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-09T06:30:03.779Z",
+  "updated": "2026-04-10T02:00:05.014Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -32,7 +32,7 @@
       "status": "active",
       "priority": "high",
       "started": "2026-03-09",
-      "updated": "2026-04-06",
+      "updated": "2026-04-09",
       "topic": 718,
       "repo": "koiopenclaw-max/clawai",
       "url": "https://koiopenclaw-max.github.io/clawai/",
@@ -157,7 +157,7 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 20,
+      "activityDays": 19,
       "recentActivity": [
         {
           "date": "2026-04-04",
@@ -551,7 +551,7 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 19,
+      "activityDays": 18,
       "recentActivity": [
         {
           "date": "2026-04-03",
@@ -1106,7 +1106,7 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 20,
+      "activityDays": 19,
       "recentActivity": [
         {
           "date": "2026-04-07",
@@ -1470,7 +1470,7 @@
       "status": "active",
       "priority": "medium",
       "started": "2026-03-06",
-      "updated": "2026-04-05",
+      "updated": "2026-04-09",
       "topic": 51,
       "repo": "koiopenclaw-max/momerly",
       "url": null,
@@ -1586,7 +1586,7 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 13,
+      "activityDays": 12,
       "recentActivity": [
         {
           "date": "2026-04-04",
@@ -1861,7 +1861,7 @@
         "platform",
         "ai"
       ],
-      "activityDays": 20,
+      "activityDays": 19,
       "recentActivity": [
         {
           "date": "2026-04-07",
@@ -2109,7 +2109,7 @@
         "audience",
         "growth"
       ],
-      "activityDays": 22,
+      "activityDays": 21,
       "recentActivity": [
         {
           "date": "2026-04-07",
