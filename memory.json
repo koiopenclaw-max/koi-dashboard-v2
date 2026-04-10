@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-10T15:25:02.247Z",
+  "updated": "2026-04-10T15:30:02.228Z",
   "totalDays": 30,
-  "totalEntries": 720,
+  "totalEntries": 721,
   "days": [
     {
       "date": "2026-04-10",
@@ -11,6 +11,11 @@
           "time": "21:00",
           "text": "Създадена чрез nightly review с carry-over от 2026-04-09.",
           "type": "default"
+        },
+        {
+          "time": "15:30",
+          "text": "RunAI prototype link broken:** Проверка на https://koiopenclaw-max.github.io/runai-prototype/ връща GitHub Pages 404 (site not found). Започната диагностика на repo/Pages конфигурацията след сигнал от Крис в topic 50.",
+          "type": "deploy"
         },
         {
           "time": "15:00",
@@ -120,7 +125,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 2
+      "entryCount": 3
     },
     {
       "date": "2026-04-09",
