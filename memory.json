@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-10T13:25:02.161Z",
+  "updated": "2026-04-10T13:40:03.176Z",
   "totalDays": 30,
   "totalEntries": 719,
   "days": [
@@ -109,7 +109,8 @@
         "Security credential rotation влиза в ДЕН 21 и остава най-критичният operational risk."
       ],
       "decisions": [
-        "- [ ] Felix/ClawMart — решение за бизнес модела"
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- Decision: no fake compatibility profile shape"
       ],
       "hasReview": false,
       "reviewSummary": null,
