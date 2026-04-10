@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-04-10T23:14:34.661Z",
-  "serverUptime": 2815130,
+  "timestamp": "2026-04-10T23:19:33.895Z",
+  "serverUptime": 2815429,
   "loadAvg": [
-    "0.13",
-    "0.17",
-    "0.18"
+    "0.31",
+    "0.24",
+    "0.19"
   ],
   "topics": [
     {
@@ -13,7 +13,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-05T16:13:44.461Z",
-      "ageSec": 457250,
+      "ageSec": 457549,
       "tokens": 132563,
       "lastAction": "[[reply_to_current]] Ще го мина от А до Я и ще ти кажа къде има дупки, без украса. Ако има пропуск — ще го посоча, не “м",
       "hasProcess": false,
@@ -91,7 +91,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-09T06:36:34.939Z",
-      "ageSec": 146279,
+      "ageSec": 146578,
       "tokens": 49831,
       "lastAction": "☁️ Нов мейл [DigitalOcean] | От: Team DigitalOcean t***@info.digitalocean.com | Тема: [Learn to swim] Part 3 of 5: Machi",
       "hasProcess": false,
@@ -104,7 +104,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-03T10:06:40.697Z",
-      "ageSec": 652073,
+      "ageSec": 652373,
       "tokens": 84828,
       "lastAction": "⚠️ Миг Трейд hero: Текущата снимка (IMG_0563.JPG, 600x450) е вече най-добрата налична от сайта на клиента. Всички техни",
       "hasProcess": false,
@@ -114,35 +114,35 @@
           "label": "windows-doors-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1349431,
+          "runningSec": 1349731,
           "startedAt": "2026-03-26T08:24:02.829Z"
         },
         {
           "label": "windows-doors-remaining",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1348784,
+          "runningSec": 1349083,
           "startedAt": "2026-03-26T08:34:49.894Z"
         },
         {
           "label": "fix-templates",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1346619,
+          "runningSec": 1346918,
           "startedAt": "2026-03-26T09:10:55.630Z"
         },
         {
           "label": "upgrade-templates-v2",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1332687,
+          "runningSec": 1332986,
           "startedAt": "2026-03-26T13:03:07.199Z"
         },
         {
           "label": "rebuild-clean-industrial",
           "model": "claude-opus-4-6",
           "status": "done",
-          "runningSec": 1331468,
+          "runningSec": 1331767,
           "startedAt": "2026-03-26T13:23:26.071Z"
         }
       ]
@@ -153,7 +153,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-10T15:35:19.129Z",
-      "ageSec": 27555,
+      "ageSec": 27854,
       "tokens": 46236,
       "lastAction": "[[reply_to_current]] Ето ти готов prompt за Claude Code — копи/пейст:  ```text You are building the MVP of an iOS app ca",
       "hasProcess": false,
@@ -166,7 +166,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-10T15:24:14.700Z",
-      "ageSec": 28219,
+      "ageSec": 28519,
       "tokens": 68155,
       "lastAction": "[[reply_to_current]] Полезният ход е **да спрем да горим време в грешния слой** и да направим нещо, което реално подобря",
       "hasProcess": false,
@@ -179,7 +179,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-04-06T18:57:33.697Z",
-      "ageSec": 361020,
+      "ageSec": 361320,
       "tokens": 30571,
       "lastAction": "[[reply_to_current]] Ето какво показва логът:  ### Реалният проблем **Всичките 5 засечени проблема са в `koi-dashboard-v",
       "hasProcess": false,
@@ -192,7 +192,7 @@
       "status": "idle",
       "statusLabel": "⚪ Idle",
       "lastUpdate": "2026-03-27T06:24:45.387Z",
-      "ageSec": 1270189,
+      "ageSec": 1270488,
       "tokens": 63315,
       "lastAction": "Ок, topic 1648 е \"X Audience Challenges\" — точно тук сме. Сега имам пълна картина.  Ето анализа и предложенията:  ---  #",
       "hasProcess": false,
