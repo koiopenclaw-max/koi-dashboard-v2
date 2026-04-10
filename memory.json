@@ -1,8 +1,125 @@
 {
-  "updated": "2026-04-10T21:00:03.484Z",
+  "updated": "2026-04-10T21:05:02.571Z",
   "totalDays": 30,
-  "totalEntries": 723,
+  "totalEntries": 694,
   "days": [
+    {
+      "date": "2026-04-11",
+      "dayName": "Събота",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Nightly review carry-over note created:** пренесени незавършените приоритети от 2026-04-10; Momerly update фокусиран върху Hermes/EAS inspection, security escalation остава #1.",
+          "type": "alert"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly — inspect native iOS/EAS config защо Hermes остава в build 8/9 въпреки JSC overrides"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release validation — следващ clean path / Apple credentials coordination"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Momerly вече не е в чисто „native package removal“ хипотеза; днешните crash logs показват по-точно, че config-only `jsEngine` override не маха Hermes от release binary-то.",
+        "RunAI blocker-ът не е продуктова неяснота, а инфраструктурен достъп: live prototype е върнат, но Mac липсата остава реалният стопер.",
+        "Security rotation задачите вече са на ДЕН 22 и са най-старият активен operational risk."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 1
+    },
     {
       "date": "2026-04-10",
       "dayName": "Петък",
@@ -133,8 +250,14 @@
         "- Decision: no fake compatibility profile shape",
         "- Decision from Крис: attack clear Hermes/release problem directly before more RC trimming"
       ],
-      "hasReview": false,
-      "reviewSummary": null,
+      "hasReview": true,
+      "reviewSummary": [
+        "Консолидирани project updates за Momerly: RC1-safe code cut, build-clean статус, и потвърждение от crash logs, че build 8/9 още ship-ват Hermes въпреки JSC overrides.",
+        "Консолидиран project update за RunAI Coach: live prototype URL е възстановен; root cause е private repo, не product regression.",
+        "Security tracking е обновен до ДЕН 22 без credential rotation; рискът остава свръхкритичен.",
+        "`inbox/capture.md` не съдържа нови необработени items; inbox остава чист.",
+        "Създадена е `daily/2026-04-11.md` с carry-over приоритети и утрешен фокус."
+      ],
       "entryCount": 5
     },
     {
@@ -5873,238 +5996,6 @@
         "koi-status-collector.sh изтече API ключове (Google, GitHub PAT) в public repo koi-dashboard"
       ],
       "entryCount": 58
-    },
-    {
-      "date": "2026-03-12",
-      "dayName": "Четвъртък",
-      "entries": [
-        {
-          "time": "19:37",
-          "text": "Momerly: Крис потвърди Expo + Firebase стек. Утре дава Firebase credentials + лого/брандинг. Задачата за development workflow документация стартирана.",
-          "type": "default"
-        },
-        {
-          "time": "18:10",
-          "text": "Momerly v3.0: Крис смени стека на Firebase (вместо Supabase) + потвърди Expo. Актуализиран SKILL.md, генериран .docx v3.0 задание.",
-          "type": "default"
-        },
-        {
-          "time": "16:33",
-          "text": "Momerly v2.0: Крис премахна Events + Map от MVP. Има App Store + Play Store акаунти. Актуализиран план (10 таблици, ~11-14 седмици) + .docx задание за реализация v2 доставено в topic:51.",
-          "type": "default"
-        },
-        {
-          "time": "16:15",
-          "text": "Tasks 6-9 complete, Article Creator deployed",
-          "type": "deploy"
-        },
-        {
-          "time": "13:37",
-          "text": "📧 Heartbeat email check: 3 непрочетени. (1) GitHub OAuth нотификация — Supabase app добавен към koiopenclaw-max акаунта (03:52 UTC) — очаквано, Крис направи signup. (2) Supabase Welcome email (10:52 UTC) — очаквано. (3) Стара demo-sites workflow failure (от 11.03). Нищо подозрително.",
-          "type": "email"
-        },
-        {
-          "time": "12:42",
-          "text": "BG Quality Honey: CNAME файл създаден — сайтът качен на домейн. Статус → done. Live: https://koiopenclaw-max.github.io/bg-quality-honey/",
-          "type": "done"
-        },
-        {
-          "time": "12:30",
-          "text": "All 5 tasks done, deployed to GitHub Pages + Supabase",
-          "type": "deploy"
-        },
-        {
-          "time": "12:26",
-          "text": "BG Quality Honey: няколко fix-а — header цвят (бордо от логото), бял фон на header, оригинално лого, по-малък carousel.",
-          "type": "default"
-        },
-        {
-          "time": "11:34",
-          "text": "BG Quality Honey: Крис отговори на QA въпросите. Build стартиран — initial commit с изображения + пълен redesign (двуезичен BG/EN, mobile-first, premium палитра злато/зелено/бордо).",
-          "type": "build"
-        },
-        {
-          "time": "11:15",
-          "text": "BG Quality Honey: скрейпнах сайта, подготвих задание + 6 QA въпроса, статус → brief_ready.",
-          "type": "default"
-        },
-        {
-          "time": "11:11",
-          "text": "⚠️ Крис трябваше да ме подсети за BG Quality Honey проект (briefing статус). Трябва да реагирам на briefing нотификации ВЕДНАГА.",
-          "type": "default"
-        },
-        {
-          "time": "10:58",
-          "text": "УРОК: Write-on-Close — подсетен за ВТОРИ ПЪТ днес за daily notes sync. ТРЯБВА да записвам веднага, не после!",
-          "type": "default"
-        },
-        {
-          "time": "10:53",
-          "text": "Крис направи Supabase регистрация (GitHub auth). Акаунтът е празен (нов), vet сайтът е на Lovable Supabase. Token настроен.",
-          "type": "default"
-        },
-        {
-          "time": "09:30",
-          "text": "Създаден нов топик \"X Audience Challenges\" (thread 1648) за нова бизнес идея.",
-          "type": "default"
-        },
-        {
-          "time": "09:17",
-          "text": "Дискусия за Claude usage. €31.15 extra usage от claude.ai Max план (не от OpenClaw API). Anthropic Max = €100/мес, Codex = $30/мес, OpenClaw API = отделно per-token. Крис иска dashboard за tracking — ще развием.",
-          "type": "build"
-        },
-        {
-          "time": "08:36",
-          "text": "Крис попита за позициониране в Google. Текущо: 2-ро за \"ветеринар лозенец\", 2-ро за \"vetcare\", далеч за \"ветеринарна клиника София\". Очаквания: 2-4 седмици за видими подобрения, 1-3 месеца за стабилен ефект.",
-          "type": "default"
-        },
-        {
-          "time": "08:30",
-          "text": "Пълен повторен SEO одит. Генериран .docx v2.0 доклад. Резултат: от 5.5/10 на 8.5/10. Всички P0 и P1 проблеми решени. 6 мини-подобрения остават.",
-          "type": "default"
-        },
-        {
-          "time": "08:25",
-          "text": "P1 #9 VeterinaryCare description обогатено. P2 #12 AggregateRating добавен (4.9/5, 350 отзива). Fix: 450→350 навсякъде. Реалният брой от Google Maps: 337 (закръглен на 350).",
-          "type": "default"
-        },
-        {
-          "time": "08:08",
-          "text": "Sitemap fix: robots.txt обновен да сочи към dynamic sitemap Edge Function URL. Статичният sitemap.xml обновен с 43 URL-а.",
-          "type": "default"
-        },
-        {
-          "time": "07:54",
-          "text": "P1 #5 BreadcrumbList schema DONE. P1 #7 MedicalWebPage + CollectionPage schema DONE. P1 #8 Service schema DONE (+ bug fix serviceListItems).",
-          "type": "done"
-        },
-        {
-          "time": "07:51",
-          "text": "Актуализиран `knowledge/projects/demo-sites.md` с SEO Минимален Стандарт — задължителен checklist за всеки бъдещ демо сайт (техническо SEO, schema, OG, local SEO, проверка).",
-          "type": "default"
-        },
-        {
-          "time": "07:47",
-          "text": "P1 #5 BreadcrumbList schema: Открит visual-breadcrumb компонент (вече работи). Подготвен prompt за добавяне на BreadcrumbList JSON-LD schema на 9 страници + ssr-meta edge function. Lovable работи по имплементацията.",
-          "type": "default"
-        },
-        {
-          "time": "07:35",
-          "text": "P1 #4 FAQPage schema fix: Проучване показа 17 FAQ-а вече в DB (6 pages). FAQSection компонент вече съществува. Добавено: ssr-meta инжектира FAQPage JSON-LD от DB, noscript блок обновен с 6-те homepage FAQ-а. Верифицирано: FAQPage schema работи за homepage, kardiologiya, kontakti.",
-          "type": "default"
-        },
-        {
-          "time": "07:10",
-          "text": "P0 #1 fix: Работа с Крис + Lovable за SEO оправки. Добавени: inline meta updater script в `<head>`, canonical tag с data-rh, ssr-meta edge function (Supabase), dynamic-sitemap edge function (43 URL-а с реални lastmod дати). Index.tsx — добавен липсващ og:url. Скриптът преместен от `<body>` в `<head>` за по-ранно изпълнение. Верифицирано: edge function връща уникални title/description/canonical per page.",
-          "type": "default"
-        },
-        {
-          "time": "05:50",
-          "text": "SEO/GEO/AEO одит на vetcareyordanov.com. Пълен анализ: 33 страници, React SPA (Vite + Supabase, Lovable hosting). Оценка 5.5/10. Основни проблеми: SPA без SSR (еднакви title/description на всички страници), липса на canonical, липса на FAQ/Breadcrumb/Service schema. Генериран .docx доклад и изпратен в topic 1.",
-          "type": "default"
-        },
-        {
-          "time": "04:16",
-          "text": "Добавих EU funding bar на Zdravko лендинга (от оригиналния сайт).",
-          "type": "default"
-        },
-        {
-          "time": "04:00",
-          "text": "Demo Sites платформа: фикснах GitHub sync при зареждане (localStorage не е source of truth), миграция на стари v2 проекти, GitHub винаги презаписва localStorage.",
-          "type": "default"
-        },
-        {
-          "time": "03:55",
-          "text": "✅ Zdravko landing rebrand готов: оригинално PNG лого, правилна палитра (#A8E34A, #003324, #FF884D, #F0F5F2). Верифицирах всички CSS vars, секции, mobile, bilingual преди deploy.",
-          "type": "deploy"
-        },
-        {
-          "time": "03:55",
-          "text": "📝 УРОК: Винаги верифицирай преди deploy. Крис настоява — и е прав. Проверка > бързина.",
-          "type": "deploy"
-        },
-        {
-          "time": "03:52",
-          "text": "Крис: лендингът на Здравко има грешен брандинг (лого, цветове). Скрейпнах оригиналния zdravko.co за точните стойности. Пуснах Claude Code agent за преработка.",
-          "type": "default"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": false,
-          "text": "Usage tracker: премахни dollar pricing, покажи само токени"
-        },
-        {
-          "done": false,
-          "text": "Създай Inbox топик (#11) в Telegram за email огледало"
-        },
-        {
-          "done": false,
-          "text": "Документ за memory architecture (контекст, файлове, reset, QMD)"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — решение за бизнес модел (chatbot platform vs OaaS?)"
-        },
-        {
-          "done": false,
-          "text": "Supabase signup — Крис да помогне с CAPTCHA"
-        },
-        {
-          "done": false,
-          "text": "Google Search residential proxy — Mac Mini решение"
-        },
-        {
-          "done": false,
-          "text": "Ротирай Telegram Bot Token в @BotFather"
-        },
-        {
-          "done": false,
-          "text": "Създай ClawHub акаунт (clawhub.ai) + token"
-        },
-        {
-          "done": false,
-          "text": "🎯 Sales Training — прилагай PLAYBOOK v2.0 + sales-training skill"
-        },
-        {
-          "done": true,
-          "text": "Demo Sites — Zdravko landing page ✅ DONE (22:08 UTC 11.03) → https://koiopenclaw-max.github.io/zdravko-landing/"
-        },
-        {
-          "done": true,
-          "text": "SEO одит на vetcareyordanov.com — от 5.5/10 до 8.5/10 ✅ (05:50-08:30 UTC)"
-        },
-        {
-          "done": true,
-          "text": "Supabase signup — DONE (GitHub auth) ✅"
-        },
-        {
-          "done": false,
-          "text": "Megatrans Ruse — чакаме feedback от клиента"
-        }
-      ],
-      "insights": [],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- [ ] OpenClaw as a Service — решение за бизнес модел (chatbot platform vs OaaS?)",
-        "- [ ] Google Search residential proxy — Mac Mini решение",
-        "- Дискусия с Крис: Firebase vs Supabase -> решение да сменим на Supabase (знаем го от Momerly)"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 30
     }
   ]
 }
