@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-10T14:55:02.037Z",
+  "updated": "2026-04-10T15:00:04.150Z",
   "totalDays": 30,
   "totalEntries": 719,
   "days": [
@@ -110,7 +110,8 @@
       ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
-        "- Decision: no fake compatibility profile shape"
+        "- Decision: no fake compatibility profile shape",
+        "- Decision from Крис: attack clear Hermes/release problem directly before more RC trimming"
       ],
       "hasReview": false,
       "reviewSummary": null,
