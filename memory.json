@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-10T15:30:02.228Z",
+  "updated": "2026-04-10T15:35:02.350Z",
   "totalDays": 30,
-  "totalEntries": 721,
+  "totalEntries": 723,
   "days": [
     {
       "date": "2026-04-10",
@@ -10,6 +10,16 @@
         {
           "time": "21:00",
           "text": "Създадена чрез nightly review с carry-over от 2026-04-09.",
+          "type": "default"
+        },
+        {
+          "time": "15:32",
+          "text": "Root cause fixed:** `koiopenclaw-max/runai-prototype` беше private, затова GitHub Pages връщаше 404. Repo-то е обърнато на public и Pages е създадено от `main` `/`.",
+          "type": "deploy"
+        },
+        {
+          "time": "15:31",
+          "text": "Крис даде зелена светлина за директен fix на RunAI prototype publish проблема:** продължавам с възстановяване на GitHub repo/Pages и live валидация.",
           "type": "default"
         },
         {
@@ -125,7 +135,7 @@
       ],
       "hasReview": false,
       "reviewSummary": null,
-      "entryCount": 3
+      "entryCount": 5
     },
     {
       "date": "2026-04-09",
