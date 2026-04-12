@@ -1,8 +1,125 @@
 {
-  "updated": "2026-04-12T20:55:02.185Z",
+  "updated": "2026-04-12T21:05:02.179Z",
   "totalDays": 30,
-  "totalEntries": 637,
+  "totalEntries": 598,
   "days": [
+    {
+      "date": "2026-04-13",
+      "dayName": "Понеделник",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Създадена чрез nightly review:** пренесени са всички незавършени приоритети от 2026-04-12; security escalation е обновен до ДЕН 24, inbox остава чист, Momerly остава на native/EAS inspection path.",
+          "type": "alert"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly — inspect native iOS/EAS config защо Hermes остава в build 8/9 въпреки JSC overrides"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release validation — следващ clean path / Apple credentials coordination"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Денят не донесе нов execution progress; основната стойност е в поддържане на точен carry-over и ясни blockers.",
+        "Security rotation остава най-старият и най-критичен operational risk.",
+        "Inbox е стабилно изчистен; actionable waiting items вече се следят в project/area файловете, не в capture."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 1
+    },
     {
       "date": "2026-04-12",
       "dayName": "Неделя",
@@ -114,10 +231,16 @@
       ],
       "decisions": [
         "- [ ] Felix/ClawMart — решение за бизнес модела",
-        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]",
+        "- Security tracking е обновен до **ДЕН 24** в `knowledge/areas/_index.md` и `knowledge/areas/security-audit-2026-03-20.md`; трите credential rotation действия остават свръхкритични."
       ],
-      "hasReview": false,
-      "reviewSummary": null,
+      "hasReview": true,
+      "reviewSummary": [
+        "Няма нов execution log за 2026-04-12 извън carry-over setup; денят е използван за continuity и държане на активните блокери видими.",
+        "Security tracking е обновен до ДЕН 24 в `knowledge/areas/_index.md` и `knowledge/areas/security-audit-2026-03-20.md`; трите credential rotation действия остават свръхкритични.",
+        "Inbox остава чист — няма нови capture items за преместване; чакащите items продължават да се следят в daily priorities и project/area файловете.",
+        "Създадена е `daily/2026-04-13.md` с пълен carry-over, включително Momerly native/EAS inspection фокус, Demo Sites operational tasks и RunAI Mac blocker."
+      ],
       "entryCount": 1
     },
     {
@@ -5407,306 +5530,6 @@
       "hasReview": true,
       "reviewSummary": null,
       "entryCount": 23
-    },
-    {
-      "date": "2026-03-14",
-      "dayName": "Събота",
-      "entries": [
-        {
-          "time": "20:29",
-          "text": "Auto-extract topic 50 (156134 tokens, id:50-1773520174):** [2026-03-14T20:26:58] User: Трябва да е двуезичен на ен/бг; [2026-03-14T20:25:46] Пак се срязва. Довършвам файла:; [2026-03-14T20:26:50] ✅ **RunAI Coach Prototype v3.0 — ПЪЛНА ВЕРСИЯ е live!**  👉 https://koiopenclaw-max.github.io/runai; [2026-03-14T20:27:08] Добавям EN/BG toggle система. Подходът: `data-en`/`data-bg` атрибути + бутон за превключване. Така; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T20:26:21] exec: cd /tmp/runai-v3-full && git remote add origin https://github.com/koiopenclaw-ma; [2026-03-14T20:26:29] exec: sleep 5 && curl -s -o /dev/null -w \"%{http_code}\" https://koiopenclaw-max.github",
-          "type": "done"
-        },
-        {
-          "time": "20:15",
-          "text": "🎨 **RunAI Prototype v3.0 deploy-нат!** https://koiopenclaw-max.github.io/runai-prototype/ - Пълен UI/UX redesign базиран на competitive research (Runna, Strava, Nike Run Club, WHOOP, COROS) - 25 екрана: Onboarding (10), Subscription (1), Dashboard (2), Live Run (6), Plan (1), Progress (1), Profile (2), Watch (3) - Нови fonts: Manrope + Sora (display) + JetBrains Mono - WHOOP-style Recovery Ring, Nike-style 72px pace, Strava-style pace-colored map, Runna-style plan cards - Design research документ: `knowledge/resources/runai-design-research.md`",
-          "type": "deploy"
-        },
-        {
-          "time": "19:35",
-          "text": "Auto-extract topic 50 (187623 tokens, id:50-1773516904):** [2026-03-14T19:30:29] Файлът се скъса пак. Довършвам последните екрани.; [2026-03-14T19:32:53] Готово! v2.0 е deploy-нат: https://koiopenclaw-max.github.io/runai-prototype/  **Какво е променено; https://github.com/koiopenclaw-max/runai-prototype.git; https://koiopenclaw-max.github.io/runai-prototype/; [2026-03-14T19:32:37] exec: cd /tmp/runai-prototype && cp ~/tmp/runai-prototyp",
-          "type": "deploy"
-        },
-        {
-          "time": "18:17",
-          "text": "✅ **Решение от Крис за Phase 4 workflow:** Koi прави UI prototype на Activities екраните ПЪРВО → Крис одобрява → ПОСЛЕ Codex кодира по одобрения дизайн. Същият процес като Phase 2-3.",
-          "type": "build"
-        },
-        {
-          "time": "18:07",
-          "text": "iOS tunnel (ngrok) не работи от VPS-а. iOS EAS build изисква interactive Apple credentials setup. iOS тест отложен.",
-          "type": "build"
-        },
-        {
-          "time": "18:06",
-          "text": "Създаден тестов потребител \"Мария Тестова\" ([test-email-redacted]) за тестване на interactions → Крис каза да го изтрия → изтрит. Крис иска да тества с 2 устройства (Android + iPhone).",
-          "type": "email"
-        },
-        {
-          "time": "18:02",
-          "text": "⚠️ **Git backup:** Commit успешен (21 files, 1253 insertions), но push fail-на — `~/.git-credentials` е празен след PAT ротацията. Крис трябва да добави новия PAT. Нотифициран в topic 1.",
-          "type": "deploy"
-        },
-        {
-          "time": "17:59",
-          "text": "✅ **Крис инсталира и се логна успешно!** Първият работещ Android build след цял ден debugging. Тестване в ход.",
-          "type": "build"
-        },
-        {
-          "time": "17:55",
-          "text": "✅ **EAS SDK55-FIX Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk — Крис нотифициран в topic 51.",
-          "type": "build"
-        },
-        {
-          "time": "17:55",
-          "text": "✅ **EAS SDK55 Build FINISHED!** APK: https://expo.dev/artifacts/eas/aK6p3VtBPmqGX4HpzzSckT.apk",
-          "type": "build"
-        },
-        {
-          "time": "17:40",
-          "text": "Нов EAS build пуснат: `4ee68e6b`.",
-          "type": "build"
-        },
-        {
-          "time": "17:38",
-          "text": "🔍 **Build log анализ:** Prebuild грешка = `notification` property в app.json не се поддържа в SDK 55. Fix: махнат `notification` от app.json (commit `da59108`).",
-          "type": "build"
-        },
-        {
-          "time": "17:00",
-          "text": "Auto-extract topic 51 (150020 tokens, id:51-1773507635):** [2026-03-14T16:51:41] User: Смятам, че тук основното е да гледаш глобално и действаш локално. Аназизирай всичко, направи; [2026-03-14T16:55:58] Corrupt `node_modules`. `npm install` без `--legacy-peer-deps` явно произвежда счупен lockfile зар; [2026-03-14T16:57:14] Всичко clean. Сега нека добавя `.npmrc` за EAS builds да ползват `--legacy-peer-deps`:; [2026-03-14T16:58:09] Крис, ето какво направих:  **Анализ:** - Коренният проблем е `@firebase/auth` изисква `@react-nati; [2026-03-14T16:57:51] exec: cat > /tmp/eas-watch8.sh << 'EOF'; #!/bin/bash; BUILD_ID=\"b8eb8fc2-96f4-42e2-946c-",
-          "type": "build"
-        },
-        {
-          "time": "16:59",
-          "text": "❌ **EAS FINAL: ERRORED** — потвърждение, че build-ът е окончателно fail-нал. Крис вече нотифициран (16:27).",
-          "type": "alert"
-        },
-        {
-          "time": "16:51",
-          "text": "❌ **EAS SDK55 Clean Build ERRORED!** Втори опит (clean build) също fail-на. Проблемът е persistent — SDK55 ъпгрейдът има build issue. Чакаме Крис да сподели логовете.",
-          "type": "alert"
-        },
-        {
-          "time": "16:30",
-          "text": "Системен анализ на Android crash проблема. Root causes: 1. SDK версии misaligned (SDK 54 с RN 0.81.5 чупи `findNodeHandle`) 2. Firebase peer dependency конфликт (`@firebase/auth` иска `async-storage@^1.18.1`, имаме `2.2.0`) 3. `npm install` без `--legacy-peer-deps` произвежда corrupt node_modules → EAS build fail Fix: Clean SDK 55 upgrade + `.npmrc` с `legacy-peer-deps=true` + чист lockfile (commit `4a5fed9`). Build: `b8eb8fc2`.",
-          "type": "build"
-        },
-        {
-          "time": "16:27",
-          "text": "❌ **EAS SDK55 Build ERRORED!** Вторият build (SDK55 ъпгрейд) fail-на. Няма достъп до EAS CLI (no EXPO_TOKEN). Крис нотифициран в topic 51 — трябва да провери build логовете в Expo dashboard.",
-          "type": "alert"
-        },
-        {
-          "time": "16:18",
-          "text": "Бял екран + затваря (build без expo-dev-client).",
-          "type": "build"
-        },
-        {
-          "time": "14:50",
-          "text": "✅ **EAS Build #2 FINISHED!** Нов APK: https://expo.dev/artifacts/eas/4Lj4BF8kAu9SvH4ZunYwfQ.apk — Крис нотифициран в topic 51.",
-          "type": "build"
-        },
-        {
-          "time": "14:42",
-          "text": "Нов опит: expo-dev-client напълно премахнат (commit `a5e360f`). Build: `1e7b45ee`.",
-          "type": "build"
-        },
-        {
-          "time": "14:40",
-          "text": "Пак същата грешка с новия build. Fix: expo-device downgrade + expo-notifications премахнат (commit `cddcee8`).",
-          "type": "build"
-        },
-        {
-          "time": "14:18",
-          "text": "✅ **EAS Fix Build FINISHED!** Нов APK: https://expo.dev/artifacts/eas/ws9NWGHDapZyjAKVgKUMRz.apk — Крис нотифициран в topic 51.",
-          "type": "build"
-        },
-        {
-          "time": "14:07",
-          "text": "ErrorBoundary хвана: `Cannot read property 'default' of undefined` в `findNodeHandle`.",
-          "type": "default"
-        },
-        {
-          "time": "12:38",
-          "text": "✅ **EAS Debug Build FINISHED!** APK: https://expo.dev/artifacts/eas/j63VKLdWBvseoDDHLZh58R.apk — Debug версия за по-лесно тестване/дебъгване. Крис нотифициран в topic 51.",
-          "type": "build"
-        },
-        {
-          "time": "12:25",
-          "text": "Добавен ErrorBoundary за да хване JS грешката. Build `927904b8`.",
-          "type": "build"
-        },
-        {
-          "time": "12:22",
-          "text": "Крис: Android пак crashва с новия build.",
-          "type": "build"
-        },
-        {
-          "time": "11:50",
-          "text": "✅ **EAS Android Build #2 FINISHED!** APK: https://expo.dev/artifacts/eas/62HQg1xNwS9PoM1fs1fWjK.apk — Крис нотифициран в topic 51.",
-          "type": "build"
-        },
-        {
-          "time": "11:37",
-          "text": "Нов Android preview build пуснат с fix-а (28bb378c).",
-          "type": "build"
-        },
-        {
-          "time": "11:24",
-          "text": "Expo Go tunnel пуснат за iOS тест. Крис тества на iPhone.",
-          "type": "default"
-        },
-        {
-          "time": "10:57",
-          "text": "✅ **EAS Build FINISHED!** APK готов: https://expo.dev/artifacts/eas/3JTcrMifaAgpzmJoWhptku.apk — Крис нотифициран в topic 51 за тестване.",
-          "type": "build"
-        },
-        {
-          "time": "10:46",
-          "text": "🐛 \"Momerly keeps stopping\" на Android. Crash при старт. Причина: `initializeAuth` + `getReactNativePersistence` конфликт. Fix: сменен на `getAuth()` (commit `8530d3d`).",
-          "type": "default"
-        },
-        {
-          "time": "10:40",
-          "text": "✅ Preview build ГОТОВ! .apk: https://expo.dev/artifacts/eas/ooK794knXwW4WoHw4CbG6T.apk — Крис тества.",
-          "type": "build"
-        },
-        {
-          "time": "10:14",
-          "text": "Крис реши: подготвяме Three-Tier Memory + HEARTBEAT + AGENTS за нов setup. Целта: topic OpenClaw Service (718) да е тестова площадка. Подготвяме файловете.",
-          "type": "default"
-        },
-        {
-          "time": "10:09",
-          "text": "📧 Heartbeat: 4 нови GitHub мейла (02:21-02:22 UTC) — PAT classic регенериран 3 пъти + 1 нов добавен. Крис е ротирал GitHub токените (security incident follow-up от 13.03). ✅",
-          "type": "email"
-        },
-        {
-          "time": "10:08",
-          "text": "Пуснат preview build (Android, standalone без dev server). Build ID: `b555fa77-1726-43e6-a6d6-5417511183a5`. Тестов checklist пратен на Крис.",
-          "type": "build"
-        },
-        {
-          "time": "09:55",
-          "text": "Web тест с Playwright. Намерени 2 проблема: 1) Firebase `getReactNativePersistence` crash на web → фиксирано (Platform detection, commit `aa3a439`). 2) CSS rendering грешка (RN Web + 0.83) — само web, не засяга native. TS: 0 грешки. Крис може да тества .apk — native не е засегнат.",
-          "type": "default"
-        },
-        {
-          "time": "09:32",
-          "text": "✅ **EAS Build ГОТОВ!** Android .apk: https://expo.dev/artifacts/eas/unAJC53iiGyWU4SJWhMhGW.apk (development profile). Build минал за 7 минути. Линк пратен на Крис.",
-          "type": "build"
-        },
-        {
-          "time": "09:25",
-          "text": "Fix: добавен `expo-dev-client` в app.json plugins. Commit: `1319f9c`. Нов EAS build пуснат (Android, development). Build ID: `e5c3e863-795e-43ae-b5ff-6c2dfc122bce`.",
-          "type": "build"
-        },
-        {
-          "time": "09:07",
-          "text": "✅ **Koi Dashboard v2 deployed!** Live: https://koiopenclaw-max.github.io/koi-dashboard-v2/ — Codex build в /tmp/koi-dashboard-v2, dark theme, JetBrains Mono + Inter fonts, status.json auto-refresh. GitHub Pages confirmed 200 OK.",
-          "type": "deploy"
-        },
-        {
-          "time": "08:43",
-          "text": "Крис попита за EAS build статус. Проверка: билдът (Android, development profile) е **ERRORED** — fail-нал в Prebuild фазата. Пуснат 13.03 19:05, fail-нал 20:11. Грешка: \"Unknown error in Prebuild\". Причина: expo-dev-client липсва в app.json plugins.",
-          "type": "build"
-        }
-      ],
-      "priorities": [
-        {
-          "done": true,
-          "text": "Ротация на GitHub PAT (compromised от security incident 13.03) ✅ Крис направи ~09:22 UTC"
-        },
-        {
-          "done": false,
-          "text": "Ротация/restrict на Firebase API key (Google Cloud Console)"
-        },
-        {
-          "done": false,
-          "text": "Momerly: Firebase credentials + лого/брандинг"
-        },
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "Koi: PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Koi: Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": false,
-          "text": "Usage tracker: премахни dollar pricing, покажи само токени"
-        },
-        {
-          "done": false,
-          "text": "Създай Inbox топик (#11) в Telegram за email огледало"
-        },
-        {
-          "done": false,
-          "text": "Документ за memory architecture (контекст, файлове, reset, QMD)"
-        },
-        {
-          "done": false,
-          "text": "Megatrans Ruse — чакаме feedback от клиента"
-        },
-        {
-          "done": false,
-          "text": "🧪 **Momerly тестване** — Крис тества EAS build на устройство, Koi следи за бъгове"
-        },
-        {
-          "done": false,
-          "text": "🤖 **OpenClaw as a Service** — план за автономен deployment (topic 718)"
-        },
-        {
-          "done": false,
-          "text": "📋 Тестов checklist (Auth, Onboarding, Profile, Connections, Messaging)"
-        },
-        {
-          "done": false,
-          "text": "X Audience Challenges — follow-up"
-        },
-        {
-          "done": false,
-          "text": "Дискусия за екрани, устройства, блокери (topic 50)"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — решение за бизнес модел"
-        },
-        {
-          "done": false,
-          "text": "Google Search residential proxy — Mac Mini решение"
-        },
-        {
-          "done": false,
-          "text": "Ротирай Telegram Bot Token в @BotFather"
-        },
-        {
-          "done": false,
-          "text": "Създай ClawHub акаунт (clawhub.ai) + token"
-        }
-      ],
-      "insights": [],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- Решение: LIVE sync и за Garmin, и за Apple Watch (задължително)",
-        "- [ ] OpenClaw as a Service — решение за бизнес модел",
-        "- [ ] Google Search residential proxy — Mac Mini решение",
-        "Пак същата грешка с новия build. Fix: expo-device downgrade + expo-notifications премахнат (commit `cddcee8`).",
-        "Нов опит: expo-dev-client напълно премахнат (commit `a5e360f`). Build: `1e7b45ee`.",
-        "✅ **Решение от Крис за Phase 4 workflow:** Koi прави UI prototype на Activities екраните ПЪРВО → Крис одобрява → ПОСЛЕ Codex кодира по одобрения дизайн. Същият процес като Phase 2-3.",
-        "- Финален fix: Clean SDK 55 upgrade + `.npmrc` + премахнат `notification` от app.json.",
-        "- Решение за Phase 4: UI prototype ПЪРВО → одобрение → Codex кодира.",
-        "- Garmin LIVE sync решение добавено."
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 40
     }
   ]
 }
