@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-12T18:10:03.327Z",
+  "updated": "2026-04-13T07:40:03.094Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -134,7 +134,7 @@
         "healthkit",
         "ai"
       ],
-      "activityDays": 18,
+      "activityDays": 17,
       "recentActivity": [
         {
           "date": "2026-04-10",
@@ -456,7 +456,7 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 18,
+      "activityDays": 17,
       "recentActivity": [
         {
           "date": "2026-04-10",
@@ -814,7 +814,7 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 16,
+      "activityDays": 15,
       "recentActivity": [
         {
           "date": "2026-04-03",
@@ -1546,6 +1546,15 @@
       "activityDays": 13,
       "recentActivity": [
         {
+          "date": "2026-04-13",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Създадена чрез nightly review:** пренесени са всички незавършени приоритети от 2026-04-12; security escalation е обновен до ДЕН 24, inbox остава чист, Momerly остава на native/EAS inspection path."
+            }
+          ]
+        },
+        {
           "date": "2026-04-12",
           "entries": [
             {
@@ -1681,15 +1690,6 @@
               "text": "✅ Ревизия #5 за Адвокатска кантора Богданови и Маринов завършена: card padding + mobile responsive fixes за 8 страници. Визуално валидирана. Статус → review."
             }
           ]
-        },
-        {
-          "date": "2026-03-20",
-          "entries": [
-            {
-              "time": "20:40",
-              "text": "🔴 SECURITY INCIDENT: Supabase service_role key exposed**"
-            }
-          ]
         }
       ]
     },
@@ -1746,7 +1746,7 @@
         "platform",
         "ai"
       ],
-      "activityDays": 18,
+      "activityDays": 17,
       "recentActivity": [
         {
           "date": "2026-04-10",
@@ -1988,6 +1988,15 @@
       ],
       "activityDays": 20,
       "recentActivity": [
+        {
+          "date": "2026-04-13",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Създадена чрез nightly review:** пренесени са всички незавършени приоритети от 2026-04-12; security escalation е обновен до ДЕН 24, inbox остава чист, Momerly остава на native/EAS inspection path."
+            }
+          ]
+        },
         {
           "date": "2026-04-10",
           "entries": [
@@ -2862,47 +2871,6 @@
             {
               "time": "06:55",
               "text": "Генериран .docx \"gstack Deep Analysis\" (28KB) — план как да приложим patterns в Koi, Demo Sites, ClawAI, мобилни apps. 8 части, приоритизиран action plan P0-P2."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-26",
-          "entries": [
-            {
-              "time": "19:47",
-              "text": "Auto-extract topic 718 (164198 tokens, id:718-1774554458):** [2026-03-26T19:42:07] Имам всичко. Сега записвам findings-ите и генерирам документа.; [2026-03-26T19:45:11] Ето го. 8 секции, всичко на реални данни:  Най-важният takeaway: **Nat НЕ е започнал от нула.** 10; [2026-03-26T19:44:36] exec: openclaw message send --media ~/tmp/felix-research; [2026-03-26T19:45:03] exec: cat >> ~/daily/2026-03-26.md << 'EOF'; ### 19:40 —"
-            },
-            {
-              "time": "14:56",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:10",
-              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
-            },
-            {
-              "time": "13:49",
-              "text": "Auto-extract topic 49 (151242 tokens, id:49-1774532977):** [2026-03-26T13:27:43] User: [Thu 2026-03-26 13:27 UTC] OpenClaw runtime context (internal): This context is runtime-gene; [2026-03-26T13:44:45] User: темплейтите са топ, харесват ми и искам да ги сложиш като опции за избор когато имаме за пра; [2026-03-26T13:32:07] [[reply_to_current]] Крис, ето пълния QA репорт и какво направих:  ## 🔍 Deep Audit — Какво намерих; [2026-03-26T13:45:34] Ясна е структурата. Трябва да добавя нова ниша `дограма-врати` в `TEMPLATE_CATALOG`. Нека я добавя; [2026-03-26T13:46:52] [[reply_to_current]] Готово! 🐟  Добавих **Дограма и Врати** като нова ниша в `TEMPLATE_CATALOG` на; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/premium-dark/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/warm-natural/"
-            },
-            {
-              "time": "08:19",
-              "text": "Auto-extract topic 1 (167989 tokens, id:1-1774513175):** [2026-03-26T08:15:14] Now add TOCs to reference files that need them:; [2026-03-26T08:16:42] Готово. Ето какво направих:  **📄 Записан reference:** `knowledge/resources/skill-authoring-rules.m; [2026-03-26T08:17:19] 👍 Записано и почистено. Продуктивна сутрин — skill-ът е на ново ниво. 🐟; [2026-03-26T08:14:32] write: skill-authoring-rules.md; [2026-03-26T08:14:47] exec: # Quick audit of all custom skills; echo \"; CUSTOM SKILLS AUDIT; [2026-03-26T08:16:02] exec: # Add TOC to momerly state-machines.md and seo schema-templates.md"
-            },
-            {
-              "time": "08:10",
-              "text": "📸 Създадена библиотека с градски снимки за demo sites: 11 снимки за 4 града (София 3, Пловдив 4, Варна 2, Бургас 2). Pexels + Pixabay, свободен лиценз. Организирани в `assets/cities/`. Нов reference `city-photos.md` с selection logic per city. Правило #9: локални снимки вместо generic stock. Одобрени от Крис."
-            },
-            {
-              "time": "07:34",
-              "text": "🚀 Demo Sites: Финкомекс Одитинг ООД deployed to https://demo60.add.bg — status `live`, deployRepo: `koiopenclaw-max/demo60-add-bg`. Data JSON updated + pushed."
-            },
-            {
-              "time": "15:53",
-              "text": "— НАРУШЕНИЕ: Docx правилото игнорирано (topic 718) — - Крис поиска \"анализ и репорт\" за Koi vs Mizu - Koi го даде като Markdown стена в чата вместо .docx - Правилото в AGENTS.md е ЯСНО: \"репорт\" = .docx от първия път - Docx skill има proactive trigger: \"Reports for Крис → .docx\" - Чак след напомняне беше генериран .docx"
-            },
-            {
-              "time": "19:40",
-              "text": "— Felix/Nat Eliason Deep Research (topic 718) — - Крис поиска детайлно проучване на Felix Craft и Nat Eliason - Проучени: openclawdc.com, midastools.co, panewslab.com, felixcraft.ai, masinov.co, alearesearch.io (Bankless digest), evartology.substack - Ключови findings: Nat имаше 100K+ newsletter + 300K X followers ПРЕДИ Felix. Dan Kulkov направи същото = $0. Distribution > AI capability. - Felix first product: PDF $29 за една нощ → $41K. ClawMart дойде СЛЕД proof of demand. - Total: ~$195K за 5 седмици ($100K Stripe + $95K ETH)"
             }
           ]
         }
