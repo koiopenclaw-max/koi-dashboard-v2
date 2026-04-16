@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-16T19:10:03.508Z",
+  "updated": "2026-04-16T22:40:03.742Z",
   "totalProjects": 8,
   "active": 3,
   "projects": [
@@ -136,6 +136,33 @@
       ],
       "activityDays": 17,
       "recentActivity": [
+        {
+          "date": "2026-04-16",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Nightly review:** липсващите daily notes за 2026-04-14, 2026-04-15 и 2026-04-16 бяха възстановени от последния наличен state (2026-04-13), без да се добавя измислен progress."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-15",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Daily note reconstructed:** няма записан нов progress и няма нови inbox captures; priorities са пренесени 1:1 от 2026-04-14."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Daily note reconstructed:** няма записан execution progress за деня; всички open priorities са пренесени без промяна от 2026-04-13."
+            }
+          ]
+        },
         {
           "date": "2026-04-10",
           "entries": [
@@ -274,53 +301,6 @@
               "text": "🔧 Codex amber-gulf FAILED (read-only filesystem) — Врати кайлъка niche template conversion. Re-spawned as warm-valley with PTY."
             }
           ]
-        },
-        {
-          "date": "2026-03-30",
-          "entries": [
-            {
-              "time": "17:24",
-              "text": "Auto-extract topic 1 (150826 tokens, id:1-1774891443):** [2026-03-30T17:18:23] CSS-ът вече е добре — `display:flex; align-items:center; justify-content:center; color:var(--white; [2026-03-30T17:20:24] Иконите са чисти SVG, консистентни, premium стил. Леко generic за dental но далеч по-професионални; [2026-03-30T17:21:25] Готово. Всички emoji са заменени с custom inline SVG икони — thin-line стил, консистентни, 1.5px s; https://github.com/koiopenclaw-max/dental-killer-template.git; https://github.com/lucide-icons/lucide/blob/main/icons/sparkles.svg; https://koiopenclaw-max.github.io/dental-killer-template/; con; [2026-03-30T17:20:24] exec: # Wait for deploy (push was ~2 min ago)"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-29",
-          "entries": [
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "06:55",
-              "text": "Генериран .docx \"gstack Deep Analysis\" (28KB) — план как да приложим patterns в Koi, Demo Sites, ClawAI, мобилни apps. 8 части, приоритизиран action plan P0-P2."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-26",
-          "entries": [
-            {
-              "time": "19:47",
-              "text": "Auto-extract topic 718 (164198 tokens, id:718-1774554458):** [2026-03-26T19:42:07] Имам всичко. Сега записвам findings-ите и генерирам документа.; [2026-03-26T19:45:11] Ето го. 8 секции, всичко на реални данни:  Най-важният takeaway: **Nat НЕ е започнал от нула.** 10; [2026-03-26T19:44:36] exec: openclaw message send --media ~/tmp/felix-research; [2026-03-26T19:45:03] exec: cat >> ~/daily/2026-03-26.md << 'EOF'; ### 19:40 —"
-            },
-            {
-              "time": "14:10",
-              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
-            },
-            {
-              "time": "14:12",
-              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
-            },
-            {
-              "time": "15:20",
-              "text": "🚀 **ClawAI Landing Page v3 LIVE** — Пълен redesign по brief v3:"
-            }
-          ]
         }
       ]
     },
@@ -456,7 +436,7 @@
         "saas",
         "supabase"
       ],
-      "activityDays": 17,
+      "activityDays": 13,
       "recentActivity": [
         {
           "date": "2026-04-10",
@@ -814,7 +794,7 @@
         "deploy",
         "revision"
       ],
-      "activityDays": 15,
+      "activityDays": 12,
       "recentActivity": [
         {
           "date": "2026-04-03",
@@ -1543,7 +1523,7 @@
         "firebase",
         "react native"
       ],
-      "activityDays": 13,
+      "activityDays": 11,
       "recentActivity": [
         {
           "date": "2026-04-13",
@@ -1749,6 +1729,33 @@
       "activityDays": 17,
       "recentActivity": [
         {
+          "date": "2026-04-16",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Nightly review:** липсващите daily notes за 2026-04-14, 2026-04-15 и 2026-04-16 бяха възстановени от последния наличен state (2026-04-13), без да се добавя измислен progress."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-15",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Daily note reconstructed:** няма записан нов progress и няма нови inbox captures; priorities са пренесени 1:1 от 2026-04-14."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Daily note reconstructed:** няма записан execution progress за деня; всички open priorities са пренесени без промяна от 2026-04-13."
+            }
+          ]
+        },
+        {
           "date": "2026-04-10",
           "entries": [
             {
@@ -1870,53 +1877,6 @@
               "text": "🔧 Codex amber-gulf FAILED (read-only filesystem) — Врати кайлъка niche template conversion. Re-spawned as warm-valley with PTY."
             }
           ]
-        },
-        {
-          "date": "2026-03-30",
-          "entries": [
-            {
-              "time": "17:24",
-              "text": "Auto-extract topic 1 (150826 tokens, id:1-1774891443):** [2026-03-30T17:18:23] CSS-ът вече е добре — `display:flex; align-items:center; justify-content:center; color:var(--white; [2026-03-30T17:20:24] Иконите са чисти SVG, консистентни, premium стил. Леко generic за dental но далеч по-професионални; [2026-03-30T17:21:25] Готово. Всички emoji са заменени с custom inline SVG икони — thin-line стил, консистентни, 1.5px s; https://github.com/koiopenclaw-max/dental-killer-template.git; https://github.com/lucide-icons/lucide/blob/main/icons/sparkles.svg; https://koiopenclaw-max.github.io/dental-killer-template/; con; [2026-03-30T17:20:24] exec: # Wait for deploy (push was ~2 min ago)"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-29",
-          "entries": [
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "06:55",
-              "text": "Генериран .docx \"gstack Deep Analysis\" (28KB) — план как да приложим patterns в Koi, Demo Sites, ClawAI, мобилни apps. 8 части, приоритизиран action plan P0-P2."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-26",
-          "entries": [
-            {
-              "time": "19:47",
-              "text": "Auto-extract topic 718 (164198 tokens, id:718-1774554458):** [2026-03-26T19:42:07] Имам всичко. Сега записвам findings-ите и генерирам документа.; [2026-03-26T19:45:11] Ето го. 8 секции, всичко на реални данни:  Най-важният takeaway: **Nat НЕ е започнал от нула.** 10; [2026-03-26T19:44:36] exec: openclaw message send --media ~/tmp/felix-research; [2026-03-26T19:45:03] exec: cat >> ~/daily/2026-03-26.md << 'EOF'; ### 19:40 —"
-            },
-            {
-              "time": "14:10",
-              "text": "Auto-extract topic 1 (154143 tokens, id:1-1774534239):** [2026-03-26T14:04:19] User: ооо искам линк за да видя на различни устройства; [2026-03-26T14:07:26] User: добре, доста интересно може да се получи, нека направим нещо още по интересно и предизвикате; [2026-03-26T14:03:24] [[reply_to_current]] Готово! Приложих copywriting скила на **minimal-premium** темплейта. Ето какв; [2026-03-26T14:05:00] [[reply_to_current]] Ето линка:  👉 https://koiopenclaw-max.github.io/demo-sites/templates/windows-; [2026-03-26T14:08:36] Добре, имам пълна картина. Знам идеята — виждам я подробно от project файла и текущото лендинг. Пр; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/clawai/; https://koiopenclaw-max.github.io/demo-sites/templates/windows-doors/minimal-premium/"
-            },
-            {
-              "time": "14:12",
-              "text": "🚀 ClawAI Landing Page — Крис отговори на въпроси за ревизия:"
-            },
-            {
-              "time": "15:20",
-              "text": "🚀 **ClawAI Landing Page v3 LIVE** — Пълен redesign по brief v3:"
-            }
-          ]
         }
       ]
     },
@@ -1986,8 +1946,39 @@
         "audience",
         "growth"
       ],
-      "activityDays": 20,
+      "activityDays": 19,
       "recentActivity": [
+        {
+          "date": "2026-04-16",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Areas sync:** security escalation е обновен до ДЕН 27 в `knowledge/areas/_index.md`."
+            },
+            {
+              "time": "21:00",
+              "text": "Inbox review:** `inbox/capture.md` остава чист; няма нови items за преместване към PARA."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-15",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Daily note reconstructed:** няма записан нов progress и няма нови inbox captures; priorities са пренесени 1:1 от 2026-04-14."
+            }
+          ]
+        },
+        {
+          "date": "2026-04-14",
+          "entries": [
+            {
+              "time": "21:00",
+              "text": "Daily note reconstructed:** няма записан execution progress за деня; всички open priorities са пренесени без промяна от 2026-04-13."
+            }
+          ]
+        },
         {
           "date": "2026-04-13",
           "entries": [
@@ -2592,285 +2583,6 @@
             {
               "time": "12:35",
               "text": "✅ Миг Трейд ревизия завършена. Codex промени ревъртнати (сменяше nav линкове на anchors, hero image, махаше product card links). Ръчен surgical fix: nav font → DM Sans, padding/spacing, border-radius на CTA, logo nowrap, consistent across all 6 HTML pages. Визуална валидация: 3 итерации, финална — 5/5 checks passed. Status → review."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-31",
-          "entries": [
-            {
-              "time": "17:21",
-              "text": "📋 Demo Sites v2 финален план v3 изпратен (обединен). Chat+Preview МАХНАТО (не допринася). ДОБАВЕН Слой 5: Автономност — автономни ревизии (AUTO/SUPERVISED/MANUAL), проактивен QA, Measure-First prompts, Slop check в pipeline, Codex fallback, нула best-effort. 5 фази, 8-13 дни. Чака одобрение от Крис."
-            },
-            {
-              "time": "17:06",
-              "text": "Auto-extract topic 1 (174570 tokens, id:1-1774976764):** [2026-03-31T17:03:07] User: Добре, аз имам и още един въпрос ловабъл, болт имдругите олатформи имат чат инпревю. При нас; [2026-03-31T17:00:24] Сега имам пълната картина. Правя документа с всички реални инциденти.; [2026-03-31T17:01:04] [[reply_to_current]] Рових в цялата история — от март до днес. Намерих **12 реални инцидента**.  К; [2026-03-31T17:03:59] Много правилен въпрос. Нека помисля обективно.  **Какво дава чат + preview на Lovable/Bolt:**  Пот; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D; https://koiopenclaw-max.github.io/dental-killer-template/; [2026-03-31T17:00:24] exec: cat << 'SCRIPT' > /tmp/gen-incidents.js"
-            },
-            {
-              "time": "14:02",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "14:00",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:45",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:25",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:24",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:22",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:10",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "13:02",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:54",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:43",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:39",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:39",
-              "text": "Auto-extract topic 1 (159078 tokens, id:1-1774960784):** [2026-03-31T12:33:37] User: има проблем с две корекции които пуснах паралелно в демо сайтове но нищо не се случва...в да; [2026-03-31T12:36:01] Сега нека проверим дали worker-ът вече обработва queue-то:; [2026-03-31T12:36:46] Worker хвана ревизиите. Миг Трейд revision е в процес — Codex работи.; [2026-03-31T12:36:55] [[reply_to_current]] Намерих проблема — ревизиите се route-ваха към heartbeat (т.е. чакаха мен да ; 'r; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/; https://koiopenclaw-max.github.io/demo-sites/demos/%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%BE%D0%B2-%D0%BF%D0%BB%D0%B0%D1%81%D"
-            },
-            {
-              "time": "12:39",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:35",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:31",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:25",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:24",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:23",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:22",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:15",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:13",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "12:01",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "11:51",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "11:43",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "11:31",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "10:33",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "10:23",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "10:22",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "08:40",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "08:21",
-              "text": "Auto-extract topic 1 (154275 tokens, id:1-1774945295):** [2026-03-31T08:15:43] Имам всички Tabler Icons SVG пътища. Сега да подбера правилните за всяка услуга и да ги инжектирам; [2026-03-31T08:18:29] Иконите са от Tabler Icons — всички 10 рендерират правилно, професионален outline стил, консистент; [2026-03-31T08:18:46] Готово. Иконите вече са от **Tabler Icons** (MIT, open source):  | Услуга | Tabler Icon | |-------; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/tabler/tabler-icons; https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D0%B5%D0%BD-%D1%86%D0%B5%D0%BD%D; #; [2026-03-31T08:14:40] exec: # Get the Health Icons dental SVGs"
-            },
-            {
-              "time": "07:28",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "03:00",
-              "text": "🦷 Dental каталог fix: заменен Clean Medical с Killer в TEMPLATE_CATALOG. URL-ите сочат към отделните repos (dental-killer-template, dental-noir-template, dental-warm-template). Добавен ESC + click-outside на Killer менюто (Noir и Warm вече ги имаха)."
-            },
-            {
-              "time": "07:50",
-              "text": "🔴 Demo Sites системни fix-ове (по заявка на Крис):"
-            },
-            {
-              "time": "07:14",
-              "text": "🦷 Дентален център Искрови: Revision trigger. Клиент иска: (1) махане на \"Damon\" от hero, (2) отделна страница Услуги с всички услуги от оригиналния сайт, (3) SEO оптимизация. Spawning Codex worker."
-            },
-            {
-              "time": "08:40",
-              "text": "🚪 Врати кайлъка: Codex build complete. Visual validation → Slop C(50). Applied fixes: solid bg (SLOP-01), asymmetric grids (SLOP-02), varied border-radius (SLOP-03), hover states (SLOP-07). Re-validated → **Slop B(80)**. Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%B2%D1%80%D0%B0%D1%82%D0%B8-%D0%BA%D0%B0%D0%B9%D0%BB%D1%8A%D0%BA%D0%B0/"
-            },
-            {
-              "time": "08:30",
-              "text": "🦷 Дентален център Искрови: Deploy to demo62.add.bg DONE. Live and responding (HTTP 200). Deploy repo: koiopenclaw-max/demo62-add-bg."
-            },
-            {
-              "time": "09:10",
-              "text": "✅ Cleanup: all trigger files removed (врати-кайлъка, искрови, codex-review)."
-            },
-            {
-              "time": "13:12",
-              "text": "🔧 Стоянов Пласт revision: Codex running (worker manages). In progress."
-            },
-            {
-              "time": "12:15",
-              "text": "🔧 Стоянов Пласт revision: Крис иска лого + За нас + продуктови страници (PVC дограма, AL дограма, врати, комарници, стъклопакети). Скрейпнах pvc-varna.com — 7 продуктови категории, 30+ снимки. Написах PROMPT.md + scraped-products.md. Чака Codex — ще пусна след Миг Трейд."
-            },
-            {
-              "time": "12:00",
-              "text": "🏗️ Стоянов Пласт: Codex build complete → pushed to demo-sites, waiting deploy for visual validation. Multi-page PVC/алуминиева дограма сайт."
-            },
-            {
-              "time": "12:03",
-              "text": "🔧 Миг Трейд revision: Крис иска продуктови страници per product. Скрейпнах целия стар сайт (4 категории: метални врати, входни врати, решетки, огради). Spawned Codex за 5 HTML файла."
-            },
-            {
-              "time": "12:06",
-              "text": "🔧 Миг Трейд: Codex session keen-bison running — създава 5 HTML файла с продуктови страници. Скрейпнати 4 категории + всички снимки от стария сайт."
-            },
-            {
-              "time": "11:32",
-              "text": "🔩 Миг Трейд: Codex build complete. Visual validation → Slop C(50). Fixes: solid bg (SLOP-01), varied radius (SLOP-03), industrial personality — uppercase h1, stripe pattern, caution divider (SLOP-05 partial). Re-validated → **Slop B(75)** (SLOP-07 overridden — hover states exist). Status → done. Demo: https://koiopenclaw-max.github.io/demo-sites/demos/%D0%BC%D0%B8%D0%B3-%D1%82%D1%80%D0%B5%D0%B9%D0%B4/"
-            },
-            {
-              "time": "11:30",
-              "text": "🚪 Врати кайлъка: Deploy repo created (koiopenclaw-max/demo65-add-bg), GitHub Pages enabled with CNAME demo65.add.bg. Status → live."
-            },
-            {
-              "time": "11:30",
-              "text": "🏗️ Миг Трейд: Codex building in progress (spawned earlier). Waiting for completion."
-            },
-            {
-              "time": "10:39",
-              "text": "🚪 Врати кайлъка: Codex revision complete — конвертиран към niche template за врати-дограма. Фиксирани placeholder контакти ([phone-redacted], бул. Христо Ботев 88). Badge + CTA text fix. Slop B(80). Status → review. Чака одобрение от Крис."
-            },
-            {
-              "time": "10:28",
-              "text": "🚪 Врати кайлъка revision: Крис иска преработка на темплейт за ниша врати-дограма. Spawned Codex (session mellow-shell). Ще конвертира демото в reusable template с generic placeholders."
-            },
-            {
-              "time": "10:22",
-              "text": "🔧 Codex amber-gulf FAILED (read-only filesystem) — Врати кайлъка niche template conversion. Re-spawned as warm-valley with PTY."
-            },
-            {
-              "time": "10:16",
-              "text": "🚪 Врати кайлъка: Revision — Крис иска преработка в niche template за врати-дограма. Spawned Codex (amber-gulf)."
-            },
-            {
-              "time": "16:22",
-              "text": "🔧 **Dashboard fix (ПОСТОЯНЕН):**"
-            }
-          ]
-        },
-        {
-          "date": "2026-03-30",
-          "entries": [
-            {
-              "time": "20:01",
-              "text": "Auto-extract topic 1 (192643 tokens, id:1-1774900863):** [2026-03-30T19:58:12] User: За това 3 седмици трябва да си подобряваш памета за да не ми казваш че бе почниш…; [2026-03-30T19:58:52] Записано. Извинявам се за загубеното време.; [2026-03-30T19:58:53] Прав си. Compaction-ът ми изяде контекста и вместо да го кажа честно от самото начало, загубих час; [2026-03-30T19:58:53] Записано. Извинявам се за загубеното време.; https://koiopenclaw-max.github.io/demo-sites/templates/dental/clean-medical/; https://koiopenclaw-max.github.io/demo-sites/templates/dental/noir-luxe/; https://koiopenclaw-max.github.io/demo-sites/templates/dental/warm-haven/; const { chromium } = require('play"
-            },
-            {
-              "time": "19:55",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "19:40",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "18:37",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "17:24",
-              "text": "Auto-extract topic 1 (150826 tokens, id:1-1774891443):** [2026-03-30T17:18:23] CSS-ът вече е добре — `display:flex; align-items:center; justify-content:center; color:var(--white; [2026-03-30T17:20:24] Иконите са чисти SVG, консистентни, premium стил. Леко generic за dental но далеч по-професионални; [2026-03-30T17:21:25] Готово. Всички emoji са заменени с custom inline SVG икони — thin-line стил, консистентни, 1.5px s; https://github.com/koiopenclaw-max/dental-killer-template.git; https://github.com/lucide-icons/lucide/blob/main/icons/sparkles.svg; https://koiopenclaw-max.github.io/dental-killer-template/; con; [2026-03-30T17:20:24] exec: # Wait for deploy (push was ~2 min ago)"
-            },
-            {
-              "time": "16:17",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "16:18",
-              "text": "🧹 Heartbeat: Codex trigger stale (PIDs gone, no new commits today) — cleaned. Demo trigger Дентален център Искрови (qa_submitted) — worker вече обработил до brief_final, trigger stale — cleaned."
-            }
-          ]
-        },
-        {
-          "date": "2026-03-29",
-          "entries": [
-            {
-              "time": "09:57",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "10:01",
-              "text": "✅ Codex review: commit `74fc8a7` — fix independent error handling for hosting/joined in My Activities + deploy Firestore indexes. TSC clean. 1 file changed (4+, 2-). Малък bugfix, не нова фаза."
-            },
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "09:57",
-              "text": "🔔 Codex приключи. Koi ревюира."
-            },
-            {
-              "time": "07:14",
-              "text": "Auto-extract topic 1 (155063 tokens, id:1-1774768443):** [2026-03-29T07:06:34] User: Сериозен документ, сега за да видим колко добре работи на тан системата искам този план да г; [2026-03-29T07:08:03] User: Дай да видим какво и как ще работи; [2026-03-29T07:10:16] Отлично — checklist-ът работи. Емпика score: **D** (6/7 detections). Точно това е калибрацията, ко; [2026-03-29T07:11:01] И адвокатската — **D** (6/7). Checklist-ът е калибриран. Двата ни сайта score-ват еднакво ниско, к; [2026-03-29T07:11:53] ---  ## Phase 7/7: /retro — Какво научихме?  **Резултати от Стъпка 1:**  ✅ **Shipped:** AI Slop De; https://github.com/npm/cli/releases/tag/v11.12.1; [2026-03-29T07:09:36] exec: cp /tmp/empika-slop-test.png ~/output/empika-slop-; [2026-03-29T07:10:16] exec: cd [server-path] && npx playwright screenshot --full-page \"fil"
-            },
-            {
-              "time": "06:32",
-              "text": "Генериран .docx копирайтинг пакет за Ава Био (пълно съдържание за сайт, 15KB)"
-            },
-            {
-              "time": "06:55",
-              "text": "Генериран .docx \"gstack Deep Analysis\" (28KB) — план как да приложим patterns в Koi, Demo Sites, ClawAI, мобилни apps. 8 части, приоритизиран action plan P0-P2."
             }
           ]
         }
