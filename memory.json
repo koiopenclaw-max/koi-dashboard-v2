@@ -1,8 +1,476 @@
 {
-  "updated": "2026-04-16T20:55:02.696Z",
+  "updated": "2026-04-16T21:15:02.333Z",
   "totalDays": 30,
-  "totalEntries": 598,
+  "totalEntries": 481,
   "days": [
+    {
+      "date": "2026-04-17",
+      "dayName": "Петък",
+      "entries": [],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly — inspect native iOS/EAS config защо Hermes остава в build 8/9 въпреки JSC overrides"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release validation — следващ clean path / Apple credentials coordination"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Денят започва с непроменен backlog; фокусът остава върху unblock на security rotation и execution blockers."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 0
+    },
+    {
+      "date": "2026-04-16",
+      "dayName": "Четвъртък",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Nightly review:** липсващите daily notes за 2026-04-14, 2026-04-15 и 2026-04-16 бяха възстановени от последния наличен state (2026-04-13), без да се добавя измислен progress.",
+          "type": "default"
+        },
+        {
+          "time": "21:00",
+          "text": "Areas sync:** security escalation е обновен до ДЕН 27 в `knowledge/areas/_index.md`.",
+          "type": "alert"
+        },
+        {
+          "time": "21:00",
+          "text": "Inbox review:** `inbox/capture.md` остава чист; няма нови items за преместване към PARA.",
+          "type": "default"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly — inspect native iOS/EAS config защо Hermes остава в build 8/9 въпреки JSC overrides"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release validation — следващ clean path / Apple credentials coordination"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Между 2026-04-14 и 2026-04-16 няма записан verified execution progress; правилното действие е continuity + explicit gap handling, не фалшива реконструкция.",
+        "Най-старият и най-рисков open blocker остава credential rotation.",
+        "Carry-over backlog остава непроменен: Demo Sites review queue, Momerly iOS release path, ClawAI provisioning, dashboard deploy diagnosis."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+      ],
+      "hasReview": true,
+      "reviewSummary": null,
+      "entryCount": 3
+    },
+    {
+      "date": "2026-04-15",
+      "dayName": "Сряда",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Daily note reconstructed:** няма записан нов progress и няма нови inbox captures; priorities са пренесени 1:1 от 2026-04-14.",
+          "type": "default"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly — inspect native iOS/EAS config защо Hermes остава в build 8/9 въпреки JSC overrides"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release validation — следващ clean path / Apple credentials coordination"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Когато няма execution log, knowledge base не трябва да се пълни с шум — само с verified deltas.",
+        "Operational backlog остава стабилен: security, Momerly release path, Demo Sites review queue, ClawAI provisioning."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 1
+    },
+    {
+      "date": "2026-04-14",
+      "dayName": "Вторник",
+      "entries": [
+        {
+          "time": "21:00",
+          "text": "Daily note reconstructed:** няма записан execution progress за деня; всички open priorities са пренесени без промяна от 2026-04-13.",
+          "type": "default"
+        }
+      ],
+      "priorities": [
+        {
+          "done": false,
+          "text": "Rotate Supabase JWT secret (Dashboard → Settings → API → Regenerate JWT Secret)"
+        },
+        {
+          "done": false,
+          "text": "Restrict Firebase API key (Google Cloud Console → APIs & Services → Credentials)"
+        },
+        {
+          "done": false,
+          "text": "Rotate Telegram Bot Token (@BotFather → /revoke → нов → [secrets-path])"
+        },
+        {
+          "done": false,
+          "text": "🔴 Codex scope blowout fix — surgical patch flow (не цял файл за микро-промени)"
+        },
+        {
+          "done": false,
+          "text": "🔴 Auto-extract скрипт redesign"
+        },
+        {
+          "done": false,
+          "text": "Проверка / fix на failed GitHub Pages deploy за koi-dashboard-v2 (commit a0a56e8)"
+        },
+        {
+          "done": false,
+          "text": "Създай Email Reply skill"
+        },
+        {
+          "done": false,
+          "text": "ClawAI Phase 6: DO provisioning"
+        },
+        {
+          "done": false,
+          "text": "💡 ClawMart: Package 5-6 skills"
+        },
+        {
+          "done": false,
+          "text": "Momerly — inspect native iOS/EAS config защо Hermes остава в build 8/9 въпреки JSC overrides"
+        },
+        {
+          "done": false,
+          "text": "Momerly Phase 7: Polish & Launch Prep"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS release validation — следващ clean path / Apple credentials coordination"
+        },
+        {
+          "done": false,
+          "text": "gstack Test Lab: Продължи pipeline"
+        },
+        {
+          "done": false,
+          "text": "Одиторска кантора Узунова — review approval"
+        },
+        {
+          "done": false,
+          "text": "Училище Козма Тричков Враца — review approval"
+        },
+        {
+          "done": false,
+          "text": "Адвокатска кантора Богданови и Маринов — review"
+        },
+        {
+          "done": false,
+          "text": "Счетоводна къща Емпика — review"
+        },
+        {
+          "done": false,
+          "text": "Миг Трейд — чака HD hero снимка от клиент"
+        },
+        {
+          "done": false,
+          "text": "BG Quality Honey — QA отговори"
+        },
+        {
+          "done": false,
+          "text": "Felix/ClawMart — решение за бизнес модела"
+        },
+        {
+          "done": false,
+          "text": "ClawHub account + token for Koi"
+        },
+        {
+          "done": false,
+          "text": "Momerly iOS тест / EAS build с Apple credentials"
+        },
+        {
+          "done": false,
+          "text": "RunAI Coach — блокер: Mac достъп"
+        }
+      ],
+      "insights": [
+        "Липса на нови записи = липса на нов memory signal; пазим continuity чрез чист carry-over вместо да измисляме progress.",
+        "Security rotation продължава да е най-критичният operational risk."
+      ],
+      "decisions": [
+        "- [ ] Felix/ClawMart — решение за бизнес модела",
+        "- [[knowledge/areas/security-audit-2026-03-20.md]]"
+      ],
+      "hasReview": false,
+      "reviewSummary": null,
+      "entryCount": 1
+    },
     {
       "date": "2026-04-13",
       "dayName": "Понеделник",
@@ -4574,962 +5042,6 @@
         "Тих ден — основната работа беше revision на едно училище. Без нови решения от Крис."
       ],
       "entryCount": 5
-    },
-    {
-      "date": "2026-03-18",
-      "dayName": "Сряда",
-      "entries": [
-        {
-          "time": "15:04",
-          "text": "Codex review: АКТИВИ КОНСУЛТ мобилно меню fix завършен, deployed to demo56.add.bg. Status: live. РУМ-ПЛАМ 2007 also live. All demo sites current.",
-          "type": "deploy"
-        },
-        {
-          "time": "15:00",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "14:25",
-          "text": "НОВО ПРАВИЛО: Когато проект е на домейн (има deployRepo) — работим ДИРЕКТНО в deploy repo-то, не в demo-sites. Deploy repo = production. HEARTBEAT.md + knowledge обновени. Старият sync скрипт е deprecated.",
-          "type": "deploy"
-        },
-        {
-          "time": "14:25",
-          "text": "АКТИВИ КОНСУЛТ - Бургас: deploying → live. Repo demo56-add-bg вече имаше CNAME + mobile fix. Статус обновен в demo-sites → live. URL: https://demo56.add.bg",
-          "type": "deploy"
-        },
-        {
-          "time": "14:18",
-          "text": "АКТИВИ КОНСУЛТ мобилно меню — ROOT CAUSE НАМЕРЕН: `<nav>` имаше z-index:100, overlay z-index:200, nav-links z-index:300. Но nav-links е ДЕТЕ на nav, значи целият stacking context на nav (100) е ПОД overlay-а (200). Fix: nav z-index:100→999. Тестван с Playwright — ✅ линковете се кликват, overlay затваря менюто. Commit: cccfda3.",
-          "type": "done"
-        },
-        {
-          "time": "14:12",
-          "text": "🔴 SECURITY FIX v3 (финален): Cookie-based auth. Login с парола → httpOnly session cookie → 24ч валидност. НУЛА secrets в client source кода. Rate limiting: 30 writes/мин + 10 login опита/15 мин. Path sanitization: само data/. Login modal в UI-то. Парола: [secrets-path]. Тестван: 401 без login, 401 грешна парола, 200+cookie правилна парола, 201 PUT с cookie. Commits: 3a5d220.",
-          "type": "alert"
-        },
-        {
-          "time": "14:05",
-          "text": "🔴 SECURITY FIX v1: Открит проблем — proxy без auth. Първи опит с API key в header — но ключът се виждаше в source-а на GitHub Pages (грешка).",
-          "type": "deploy"
-        },
-        {
-          "time": "14:00",
-          "text": "Записана пълна документация на Demo Sites автоматизацията в topic 6 (Daily Notes). Покрива: 5 компонента (платформа, proxy, processor, worker, failsafe), secrets, troubleshooting guide, мониторинг.",
-          "type": "default"
-        },
-        {
-          "time": "13:56",
-          "text": "Auto-extract topic 49 (158552 tokens, id:49-1773842163):** [2026-03-18T12:52:32] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T12:53:02] User: направих нещо ново явно и автоматизаццията не сработи, след като съм качил ссайт на домейн, ; [2026-03-18T13:51:29] User: Този последния фикс вече 3ти път го връщам и все не работи...може ли да погледнеш какво и за; [2026-03-18T13:53:04] Сега оправям JS-а — проблемът е че `closeMenu()` се вика преди линкът да обработи click-а:; [2026-03-18T13:53:24] Също push-вам към deploy repo-то:; [2026-03-18T13:53:38] Корекциите са push-нати и в demo-sites и в demo56-add-bg.   **Какво промених:** 1. **Overlay** — `; https://github.com/koiopenclaw-max/demo-sites.git; https://github.com/koiopenclaw-max/demo56-add-bg.git",
-          "type": "deploy"
-        },
-        {
-          "time": "13:43",
-          "text": "АКТИВИ КОНСУЛТ ревизия #6: overlay покриваше целия екран → бутоните некликаеми. Fix: overlay покрива само лявата част (извън slide-in панела), премахнати touchend handlers, линкове с smooth scroll. Status → review. Commit: 46efe60",
-          "type": "default"
-        },
-        {
-          "time": "13:42",
-          "text": "АКТИВИ КОНСУЛТ ревизия: мобилно меню fix — z-index йерархия (nav-links z:250 > overlay z:199), touch event handlers с stopPropagation, по-големи tap targets. Status → review. Commit: f63763d",
-          "type": "default"
-        },
-        {
-          "time": "13:35",
-          "text": "АКТИВИ КОНСУЛТ revision round 3: Пълно преработване на мобилното меню — slide-in панел от дясно (280px), hamburger→X анимация, backdrop overlay, body scroll lock, auto-close при tap. Commit: f6d7ba2. Status → review.",
-          "type": "default"
-        },
-        {
-          "time": "13:06",
-          "text": "АКТИВИ КОНСУЛТ ревизия: мобилни проблеми — 1) Хамбургер меню: добавен × бутон за затваряне, линковете затварят менюто, z-index коригиран; 2) За нас секция: responsive grid за мобилно. Status → review. Commit: 7e35466",
-          "type": "default"
-        },
-        {
-          "time": "09:56",
-          "text": "АКТИВИ КОНСУЛТ ревизия: пълна локална SEO оптимизация + OG image fix. Промени: разширени meta keywords (счетоводство/ТРЗ/одит Бургас), geo meta tags, FAQPage Schema, hasOfferCatalog Schema с всички услуги, OG/Twitter image → hero от стария сайт, H1 с ключови думи, footer anchor текстове. Status → review. Commit: 133c070",
-          "type": "default"
-        },
-        {
-          "time": "09:52",
-          "text": "АКТИВИ КОНСУЛТ ревизия: логото в хедъра уголемено с 50% (40px→60px) по заявка от Крис. Status → review. Commit: 87b85b5",
-          "type": "default"
-        },
-        {
-          "time": "09:50",
-          "text": "АКТИВИ КОНСУЛТ ревизия: 1) Заменено текстово лого с реално PNG лого от aktivibs.com, 2) Навигацията вече има фон (не е прозрачна) — текстът е четим. Status → review. Commit: 02eb813",
-          "type": "default"
-        },
-        {
-          "time": "09:40",
-          "text": "АКТИВИ КОНСУЛТ revisions round 1: Hero снимка от клиентския сайт, пълен \"За нас\" текст с лого, подробни \"Защо нас\" карти, детайлни описания на услугите от сайта. Status → review. Commit: 557761d",
-          "type": "default"
-        },
-        {
-          "time": "08:15",
-          "text": "РУМ-ПЛАМ 2007 revision 3: увеличен шрифт на текстовото лого (1.4rem→1.65rem). Push: 51500d9. Status → review.",
-          "type": "deploy"
-        },
-        {
-          "time": "08:10",
-          "text": "— Demo Sites automation fix — - **Проблем:** Worker за revisions пускаше тъп Codex без валидация → маркираше \"done\" без реални промени - **Проблем 2:** dns_setup loop — процесорът re-queue-ваше вече обработени задачи - **Проблем 3:** Git divergence блокираше pull - **Fix 1:** Ръчно коригирах РУМ-ПЛАМ 2007: © 2025→2026, OG image, Open Graph, Twitter Card, SEO meta - **Fix 2:** Преработих `executeRevisions` в demo-worker.js — вместо Codex, делегира на Koi чрез trigger файл - **Fix 3:** Git reset --hard origin/main, после чист push - **Fix 4:** Добавих HEARTBEAT.md секция 4b за revision handling - Worker рестартиран с pm2",
-          "type": "deploy"
-        },
-        {
-          "time": "07:58",
-          "text": "Auto-extract topic 49 (150898 tokens, id:49-1773820714):** [2026-03-18T07:48:48] User: имам проблем с този сайт, можеш ли да го оправиш?; [2026-03-18T07:50:34] User: не от гит хъб няма да дойде ссл ти преди ползваше нещо друго виж в демо 53 от къде идва ссл,; [2026-03-18T07:55:28] User: сега автоматизацията някак сработи, но забелязвам че задачата не се записа в дашборда със за; [2026-03-18T07:56:00] Всъщност вграденият dashboard в `index.html` също ползва `QUEUE_URL_RAW` — нека добавя cache bust:; [2026-03-18T07:56:10] Proxy-то не поддържа `scripts/` path. Нека остана с raw GitHub но с правилен cache bust:; [2026-03-18T07:56:24] Данните СА там — 4 completed задачи. Проблемът е `raw.githubusercontent.com` cache (до 5 мин). Пре; https://api.github.com/user/repos; https://github.com/koiopenclaw-max/demo-sites.git",
-          "type": "default"
-        },
-        {
-          "time": "07:15",
-          "text": "Fix: syncFromGH ползваше raw.githubusercontent.com (cached 5 мин). Сега ползва VPS proxy. Добавен auto-refresh на dashboard на 15 сек.",
-          "type": "default"
-        },
-        {
-          "time": "07:13",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "07:12",
-          "text": "Worker хвана building задача за РУМ-ПЛАМ, но Codex не произведе index.html (timeout 17 сек — прекалено кратко). Билдът обаче беше вече направен от предишна сесия (commit 9cfc6bf, 07:08).",
-          "type": "build"
-        },
-        {
-          "time": "07:11",
-          "text": "РЕШЕНИЕ: Task Queue + Worker (pm2). Worker е постоянен процес, poll-ва на 30 сек, изпълнява задачи независимо от Koi. pm2: demo-worker. Queue: scripts/demo-queue.json. Dashboard: queue.html.",
-          "type": "decision"
-        },
-        {
-          "time": "07:05",
-          "text": "РУМ-ПЛАМ 2007 BUILD DONE: Trust темплейт, счетоводна кантора Пловдив. Реално съдържание от сайта (5 категории услуги), Schema.org AccountingService, click-to-call, работно време Пн-Пт 9:30-17:30. Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%80%D1%83%D0%BC-%D0%BF%D0%BB%D0%B0%D0%BC-2007/ Commit: 9cfc6bf",
-          "type": "build"
-        },
-        {
-          "time": "06:45",
-          "text": "Root cause на автоматизацията: system event тригерва heartbeat в MAIN сесията, но topic:49 сесията не получава нищо. Processor v8: заменен с `openclaw message send` → но нито system event, нито message send, нито bot message тригерват agent turn в активна сесия.",
-          "type": "default"
-        },
-        {
-          "time": "05:20",
-          "text": "Template Selection UI: добавена визуална система за избор на темплейт в QA секцията. 10 счетоводни темплейта (Set A × 5 + Set B × 5) с iframe preview, цветови точки, \"разгледай на цял екран\" линк, radio-style selection. Push: bdbb07e + 894f9dd. Тест: РУМ-ПЛАМ 2007 вече има template_select въпрос.",
-          "type": "deploy"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Demo Sites: Template selection UI за нишови темплейти"
-        },
-        {
-          "done": false,
-          "text": "Demo Sites: Одиторска кантора Узунова — чака review"
-        },
-        {
-          "done": true,
-          "text": "Demo Sites: РУМ-ПЛАМ 2007 — ✅ DONE, демо деплойнато"
-        },
-        {
-          "done": false,
-          "text": "Demo Sites: АКТИВИ КОНСУЛТ — проверка / възстановяване"
-        }
-      ],
-      "insights": [],
-      "decisions": [
-        "РЕШЕНИЕ: Task Queue + Worker (pm2). Worker е постоянен процес, poll-ва на 30 сек, изпълнява задачи независимо от Koi. pm2: demo-worker. Queue: scripts/demo-queue.json. Dashboard: queue.html.",
-        "АКТИВИ КОНСУЛТ ревизия #6: overlay покриваше целия екран → бутоните некликаеми. Fix: overlay покрива само лявата част (извън slide-in панела), премахнати touchend handlers, линкове с smooth scroll. Status → review. Commit: 46efe60"
-      ],
-      "hasReview": true,
-      "reviewSummary": [
-        "Demo Sites: Голям ден. РУМ-ПЛАМ 2007 build + deploy завършен (demo54.add.bg). АКТИВИ КОНСУЛТ: 6+ revision rounds (мобилно меню z-index root cause, hero снимка, лого, SEO оптимизация) → live на demo56.add.bg. Proxy security fix v3 (cookie-based auth, rate limiting, path sanitization). Ново правило: deployed проекти → работи директно в deploy repo.",
-        "Template Selection UI: Визуална система за избор на темплейт в QA секцията — 10 счетоводни темплейта с iframe preview.",
-        "Automation: Task Queue + Worker (pm2) за demo processing. Root cause debugging: system events не trigger-ват сесии директно.",
-        "Security: Proxy auth v3 deployed — cookie-based login, httpOnly, 24ч, rate limiting. НУЛА secrets в source.",
-        "Carry-over: Узунова review, BG Quality Honey QA, Firebase API key restrict, Telegram Bot Token rotation, Set B темплейти.",
-        "Tomorrow's focus: Узунова review, АКТИВИ потвърждение, Set B темплейти."
-      ],
-      "entryCount": 27
-    },
-    {
-      "date": "2026-03-17",
-      "dayName": "Вторник",
-      "entries": [
-        {
-          "time": "19:23",
-          "text": "Нов проект: АКТИВИ КОНСУЛТ (redesign). Скрейпнах aktivibs.com, създадох brief + 7 QA въпроса, push → brief_ready. Commit: 09cace0",
-          "type": "deploy"
-        },
-        {
-          "time": "19:16",
-          "text": "Demo Sites Processor v7: заменен хакът `openclaw agent --session-id` с `openclaw system event --mode now` за надеждно събуждане.",
-          "type": "default"
-        },
-        {
-          "time": "19:15",
-          "text": "Demo Sites: РУМ-ПЛАМ 2007 briefing обработен → brief_ready. Скрейпнат сайт, подготвено задание + 6 QA въпроса. Push-нато в GitHub.",
-          "type": "deploy"
-        },
-        {
-          "time": "17:06",
-          "text": "Узунова revisions round 8: data-lang атрибути с български кавички чупеха HTML — в адреса се виждаше суров код. Fix: escaped с &bdquo;/&ldquo; entities. Също поправени tagline и About секция. Status → review. Commit: e6a6a2c",
-          "type": "default"
-        },
-        {
-          "time": "17:02",
-          "text": "Auto-extract topic 49 (182788 tokens, id:49-1773766955):** [2026-03-17T16:51:20] User: heartbeat няма да помгне,,..вече сме го тествали 100 пъти за това; [2026-03-17T16:59:25] User: DEMO_ACTION: Одиторска кантора Узунова → revisions. Trigger: /tmp/demo-action-trigger-одитор; [2026-03-17T16:59:56] `openclaw agent` **ме събуди!** 🎉 Това е пътят. Нека обновя processor-а да ползва точно това:; [2026-03-17T17:00:12] Сега обработвам текущата корекция. Нека видя какво е:; [2026-03-17T17:00:26] Статусът е `review`, без активна корекция. `openclaw agent` ме събуди с тест, но няма реална задач; # Check if it auto-restarts; ps a; [2026-03-17T17:00:12] exec: cat /tmp/demo-action-trigger-одиторска-кантора-узунова.json 2>/dev/null || echo",
-          "type": "default"
-        },
-        {
-          "time": "16:44",
-          "text": "Автоматизация Demo Sites финализирана. Пълен flow: 1. Крис пуска корекция → платформата записва в GitHub (status=revisions) 2. GitHub Action (notify-koi.yml) — fix `core.quotePath=false` за кирилица → demo bot праща в topic 49 ✅ 3. Cron processor (v6, Node.js) — всяка минута проверява GitHub API (не raw CDN) → demo bot notification + `openclaw system event --mode now` 4. System event → тригерва heartbeat → heartbeat чете trigger файл → Koi обработва корекцията 5. Koi deploy-ва fix + обновява JSON status → review → Крис вижда резултата - Root causes fixed: (a) git quotePath кирилица, (b) raw.githubusercontent CDN cache, (c) state дедупликация slug:status без updatedAt",
-          "type": "deploy"
-        },
-        {
-          "time": "16:24",
-          "text": "Корекция за Узунова: лого +30% (62px навбар, 52px футър), нова ярка Пловдив панорама (слънчев ден, Wikimedia Commons, хостната локално). Deploy OK. Status → review.",
-          "type": "deploy"
-        },
-        {
-          "time": "16:22",
-          "text": "Processor v6 deploy-нат: директна Telegram нотификация в topic 49 (openclaw message send -m). Root cause на липсващи нотификации: raw.githubusercontent.com кешира до 5 мин → processor не виждаше нови промени. Fix: ползва GitHub API (v3.raw) вместо download_url.",
-          "type": "deploy"
-        },
-        {
-          "time": "16:10",
-          "text": "Узунова revisions round 7: лого размазано + Пловдив снимка липсва. Fix: logo.jpg + plovdiv-hero.jpg запазени локално, лого аспект 776×146 без принудително квадратно, image-rendering: crisp-edges. Status → review. Commit: fec058d",
-          "type": "default"
-        },
-        {
-          "time": "16:00",
-          "text": "Корекция за Узунова: hero снимка на Пловдив видима (CSS `background` shorthand override-ваше `background-image`), лого aspect ratio запазен (оригинал 776x146, не квадрат). Deploy OK. Status → review.",
-          "type": "deploy"
-        },
-        {
-          "time": "15:55",
-          "text": "Processor v5 (Node.js) deploy-нат. Root cause: bash processor дедуплицираше по `slug:status` — повторни `revisions` = skip. Fix: state key вече е `slug:status:updatedAt`.",
-          "type": "deploy"
-        },
-        {
-          "time": "15:46",
-          "text": "Auto-extract topic 49 (164684 tokens, id:49-1773762396):** [2026-03-17T15:43:46] Сега обновявам JSON статуса на `review`:; [2026-03-17T15:44:05] Готово! Deploy-нато и статусът е `review`.; [2026-03-17T15:44:24] **Корекциите са готови и deploy-нати** ✅  Какво направих: 1. 🔧 **Навбар**: логото е 60x60px (50% п; https://github.com/koiopenclaw-max/demo-sites.git; https://koiopenclaw-max.github.io/demo-sites/demos/одиторска-кантора-узунова/; [2026-03-17T15:43:46] exec: GH_TOKEN=[redacted]. Tunnel watchdog подобрен.",
-          "type": "default"
-        },
-        {
-          "time": "15:06",
-          "text": "Cloudflare tunnel за demo-sites proxy беше мъртъв. Пуснат нов: `translations-episodes-hobbies-causing.trycloudflare.com`. Обновен index.html и push-нат.",
-          "type": "deploy"
-        },
-        {
-          "time": "15:02",
-          "text": "Auto-extract topic 49 (154893 tokens, id:49-1773759723):** [2026-03-17T14:52:07] User: да искам ето с този темплейт да го реализираш - https://koiopenclaw-max.github.io/accounting; [2026-03-17T14:59:05] User: тряба ли да питам каквос е случва; [2026-03-17T14:59:37] User: може ли в системата на този проект да ми напише статуса с желаната корекция и нейното изпуле; [2026-03-17T14:58:53] **Готово!** Одиторска кантора Узунова е rebuild-ната с Trust темплейта:  🔗 https://koiopenclaw-max; [2026-03-17T14:59:18] Не, готово е! Тъкмо го deploy-нах. Ето линка:  https://koiopenclaw-max.github.io/demo-sites/demos/; [2026-03-17T14:59:54] Статусът е вече **review** с описание на корекцията и резолюцията. Ето линка директно към проекта ; https://koiopenclaw-max.github.io/accounting-templates-claude/; https://koiopenclaw-max.github.io/demo-sites/#одиторска-кантора-узунова",
-          "type": "deploy"
-        },
-        {
-          "time": "14:58",
-          "text": "Rebuild завършен: червено+златно Art Deco, пълно съдържание, BG/EN/IT, Schema.org, Google Maps, click-to-call. Deploy-нато. Статус → review.",
-          "type": "deploy"
-        },
-        {
-          "time": "14:52",
-          "text": "Крис избра Trust темплейт (Set B alt) за Одиторска кантора Узунова",
-          "type": "default"
-        },
-        {
-          "time": "14:45",
-          "text": "Крис: Счетоводните темплейти (claude + alt) са еталон. Записани като одобрени шаблони. - Подход за демо: скрейп съдържание от клиент → прехвърляне на темплейт → персонализация → демо линк - Обновен knowledge/projects/demo-sites.md с пълна темплейт библиотека (9 ниши, 45+ темплейта)",
-          "type": "default"
-        },
-        {
-          "time": "10:15",
-          "text": "Всичко deploy-нато на GitHub Pages.",
-          "type": "deploy"
-        },
-        {
-          "time": "08:45",
-          "text": "Допълнени hotel (site-4, site-5) и farm (site-4, site-5). Set A Premium v2 ЗАВЪРШЕН — 200 HTML файла, 8 ниши.",
-          "type": "done"
-        },
-        {
-          "time": "04:30",
-          "text": "Завършено задълбочено проучване (knowledge/resources/template-design-research.md): - 8 ниши × цветови палитри базирани на психологията на клиента - Специфични шрифтови двойки по индустрия - UI patterns уникални за всяка ниша - Premium vs generic разлики - Awwwards reference за dental (Halo Dental SOTD, Aventura Dental Arts HM)",
-          "type": "done"
-        },
-        {
-          "time": "04:15",
-          "text": "Крис: \"Темплейтите са генерик. Направи домашното.\" Прав е на 100%.",
-          "type": "default"
-        },
-        {
-          "time": "03:23",
-          "text": "Стартирани 8 нови Claude Code агента за Set A MULTI-PAGE: - Всеки сайт = 5 HTML страници (Начало, За нас, Услуги, специфична, Контакти) - Booking форми: Запази час (dental/notary/auto), Заяви оглед (HVAC), Резервация (hotel), Поискай оферта (construction), Направи запитване (farm/food) - Хранителни = микс: 2 месни, 2 млечни, 1 зеленчуци",
-          "type": "default"
-        },
-        {
-          "time": "03:22",
-          "text": "Крис поиска преработка по пълното задание. Изчистих всичко, рестартирах.",
-          "type": "default"
-        },
-        {
-          "time": "03:10",
-          "text": "Set A single-page завърши, но НЕ отговаря на заданието (multi-page, booking форми, микс хранителни)",
-          "type": "done"
-        },
-        {
-          "time": "03:05",
-          "text": "Стартирани 8 Claude Code агента паралелно за Set A (всички ниши × 5 темплейта): - dental-templates-a (oceanic-tidepool) - notary-templates-a (young-lagoon) - hvac-templates-a (delta-meadow) - hotel-templates-a (marine-trail) - food-producer-templates-a (swift-claw) - farm-templates-a (nova-valley) - construction-templates-a (dawn-fjord) - auto-repair-templates-a (marine-orbit) - Всички в /tmp/<niche>-templates-a/, Claude Code --print --bypassPermissions",
-          "type": "default"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Стоматолог (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Нотариус (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Климатици/HVAC (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Хотел (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Хранителни продукти (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Земеделци (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Строители (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Автоморги (2 сета × 5)"
-        },
-        {
-          "done": false,
-          "text": "Restrict Firebase API key в Google Cloud Console"
-        },
-        {
-          "done": false,
-          "text": "Ротирай Telegram Bot Token в @BotFather"
-        },
-        {
-          "done": false,
-          "text": "Одиторска кантора Узунова — чака review от Крис"
-        },
-        {
-          "done": false,
-          "text": "BG Quality Honey — чака QA отговори"
-        },
-        {
-          "done": false,
-          "text": "Phase 6: Admin Dashboard (web panel за user mgmt, verification queue, reports, moderation)"
-        },
-        {
-          "done": false,
-          "text": "iOS тест — чакаме EAS iOS build (interactive Apple credentials)"
-        },
-        {
-          "done": false,
-          "text": "Блокер: Mac достъп за iOS development"
-        },
-        {
-          "done": false,
-          "text": "Крис: 5 казуса от Execution Plan v2.0"
-        },
-        {
-          "done": false,
-          "text": "Voice messages support — Deepgram (nova-3) за STT"
-        },
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — решение за бизнес модел"
-        },
-        {
-          "done": false,
-          "text": "X Audience Challenges — follow-up"
-        },
-        {
-          "done": false,
-          "text": "Usage tracker: премахни dollar pricing"
-        },
-        {
-          "done": false,
-          "text": "Създай Inbox топик (#11)"
-        },
-        {
-          "done": false,
-          "text": "Документ за memory architecture"
-        },
-        {
-          "done": false,
-          "text": "Token optimizer fix-ове"
-        },
-        {
-          "done": false,
-          "text": "PRD шаблон"
-        },
-        {
-          "done": false,
-          "text": "Създай ClawHub акаунт (clawhub.ai)"
-        }
-      ],
-      "insights": [],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис",
-        "- [ ] OpenClaw as a Service — решение за бизнес модел",
-        "Обработена корекция за Узунова: лого 50% по-голямо в навбар, текст \"Узунова\" премахнат, hero секция с Пловдив панорама от Wikimedia Commons. Deploy + status → review."
-      ],
-      "hasReview": false,
-      "reviewSummary": null,
-      "entryCount": 27
-    },
-    {
-      "date": "2026-03-16",
-      "dayName": "Понеделник",
-      "entries": [
-        {
-          "time": "20:48",
-          "text": "🎯 БОЙНА ЗАДАЧА: 80 темплейта за 8 ниши (по 2 сета × 5 сайта) - Ниши: стоматолог, нотариус, климатици, хотел, хранителни продукти, земеделци, строители, автоморги - Изисквания: реални изображения, вътрешни страници, специални фийчъри (запазване час, консултация и др.) - Deadline: утре сутрин - Подход: Claude Code агенти паралелно по ниши",
-          "type": "default"
-        },
-        {
-          "time": "20:43",
-          "text": "✅ Codex review: Same commits as 16:38 review (watchdog re-triggered again). TSC clean. No new work. Cleaned `/tmp/codex-review-needed.json`.",
-          "type": "build"
-        },
-        {
-          "time": "20:42",
-          "text": "Auto-extract topic 49 (160707 tokens, id:49-1773693723):** [2026-03-16T20:38:06] User: Оооо имай орефивд темолейтите на клод са топ и в пъти помдобри от кодекс; [2026-03-16T20:38:25] User: Кодекс явно може да коди но дизайн на клод е топ; [2026-03-16T20:39:16] User: Да запиши го, запиши в дейли ноутс топика какво сме направили, къде е и че ще го използваме ; [2026-03-16T20:38:22] Хаха, добре, значи Claude > Codex за визуален дизайн! 😄   Честно, съгласен съм — Claude Code-овите; [2026-03-16T20:38:49] Записано!   **Codex коди, Claude дизайнва.** Всеки прави това, в което е силен. Добра формула за д; [2026-03-16T20:39:46] Готово ✅ Записано в topic 6 (Daily Notes) + daily файла + knowledge. Всичко е на едно място. 🐟; https://koiopenclaw-max.github.io/codex-demo-sites/**; https://koiopenclaw-max.github.io/codex-demo-sites/site-1-brutalist.html",
-          "type": "build"
-        },
-        {
-          "time": "20:40",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "20:38",
-          "text": "🎯 РЕШЕНИЕ: Claude Code vs Codex за демо сайтове - **Claude Code = дизайн/визия** — значително по-добри темплейти, по-богати, по-стилни - **Codex = кодене/логика** — по-чист код, но визуално по-прост; труден за подкарване на VPS (sandbox issues) - **Извод:** За демо сайтове ще ползваме Claude Code за визуалната част - Codex остава за backend, scripts, refactoring - 15 темплейта създадени (10 Claude + 2 Codex): accounting-templates-claude, accounting-templates-alt, codex-demo-sites repos",
-          "type": "build"
-        },
-        {
-          "time": "20:35",
-          "text": "✅ Codex review: Same 3 commits as 16:38 review (watchdog re-triggered). TSC clean. No new work needed. Cleaned `/tmp/codex-review-needed.json`.",
-          "type": "build"
-        },
-        {
-          "time": "20:34",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "20:29",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "20:18",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "20:15",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "20:10",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "19:56",
-          "text": "✅ Codex review: Alt accounting templates ready. 5 HTML шаблона (Precision, Trust, Modern Edge, Warmth, Corporate) + index page в `[server-path] ~7200 LOC общо. TypeScript N/A (static HTML). Unsplash images.",
-          "type": "build"
-        },
-        {
-          "time": "19:56",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "19:55",
-          "text": "✅ 10 счетоводни темплейта готови (2 сета по 5): - **Set A** (Claude, класически): https://koiopenclaw-max.github.io/accounting-templates-claude/ - **Set B** (Claude, смели): https://koiopenclaw-max.github.io/accounting-templates-alt/ - Repos: `accounting-templates-claude`, `accounting-templates-alt` - Codex не се справи (sandbox/prompt length проблеми) — ще се опитаме пак",
-          "type": "build"
-        },
-        {
-          "time": "19:48",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "19:36",
-          "text": "Крис иска voice messages support. Plan: Deepgram (nova-3) за STT. Записано като задача за утре.",
-          "type": "default"
-        },
-        {
-          "time": "16:48",
-          "text": "📋 Demo Sites: обобщение на днешните подобрения (виж по-долу в 💡 Insights)",
-          "type": "default"
-        },
-        {
-          "time": "16:43",
-          "text": "🔧 Fix: GitHub Actions `notify-koi.yml` спамеше topic 49 — при всеки push пращаше нотификация за ВСИЧКИ проекти с actionable статус, не само за променения. Оправен да гледа само changed files. Watcher скрипт махнат от cron.",
-          "type": "deploy"
-        },
-        {
-          "time": "16:41",
-          "text": "🔧 Fix: Успех Консулт статус `approved` → `deployed` + liveUrl в GitHub data",
-          "type": "deploy"
-        },
-        {
-          "time": "16:38",
-          "text": "✅ Codex review завършен. 6 commits (bug fixes + polish): invite connections from activity detail, verified badge fix, real push notifications, smart scroll in chat, date/time pickers, independent error handling in My Activities + Firestore indexes deployed. TypeScript clean (0 errors). No new phase started — готов за Phase 6 (Admin Dashboard).",
-          "type": "deploy"
-        },
-        {
-          "time": "16:20",
-          "text": "🔧 Processed revisions for **Одиторска кантора Узунова** - Added 3 real office photos from uzunova.net (управител, счетоводен отдел, работна среда) - Added Google rating badge (5.0 stars) in About section - Enriched \"За нас\" with full original text from uzunova.net/bg/За-нас/ - Added new \"Структура на кантората\" section with 4 departments from uzunova.net/bg/Структура/ - All new content translated to BG/EN/IT - Status updated to `review` → waiting for Крис approval",
-          "type": "default"
-        },
-        {
-          "time": "16:19",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "15:38",
-          "text": "📋 Processed QA answers for **Одиторска кантора Узунова** - Client wants: червено + златно цветове, 3 езика (BG/EN/IT), лого от сайта - Enriched brief with all answers → status `brief_final` - Waiting for Крис to confirm → then `building`",
-          "type": "build"
-        },
-        {
-          "time": "14:31",
-          "text": "Demo Sites: \"Одиторска кантора Узунова\" — QA отговори обработени, brief обогатен. Цветова схема: червено + златно (\"годината на огнения кон\"). Тримезичен сайт (БГ+EN+IT). Лого от текущия сайт, снимки от Google визитка. Статус → `brief_final`.",
-          "type": "default"
-        },
-        {
-          "time": "14:17",
-          "text": "Auto-extract topic 49 (156163 tokens, id:49-1773670624):** [2026-03-16T14:02:03] User: пуснах ти нова корекция, ти ми писа че си я получил но автоматизацият ане сработи...; [2026-03-16T14:04:40] User: автоматизациите оправи ли ги?; [2026-03-16T14:11:17] User: а тук има ли автоматизация? работи ли? защо не работи?; [2026-03-16T14:13:07] Webhook-ът работи, проектът е хванат. Сега трябва да го обработя — scrape + brief. Но автоматизаци; [2026-03-16T14:13:58] Имам достатъчно данни. Подготвям brief и QA въпроси:; [2026-03-16T14:14:37] Briefing-ът за **Одиторска кантора Узунова** е готов ✅  Заданието + 6 въпроса са в платформата. Ре; https://api.github.com/repos/koiopenclaw-max/demo-sites/contents/data; [2026-03-16T14:13:18] exec: # Get the full page HTML to extract more info (contact, pages structure)",
-          "type": "done"
-        },
-        {
-          "time": "14:17",
-          "text": "📋 Prepared brief for **Одиторска кантора Узунова** (Пловдив, одиторска/счетоводна кантора) - Scraped all pages: Начало, За нас, Услуги, Одиторски/Счетоводни/Данъчни услуги, Контакти - Key info: 14 специалисти, от 1992 г., международни клиенти (Италия), 4 отдела - Prepared 6 QA questions (лого, цветове, снимки, multilingual, testimonials, extra info) - Status updated to `brief_ready` → waiting for client answers",
-          "type": "default"
-        },
-        {
-          "time": "14:16",
-          "text": "Demo Sites: \"Одиторска кантора Узунова\" — briefing завършен. Скрейпнат uzunova.net (8 страници). Brief + 7 QA въпроса записани в GitHub. Статус → `brief_ready`.",
-          "type": "done"
-        },
-        {
-          "time": "14:06",
-          "text": "Demo Sites: \"Успех Консулт\" revisions #2 — добавен OG image (1200x630) за link sharing preview. Лого + branding на тъмен фон. Деплойнато в двата repo-та (demo-sites + uspeh-konsult). Статус → `review`.",
-          "type": "deploy"
-        },
-        {
-          "time": "14:03",
-          "text": "Demo Sites: \"Успех Консулт\" деплойнат на custom domain **https://demo53.add.bg/** ✅ SSL сертификат approved. Отделно repo `uspeh-konsult` с CNAME. Статус → `deployed`.",
-          "type": "deploy"
-        },
-        {
-          "time": "13:55",
-          "text": "Demo Sites: \"Успех Консулт\" → `dns_setup`. Домейн: demo53.add.bg. CNAME запис нужен: demo53 → koiopenclaw-max.github.io. Крис трябва да добави в DNS.",
-          "type": "default"
-        },
-        {
-          "time": "13:55",
-          "text": "Demo Sites: пълен post-build flow добавен (done→revisions↔review→approved→dns_setup→deploying→live). Notify workflow покрива всички статуси. Успех Консулт → dns_setup с CNAME за demo53.add.bg.",
-          "type": "deploy"
-        },
-        {
-          "time": "13:49",
-          "text": "✅ Checked revision request for Успех Консулт — changes already applied (logo +50%, year 2026). Status already `approved`. No action needed.",
-          "type": "done"
-        },
-        {
-          "time": "13:43",
-          "text": "Demo Sites: \"Успех Консулт\" — revisions оправени (лого header 42→63px, footer 36→54px, copyright 2025→2026). Деплойнато, статус → `review`.",
-          "type": "deploy"
-        },
-        {
-          "time": "13:24",
-          "text": "Demo Sites: VPS proxy (pm2 `demo-proxy`, порт 3847) е публично достъпен. Платформата записва през proxy, нула токени в клиентския код. Deploy workflow изчистен от token injection.",
-          "type": "deploy"
-        },
-        {
-          "time": "12:42",
-          "text": "🔴 ИНЦИДЕНТ: GitHub token изтече в публичен HTML (втори път!). Причина: deploy workflow инжектира token → sed замени placeholder → token видим в source. Фикс: махнат token injection от workflow, махнат всякакъв token от клиентския код. Архитектура: четене = публичен GitHub API, запис = VPS proxy.",
-          "type": "deploy"
-        },
-        {
-          "time": "12:15",
-          "text": "Платформа v3.1: добавен revision cycle (done → revisions → review → approved) + поле за домейн след одобрение. Commit 080e37b.",
-          "type": "done"
-        },
-        {
-          "time": "12:06",
-          "text": "Auto-extract topic 49 (159028 tokens, id:49-1773662795):** [2026-03-16T11:58:31] User: аз виждам че е билднат вече....; [2026-03-16T12:00:21] User: сега искам в системата за всеки проект след завършен билд да създадем следваща стъпка - коре; [2026-03-16T12:02:46] Добре, `renderBottomActions` вече чисти при непознати статуси. А revisions UI е в `renderRevisions; [2026-03-16T12:03:10] Сега push-вам index.html в GitHub (трябва и в repo-то за GitHub Pages):; [2026-03-16T12:04:06] Deploy готов ✅ Тествай:  **https://koiopenclaw-max.github.io/demo-sites/**  Отвори \"Успех Консулт\"; https://koiopenclaw-max.github.io/demo-sites/**; https://koiopenclaw-max.github.io/demo-sites/demos/uspeh-konsult/; GIT_SSH_COMMAND=\"ssh -i ~/.ssh/id_ed25519_demosites -o St",
-          "type": "deploy"
-        },
-        {
-          "time": "11:53",
-          "text": "Demo Sites: \"Успех Консулт\" — сайт изграден и деплойнат → `done`. URL: https://koiopenclaw-max.github.io/demo-sites/demos/%D1%83%D1%81%D0%BF%D0%B5%D1%85-%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%82/",
-          "type": "deploy"
-        },
-        {
-          "time": "11:50",
-          "text": "🏗️ Built & deployed demo site: **Успех Консулт** (accounting firm redesign) - One-page mobile-first design, dark hero, green/purple palette from original site - Sections: Hero + CTA, Services (6 cards), About, FAQ (5 items), Contact + Google Maps - Schema.org LocalBusiness markup, click-to-call, smooth scroll animations - Demo URL: https://koiopenclaw-max.github.io/demo-sites/demos/uspeh-konsult/ - Status updated to `done` on GitHub → platform auto-updates",
-          "type": "deploy"
-        },
-        {
-          "time": "11:49",
-          "text": "Demo Sites: \"Успех Консулт\" — билд стартиран, статус `building`",
-          "type": "build"
-        },
-        {
-          "time": "10:53",
-          "text": "Deploy workflow успешен. Платформата жива на https://koiopenclaw-max.github.io/demo-sites/",
-          "type": "deploy"
-        },
-        {
-          "time": "10:00",
-          "text": "Security refactor (с прекалено лутане): - Пробвах: VPS proxy, Cloudflare Tunnel, port redirect, device flow — губене на време - **Решение:** SSH deploy key → push GitHub Actions workflow → token inject от Secrets при deploy",
-          "type": "deploy"
-        },
-        {
-          "time": "09:48",
-          "text": "Крис: \"автоматизирай целия процес, нищо няма да въвеждам\"",
-          "type": "default"
-        },
-        {
-          "time": "09:41",
-          "text": "Диагноза: GitHub PAT в index.html беше изтекъл (хардкоднат, base64 obfuscation)",
-          "type": "default"
-        },
-        {
-          "time": "09:37",
-          "text": "Крис: грешка при запаметяване на ново демо \"Успех Консулт\"",
-          "type": "default"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Restrict Firebase API key в Google Cloud Console"
-        },
-        {
-          "done": false,
-          "text": "Ротирай Telegram Bot Token в @BotFather"
-        },
-        {
-          "done": false,
-          "text": "Momerly Phase 6: Admin Dashboard (web panel за user mgmt, verification queue, reports, moderation)"
-        },
-        {
-          "done": false,
-          "text": "Momerly iOS тест — чакаме EAS iOS build (interactive Apple credentials)"
-        },
-        {
-          "done": false,
-          "text": "Блокер: Mac достъп за iOS development"
-        },
-        {
-          "done": false,
-          "text": "Крис: 5 казуса от Execution Plan v2.0"
-        },
-        {
-          "done": true,
-          "text": "Оправен token + security refactor — платформата работи от постоянен HTTPS адрес"
-        },
-        {
-          "done": true,
-          "text": "Построен демо сайт: Одиторска кантора Узунова (червено+златно, 3 езика BG/EN/IT, mobile-first SPA)"
-        },
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — решение за бизнес модел"
-        },
-        {
-          "done": false,
-          "text": "X Audience Challenges — follow-up"
-        },
-        {
-          "done": false,
-          "text": "Usage tracker: премахни dollar pricing, покажи само токени"
-        },
-        {
-          "done": false,
-          "text": "Създай Inbox топик (#11) за email огледало"
-        },
-        {
-          "done": false,
-          "text": "Документ за memory architecture"
-        },
-        {
-          "done": false,
-          "text": "Token optimizer fix-ове"
-        },
-        {
-          "done": false,
-          "text": "PRD шаблон"
-        },
-        {
-          "done": false,
-          "text": "Създай ClawHub акаунт (clawhub.ai)"
-        },
-        {
-          "done": false,
-          "text": "BG Quality Honey — чакаме Крис за QA отговори (brief_ready)"
-        },
-        {
-          "done": false,
-          "text": "Megatrans Ruse — чакаме feedback от клиента"
-        }
-      ],
-      "insights": [
-        "**УРОК (записан):** При проблем с GitHub — SSH deploy key е най-бързото решение. Заобикаля всички scope ограничения. Без proxy, без tunnel, без Cloudflare. Запомни: имам пълен достъп до акаунта.",
-        "**УРОК:** Не се лутай по 10 подхода. Избери един и го завърши.",
-        "**УРОК:** GitHub Actions workflows, които сканират ВСИЧКИ файлове вместо само changed files, причиняват спам при чести push-ове. Винаги `git diff HEAD~1 HEAD` за changed-only logic.",
-        "🔴 GitHub token изтече в публичен HTML (2 пъти!) → махнат изцяло от клиентския код",
-        "Архитектура: четене = публичен GitHub API, запис = VPS proxy (pm2, порт 3847)",
-        "Notify workflow оправен: сканира САМО променени файлове",
-        "✅ Cron processor (`demo-sites-processor.sh`) — засича actionable статуси, пише trigger файлове",
-        "✅ GitHub Actions notify — Telegram нотификация при промяна",
-        "⚠️ Heartbeat обработка на trigger файлове — работи, но не винаги надеждно",
-        "❌ Все още няма автоматичен scrape + brief при `briefing` (ръчно)",
-        "❌ Все още няма автоматичен build при `building` (ръчно/Codex spawn)",
-        "✅ **Успех Консулт** — deployed на https://demo53.add.bg/",
-        "🔄 **Одиторска кантора Узунова** — ревизии направени, чака review",
-        "⏳ **BG Quality Honey** — brief_ready, чака QA отговори"
-      ],
-      "decisions": [
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- [ ] OpenClaw as a Service — решение за бизнес модел",
-        "🔧 Fix: Успех Консулт статус `approved` → `deployed` + liveUrl в GitHub data",
-        "Demo Sites: пълен post-build flow добавен (done→revisions↔review→approved→dns_setup→deploying→live). Notify workflow покрива всички статуси. Успех Консулт → dns_setup с CNAME за demo53.add.bg.",
-        "Demo Sites: \"Успех Консулт\" деплойнат на custom domain **https://demo53.add.bg/** ✅ SSL сертификат approved. Отделно repo `uspeh-konsult` с CNAME. Статус → `deployed`.",
-        "Платформа v3.1: добавен revision cycle (done → revisions → review → approved) + поле за домейн след одобрение. Commit 080e37b.",
-        "- **Решение:** SSH deploy key → push GitHub Actions workflow → token inject от Secrets при deploy",
-        "- **УРОК (записан):** При проблем с GitHub — SSH deploy key е най-бързото решение. Заобикаля всички scope ограничения. Без proxy, без tunnel, без Cloudflare. Запомни: имам пълен достъп до акаунта.",
-        "✅ Checked revision request for Успех Консулт — changes already applied (logo +50%, year 2026). Status already `approved`. No action needed.",
-        "🎯 РЕШЕНИЕ: Claude Code vs Codex за демо сайтове"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 45
-    },
-    {
-      "date": "2026-03-15",
-      "dayName": "Неделя",
-      "entries": [
-        {
-          "time": "20:27",
-          "text": "Auto-extract topic 51 (164078 tokens, id:51-1773606423):** [2026-03-15T20:07:26] User: Пита ме да даунлоудвам от линка?; [2026-03-15T20:13:39] User: Създадох активити, но не ми излиза в секция създадени, ни видях как мога да поканя хора към ; [2026-03-15T20:16:52] Готово. Ето какво оправих:  **📋 My Activities** — трябва да работи. Activity-то ти е в Firestore с; [2026-03-15T20:19:12] Пуснат е, следя го. Ще ти пратя линка щом е готов.; [2026-03-15T20:24:37] Готов! 📱 https://expo.dev/artifacts/eas/eVajJPKHe47KDGNkzMJuSw.apk  Всичко вътре: - Phase 5 (Home ; https://github.com/koiopenclaw-max/momerly.git; [2026-03-15T20:19:04] exec: cd [server-path] && while true; do; STATUS=$(EXPO_TOKEN=$(cat /h",
-          "type": "default"
-        },
-        {
-          "time": "19:35",
-          "text": "Phase 5 review: TypeScript чист (app + functions). Cloud Functions build-нати и deploy-нати (5 функции). EAS build пуснат (9b2bd96e).",
-          "type": "deploy"
-        },
-        {
-          "time": "19:08",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "19:08",
-          "text": "Phase 5 Codex завърши (commit 65df1d6). 1755 реда нов код, 7 файла.",
-          "type": "build"
-        },
-        {
-          "time": "19:07",
-          "text": "Git pushed. TSC clean. **Общо: 12,656 реда код, 70+ файла.** Phases 1-5 завършени! - ⏭ Остава: Phase 6 (Admin Dashboard) + Phase 7 (Polish + Launch)",
-          "type": "deploy"
-        },
-        {
-          "time": "18:56",
-          "text": "Phase 5 Codex стартиран (session: `swift-summit`).",
-          "type": "build"
-        },
-        {
-          "time": "18:34",
-          "text": "Phase 4 Sprint 1 + Sprint 2 завършени! Codex не trigger-на completion event. - Sprint 1 (e8e91bc): activities.ts (783 реда), Browse, My Activities, Create, Detail, ActivityCard. 154 i18n стринга. - Sprint 2 (e5383e7): Group Chat (514 реда), Post-Activity Confirm, Late Cancel + Hosting Cooldown. - Общо: 3406 реда нов код, 8 нови файла. TypeScript чист (0 грешки). - Бизнес логика: Firestore transactions за spot locking, overlap detection, late cancel tracking (30-day lookback), host flagging (60% threshold → restrict), 14-day hosting cooldown.",
-          "type": "build"
-        },
-        {
-          "time": "18:33",
-          "text": "Review на Codex output: Sprint 1 + Sprint 2 завършени (3416 реда, 13 файла). TypeScript чист. Codex не trigger-на completion event — открит при manual check от Крис. Update изпратен в topic 51.",
-          "type": "build"
-        },
-        {
-          "time": "18:20",
-          "text": "🔔 Codex приключи. Koi ревюира.",
-          "type": "build"
-        },
-        {
-          "time": "18:20",
-          "text": "✅ **Phase 4 Sprint 2 завършен!** Koi review: - ✅ TSC clean (0 грешки) - ✅ 1191 реда (net), 7 файла. Commit: e5383e7. Pushed to origin/master. - ✅ Group chat screen (514 LOC): real-time Firestore, time-bound auto-lock, min 2 participants, text-only 500 char, URL detection - ✅ Post-activity confirmation: confirmAttendance + checkAndFlagHost (60% rule → host flagging, 3 flags → hostingRestricted) - ✅ Late cancel: lateCancelDates[] array, 30-day sliding window, 14-day hosting cooldown, UI warnings - ✅ autoCompleteExpiredActivities() service function ready for Cloud Function cron - ✅ Activity Detail screen enhanced (+269 lines): confirmation UI, cooldown warnings, group chat navigation - ✅ createActivity now checks hosting cooldown before allowing creation - **Phase 4 COMPLETE.** Следва Phase 5: Home + Discovery + Notifications.",
-          "type": "deploy"
-        },
-        {
-          "time": "18:10",
-          "text": "✅ Git push успешен (PAT работи). Commit e8e91bc pushed to origin/master.",
-          "type": "deploy"
-        },
-        {
-          "time": "18:10",
-          "text": "🚀 Codex Sprint 2 стартиран (session: `lucky-cloud`). Задание: Activity group chat (time-bound, auto-lock), post-activity confirmation (60% rule, host flagging), late cancel tracking (30-day window, 14-day cooldown), auto-complete service.",
-          "type": "build"
-        },
-        {
-          "time": "18:05",
-          "text": "🔔 Codex Phase 4 Sprint 1 завършен. Koi review: - ✅ TSC clean (0 грешки) - ✅ 2525 реда, 10 файла: activities service (500 LOC), Browse/My Activities/Create/Detail екрани, ActivityCard компонент, i18n (154 нови стринга) - ✅ Бизнес логика: max 2 active activities, overlap prevention, late cancel (2h rule), spot locking с Firestore transactions - ✅ Activities tab добавен в навигацията - Commit: `e8e91bc` - **Следва Sprint 2:** Activity group chat, join/leave/remove flow, post-activity confirmation, late cancel tracking (3 strikes → cooldown)",
-          "type": "build"
-        },
-        {
-          "time": "17:55",
-          "text": "Momerly Phase 4 Sprint 1 стартиран. Codex session: `fresh-lobster`.",
-          "type": "build"
-        },
-        {
-          "time": "13:15",
-          "text": "Auto-extract topic 51 (152559 tokens, id:51-1773580503):** [2026-03-15T12:57:50] User: Така за дизайна, избрал съм език англ, менюто на апа е на български….не съм гледал екраните…; [2026-03-15T13:08:54] User: Аз нещо не разбирам. Липсва ми инфо от къде се създават тези активитис? Това ми се губи, мол; [2026-03-15T13:11:26] User: Да това ми е въпроса и от дизайн екраните не разбирам от къде какво как се прави…моля да се ; [2026-03-15T13:12:12] Now add the FAB button on Browse Activities, and the \"+ Create\" entry points:; [2026-03-15T13:12:25] Now let me do a full visual validation — open it locally and check everything:; [2026-03-15T13:12:47] Готово, Крис. Оправих двата проблема:  **🔤 i18n fix:** Tab bar-ът (Начало/Връзки/Чат/Профил) имаше; https://github.com/koiopenclaw-max/momerly-design.git; https://koiopenclaw-max.github.io/momerly-design/",
-          "type": "default"
-        },
-        {
-          "time": "12:45",
-          "text": "Momerly UI Prototype **v4.0 деплойнат**: https://koiopenclaw-max.github.io/momerly-design/ - **30 екрана** (от 14 в v3.0). Добавени 16 нови: - Phase 3: Discovery Feed, Connection Requests, Connections List, Messages List, Chat DM, Block/Report - Phase 4: Create Activity (Type + Details), Activity Detail, Browse Activities, My Activities, Group Chat, Post-Activity Confirm - Phase 5: Home/Pulse, Explore, Notifications - Същата палитра (coral #E8917A), DM Sans + Playfair Display, BG/EN toggle - Commit: eba2a11",
-          "type": "deploy"
-        },
-        {
-          "time": "12:35",
-          "text": "Expo Go за iPhone: Metro Bundler на VPS умира (headless, без display). Крис трябва да пусне от локален компютър или да даде Expo token за EAS build.",
-          "type": "build"
-        },
-        {
-          "time": "09:42",
-          "text": "Execution Plan **v2.0** написан: `knowledge/projects/runai-coach-execution-plan.md` - Преструктуриран спрямо 40-екранен прототип - MVP = 28 екрана (5 седмици), Post-MVP = 12 екрана (3 седмици) - 5 казуса за Крис: AI Chat timing, Garmin LIVE, Safety, Elevation, Timeline - Milestone tracker актуализиран с нови дати - Блокер #1 остава Mac достъп",
-          "type": "default"
-        },
-        {
-          "time": "09:23",
-          "text": "Прототип **v5.0** деплойнат: https://koiopenclaw-max.github.io/runai-prototype/ - **40 екрана** (от 30 в v4.0). Добавени 10 нови: - 🔴 RUN-00: Countdown 3-2-1 с GPS/Watch статус - 🔴 QUICK-01: Quick Run без план — опционални targets - 🔴 Elevation + Cadence добавени в Active Run + Post-Run - 🟡 SET-01: Settings (units, AI coach, notifications, privacy) - 🟡 CHAT-01: AI Coach Chat (USP — пълен conversation UI) - 🟡 PR-01: Personal Records (5K, 10K, 1K, longest, elevation) - 🟡 SHOE-01: Shoe tracking (distance, wear %, rotation) - 🟡 SUM-01: Weekly Summary (zone distribution, AI summary) - 🟡 PLAN-02: Plan Adjust (fatigue, travel, intensity controls) - 🟡 SAFE-01: Safety & Live Share (emergency contacts, crash detection) - Quick actions бутони на Home dashboard (Quick Run, AI Chat, Summary) - Profile менюто обогатено с PRs, Shoes, Settings, Safety линкове - Countdown вкаран преди всяко бягане (Pre-Run → Countdown → Active Run)",
-          "type": "deploy"
-        },
-        {
-          "time": "09:10",
-          "text": "Auto-extract topic 50 (156029 tokens, id:50-1773565835):** [2026-03-15T09:05:15] User: Сега го разгледах липсва ми опция просто да бягам без план. Това в мвп и плана ни няма лимго; [2026-03-15T09:07:15] User: Да това д много важно. Преди да го направиш искам да прегледаш документацията и визуалния пр; [2026-03-15T09:07:27] Now let me fetch actual competitor features I might be missing from the top apps.; [2026-03-15T09:07:32] Now let me review the actual prototype screens one more time to check against all features.; [2026-03-15T09:08:17] Ето пълния gap анализ — сравних нашия прототип (29 екрана) с Strava, Runna, Nike Run Club, WHOOP и; https://github.com/koiopenclaw-max/runai-prototype.git; https://github.com/koiopenclaw-max/workspace-backup.git; https://koiopenclaw-max.github.io/runai-prototype/",
-          "type": "default"
-        },
-        {
-          "time": "06:05",
-          "text": "Прототип v4.0 деплойнат: https://koiopenclaw-max.github.io/runai-prototype/ - 30 екрана (от 25 в v3.0): +Community Feed, Challenges, Referral, Achievements, Share, Free Dashboard - 5-tab навигация с center Record бутон - Free vs Pro ясно маркирани на всеки екран (PRO/FREE тагове) - Заданието обновено в knowledge/projects/ai-running-coach.md",
-          "type": "deploy"
-        },
-        {
-          "time": "05:50",
-          "text": "Доставен пълен доклад: Strava vs Runna vs RunAI — навигация, community, gamification, free vs pro. Решения: - 5-tab навигация: Home, Plan, Record (center), Community, Profile - Community feed с kudos, challenges, groups - Streak/gamification: weekly streaks, badges, celebrations - Free vs Pro матрица дефинирана (Free: 3 тренировки/седм, basic план, 1 AI insight/ден) - Referral: \"Give a week, get a week\"",
-          "type": "default"
-        },
-        {
-          "time": "05:40",
-          "text": "Крис изпрати скрийншотове от Strava и Runna (topic 50, RunAI Coach). Анализ на навигацията, community елементите. 5 бутона в двата апа.",
-          "type": "default"
-        }
-      ],
-      "priorities": [
-        {
-          "done": false,
-          "text": "Добави новия GitHub PAT в `~/.git-credentials` (git push блокиран от 14.03)"
-        },
-        {
-          "done": false,
-          "text": "Restrict Firebase API key в Google Cloud Console"
-        },
-        {
-          "done": false,
-          "text": "Ротирай Telegram Bot Token в @BotFather"
-        },
-        {
-          "done": false,
-          "text": "Momerly Phase 4: UI prototype за Activities екрани (решение: prototype ПЪРВО → одобрение → Codex)"
-        },
-        {
-          "done": false,
-          "text": "Momerly iOS тест — чакаме EAS iOS build (interactive Apple credentials)"
-        },
-        {
-          "done": false,
-          "text": "Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела"
-        },
-        {
-          "done": false,
-          "text": "OpenClaw as a Service — решение за бизнес модел"
-        },
-        {
-          "done": false,
-          "text": "X Audience Challenges — follow-up"
-        },
-        {
-          "done": false,
-          "text": "Usage tracker: премахни dollar pricing, покажи само токени"
-        },
-        {
-          "done": false,
-          "text": "Създай Inbox топик (#11) в Telegram за email огледало"
-        },
-        {
-          "done": false,
-          "text": "Документ за memory architecture (контекст, файлове, reset, QMD)"
-        },
-        {
-          "done": false,
-          "text": "Token optimizer fix-ове (кеширане, pruning, heartbeat)"
-        },
-        {
-          "done": false,
-          "text": "PRD шаблон (когато Крис даде инфо)"
-        },
-        {
-          "done": false,
-          "text": "Създай ClawHub акаунт (clawhub.ai) + token"
-        },
-        {
-          "done": false,
-          "text": "BG Quality Honey — чакаме Крис за QA отговори (brief_ready)"
-        },
-        {
-          "done": false,
-          "text": "Megatrans Ruse — чакаме feedback от клиента"
-        }
-      ],
-      "insights": [],
-      "decisions": [
-        "- [ ] Momerly Phase 4: UI prototype за Activities екрани (решение: prototype ПЪРВО → одобрение → Codex)",
-        "- [ ] Felix Craft / Claw Mart — чакаме решение от Крис за бизнес модела",
-        "- [ ] OpenClaw as a Service — решение за бизнес модел"
-      ],
-      "hasReview": true,
-      "reviewSummary": null,
-      "entryCount": 23
     }
   ]
 }
